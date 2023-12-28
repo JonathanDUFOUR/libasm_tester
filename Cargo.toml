@@ -1,0 +1,6 @@
+[package]
+       name = "libasm_tester"
+    version = "0.1.0"
+    authors = ["Jonathan DUFOUR"]
+    edition = "2021"
+description = "A bunch of tests for the libasm project of the 42 School"
