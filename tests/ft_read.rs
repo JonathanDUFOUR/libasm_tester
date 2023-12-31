@@ -4,6 +4,7 @@ use std::{
 	fs::{remove_file, write, File},
 	io::Write,
 	os::fd::AsRawFd,
+	ptr::null_mut,
 };
 
 extern "C" {
@@ -21,10 +22,9 @@ fn unit_test_helper(path: &str, content: &str, count: usize) {
 		Err(_) => panic!("Failed to open file"),
 	};
 
-	let fd: c_int = file.as_raw_fd();
 	let mut buf: Vec<u8> = vec![0; count];
 	let expected: usize = content.len().min(count);
-	let ret: isize = unsafe { ft_read(fd, buf.as_mut_ptr() as *mut c_void, count) };
+	let ret: isize = unsafe { ft_read(file.as_raw_fd(), buf.as_mut_ptr() as *mut c_void, count) };
 
 	match remove_file(path) {
 		Ok(_) => (),
@@ -76,7 +76,7 @@ fn ft_read_04() {
 // region: ft_read_05
 #[test]
 fn ft_read_05() {
-	assert_eq!(unsafe { ft_read(-1, std::ptr::null_mut(), 0) }, -1);
+	assert_eq!(unsafe { ft_read(-1, null_mut(), 0) }, -1);
 	assert_eq!(errno(), Errno(9));
 }
 // endregion
@@ -84,7 +84,15 @@ fn ft_read_05() {
 // region: ft_read_06
 #[test]
 fn ft_read_06() {
-	const PATH: &str = "ft_read_06.txt";
+	assert_eq!(unsafe { ft_read(-1, null_mut(), 42) }, -1);
+	assert_eq!(errno(), Errno(9));
+}
+// endregion
+
+// region: ft_read_07
+#[test]
+fn ft_read_07() {
+	const PATH: &str = "ft_read_07.txt";
 	let mut file: File = match File::create(PATH) {
 		Ok(file) => file,
 		Err(_) => panic!("Failed to create file"),
@@ -95,7 +103,7 @@ fn ft_read_06() {
 		Err(_) => panic!("Failed to write to file"),
 	};
 
-	let ret: isize = unsafe { ft_read(file.as_raw_fd(), std::ptr::null_mut(), 0) };
+	let ret: isize = unsafe { ft_read(file.as_raw_fd(), null_mut(), 0) };
 
 	match remove_file(PATH) {
 		Ok(_) => (),
@@ -106,23 +114,61 @@ fn ft_read_06() {
 }
 // endregion
 
-// region: ft_read_07
+// region: ft_read_08
 #[test]
-fn ft_read_07() {
+fn ft_read_08() {
+	const PATH: &str = "ft_read_08.txt";
+	let mut file: File = match File::create(PATH) {
+		Ok(file) => file,
+		Err(_) => panic!("Failed to create file"),
+	};
+
+	match file.write_all(b"Mamamia") {
+		Ok(_) => (),
+		Err(_) => panic!("Failed to write to file"),
+	};
+
+	let ret: isize = unsafe { ft_read(file.as_raw_fd(), null_mut(), 5) };
+
+	match remove_file(PATH) {
+		Ok(_) => (),
+		Err(_) => panic!("Failed to remove file"),
+	};
+	assert_eq!(ret, -1);
+	assert_eq!(errno(), Errno(9));
+}
+// endregion
+
+// region: ft_read_09
+#[test]
+fn ft_read_09() {
 	let file: File = match File::open("./") {
 		Ok(file) => file,
 		Err(_) => panic!("Failed to open file"),
 	};
 
-	assert_eq!(unsafe { ft_read(file.as_raw_fd(), std::ptr::null_mut(), 0) }, -1);
+	assert_eq!(unsafe { ft_read(file.as_raw_fd(), null_mut(), 0) }, -1);
 	assert_eq!(errno(), Errno(21));
 }
 // endregion
 
-// region: ft_read_08
+// region: ft_read_10
 #[test]
-fn ft_read_08() {
-	const PATH: &str = "ft_read_08.txt";
+fn ft_read_10() {
+	let file: File = match File::open("./") {
+		Ok(file) => file,
+		Err(_) => panic!("Failed to open file"),
+	};
+
+	assert_eq!(unsafe { ft_read(file.as_raw_fd(), null_mut(), 7) }, -1);
+	assert_eq!(errno(), Errno(21));
+}
+// endregion
+
+// region: ft_read_11
+#[test]
+fn ft_read_11() {
+	const PATH: &str = "ft_read_11.txt";
 
 	match write(PATH, "Omae wa mou shindeiru") {
 		Ok(_) => (),
@@ -133,14 +179,12 @@ fn ft_read_08() {
 		Ok(file) => file,
 		Err(_) => panic!("Failed to open file"),
 	};
-
-	let ret: isize = unsafe { ft_read(file.as_raw_fd(), std::ptr::null_mut(), 1) };
+	let ret: isize = unsafe { ft_read(file.as_raw_fd(), null_mut(), 1) };
 
 	match remove_file(PATH) {
 		Ok(_) => (),
 		Err(_) => panic!("Failed to remove file"),
 	};
-
 	assert_eq!(ret, -1);
 	assert_eq!(errno(), Errno(14));
 }
