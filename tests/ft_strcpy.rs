@@ -13,7 +13,7 @@ fn ft_strcpy_00() {
 	assert_eq!(unsafe { ft_strcpy(dst.as_mut_ptr(), src.as_ptr()) }, dst.as_ptr());
 	assert_eq!(dst, src);
 }
-// endregion: ft_strcpy_00
+// endregion
 
 // region: ft_strcpy_01
 #[test]
@@ -25,7 +25,7 @@ fn ft_strcpy_01() {
 	assert_eq!(dst[..6], src);
 	assert_eq!(dst[6..], [-1; 5]);
 }
-// endregion: ft_strcpy_01
+// endregion
 
 // region: ft_strcpy_02
 #[test]
@@ -39,4 +39,4 @@ fn ft_strcpy_02() {
 	assert_eq!(dst[..8], src[..8]);
 	assert_eq!(dst[8..], [-109; 7]);
 }
-// endregion: ft_strcpy_02
+// endregion
