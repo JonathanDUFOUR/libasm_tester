@@ -239,7 +239,7 @@ fn ft_atoi_base_23() {
 // region: ft_atoi_base_24
 #[test]
 fn ft_atoi_base_24() {
-	// s: contains whitespaces between the leading null digits and the rest of the number
+	// s: contains whitespaces between the leading null digits and the signicant digits
 	unit_test_helper(
 		&[0xbd, 0xbd, 0x0c, 0x20, 0x09, 0x16, 0x22, 0xbd],
 		&[0xbd, 0x02, 0x8c, 0xac, 0x95, 0x8e, 0x22, 0x16],
@@ -251,7 +251,7 @@ fn ft_atoi_base_24() {
 // region: ft_atoi_base_25
 #[test]
 fn ft_atoi_base_25() {
-	// s: contains 0x2b ('+') between the leading null digits and the rest of the number
+	// s: contains 0x2b ('+') between the leading null digits and the signicant digits
 	unit_test_helper(
 		&[0xe3, 0xe3, 0x2b, 0x05, 0xf6, 0x16],
 		&[
@@ -265,11 +265,23 @@ fn ft_atoi_base_25() {
 // region: ft_atoi_base_26
 #[test]
 fn ft_atoi_base_26() {
-	// s: contains 0x2d ('-') between the leading null digits and the rest of the number
+	// s: contains 0x2d ('-') between the leading null digits and the signicant digits
 	unit_test_helper(
-		&[0xc4, 0xc4, 0xc4, 0xc4, 0x2d, 0xc4, 0xc9, 0xf4, 0xa3],
+		&[0xc4, 0xc4, 0xc4, 0xc4, 0x2d, 0xc9, 0xf4, 0xa3],
 		&[0xc4, 0xc3, 0xf4, 0x69, 0x18, 0x96, 0xc9, 0x45, 0xa3, 0x5d],
 		0,
+	);
+}
+// endregion
+
+// region: ft_atoi_base_27
+#[test]
+fn ft_atoi_base_27() {
+	// s: contains only significant digits
+	unit_test_helper(
+		&[0x70, 0x6f, 0x6e, 0x65, 0x79, 0x76, 0x69, 0x66],
+		&[0x65, 0x66, 0x69, 0x6e, 0x6f, 0x70, 0x76, 0x79],
+		11636625,
 	);
 }
 // endregion
