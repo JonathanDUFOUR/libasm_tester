@@ -1,49 +1,51 @@
-use std::ffi::{c_char, CString};
+#[cfg(test)]
+mod tests {
+	use std::ffi::{c_char, CString};
 
-extern "C" {
-	fn ft_strlen(s: *const c_char) -> usize;
-}
+	extern "C" {
+		fn ft_strlen(s: *const c_char) -> usize;
+	}
 
-#[inline(always)]
-fn unit_test_helper(s: &str) {
-	let s: CString = CString::new(s).unwrap();
+	#[inline(always)]
+	fn unit_test_helper(s: &str) {
+		let s: CString = CString::new(s).unwrap();
 
-	assert_eq!(unsafe { ft_strlen(s.as_ptr()) }, s.as_bytes().len());
-}
+		assert_eq!(unsafe { ft_strlen(s.as_ptr()) }, s.as_bytes().len());
+	}
 
-// region: ft_strlen_00
-#[test]
-fn ft_strlen_00() {
-	unit_test_helper("");
-}
-// endregion
+	// region: ft_strlen_00
+	#[test]
+	fn ft_strlen_00() {
+		unit_test_helper("");
+	}
+	// endregion
 
-// region: ft_strlen_01
-#[test]
-fn ft_strlen_01() {
-	unit_test_helper("0");
-}
-// endregion
+	// region: ft_strlen_01
+	#[test]
+	fn ft_strlen_01() {
+		unit_test_helper("0");
+	}
+	// endregion
 
-// region: ft_strlen_02
-#[test]
-fn ft_strlen_02() {
-	unit_test_helper("42");
-}
-// endregion
+	// region: ft_strlen_02
+	#[test]
+	fn ft_strlen_02() {
+		unit_test_helper("42");
+	}
+	// endregion
 
-// region: ft_strlen_03
-#[test]
-fn ft_strlen_03() {
-	unit_test_helper("Hello, World!");
-}
-// endregion
+	// region: ft_strlen_03
+	#[test]
+	fn ft_strlen_03() {
+		unit_test_helper("Hello, World!");
+	}
+	// endregion
 
-// region: ft_strlen_04
-#[test]
-fn ft_strlen_04() {
-	unit_test_helper(
-		"\
+	// region: ft_strlen_04
+	#[test]
+	fn ft_strlen_04() {
+		unit_test_helper(
+			"\
 	Let's dance in style, let's dance for a while\n\
 	Heaven can wait, we're only watching the skies\n\
 	Hoping for the best but expecting the worst\n\
@@ -90,6 +92,7 @@ fn ft_strlen_04() {
 	\n\
 	Forever young, I want to be forever young\n\
 	Do you really want to live forever? (Forever)\n",
-	);
+		);
+	}
+	// endregion
 }
-// endregion
