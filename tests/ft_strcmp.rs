@@ -2,6 +2,7 @@
 mod tests {
 	use std::ffi::{c_char, c_int, CString};
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 	}

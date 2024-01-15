@@ -8,6 +8,7 @@ mod tests {
 		ptr::null,
 	};
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
 	}

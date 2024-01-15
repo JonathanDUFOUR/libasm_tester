@@ -2,6 +2,7 @@
 mod tests {
 	use std::ffi::{c_char, CString};
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_strlen(s: *const c_char) -> usize;
 	}

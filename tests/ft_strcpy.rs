@@ -2,6 +2,7 @@
 mod tests {
 	use std::ffi::c_char;
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *const c_char;
 	}

@@ -5,6 +5,7 @@ mod tests {
 		ptr::null_mut,
 	};
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_strdup(s: *const c_char) -> *mut c_char;
 		fn free(ptr: *mut c_void);

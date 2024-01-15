@@ -1,16 +1,12 @@
 #[cfg(test)]
 mod tests {
+	use libasm_tester::t_list;
 	use std::{
 		ffi::c_void,
 		ptr::{null, null_mut},
 	};
 
-	#[repr(C)]
-	pub struct t_list {
-		pub data: *mut c_void,
-		pub next: *mut t_list,
-	}
-
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_list_push_front(list: *mut *const t_list, data: *const c_void) -> ();
 		fn free(ptr: *mut c_void);

@@ -9,6 +9,7 @@ mod tests {
 		ptr::null_mut,
 	};
 
+	#[link(name = "asm")]
 	extern "C" {
 		fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
 	}
