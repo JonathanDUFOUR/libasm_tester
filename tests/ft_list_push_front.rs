@@ -37,16 +37,21 @@ mod tests {
 		}
 	}
 
+	// region: ft_list_push_front_00
 	#[test]
 	fn ft_list_push_front_00() {
 		unit_test_helper(&[null()]);
 	}
+	// endregion
 
+	// region: ft_list_push_front_01
 	#[test]
 	fn ft_list_push_front_01() {
 		unit_test_helper(&[42 as *const c_void]);
 	}
+	// endregion
 
+	// region: ft_list_push_front_02
 	#[test]
 	fn ft_list_push_front_02() {
 		unit_test_helper(&[
@@ -55,7 +60,9 @@ mod tests {
 			&0x5f45f4cbu32 as *const _ as *const c_void,
 		]);
 	}
+	// endregion
 
+	// region: ft_list_push_front_03
 	#[test]
 	fn ft_list_push_front_03() {
 		unit_test_helper(&[
@@ -70,7 +77,9 @@ mod tests {
 			"err" as *const _ as *const c_void,
 		]);
 	}
+	// endregion
 
+	// region: ft_list_push_front_04
 	#[test]
 	fn ft_list_push_front_04() {
 		unit_test_helper(&[
@@ -89,4 +98,5 @@ mod tests {
 			&String::from("I'll be back!") as *const _ as *const c_void,
 		]);
 	}
+	// endregion
 }

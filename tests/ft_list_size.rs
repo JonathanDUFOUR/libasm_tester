@@ -13,23 +13,21 @@ mod tests {
 
 	#[inline(always)]
 	fn unit_test_helper(data: &[*mut c_void]) {
-		if data.is_empty() {
-			assert_eq!(unsafe { ft_list_size(null_mut()) }, 0);
-		} else {
-			let mut nodes: Vec<t_list> =
-				data.iter().map(|data| t_list { data: *data, next: null_mut() }).collect();
+		assert!(!data.is_empty());
 
-			for i in 0..nodes.len() - 1 {
-				nodes[i].next = &mut nodes[i + 1];
-			}
-			assert_eq!(unsafe { ft_list_size(nodes.as_ptr()) }, nodes.len() as c_int);
+		let mut nodes: Vec<t_list> =
+			data.iter().map(|data| t_list { data: *data, next: null_mut() }).collect();
+
+		for i in 0..nodes.len() - 1 {
+			nodes[i].next = &mut nodes[i + 1];
 		}
+		assert_eq!(unsafe { ft_list_size(nodes.as_ptr()) }, nodes.len() as c_int);
 	}
 
 	// region: ft_list_size_00
 	#[test]
 	fn ft_list_size_00() {
-		unit_test_helper(&[]);
+		assert_eq!(unsafe { ft_list_size(null_mut()) }, 0);
 	}
 	// endregion
 
