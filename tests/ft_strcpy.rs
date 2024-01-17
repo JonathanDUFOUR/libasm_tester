@@ -7,40 +7,47 @@ mod tests {
 		fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *const c_char;
 	}
 
+	#[inline(always)]
+	fn unit_test_helper(dst: &mut [u8], src: &[u8]) {
+		let nul: usize = match src.iter().position(|c: &u8| *c == 0x00) {
+			Some(i) if i < dst.len() => i,
+			Some(_) => panic!("copy would overflow dst"),
+			None => panic!("missing nul terminator in src"),
+		};
+		let initial_last_bytes_of_dst: Vec<u8> = dst[nul + 1..].to_vec();
+
+		assert_eq!(
+			unsafe { ft_strcpy(dst.as_mut_ptr() as *mut c_char, src.as_ptr() as *const c_char) },
+			dst.as_ptr() as *const c_char
+		);
+		assert_eq!(dst[..=nul], src[..=nul]);
+		assert_eq!(dst[nul + 1..], initial_last_bytes_of_dst);
+	}
+
 	// region: ft_strcpy_00
 	#[test]
 	fn ft_strcpy_00() {
-		let src: [c_char; 1] = [0];
-		let mut dst: [c_char; 1] = [0];
-
-		assert_eq!(unsafe { ft_strcpy(dst.as_mut_ptr(), src.as_ptr()) }, dst.as_ptr());
-		assert_eq!(dst, src);
+		unit_test_helper(&mut [0x00], &[0x00]);
 	}
 	// endregion
 
 	// region: ft_strcpy_01
 	#[test]
 	fn ft_strcpy_01() {
-		let src: [c_char; 6] = [1, 33, 69, -93, 57, 0];
-		let mut dst: [c_char; 11] = [-1; 11];
-
-		assert_eq!(unsafe { ft_strcpy(dst.as_mut_ptr(), src.as_ptr()) }, dst.as_ptr());
-		assert_eq!(dst[..6], src);
-		assert_eq!(dst[6..], [-1; 5]);
+		unit_test_helper(&mut [0xff; 11], &[0x01, 0x21, 0x45, 0xa3, 0x39, 0x00])
 	}
 	// endregion
 
 	// region: ft_strcpy_02
 	#[test]
 	fn ft_strcpy_02() {
-		let src: [c_char; 15] = [
-			-46, 64, 9, 57, 65, 29, -100, 0, 46, 63, -15, 51, 94, -128, 0,
-		];
-		let mut dst: [c_char; 15] = [-109; 15];
-
-		assert_eq!(unsafe { ft_strcpy(dst.as_mut_ptr(), src.as_ptr()) }, dst.as_ptr());
-		assert_eq!(dst[..8], src[..8]);
-		assert_eq!(dst[8..], [-109; 7]);
+		unit_test_helper(
+			&mut [0x93; 15],
+			&[
+				0xd2, 0x40, 0x09, 0x39, 0x41, 0x1d, 0x9c, 0x00, 0x2e, 0x3f, 0xf1, 0x33, 0x5e, 0x80,
+				0x00,
+			],
+		);
 	}
 	// endregion
 }

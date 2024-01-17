@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use std::ffi::{c_char, CString};
+	use std::ffi::c_char;
 
 	#[link(name = "asm")]
 	extern "C" {
@@ -8,43 +8,53 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(s: &str) {
-		let s: CString = CString::new(s).unwrap();
+	fn unit_test_helper(s: &[u8]) {
+		let nul: usize = match s.iter().position(|&c| c == 0x00) {
+			Some(i) => i,
+			None => panic!("missing nul terminator in s"),
+		};
 
-		assert_eq!(unsafe { ft_strlen(s.as_ptr()) }, s.as_bytes().len());
+		assert_eq!(unsafe { ft_strlen(s.as_ptr() as *const c_char) }, nul);
 	}
 
 	// region: ft_strlen_00
 	#[test]
 	fn ft_strlen_00() {
-		unit_test_helper("");
+		unit_test_helper(&[0x00]);
 	}
 	// endregion
 
 	// region: ft_strlen_01
 	#[test]
 	fn ft_strlen_01() {
-		unit_test_helper("0");
+		unit_test_helper(&[0x30, 0x00]);
 	}
 	// endregion
 
 	// region: ft_strlen_02
 	#[test]
 	fn ft_strlen_02() {
-		unit_test_helper("42");
+		unit_test_helper(&[0x34, 0x32, 0x00]);
 	}
 	// endregion
 
 	// region: ft_strlen_03
 	#[test]
 	fn ft_strlen_03() {
-		unit_test_helper("Hello, World!");
+		unit_test_helper(&[0xe2, 0x63, 0x01, 0xde, 0xad, 0xbe, 0xef, 0x33, 0x00, 0x2a, 0xbb, 0x00]);
 	}
 	// endregion
 
 	// region: ft_strlen_04
 	#[test]
 	fn ft_strlen_04() {
+		unit_test_helper("Hello, World!\0".as_bytes());
+	}
+	// endregion
+
+	// region: ft_strlen_05
+	#[test]
+	fn ft_strlen_05() {
 		unit_test_helper(
 			"\
 	Let's dance in style, let's dance for a while\n\
@@ -92,7 +102,8 @@ mod tests {
 	Forever, and ever\n\
 	\n\
 	Forever young, I want to be forever young\n\
-	Do you really want to live forever? (Forever)\n",
+	Do you really want to live forever? (Forever)\n\0"
+				.as_bytes(),
 		);
 	}
 	// endregion
