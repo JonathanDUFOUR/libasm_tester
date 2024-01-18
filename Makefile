@@ -7,17 +7,21 @@ CARGO = ${shell which cargo}
 #              FUNCTIONS              #
 #######################################
 MANDATORY_FUNCTIONS = \
-	ft_strlen \
-	ft_strcpy \
-	ft_strcmp \
-	ft_write \
-	ft_read	\
-	ft_strdup
+	${addprefix ft_, \
+		strlen \
+		strcpy \
+		strcmp \
+		write \
+		read \
+		strdup \
+	}
 BONUS_FUNCTIONS = \
-	ft_atoi_base \
-	ft_list_push_front \
-	ft_list_size \
-	ft_list_sort
+	${addprefix ft_, \
+		list_size \
+		list_push_front \
+		list_sort \
+		atoi_base \
+	}
 
 #######################################
 #             DIRECTORIES             #
