@@ -6,7 +6,7 @@ mod tests {
 		ptr::{null, null_mut},
 	};
 
-	#[link(name = "asm")]
+	#[link(name = "asm_bonus")]
 	extern "C" {
 		fn ft_list_push_front(list: *mut *const t_list, data: *const c_void) -> ();
 		fn free(ptr: *mut c_void);

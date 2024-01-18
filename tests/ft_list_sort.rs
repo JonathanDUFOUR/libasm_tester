@@ -7,7 +7,7 @@ mod tests {
 		ptr::null_mut,
 	};
 
-	#[link(name = "asm")]
+	#[link(name = "asm_bonus")]
 	extern "C" {
 		fn ft_list_sort(
 			head: *const *const t_list,

@@ -2,7 +2,7 @@
 mod tests {
 	use std::ffi::{c_char, c_int, CStr};
 
-	#[link(name = "asm")]
+	#[link(name = "asm_bonus")]
 	extern "C" {
 		fn ft_atoi_base(s: *const c_char, base: *const c_char) -> c_int;
 	}

@@ -6,7 +6,7 @@ mod tests {
 		ptr::null_mut,
 	};
 
-	#[link(name = "asm")]
+	#[link(name = "asm_bonus")]
 	extern "C" {
 		fn ft_list_size(list: *const t_list) -> c_int;
 	}
