@@ -1,6 +1,7 @@
 /*
 !.git
 !.gitignore
+!Makefile
 !Cargo.toml
 !build.rs
 !src
