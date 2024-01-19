@@ -9,19 +9,19 @@ mod tests {
 
 	#[inline(always)]
 	fn unit_test_helper(dst: &mut [u8], src: &[u8]) {
-		let nul: usize = match src.iter().position(|c: &u8| *c == 0x00) {
-			Some(i) if i < dst.len() => i,
+		let n: usize = match src.iter().position(|c: &u8| *c == 0x00) {
+			Some(i) if i < dst.len() => i + 1,
 			Some(_) => panic!("copy would overflow dst"),
 			None => panic!("missing nul terminator in src"),
 		};
-		let initial_last_bytes_of_dst: Vec<u8> = dst[nul + 1..].to_vec();
+		let initial_last_bytes_of_dst: Vec<u8> = dst[n..].to_vec();
 
 		assert_eq!(
 			unsafe { ft_strcpy(dst.as_mut_ptr() as *mut c_char, src.as_ptr() as *const c_char) },
 			dst.as_ptr() as *const c_char
 		);
-		assert_eq!(dst[..=nul], src[..=nul]);
-		assert_eq!(dst[nul + 1..], initial_last_bytes_of_dst);
+		assert_eq!(dst[..n], src[..n]);
+		assert_eq!(dst[n..], initial_last_bytes_of_dst);
 	}
 
 	// region: ft_strcpy_00

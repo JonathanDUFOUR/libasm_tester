@@ -18,11 +18,16 @@ MANDATORY_FUNCTIONS = \
 BONUS_FUNCTIONS = \
 	${addprefix ft_, \
 		atoi_base \
-		list_push_front \
-		list_size \
-		list_sort \
+		${addprefix list_, \
+			push_front \
+			size \
+			sort \
+		} \
 	}
-
+OPTIONAL_FUNCTIONS = \
+	${addprefix ft_, \
+		memcpy \
+	}
 #######################################
 #             DIRECTORIES             #
 #######################################
@@ -51,9 +56,12 @@ mandatory: ${ASM_A}
 bonus: ${ASM_BONUS_A}
 	${CARGO} test ${TEST_FLAGS} ${addprefix --test ,${BONUS_FUNCTIONS}} || true
 
+optional: ${ASM_A}
+	${CARGO} test ${TEST_FLAGS} ${addprefix --test, ${OPTIONAL_FUNCTIONS}} || true
+
 all: mandatory bonus
 
-${MANDATORY_FUNCTIONS}: ${ASM_A}
+${MANDATORY_FUNCTIONS} ${OPTIONAL_FUNCTIONS}: ${ASM_A}
 	${CARGO} test ${TEST_FLAGS} --test $@ || true
 
 ${BONUS_FUNCTIONS}: ${ASM_BONUS_A}
