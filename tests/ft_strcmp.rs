@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use std::ffi::{c_char, c_int, CStr};
+	use std::ffi::{c_char, c_int};
 
 	#[link(name = "asm")]
 	extern "C" {
@@ -8,73 +8,210 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(s0: &str, s1: &str, predicate: fn(c_int) -> bool) {
-		let s0: &CStr = CStr::from_bytes_with_nul(s0.as_bytes()).unwrap();
-		let s1: &CStr = CStr::from_bytes_with_nul(s1.as_bytes()).unwrap();
+	fn helper(s0: &str, s1: &str) {
+		use std::{
+			cmp::Ordering::{Equal, Greater, Less},
+			ffi::CString,
+		};
 
-		assert!(predicate(unsafe { ft_strcmp(s0.as_ptr(), s1.as_ptr()) }));
+		let s0: CString = CString::new(s0).unwrap();
+		let s1: CString = CString::new(s1).unwrap();
+		let p0: *const c_char = s0.as_ptr();
+		let p1: *const c_char = s1.as_ptr();
+
+		match s0.cmp(&s1) {
+			Equal => {
+				assert!(unsafe { ft_strcmp(p0, p1) } == 0);
+				assert!(unsafe { ft_strcmp(p1, p0) } == 0);
+			}
+			Less => {
+				assert!(unsafe { ft_strcmp(p0, p1) } < 0);
+				assert!(unsafe { ft_strcmp(p1, p0) } > 0);
+			}
+			Greater => {
+				assert!(unsafe { ft_strcmp(p0, p1) } > 0);
+				assert!(unsafe { ft_strcmp(p1, p0) } < 0);
+			}
+		}
 	}
 
 	// region: ft_strcmp_00
 	#[test]
 	fn ft_strcmp_00() {
-		unit_test_helper("\0", "\0", |n: c_int| n == 0);
+		helper("", "");
 	}
 	// endregion
 
 	// region: ft_strcmp_01
 	#[test]
 	fn ft_strcmp_01() {
-		unit_test_helper("\0", "abcdefg\0", |n: c_int| n < 0);
+		helper("", "A");
 	}
 	// endregion
 
 	// region: ft_strcmp_02
 	#[test]
 	fn ft_strcmp_02() {
-		unit_test_helper("hijklmn\0", "\0", |n: c_int| n > 0);
+		helper("A", "A");
 	}
 	// endregion
 
 	// region: ft_strcmp_03
 	#[test]
 	fn ft_strcmp_03() {
-		unit_test_helper("d\0", "c\0", |n: c_int| n > 0);
+		helper("A", "B");
 	}
 	// endregion
 
 	// region: ft_strcmp_04
 	#[test]
 	fn ft_strcmp_04() {
-		unit_test_helper("42a\0", "42ai\0", |n: c_int| n < 0);
+		helper("A", "AA");
 	}
 	// endregion
 
 	// region: ft_strcmp_05
 	#[test]
 	fn ft_strcmp_05() {
-		unit_test_helper("19/3=6.\0", "19/3=6\0", |n: c_int| n > 0);
+		helper("A", "BA");
 	}
 	// endregion
 
 	// region: ft_strcmp_06
 	#[test]
 	fn ft_strcmp_06() {
-		unit_test_helper("Code_Lyoko\0", "Code-Lyoko!\0", |n: c_int| n > 0);
+		helper("B", "AA");
 	}
 	// endregion
 
 	// region: ft_strcmp_07
 	#[test]
 	fn ft_strcmp_07() {
-		unit_test_helper("Fish&Chip$\0", "Fish&ChipS\0", |n: c_int| n < 0);
+		helper("0123456789ABCDEF", "0123456789abcdef");
 	}
 	// endregion
 
 	// region: ft_strcmp_08
 	#[test]
 	fn ft_strcmp_08() {
-		unit_test_helper("It's a match!\0", "It's a match!\0", |n: c_int| n == 0);
+		helper("It's a Trap!", "It's a tRAP!");
+	}
+	// endregion
+
+	// region: ft_strcmp_09
+	#[test]
+	fn ft_strcmp_09() {
+		helper(
+			"What if the strings to compare are a little longer but still match?",
+			"What if the strings to compare are a little longer but still match?",
+		);
+	}
+	// endregion
+
+	// region: ft_strcmp_10
+	#[test]
+	fn ft_strcmp_10() {
+		helper(
+			"And if they don't, but very very lately, would it still work? Or is it about to fail?!
+			Let's see!",
+			"And if they don't, but very very lately, would it still work? Or is it about to fail?!
+			Let's see.",
+		);
+	}
+	// endregion
+
+	// region: ft_strcmp_11
+	#[test]
+	fn ft_strcmp_11() {
+		helper("At least once, we should check", "when the strings are completely different");
+	}
+	// endregion
+
+	// region: ft_strcmp_12
+	#[test]
+	fn ft_strcmp_12() {
+		helper(
+			"Even if the strings are the same, but the length is different, it should still work",
+			"Even if the strings are the same, but the length is different, it should still work.",
+		);
+	}
+	// endregion
+
+	// region: ft_strcmp_13
+	#[test]
+	fn ft_strcmp_13() {
+		helper(
+			"Finally, let's check if the function is not too slow when comparing two identical
+			strings that are very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			long",
+			"Finally, let's check if the function is not too slow when comparing two identical
+			strings that are very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			very very very very very very very very very very very very very very very very very
+			long",
+		);
 	}
 	// endregion
 }

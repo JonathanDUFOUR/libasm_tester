@@ -12,7 +12,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(data: &[*mut c_void]) {
+	fn helper(data: &[*mut c_void]) {
 		assert!(!data.is_empty());
 
 		let mut nodes: Vec<t_list> =
@@ -34,24 +34,21 @@ mod tests {
 	// region: ft_list_size_01
 	#[test]
 	fn ft_list_size_01() {
-		unit_test_helper(&[null_mut()]);
+		helper(&[null_mut()]);
 	}
 	// endregion
 
 	// region: ft_list_size_02
 	#[test]
 	fn ft_list_size_02() {
-		unit_test_helper(&[
-			&mut 0xa0542bcdu32 as *mut _ as *mut c_void,
-			&mut 0xf5921bd8u32 as *mut _ as *mut c_void,
-		]);
+		helper(&[&mut 0xCDu32 as *mut _ as *mut c_void, &mut 0xBD8u32 as *mut _ as *mut c_void]);
 	}
 	// endregion
 
 	// region: ft_list_size_03
 	#[test]
 	fn ft_list_size_03() {
-		unit_test_helper(&[
+		helper(&[
 			&mut "Hi" as *mut _ as *mut c_void,
 			&mut "there" as *mut _ as *mut c_void,
 			&mut "How" as *mut _ as *mut c_void,
@@ -64,7 +61,7 @@ mod tests {
 	// region: ft_list_size_04
 	#[test]
 	fn ft_list_size_04() {
-		unit_test_helper(&[
+		helper(&[
 			&mut 242u8 as *mut _ as *mut c_void,
 			&mut 17299u16 as *mut _ as *mut c_void,
 			&mut 2371597596u32 as *mut _ as *mut c_void,

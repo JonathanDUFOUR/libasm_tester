@@ -16,10 +16,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(
-		data: &[*mut c_void],
-		cmp: extern "C" fn(*const c_void, *const c_void) -> c_int,
-	) {
+	fn helper(data: &[*mut c_void], cmp: extern "C" fn(*const c_void, *const c_void) -> c_int) {
 		assert!(!data.is_empty());
 
 		let mut nodes: Vec<t_list> =
@@ -55,21 +52,10 @@ mod tests {
 		}
 
 		let mut head: *const t_list = null_mut();
-		let mut count: usize = 0;
 
 		unsafe { ft_list_sort(&head, cmp) };
 
-		if !head.is_null() {
-			let mut next: *const t_list = unsafe { (*head).next };
-
-			count += 1;
-			while !next.is_null() {
-				head = next;
-				next = unsafe { (*head).next };
-				count += 1;
-			}
-		}
-		assert_eq!(count, 0);
+		assert_eq!(head, null_mut());
 	}
 	// endregion
 
@@ -87,7 +73,7 @@ mod tests {
 			}
 		}
 
-		unit_test_helper(&[&mut 37u8 as *mut _ as *mut c_void], cmp);
+		helper(&[&mut 37u8 as *mut _ as *mut c_void], cmp);
 	}
 	// endregion
 
@@ -105,7 +91,7 @@ mod tests {
 			}
 		}
 
-		unit_test_helper(
+		helper(
 			&[
 				&mut 7u16 as *mut _ as *mut c_void,
 				&mut 6u16 as *mut _ as *mut c_void,
@@ -131,7 +117,7 @@ mod tests {
 			unsafe { strcmp(a as *const c_char, b as *const c_char) }
 		}
 
-		unit_test_helper(
+		helper(
 			&[
 				String::from("Hello there!").as_mut_ptr() as *mut c_void,
 				String::from("General Kenobi!").as_mut_ptr() as *mut c_void,

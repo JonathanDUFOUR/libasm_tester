@@ -12,7 +12,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(src: &[u8]) {
+	fn helper(src: &[u8]) {
 		let nul: usize = match src.iter().position(|&c| c == 0x00) {
 			Some(i) => i,
 			None => panic!("missing nul terminator in src"),
@@ -27,30 +27,28 @@ mod tests {
 	// region: ft_strdup_00
 	#[test]
 	fn ft_strdup_00() {
-		unit_test_helper(&[0x00]);
+		helper(&[0x00]);
 	}
 	// endregion
 
 	// region: ft_strdup_01
 	#[test]
 	fn ft_strdup_01() {
-		unit_test_helper(&[0x2a, 0x00]);
+		helper(&[0x2A, 0x00]);
 	}
 	// endregion
 
 	// region: ft_strdup_02
 	#[test]
 	fn ft_strdup_02() {
-		unit_test_helper(&[0xff, 0x21, 0x45, 0xa3, 0x39, 0x00]);
+		helper(&[0xFF, 0x21, 0x45, 0xA3, 0x39, 0x00]);
 	}
 	// endregion
 
 	// region: ft_strdup_03
 	#[test]
 	fn ft_strdup_03() {
-		unit_test_helper(&[
-			0xb0, 0xfd, 0xdd, 0x64, 0x58, 0x99, 0x13, 0xa6, 0x00, 0x49, 0xba, 0x2d, 0x00,
-		]);
+		helper(&[0xB0, 0xFD, 0xDD, 0x64, 0x58, 0x99, 0x13, 0xA6, 0x00, 0x49, 0xBA, 0x2D, 0x00]);
 	}
 	// endregion
 }

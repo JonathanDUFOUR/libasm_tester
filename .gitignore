@@ -6,3 +6,4 @@
 !build.rs
 !src
 !tests
+!benches

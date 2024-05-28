@@ -15,7 +15,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(path: &str, content: &str, count: usize) {
+	fn helper(path: &str, content: &str, count: usize) {
 		match write(path, content.as_bytes()) {
 			Ok(_) => (),
 			Err(_) => panic!("Failed to write to file"),
@@ -41,39 +41,35 @@ mod tests {
 	// region: ft_read_00
 	#[test]
 	fn ft_read_00() {
-		unit_test_helper("ft_read_00.txt", "", 0);
+		helper("ft_read_00.txt", "", 0);
 	}
 	// endregion
 
 	// region: ft_read_01
 	#[test]
 	fn ft_read_01() {
-		unit_test_helper("ft_read_01.txt", "This time, the file won't be empty", 0);
+		helper("ft_read_01.txt", "This time, the file won't be empty", 0);
 	}
 	// endregion
 
 	// region: ft_read_02
 	#[test]
 	fn ft_read_02() {
-		unit_test_helper(
-			"ft_read_02.txt",
-			"42 is the answer to the life, the universe, and everything",
-			42,
-		);
+		helper("ft_read_02.txt", "42 is the answer to the life, the universe, and everything", 42);
 	}
 	// endregion
 
 	// region: ft_read_03
 	#[test]
 	fn ft_read_03() {
-		unit_test_helper("ft_read_03.txt", "Do you know the way?", 125);
+		helper("ft_read_03.txt", "Do you know the way?", 125);
 	}
 	// endregion
 
 	// region: ft_read_04
 	#[test]
 	fn ft_read_04() {
-		unit_test_helper("ft_read_04.txt", "I like trains", 13);
+		helper("ft_read_04.txt", "I like trains", 13);
 	}
 	// endregion
 

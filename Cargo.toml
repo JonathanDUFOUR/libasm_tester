@@ -1,9 +1,29 @@
 [package]
-       name = "libasm_tester"
-    version = "0.1.0"
-    authors = ["Jonathan DUFOUR"]
-    edition = "2021"
+name = "libasm_tester"
+version = "0.1.0"
+authors = ["Jonathan DUFOUR"]
+edition = "2021"
 description = "A bunch of tests for the libasm project of the 42 School"
 
 [dependencies]
 errno = "0.3.8"
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = { version = "0.5.1", features = ["html_reports"] }
+
+[[bench]]
+name = "ft_memcpy"
+harness = false
+
+[[bench]]
+name = "ft_strcmp"
+harness = false
+
+[[bench]]
+name = "ft_strcpy"
+harness = false
+
+[[bench]]
+name = "ft_strlen"
+harness = false

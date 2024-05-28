@@ -13,7 +13,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(data: &[*const c_void]) {
+	fn helper(data: &[*const c_void]) {
 		let mut head: *const t_list = null_mut();
 
 		for i0 in 0..data.len() {
@@ -40,24 +40,24 @@ mod tests {
 	// region: ft_list_push_front_00
 	#[test]
 	fn ft_list_push_front_00() {
-		unit_test_helper(&[null()]);
+		helper(&[null()]);
 	}
 	// endregion
 
 	// region: ft_list_push_front_01
 	#[test]
 	fn ft_list_push_front_01() {
-		unit_test_helper(&[42 as *const c_void]);
+		helper(&[42 as *const c_void]);
 	}
 	// endregion
 
 	// region: ft_list_push_front_02
 	#[test]
 	fn ft_list_push_front_02() {
-		unit_test_helper(&[
-			&0x26c7ba39u32 as *const _ as *const c_void,
-			&0xcb1c4b02u32 as *const _ as *const c_void,
-			&0x5f45f4cbu32 as *const _ as *const c_void,
+		helper(&[
+			&0xBA39u32 as *const _ as *const c_void,
+			&0x4B02u32 as *const _ as *const c_void,
+			&0xCBu32 as *const _ as *const c_void,
 		]);
 	}
 	// endregion
@@ -65,7 +65,7 @@ mod tests {
 	// region: ft_list_push_front_03
 	#[test]
 	fn ft_list_push_front_03() {
-		unit_test_helper(&[
+		helper(&[
 			"foo" as *const _ as *const c_void,
 			"bar" as *const _ as *const c_void,
 			"muf" as *const _ as *const c_void,
@@ -82,7 +82,7 @@ mod tests {
 	// region: ft_list_push_front_04
 	#[test]
 	fn ft_list_push_front_04() {
-		unit_test_helper(&[
+		helper(&[
 			&0x00i8 as *const _ as *const c_void,
 			&0x1111i16 as *const _ as *const c_void,
 			&0x22222222i32 as *const _ as *const c_void,

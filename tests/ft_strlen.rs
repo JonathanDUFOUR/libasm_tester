@@ -4,58 +4,142 @@ mod tests {
 
 	#[link(name = "asm")]
 	extern "C" {
-		fn ft_strlen(s: *const c_char) -> usize;
+		pub fn ft_strlen(s: *const c_char) -> usize;
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(s: &[u8]) {
-		let nul: usize = match s.iter().position(|&c| c == 0x00) {
-			Some(i) => i,
-			None => panic!("missing nul terminator in s"),
-		};
+	fn helper(s: &str) {
+		use std::ffi::CString;
 
-		assert_eq!(unsafe { ft_strlen(s.as_ptr() as *const c_char) }, nul);
+		let len: usize = s.len();
+		let s: CString = CString::new(s).unwrap();
+
+		assert_eq!(unsafe { ft_strlen(s.as_ptr() as *const c_char) }, len);
 	}
 
 	// region: ft_strlen_00
 	#[test]
 	fn ft_strlen_00() {
-		unit_test_helper(&[0x00]);
+		helper("");
 	}
 	// endregion
 
 	// region: ft_strlen_01
 	#[test]
 	fn ft_strlen_01() {
-		unit_test_helper(&[0x30, 0x00]);
+		helper("I");
 	}
 	// endregion
 
 	// region: ft_strlen_02
 	#[test]
 	fn ft_strlen_02() {
-		unit_test_helper(&[0x34, 0x32, 0x00]);
+		helper("do");
 	}
 	// endregion
 
 	// region: ft_strlen_03
 	#[test]
 	fn ft_strlen_03() {
-		unit_test_helper(&[0xe2, 0x63, 0x01, 0xde, 0xad, 0xbe, 0xef, 0x33, 0x00, 0x2a, 0xbb, 0x00]);
+		helper("all");
 	}
 	// endregion
 
 	// region: ft_strlen_04
 	#[test]
 	fn ft_strlen_04() {
-		unit_test_helper("Hello, World!\0".as_bytes());
+		helper("that");
 	}
 	// endregion
 
 	// region: ft_strlen_05
 	#[test]
 	fn ft_strlen_05() {
-		unit_test_helper(
+		helper("stuff");
+	}
+	// endregion
+
+	// region: ft_strlen_06
+	#[test]
+	fn ft_strlen_06() {
+		helper("for me");
+	}
+	// endregion
+
+	// region: ft_strlen_07
+	#[test]
+	fn ft_strlen_07() {
+		helper("because");
+	}
+	// endregion
+
+	// region: ft_strlen_08
+	#[test]
+	fn ft_strlen_08() {
+		helper("doing it");
+	}
+	// endregion
+
+	// region: ft_strlen_09
+	#[test]
+	fn ft_strlen_09() {
+		helper("is a good");
+	}
+	// endregion
+
+	// region: ft_strlen_10
+	#[test]
+	fn ft_strlen_10() {
+		helper("practice, ");
+	}
+	// endregion
+
+	// region: ft_strlen_11
+	#[test]
+	fn ft_strlen_11() {
+		helper("whereas the");
+	}
+	// endregion
+
+	// region: ft_strlen_12
+	#[test]
+	fn ft_strlen_12() {
+		helper("others don't");
+	}
+	// endregion
+
+	// region: ft_strlen_13
+	#[test]
+	fn ft_strlen_13() {
+		helper("implement the");
+	}
+	// endregion
+
+	// region: ft_strlen_14
+	#[test]
+	fn ft_strlen_14() {
+		helper("strict minimum");
+	}
+	// endregion
+
+	// region: ft_strlen_15
+	#[test]
+	fn ft_strlen_15() {
+		helper("of tests at all");
+	}
+	// endregion
+
+	// region: ft_strlen_16
+	#[test]
+	fn ft_strlen_16() {
+		helper("\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01\x01")
+	}
+	// endregion
+
+	// region: ft_strlen_17
+	#[test]
+	fn ft_strlen_17() {
+		helper(
 			"\
 	Let's dance in style, let's dance for a while\n\
 	Heaven can wait, we're only watching the skies\n\
@@ -102,8 +186,7 @@ mod tests {
 	Forever, and ever\n\
 	\n\
 	Forever young, I want to be forever young\n\
-	Do you really want to live forever? (Forever)\n\0"
-				.as_bytes(),
+	Do you really want to live forever? (Forever)\n",
 		);
 	}
 	// endregion

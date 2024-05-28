@@ -14,7 +14,7 @@ mod tests {
 	}
 
 	#[inline(always)]
-	fn unit_test_helper(path: &str, content: &str, count: usize) {
+	fn helper(path: &str, content: &str, count: usize) {
 		let file: File = match File::create(path) {
 			Ok(file) => file,
 			Err(_) => panic!("Failed to create file"),
@@ -38,32 +38,28 @@ mod tests {
 	// region: ft_write_00
 	#[test]
 	fn ft_write_00() {
-		unit_test_helper("ft_write_00.txt", "", 0);
+		helper("ft_write_00.txt", "", 0);
 	}
 	// endregion
 
 	// region: ft_write_01
 	#[test]
 	fn ft_write_01() {
-		unit_test_helper("ft_write_01.txt", "I don't have the force to write ir...", 0);
+		helper("ft_write_01.txt", "I don't have the force to write ir...", 0);
 	}
 	// endregion
 
 	// region: ft_write_02
 	#[test]
 	fn ft_write_02() {
-		unit_test_helper(
-			"ft_write_02.txt",
-			"42 is the answer to the life, the universe, and everything",
-			42,
-		);
+		helper("ft_write_02.txt", "42 is the answer to the life, the universe, and everything", 42);
 	}
 	// endregion
 
 	// region: ft_write_03
 	#[test]
 	fn ft_write_03() {
-		unit_test_helper("ft_write_03.txt", "I like trains", 13);
+		helper("ft_write_03.txt", "I like trains", 13);
 	}
 	// endregion
 

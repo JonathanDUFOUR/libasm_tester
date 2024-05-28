@@ -1,12 +1,12 @@
 ######################################
 #              COMMANDS              #
 ######################################
-CARGO = ${shell which cargo}
+CARGO := ${shell which cargo}
 
 #######################################
 #              FUNCTIONS              #
 #######################################
-MANDATORY_FUNCTIONS = \
+MANDATORY_FUNCTIONS := \
 	${addprefix ft_, \
 		strcmp \
 		strcpy \
@@ -15,7 +15,11 @@ MANDATORY_FUNCTIONS = \
 		read \
 		write \
 	}
-BONUS_FUNCTIONS = \
+OPTIONAL_FUNCTIONS := \
+	${addprefix ft_, \
+		memcpy \
+	}
+BONUS_FUNCTIONS := \
 	${addprefix ft_, \
 		atoi_base \
 		${addprefix list_, \
@@ -24,21 +28,18 @@ BONUS_FUNCTIONS = \
 			sort \
 		} \
 	}
-OPTIONAL_FUNCTIONS = \
-	${addprefix ft_, \
-		memcpy \
-	}
+
 #######################################
 #             DIRECTORIES             #
 #######################################
-ASM_DIR = ..
+ASM_DIR := ..
 
 #######################################
 #              LIBRARIES              #
 #######################################
-        ASM = libasm
-      ASM_A = ${ASM_DIR}/${ASM}.a
-ASM_BONUS_A = ${ASM_DIR}/${ASM}_bonus.a
+        ASM := libasm
+      ASM_A := ${ASM_DIR}/${ASM}.a
+ASM_BONUS_A := ${ASM_DIR}/${ASM}_bonus.a
 
 #######################################
 #                FLAGS                #
@@ -48,34 +49,58 @@ TEST_FLAGS = --no-fail-fast
 #######################################
 #                RULES                #
 #######################################
-.PHONY: mandatory bonus all ${MANDATORY_FUNCTIONS} ${BONUS_FUNCTIONS} clean fclean re fre
-
+.PHONY: mandatory
 mandatory: ${ASM_A}
 	${CARGO} test ${TEST_FLAGS} ${addprefix --test ,${MANDATORY_FUNCTIONS}} || true
+ifeq (${BENCH}, 1)
+	${CARGO} bench ${addprefix --bench ,${MANDATORY_FUNCTIONS}} || true
+endif
 
+.PHONY: optional
+optional: ${ASM_A}
+	${CARGO} test ${TEST_FLAGS} ${addprefix --test , ${OPTIONAL_FUNCTIONS}} || true
+ifeq (${BENCH}, 1)
+	${CARGO} bench ${addprefix --bench ,${OPTIONAL_FUNCTIONS}} || true
+endif
+
+.PHONY: bonus
 bonus: ${ASM_BONUS_A}
 	${CARGO} test ${TEST_FLAGS} ${addprefix --test ,${BONUS_FUNCTIONS}} || true
+ifeq (${BENCH}, 1)
+	${CARGO} bench ${addprefix --bench ,${BONUS_FUNCTIONS}} || true
+endif
 
-optional: ${ASM_A}
-	${CARGO} test ${TEST_FLAGS} ${addprefix --test, ${OPTIONAL_FUNCTIONS}} || true
+.PHONY: all
+all: mandatory optional bonus
 
-all: mandatory bonus
-
+.PHONY: ${MANDATORY_FUNCTIONS} ${OPTIONAL_FUNCTIONS}
 ${MANDATORY_FUNCTIONS} ${OPTIONAL_FUNCTIONS}: ${ASM_A}
 	${CARGO} test ${TEST_FLAGS} --test $@ || true
+ifeq (${BENCH}, 1)
+	${CARGO} bench --bench $@ || true
+endif
 
+.PHONY: ${BONUS_FUNCTIONS}
 ${BONUS_FUNCTIONS}: ${ASM_BONUS_A}
 	${CARGO} test ${TEST_FLAGS} --test $@ || true
+ifeq (${BENCH}, 1)
+	${CARGO} bench --bench $@ || true
+endif
 
+.PHONY: ${ASM_A} ${ASM_BONUS_A}
 ${ASM_A} ${ASM_BONUS_A}:
-	${MAKE} ${@F} -C ${@D}
+	${MAKE} -C ${@D} ${@F}
 
+.PHONY: clean
 clean:
 	${CARGO} clean
 
+.PHONY: fclean
 fclean: clean
 	${MAKE} fclean -C ${ASM_DIR}
 
+.PHONY: re
 re: clean all
 
+.PHONY: fre
 fre: fclean all
