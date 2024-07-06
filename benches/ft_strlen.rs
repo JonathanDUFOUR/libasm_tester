@@ -3,7 +3,6 @@ use {
 		criterion_group, criterion_main, measurement::WallTime, BenchmarkGroup, BenchmarkId,
 		Criterion,
 	},
-	rand::{rngs::ThreadRng, Rng},
 	std::ffi::c_char,
 };
 
@@ -17,46 +16,59 @@ extern "C" {
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
+	use rand::{rngs::ThreadRng, thread_rng, Rng};
+
 	type Fn = unsafe extern "C" fn(*const c_char) -> usize;
 
 	const FN_NB: usize = 2;
 	const NAMES: [&str; FN_NB] = ["ft", "std"];
 	const CALLS: [Fn; FN_NB] = [ft_strlen, strlen];
-	const STEP: usize = 11;
-	const MAX_SIZE: usize = 1_024;
+	const MAX_LENGTH: usize = 1_024;
+	const OFFSET: usize = 0;
+	const BUFFER_SIZE: usize = MAX_LENGTH + OFFSET;
+	const ALIGN: usize = std::mem::align_of::<AlignedCChars>();
+
+	assert!(OFFSET < ALIGN, "OFFSET must be less than ALIGN");
+	assert_ne!(MAX_LENGTH, 0, "MAX_SIZE must be greater than 0");
+
+	#[repr(align(4_096))]
+	struct AlignedCChars([c_char; BUFFER_SIZE]);
+
+	impl AlignedCChars {
+		fn new() -> Self {
+			Self([0; BUFFER_SIZE])
+		}
+	}
 
 	#[inline(always)]
-	fn bench(group: &mut BenchmarkGroup<WallTime>, name: &str, call: Fn, s: &[u8], n: usize) {
-		group.bench_with_input(BenchmarkId::new(name, n), &(), |b, _| {
-			b.iter(|| unsafe {
-				call(s.as_ptr() as *const c_char);
+	fn bench_functions(
+		rng: &mut ThreadRng,
+		group: &mut BenchmarkGroup<WallTime>,
+		s: &mut [c_char],
+		n: usize,
+	) {
+		rng.fill(s[..n].as_mut());
+		for i in 0..FN_NB {
+			group.bench_with_input(BenchmarkId::new(NAMES[i], n), &(), |b, _| {
+				b.iter(|| unsafe {
+					CALLS[i](s.as_ptr());
+				});
 			});
-		});
+		}
 	}
 
+	let mut rng: ThreadRng = thread_rng();
 	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strlen");
-	let mut s: [u8; MAX_SIZE] = [0; MAX_SIZE];
-	let mut rng: ThreadRng = rand::thread_rng();
+	let mut s: AlignedCChars = AlignedCChars::new();
+	let s: &mut [c_char] = &mut s.0[OFFSET..OFFSET + MAX_LENGTH];
 	let mut n: usize = 1;
 
-	while n < MAX_SIZE {
-		for c in &mut s[..n] {
-			*c = rng.gen_range(1..=255);
-		}
-		s[n] = 0;
-		for i in 0..FN_NB {
-			bench(&mut group, NAMES[i], CALLS[i], &s, n);
-		}
+	while n <= MAX_LENGTH {
+		bench_functions(&mut rng, &mut group, s, n);
 		n *= 2;
 	}
-	for n in (0..MAX_SIZE).step_by(STEP) {
-		for c in &mut s[..n] {
-			*c = rng.gen_range(1..=255);
-		}
-		s[n] = 0;
-		for i in 0..FN_NB {
-			bench(&mut group, NAMES[i], CALLS[i], &s, n);
-		}
+	for n in (0..MAX_LENGTH).step_by(11) {
+		bench_functions(&mut rng, &mut group, s, n);
 	}
 
 	group.finish();
