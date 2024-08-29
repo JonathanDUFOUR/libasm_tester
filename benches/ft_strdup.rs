@@ -1,16 +1,16 @@
 use {
 	criterion::{criterion_group, criterion_main, Criterion},
-	std::ffi::c_char,
+	std::ffi::{c_char, c_void},
 };
 
 extern "C" {
-	fn strlen(s: *const c_char) -> usize;
+	fn strdup(s: *const c_char) -> *mut c_char;
+	fn free(ptr: *mut c_void);
 }
 
 #[link(name = "asm")]
 extern "C" {
-	fn ft_strlen_sa(s: *const c_char) -> usize;
-	fn ft_strlen_su(s: *const c_char) -> usize;
+	fn ft_strdup(s: *const c_char) -> *mut c_char;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -34,7 +34,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 		}
 	}
 
-	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strlen");
+	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strdup");
 
 	for input_size in {
 		// region: input_sizes
@@ -53,10 +53,9 @@ fn criterion_benchmark(c: &mut Criterion) {
 		input_sizes
 		// endregion
 	} {
-		type Function = unsafe extern "C" fn(*const c_char) -> usize;
+		type Function = unsafe extern "C" fn(*const c_char) -> *mut c_char;
 
-		const FUNCTIONS: [(Function, &str); 3] =
-			[(strlen, "std"), (ft_strlen_sa, "sa"), (ft_strlen_su, "su")];
+		const FUNCTIONS: [(Function, &str); 2] = [(strdup, "std"), (ft_strdup, "ft")];
 
 		for (function, function_name) in FUNCTIONS {
 			use {
@@ -72,7 +71,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 				s[i] = rng.gen_range(0x01..=0xFF) as c_char;
 			}
 			group.bench_with_input(BenchmarkId::new(function_name, input_size), &(), |b, _| {
-				b.iter(|| unsafe { function(s.as_ptr()) })
+				b.iter(|| unsafe { free(function(s.as_ptr()) as *mut c_void) })
 			});
 		}
 	}

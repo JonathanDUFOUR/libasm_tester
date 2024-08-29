@@ -11,9 +11,14 @@ rand = "0.8.5"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
+libc = "0.2.155"
 
 [[bench]]
-name = "ft_memcpy"
+name = "ft_strdup"
+harness = false
+
+[[bench]]
+name = "ft_strlen"
 harness = false
 
 [[bench]]
@@ -25,5 +30,5 @@ name = "ft_strcpy"
 harness = false
 
 [[bench]]
-name = "ft_strlen"
+name = "ft_memcpy"
 harness = false

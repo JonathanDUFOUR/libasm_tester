@@ -1,41 +1,37 @@
 use {
-	criterion::{
-		criterion_group, criterion_main, measurement::WallTime, BenchmarkGroup, BenchmarkId,
-		Criterion,
-	},
+	criterion::{criterion_group, criterion_main, Criterion},
 	std::ffi::c_char,
 };
-
-#[link(name = "asm")]
-extern "C" {
-	fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-}
 
 extern "C" {
 	fn strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 }
 
+#[link(name = "asm")]
+extern "C" {
+	fn ft_strcpy_dsta_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+	fn ft_strcpy_dstu_srca(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+	fn ft_strcpy_dstu_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+}
+
 fn criterion_benchmark(c: &mut Criterion) {
-	use rand::{rngs::ThreadRng, thread_rng, Rng};
+	use criterion::{measurement::WallTime, BenchmarkGroup};
 
-	type Fn = unsafe extern "C" fn(*mut c_char, *const c_char) -> *mut c_char;
+	const MAX_INPUT_SIZE: usize = 10_000;
+	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
-	const FN_NB: usize = 2;
-	const NAMES: [&str; FN_NB] = ["ft", "std"];
-	const CALLS: [Fn; FN_NB] = [ft_strcpy, strcpy];
-	const MAX_LENGTH: usize = 1_024;
-	const DST_OFFSET: usize = 0;
-	const SRC_OFFSET: usize = 0;
-	const DST_BUFFER_SIZE: usize = MAX_LENGTH + DST_OFFSET;
-	const SRC_BUFFER_SIZE: usize = MAX_LENGTH + SRC_OFFSET;
-	const ALIGN: usize = std::mem::align_of::<AlignedDst>();
+	const DST_OFFSET: usize = 4077;
+	assert!(DST_OFFSET < DST_ALIGN, "DST_OFFSET must be less than DST_ALIGN");
 
-	assert!(DST_OFFSET < ALIGN, "DST_OFFSET must be less than ALIGN");
-	assert!(SRC_OFFSET < ALIGN, "SRC_OFFSET must be less than ALIGN");
-	assert_ne!(MAX_LENGTH, 0, "MAX_SIZE must be greater than 0");
+	const SRC_OFFSET: usize = 4077;
+	assert!(SRC_OFFSET < SRC_ALIGN, "SRC_OFFSET must be less than SRC_ALIGN");
 
-	#[repr(align(4_096))]
-	#[derive(Clone, Copy)]
+	const DST_ALIGN: usize = std::mem::align_of::<AlignedDst>();
+	const SRC_ALIGN: usize = std::mem::align_of::<AlignedSrc>();
+	const DST_BUFFER_SIZE: usize = MAX_INPUT_SIZE + DST_OFFSET + 1;
+	const SRC_BUFFER_SIZE: usize = MAX_INPUT_SIZE + SRC_OFFSET + 1;
+
+	#[repr(align(4096))]
 	struct AlignedDst([c_char; DST_BUFFER_SIZE]);
 
 	impl AlignedDst {
@@ -53,48 +49,55 @@ fn criterion_benchmark(c: &mut Criterion) {
 		}
 	}
 
-	#[inline(always)]
-	fn bench_functions(
-		rng: &mut ThreadRng,
-		group: &mut BenchmarkGroup<WallTime>,
-		dsts: &mut [&mut [c_char]],
-		src: &mut [c_char],
-		src_len: usize,
-	) {
-		rng.fill(src[..src_len].as_mut());
-		for i in 0..FN_NB {
-			group.bench_with_input(BenchmarkId::new(NAMES[i], src_len), &(), |b, _| {
+	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strcpy");
+
+	for input_size in {
+		// region: input_sizes
+		let mut input_sizes: Vec<usize> = Vec::new();
+		let mut input_size: usize = 1;
+
+		while input_size <= MAX_INPUT_SIZE {
+			input_sizes.push(input_size);
+			input_size *= 2;
+		}
+		for input_size in (0..MAX_INPUT_SIZE).step_by(101) {
+			input_sizes.push(input_size)
+		}
+		input_sizes.sort();
+
+		input_sizes
+		// endregion
+	} {
+		type Function = unsafe extern "C" fn(*mut c_char, *const c_char) -> *mut c_char;
+
+		const FUNCTIONS: [(Function, &str); 4] = [
+			(strcpy, "std"),
+			(ft_strcpy_dsta_srcu, "dsta_srcu"),
+			(ft_strcpy_dstu_srca, "dstu_srca"),
+			(ft_strcpy_dstu_srcu, "dstu_srcu"),
+		];
+
+		for (function, function_name) in FUNCTIONS {
+			use {
+				criterion::BenchmarkId,
+				rand::{rngs::ThreadRng, thread_rng, Rng},
+			};
+
+			let mut rng: ThreadRng = thread_rng();
+			let mut dst: AlignedDst = AlignedDst::new();
+			let mut src: AlignedSrc = AlignedSrc::new();
+			let dst: &mut [c_char] = &mut dst.0[DST_OFFSET..];
+			let src: &mut [c_char] = &mut src.0[SRC_OFFSET..];
+
+			for i in 0..input_size {
+				src[i] = rng.gen_range(0x01..=0xFF) as c_char;
+			}
+			group.bench_with_input(BenchmarkId::new(function_name, input_size), &(), |b, _| {
 				b.iter(|| unsafe {
-					CALLS[i](dsts[i].as_mut_ptr(), src.as_ptr());
+					function(dst.as_mut_ptr(), src.as_ptr());
 				});
 			});
 		}
-	}
-
-	let mut rng: ThreadRng = thread_rng();
-	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strcpy");
-	let mut dsts: [AlignedDst; FN_NB] = [AlignedDst::new(); FN_NB];
-	let mut dsts: [&mut [c_char]; FN_NB] = {
-		// region: dsts
-		let mut tmp: [&mut [c_char]; FN_NB] = Default::default();
-
-		for (i, dst) in dsts.iter_mut().enumerate() {
-			tmp[i] = &mut dst.0[DST_OFFSET..DST_OFFSET + MAX_LENGTH];
-		}
-
-		tmp
-		// endregion: dsts
-	};
-	let mut src: AlignedSrc = AlignedSrc::new();
-	let src: &mut [c_char] = &mut src.0[SRC_OFFSET..SRC_OFFSET + MAX_LENGTH];
-	let mut src_len: usize = 1;
-
-	while src_len <= MAX_LENGTH {
-		bench_functions(&mut rng, &mut group, &mut dsts, src, src_len);
-		src_len *= 2;
-	}
-	for src_len in (0..MAX_LENGTH).step_by(11) {
-		bench_functions(&mut rng, &mut group, &mut dsts, src, src_len);
 	}
 	group.finish();
 }
