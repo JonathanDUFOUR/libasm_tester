@@ -44,7 +44,7 @@ ASM_BONUS_A := ${ASM_DIR}/${ASM}_bonus.a
 #######################################
 #                FLAGS                #
 #######################################
-TEST_FLAGS = --no-fail-fast
+TEST_FLAGS := --no-fail-fast
 
 #######################################
 #                RULES                #
