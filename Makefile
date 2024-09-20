@@ -51,21 +51,21 @@ TEST_FLAGS := --no-fail-fast
 #######################################
 .PHONY: mandatory
 mandatory: ${ASM_A}
-	${CARGO} test ${TEST_FLAGS} ${addprefix --test ,${MANDATORY_FUNCTIONS}} || true
+	${CARGO} test ${addprefix --test ,${MANDATORY_FUNCTIONS}} ${TEST_FLAGS} || true
 ifeq (${BENCH}, 1)
 	${CARGO} bench ${addprefix --bench ,${MANDATORY_FUNCTIONS}} || true
 endif
 
 .PHONY: optional
 optional: ${ASM_A}
-	${CARGO} test ${TEST_FLAGS} ${addprefix --test , ${OPTIONAL_FUNCTIONS}} || true
+	${CARGO} test ${addprefix --test , ${OPTIONAL_FUNCTIONS}} ${TEST_FLAGS} || true
 ifeq (${BENCH}, 1)
 	${CARGO} bench ${addprefix --bench ,${OPTIONAL_FUNCTIONS}} || true
 endif
 
 .PHONY: bonus
 bonus: ${ASM_BONUS_A}
-	${CARGO} test ${TEST_FLAGS} ${addprefix --test ,${BONUS_FUNCTIONS}} || true
+	${CARGO} test ${addprefix --test ,${BONUS_FUNCTIONS}} ${TEST_FLAGS} || true
 ifeq (${BENCH}, 1)
 	${CARGO} bench ${addprefix --bench ,${BONUS_FUNCTIONS}} || true
 endif
@@ -75,14 +75,14 @@ all: mandatory optional bonus
 
 .PHONY: ${MANDATORY_FUNCTIONS} ${OPTIONAL_FUNCTIONS}
 ${MANDATORY_FUNCTIONS} ${OPTIONAL_FUNCTIONS}: ${ASM_A}
-	${CARGO} test ${TEST_FLAGS} --test $@ || true
+	${CARGO} test --test $@ ${TEST_FLAGS} || true
 ifeq (${BENCH}, 1)
 	${CARGO} bench --bench $@ || true
 endif
 
 .PHONY: ${BONUS_FUNCTIONS}
 ${BONUS_FUNCTIONS}: ${ASM_BONUS_A}
-	${CARGO} test ${TEST_FLAGS} --test $@ || true
+	${CARGO} test --test $@ ${TEST_FLAGS} || true
 ifeq (${BENCH}, 1)
 	${CARGO} bench --bench $@ || true
 endif
