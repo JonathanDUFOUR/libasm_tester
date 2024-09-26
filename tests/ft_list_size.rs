@@ -1,6 +1,6 @@
 #[cfg(test)]
-mod tests {
-	use libasm_tester::t_list;
+mod ft_list_size {
+	use libasm_tester::t_node;
 	use std::{
 		ffi::{c_int, c_void},
 		ptr::null_mut,
@@ -8,15 +8,15 @@ mod tests {
 
 	#[link(name = "asm_bonus")]
 	extern "C" {
-		fn ft_list_size(list: *const t_list) -> c_int;
+		fn ft_list_size(list: *const t_node) -> c_int;
 	}
 
 	#[inline(always)]
 	fn helper(data: &[*mut c_void]) {
 		assert!(!data.is_empty());
 
-		let mut nodes: Vec<t_list> =
-			data.iter().map(|data| t_list { data: *data, next: null_mut() }).collect();
+		let mut nodes: Vec<t_node> =
+			data.iter().map(|data| t_node { data: *data, next: null_mut() }).collect();
 
 		for i in 0..nodes.len() - 1 {
 			nodes[i].next = &mut nodes[i + 1];
@@ -30,21 +30,21 @@ mod tests {
 		assert_eq!(unsafe { ft_list_size(null_mut()) }, 0);
 	}
 	// endregion
-
 	// region: ft_list_size_01
 	#[test]
 	fn ft_list_size_01() {
 		helper(&[null_mut()]);
 	}
 	// endregion
-
 	// region: ft_list_size_02
 	#[test]
 	fn ft_list_size_02() {
-		helper(&[&mut 0xCDu32 as *mut _ as *mut c_void, &mut 0xBD8u32 as *mut _ as *mut c_void]);
+		helper(&[
+			&mut 0xCDu32 as *mut _ as *mut c_void,
+			&mut 0xBD8u32 as *mut _ as *mut c_void,
+		]);
 	}
 	// endregion
-
 	// region: ft_list_size_03
 	#[test]
 	fn ft_list_size_03() {
@@ -57,7 +57,6 @@ mod tests {
 		]);
 	}
 	// endregion
-
 	// region: ft_list_size_04
 	#[test]
 	fn ft_list_size_04() {
