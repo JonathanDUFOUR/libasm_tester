@@ -5,7 +5,7 @@ extern "C" {
 	fn ft_atoi_base(s: *const c_char, b: *const c_char) -> c_int;
 }
 
-const BUFFER_SIZE: usize = 1_057;
+const BUFFER_SIZE: usize = 279;
 
 #[repr(align(32))]
 struct AlignedBytes([u8; BUFFER_SIZE]);
@@ -31,7 +31,7 @@ impl std::convert::From<&[u8]> for AlignedBytes {
 pub fn helper(s: &[u8], b: &[u8], expected: c_int) {
 	type Function = unsafe extern "C" fn(*const c_char, *const c_char) -> c_int;
 
-	const FUNCTIONS: [Function; 1] = [ft_atoi_base];
+	const FUNCTIONS: &[Function] = &[ft_atoi_base];
 	const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 	assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");
@@ -53,7 +53,7 @@ pub fn helper(s: &[u8], b: &[u8], expected: c_int) {
 		#[inline(always)]
 		fn test_with_given_offsets(
 			// region: parameters
-			function: Function,
+			function: &Function,
 			s: &[u8],
 			b: &[u8],
 			s_len: usize,

@@ -38,7 +38,7 @@ mod ft_strdup {
 	fn helper(s: &[u8]) {
 		type Function = unsafe extern "C" fn(*const c_char) -> *mut c_char;
 
-		const FUNCTIONS: [Function; 1] = [ft_strdup];
+		const FUNCTIONS: &[Function] = &[ft_strdup];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");
@@ -52,7 +52,7 @@ mod ft_strdup {
 		for function in FUNCTIONS {
 			fn test_with_given_offset(
 				// region: parameters
-				function: Function,
+				function: &Function,
 				s: &[u8],
 				// endregion
 			) {
@@ -133,25 +133,33 @@ mod ft_strdup {
 	// region: duplicate_0002_bytes
 	#[test]
 	fn duplicate_0002_bytes() {
-		helper(&[0xD3, 0xD2]);
+		helper(&[
+			0xD3, 0xD2,
+		]);
 	}
 	// endregion
 	// region: duplicate_0004_bytes
 	#[test]
 	fn duplicate_0004_bytes() {
-		helper(&[0x9D, 0xB1, 0x77, 0x6B]);
+		helper(&[
+			0x9D, 0xB1, 0x77, 0x6B,
+		]);
 	}
 	// endregion
 	// region: duplicate_0008_bytes
 	#[test]
 	fn duplicate_0008_bytes() {
-		helper(&[0x71, 0x4C, 0xD8, 0x88, 0xA2, 0x3A, 0xC4, 0xF1]);
+		helper(&[
+			0x71, 0x4C, 0xD8, 0x88, 0xA2, 0x3A, 0xC4, 0xF1,
+		]);
 	}
 	// endregion
 	// region: duplicate_0011_bytes
 	#[test]
 	fn duplicate_0011_bytes() {
-		helper(&[0x91, 0x5B, 0xFC, 0xD9, 0x7B, 0xED, 0x40, 0x35, 0xA3, 0x10, 0xF1]);
+		helper(&[
+			0x91, 0x5B, 0xFC, 0xD9, 0x7B, 0xED, 0x40, 0x35, 0xA3, 0x10, 0xF1,
+		]);
 	}
 	// endregion
 	// region: duplicate_0016_bytes

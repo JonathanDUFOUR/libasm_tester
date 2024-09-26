@@ -6,7 +6,7 @@ mod ft_strlen {
 	extern "C" {
 		fn ft_strlen_sa(s: *const c_char) -> usize;
 		fn ft_strlen_su(s: *const c_char) -> usize;
-		// fn ft_strlen(s: *const c_char) -> usize;
+		fn ft_strlen(s: *const c_char) -> usize;
 	}
 
 	const BUFFER_SIZE: usize = 1_056;
@@ -36,7 +36,11 @@ mod ft_strlen {
 	fn helper(s: &[u8]) {
 		type Function = unsafe extern "C" fn(*const c_char) -> usize;
 
-		const FUNCTIONS: [Function; 2] = [ft_strlen_sa, ft_strlen_su];
+		const FUNCTIONS: &[Function] = &[
+			ft_strlen_sa,
+			ft_strlen_su,
+			ft_strlen,
+		];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");
@@ -50,7 +54,7 @@ mod ft_strlen {
 		for function in FUNCTIONS {
 			fn test_with_given_offset(
 				// region: parameters
-				function: Function,
+				function: &Function,
 				s: &[u8],
 				len: usize,
 				// endregion
@@ -106,25 +110,33 @@ mod ft_strlen {
 	// region: count_0002_bytes
 	#[test]
 	fn count_0002_bytes() {
-		helper(&[0x80, 0x1D]);
+		helper(&[
+			0x80, 0x1D,
+		]);
 	}
 	// endregion
 	// region: count_0004_bytes
 	#[test]
 	fn count_0004_bytes() {
-		helper(&[0xA3, 0x81, 0x39, 0x23]);
+		helper(&[
+			0xA3, 0x81, 0x39, 0x23,
+		]);
 	}
 	// endregion
 	// region: count_0008_bytes
 	#[test]
 	fn count_0008_bytes() {
-		helper(&[0x65, 0x53, 0xF2, 0xD4, 0xBA, 0xE0, 0xDA, 0x6F]);
+		helper(&[
+			0x65, 0x53, 0xF2, 0xD4, 0xBA, 0xE0, 0xDA, 0x6F,
+		]);
 	}
 	// endregion
 	// region: count_0011_bytes
 	#[test]
 	fn count_0011_bytes() {
-		helper(&[0x96, 0x95, 0xDA, 0x33, 0x9F, 0xCD, 0xD9, 0x4F, 0x02, 0xC8, 0x09]);
+		helper(&[
+			0x96, 0x95, 0xDA, 0x33, 0x9F, 0xCD, 0xD9, 0x4F, 0x02, 0xC8, 0x09,
+		]);
 	}
 	// endregion
 	// region: count_0016_bytes

@@ -7,7 +7,7 @@ mod ft_strcpy {
 		fn ft_strcpy_dsta_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 		fn ft_strcpy_dstu_srca(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 		fn ft_strcpy_dstu_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-		// fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+		fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 	}
 
 	const BUFFER_SIZE: usize = 1_056;
@@ -37,8 +37,12 @@ mod ft_strcpy {
 	fn helper(src: &[u8]) {
 		type Function = unsafe extern "C" fn(*mut c_char, *const c_char) -> *mut c_char;
 
-		const FUNCTIONS: [Function; 3] =
-			[ft_strcpy_dsta_srcu, ft_strcpy_dstu_srca, ft_strcpy_dstu_srcu];
+		const FUNCTIONS: &[Function] = &[
+			ft_strcpy_dsta_srcu,
+			ft_strcpy_dstu_srca,
+			ft_strcpy_dstu_srcu,
+			ft_strcpy,
+		];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");
@@ -55,7 +59,7 @@ mod ft_strcpy {
 			#[inline(always)]
 			fn test_with_given_offsets(
 				// region: parameters
-				function: Function,
+				function: &Function,
 				dst: &mut [u8],
 				src: &[u8],
 				src_len: usize,
@@ -173,25 +177,33 @@ mod ft_strcpy {
 	// region: copy_0002_bytes
 	#[test]
 	fn copy_0002_bytes() {
-		helper(&[0xF0, 0xDB]);
+		helper(&[
+			0xF0, 0xDB,
+		]);
 	}
 	// endregion
 	// region: copy_0004_bytes
 	#[test]
 	fn copy_0004_bytes() {
-		helper(&[0x33, 0x81, 0x0A, 0xA9]);
+		helper(&[
+			0x33, 0x81, 0x0A, 0xA9,
+		]);
 	}
 	// endregion
 	// region: copy_0008_bytes
 	#[test]
 	fn copy_0008_bytes() {
-		helper(&[0x09, 0x56, 0x06, 0x77, 0x52, 0x36, 0x6B, 0x03]);
+		helper(&[
+			0x09, 0x56, 0x06, 0x77, 0x52, 0x36, 0x6B, 0x03,
+		]);
 	}
 	// endregion
 	// region: copy_0011_bytes
 	#[test]
 	fn copy_0011_bytes() {
-		helper(&[0x5D, 0xFE, 0x25, 0xF2, 0x2E, 0xDD, 0xC9, 0xDC, 0x5C, 0x71, 0x01]);
+		helper(&[
+			0x5D, 0xFE, 0x25, 0xF2, 0x2E, 0xDD, 0xC9, 0xDC, 0x5C, 0x71, 0x01,
+		]);
 	}
 	// endregion
 	// region: copy_0016_bytes
