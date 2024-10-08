@@ -14,7 +14,10 @@ extern "C" {
 pub fn helper(data: &[*const c_void]) {
 	let mut head: *const t_node = null_mut();
 
-	for i0 in 0..data.len() {
+	unsafe { ft_list_push_front(&mut head, data[0]) };
+	assert!(!head.is_null());
+	assert_eq!(unsafe { (*head).data } as *const c_void, data[0]);
+	for i0 in 1..data.len() {
 		unsafe { ft_list_push_front(&mut head, data[i0]) };
 		assert!(!head.is_null());
 		assert_eq!(unsafe { (*head).data } as *const c_void, data[i0]);
