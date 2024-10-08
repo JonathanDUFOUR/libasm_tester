@@ -55,7 +55,10 @@ fn criterion_benchmark(c: &mut Criterion) {
 	} {
 		type Function = unsafe extern "C" fn(*const c_char) -> *mut c_char;
 
-		const FUNCTIONS: [(Function, &str); 2] = [(strdup, "std"), (ft_strdup, "ft")];
+		const FUNCTIONS: [(Function, &str); 2] = [
+			(strdup, "std"),
+			(ft_strdup, "ft"),
+		];
 
 		for (function, function_name) in FUNCTIONS {
 			use {

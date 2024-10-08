@@ -7,27 +7,23 @@ CARGO := ${shell which cargo}
 #              FUNCTIONS              #
 #######################################
 MANDATORY_FUNCTIONS := \
-	${addprefix ft_, \
-		strcmp \
-		strcpy \
-		strdup \
-		strlen \
-		read \
-		write \
-	}
+	strcmp \
+	strcpy \
+	strdup \
+	strlen \
+	read \
+	write \
+
 OPTIONAL_FUNCTIONS := \
-	${addprefix ft_, \
-		memcpy \
-	}
+	memcpy \
+
 BONUS_FUNCTIONS := \
-	${addprefix ft_, \
-		atoi_base \
-		${addprefix list_, \
-			push_front \
-			size \
-			sort \
-		} \
-	}
+	atoi_base \
+	${addprefix list_, \
+		push_front \
+		size \
+		sort \
+	} \
 
 #######################################
 #             DIRECTORIES             #

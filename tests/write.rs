@@ -1,12 +1,12 @@
 #[cfg(test)]
-mod ft_write {
+mod write {
 	use {
 		errno::{errno, Errno},
+		libasm_tester::write::helper,
 		libc::pipe,
 		std::{
 			ffi::{c_int, c_void},
 			fs::File,
-			io::Read,
 			os::fd::{AsRawFd, FromRawFd},
 			ptr::null,
 		},
@@ -19,46 +19,6 @@ mod ft_write {
 	#[link(name = "asm")]
 	extern "C" {
 		fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
-	}
-
-	#[inline(always)]
-	fn helper(buf: &[u8], count: usize) {
-		assert!(count <= buf.len(), "count must be less than or equal to buf.len()");
-
-		let (mut reader, writer) = {
-			// region: Pipe creation
-			let mut fds: [c_int; 2] = [0; 2];
-			assert_ne!(unsafe { pipe(fds.as_mut_ptr()) }, -1, "Failed to create a pipe");
-
-			unsafe { (File::from_raw_fd(fds[0]), File::from_raw_fd(fds[1])) }
-			// endregion
-		};
-		let ret: isize =
-			unsafe { ft_write(writer.as_raw_fd(), buf.as_ptr() as *const c_void, count) };
-
-		drop(writer);
-		assert_ne!(ret, -1, "Failed to write to the pipe");
-		assert_eq!(ret as usize, count, "Wrong returned value");
-		assert_eq!(errno(), Errno(0), "Wrong errno");
-
-		let bytes_written: Vec<u8> = {
-			// region: bytes_written
-			let mut tmp: Vec<u8> = Default::default();
-
-			match reader.read_to_end(tmp.as_mut()) {
-				Ok(total_number_of_bytes_read) => assert_eq!(
-					total_number_of_bytes_read, count,
-					"Wrong number of bytes effectively written"
-				),
-				Err(_) => panic!("Failed to read from the pipe"),
-			}
-
-			tmp
-			// endregion
-		};
-
-		drop(reader);
-		assert_eq!(buf[..count], bytes_written, "Wrong bytes written");
 	}
 
 	// region: valid_fd_valid_addr_00_00
@@ -211,7 +171,9 @@ mod ft_write {
 	// region: wrong_fd_valid_addr_11_11
 	#[test]
 	fn wrong_fd_valid_addr_11_11() {
-		const BUFFER: [u8; 11] = [0x8B, 0xCF, 0xBE, 0xFB, 0xEA, 0xE3, 0x8D, 0xEA, 0xB8, 0xF6, 0xBC];
+		const BUFFER: [u8; 11] = [
+			0x8B, 0xCF, 0xBE, 0xFB, 0xEA, 0xE3, 0x8D, 0xEA, 0xB8, 0xF6, 0xBC,
+		];
 		const COUNT: usize = 11;
 
 		assert_eq!(

@@ -1,10 +1,12 @@
 #[cfg(test)]
-mod ft_list_sort {
-	use libasm_tester::t_node;
-	use std::{
-		cmp::Ordering,
-		ffi::{c_char, c_int, c_void},
-		ptr::null_mut,
+mod list_sort {
+	use {
+		libasm_tester::{list_sort::helper, t_node},
+		std::{
+			cmp::Ordering,
+			ffi::{c_char, c_int, c_void},
+			ptr::null_mut,
+		},
 	};
 
 	#[link(name = "asm_bonus")]
@@ -17,31 +19,6 @@ mod ft_list_sort {
 
 	extern "C" {
 		fn strcmp(a: *const c_char, b: *const c_char) -> c_int;
-	}
-
-	#[inline(always)]
-	fn helper(data: &[*mut c_void], cmp: extern "C" fn(*const c_void, *const c_void) -> c_int) {
-		assert!(!data.is_empty(), "data must contain at least 1 element");
-
-		let mut nodes: Vec<t_node> =
-			data.iter().map(|data| t_node { data: *data, next: null_mut() }).collect();
-		let mut head: *mut t_node = nodes.as_mut_ptr();
-
-		for i in 0..nodes.len() - 1 {
-			nodes[i].next = &mut nodes[i + 1];
-		}
-		unsafe { ft_list_sort(&mut head, cmp) };
-
-		let mut count: usize = 1;
-		let mut next: *mut t_node = unsafe { (*head).next };
-
-		while !next.is_null() {
-			assert!(cmp(unsafe { (*head).data }, unsafe { (*next).data }) <= 0);
-			head = next;
-			next = unsafe { (*head).next };
-			count += 1;
-		}
-		assert_eq!(count, nodes.len());
 	}
 
 	extern "C" fn cmp_c_str(a: *const c_void, b: *const c_void) -> c_int {

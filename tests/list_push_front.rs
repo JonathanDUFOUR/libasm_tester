@@ -1,44 +1,9 @@
 #[cfg(test)]
-mod ft_list_push_front {
-	use libasm_tester::t_node;
-	use std::{
-		ffi::c_void,
-		ptr::{null, null_mut},
+mod list_push_front {
+	use {
+		libasm_tester::list_push_front::helper,
+		std::{ffi::c_void, ptr::null},
 	};
-
-	#[link(name = "asm_bonus")]
-	extern "C" {
-		fn ft_list_push_front(list: *mut *const t_node, data: *const c_void) -> ();
-	}
-
-	extern "C" {
-		fn free(ptr: *mut c_void);
-	}
-
-	#[inline(always)]
-	fn helper(data: &[*const c_void]) {
-		let mut head: *const t_node = null_mut();
-
-		for i0 in 0..data.len() {
-			unsafe { ft_list_push_front(&mut head, data[i0]) };
-			assert!(!head.is_null());
-			assert_eq!(unsafe { (*head).data } as *const c_void, data[i0]);
-
-			let mut current: *const t_node = unsafe { (*head).next };
-
-			for i1 in (0..i0).rev() {
-				assert!(!current.is_null());
-				assert_eq!(unsafe { (*current).data } as *const c_void, data[i1]);
-				current = unsafe { (*current).next };
-			}
-		}
-		while !head.is_null() {
-			let next: *const t_node = unsafe { (*head).next };
-
-			unsafe { free(head as *mut c_void) };
-			head = next;
-		}
-	}
 
 	// region: ft_list_push_front_00
 	#[test]
@@ -46,14 +11,12 @@ mod ft_list_push_front {
 		helper(&[null()]);
 	}
 	// endregion
-
 	// region: ft_list_push_front_01
 	#[test]
 	fn ft_list_push_front_01() {
 		helper(&[42 as *const c_void]);
 	}
 	// endregion
-
 	// region: ft_list_push_front_02
 	#[test]
 	fn ft_list_push_front_02() {
@@ -64,7 +27,6 @@ mod ft_list_push_front {
 		]);
 	}
 	// endregion
-
 	// region: ft_list_push_front_03
 	#[test]
 	fn ft_list_push_front_03() {
@@ -81,7 +43,6 @@ mod ft_list_push_front {
 		]);
 	}
 	// endregion
-
 	// region: ft_list_push_front_04
 	#[test]
 	fn ft_list_push_front_04() {

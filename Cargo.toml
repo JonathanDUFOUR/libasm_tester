@@ -8,10 +8,10 @@ description = "A bunch of tests for the libasm project of the 42 School"
 [dependencies]
 errno = "0.3.9"
 rand = "0.8.5"
+libc = "0.2.159"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
-libc = "0.2.159"
 
 [[bench]]
 name = "ft_strdup"

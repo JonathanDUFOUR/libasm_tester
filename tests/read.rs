@@ -1,41 +1,20 @@
 #[cfg(test)]
-mod tests {
-	use errno::{errno, Errno};
-	use std::{
-		ffi::{c_int, c_void},
-		fs::{remove_file, write, File},
-		io::Write,
-		os::fd::AsRawFd,
-		ptr::null_mut,
+mod read {
+	use {
+		errno::{errno, Errno},
+		libasm_tester::read::helper,
+		std::{
+			ffi::{c_int, c_void},
+			fs::{remove_file, write, File},
+			io::Write,
+			os::fd::AsRawFd,
+			ptr::null_mut,
+		},
 	};
 
 	#[link(name = "asm")]
 	extern "C" {
 		fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
-	}
-
-	#[inline(always)]
-	fn helper(path: &str, content: &str, count: usize) {
-		match write(path, content.as_bytes()) {
-			Ok(_) => (),
-			Err(_) => panic!("Failed to write to file"),
-		};
-		let file: File = match File::open(path) {
-			Ok(file) => file,
-			Err(_) => panic!("Failed to open file"),
-		};
-
-		let mut buf: Vec<u8> = vec![0; count];
-		let expected: usize = content.len().min(count);
-		let ret: isize =
-			unsafe { ft_read(file.as_raw_fd(), buf.as_mut_ptr() as *mut c_void, count) };
-
-		match remove_file(path) {
-			Ok(_) => (),
-			Err(_) => panic!("Failed to remove file"),
-		};
-		assert_eq!(ret, expected as isize);
-		assert_eq!(buf[..expected], content.as_bytes()[..expected]);
 	}
 
 	// region: ft_read_00
@@ -44,35 +23,30 @@ mod tests {
 		helper("ft_read_00.txt", "", 0);
 	}
 	// endregion
-
 	// region: ft_read_01
 	#[test]
 	fn ft_read_01() {
 		helper("ft_read_01.txt", "This time, the file won't be empty", 0);
 	}
 	// endregion
-
 	// region: ft_read_02
 	#[test]
 	fn ft_read_02() {
 		helper("ft_read_02.txt", "42 is the answer to the life, the universe, and everything", 42);
 	}
 	// endregion
-
 	// region: ft_read_03
 	#[test]
 	fn ft_read_03() {
 		helper("ft_read_03.txt", "Do you know the way?", 125);
 	}
 	// endregion
-
 	// region: ft_read_04
 	#[test]
 	fn ft_read_04() {
 		helper("ft_read_04.txt", "I like trains", 13);
 	}
 	// endregion
-
 	// region: ft_read_05
 	#[test]
 	fn ft_read_05() {
@@ -80,7 +54,6 @@ mod tests {
 		assert_eq!(errno(), Errno(9));
 	}
 	// endregion
-
 	// region: ft_read_06
 	#[test]
 	fn ft_read_06() {
@@ -88,7 +61,6 @@ mod tests {
 		assert_eq!(errno(), Errno(9));
 	}
 	// endregion
-
 	// region: ft_read_07
 	#[test]
 	fn ft_read_07() {
@@ -113,7 +85,6 @@ mod tests {
 		assert_eq!(errno(), Errno(9));
 	}
 	// endregion
-
 	// region: ft_read_08
 	#[test]
 	fn ft_read_08() {
@@ -138,7 +109,6 @@ mod tests {
 		assert_eq!(errno(), Errno(9));
 	}
 	// endregion
-
 	// region: ft_read_09
 	#[test]
 	fn ft_read_09() {
@@ -151,7 +121,6 @@ mod tests {
 		assert_eq!(errno(), Errno(21));
 	}
 	// endregion
-
 	// region: ft_read_10
 	#[test]
 	fn ft_read_10() {
@@ -164,7 +133,6 @@ mod tests {
 		assert_eq!(errno(), Errno(21));
 	}
 	// endregion
-
 	// region: ft_read_11
 	#[test]
 	fn ft_read_11() {
