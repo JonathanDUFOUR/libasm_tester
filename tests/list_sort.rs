@@ -50,9 +50,9 @@ mod list_sort {
 		assert_eq!(head, null_mut());
 	}
 	// endregion
-	// region: list_of_0007_u8
+	// region: list_of_7_u8
 	#[test]
-	fn list_of_0007_u8() {
+	fn list_of_7_u8() {
 		helper(
 			&[
 				&mut 169u8 as *mut _ as *mut c_void,
@@ -67,9 +67,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0093_u8
+	// region: list_of_93_u8
 	#[test]
-	fn list_of_0093_u8() {
+	fn list_of_93_u8() {
 		helper(
 			&[
 				&mut 184u8 as *mut _ as *mut c_void,
@@ -170,9 +170,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0932_u8
+	// region: list_of_932_u8
 	#[test]
-	fn list_of_0932_u8() {
+	fn list_of_932_u8() {
 		helper(
 			&[
 				&mut 242u8 as *mut _ as *mut c_void,
@@ -6485,9 +6485,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0007_u16
+	// region: list_of_7_u16
 	#[test]
-	fn list_of_0007_u16() {
+	fn list_of_7_u16() {
 		helper(
 			&[
 				&mut 47585u16 as *mut _ as *mut c_void,
@@ -6502,9 +6502,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0066_u16
+	// region: list_of_66_u16
 	#[test]
-	fn list_of_0066_u16() {
+	fn list_of_66_u16() {
 		helper(
 			&[
 				&mut 28642u16 as *mut _ as *mut c_void,
@@ -6578,9 +6578,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0677_u16
+	// region: list_of_677_u16
 	#[test]
-	fn list_of_0677_u16() {
+	fn list_of_677_u16() {
 		helper(
 			&[
 				&mut 44847u16 as *mut _ as *mut c_void,
@@ -10271,9 +10271,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0007_u32
+	// region: list_of_7_u32
 	#[test]
-	fn list_of_0007_u32() {
+	fn list_of_7_u32() {
 		helper(
 			&[
 				&mut 1087621320u32 as *mut _ as *mut c_void,
@@ -10288,9 +10288,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0058_u32
+	// region: list_of_58_u32
 	#[test]
-	fn list_of_0058_u32() {
+	fn list_of_58_u32() {
 		helper(
 			&[
 				&mut 144039950u32 as *mut _ as *mut c_void,
@@ -10356,9 +10356,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0465_u32
+	// region: list_of_465_u32
 	#[test]
-	fn list_of_0465_u32() {
+	fn list_of_465_u32() {
 		helper(
 			&[
 				&mut 611885400u32 as *mut _ as *mut c_void,
@@ -18779,9 +18779,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0009_u64
+	// region: list_of_9_u64
 	#[test]
-	fn list_of_0009_u64() {
+	fn list_of_9_u64() {
 		helper(
 			&[
 				&mut 10146960242714528372u64 as *mut _ as *mut c_void,
@@ -18798,9 +18798,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0031_u64
+	// region: list_of_31_u64
 	#[test]
-	fn list_of_0031_u64() {
+	fn list_of_31_u64() {
 		helper(
 			&[
 				&mut 6920876570085814885u64 as *mut _ as *mut c_void,
@@ -18839,9 +18839,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0868_u64
+	// region: list_of_868_u64
 	#[test]
-	fn list_of_0868_u64() {
+	fn list_of_868_u64() {
 		helper(
 			&[
 				&mut 2952096994640374551u64 as *mut _ as *mut c_void,
@@ -27390,9 +27390,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0003_i8
+	// region: list_of_3_i8
 	#[test]
-	fn list_of_0003_i8() {
+	fn list_of_3_i8() {
 		helper(
 			&[
 				&mut 121i8 as *mut _ as *mut c_void,
@@ -27403,9 +27403,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0094_i8
+	// region: list_of_94_i8
 	#[test]
-	fn list_of_0094_i8() {
+	fn list_of_94_i8() {
 		helper(
 			&[
 				&mut 96i8 as *mut _ as *mut c_void,
@@ -27507,9 +27507,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0289_i8
+	// region: list_of_289_i8
 	#[test]
-	fn list_of_0289_i8() {
+	fn list_of_289_i8() {
 		helper(
 			&[
 				&mut -63i8 as *mut _ as *mut c_void,
@@ -37367,9 +37367,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0009_i16
+	// region: list_of_9_i16
 	#[test]
-	fn list_of_0009_i16() {
+	fn list_of_9_i16() {
 		helper(
 			&[
 				&mut -16747i16 as *mut _ as *mut c_void,
@@ -37386,9 +37386,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0031_i16
+	// region: list_of_31_i16
 	#[test]
-	fn list_of_0031_i16() {
+	fn list_of_31_i16() {
 		helper(
 			&[
 				&mut 22507i16 as *mut _ as *mut c_void,
@@ -37427,9 +37427,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0999_i16
+	// region: list_of_999_i16
 	#[test]
-	fn list_of_0999_i16() {
+	fn list_of_999_i16() {
 		helper(
 			&[
 				&mut -17050i16 as *mut _ as *mut c_void,
@@ -47244,9 +47244,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0007_i32
+	// region: list_of_7_i32
 	#[test]
-	fn list_of_0007_i32() {
+	fn list_of_7_i32() {
 		helper(
 			&[
 				&mut -44007018i32 as *mut _ as *mut c_void,
@@ -47261,9 +47261,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0045_i32
+	// region: list_of_45_i32
 	#[test]
-	fn list_of_0045_i32() {
+	fn list_of_45_i32() {
 		helper(
 			&[
 				&mut 1617235489i32 as *mut _ as *mut c_void,
@@ -47316,9 +47316,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0630_i32
+	// region: list_of_630_i32
 	#[test]
-	fn list_of_0630_i32() {
+	fn list_of_630_i32() {
 		helper(
 			&[
 				&mut 913426713i32 as *mut _ as *mut c_void,
@@ -54002,9 +54002,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0004_i64
+	// region: list_of_4_i64
 	#[test]
-	fn list_of_0004_i64() {
+	fn list_of_4_i64() {
 		helper(
 			&[
 				&mut 1204854568240367438i64 as *mut _ as *mut c_void,
@@ -54016,9 +54016,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0088_i64
+	// region: list_of_88_i64
 	#[test]
-	fn list_of_0088_i64() {
+	fn list_of_88_i64() {
 		helper(
 			&[
 				&mut 6683733016831391802i64 as *mut _ as *mut c_void,
@@ -54114,9 +54114,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0326_i64
+	// region: list_of_326_i64
 	#[test]
-	fn list_of_0326_i64() {
+	fn list_of_326_i64() {
 		helper(
 			&[
 				&mut 2086068643893274527i64 as *mut _ as *mut c_void,
@@ -58500,9 +58500,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0005_cstr
+	// region: list_of_5_cstr
 	#[test]
-	fn list_of_0005_cstr() {
+	fn list_of_5_cstr() {
 		helper(
 			&[
 				&mut c"Cabecou" as *mut _ as *mut c_void,
@@ -58515,9 +58515,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0050_cstr
+	// region: list_of_50_cstr
 	#[test]
-	fn list_of_0050_cstr() {
+	fn list_of_50_cstr() {
 		helper(
 			&[
 				&mut c"LAMPEROUGE, Lelouch" as *mut _ as *mut c_void,
@@ -58575,9 +58575,9 @@ mod list_sort {
 		);
 	}
 	// endregion
-	// region: list_of_0736_cstr
+	// region: list_of_736_cstr
 	#[test]
-	fn list_of_0736_cstr() {
+	fn list_of_736_cstr() {
 		helper(
 			&[
 				&mut c"piss" as *mut _ as *mut c_void,

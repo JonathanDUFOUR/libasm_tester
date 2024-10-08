@@ -13,42 +13,42 @@ mod list_size {
 		fn ft_list_size(list: *const t_node) -> c_int;
 	}
 
-	// region: ft_list_size_00
+	// region: empty_list
 	#[test]
-	fn ft_list_size_00() {
+	fn empty_list() {
 		assert_eq!(unsafe { ft_list_size(null_mut()) }, 0);
 	}
 	// endregion
-	// region: ft_list_size_01
+	// region: list_of_1_null_pointer
 	#[test]
-	fn ft_list_size_01() {
+	fn list_of_1_null_pointer() {
 		helper(&[null_mut()]);
 	}
 	// endregion
-	// region: ft_list_size_02
+	// region: list_of_2_non_null_pointers
 	#[test]
-	fn ft_list_size_02() {
+	fn list_of_2_non_null_pointers() {
 		helper(&[
 			&mut 0xCDu32 as *mut _ as *mut c_void,
 			&mut 0xBD8u32 as *mut _ as *mut c_void,
 		]);
 	}
 	// endregion
-	// region: ft_list_size_03
+	// region: list_of_5_cstr
 	#[test]
-	fn ft_list_size_03() {
+	fn list_of_5_cstr() {
 		helper(&[
-			&mut "Hi" as *mut _ as *mut c_void,
-			&mut "there" as *mut _ as *mut c_void,
-			&mut "How" as *mut _ as *mut c_void,
-			&mut "are" as *mut _ as *mut c_void,
-			&mut "you" as *mut _ as *mut c_void,
+			&mut c"Hi" as *mut _ as *mut c_void,
+			&mut c"there" as *mut _ as *mut c_void,
+			&mut c"How" as *mut _ as *mut c_void,
+			&mut c"are" as *mut _ as *mut c_void,
+			&mut c"you" as *mut _ as *mut c_void,
 		]);
 	}
 	// endregion
-	// region: ft_list_size_04
+	// region: list_of_12_non_null_pointers
 	#[test]
-	fn ft_list_size_04() {
+	fn list_of_12_non_null_pointers() {
 		helper(&[
 			&mut 242u8 as *mut _ as *mut c_void,
 			&mut 17299u16 as *mut _ as *mut c_void,

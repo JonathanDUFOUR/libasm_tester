@@ -2,25 +2,25 @@
 mod strcmp {
 	use libasm_tester::strcmp::helper;
 
-	// region: compare_0000_equal_bytes
+	// region: compare_0_equal_bytes
 	#[test]
-	fn compare_0000_equal_bytes() {
+	fn compare_0_equal_bytes() {
 		const S: &[u8] = &[];
 
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0001_equal_bytes
+	// region: compare_1_equal_bytes
 	#[test]
-	fn compare_0001_equal_bytes() {
+	fn compare_1_equal_bytes() {
 		const S: &[u8] = &[0xEF];
 
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0002_equal_bytes
+	// region: compare_2_equal_bytes
 	#[test]
-	fn compare_0002_equal_bytes() {
+	fn compare_2_equal_bytes() {
 		const S: &[u8] = &[
 			0x85, 0xB7,
 		];
@@ -28,9 +28,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0004_equal_bytes
+	// region: compare_4_equal_bytes
 	#[test]
-	fn compare_0004_equal_bytes() {
+	fn compare_4_equal_bytes() {
 		const S: &[u8] = &[
 			0x9E, 0xA6, 0x83, 0x8B,
 		];
@@ -38,9 +38,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0008_equal_bytes
+	// region: compare_8_equal_bytes
 	#[test]
-	fn compare_0008_equal_bytes() {
+	fn compare_8_equal_bytes() {
 		const S: &[u8] = &[
 			0x6D, 0xB6, 0xC1, 0xDC, 0xA6, 0xC6, 0x0C, 0x5F,
 		];
@@ -48,9 +48,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0011_equal_bytes
+	// region: compare_11_equal_bytes
 	#[test]
-	fn compare_0011_equal_bytes() {
+	fn compare_11_equal_bytes() {
 		const S: &[u8] = &[
 			0xDF, 0x15, 0x7F, 0xCD, 0x96, 0x2C, 0x09, 0x5B, 0x0C, 0x3A, 0xC0,
 		];
@@ -58,9 +58,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0016_equal_bytes
+	// region: compare_16_equal_bytes
 	#[test]
-	fn compare_0016_equal_bytes() {
+	fn compare_16_equal_bytes() {
 		const S: &[u8] = &[
 			0x68, 0x68, 0x70, 0x66, 0x74, 0x61, 0x0F, 0x9C, 0x8E, 0x56, 0xA3, 0xDD, 0x2B, 0xFE,
 			0xFD, 0x17,
@@ -69,9 +69,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0022_equal_bytes
+	// region: compare_22_equal_bytes
 	#[test]
-	fn compare_0022_equal_bytes() {
+	fn compare_22_equal_bytes() {
 		const S: &[u8] = &[
 			0x53, 0x8E, 0x43, 0xF9, 0xE9, 0x69, 0x98, 0xAD, 0x50, 0x6D, 0x35, 0x8E, 0xDC, 0x19,
 			0x90, 0xBF, 0xB0, 0x80, 0x56, 0xC1, 0x83, 0xA6,
@@ -80,9 +80,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0032_equal_bytes
+	// region: compare_32_equal_bytes
 	#[test]
-	fn compare_0032_equal_bytes() {
+	fn compare_32_equal_bytes() {
 		const S: &[u8] = &[
 			0x19, 0x3A, 0xB2, 0x99, 0x86, 0x66, 0x89, 0x6E, 0xDF, 0x50, 0xBC, 0x51, 0x4E, 0x28,
 			0x58, 0x12, 0x5B, 0xF8, 0xE4, 0x22, 0x79, 0x18, 0x74, 0x7E, 0xE2, 0x9C, 0x01, 0xC1,
@@ -92,9 +92,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0033_equal_bytes
+	// region: compare_33_equal_bytes
 	#[test]
-	fn compare_0033_equal_bytes() {
+	fn compare_33_equal_bytes() {
 		const S: &[u8] = &[
 			0x70, 0x4C, 0xD1, 0x2F, 0x0B, 0xBE, 0x2B, 0xCD, 0x64, 0xB6, 0x57, 0x8F, 0x9E, 0xFC,
 			0xDF, 0x86, 0x97, 0xD9, 0x0D, 0x85, 0x97, 0x3E, 0x91, 0x92, 0x09, 0x3F, 0xBE, 0xD5,
@@ -104,9 +104,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0044_equal_bytes
+	// region: compare_44_equal_bytes
 	#[test]
-	fn compare_0044_equal_bytes() {
+	fn compare_44_equal_bytes() {
 		const S: &[u8] = &[
 			0xA8, 0xAC, 0x01, 0x82, 0x8E, 0x2E, 0x2D, 0xD9, 0x77, 0xAB, 0x6E, 0x75, 0x85, 0x3B,
 			0x45, 0xD8, 0x3B, 0x5A, 0x24, 0x61, 0xB0, 0x7E, 0xD7, 0x45, 0x24, 0xAB, 0xE2, 0x46,
@@ -117,9 +117,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0055_equal_bytes
+	// region: compare_55_equal_bytes
 	#[test]
-	fn compare_0055_equal_bytes() {
+	fn compare_55_equal_bytes() {
 		const S: &[u8] = &[
 			0xE9, 0x37, 0x04, 0xBE, 0x78, 0x06, 0xB1, 0x33, 0x75, 0xB7, 0x9C, 0xEC, 0xDB, 0x41,
 			0x1D, 0xEA, 0xFC, 0x8A, 0xD0, 0xD1, 0xCB, 0x35, 0x21, 0x43, 0x19, 0xE8, 0x8A, 0x22,
@@ -130,9 +130,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0064_equal_bytes
+	// region: compare_64_equal_bytes
 	#[test]
-	fn compare_0064_equal_bytes() {
+	fn compare_64_equal_bytes() {
 		const S: &[u8] = &[
 			0xCB, 0xC5, 0x8B, 0xEE, 0x63, 0x55, 0xC9, 0x33, 0xD5, 0x8C, 0x29, 0x72, 0x8D, 0x3C,
 			0x87, 0x56, 0x98, 0xD0, 0x47, 0x3A, 0x39, 0x97, 0xA5, 0x95, 0xCC, 0x22, 0x29, 0x81,
@@ -144,9 +144,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0066_equal_bytes
+	// region: compare_66_equal_bytes
 	#[test]
-	fn compare_0066_equal_bytes() {
+	fn compare_66_equal_bytes() {
 		const S: &[u8] = &[
 			0x42, 0xF3, 0x2F, 0x86, 0x88, 0xD3, 0x0F, 0x37, 0xE7, 0x5B, 0xF2, 0x12, 0xD7, 0x4A,
 			0x79, 0x93, 0xB5, 0x88, 0x28, 0xD0, 0xD7, 0xAF, 0x8E, 0xC1, 0x46, 0xB2, 0x16, 0x7E,
@@ -158,9 +158,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0077_equal_bytes
+	// region: compare_77_equal_bytes
 	#[test]
-	fn compare_0077_equal_bytes() {
+	fn compare_77_equal_bytes() {
 		const S: &[u8] = &[
 			0x8A, 0xBB, 0x7C, 0xA0, 0xB5, 0x3A, 0xDD, 0xBC, 0x96, 0x4B, 0x88, 0xDB, 0x2F, 0xD1,
 			0xAA, 0x3F, 0x68, 0xBC, 0xEA, 0x8B, 0xBC, 0x6B, 0x47, 0x12, 0xA8, 0x81, 0x04, 0x8F,
@@ -173,9 +173,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0088_equal_bytes
+	// region: compare_88_equal_bytes
 	#[test]
-	fn compare_0088_equal_bytes() {
+	fn compare_88_equal_bytes() {
 		const S: &[u8] = &[
 			0x7D, 0x8B, 0xED, 0xA5, 0xE9, 0x1C, 0x43, 0x0C, 0x74, 0x94, 0x5D, 0x5B, 0x4F, 0xD2,
 			0xF7, 0x57, 0xAE, 0xF6, 0x85, 0xAC, 0x25, 0x4E, 0x7D, 0x05, 0x71, 0xA0, 0x22, 0xCF,
@@ -189,9 +189,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0099_equal_bytes
+	// region: compare_99_equal_bytes
 	#[test]
-	fn compare_0099_equal_bytes() {
+	fn compare_99_equal_bytes() {
 		const S: &[u8] = &[
 			0x33, 0x49, 0xEE, 0x5B, 0xC3, 0x17, 0x1A, 0x31, 0xFB, 0x10, 0x2E, 0x69, 0xAC, 0xBF,
 			0xF1, 0xDD, 0xBC, 0x3B, 0x50, 0x39, 0xE2, 0x66, 0xF4, 0xD2, 0xE9, 0xB9, 0x92, 0xA5,
@@ -206,9 +206,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0110_equal_bytes
+	// region: compare_110_equal_bytes
 	#[test]
-	fn compare_0110_equal_bytes() {
+	fn compare_110_equal_bytes() {
 		const S: &[u8] = &[
 			0x03, 0x65, 0xC6, 0xE6, 0x89, 0xAE, 0xE7, 0x69, 0x39, 0x65, 0x6F, 0x7C, 0xED, 0x8E,
 			0x0E, 0xF5, 0xFA, 0xE6, 0x47, 0x73, 0xD7, 0x98, 0x07, 0xE7, 0x52, 0x5C, 0x55, 0xCB,
@@ -223,9 +223,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0121_equal_bytes
+	// region: compare_121_equal_bytes
 	#[test]
-	fn compare_0121_equal_bytes() {
+	fn compare_121_equal_bytes() {
 		const S: &[u8] = &[
 			0x5D, 0x2F, 0x80, 0xD8, 0x6B, 0x43, 0x47, 0x49, 0xA6, 0xA6, 0xF1, 0x81, 0x0F, 0x28,
 			0x87, 0x37, 0xD7, 0x74, 0x20, 0x40, 0xC8, 0xA2, 0x9B, 0xE9, 0xE0, 0xBA, 0x81, 0x06,
@@ -241,9 +241,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0128_equal_bytes
+	// region: compare_128_equal_bytes
 	#[test]
-	fn compare_0128_equal_bytes() {
+	fn compare_128_equal_bytes() {
 		const S: &[u8] = &[
 			0x2D, 0x24, 0x4C, 0x88, 0x13, 0x76, 0x3C, 0xE4, 0x77, 0x67, 0x34, 0xCC, 0xBA, 0xD6,
 			0x4F, 0x7E, 0xC9, 0xA8, 0xDB, 0x96, 0x7E, 0x0C, 0x76, 0xE9, 0x6D, 0x71, 0x3B, 0xD6,
@@ -260,9 +260,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0132_equal_bytes
+	// region: compare_132_equal_bytes
 	#[test]
-	fn compare_0132_equal_bytes() {
+	fn compare_132_equal_bytes() {
 		const S: &[u8] = &[
 			0x03, 0xAD, 0x04, 0x6B, 0x84, 0x30, 0xAC, 0x70, 0x6F, 0x04, 0x3A, 0x9D, 0xA8, 0x72,
 			0xC0, 0x03, 0xE7, 0x83, 0xF7, 0x63, 0x0D, 0xDD, 0x8E, 0xE6, 0x28, 0x1E, 0x5E, 0xA5,
@@ -279,9 +279,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0143_equal_bytes
+	// region: compare_143_equal_bytes
 	#[test]
-	fn compare_0143_equal_bytes() {
+	fn compare_143_equal_bytes() {
 		const S: &[u8] = &[
 			0x37, 0xB5, 0x87, 0x86, 0x3A, 0x65, 0xDF, 0x8B, 0xBE, 0x56, 0x50, 0x1D, 0x25, 0x1C,
 			0xDD, 0xE0, 0xC7, 0x46, 0xB5, 0x55, 0xC2, 0x47, 0xC7, 0xB2, 0x61, 0x5D, 0x85, 0xDF,
@@ -299,9 +299,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0154_equal_bytes
+	// region: compare_154_equal_bytes
 	#[test]
-	fn compare_0154_equal_bytes() {
+	fn compare_154_equal_bytes() {
 		const S: &[u8] = &[
 			0x75, 0xCF, 0x3B, 0x8B, 0xA2, 0xCE, 0x93, 0x8A, 0x2C, 0xF1, 0x26, 0x4B, 0xAE, 0xA7,
 			0x20, 0xE3, 0x3A, 0x25, 0x3B, 0x31, 0x29, 0x88, 0xDE, 0x6C, 0xC3, 0x1F, 0x89, 0x80,
@@ -319,9 +319,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0165_equal_bytes
+	// region: compare_165_equal_bytes
 	#[test]
-	fn compare_0165_equal_bytes() {
+	fn compare_165_equal_bytes() {
 		const S: &[u8] = &[
 			0xD5, 0x37, 0xD9, 0x4E, 0xAC, 0x15, 0x86, 0xDC, 0x60, 0xAF, 0x2A, 0x98, 0xE1, 0x0A,
 			0x89, 0x32, 0x71, 0x1D, 0xD1, 0x0B, 0xFF, 0x57, 0x6D, 0x8B, 0xDC, 0x56, 0x7B, 0x0B,
@@ -340,9 +340,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0176_equal_bytes
+	// region: compare_176_equal_bytes
 	#[test]
-	fn compare_0176_equal_bytes() {
+	fn compare_176_equal_bytes() {
 		const S: &[u8] = &[
 			0xE0, 0x3B, 0xC5, 0x1B, 0x4A, 0xE5, 0xF1, 0x50, 0x56, 0xC7, 0xA9, 0xDF, 0xF6, 0x26,
 			0x26, 0xF8, 0x78, 0x75, 0xAB, 0x99, 0xBC, 0xA2, 0xEF, 0x68, 0xF4, 0x22, 0x70, 0x93,
@@ -362,9 +362,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0187_equal_bytes
+	// region: compare_187_equal_bytes
 	#[test]
-	fn compare_0187_equal_bytes() {
+	fn compare_187_equal_bytes() {
 		const S: &[u8] = &[
 			0x98, 0xD8, 0x37, 0xCD, 0xB1, 0x70, 0x18, 0x1A, 0xD6, 0x13, 0xEF, 0x9B, 0xB8, 0xB2,
 			0x49, 0x13, 0x7E, 0x5F, 0xEF, 0x6E, 0x08, 0x60, 0x3D, 0x19, 0x46, 0x58, 0xB1, 0x9F,
@@ -385,9 +385,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0198_equal_bytes
+	// region: compare_198_equal_bytes
 	#[test]
-	fn compare_0198_equal_bytes() {
+	fn compare_198_equal_bytes() {
 		const S: &[u8] = &[
 			0xBC, 0xC7, 0x66, 0xE4, 0xBF, 0x44, 0xAD, 0x8A, 0xF1, 0x69, 0x26, 0x0C, 0xCD, 0xB7,
 			0x0E, 0x03, 0x64, 0x33, 0x3E, 0x0A, 0x4F, 0x1E, 0x72, 0x48, 0x6A, 0x92, 0x27, 0x05,
@@ -409,9 +409,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0209_equal_bytes
+	// region: compare_209_equal_bytes
 	#[test]
-	fn compare_0209_equal_bytes() {
+	fn compare_209_equal_bytes() {
 		const S: &[u8] = &[
 			0xEC, 0xD9, 0x77, 0x53, 0x69, 0xBD, 0x72, 0xDF, 0x67, 0x60, 0x76, 0x47, 0x28, 0x46,
 			0xED, 0xDB, 0x2C, 0x6A, 0x68, 0x6F, 0xDF, 0x0D, 0xEE, 0x4F, 0x18, 0x07, 0xEC, 0xE7,
@@ -433,9 +433,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0220_equal_bytes
+	// region: compare_220_equal_bytes
 	#[test]
-	fn compare_0220_equal_bytes() {
+	fn compare_220_equal_bytes() {
 		const S: &[u8] = &[
 			0xF8, 0x32, 0x90, 0x32, 0x70, 0x95, 0xF0, 0xEA, 0x06, 0xC0, 0x32, 0xBB, 0x5F, 0xD6,
 			0x34, 0x7B, 0xAB, 0xCF, 0x4F, 0x17, 0x4D, 0xD1, 0x11, 0xEF, 0xF2, 0xB8, 0xC3, 0x6B,
@@ -458,9 +458,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0231_equal_bytes
+	// region: compare_231_equal_bytes
 	#[test]
-	fn compare_0231_equal_bytes() {
+	fn compare_231_equal_bytes() {
 		const S: &[u8] = &[
 			0x10, 0xC5, 0x23, 0x82, 0x32, 0xE6, 0xE8, 0x43, 0xFF, 0xAC, 0x4B, 0x9C, 0x28, 0x16,
 			0x49, 0x14, 0x84, 0x06, 0xEA, 0xE6, 0xE6, 0xA5, 0x3A, 0xAC, 0xFF, 0x3A, 0x68, 0xEE,
@@ -484,9 +484,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0242_equal_bytes
+	// region: compare_242_equal_bytes
 	#[test]
-	fn compare_0242_equal_bytes() {
+	fn compare_242_equal_bytes() {
 		const S: &[u8] = &[
 			0x59, 0xFB, 0x40, 0xBC, 0xDE, 0xD1, 0x77, 0x07, 0xDA, 0xB6, 0xE1, 0xFC, 0xD6, 0x41,
 			0x95, 0xCE, 0xA2, 0xD5, 0xDA, 0x33, 0x27, 0x74, 0x0F, 0x11, 0x23, 0xA1, 0x6E, 0xD8,
@@ -511,9 +511,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0253_equal_bytes
+	// region: compare_253_equal_bytes
 	#[test]
-	fn compare_0253_equal_bytes() {
+	fn compare_253_equal_bytes() {
 		const S: &[u8] = &[
 			0x7F, 0x74, 0x5A, 0x51, 0x12, 0xB8, 0x3E, 0x71, 0x5C, 0x94, 0x73, 0xBA, 0xDD, 0xDA,
 			0x6D, 0x35, 0x42, 0x63, 0x50, 0x63, 0xC4, 0x0E, 0x21, 0x8F, 0x18, 0x9D, 0xBC, 0xC7,
@@ -539,9 +539,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0256_equal_bytes
+	// region: compare_256_equal_bytes
 	#[test]
-	fn compare_0256_equal_bytes() {
+	fn compare_256_equal_bytes() {
 		const S: &[u8] = &[
 			0xA7, 0xC3, 0xD1, 0x1E, 0xE6, 0x6C, 0xF9, 0xC0, 0xE3, 0x70, 0x4B, 0x4B, 0xFA, 0x63,
 			0x40, 0xAC, 0x3B, 0x23, 0xC7, 0xC3, 0x0F, 0xA5, 0x60, 0xDF, 0x72, 0xC9, 0x80, 0x15,
@@ -567,9 +567,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0264_equal_bytes
+	// region: compare_264_equal_bytes
 	#[test]
-	fn compare_0264_equal_bytes() {
+	fn compare_264_equal_bytes() {
 		const S: &[u8] = &[
 			0x5C, 0x2F, 0x0F, 0x0A, 0xCA, 0x51, 0xBE, 0xA1, 0xCE, 0x46, 0xB3, 0x6B, 0x67, 0x4D,
 			0x5A, 0xC0, 0xFD, 0xB5, 0xB5, 0xBA, 0x97, 0x12, 0x83, 0x7F, 0xF3, 0x2D, 0x1E, 0xE0,
@@ -595,9 +595,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0275_equal_bytes
+	// region: compare_275_equal_bytes
 	#[test]
-	fn compare_0275_equal_bytes() {
+	fn compare_275_equal_bytes() {
 		const S: &[u8] = &[
 			0x6D, 0x1B, 0xAE, 0xA1, 0x84, 0x53, 0xB8, 0x30, 0x22, 0x27, 0x5E, 0x12, 0xA5, 0x20,
 			0xCA, 0xAF, 0x56, 0xA2, 0xDA, 0x3C, 0x35, 0x68, 0x51, 0xA3, 0xFF, 0x3D, 0x5F, 0x6D,
@@ -624,9 +624,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0286_equal_bytes
+	// region: compare_286_equal_bytes
 	#[test]
-	fn compare_0286_equal_bytes() {
+	fn compare_286_equal_bytes() {
 		const S: &[u8] = &[
 			0xF6, 0xC7, 0x01, 0xAB, 0xBA, 0x7C, 0x12, 0x9B, 0x40, 0xF2, 0x76, 0xE5, 0x0D, 0x14,
 			0xAA, 0x91, 0xA7, 0xA8, 0xF0, 0x2D, 0xF5, 0x9A, 0xBC, 0x1B, 0x65, 0x9F, 0x3A, 0x23,
@@ -654,9 +654,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0297_equal_bytes
+	// region: compare_297_equal_bytes
 	#[test]
-	fn compare_0297_equal_bytes() {
+	fn compare_297_equal_bytes() {
 		const S: &[u8] = &[
 			0xA3, 0x16, 0x6D, 0xDD, 0x33, 0x8F, 0xB4, 0x41, 0x13, 0xB6, 0x52, 0xEF, 0xB7, 0xA7,
 			0x3D, 0x17, 0x12, 0x33, 0x40, 0x6E, 0xD7, 0x35, 0x33, 0x41, 0x27, 0xD5, 0x5C, 0x94,
@@ -685,9 +685,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0308_equal_bytes
+	// region: compare_308_equal_bytes
 	#[test]
-	fn compare_0308_equal_bytes() {
+	fn compare_308_equal_bytes() {
 		const S: &[u8] = &[
 			0x86, 0xCF, 0x17, 0x22, 0xBD, 0xEC, 0x19, 0x43, 0xCA, 0xC7, 0x4E, 0x29, 0x77, 0x87,
 			0x4A, 0x7B, 0xEA, 0xB5, 0x2A, 0xCD, 0x48, 0x1F, 0x8B, 0xED, 0xA9, 0x69, 0x44, 0x55,
@@ -716,9 +716,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0319_equal_bytes
+	// region: compare_319_equal_bytes
 	#[test]
-	fn compare_0319_equal_bytes() {
+	fn compare_319_equal_bytes() {
 		const S: &[u8] = &[
 			0xBE, 0x89, 0x4F, 0x3C, 0xE3, 0x0A, 0x1C, 0xF2, 0x92, 0xF9, 0x81, 0x06, 0x72, 0x9A,
 			0x70, 0x7B, 0xA0, 0x70, 0x18, 0x9A, 0xE2, 0x01, 0x29, 0x81, 0xD0, 0xC9, 0x95, 0x2D,
@@ -748,9 +748,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0330_equal_bytes
+	// region: compare_330_equal_bytes
 	#[test]
-	fn compare_0330_equal_bytes() {
+	fn compare_330_equal_bytes() {
 		const S: &[u8] = &[
 			0xED, 0x5D, 0xF1, 0xE8, 0xCA, 0xB1, 0x38, 0x3D, 0xCF, 0x84, 0xC8, 0x7A, 0x99, 0x6E,
 			0x4A, 0x10, 0xA5, 0x6A, 0xB3, 0x50, 0x13, 0xBB, 0xBB, 0x73, 0x1A, 0x6F, 0xF5, 0x13,
@@ -781,9 +781,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0341_equal_bytes
+	// region: compare_341_equal_bytes
 	#[test]
-	fn compare_0341_equal_bytes() {
+	fn compare_341_equal_bytes() {
 		const S: &[u8] = &[
 			0x27, 0x5E, 0x18, 0xAA, 0xCA, 0x49, 0x9D, 0x9E, 0x90, 0xD6, 0x4E, 0x3C, 0xC3, 0xC7,
 			0x65, 0xBE, 0x45, 0xD2, 0xF3, 0xAB, 0x0B, 0x88, 0x99, 0x90, 0x3A, 0xDC, 0x81, 0x70,
@@ -815,9 +815,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0352_equal_bytes
+	// region: compare_352_equal_bytes
 	#[test]
-	fn compare_0352_equal_bytes() {
+	fn compare_352_equal_bytes() {
 		const S: &[u8] = &[
 			0xCE, 0x83, 0x25, 0xD8, 0x29, 0xAC, 0x3E, 0xA3, 0x69, 0x3E, 0xC7, 0xE4, 0x92, 0x9A,
 			0xCE, 0x7B, 0xCB, 0x34, 0xD9, 0xDE, 0x81, 0xAB, 0x3E, 0xEE, 0x55, 0x82, 0x0F, 0x4D,
@@ -850,9 +850,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0363_equal_bytes
+	// region: compare_363_equal_bytes
 	#[test]
-	fn compare_0363_equal_bytes() {
+	fn compare_363_equal_bytes() {
 		const S: &[u8] = &[
 			0xD4, 0xEC, 0x94, 0x60, 0xC4, 0x30, 0x65, 0x90, 0x38, 0x92, 0xA5, 0x5D, 0xEB, 0x09,
 			0x9D, 0x24, 0x01, 0x27, 0x9C, 0x93, 0x7D, 0x60, 0x0B, 0x0C, 0x3D, 0x21, 0x1E, 0x07,
@@ -885,9 +885,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0374_equal_bytes
+	// region: compare_374_equal_bytes
 	#[test]
-	fn compare_0374_equal_bytes() {
+	fn compare_374_equal_bytes() {
 		const S: &[u8] = &[
 			0x8D, 0x88, 0x0D, 0xD4, 0x33, 0xA6, 0x57, 0x62, 0x71, 0xA7, 0x6E, 0xC2, 0xAD, 0xAC,
 			0xC7, 0x14, 0x13, 0xEF, 0xAB, 0x2E, 0xFC, 0x74, 0xD8, 0xBB, 0x6D, 0x49, 0x27, 0xEC,
@@ -921,9 +921,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0385_equal_bytes
+	// region: compare_385_equal_bytes
 	#[test]
-	fn compare_0385_equal_bytes() {
+	fn compare_385_equal_bytes() {
 		const S: &[u8] = &[
 			0xCC, 0xC7, 0x63, 0xEA, 0xA1, 0xEB, 0xA7, 0xB8, 0x1B, 0x62, 0x59, 0xF1, 0x12, 0x46,
 			0x3F, 0xAD, 0x63, 0xF1, 0x21, 0x49, 0x25, 0x59, 0x07, 0xFF, 0xD4, 0x45, 0x23, 0x8D,
@@ -958,9 +958,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0396_equal_bytes
+	// region: compare_396_equal_bytes
 	#[test]
-	fn compare_0396_equal_bytes() {
+	fn compare_396_equal_bytes() {
 		const S: &[u8] = &[
 			0x52, 0x1B, 0x66, 0xB6, 0xF1, 0x0F, 0x52, 0xE2, 0xC6, 0x57, 0x9D, 0xC9, 0xF5, 0xB2,
 			0x28, 0x7A, 0x92, 0xED, 0xB6, 0xEF, 0xD6, 0x53, 0x27, 0x71, 0x66, 0xD4, 0x20, 0x8D,
@@ -996,9 +996,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0407_equal_bytes
+	// region: compare_407_equal_bytes
 	#[test]
-	fn compare_0407_equal_bytes() {
+	fn compare_407_equal_bytes() {
 		const S: &[u8] = &[
 			0x49, 0x6E, 0x4A, 0x1F, 0x45, 0xB6, 0x3C, 0x7C, 0x0A, 0x6A, 0x0B, 0x1B, 0xAE, 0xC6,
 			0xF2, 0xDE, 0xDB, 0xAE, 0x51, 0x08, 0x1D, 0xA9, 0x24, 0xBB, 0x41, 0x81, 0xFB, 0xB7,
@@ -1035,9 +1035,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0418_equal_bytes
+	// region: compare_418_equal_bytes
 	#[test]
-	fn compare_0418_equal_bytes() {
+	fn compare_418_equal_bytes() {
 		const S: &[u8] = &[
 			0x19, 0x3B, 0x39, 0x42, 0xB1, 0xAD, 0x2C, 0xEB, 0x58, 0x72, 0x0E, 0x7B, 0x33, 0xBF,
 			0x97, 0xF2, 0xD6, 0xC4, 0x9A, 0x49, 0x1F, 0x9D, 0x16, 0x0F, 0xCF, 0xAA, 0x8C, 0x5E,
@@ -1074,9 +1074,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0429_equal_bytes
+	// region: compare_429_equal_bytes
 	#[test]
-	fn compare_0429_equal_bytes() {
+	fn compare_429_equal_bytes() {
 		const S: &[u8] = &[
 			0x90, 0x8E, 0x13, 0x03, 0xEE, 0x5F, 0xAB, 0x58, 0xC6, 0x05, 0xA6, 0x74, 0xF3, 0x9D,
 			0x4F, 0x9C, 0xF3, 0x2D, 0x4B, 0xE7, 0x52, 0x2D, 0xD2, 0xFB, 0xD0, 0x9F, 0xCC, 0x7A,
@@ -1114,9 +1114,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0440_equal_bytes
+	// region: compare_440_equal_bytes
 	#[test]
-	fn compare_0440_equal_bytes() {
+	fn compare_440_equal_bytes() {
 		const S: &[u8] = &[
 			0x48, 0xC4, 0xDD, 0x4F, 0x67, 0xD0, 0x9E, 0x94, 0xC9, 0xE3, 0x74, 0x2C, 0xF9, 0x05,
 			0xEA, 0x7C, 0xDD, 0x92, 0x1B, 0x8C, 0xC4, 0xD1, 0x17, 0xCC, 0x15, 0xFF, 0xD2, 0xA8,
@@ -1155,9 +1155,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0451_equal_bytes
+	// region: compare_451_equal_bytes
 	#[test]
-	fn compare_0451_equal_bytes() {
+	fn compare_451_equal_bytes() {
 		const S: &[u8] = &[
 			0xED, 0xF2, 0xBF, 0x75, 0x49, 0xDF, 0xF7, 0xA3, 0x89, 0x66, 0x38, 0x08, 0xFB, 0xA3,
 			0x1A, 0x5E, 0xAF, 0x72, 0xFC, 0xF5, 0xDE, 0x7A, 0x3A, 0xCF, 0x7D, 0x38, 0x4E, 0xB2,
@@ -1197,9 +1197,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0462_equal_bytes
+	// region: compare_462_equal_bytes
 	#[test]
-	fn compare_0462_equal_bytes() {
+	fn compare_462_equal_bytes() {
 		const S: &[u8] = &[
 			0x10, 0xFA, 0x58, 0x8A, 0x68, 0x1C, 0x88, 0x5C, 0xD0, 0xB0, 0x8B, 0x68, 0x1D, 0x7B,
 			0xE5, 0xBE, 0x5E, 0xF5, 0x6C, 0xDA, 0x60, 0xCF, 0x32, 0xD4, 0x34, 0x9C, 0x11, 0xC5,
@@ -1239,9 +1239,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0473_equal_bytes
+	// region: compare_473_equal_bytes
 	#[test]
-	fn compare_0473_equal_bytes() {
+	fn compare_473_equal_bytes() {
 		const S: &[u8] = &[
 			0x02, 0x46, 0x67, 0x7F, 0x88, 0xF9, 0x96, 0xCE, 0x6E, 0x63, 0x1D, 0xC2, 0x54, 0x86,
 			0x05, 0xE6, 0x48, 0xE6, 0xA2, 0x22, 0x97, 0xE0, 0xB6, 0x80, 0xFA, 0x38, 0x89, 0x86,
@@ -1282,9 +1282,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0484_equal_bytes
+	// region: compare_484_equal_bytes
 	#[test]
-	fn compare_0484_equal_bytes() {
+	fn compare_484_equal_bytes() {
 		const S: &[u8] = &[
 			0xD1, 0xD9, 0xCF, 0xB7, 0x45, 0xF1, 0x38, 0x74, 0x8B, 0xE0, 0x8B, 0xFF, 0xB6, 0xBD,
 			0xD8, 0xD5, 0xD9, 0xC0, 0x0D, 0x05, 0x3D, 0x77, 0x7E, 0x0F, 0x98, 0x01, 0x24, 0x20,
@@ -1326,9 +1326,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0495_equal_bytes
+	// region: compare_495_equal_bytes
 	#[test]
-	fn compare_0495_equal_bytes() {
+	fn compare_495_equal_bytes() {
 		const S: &[u8] = &[
 			0x9A, 0x25, 0xB7, 0x80, 0x62, 0x6E, 0x91, 0x1D, 0x59, 0x39, 0xEE, 0xE2, 0xB7, 0x05,
 			0xD6, 0x20, 0x4F, 0xA8, 0x23, 0x36, 0xBF, 0xE3, 0x8F, 0xA6, 0xCE, 0xF3, 0x8B, 0x2F,
@@ -1371,9 +1371,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0506_equal_bytes
+	// region: compare_506_equal_bytes
 	#[test]
-	fn compare_0506_equal_bytes() {
+	fn compare_506_equal_bytes() {
 		const S: &[u8] = &[
 			0xB1, 0xD0, 0x36, 0x32, 0x94, 0x07, 0xFD, 0x1E, 0x02, 0xF7, 0xE0, 0x89, 0x51, 0xF0,
 			0xAA, 0x8A, 0xF9, 0x30, 0xB0, 0xF5, 0xCB, 0x61, 0x79, 0x04, 0xB8, 0xED, 0xAE, 0x54,
@@ -1417,9 +1417,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0512_equal_bytes
+	// region: compare_512_equal_bytes
 	#[test]
-	fn compare_0512_equal_bytes() {
+	fn compare_512_equal_bytes() {
 		const S: &[u8] = &[
 			0xD5, 0x7F, 0xE5, 0x8E, 0xF0, 0x55, 0x7F, 0x88, 0xF9, 0x82, 0x6B, 0xC7, 0x75, 0xAF,
 			0x48, 0xE2, 0x17, 0xDD, 0x0F, 0x53, 0xB7, 0xAB, 0x30, 0xE2, 0x24, 0x75, 0x7A, 0xDE,
@@ -1463,9 +1463,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0517_equal_bytes
+	// region: compare_517_equal_bytes
 	#[test]
-	fn compare_0517_equal_bytes() {
+	fn compare_517_equal_bytes() {
 		const S: &[u8] = &[
 			0xDB, 0x42, 0x8C, 0xC1, 0x94, 0xB3, 0x58, 0x47, 0x1F, 0xE7, 0x28, 0xBB, 0x64, 0xA7,
 			0x82, 0x24, 0x16, 0x8F, 0xDA, 0x24, 0xE8, 0xC5, 0xD7, 0x53, 0x0E, 0x34, 0x71, 0x7A,
@@ -1509,9 +1509,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0528_equal_bytes
+	// region: compare_528_equal_bytes
 	#[test]
-	fn compare_0528_equal_bytes() {
+	fn compare_528_equal_bytes() {
 		const S: &[u8] = &[
 			0x0D, 0x90, 0x9E, 0x0E, 0xA4, 0x65, 0x2D, 0x0D, 0x54, 0x11, 0xCF, 0xA4, 0x1B, 0xBB,
 			0x03, 0x3F, 0x88, 0xBE, 0x45, 0x2F, 0x4B, 0x7B, 0x14, 0x94, 0x3B, 0xB4, 0x05, 0xA9,
@@ -1556,9 +1556,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0539_equal_bytes
+	// region: compare_539_equal_bytes
 	#[test]
-	fn compare_0539_equal_bytes() {
+	fn compare_539_equal_bytes() {
 		const S: &[u8] = &[
 			0xD3, 0xCD, 0x38, 0xBA, 0x82, 0x05, 0xBC, 0x5F, 0x9E, 0x36, 0x13, 0xFC, 0xA7, 0x60,
 			0x0A, 0x30, 0x02, 0xAD, 0x91, 0x4C, 0x79, 0x87, 0xD4, 0x0B, 0xF6, 0x3D, 0xBF, 0x42,
@@ -1604,9 +1604,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0550_equal_bytes
+	// region: compare_550_equal_bytes
 	#[test]
-	fn compare_0550_equal_bytes() {
+	fn compare_550_equal_bytes() {
 		const S: &[u8] = &[
 			0xED, 0x50, 0x68, 0x31, 0xE4, 0x7E, 0x6F, 0x3B, 0x16, 0x8D, 0x74, 0x87, 0xD2, 0x83,
 			0x58, 0x0E, 0xBE, 0x13, 0xB2, 0x0D, 0x06, 0x22, 0x1B, 0xBD, 0xE8, 0x0E, 0x15, 0xCA,
@@ -1653,9 +1653,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0561_equal_bytes
+	// region: compare_561_equal_bytes
 	#[test]
-	fn compare_0561_equal_bytes() {
+	fn compare_561_equal_bytes() {
 		const S: &[u8] = &[
 			0xB7, 0xDE, 0x22, 0x22, 0x86, 0x48, 0xC6, 0xBE, 0x41, 0xA7, 0x3D, 0x0A, 0x48, 0x42,
 			0x7A, 0x20, 0x5C, 0x6F, 0x54, 0xB6, 0x50, 0x95, 0xAF, 0x06, 0xD9, 0xCF, 0x4F, 0x05,
@@ -1703,9 +1703,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0572_equal_bytes
+	// region: compare_572_equal_bytes
 	#[test]
-	fn compare_0572_equal_bytes() {
+	fn compare_572_equal_bytes() {
 		const S: &[u8] = &[
 			0xD0, 0xC5, 0xC3, 0x32, 0x67, 0xD5, 0xC2, 0xD4, 0x73, 0x3D, 0xBD, 0xE8, 0x78, 0xB1,
 			0xEA, 0xFC, 0xD3, 0x91, 0xDC, 0xFE, 0x05, 0x77, 0x30, 0x5C, 0x0F, 0x16, 0x6A, 0x71,
@@ -1753,9 +1753,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0583_equal_bytes
+	// region: compare_583_equal_bytes
 	#[test]
-	fn compare_0583_equal_bytes() {
+	fn compare_583_equal_bytes() {
 		const S: &[u8] = &[
 			0xC1, 0x79, 0xA6, 0xB1, 0xB2, 0x1A, 0x31, 0xA6, 0x16, 0xEF, 0xDE, 0xFF, 0x23, 0x7D,
 			0x56, 0x24, 0xCE, 0x71, 0xB9, 0x41, 0x5C, 0x2A, 0x6B, 0x82, 0x0E, 0x15, 0xCD, 0xD0,
@@ -1804,9 +1804,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0594_equal_bytes
+	// region: compare_594_equal_bytes
 	#[test]
-	fn compare_0594_equal_bytes() {
+	fn compare_594_equal_bytes() {
 		const S: &[u8] = &[
 			0xE6, 0x36, 0x62, 0x05, 0xE8, 0x8E, 0xD9, 0xA6, 0xE8, 0xCC, 0xBF, 0xC0, 0x0A, 0xD9,
 			0xD6, 0x65, 0xF2, 0xC1, 0x74, 0x94, 0x0F, 0xB3, 0x13, 0x20, 0x1C, 0x2D, 0xF9, 0x37,
@@ -1856,9 +1856,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0605_equal_bytes
+	// region: compare_605_equal_bytes
 	#[test]
-	fn compare_0605_equal_bytes() {
+	fn compare_605_equal_bytes() {
 		const S: &[u8] = &[
 			0x8B, 0xA9, 0x97, 0x9B, 0x6F, 0xFE, 0x2B, 0x81, 0x19, 0xBA, 0x79, 0xA4, 0x01, 0xB9,
 			0x55, 0xCE, 0x1A, 0xCB, 0x71, 0x04, 0x57, 0x87, 0xD3, 0x50, 0x87, 0xF8, 0x37, 0x02,
@@ -1909,9 +1909,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0616_equal_bytes
+	// region: compare_616_equal_bytes
 	#[test]
-	fn compare_0616_equal_bytes() {
+	fn compare_616_equal_bytes() {
 		const S: &[u8] = &[
 			0xCE, 0x44, 0x74, 0x37, 0x27, 0x51, 0xEE, 0x08, 0x34, 0x1A, 0xBA, 0x8E, 0x13, 0x85,
 			0x56, 0xD7, 0x6F, 0xFE, 0xFE, 0x54, 0x82, 0x40, 0x28, 0x16, 0x49, 0xE0, 0x35, 0x5B,
@@ -1962,9 +1962,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0627_equal_bytes
+	// region: compare_627_equal_bytes
 	#[test]
-	fn compare_0627_equal_bytes() {
+	fn compare_627_equal_bytes() {
 		const S: &[u8] = &[
 			0x4F, 0xE1, 0x17, 0x4C, 0x74, 0xD7, 0x11, 0x37, 0x2A, 0x20, 0xB2, 0x93, 0x21, 0x5D,
 			0xBF, 0x23, 0x17, 0x6F, 0x93, 0xE9, 0x3A, 0xE1, 0xA3, 0x2C, 0xBE, 0x3A, 0x03, 0x16,
@@ -2016,9 +2016,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0638_equal_bytes
+	// region: compare_638_equal_bytes
 	#[test]
-	fn compare_0638_equal_bytes() {
+	fn compare_638_equal_bytes() {
 		const S: &[u8] = &[
 			0xA7, 0x88, 0xC3, 0x14, 0x16, 0x95, 0x27, 0x7A, 0x36, 0x88, 0x18, 0x1F, 0x3B, 0x3F,
 			0x9B, 0x4F, 0x78, 0xDE, 0xD1, 0xFC, 0xEC, 0x64, 0x19, 0x8E, 0x10, 0xDE, 0xC0, 0x1D,
@@ -2071,9 +2071,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0649_equal_bytes
+	// region: compare_649_equal_bytes
 	#[test]
-	fn compare_0649_equal_bytes() {
+	fn compare_649_equal_bytes() {
 		const S: &[u8] = &[
 			0x43, 0x1F, 0x13, 0x36, 0xE7, 0xB0, 0xE0, 0x2D, 0x28, 0xD8, 0xB6, 0xFC, 0x4D, 0xC1,
 			0x6D, 0x1C, 0x39, 0x1A, 0x55, 0x80, 0xD0, 0x86, 0x27, 0x81, 0xF8, 0xBB, 0xE3, 0x44,
@@ -2127,9 +2127,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0660_equal_bytes
+	// region: compare_660_equal_bytes
 	#[test]
-	fn compare_0660_equal_bytes() {
+	fn compare_660_equal_bytes() {
 		const S: &[u8] = &[
 			0xB3, 0x44, 0x75, 0x12, 0x2F, 0xD5, 0xAC, 0xBF, 0x63, 0x9F, 0x89, 0xF9, 0x41, 0x16,
 			0x34, 0x1E, 0x0C, 0x64, 0xFE, 0xA7, 0x75, 0xF7, 0xE0, 0x09, 0xCE, 0xA7, 0xBB, 0x5C,
@@ -2184,9 +2184,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0671_equal_bytes
+	// region: compare_671_equal_bytes
 	#[test]
-	fn compare_0671_equal_bytes() {
+	fn compare_671_equal_bytes() {
 		const S: &[u8] = &[
 			0x1F, 0x0B, 0x36, 0xB7, 0x1A, 0x76, 0x5A, 0xEA, 0xC4, 0x6B, 0xC7, 0x33, 0xB6, 0x85,
 			0x74, 0xE9, 0xF3, 0x68, 0xAC, 0x2A, 0x15, 0x22, 0xD1, 0xF0, 0x8B, 0xC1, 0xCD, 0x15,
@@ -2241,9 +2241,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0682_equal_bytes
+	// region: compare_682_equal_bytes
 	#[test]
-	fn compare_0682_equal_bytes() {
+	fn compare_682_equal_bytes() {
 		const S: &[u8] = &[
 			0xC8, 0x83, 0xA5, 0x86, 0xA9, 0x1C, 0x05, 0x32, 0xAE, 0x79, 0x7B, 0x70, 0xBB, 0x08,
 			0x88, 0xAB, 0xBE, 0x18, 0x26, 0x5C, 0xA8, 0xDF, 0x8D, 0x65, 0xD1, 0x23, 0x68, 0x5B,
@@ -2299,9 +2299,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0693_equal_bytes
+	// region: compare_693_equal_bytes
 	#[test]
-	fn compare_0693_equal_bytes() {
+	fn compare_693_equal_bytes() {
 		const S: &[u8] = &[
 			0x17, 0x0E, 0xCD, 0x2A, 0x8C, 0x6C, 0x0D, 0x94, 0x11, 0xEE, 0x38, 0xB9, 0x51, 0x36,
 			0x99, 0xC8, 0x22, 0x1E, 0x0E, 0x47, 0x58, 0xF5, 0x99, 0x36, 0xE9, 0xBC, 0x56, 0xF5,
@@ -2358,9 +2358,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0704_equal_bytes
+	// region: compare_704_equal_bytes
 	#[test]
-	fn compare_0704_equal_bytes() {
+	fn compare_704_equal_bytes() {
 		const S: &[u8] = &[
 			0x03, 0xB3, 0xBD, 0xC9, 0x51, 0xF5, 0xD8, 0x53, 0xEE, 0xE5, 0x0C, 0x89, 0xEA, 0xC3,
 			0x54, 0x2F, 0x88, 0x31, 0x9F, 0x89, 0x17, 0xBF, 0x77, 0x4C, 0x34, 0xF9, 0xA3, 0x3E,
@@ -2418,9 +2418,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0715_equal_bytes
+	// region: compare_715_equal_bytes
 	#[test]
-	fn compare_0715_equal_bytes() {
+	fn compare_715_equal_bytes() {
 		const S: &[u8] = &[
 			0xAC, 0x6D, 0xC3, 0x15, 0x8C, 0x6B, 0x2A, 0x93, 0xDD, 0x2D, 0x40, 0x02, 0x23, 0x3A,
 			0xAD, 0x2D, 0xF2, 0xF1, 0x28, 0x36, 0x9A, 0x33, 0x6B, 0x28, 0x90, 0xD6, 0x79, 0x1E,
@@ -2479,9 +2479,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0726_equal_bytes
+	// region: compare_726_equal_bytes
 	#[test]
-	fn compare_0726_equal_bytes() {
+	fn compare_726_equal_bytes() {
 		const S: &[u8] = &[
 			0x72, 0x64, 0xB0, 0x98, 0x71, 0x3B, 0x73, 0x63, 0x69, 0x13, 0x31, 0x08, 0x79, 0x7E,
 			0xF6, 0xB3, 0xC7, 0x39, 0xBB, 0x46, 0x0E, 0x26, 0x5B, 0x77, 0x85, 0x34, 0x24, 0x82,
@@ -2540,9 +2540,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0737_equal_bytes
+	// region: compare_737_equal_bytes
 	#[test]
-	fn compare_0737_equal_bytes() {
+	fn compare_737_equal_bytes() {
 		const S: &[u8] = &[
 			0xEB, 0x39, 0xC5, 0x96, 0x5A, 0xD3, 0x31, 0x1D, 0xFE, 0x45, 0xB4, 0xBA, 0x25, 0x77,
 			0xE1, 0x32, 0x46, 0x11, 0x32, 0x91, 0x4D, 0x18, 0x5E, 0x8A, 0xCE, 0x94, 0x10, 0xEC,
@@ -2602,9 +2602,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0748_equal_bytes
+	// region: compare_748_equal_bytes
 	#[test]
-	fn compare_0748_equal_bytes() {
+	fn compare_748_equal_bytes() {
 		const S: &[u8] = &[
 			0x26, 0x45, 0x4C, 0x99, 0x6F, 0xF8, 0x74, 0x51, 0x09, 0x4F, 0x42, 0xCE, 0xE2, 0x04,
 			0x4B, 0x63, 0x36, 0x51, 0xAD, 0xCF, 0xCB, 0x9D, 0xAA, 0xD9, 0xC5, 0xE3, 0xBB, 0x7A,
@@ -2665,9 +2665,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0759_equal_bytes
+	// region: compare_759_equal_bytes
 	#[test]
-	fn compare_0759_equal_bytes() {
+	fn compare_759_equal_bytes() {
 		const S: &[u8] = &[
 			0xAA, 0x79, 0x0E, 0x17, 0xC7, 0xB5, 0x2A, 0xCA, 0xDF, 0xFE, 0xAA, 0xE6, 0xB0, 0x5B,
 			0x6B, 0x4F, 0x1B, 0x6E, 0xE6, 0xF7, 0x83, 0x40, 0x11, 0xC2, 0x9C, 0xA2, 0xAE, 0x8E,
@@ -2729,9 +2729,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0770_equal_bytes
+	// region: compare_770_equal_bytes
 	#[test]
-	fn compare_0770_equal_bytes() {
+	fn compare_770_equal_bytes() {
 		const S: &[u8] = &[
 			0xB0, 0x9A, 0x97, 0xF9, 0x13, 0x28, 0x3C, 0x68, 0x5E, 0x1C, 0x8A, 0xC8, 0xC8, 0x4B,
 			0x54, 0x87, 0xD1, 0x1D, 0x77, 0xFC, 0xD4, 0x74, 0x95, 0x35, 0xA0, 0x0E, 0xD5, 0x93,
@@ -2793,9 +2793,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0781_equal_bytes
+	// region: compare_781_equal_bytes
 	#[test]
-	fn compare_0781_equal_bytes() {
+	fn compare_781_equal_bytes() {
 		const S: &[u8] = &[
 			0x63, 0xC7, 0xC3, 0x3C, 0x2C, 0x24, 0xE6, 0x3E, 0x4E, 0x8F, 0x62, 0xAA, 0x7C, 0xAF,
 			0xA1, 0xA6, 0xCE, 0x28, 0x3A, 0x12, 0x1B, 0x92, 0x66, 0x66, 0x4D, 0xBA, 0x99, 0xAD,
@@ -2858,9 +2858,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0792_equal_bytes
+	// region: compare_792_equal_bytes
 	#[test]
-	fn compare_0792_equal_bytes() {
+	fn compare_792_equal_bytes() {
 		const S: &[u8] = &[
 			0xD7, 0xB0, 0x1C, 0x48, 0xE3, 0xED, 0xA4, 0xE3, 0x2D, 0xB4, 0xDB, 0xA4, 0x6D, 0x4D,
 			0x56, 0x44, 0xD0, 0x84, 0x60, 0xA9, 0x0A, 0xE4, 0xF5, 0x18, 0xC9, 0x1A, 0xCB, 0x4C,
@@ -2924,9 +2924,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0803_equal_bytes
+	// region: compare_803_equal_bytes
 	#[test]
-	fn compare_0803_equal_bytes() {
+	fn compare_803_equal_bytes() {
 		const S: &[u8] = &[
 			0xF1, 0xCC, 0xE9, 0x6F, 0x40, 0xE3, 0xFE, 0x59, 0x03, 0x73, 0xE6, 0x45, 0x96, 0xB8,
 			0x8E, 0xE1, 0x0C, 0x36, 0x14, 0x55, 0x96, 0x36, 0x7A, 0x4A, 0x9E, 0x81, 0xA9, 0x7E,
@@ -2991,9 +2991,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0814_equal_bytes
+	// region: compare_814_equal_bytes
 	#[test]
-	fn compare_0814_equal_bytes() {
+	fn compare_814_equal_bytes() {
 		const S: &[u8] = &[
 			0xAF, 0x87, 0x5A, 0xAB, 0x88, 0xAE, 0xF6, 0xAC, 0x92, 0xD8, 0xC5, 0x71, 0x82, 0x02,
 			0xDA, 0x07, 0x63, 0x3C, 0x0A, 0x97, 0xC8, 0xC1, 0x1F, 0x0E, 0x9D, 0x2D, 0xC1, 0x5A,
@@ -3059,9 +3059,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0825_equal_bytes
+	// region: compare_825_equal_bytes
 	#[test]
-	fn compare_0825_equal_bytes() {
+	fn compare_825_equal_bytes() {
 		const S: &[u8] = &[
 			0xB8, 0x91, 0x1A, 0xE0, 0x23, 0x6D, 0xB3, 0x3C, 0x03, 0x32, 0xE3, 0x7D, 0xC4, 0x8C,
 			0x6C, 0xD9, 0x25, 0x30, 0xB3, 0x92, 0x11, 0xF7, 0x9E, 0x75, 0x1F, 0x83, 0x5A, 0xFC,
@@ -3127,9 +3127,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0836_equal_bytes
+	// region: compare_836_equal_bytes
 	#[test]
-	fn compare_0836_equal_bytes() {
+	fn compare_836_equal_bytes() {
 		const S: &[u8] = &[
 			0xF9, 0x9A, 0x90, 0x31, 0xDF, 0x7E, 0xE8, 0x1A, 0x3A, 0x5D, 0xE8, 0xDB, 0x94, 0xCD,
 			0xB2, 0x7E, 0x3A, 0x75, 0x05, 0x2C, 0x51, 0x6A, 0x6A, 0xD6, 0xEA, 0xF8, 0xEE, 0x3F,
@@ -3196,9 +3196,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0847_equal_bytes
+	// region: compare_847_equal_bytes
 	#[test]
-	fn compare_0847_equal_bytes() {
+	fn compare_847_equal_bytes() {
 		const S: &[u8] = &[
 			0x2B, 0xE0, 0x85, 0x31, 0x22, 0x7F, 0xC1, 0x79, 0xBE, 0x8A, 0xAA, 0x1A, 0x83, 0x0F,
 			0xFC, 0xFB, 0x20, 0x7A, 0x32, 0x2B, 0xD0, 0x6F, 0xDE, 0x4B, 0xF5, 0x6F, 0x04, 0x4A,
@@ -3266,9 +3266,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0858_equal_bytes
+	// region: compare_858_equal_bytes
 	#[test]
-	fn compare_0858_equal_bytes() {
+	fn compare_858_equal_bytes() {
 		const S: &[u8] = &[
 			0xF1, 0x27, 0x89, 0xC0, 0x96, 0x2F, 0x49, 0x85, 0x8D, 0xCB, 0x0A, 0x98, 0xE4, 0xA5,
 			0x30, 0xDE, 0x3F, 0x47, 0x5B, 0x70, 0x53, 0xB9, 0xB6, 0x37, 0x59, 0x26, 0xB7, 0x0F,
@@ -3337,9 +3337,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0869_equal_bytes
+	// region: compare_869_equal_bytes
 	#[test]
-	fn compare_0869_equal_bytes() {
+	fn compare_869_equal_bytes() {
 		const S: &[u8] = &[
 			0xBB, 0x90, 0xEE, 0x71, 0xF8, 0xDF, 0xAB, 0x0C, 0x8E, 0x0D, 0xF1, 0x33, 0x47, 0x22,
 			0xEF, 0x2B, 0x44, 0x07, 0x88, 0x2D, 0x71, 0x3C, 0x3D, 0x17, 0x4D, 0x9B, 0xD1, 0xAC,
@@ -3409,9 +3409,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0880_equal_bytes
+	// region: compare_880_equal_bytes
 	#[test]
-	fn compare_0880_equal_bytes() {
+	fn compare_880_equal_bytes() {
 		const S: &[u8] = &[
 			0x27, 0xF7, 0x54, 0x86, 0x8F, 0xCE, 0xA3, 0xDB, 0x19, 0x82, 0x51, 0xCF, 0x80, 0xD1,
 			0x31, 0xAA, 0xEE, 0xDC, 0x5B, 0xE8, 0x2F, 0x30, 0x38, 0xBF, 0xB4, 0x80, 0xA7, 0x09,
@@ -3481,9 +3481,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0891_equal_bytes
+	// region: compare_891_equal_bytes
 	#[test]
-	fn compare_0891_equal_bytes() {
+	fn compare_891_equal_bytes() {
 		const S: &[u8] = &[
 			0x79, 0x4C, 0x57, 0x7C, 0xB5, 0x07, 0xED, 0x4F, 0x7E, 0xDD, 0xAD, 0xE4, 0xA6, 0x11,
 			0x28, 0xCA, 0xD8, 0x9F, 0xC4, 0xFB, 0x1D, 0xC4, 0xC4, 0xFD, 0xC6, 0xC1, 0xAA, 0x65,
@@ -3554,9 +3554,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0902_equal_bytes
+	// region: compare_902_equal_bytes
 	#[test]
-	fn compare_0902_equal_bytes() {
+	fn compare_902_equal_bytes() {
 		const S: &[u8] = &[
 			0xF1, 0xAD, 0x95, 0x35, 0xC4, 0x9A, 0x08, 0x30, 0xF7, 0x32, 0x49, 0xFC, 0x28, 0x08,
 			0x60, 0x31, 0x7B, 0xB5, 0xEE, 0x11, 0x08, 0x42, 0xCB, 0xC1, 0x7F, 0xA0, 0x5D, 0xAA,
@@ -3628,9 +3628,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0913_equal_bytes
+	// region: compare_913_equal_bytes
 	#[test]
-	fn compare_0913_equal_bytes() {
+	fn compare_913_equal_bytes() {
 		const S: &[u8] = &[
 			0x31, 0x19, 0xD8, 0xB6, 0x9F, 0xDE, 0xC4, 0xEB, 0xBD, 0xD1, 0x45, 0xAA, 0x49, 0x6E,
 			0x7C, 0x4D, 0xF6, 0x1B, 0x28, 0xA5, 0x11, 0x2C, 0xD4, 0x6E, 0x06, 0xB9, 0x82, 0x87,
@@ -3703,9 +3703,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0924_equal_bytes
+	// region: compare_924_equal_bytes
 	#[test]
-	fn compare_0924_equal_bytes() {
+	fn compare_924_equal_bytes() {
 		const S: &[u8] = &[
 			0x5A, 0x02, 0x51, 0x30, 0xF8, 0x36, 0x7D, 0x90, 0xA4, 0x5A, 0x56, 0xC8, 0xE6, 0x89,
 			0x1A, 0xA3, 0x15, 0x2B, 0xCB, 0x7A, 0x9C, 0x3C, 0xF0, 0xDE, 0x85, 0x07, 0x44, 0x95,
@@ -3778,9 +3778,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0935_equal_bytes
+	// region: compare_935_equal_bytes
 	#[test]
-	fn compare_0935_equal_bytes() {
+	fn compare_935_equal_bytes() {
 		const S: &[u8] = &[
 			0x2D, 0xBF, 0x01, 0xB4, 0x89, 0x4F, 0xFA, 0x7A, 0x8E, 0xB6, 0x06, 0x17, 0x52, 0x15,
 			0xB6, 0xB1, 0x1F, 0x2F, 0x0F, 0xA5, 0x71, 0x85, 0x64, 0x5B, 0x3F, 0xAA, 0x59, 0x90,
@@ -3854,9 +3854,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0946_equal_bytes
+	// region: compare_946_equal_bytes
 	#[test]
-	fn compare_0946_equal_bytes() {
+	fn compare_946_equal_bytes() {
 		const S: &[u8] = &[
 			0x8D, 0x96, 0x21, 0x9A, 0xB9, 0x74, 0x57, 0xC6, 0x55, 0x31, 0x54, 0x03, 0x21, 0x86,
 			0xFE, 0x2D, 0x34, 0xCE, 0xAA, 0x87, 0x7B, 0xBB, 0x58, 0xBC, 0xE7, 0x22, 0x8E, 0x58,
@@ -3931,9 +3931,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0957_equal_bytes
+	// region: compare_957_equal_bytes
 	#[test]
-	fn compare_0957_equal_bytes() {
+	fn compare_957_equal_bytes() {
 		const S: &[u8] = &[
 			0x96, 0x2C, 0x1B, 0x49, 0x4C, 0xF6, 0x68, 0xFB, 0xC6, 0x5A, 0xBF, 0xAE, 0x59, 0x6E,
 			0x79, 0x0C, 0x57, 0x34, 0x66, 0x96, 0xF9, 0x9C, 0x1B, 0xD4, 0xFD, 0xDE, 0x79, 0xAE,
@@ -4009,9 +4009,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0968_equal_bytes
+	// region: compare_968_equal_bytes
 	#[test]
-	fn compare_0968_equal_bytes() {
+	fn compare_968_equal_bytes() {
 		const S: &[u8] = &[
 			0x1E, 0x17, 0xDF, 0xBF, 0x48, 0x02, 0x42, 0xDD, 0x69, 0xF0, 0x29, 0x60, 0x9D, 0xC8,
 			0x7D, 0xBF, 0x13, 0x04, 0xB3, 0xF4, 0x45, 0xCC, 0xFD, 0x21, 0x80, 0x27, 0xC1, 0xE3,
@@ -4088,9 +4088,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0979_equal_bytes
+	// region: compare_979_equal_bytes
 	#[test]
-	fn compare_0979_equal_bytes() {
+	fn compare_979_equal_bytes() {
 		const S: &[u8] = &[
 			0xA8, 0xF3, 0x5F, 0x89, 0xEB, 0x50, 0x9E, 0x5D, 0x45, 0xED, 0x82, 0x7C, 0x2E, 0x3C,
 			0x80, 0xF3, 0x6F, 0x38, 0x9B, 0xAF, 0xA4, 0x3A, 0x5A, 0x6A, 0xE3, 0x19, 0xC5, 0xAD,
@@ -4167,9 +4167,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_0990_equal_bytes
+	// region: compare_990_equal_bytes
 	#[test]
-	fn compare_0990_equal_bytes() {
+	fn compare_990_equal_bytes() {
 		const S: &[u8] = &[
 			0xD8, 0x14, 0x62, 0xBB, 0xC5, 0xFA, 0x63, 0xBE, 0x0E, 0x2A, 0xAB, 0x73, 0xF7, 0x49,
 			0x8B, 0x52, 0x78, 0x07, 0xC0, 0x19, 0xAC, 0x3C, 0xF5, 0x52, 0xAD, 0xA4, 0xD7, 0xDA,
@@ -4576,15 +4576,15 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0000_bytes
+	// region: compare_bytes_that_differ_after_0_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0000_bytes() {
+	fn compare_bytes_that_differ_after_0_bytes() {
 		helper(&[], &[0xA2]);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0001_bytes
+	// region: compare_bytes_that_differ_after_1_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0001_bytes() {
+	fn compare_bytes_that_differ_after_1_bytes() {
 		helper(
 			&[0xB9],
 			&[
@@ -4593,9 +4593,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0002_bytes
+	// region: compare_bytes_that_differ_after_2_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0002_bytes() {
+	fn compare_bytes_that_differ_after_2_bytes() {
 		helper(
 			&[
 				0xD4, 0x35,
@@ -4606,9 +4606,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0004_bytes
+	// region: compare_bytes_that_differ_after_4_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0004_bytes() {
+	fn compare_bytes_that_differ_after_4_bytes() {
 		helper(
 			&[
 				0x9D, 0xB2, 0x1F, 0xED,
@@ -4619,9 +4619,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0008_bytes
+	// region: compare_bytes_that_differ_after_8_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0008_bytes() {
+	fn compare_bytes_that_differ_after_8_bytes() {
 		helper(
 			&[
 				0xEB, 0x2E, 0x24, 0xA6, 0x55, 0x4B, 0x6A, 0x26,
@@ -4632,9 +4632,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0011_bytes
+	// region: compare_bytes_that_differ_after_11_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0011_bytes() {
+	fn compare_bytes_that_differ_after_11_bytes() {
 		helper(
 			&[
 				0x26, 0x6E, 0x80, 0x4A, 0x41, 0x6B, 0x1D, 0xB4, 0x9A, 0xD0, 0x26,
@@ -4645,9 +4645,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0016_bytes
+	// region: compare_bytes_that_differ_after_16_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0016_bytes() {
+	fn compare_bytes_that_differ_after_16_bytes() {
 		helper(
 			&[
 				0x72, 0x25, 0x44, 0x3B, 0xD2, 0xFE, 0x02, 0x27, 0x4A, 0xDA, 0xB8, 0xAE, 0x7C, 0xD2,
@@ -4660,9 +4660,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0022_bytes
+	// region: compare_bytes_that_differ_after_22_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0022_bytes() {
+	fn compare_bytes_that_differ_after_22_bytes() {
 		helper(
 			&[
 				0xE4, 0x3C, 0x86, 0x94, 0xDB, 0x95, 0x14, 0x24, 0xD2, 0x15, 0x1D, 0x07, 0x67, 0xAD,
@@ -4675,9 +4675,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0032_bytes
+	// region: compare_bytes_that_differ_after_32_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0032_bytes() {
+	fn compare_bytes_that_differ_after_32_bytes() {
 		helper(
 			&[
 				0x31, 0x1E, 0x4F, 0x50, 0x33, 0x52, 0x6F, 0x9E, 0x9A, 0x73, 0xD5, 0x45, 0x14, 0x5B,
@@ -4692,9 +4692,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0033_bytes
+	// region: compare_bytes_that_differ_after_33_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0033_bytes() {
+	fn compare_bytes_that_differ_after_33_bytes() {
 		helper(
 			&[
 				0x5D, 0xED, 0x75, 0x02, 0x7E, 0xBE, 0x40, 0x03, 0xB3, 0x34, 0xD2, 0xA7, 0x02, 0xEB,
@@ -4709,9 +4709,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0044_bytes
+	// region: compare_bytes_that_differ_after_44_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0044_bytes() {
+	fn compare_bytes_that_differ_after_44_bytes() {
 		helper(
 			&[
 				0x9D, 0x6D, 0x88, 0x9F, 0x0B, 0x04, 0xF2, 0x13, 0xFD, 0x38, 0x36, 0x6B, 0xDB, 0x78,
@@ -4728,9 +4728,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0055_bytes
+	// region: compare_bytes_that_differ_after_55_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0055_bytes() {
+	fn compare_bytes_that_differ_after_55_bytes() {
 		helper(
 			&[
 				0x31, 0x5B, 0xF8, 0x9C, 0xF6, 0xC4, 0x63, 0xE7, 0x64, 0xBE, 0x21, 0xEE, 0x76, 0xEA,
@@ -4747,9 +4747,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0064_bytes
+	// region: compare_bytes_that_differ_after_64_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0064_bytes() {
+	fn compare_bytes_that_differ_after_64_bytes() {
 		helper(
 			&[
 				0x75, 0x3E, 0xB1, 0xCC, 0xCB, 0x5D, 0x19, 0x8E, 0x7C, 0xF8, 0x59, 0xF1, 0x2B, 0x02,
@@ -4768,9 +4768,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0066_bytes
+	// region: compare_bytes_that_differ_after_66_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0066_bytes() {
+	fn compare_bytes_that_differ_after_66_bytes() {
 		helper(
 			&[
 				0xF0, 0xA1, 0x84, 0xDE, 0x1C, 0x74, 0xC1, 0xF9, 0x0C, 0xC4, 0x63, 0x9E, 0x8E, 0x48,
@@ -4789,9 +4789,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0077_bytes
+	// region: compare_bytes_that_differ_after_77_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0077_bytes() {
+	fn compare_bytes_that_differ_after_77_bytes() {
 		helper(
 			&[
 				0x15, 0xFE, 0xE4, 0xF7, 0xA8, 0x26, 0x9B, 0x7B, 0x1E, 0x80, 0x78, 0xA8, 0x70, 0xDE,
@@ -4812,9 +4812,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0088_bytes
+	// region: compare_bytes_that_differ_after_88_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0088_bytes() {
+	fn compare_bytes_that_differ_after_88_bytes() {
 		helper(
 			&[
 				0x86, 0x91, 0x49, 0xBB, 0x0C, 0x4D, 0xCB, 0x11, 0xD9, 0x1E, 0xC6, 0xA0, 0xF9, 0xCA,
@@ -4837,9 +4837,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0099_bytes
+	// region: compare_bytes_that_differ_after_99_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0099_bytes() {
+	fn compare_bytes_that_differ_after_99_bytes() {
 		helper(
 			&[
 				0xC5, 0xD2, 0x88, 0x66, 0xD7, 0x86, 0x21, 0xB6, 0xD6, 0x56, 0x14, 0xED, 0x53, 0x3B,
@@ -4864,9 +4864,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0110_bytes
+	// region: compare_bytes_that_differ_after_110_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0110_bytes() {
+	fn compare_bytes_that_differ_after_110_bytes() {
 		helper(
 			&[
 				0x15, 0xA4, 0xB2, 0x4C, 0x66, 0xE5, 0xF3, 0x62, 0x1E, 0x0B, 0x26, 0xA4, 0xF9, 0x1D,
@@ -4891,9 +4891,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0121_bytes
+	// region: compare_bytes_that_differ_after_121_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0121_bytes() {
+	fn compare_bytes_that_differ_after_121_bytes() {
 		helper(
 			&[
 				0x8F, 0x7F, 0xBD, 0x10, 0xC5, 0x18, 0x01, 0x2B, 0x28, 0x1B, 0x88, 0x47, 0x8D, 0x2F,
@@ -4920,9 +4920,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0128_bytes
+	// region: compare_bytes_that_differ_after_128_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0128_bytes() {
+	fn compare_bytes_that_differ_after_128_bytes() {
 		helper(
 			&[
 				0x58, 0xA2, 0xC8, 0x82, 0xDA, 0xE7, 0x9B, 0x56, 0x7A, 0x75, 0xB0, 0x5C, 0xA1, 0xA1,
@@ -4951,9 +4951,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0132_bytes
+	// region: compare_bytes_that_differ_after_132_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0132_bytes() {
+	fn compare_bytes_that_differ_after_132_bytes() {
 		helper(
 			&[
 				0x4C, 0xC4, 0xF0, 0x76, 0xA7, 0xD7, 0x5B, 0x9A, 0x1E, 0xAD, 0x3F, 0x23, 0xE9, 0xFF,
@@ -4982,9 +4982,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0143_bytes
+	// region: compare_bytes_that_differ_after_143_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0143_bytes() {
+	fn compare_bytes_that_differ_after_143_bytes() {
 		helper(
 			&[
 				0xFD, 0x07, 0x62, 0xA3, 0x53, 0x33, 0xC7, 0x44, 0x1E, 0x33, 0x2B, 0x13, 0x29, 0x78,
@@ -5015,9 +5015,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0154_bytes
+	// region: compare_bytes_that_differ_after_154_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0154_bytes() {
+	fn compare_bytes_that_differ_after_154_bytes() {
 		helper(
 			&[
 				0x93, 0x0C, 0x0C, 0x84, 0x08, 0xA0, 0x68, 0xBD, 0xE1, 0xDE, 0x87, 0xF7, 0x88, 0xA6,
@@ -5049,9 +5049,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0165_bytes
+	// region: compare_bytes_that_differ_after_165_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0165_bytes() {
+	fn compare_bytes_that_differ_after_165_bytes() {
 		helper(
 			&[
 				0xDC, 0x94, 0x15, 0xBB, 0xEF, 0x1D, 0xBB, 0x51, 0xF2, 0xDD, 0x30, 0xC3, 0x5E, 0x1E,
@@ -5084,9 +5084,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0176_bytes
+	// region: compare_bytes_that_differ_after_176_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0176_bytes() {
+	fn compare_bytes_that_differ_after_176_bytes() {
 		helper(
 			&[
 				0x05, 0xE4, 0xEE, 0x69, 0x10, 0x21, 0x0D, 0x04, 0xFA, 0x83, 0x8F, 0x22, 0x87, 0xBA,
@@ -5121,9 +5121,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0187_bytes
+	// region: compare_bytes_that_differ_after_187_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0187_bytes() {
+	fn compare_bytes_that_differ_after_187_bytes() {
 		helper(
 			&[
 				0x6C, 0x34, 0x9B, 0xC2, 0xFB, 0x6F, 0x51, 0x3B, 0xB6, 0x6F, 0x04, 0x26, 0x04, 0x60,
@@ -5160,9 +5160,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0198_bytes
+	// region: compare_bytes_that_differ_after_198_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0198_bytes() {
+	fn compare_bytes_that_differ_after_198_bytes() {
 		helper(
 			&[
 				0x6B, 0x96, 0x08, 0x3B, 0x26, 0x21, 0x3A, 0x5C, 0x08, 0xA6, 0xA0, 0x45, 0x31, 0x2D,
@@ -5201,9 +5201,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0209_bytes
+	// region: compare_bytes_that_differ_after_209_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0209_bytes() {
+	fn compare_bytes_that_differ_after_209_bytes() {
 		helper(
 			&[
 				0xC3, 0xBB, 0x52, 0xC6, 0x71, 0xFA, 0xD2, 0x6D, 0xCE, 0xA9, 0x77, 0x6D, 0x6E, 0x80,
@@ -5242,9 +5242,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0220_bytes
+	// region: compare_bytes_that_differ_after_220_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0220_bytes() {
+	fn compare_bytes_that_differ_after_220_bytes() {
 		helper(
 			&[
 				0x62, 0xD0, 0x96, 0xA1, 0x8C, 0x91, 0x32, 0x95, 0x86, 0xDC, 0xB9, 0xF8, 0xEE, 0xB7,
@@ -5285,9 +5285,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0231_bytes
+	// region: compare_bytes_that_differ_after_231_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0231_bytes() {
+	fn compare_bytes_that_differ_after_231_bytes() {
 		helper(
 			&[
 				0xEE, 0xF9, 0x62, 0xCB, 0x14, 0xBA, 0xB2, 0x27, 0x44, 0xC3, 0x2C, 0xCD, 0x7F, 0xF8,
@@ -5330,9 +5330,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0242_bytes
+	// region: compare_bytes_that_differ_after_242_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0242_bytes() {
+	fn compare_bytes_that_differ_after_242_bytes() {
 		helper(
 			&[
 				0x6E, 0xF6, 0x80, 0x5F, 0xD4, 0x79, 0xBB, 0xDC, 0x58, 0x1F, 0xF1, 0xA5, 0xC5, 0x28,
@@ -5377,9 +5377,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0253_bytes
+	// region: compare_bytes_that_differ_after_253_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0253_bytes() {
+	fn compare_bytes_that_differ_after_253_bytes() {
 		helper(
 			&[
 				0xA0, 0x85, 0x77, 0x48, 0xED, 0xEC, 0xB7, 0xB6, 0x7B, 0x69, 0xA2, 0x99, 0xFC, 0x21,
@@ -5426,9 +5426,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0256_bytes
+	// region: compare_bytes_that_differ_after_256_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0256_bytes() {
+	fn compare_bytes_that_differ_after_256_bytes() {
 		helper(
 			&[
 				0x20, 0x25, 0x7F, 0xAF, 0x05, 0x55, 0x38, 0x95, 0x4A, 0x9A, 0x70, 0x0F, 0xA1, 0x04,
@@ -5475,9 +5475,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0264_bytes
+	// region: compare_bytes_that_differ_after_264_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0264_bytes() {
+	fn compare_bytes_that_differ_after_264_bytes() {
 		helper(
 			&[
 				0x33, 0xCE, 0xEB, 0xB1, 0xCE, 0xF9, 0x42, 0x02, 0x24, 0x86, 0x53, 0x43, 0x52, 0x65,
@@ -5524,9 +5524,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0275_bytes
+	// region: compare_bytes_that_differ_after_275_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0275_bytes() {
+	fn compare_bytes_that_differ_after_275_bytes() {
 		helper(
 			&[
 				0x8A, 0x95, 0x48, 0x1E, 0xC4, 0xF9, 0x0B, 0x9E, 0x6D, 0x56, 0x8C, 0xD5, 0x52, 0x1A,
@@ -5575,9 +5575,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0286_bytes
+	// region: compare_bytes_that_differ_after_286_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0286_bytes() {
+	fn compare_bytes_that_differ_after_286_bytes() {
 		helper(
 			&[
 				0x0E, 0xBE, 0xAE, 0xCA, 0x91, 0x36, 0x2B, 0xEB, 0x3F, 0xC7, 0xCF, 0x5E, 0x79, 0xB9,
@@ -5628,9 +5628,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0297_bytes
+	// region: compare_bytes_that_differ_after_297_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0297_bytes() {
+	fn compare_bytes_that_differ_after_297_bytes() {
 		helper(
 			&[
 				0x86, 0xAA, 0x07, 0x25, 0x6A, 0xA3, 0x66, 0x1B, 0x73, 0x6D, 0x5E, 0x86, 0xBC, 0x44,
@@ -5683,9 +5683,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0308_bytes
+	// region: compare_bytes_that_differ_after_308_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0308_bytes() {
+	fn compare_bytes_that_differ_after_308_bytes() {
 		helper(
 			&[
 				0xE4, 0x53, 0x53, 0xDA, 0xDB, 0xBD, 0x30, 0x64, 0x1B, 0xF7, 0xA3, 0xE5, 0x9D, 0x48,
@@ -5739,9 +5739,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0319_bytes
+	// region: compare_bytes_that_differ_after_319_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0319_bytes() {
+	fn compare_bytes_that_differ_after_319_bytes() {
 		helper(
 			&[
 				0x5B, 0x8B, 0x25, 0xB2, 0xFD, 0x33, 0x5D, 0x8F, 0x82, 0xDB, 0x54, 0xD3, 0x63, 0x06,
@@ -5796,9 +5796,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0330_bytes
+	// region: compare_bytes_that_differ_after_330_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0330_bytes() {
+	fn compare_bytes_that_differ_after_330_bytes() {
 		helper(
 			&[
 				0xF6, 0x90, 0x4F, 0xB9, 0x0A, 0xAD, 0xB9, 0xD8, 0x4B, 0x7B, 0xC1, 0xED, 0xD0, 0xF9,
@@ -5855,9 +5855,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0341_bytes
+	// region: compare_bytes_that_differ_after_341_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0341_bytes() {
+	fn compare_bytes_that_differ_after_341_bytes() {
 		helper(
 			&[
 				0xD2, 0x65, 0xB1, 0x70, 0xC1, 0x8E, 0x4E, 0x03, 0xC0, 0x56, 0xD5, 0x38, 0x51, 0xAC,
@@ -5916,9 +5916,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0352_bytes
+	// region: compare_bytes_that_differ_after_352_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0352_bytes() {
+	fn compare_bytes_that_differ_after_352_bytes() {
 		helper(
 			&[
 				0x05, 0x2B, 0xB5, 0x19, 0x0D, 0x99, 0xA0, 0x69, 0xD7, 0x0A, 0xFE, 0x1E, 0x99, 0xCB,
@@ -5979,9 +5979,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0363_bytes
+	// region: compare_bytes_that_differ_after_363_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0363_bytes() {
+	fn compare_bytes_that_differ_after_363_bytes() {
 		helper(
 			&[
 				0x53, 0x22, 0xAD, 0x67, 0x85, 0xD5, 0x46, 0xA0, 0xBE, 0x31, 0x24, 0x67, 0x84, 0x83,
@@ -6042,9 +6042,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0374_bytes
+	// region: compare_bytes_that_differ_after_374_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0374_bytes() {
+	fn compare_bytes_that_differ_after_374_bytes() {
 		helper(
 			&[
 				0x6F, 0x83, 0x40, 0x61, 0xC4, 0x12, 0xD8, 0xC4, 0x43, 0xBF, 0xE0, 0x7F, 0x9D, 0x01,
@@ -6107,9 +6107,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0385_bytes
+	// region: compare_bytes_that_differ_after_385_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0385_bytes() {
+	fn compare_bytes_that_differ_after_385_bytes() {
 		helper(
 			&[
 				0xEA, 0x09, 0xA6, 0x9F, 0x66, 0x26, 0xE0, 0xFA, 0xC3, 0x84, 0x5B, 0x91, 0x13, 0x38,
@@ -6174,9 +6174,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0396_bytes
+	// region: compare_bytes_that_differ_after_396_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0396_bytes() {
+	fn compare_bytes_that_differ_after_396_bytes() {
 		helper(
 			&[
 				0xB0, 0x99, 0xD8, 0xBE, 0xB6, 0xAE, 0x9A, 0x81, 0x40, 0xAB, 0x99, 0x09, 0x63, 0xE6,
@@ -6243,9 +6243,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0407_bytes
+	// region: compare_bytes_that_differ_after_407_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0407_bytes() {
+	fn compare_bytes_that_differ_after_407_bytes() {
 		helper(
 			&[
 				0x28, 0x6E, 0xB4, 0xFA, 0x3A, 0x15, 0x91, 0x40, 0xE7, 0xF8, 0xB5, 0x08, 0x09, 0x16,
@@ -6314,9 +6314,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0418_bytes
+	// region: compare_bytes_that_differ_after_418_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0418_bytes() {
+	fn compare_bytes_that_differ_after_418_bytes() {
 		helper(
 			&[
 				0x49, 0xA1, 0x73, 0xA7, 0xD2, 0xE6, 0x6E, 0x6A, 0x72, 0x83, 0x68, 0x65, 0x8A, 0x03,
@@ -6385,9 +6385,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0429_bytes
+	// region: compare_bytes_that_differ_after_429_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0429_bytes() {
+	fn compare_bytes_that_differ_after_429_bytes() {
 		helper(
 			&[
 				0x41, 0x04, 0xCA, 0x1A, 0xD1, 0x3E, 0xC1, 0xB5, 0x93, 0xF5, 0xCF, 0x36, 0xA9, 0xAC,
@@ -6458,9 +6458,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0440_bytes
+	// region: compare_bytes_that_differ_after_440_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0440_bytes() {
+	fn compare_bytes_that_differ_after_440_bytes() {
 		helper(
 			&[
 				0x95, 0x0D, 0x70, 0x2D, 0x65, 0x1B, 0x13, 0x0C, 0x86, 0x11, 0x2A, 0xDD, 0x02, 0x49,
@@ -6533,9 +6533,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0451_bytes
+	// region: compare_bytes_that_differ_after_451_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0451_bytes() {
+	fn compare_bytes_that_differ_after_451_bytes() {
 		helper(
 			&[
 				0xD7, 0x3D, 0x47, 0xF8, 0x27, 0xFC, 0x35, 0xEC, 0x13, 0xB7, 0xAD, 0xCC, 0x61, 0x27,
@@ -6610,9 +6610,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0462_bytes
+	// region: compare_bytes_that_differ_after_462_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0462_bytes() {
+	fn compare_bytes_that_differ_after_462_bytes() {
 		helper(
 			&[
 				0x40, 0xE1, 0x03, 0x1C, 0xDE, 0xA1, 0x40, 0xAD, 0x89, 0x61, 0x45, 0xFE, 0x33, 0x57,
@@ -6688,9 +6688,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0473_bytes
+	// region: compare_bytes_that_differ_after_473_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0473_bytes() {
+	fn compare_bytes_that_differ_after_473_bytes() {
 		helper(
 			&[
 				0xEB, 0x9F, 0xE0, 0x1A, 0xA5, 0x7E, 0x1F, 0xF2, 0x7A, 0xFE, 0xDC, 0xC5, 0x69, 0x33,
@@ -6767,9 +6767,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0484_bytes
+	// region: compare_bytes_that_differ_after_484_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0484_bytes() {
+	fn compare_bytes_that_differ_after_484_bytes() {
 		helper(
 			&[
 				0xAF, 0x48, 0x63, 0x5A, 0xFF, 0xD6, 0x7F, 0x7E, 0xC9, 0x36, 0xFE, 0xC3, 0x5B, 0xA3,
@@ -6848,9 +6848,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0495_bytes
+	// region: compare_bytes_that_differ_after_495_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0495_bytes() {
+	fn compare_bytes_that_differ_after_495_bytes() {
 		helper(
 			&[
 				0xCF, 0x87, 0xE5, 0xFE, 0xCF, 0xE0, 0x51, 0x30, 0xBF, 0x26, 0xE5, 0x7B, 0x63, 0x88,
@@ -6931,9 +6931,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0506_bytes
+	// region: compare_bytes_that_differ_after_506_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0506_bytes() {
+	fn compare_bytes_that_differ_after_506_bytes() {
 		helper(
 			&[
 				0xCB, 0xB7, 0x33, 0x03, 0x1F, 0xE1, 0x55, 0xE7, 0x39, 0xD0, 0x19, 0x1A, 0x1D, 0x8A,
@@ -7016,9 +7016,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0512_bytes
+	// region: compare_bytes_that_differ_after_512_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0512_bytes() {
+	fn compare_bytes_that_differ_after_512_bytes() {
 		helper(
 			&[
 				0xDD, 0x9F, 0x4D, 0x31, 0xBA, 0xBB, 0x84, 0x4C, 0x09, 0x4E, 0xCC, 0x8A, 0xAA, 0x3A,
@@ -7101,9 +7101,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0517_bytes
+	// region: compare_bytes_that_differ_after_517_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0517_bytes() {
+	fn compare_bytes_that_differ_after_517_bytes() {
 		helper(
 			&[
 				0xF1, 0xA2, 0x5C, 0xA9, 0x56, 0xFA, 0xBC, 0x9C, 0x47, 0x39, 0x47, 0xE8, 0x1F, 0xD7,
@@ -7186,9 +7186,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0528_bytes
+	// region: compare_bytes_that_differ_after_528_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0528_bytes() {
+	fn compare_bytes_that_differ_after_528_bytes() {
 		helper(
 			&[
 				0x96, 0x65, 0x42, 0xDD, 0x93, 0x8E, 0x54, 0x45, 0xB2, 0x59, 0xE7, 0x51, 0xD7, 0x70,
@@ -7273,9 +7273,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0539_bytes
+	// region: compare_bytes_that_differ_after_539_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0539_bytes() {
+	fn compare_bytes_that_differ_after_539_bytes() {
 		helper(
 			&[
 				0xE5, 0x59, 0x88, 0x07, 0x68, 0xD5, 0xD9, 0x34, 0xC9, 0x1E, 0xBD, 0x3F, 0xFD, 0x1B,
@@ -7362,9 +7362,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0550_bytes
+	// region: compare_bytes_that_differ_after_550_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0550_bytes() {
+	fn compare_bytes_that_differ_after_550_bytes() {
 		helper(
 			&[
 				0x7A, 0xAD, 0x5B, 0x20, 0x4D, 0xB1, 0x40, 0x3E, 0x85, 0x0B, 0x40, 0xDB, 0x96, 0xCA,
@@ -7453,9 +7453,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0561_bytes
+	// region: compare_bytes_that_differ_after_561_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0561_bytes() {
+	fn compare_bytes_that_differ_after_561_bytes() {
 		helper(
 			&[
 				0xFF, 0x22, 0x6D, 0x92, 0xDC, 0xCB, 0xCD, 0x41, 0xD2, 0x98, 0x9E, 0x07, 0xF9, 0xF1,
@@ -7546,9 +7546,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0572_bytes
+	// region: compare_bytes_that_differ_after_572_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0572_bytes() {
+	fn compare_bytes_that_differ_after_572_bytes() {
 		helper(
 			&[
 				0x72, 0x73, 0x8B, 0x42, 0x11, 0x29, 0xF5, 0x56, 0xA0, 0xEB, 0x49, 0x17, 0x33, 0x5A,
@@ -7639,9 +7639,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0583_bytes
+	// region: compare_bytes_that_differ_after_583_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0583_bytes() {
+	fn compare_bytes_that_differ_after_583_bytes() {
 		helper(
 			&[
 				0xEF, 0x40, 0xC9, 0xD8, 0x25, 0xE2, 0xE3, 0x9F, 0xD5, 0xC5, 0x40, 0x2C, 0x9C, 0x36,
@@ -7734,9 +7734,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0594_bytes
+	// region: compare_bytes_that_differ_after_594_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0594_bytes() {
+	fn compare_bytes_that_differ_after_594_bytes() {
 		helper(
 			&[
 				0x05, 0x40, 0x06, 0x41, 0x36, 0x85, 0xE0, 0x4C, 0x2F, 0x4D, 0xDE, 0xFD, 0xD4, 0xCD,
@@ -7831,9 +7831,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0605_bytes
+	// region: compare_bytes_that_differ_after_605_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0605_bytes() {
+	fn compare_bytes_that_differ_after_605_bytes() {
 		helper(
 			&[
 				0x58, 0xAC, 0x12, 0x5C, 0x5B, 0x28, 0xA9, 0xC5, 0xCE, 0x42, 0x76, 0x24, 0xA3, 0x73,
@@ -7930,9 +7930,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0616_bytes
+	// region: compare_bytes_that_differ_after_616_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0616_bytes() {
+	fn compare_bytes_that_differ_after_616_bytes() {
 		helper(
 			&[
 				0xB2, 0x54, 0x32, 0xFF, 0xDB, 0x22, 0xE6, 0x46, 0x1E, 0xEC, 0x02, 0xFD, 0xB6, 0x33,
@@ -8030,9 +8030,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0627_bytes
+	// region: compare_bytes_that_differ_after_627_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0627_bytes() {
+	fn compare_bytes_that_differ_after_627_bytes() {
 		helper(
 			&[
 				0xE7, 0x62, 0xA2, 0x20, 0xF1, 0x68, 0x41, 0x33, 0x0B, 0xF2, 0x61, 0x45, 0x32, 0xCC,
@@ -8131,9 +8131,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0638_bytes
+	// region: compare_bytes_that_differ_after_638_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0638_bytes() {
+	fn compare_bytes_that_differ_after_638_bytes() {
 		helper(
 			&[
 				0x32, 0x94, 0x9E, 0xD6, 0xB4, 0x70, 0xF2, 0xC2, 0x49, 0x8D, 0x9B, 0xA5, 0xE1, 0xA1,
@@ -8234,9 +8234,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0649_bytes
+	// region: compare_bytes_that_differ_after_649_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0649_bytes() {
+	fn compare_bytes_that_differ_after_649_bytes() {
 		helper(
 			&[
 				0xD7, 0x18, 0xDF, 0x39, 0x91, 0x03, 0xE9, 0xA1, 0x2D, 0x9B, 0xA7, 0x08, 0x73, 0xA0,
@@ -8339,9 +8339,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0660_bytes
+	// region: compare_bytes_that_differ_after_660_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0660_bytes() {
+	fn compare_bytes_that_differ_after_660_bytes() {
 		helper(
 			&[
 				0x56, 0xAA, 0x81, 0xE7, 0xE0, 0x0B, 0x21, 0x44, 0x9B, 0x0E, 0x07, 0x71, 0xBC, 0xBD,
@@ -8446,9 +8446,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0671_bytes
+	// region: compare_bytes_that_differ_after_671_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0671_bytes() {
+	fn compare_bytes_that_differ_after_671_bytes() {
 		helper(
 			&[
 				0x7D, 0xFF, 0xCB, 0x01, 0x8E, 0x26, 0xC2, 0xB7, 0x7F, 0x02, 0x2A, 0xED, 0x03, 0x0A,
@@ -8553,9 +8553,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0682_bytes
+	// region: compare_bytes_that_differ_after_682_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0682_bytes() {
+	fn compare_bytes_that_differ_after_682_bytes() {
 		helper(
 			&[
 				0x6F, 0xDF, 0xD8, 0x12, 0x96, 0x1F, 0xF0, 0xA7, 0x23, 0x9A, 0xA2, 0x1B, 0x9F, 0x5C,
@@ -8662,9 +8662,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0693_bytes
+	// region: compare_bytes_that_differ_after_693_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0693_bytes() {
+	fn compare_bytes_that_differ_after_693_bytes() {
 		helper(
 			&[
 				0x69, 0xF1, 0x1A, 0x51, 0x17, 0x7F, 0x78, 0x52, 0x33, 0x67, 0x14, 0x5C, 0xF6, 0xB0,
@@ -8773,9 +8773,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0704_bytes
+	// region: compare_bytes_that_differ_after_704_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0704_bytes() {
+	fn compare_bytes_that_differ_after_704_bytes() {
 		helper(
 			&[
 				0x9C, 0xF8, 0xD2, 0x96, 0xAA, 0xA4, 0xCE, 0x48, 0x56, 0xE9, 0x85, 0x5C, 0xF3, 0x08,
@@ -8886,9 +8886,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0715_bytes
+	// region: compare_bytes_that_differ_after_715_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0715_bytes() {
+	fn compare_bytes_that_differ_after_715_bytes() {
 		helper(
 			&[
 				0xF3, 0x29, 0x64, 0xCF, 0xB2, 0x31, 0x0D, 0xAC, 0x98, 0x7A, 0xAD, 0x6F, 0x1B, 0xC8,
@@ -9001,9 +9001,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0726_bytes
+	// region: compare_bytes_that_differ_after_726_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0726_bytes() {
+	fn compare_bytes_that_differ_after_726_bytes() {
 		helper(
 			&[
 				0x2D, 0xDE, 0xC5, 0xA4, 0x6F, 0x62, 0x70, 0x3C, 0xD8, 0xA9, 0xA6, 0x4D, 0x01, 0x26,
@@ -9116,9 +9116,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0737_bytes
+	// region: compare_bytes_that_differ_after_737_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0737_bytes() {
+	fn compare_bytes_that_differ_after_737_bytes() {
 		helper(
 			&[
 				0x3F, 0x07, 0x9D, 0xA4, 0x32, 0x5B, 0x24, 0x02, 0x9D, 0x42, 0xFD, 0x94, 0xD6, 0x44,
@@ -9233,9 +9233,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0748_bytes
+	// region: compare_bytes_that_differ_after_748_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0748_bytes() {
+	fn compare_bytes_that_differ_after_748_bytes() {
 		helper(
 			&[
 				0xEC, 0x34, 0x08, 0xDB, 0xEF, 0x59, 0x10, 0x76, 0x72, 0xEB, 0xCD, 0x7B, 0xA5, 0x34,
@@ -9352,9 +9352,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0759_bytes
+	// region: compare_bytes_that_differ_after_759_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0759_bytes() {
+	fn compare_bytes_that_differ_after_759_bytes() {
 		helper(
 			&[
 				0x42, 0x59, 0xBB, 0x9D, 0x89, 0x38, 0x0F, 0x52, 0xD1, 0x35, 0xBD, 0x38, 0x7A, 0x73,
@@ -9473,9 +9473,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0770_bytes
+	// region: compare_bytes_that_differ_after_770_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0770_bytes() {
+	fn compare_bytes_that_differ_after_770_bytes() {
 		helper(
 			&[
 				0x87, 0x02, 0x43, 0x08, 0xAB, 0xF3, 0xED, 0x03, 0x8F, 0xF8, 0xEB, 0xC4, 0x01, 0xC4,
@@ -9595,9 +9595,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0781_bytes
+	// region: compare_bytes_that_differ_after_781_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0781_bytes() {
+	fn compare_bytes_that_differ_after_781_bytes() {
 		helper(
 			&[
 				0x41, 0x98, 0x48, 0xF0, 0x8B, 0x98, 0xF4, 0xD6, 0x20, 0x04, 0xE5, 0x24, 0x72, 0x1A,
@@ -9718,9 +9718,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0792_bytes
+	// region: compare_bytes_that_differ_after_792_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0792_bytes() {
+	fn compare_bytes_that_differ_after_792_bytes() {
 		helper(
 			&[
 				0x3E, 0xCD, 0xD3, 0xEA, 0xE1, 0xE3, 0x6E, 0xB3, 0x3D, 0x5E, 0x67, 0x1F, 0xAE, 0x04,
@@ -9843,9 +9843,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0803_bytes
+	// region: compare_bytes_that_differ_after_803_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0803_bytes() {
+	fn compare_bytes_that_differ_after_803_bytes() {
 		helper(
 			&[
 				0x19, 0x23, 0xEE, 0x7C, 0x23, 0x93, 0x6F, 0x02, 0x48, 0xB9, 0xB8, 0xF7, 0x4D, 0xA9,
@@ -9970,9 +9970,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0814_bytes
+	// region: compare_bytes_that_differ_after_814_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0814_bytes() {
+	fn compare_bytes_that_differ_after_814_bytes() {
 		helper(
 			&[
 				0x33, 0x32, 0x02, 0x38, 0x01, 0x5F, 0x04, 0xE8, 0x01, 0xD0, 0x58, 0xFB, 0x43, 0xC7,
@@ -10099,9 +10099,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0825_bytes
+	// region: compare_bytes_that_differ_after_825_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0825_bytes() {
+	fn compare_bytes_that_differ_after_825_bytes() {
 		helper(
 			&[
 				0xE7, 0xB4, 0xC5, 0x60, 0x52, 0x73, 0xFB, 0xD7, 0x27, 0xEA, 0xC4, 0xE7, 0xEF, 0x6A,
@@ -10228,9 +10228,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0836_bytes
+	// region: compare_bytes_that_differ_after_836_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0836_bytes() {
+	fn compare_bytes_that_differ_after_836_bytes() {
 		helper(
 			&[
 				0xA8, 0xD1, 0xB4, 0x68, 0x09, 0xD2, 0x43, 0x47, 0x6B, 0x01, 0x1D, 0xFE, 0x3D, 0xBB,
@@ -10359,9 +10359,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0847_bytes
+	// region: compare_bytes_that_differ_after_847_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0847_bytes() {
+	fn compare_bytes_that_differ_after_847_bytes() {
 		helper(
 			&[
 				0xB2, 0x01, 0x53, 0x8A, 0x16, 0xAB, 0xA3, 0xEC, 0x4F, 0xCD, 0x96, 0xCC, 0x40, 0x1F,
@@ -10492,9 +10492,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0858_bytes
+	// region: compare_bytes_that_differ_after_858_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0858_bytes() {
+	fn compare_bytes_that_differ_after_858_bytes() {
 		helper(
 			&[
 				0x4A, 0xC2, 0x4F, 0x36, 0x06, 0x3F, 0x53, 0x69, 0x03, 0xA6, 0xC4, 0xC4, 0x35, 0xF7,
@@ -10627,9 +10627,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0869_bytes
+	// region: compare_bytes_that_differ_after_869_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0869_bytes() {
+	fn compare_bytes_that_differ_after_869_bytes() {
 		helper(
 			&[
 				0x79, 0x79, 0x23, 0xFF, 0xC9, 0xC0, 0x5B, 0x1A, 0x2A, 0x21, 0x5D, 0xFA, 0xD1, 0x34,
@@ -10764,9 +10764,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0880_bytes
+	// region: compare_bytes_that_differ_after_880_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0880_bytes() {
+	fn compare_bytes_that_differ_after_880_bytes() {
 		helper(
 			&[
 				0x20, 0x52, 0x7D, 0x96, 0x0A, 0x72, 0x01, 0x3F, 0x08, 0xC9, 0x26, 0x87, 0x06, 0x3B,
@@ -10901,9 +10901,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0891_bytes
+	// region: compare_bytes_that_differ_after_891_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0891_bytes() {
+	fn compare_bytes_that_differ_after_891_bytes() {
 		helper(
 			&[
 				0x40, 0xE1, 0xFA, 0xEC, 0x8C, 0x6E, 0xD4, 0x36, 0x7C, 0xDA, 0xEE, 0x3C, 0x40, 0x77,
@@ -11040,9 +11040,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0902_bytes
+	// region: compare_bytes_that_differ_after_902_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0902_bytes() {
+	fn compare_bytes_that_differ_after_902_bytes() {
 		helper(
 			&[
 				0x99, 0x7F, 0x90, 0x7A, 0xE2, 0x3C, 0xEC, 0x2B, 0x1C, 0xB6, 0x36, 0x80, 0xEB, 0xF6,
@@ -11181,9 +11181,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0913_bytes
+	// region: compare_bytes_that_differ_after_913_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0913_bytes() {
+	fn compare_bytes_that_differ_after_913_bytes() {
 		helper(
 			&[
 				0xE7, 0xCE, 0x75, 0x7F, 0x7C, 0x25, 0x6D, 0x02, 0x27, 0xBD, 0xF5, 0x3B, 0xAA, 0x4B,
@@ -11324,9 +11324,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0924_bytes
+	// region: compare_bytes_that_differ_after_924_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0924_bytes() {
+	fn compare_bytes_that_differ_after_924_bytes() {
 		helper(
 			&[
 				0xC8, 0x17, 0x33, 0xC1, 0x18, 0x17, 0x7E, 0xC7, 0x79, 0xE3, 0xBB, 0x5F, 0x3A, 0x2A,
@@ -11468,9 +11468,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0935_bytes
+	// region: compare_bytes_that_differ_after_935_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0935_bytes() {
+	fn compare_bytes_that_differ_after_935_bytes() {
 		helper(
 			&[
 				0x70, 0x2E, 0xB6, 0xF6, 0x91, 0x34, 0x2E, 0x9B, 0xF0, 0xC1, 0x85, 0xF2, 0x84, 0xFF,
@@ -11613,9 +11613,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0946_bytes
+	// region: compare_bytes_that_differ_after_946_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0946_bytes() {
+	fn compare_bytes_that_differ_after_946_bytes() {
 		helper(
 			&[
 				0x8D, 0x4D, 0x6E, 0xB5, 0xEA, 0x5F, 0xD3, 0x78, 0x1F, 0x3F, 0x9C, 0x57, 0x51, 0xDB,
@@ -11760,9 +11760,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0957_bytes
+	// region: compare_bytes_that_differ_after_957_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0957_bytes() {
+	fn compare_bytes_that_differ_after_957_bytes() {
 		helper(
 			&[
 				0xB6, 0x38, 0x69, 0xC9, 0xC8, 0x38, 0xCC, 0x81, 0x45, 0xD2, 0x94, 0x5D, 0x6B, 0x28,
@@ -11909,9 +11909,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0968_bytes
+	// region: compare_bytes_that_differ_after_968_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0968_bytes() {
+	fn compare_bytes_that_differ_after_968_bytes() {
 		helper(
 			&[
 				0x34, 0x8D, 0xF1, 0x84, 0xC5, 0x20, 0x73, 0x9D, 0xBC, 0xF9, 0xF3, 0x22, 0xF0, 0xE8,
@@ -12060,9 +12060,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0979_bytes
+	// region: compare_bytes_that_differ_after_979_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0979_bytes() {
+	fn compare_bytes_that_differ_after_979_bytes() {
 		helper(
 			&[
 				0xCB, 0xC0, 0x14, 0x74, 0x37, 0x7D, 0x38, 0x08, 0xA5, 0x45, 0x2E, 0xBB, 0xB8, 0xEF,
@@ -12211,9 +12211,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_0990_bytes
+	// region: compare_bytes_that_differ_after_990_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_0990_bytes() {
+	fn compare_bytes_that_differ_after_990_bytes() {
 		helper(
 			&[
 				0x0D, 0x79, 0xC4, 0xA6, 0x18, 0x4C, 0x64, 0x1B, 0x92, 0x3B, 0x26, 0xEE, 0x74, 0xF1,

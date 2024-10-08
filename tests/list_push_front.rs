@@ -5,21 +5,32 @@ mod list_push_front {
 		std::{ffi::c_void, ptr::null},
 	};
 
-	// region: ft_list_push_front_00
+	// region: prepend_1_null_pointer
 	#[test]
-	fn ft_list_push_front_00() {
+	fn prepend_1_null_pointer() {
 		helper(&[null()]);
 	}
 	// endregion
-	// region: ft_list_push_front_01
+	// region: prepend_4_null_pointers
 	#[test]
-	fn ft_list_push_front_01() {
+	fn prepend_4_null_pointers() {
+		helper(&[
+			null(),
+			null(),
+			null(),
+			null(),
+		]);
+	}
+	// endregion
+	// region: prepend_1_non_null_pointer
+	#[test]
+	fn prepend_1_non_null_pointer() {
 		helper(&[42 as *const c_void]);
 	}
 	// endregion
-	// region: ft_list_push_front_02
+	// region: prepend_3_non_null_pointers
 	#[test]
-	fn ft_list_push_front_02() {
+	fn prepend_3_non_null_pointers() {
 		helper(&[
 			&0xBA39u32 as *const _ as *const c_void,
 			&0x4B02u32 as *const _ as *const c_void,
@@ -27,25 +38,25 @@ mod list_push_front {
 		]);
 	}
 	// endregion
-	// region: ft_list_push_front_03
+	// region: prepend_9_cstr
 	#[test]
-	fn ft_list_push_front_03() {
+	fn prepend_9_cstr() {
 		helper(&[
-			"foo" as *const _ as *const c_void,
-			"bar" as *const _ as *const c_void,
-			"muf" as *const _ as *const c_void,
-			"liz" as *const _ as *const c_void,
-			"kro" as *const _ as *const c_void,
-			"awe" as *const _ as *const c_void,
-			"miu" as *const _ as *const c_void,
-			"odj" as *const _ as *const c_void,
-			"err" as *const _ as *const c_void,
+			c"foo" as *const _ as *const c_void,
+			c"bar" as *const _ as *const c_void,
+			c"muf" as *const _ as *const c_void,
+			c"liz" as *const _ as *const c_void,
+			c"kro" as *const _ as *const c_void,
+			c"awe" as *const _ as *const c_void,
+			c"miu" as *const _ as *const c_void,
+			c"odj" as *const _ as *const c_void,
+			c"err" as *const _ as *const c_void,
 		]);
 	}
 	// endregion
-	// region: ft_list_push_front_04
+	// region: prepend_1_null_pointer_and_12_non_null_pointers
 	#[test]
-	fn ft_list_push_front_04() {
+	fn prepend_1_null_pointer_and_12_non_null_pointers() {
 		helper(&[
 			&0x00i8 as *const _ as *const c_void,
 			&0x1111i16 as *const _ as *const c_void,
