@@ -32,7 +32,6 @@ impl std::convert::From<&[u8]> for AlignedBytes {
 	}
 }
 
-#[inline(always)]
 pub fn helper(s: &[u8]) {
 	type Function = unsafe extern "C" fn(*const c_char) -> *mut c_char;
 

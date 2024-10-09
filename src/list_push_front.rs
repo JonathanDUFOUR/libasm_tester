@@ -1,5 +1,7 @@
-use crate::t_node;
-use std::{ffi::c_void, ptr::null_mut};
+use {
+	crate::t_node,
+	std::{ffi::c_void, ptr::null_mut},
+};
 
 #[link(name = "asm_bonus")]
 extern "C" {
@@ -10,7 +12,6 @@ extern "C" {
 	fn free(ptr: *mut c_void);
 }
 
-#[inline(always)]
 pub fn helper(data: &[*const c_void]) {
 	let mut head: *const t_node = null_mut();
 

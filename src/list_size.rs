@@ -1,7 +1,9 @@
-use crate::t_node;
-use std::{
-	ffi::{c_int, c_void},
-	ptr::null_mut,
+use {
+	crate::t_node,
+	std::{
+		ffi::{c_int, c_void},
+		ptr::null_mut,
+	},
 };
 
 #[link(name = "asm_bonus")]
@@ -9,7 +11,6 @@ extern "C" {
 	fn ft_list_size(list: *const t_node) -> c_int;
 }
 
-#[inline(always)]
 pub fn helper(data: &[*mut c_void]) {
 	assert!(!data.is_empty());
 

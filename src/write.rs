@@ -14,7 +14,6 @@ extern "C" {
 	fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
 }
 
-#[inline(always)]
 pub fn helper(buf: &[u8], count: usize) {
 	assert!(count <= buf.len(), "count must be less than or equal to buf.len()");
 

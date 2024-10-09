@@ -1,19 +1,19 @@
-use crate::t_node;
-use std::{
-	ffi::{c_int, c_void},
-	ptr::null_mut,
+use {
+	crate::t_node,
+	std::{
+		ffi::{c_int, c_void},
+		ptr::null_mut,
+	},
 };
+
+type ComparisonFunction = extern "C" fn(*const c_void, *const c_void) -> c_int;
 
 #[link(name = "asm_bonus")]
 extern "C" {
-	fn ft_list_sort(
-		head: *mut *mut t_node,
-		cmp: extern "C" fn(*const c_void, *const c_void) -> c_int,
-	);
+	fn ft_list_sort(list: *mut *mut t_node, cmp: ComparisonFunction);
 }
 
-#[inline(always)]
-pub fn helper(data: &[*mut c_void], cmp: extern "C" fn(*const c_void, *const c_void) -> c_int) {
+pub fn helper(data: &[*mut c_void], cmp: ComparisonFunction) {
 	assert!(!data.is_empty(), "data must contain at least 1 element");
 
 	let mut nodes: Vec<t_node> =
@@ -32,19 +32,7 @@ pub fn helper(data: &[*mut c_void], cmp: extern "C" fn(*const c_void, *const c_v
 	let mut next: *const t_node = unsafe { (*curr).next };
 
 	while !next.is_null() {
-		if cmp(unsafe { (*curr).data }, unsafe { (*next).data }) > 0 {
-			println!("list (before):");
-			print!("{:?}", unsafe { *((*head).data as *const u8) });
-
-			let mut next: *const t_node = unsafe { (*head).next };
-
-			while !next.is_null() {
-				print!(" -> {:?}", unsafe { *((*next).data as *const u8) });
-				next = unsafe { (*next).next };
-			}
-			println!();
-			panic!();
-		}
+		assert!(cmp(unsafe { (*curr).data }, unsafe { (*next).data }) <= 0);
 		curr = next;
 		next = unsafe { (*curr).next };
 		count += 1;

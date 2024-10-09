@@ -9,7 +9,6 @@ extern "C" {
 	fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
 }
 
-#[inline(always)]
 pub fn helper(path: &str, content: &str, count: usize) {
 	match write(path, content.as_bytes()) {
 		Ok(_) => (),
