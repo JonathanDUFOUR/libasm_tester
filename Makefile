@@ -21,6 +21,7 @@ BONUS_FUNCTIONS := \
 	atoi_base \
 	${addprefix list_, \
 		push_front \
+		remove_if \
 		size \
 		sort \
 	} \
