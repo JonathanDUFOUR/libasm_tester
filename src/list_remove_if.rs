@@ -67,12 +67,6 @@ pub fn helper(data: &[*mut c_void], data_ref: *mut c_void, cmp: ComparisonFuncti
 				v.push(*node);
 			}
 		}
-		for i in 1..v.len() {
-			unsafe { (*v[i - 1]).next = v[i] };
-		}
-		if !v.is_empty() {
-			unsafe { (**v.last().unwrap()).next = null_mut() };
-		}
 
 		v
 		// endregion
@@ -86,8 +80,11 @@ pub fn helper(data: &[*mut c_void], data_ref: *mut c_void, cmp: ComparisonFuncti
 			free_list(head);
 			panic!();
 		}
-		head = unsafe { (*node).next };
-		unsafe { free(node as *mut c_void) };
+
+		let next: *mut t_node = unsafe { (*head).next };
+
+		unsafe { free(head as *mut c_void) };
+		head = next;
 	}
 	if !head.is_null() {
 		free_list(head);
