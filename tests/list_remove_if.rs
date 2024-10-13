@@ -163,9 +163,9 @@ mod list_remove_if {
 	fn list_of_8_non_null_pointers_matching_3_at_the_beginning() {
 		helper(
 			&[
-				0x01 as *mut c_void,
-				0x01 as *mut c_void,
-				0x02 as *mut c_void,
+				0x01 as *mut c_void, // <<<
+				0x01 as *mut c_void, // <<<
+				0x02 as *mut c_void, // <<<
 				0x03 as *mut c_void,
 				0x05 as *mut c_void,
 				0x08 as *mut c_void,
@@ -184,8 +184,8 @@ mod list_remove_if {
 			&[
 				0xA319 as *mut c_void,
 				0x64F1 as *mut c_void,
-				0x20D6 as *mut c_void,
-				0x20D6 as *mut c_void,
+				0x20D6 as *mut c_void, // <<<
+				0x20D6 as *mut c_void, // <<<
 				0xB296 as *mut c_void,
 			],
 			0x20D6 as *mut c_void,
@@ -201,12 +201,12 @@ mod list_remove_if {
 				0x01 as *mut c_void,
 				0x01 as *mut c_void,
 				0x02 as *mut c_void,
-				0x03 as *mut c_void,
-				0x05 as *mut c_void,
-				0x08 as *mut c_void,
-				0x0D as *mut c_void,
-				0x15 as *mut c_void,
-				0x22 as *mut c_void,
+				0x03 as *mut c_void, // <<<
+				0x05 as *mut c_void, // <<<
+				0x08 as *mut c_void, // <<<
+				0x0D as *mut c_void, // <<<
+				0x15 as *mut c_void, // <<<
+				0x22 as *mut c_void, // <<<
 			],
 			0x02 as *mut c_void,
 			match_if_pointer_is_greater,
@@ -218,19 +218,19 @@ mod list_remove_if {
 	fn list_of_15_non_null_pointers_matching_3_at_the_beginning_and_4_in_the_middle() {
 		helper(
 			&[
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
 				&mut (2847438268 as c_uint) as *mut _ as *mut c_void,
 				&mut (4043705122 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
 				&mut (660979405 as c_uint) as *mut _ as *mut c_void,
 				&mut (3705672050 as c_uint) as *mut _ as *mut c_void,
 				&mut (2161945519 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
 				&mut (1214239939 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
-				&mut (42 as c_uint) as *mut _ as *mut c_void,
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
+				&mut (42 as c_uint) as *mut _ as *mut c_void, // <<<
 				&mut (4179093640 as c_uint) as *mut _ as *mut c_void,
 				&mut (3391391544 as c_uint) as *mut _ as *mut c_void,
 			],
@@ -244,11 +244,11 @@ mod list_remove_if {
 	fn list_of_21_non_null_pointers_matching_5_at_the_beginning_and_5_at_the_end() {
 		helper(
 			&[
-				&mut (-11111 as c_short) as *mut _ as *mut c_void,
-				&mut (-2222 as c_short) as *mut _ as *mut c_void,
-				&mut (-333 as c_short) as *mut _ as *mut c_void,
-				&mut (-44 as c_short) as *mut _ as *mut c_void,
-				&mut (-5 as c_short) as *mut _ as *mut c_void,
+				&mut (-11111 as c_short) as *mut _ as *mut c_void, // <<<
+				&mut (-2222 as c_short) as *mut _ as *mut c_void,  // <<<
+				&mut (-333 as c_short) as *mut _ as *mut c_void,   // <<<
+				&mut (-44 as c_short) as *mut _ as *mut c_void,    // <<<
+				&mut (-5 as c_short) as *mut _ as *mut c_void,     // <<<
 				&mut (0 as c_short) as *mut _ as *mut c_void,
 				&mut (5 as c_short) as *mut _ as *mut c_void,
 				&mut (44 as c_short) as *mut _ as *mut c_void,
@@ -260,11 +260,11 @@ mod list_remove_if {
 				&mut (44 as c_short) as *mut _ as *mut c_void,
 				&mut (5 as c_short) as *mut _ as *mut c_void,
 				&mut (0 as c_short) as *mut _ as *mut c_void,
-				&mut (-5 as c_short) as *mut _ as *mut c_void,
-				&mut (-44 as c_short) as *mut _ as *mut c_void,
-				&mut (-333 as c_short) as *mut _ as *mut c_void,
-				&mut (-2222 as c_short) as *mut _ as *mut c_void,
-				&mut (-11111 as c_short) as *mut _ as *mut c_void,
+				&mut (-5 as c_short) as *mut _ as *mut c_void, // <<<
+				&mut (-44 as c_short) as *mut _ as *mut c_void, // <<<
+				&mut (-333 as c_short) as *mut _ as *mut c_void, // <<<
+				&mut (-2222 as c_short) as *mut _ as *mut c_void, // <<<
+				&mut (-11111 as c_short) as *mut _ as *mut c_void, // <<<
 			],
 			&mut (0 as c_short) as *mut _ as *mut c_void,
 			match_if_value_is_lower::<c_short>,
@@ -276,38 +276,30 @@ mod list_remove_if {
 	fn list_of_23_non_null_pointers_matching_7_in_the_middle_and_2_at_the_end() {
 		helper(
 			&[
-				&mut CString::new("Comme toi...").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("...").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi que je regarde tout bas").unwrap() as *mut _
-					as *mut c_void,
-				&mut CString::new("Comme toi qui dort en rêvant à quoi ?").unwrap() as *mut _
-					as *mut c_void,
-				&mut CString::new("Comme toi...").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("...").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Elle s'appelait Sarah, elle n'avait pas huit ans").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("Sa vie c'était douceur, rêve et nuages blancs").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("Mais d'autres gens en avaient décidé autrement").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("Elle avait tes yeux clairs, et elle avait ton âge").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("C'était une petite fille sans histoire et très sage").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("Mais elle n'est pas née comme toi, ici et maintenant").unwrap()
-					as *mut _ as *mut c_void,
-				&mut CString::new("Comme toiii !...").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toii !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
-				&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("compliance").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("preference").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("scramble").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("steep").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("palace").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("marine").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("punch").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("slice").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("represent").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("tournament").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("mechanism").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("healthy").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("cancer").unwrap() as *mut _ as *mut c_void,
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
+				&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void, // <<<
 			],
-			&mut CString::new("Comme toi !").unwrap() as *mut _ as *mut c_void,
+			&mut CString::new("freshman").unwrap() as *mut _ as *mut c_void,
 			match_if_value_is_equal::<CString>,
 		);
 	}
@@ -318,28 +310,28 @@ mod list_remove_if {
 	) {
 		helper(
 			&[
-				&mut (921360282394233230 as c_long) as *mut _ as *mut c_void,
-				&mut (1571612511276684948 as c_long) as *mut _ as *mut c_void,
+				&mut (921360282394233230 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (1571612511276684948 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-5708060106852167343 as c_long) as *mut _ as *mut c_void,
 				&mut (-1476480142480198921 as c_long) as *mut _ as *mut c_void,
 				&mut (-8523462311463709172 as c_long) as *mut _ as *mut c_void,
 				&mut (-7246502463767444635 as c_long) as *mut _ as *mut c_void,
 				&mut (-135668454129316970 as c_long) as *mut _ as *mut c_void,
 				&mut (-9058365951619180425 as c_long) as *mut _ as *mut c_void,
-				&mut (3562467615391456229 as c_long) as *mut _ as *mut c_void,
-				&mut (8671971336970510757 as c_long) as *mut _ as *mut c_void,
+				&mut (3562467615391456229 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (8671971336970510757 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-3250978492703263022 as c_long) as *mut _ as *mut c_void,
-				&mut (2906590648220347463 as c_long) as *mut _ as *mut c_void,
+				&mut (2906590648220347463 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-2238007579530703383 as c_long) as *mut _ as *mut c_void,
 				&mut (-457748444871943744 as c_long) as *mut _ as *mut c_void,
 				&mut (-2070947719325526716 as c_long) as *mut _ as *mut c_void,
 				&mut (-8508097120030787534 as c_long) as *mut _ as *mut c_void,
-				&mut (6279172540919228346 as c_long) as *mut _ as *mut c_void,
-				&mut (2250136196831276275 as c_long) as *mut _ as *mut c_void,
+				&mut (6279172540919228346 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (2250136196831276275 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-7642723434123957135 as c_long) as *mut _ as *mut c_void,
 				&mut (-3218426017053640173 as c_long) as *mut _ as *mut c_void,
 				&mut (-5373652984392797276 as c_long) as *mut _ as *mut c_void,
-				&mut (5354580256487663234 as c_long) as *mut _ as *mut c_void,
+				&mut (5354580256487663234 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-135605237232227971 as c_long) as *mut _ as *mut c_void,
 				&mut (-5712077679499071445 as c_long) as *mut _ as *mut c_void,
 				&mut (-932697172971571919 as c_long) as *mut _ as *mut c_void,
@@ -350,16 +342,16 @@ mod list_remove_if {
 				&mut (-3019121609358016616 as c_long) as *mut _ as *mut c_void,
 				&mut (-3136389838210946005 as c_long) as *mut _ as *mut c_void,
 				&mut (-9008188037258281796 as c_long) as *mut _ as *mut c_void,
-				&mut (6828792323936056707 as c_long) as *mut _ as *mut c_void,
-				&mut (3518870533414385520 as c_long) as *mut _ as *mut c_void,
-				&mut (3920778999384813829 as c_long) as *mut _ as *mut c_void,
+				&mut (6828792323936056707 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (3518870533414385520 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (3920778999384813829 as c_long) as *mut _ as *mut c_void, // <<<
 				&mut (-7434320870015286470 as c_long) as *mut _ as *mut c_void,
 				&mut (-7580130461646989212 as c_long) as *mut _ as *mut c_void,
 				&mut (-8787050484318530035 as c_long) as *mut _ as *mut c_void,
-				&mut (8992865503538629231 as c_long) as *mut _ as *mut c_void,
-				&mut (7864456436672958725 as c_long) as *mut _ as *mut c_void,
-				&mut (3933785492086178377 as c_long) as *mut _ as *mut c_void,
-				&mut (3047676419120875738 as c_long) as *mut _ as *mut c_void,
+				&mut (8992865503538629231 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (7864456436672958725 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (3933785492086178377 as c_long) as *mut _ as *mut c_void, // <<<
+				&mut (3047676419120875738 as c_long) as *mut _ as *mut c_void, // <<<
 			],
 			&mut (9876543210 as c_long) as *mut _ as *mut c_void,
 			match_if_value_is_greater::<c_long>,
