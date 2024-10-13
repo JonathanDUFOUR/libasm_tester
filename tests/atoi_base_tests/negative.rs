@@ -1,4 +1,4 @@
-use libasm_tester::atoi_base::helper;
+use super::shared::helper;
 
 // region: s_has_minus_5_in_base_2
 #[test]

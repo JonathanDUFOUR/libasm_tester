@@ -1,4 +1,4 @@
-use libasm_tester::atoi_base::helper;
+use super::shared::helper;
 
 // region: base_is_empty
 #[test]
