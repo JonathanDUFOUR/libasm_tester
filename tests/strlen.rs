@@ -4,8 +4,6 @@ mod strlen {
 
 	#[link(name = "asm")]
 	extern "C" {
-		fn ft_strlen_sa(s: *const c_char) -> usize;
-		fn ft_strlen_su(s: *const c_char) -> usize;
 		fn ft_strlen(s: *const c_char) -> usize;
 	}
 
@@ -35,11 +33,7 @@ mod strlen {
 	pub fn helper(s: &[u8]) {
 		type Function = unsafe extern "C" fn(*const c_char) -> usize;
 
-		const FUNCTIONS: &[Function] = &[
-			ft_strlen_sa,
-			ft_strlen_su,
-			ft_strlen,
-		];
+		const FUNCTIONS: &[Function] = &[ft_strlen];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");

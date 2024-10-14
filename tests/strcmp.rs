@@ -4,9 +4,6 @@ mod strcmp {
 
 	#[link(name = "asm")]
 	extern "C" {
-		fn ft_strcmp_s0a_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
-		fn ft_strcmp_s0u_s1a(s0: *const c_char, s1: *const c_char) -> c_int;
-		fn ft_strcmp_s0u_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
 		fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 	}
 
@@ -36,12 +33,7 @@ mod strcmp {
 	pub fn helper(s0: &[u8], s1: &[u8]) {
 		type Function = unsafe extern "C" fn(*const c_char, *const c_char) -> c_int;
 
-		const FUNCTIONS: &[Function] = &[
-			ft_strcmp_s0a_s1u,
-			ft_strcmp_s0u_s1a,
-			ft_strcmp_s0u_s1u,
-			ft_strcmp,
-		];
+		const FUNCTIONS: &[Function] = &[ft_strcmp];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");

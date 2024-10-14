@@ -4,9 +4,6 @@ mod strcpy {
 
 	#[link(name = "asm")]
 	extern "C" {
-		fn ft_strcpy_dsta_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-		fn ft_strcpy_dstu_srca(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-		fn ft_strcpy_dstu_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 		fn ft_strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 	}
 
@@ -36,12 +33,7 @@ mod strcpy {
 	pub fn helper(src: &[u8]) {
 		type Function = unsafe extern "C" fn(*mut c_char, *const c_char) -> *mut c_char;
 
-		const FUNCTIONS: &[Function] = &[
-			ft_strcpy_dsta_srcu,
-			ft_strcpy_dstu_srca,
-			ft_strcpy_dstu_srcu,
-			ft_strcpy,
-		];
+		const FUNCTIONS: &[Function] = &[ft_strcpy];
 		const ALIGN: usize = std::mem::align_of::<AlignedBytes>();
 
 		assert!(BUFFER_SIZE >= ALIGN, "BUFFER_SIZE must be greater than or equal to ALIGN");
