@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod list_size {
 	use {
-		libasm_tester::t_node,
+		libasm_tester::Node,
 		std::{
 			ffi::{c_int, c_void},
 			ptr::null_mut,
@@ -10,14 +10,14 @@ mod list_size {
 
 	#[link(name = "asm_bonus")]
 	extern "C" {
-		fn ft_list_size(list: *const t_node) -> c_int;
+		fn ft_list_size(list: *const Node) -> c_int;
 	}
 
 	pub fn helper(data: &[*mut c_void]) {
 		assert!(!data.is_empty());
 
-		let mut nodes: Vec<t_node> =
-			data.iter().map(|data| t_node { data: *data, next: null_mut() }).collect();
+		let mut nodes: Vec<Node> =
+			data.iter().map(|data| Node { data: *data, next: null_mut() }).collect();
 
 		for i in 0..nodes.len() - 1 {
 			nodes[i].next = &mut nodes[i + 1];

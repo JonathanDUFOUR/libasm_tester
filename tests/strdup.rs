@@ -49,7 +49,7 @@ mod strdup {
 		let len: usize = s.len();
 
 		for function in FUNCTIONS {
-			fn test_with_given_offset(
+			fn test_once(
 				// region: parameters
 				function: &Function,
 				s: &[u8],
@@ -109,10 +109,10 @@ mod strdup {
 			let mut s: AlignedBytes = s.into();
 			let s: &mut [u8] = &mut s.0;
 
-			test_with_given_offset(function, s[..=len].as_ref());
+			test_once(function, s[..=len].as_ref());
 			for offset in 1..ALIGN {
 				s[offset - 1..].copy_within(..len, 1);
-				test_with_given_offset(function, s[offset..=offset + len].as_ref());
+				test_once(function, s[offset..=offset + len].as_ref());
 			}
 		}
 	}

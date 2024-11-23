@@ -48,7 +48,7 @@ mod memcpy {
 			use rand::{rngs::ThreadRng, thread_rng, Rng};
 
 			#[inline(always)]
-			fn test_with_given_offset(
+			fn test_once(
 				// region: parameters
 				function: &Function,
 				dst: &mut [u8],
@@ -137,7 +137,7 @@ mod memcpy {
 			for dst_offset in 0..ALIGN {
 				let dst: &mut [u8] = &mut dst[dst_offset..];
 
-				test_with_given_offset(function, dst, src, n);
+				test_once(function, dst, src, n);
 			}
 			for src_offset in 1..ALIGN {
 				src[src_offset - 1..].copy_within(..n, 1);
@@ -147,7 +147,7 @@ mod memcpy {
 
 				for dst_offset in 0..ALIGN {
 					let dst: &mut [u8] = &mut dst[dst_offset..];
-					test_with_given_offset(function, dst, src, n);
+					test_once(function, dst, src, n);
 				}
 			}
 		}

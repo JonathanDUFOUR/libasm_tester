@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod list_push_front {
 	use {
-		libasm_tester::t_node,
+		libasm_tester::Node,
 		std::{
 			ffi::c_void,
 			ptr::{null, null_mut},
@@ -10,7 +10,7 @@ mod list_push_front {
 
 	#[link(name = "asm_bonus")]
 	extern "C" {
-		fn ft_list_push_front(list: *mut *const t_node, data: *const c_void) -> ();
+		fn ft_list_push_front(list: *mut *const Node, data: *const c_void) -> ();
 	}
 
 	extern "C" {
@@ -18,7 +18,7 @@ mod list_push_front {
 	}
 
 	pub fn helper(data: &[*const c_void]) {
-		let mut head: *const t_node = null_mut();
+		let mut head: *const Node = null_mut();
 
 		unsafe { ft_list_push_front(&mut head, data[0]) };
 		assert!(!head.is_null());
@@ -28,7 +28,7 @@ mod list_push_front {
 			assert!(!head.is_null());
 			assert_eq!(unsafe { (*head).data } as *const c_void, data[i0]);
 
-			let mut current: *const t_node = unsafe { (*head).next };
+			let mut current: *const Node = unsafe { (*head).next };
 
 			for i1 in (0..i0).rev() {
 				assert!(!current.is_null());
@@ -37,7 +37,7 @@ mod list_push_front {
 			}
 		}
 		while !head.is_null() {
-			let next: *const t_node = unsafe { (*head).next };
+			let next: *const Node = unsafe { (*head).next };
 
 			unsafe { free(head as *mut c_void) };
 			head = next;

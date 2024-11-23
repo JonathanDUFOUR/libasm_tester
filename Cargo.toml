@@ -1,34 +1,34 @@
 [package]
-name = "libasm_tester"
-version = "0.1.0"
-authors = ["Jonathan DUFOUR"]
-edition = "2021"
+       name = "libasm_tester"
+    version = "0.1.0"
+    authors = ["Jonathan DUFOUR"]
+    edition = "2021"
 description = "A bunch of tests for the libasm project of the 42 School"
 
 [dependencies]
 errno = "0.3.9"
-rand = "0.8.5"
-libc = "0.2.159"
+ libc = "0.2.159"
+ rand = "0.8.5"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
 
 [[bench]]
-name = "ft_strdup"
+   name = "ft_strdup"
 harness = false
 
 [[bench]]
-name = "ft_strlen"
+   name = "ft_strlen"
 harness = false
 
 [[bench]]
-name = "ft_strcmp"
+   name = "ft_strcmp"
 harness = false
 
 [[bench]]
-name = "ft_strcpy"
+   name = "ft_strcpy"
 harness = false
 
 [[bench]]
-name = "ft_memcpy"
+   name = "ft_memcpy"
 harness = false

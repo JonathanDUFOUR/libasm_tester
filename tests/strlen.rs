@@ -45,7 +45,7 @@ mod strlen {
 		let len: usize = s.len();
 
 		for function in FUNCTIONS {
-			fn test_with_given_offset(
+			fn test_once(
 				// region: parameters
 				function: &Function,
 				s: &[u8],
@@ -80,10 +80,10 @@ mod strlen {
 			let mut s: AlignedBytes = s.into();
 			let s: &mut [u8] = &mut s.0;
 
-			test_with_given_offset(function, s, len);
+			test_once(function, s, len);
 			for offset in 1..ALIGN {
 				s[offset - 1..].copy_within(..len, 1);
-				test_with_given_offset(function, s[offset..].as_ref(), len);
+				test_once(function, s[offset..].as_ref(), len);
 			}
 		}
 	}

@@ -59,7 +59,7 @@ mod strcmp {
 			};
 
 			#[inline(always)]
-			fn test_with_given_offsets(
+			fn test_once(
 				// region: parameters
 				function: &Function,
 				a: &[u8],
@@ -124,15 +124,15 @@ mod strcmp {
 
 			rng.fill(s0[s0_len..].as_mut());
 			rng.fill(s1[s1_len..].as_mut());
-			test_with_given_offsets(function, s0, s1, s0_len, s1_len);
-			test_with_given_offsets(function, s1, s0, s1_len, s0_len);
+			test_once(function, s0, s1, s0_len, s1_len);
+			test_once(function, s1, s0, s1_len, s0_len);
 			for s0_offset in 1..ALIGN {
 				s0[s0_offset - 1..].copy_within(..s0_len, 1);
 
 				let s0: &[u8] = &s0[s0_offset..];
 
-				test_with_given_offsets(function, s0, s1, s0_len, s1_len);
-				test_with_given_offsets(function, s1, s0, s1_len, s0_len);
+				test_once(function, s0, s1, s0_len, s1_len);
+				test_once(function, s1, s0, s1_len, s0_len);
 			}
 			for s1_offset in 1..ALIGN {
 				s0.copy_within(ALIGN - 1..ALIGN - 1 + s0_len, 0);
@@ -140,15 +140,15 @@ mod strcmp {
 
 				let s1: &[u8] = &s1[s1_offset..];
 
-				test_with_given_offsets(function, s0, s1, s0_len, s1_len);
-				test_with_given_offsets(function, s1, s0, s1_len, s0_len);
+				test_once(function, s0, s1, s0_len, s1_len);
+				test_once(function, s1, s0, s1_len, s0_len);
 				for s0_offset in 1..ALIGN {
 					s0[s0_offset - 1..].copy_within(..s0_len, 1);
 
 					let s0: &[u8] = &s0[s0_offset..];
 
-					test_with_given_offsets(function, s0, s1, s0_len, s1_len);
-					test_with_given_offsets(function, s1, s0, s1_len, s0_len);
+					test_once(function, s0, s1, s0_len, s1_len);
+					test_once(function, s1, s0, s1_len, s0_len);
 				}
 			}
 		}

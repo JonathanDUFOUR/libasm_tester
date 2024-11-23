@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod list_remove_if {
 	use {
-		libasm_tester::t_node,
+		libasm_tester::Node,
 		libc::{free, malloc},
 		std::{
 			ffi::{c_int, c_long, c_short, c_uint, c_void, CString},
@@ -15,7 +15,7 @@ mod list_remove_if {
 	#[link(name = "asm_bonus")]
 	extern "C" {
 		fn ft_list_remove_if(
-			list: *mut *mut t_node,
+			list: *mut *mut Node,
 			data_ref: *const c_void,
 			cmp: ComparisonFunction,
 			data_drop: extern "C" fn(*mut c_void),
@@ -25,9 +25,9 @@ mod list_remove_if {
 	extern "C" fn data_drop(_: *mut c_void) {}
 
 	pub fn helper(data: &[*mut c_void], data_ref: *mut c_void, cmp: ComparisonFunction) {
-		fn free_list(mut head: *mut t_node) {
+		fn free_list(mut head: *mut Node) {
 			while head.is_null() {
-				let next: *mut t_node = unsafe { (*head).next };
+				let next: *mut Node = unsafe { (*head).next };
 
 				unsafe { free(head as *mut c_void) };
 				head = next;
@@ -36,12 +36,12 @@ mod list_remove_if {
 
 		assert!(!data.is_empty(), "data must contain at least 1 element");
 
-		let nodes: Vec<*mut t_node> = {
+		let nodes: Vec<*mut Node> = {
 			// region: nodes
-			let mut v: Vec<*mut t_node> = Vec::with_capacity(data.len());
+			let mut v: Vec<*mut Node> = Vec::with_capacity(data.len());
 
 			for i in 0..data.len() {
-				let node: *mut t_node = unsafe { malloc(size_of::<t_node>()) } as *mut t_node;
+				let node: *mut Node = unsafe { malloc(size_of::<Node>()) } as *mut Node;
 
 				if node.is_null() {
 					for node in &v {
@@ -60,9 +60,9 @@ mod list_remove_if {
 			v
 			// endregion
 		};
-		let expected_nodes: Vec<*mut t_node> = {
+		let expected_nodes: Vec<*mut Node> = {
 			// region: expected_nodes
-			let mut v: Vec<*mut t_node> = Vec::new();
+			let mut v: Vec<*mut Node> = Vec::new();
 
 			for node in &nodes {
 				if cmp(unsafe { (**node).data }, data_ref) != 0 {
@@ -73,7 +73,7 @@ mod list_remove_if {
 			v
 			// endregion
 		};
-		let mut head: *mut t_node = nodes[0];
+		let mut head: *mut Node = nodes[0];
 
 		unsafe { ft_list_remove_if(&mut head, data_ref, cmp, data_drop) };
 
@@ -83,7 +83,7 @@ mod list_remove_if {
 				panic!();
 			}
 
-			let next: *mut t_node = unsafe { (*head).next };
+			let next: *mut Node = unsafe { (*head).next };
 
 			unsafe { free(head as *mut c_void) };
 			head = next;
@@ -145,7 +145,7 @@ mod list_remove_if {
 		}
 		extern "C" fn data_drop(_: *mut c_void) {}
 
-		let mut head: *mut t_node = null_mut();
+		let mut head: *mut Node = null_mut();
 		let data_ref: *mut c_void = null_mut();
 
 		unsafe { ft_list_remove_if(&mut head, data_ref, cmp, data_drop) };

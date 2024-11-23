@@ -51,7 +51,7 @@ pub fn helper(s: &[u8], b: &[u8], expected: c_int) {
 		use rand::{rngs::ThreadRng, thread_rng, Rng};
 
 		#[inline(always)]
-		fn test_with_given_offsets(
+		fn test_once(
 			// region: parameters
 			function: &Function,
 			s: &[u8],
@@ -97,13 +97,13 @@ pub fn helper(s: &[u8], b: &[u8], expected: c_int) {
 
 		rng.fill(s[s_len..].as_mut());
 		rng.fill(b[b_len..].as_mut());
-		test_with_given_offsets(function, s, b, s_len, b_len, expected);
+		test_once(function, s, b, s_len, b_len, expected);
 		for s_offset in 1..ALIGN {
 			s[s_offset - 1..].copy_within(..s_len, 1);
 
 			let s: &[u8] = &s[s_offset..];
 
-			test_with_given_offsets(function, s, b, s_len, b_len, expected);
+			test_once(function, s, b, s_len, b_len, expected);
 		}
 		for b_offset in 1..ALIGN {
 			s.copy_within(ALIGN - 1..ALIGN - 1 + s_len, 0);
@@ -111,13 +111,13 @@ pub fn helper(s: &[u8], b: &[u8], expected: c_int) {
 
 			let b: &[u8] = &b[b_offset..];
 
-			test_with_given_offsets(function, s, b, s_len, b_len, expected);
+			test_once(function, s, b, s_len, b_len, expected);
 			for s_offset in 1..ALIGN {
 				s[s_offset - 1..].copy_within(..s_len, 1);
 
 				let s: &[u8] = &s[s_offset..];
 
-				test_with_given_offsets(function, s, b, s_len, b_len, expected);
+				test_once(function, s, b, s_len, b_len, expected);
 			}
 		}
 	}

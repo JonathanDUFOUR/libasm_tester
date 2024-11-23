@@ -48,7 +48,7 @@ mod strcpy {
 			use rand::{rngs::ThreadRng, thread_rng, Rng};
 
 			#[inline(always)]
-			fn test_with_given_offsets(
+			fn test_once(
 				// region: parameters
 				function: &Function,
 				dst: &mut [u8],
@@ -136,7 +136,7 @@ mod strcpy {
 			for dst_offset in 0..ALIGN {
 				let dst: &mut [u8] = &mut dst[dst_offset..];
 
-				test_with_given_offsets(function, dst, src, src_len);
+				test_once(function, dst, src, src_len);
 			}
 			for src_offset in 1..ALIGN {
 				src[src_offset - 1..].copy_within(..src_len, 1);
@@ -147,7 +147,7 @@ mod strcpy {
 				for dst_offset in 0..ALIGN {
 					let dst: &mut [u8] = &mut dst[dst_offset..];
 
-					test_with_given_offsets(function, dst, src, src_len);
+					test_once(function, dst, src, src_len);
 				}
 			}
 		}
