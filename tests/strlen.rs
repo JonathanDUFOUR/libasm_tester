@@ -3,13 +3,13 @@ mod strlen {
 	use std::ffi::c_char;
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_strlen(s: *const c_char) -> usize;
+	unsafe extern "C" {
+		unsafe fn ft_strlen(s: *const c_char) -> usize;
 	}
 
-	const BUFFER_SIZE: usize = 1_056;
+	const BUFFER_SIZE: usize = 1_280;
 
-	#[repr(align(32))]
+	#[repr(align(256))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 
 	impl AlignedBytes {
@@ -22,9 +22,7 @@ mod strlen {
 		fn from(bytes: &[u8]) -> Self {
 			let mut aligned_bytes: Self = Self::new();
 
-			for (i, byte) in bytes.iter().enumerate() {
-				aligned_bytes.0[i] = *byte;
-			}
+			bytes.iter().enumerate().for_each(|(i, byte)| aligned_bytes.0[i] = *byte);
 
 			aligned_bytes
 		}
@@ -45,19 +43,12 @@ mod strlen {
 		let len: usize = s.len();
 
 		for function in FUNCTIONS {
-			fn test_once(
-				// region: parameters
-				function: &Function,
-				s: &[u8],
-				len: usize,
-				// endregion
-			) {
-				// region: body
+			fn test_once(function: &Function, s: &[u8], len: usize) {
 				let p: *const c_char = s.as_ptr() as *const c_char;
 				let returned: usize = unsafe { function(p) };
-				let returned_wrong_val: bool = returned != len;
+				let returned_wrong_value: bool = returned != len;
 
-				if returned_wrong_val {
+				if returned_wrong_value {
 					const MAX_ELEM_BY_LINE: usize = 16;
 
 					println!("       p: {:#X}", p as usize);
@@ -74,7 +65,6 @@ mod strlen {
 					}
 					panic!();
 				}
-				// endregion
 			}
 
 			let mut s: AlignedBytes = s.into();
@@ -4131,9 +4121,9 @@ mod strlen {
 		]);
 	}
 	// endregion
-	// region: count_1001_bytes
+	// region: count_1_001_bytes
 	#[test]
-	fn count_1001_bytes() {
+	fn count_1_001_bytes() {
 		helper(&[
 			0x6E, 0x4A, 0x41, 0xFA, 0xCA, 0xF1, 0xD9, 0x26, 0x70, 0x72, 0xD4, 0x55, 0x60, 0x9C,
 			0xAD, 0x16, 0xDC, 0x7A, 0xC7, 0x1F, 0xEB, 0x2D, 0xA0, 0xB4, 0x99, 0xC2, 0x33, 0x72,
@@ -4210,9 +4200,9 @@ mod strlen {
 		]);
 	}
 	// endregion
-	// region: count_1012_bytes
+	// region: count_1_012_bytes
 	#[test]
-	fn count_1012_bytes() {
+	fn count_1_012_bytes() {
 		helper(&[
 			0x3B, 0x6E, 0xF5, 0x5A, 0x82, 0xC2, 0x9E, 0x52, 0xA5, 0x91, 0x95, 0xB7, 0x57, 0x9D,
 			0x6D, 0xCD, 0x41, 0xAF, 0x56, 0xC2, 0x45, 0xAF, 0x3A, 0x14, 0xF7, 0x3A, 0x22, 0xEF,
@@ -4290,9 +4280,9 @@ mod strlen {
 		]);
 	}
 	// endregion
-	// region: count_1023_bytes
+	// region: count_1_023_bytes
 	#[test]
-	fn count_1023_bytes() {
+	fn count_1_023_bytes() {
 		helper(&[
 			0xE4, 0x5E, 0x23, 0x76, 0x6C, 0x65, 0x64, 0xCB, 0xFB, 0x4E, 0xBC, 0x5D, 0xEB, 0xFA,
 			0xE7, 0x0E, 0x30, 0x62, 0x18, 0x8B, 0x7D, 0xE7, 0x13, 0xCD, 0xF0, 0x87, 0x2E, 0x7C,
@@ -4371,9 +4361,9 @@ mod strlen {
 		]);
 	}
 	// endregion
-	// region: count_1024_bytes
+	// region: count_1_024_bytes
 	#[test]
-	fn count_1024_bytes() {
+	fn count_1_024_bytes() {
 		helper(&[
 			0x46, 0x99, 0x9F, 0x37, 0x8A, 0x34, 0xEA, 0xE0, 0xDC, 0x97, 0xBF, 0x59, 0xFE, 0x36,
 			0x17, 0xDC, 0x72, 0x09, 0x5B, 0x20, 0x62, 0x7B, 0x76, 0xAB, 0xDD, 0xBF, 0x1C, 0xC4,

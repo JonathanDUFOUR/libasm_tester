@@ -3,15 +3,15 @@ use {
 	std::ffi::c_char,
 };
 
-extern "C" {
-	fn strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+unsafe extern "C" {
+	unsafe fn strcpy(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 }
 
 #[link(name = "asm")]
-extern "C" {
-	fn ft_strcpy_dsta_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-	fn ft_strcpy_dstu_srca(dst: *mut c_char, src: *const c_char) -> *mut c_char;
-	fn ft_strcpy_dstu_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+unsafe extern "C" {
+	unsafe fn ft_strcpy_dsta_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+	unsafe fn ft_strcpy_dstu_srca(dst: *mut c_char, src: *const c_char) -> *mut c_char;
+	unsafe fn ft_strcpy_dstu_srcu(dst: *mut c_char, src: *const c_char) -> *mut c_char;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -20,10 +20,10 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const MAX_INPUT_SIZE: usize = 10_000;
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
-	const DST_OFFSET: usize = 4077;
+	const DST_OFFSET: usize = 4_077;
 	assert!(DST_OFFSET < DST_ALIGN, "DST_OFFSET must be less than DST_ALIGN");
 
-	const SRC_OFFSET: usize = 4077;
+	const SRC_OFFSET: usize = 4_077;
 	assert!(SRC_OFFSET < SRC_ALIGN, "SRC_OFFSET must be less than SRC_ALIGN");
 
 	const DST_ALIGN: usize = std::mem::align_of::<AlignedDst>();

@@ -3,14 +3,14 @@ use {
 	std::ffi::c_char,
 };
 
-extern "C" {
-	fn strlen(s: *const c_char) -> usize;
+unsafe extern "C" {
+	unsafe fn strlen(s: *const c_char) -> usize;
 }
 
 #[link(name = "asm")]
-extern "C" {
-	fn ft_strlen_sa(s: *const c_char) -> usize;
-	fn ft_strlen_su(s: *const c_char) -> usize;
+unsafe extern "C" {
+	unsafe fn ft_strlen_sa(s: *const c_char) -> usize;
+	unsafe fn ft_strlen_su(s: *const c_char) -> usize;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -19,7 +19,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const MAX_INPUT_SIZE: usize = 10_000;
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
-	const OFFSET: usize = 4077;
+	const OFFSET: usize = 4_077;
 	assert!(OFFSET < ALIGN, "OFFSET must be less than ALIGN");
 
 	const ALIGN: usize = std::mem::align_of::<AlignedCChars>();

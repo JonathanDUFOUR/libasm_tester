@@ -3,8 +3,8 @@ mod strcmp {
 	use std::ffi::{c_char, c_int};
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
+	unsafe extern "C" {
+		unsafe fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 	}
 
 	const BUFFER_SIZE: usize = 1_057;
@@ -22,9 +22,7 @@ mod strcmp {
 		fn from(bytes: &[u8]) -> Self {
 			let mut aligned_bytes: Self = Self::new();
 
-			for (i, byte) in bytes.iter().enumerate() {
-				aligned_bytes.0[i] = *byte;
-			}
+			bytes.iter().enumerate().for_each(|(i, byte)| aligned_bytes.0[i] = *byte);
 
 			aligned_bytes
 		}
@@ -59,16 +57,7 @@ mod strcmp {
 			};
 
 			#[inline(always)]
-			fn test_once(
-				// region: parameters
-				function: &Function,
-				a: &[u8],
-				b: &[u8],
-				a_len: usize,
-				b_len: usize,
-				// endregion
-			) {
-				// region: body
+			fn test_once(function: &Function, a: &[u8], b: &[u8], a_len: usize, b_len: usize) {
 				let a_ptr: *const c_char = a.as_ptr() as *const c_char;
 				let b_ptr: *const c_char = b.as_ptr() as *const c_char;
 				let expected: Ordering = a[..a_len].cmp(&b[..b_len]);
@@ -113,7 +102,6 @@ mod strcmp {
 					}
 					panic!();
 				}
-				// endregion
 			}
 
 			let mut rng: ThreadRng = thread_rng();
@@ -4399,9 +4387,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_1001_equal_bytes
+	// region: compare_1_001_equal_bytes
 	#[test]
-	fn compare_1001_equal_bytes() {
+	fn compare_1_001_equal_bytes() {
 		const S: &[u8] = &[
 			0x38, 0x4E, 0xDE, 0x42, 0xB6, 0x4E, 0x73, 0x82, 0x62, 0x0D, 0x56, 0xB7, 0xC8, 0x5D,
 			0x46, 0x86, 0xAC, 0x3A, 0x67, 0xBF, 0x2B, 0xD3, 0xE8, 0xBD, 0x04, 0xAE, 0xAB, 0x22,
@@ -4480,9 +4468,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_1012_equal_bytes
+	// region: compare_1_012_equal_bytes
 	#[test]
-	fn compare_1012_equal_bytes() {
+	fn compare_1_012_equal_bytes() {
 		const S: &[u8] = &[
 			0xC6, 0x13, 0x2D, 0x73, 0x65, 0x02, 0x37, 0xD0, 0xEA, 0xCF, 0x02, 0xAC, 0xBD, 0xFA,
 			0x5A, 0xE4, 0x24, 0xAE, 0x67, 0xD3, 0xEF, 0x19, 0x69, 0xF3, 0xF5, 0x8D, 0x8C, 0xAB,
@@ -4562,9 +4550,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_1023_equal_bytes
+	// region: compare_1_023_equal_bytes
 	#[test]
-	fn compare_1023_equal_bytes() {
+	fn compare_1_023_equal_bytes() {
 		const S: &[u8] = &[
 			0x09, 0x40, 0x74, 0xB9, 0x1B, 0x25, 0xBB, 0x2B, 0x78, 0x54, 0x4E, 0x9D, 0x99, 0x86,
 			0x4B, 0x7F, 0x6A, 0x49, 0x49, 0xC3, 0x8A, 0x1C, 0xAD, 0x59, 0xF5, 0x6D, 0x49, 0x6B,
@@ -4645,9 +4633,9 @@ mod strcmp {
 		helper(S, S);
 	}
 	// endregion
-	// region: compare_1024_equal_bytes
+	// region: compare_1_024_equal_bytes
 	#[test]
-	fn compare_1024_equal_bytes() {
+	fn compare_1_024_equal_bytes() {
 		const S: &[u8] = &[
 			0xCC, 0xB8, 0x78, 0xB9, 0xA1, 0xC7, 0xEF, 0x58, 0xC1, 0xB5, 0x4A, 0x2F, 0x23, 0x44,
 			0x50, 0x04, 0xA0, 0x1A, 0x45, 0x2B, 0xE7, 0x03, 0xE2, 0x0F, 0x10, 0x59, 0x73, 0xB9,
@@ -12516,9 +12504,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_1001_bytes
+	// region: compare_bytes_that_differ_after_1_001_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_1001_bytes() {
+	fn compare_bytes_that_differ_after_1_001_bytes() {
 		helper(
 			&[
 				0x26, 0x5F, 0x9A, 0x68, 0x17, 0xE2, 0x81, 0xED, 0xCC, 0x11, 0xD9, 0x15, 0x41, 0xA8,
@@ -12671,9 +12659,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_1012_bytes
+	// region: compare_bytes_that_differ_after_1_012_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_1012_bytes() {
+	fn compare_bytes_that_differ_after_1_012_bytes() {
 		helper(
 			&[
 				0x9B, 0xBA, 0x65, 0x34, 0x2E, 0x6C, 0xC4, 0x0F, 0x2D, 0x5B, 0xAD, 0xE1, 0x07, 0x54,
@@ -12828,9 +12816,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_1023_bytes
+	// region: compare_bytes_that_differ_after_1_023_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_1023_bytes() {
+	fn compare_bytes_that_differ_after_1_023_bytes() {
 		helper(
 			&[
 				0xF3, 0x75, 0x69, 0x24, 0x1D, 0x7A, 0x33, 0x29, 0xCC, 0x0A, 0x31, 0x4D, 0x83, 0xA8,
@@ -12987,9 +12975,9 @@ mod strcmp {
 		);
 	}
 	// endregion
-	// region: compare_bytes_that_differ_after_1024_bytes
+	// region: compare_bytes_that_differ_after_1_024_bytes
 	#[test]
-	fn compare_bytes_that_differ_after_1024_bytes() {
+	fn compare_bytes_that_differ_after_1_024_bytes() {
 		helper(
 			&[
 				0x36, 0x8E, 0xF5, 0x3D, 0xD4, 0x21, 0x25, 0x7F, 0xB3, 0xC5, 0xAC, 0x20, 0x93, 0x93,

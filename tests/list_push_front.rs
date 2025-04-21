@@ -9,12 +9,12 @@ mod list_push_front {
 	};
 
 	#[link(name = "asm_bonus")]
-	extern "C" {
-		fn ft_list_push_front(list: *mut *const Node, data: *const c_void) -> ();
+	unsafe extern "C" {
+		unsafe fn ft_list_push_front(list: *mut *const Node, data: *const c_void) -> ();
 	}
 
-	extern "C" {
-		fn free(ptr: *mut c_void);
+	unsafe extern "C" {
+		unsafe fn free(ptr: *mut c_void);
 	}
 
 	pub fn helper(data: &[*const c_void]) {

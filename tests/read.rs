@@ -12,8 +12,8 @@ mod read {
 	};
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
+	unsafe extern "C" {
+		unsafe fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
 	}
 
 	pub fn helper(path: &str, content: &str, count: usize) {

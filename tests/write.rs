@@ -13,8 +13,8 @@ mod write {
 	};
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
+	unsafe extern "C" {
+		unsafe fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
 	}
 
 	pub fn helper(buf: &[u8], count: usize) {

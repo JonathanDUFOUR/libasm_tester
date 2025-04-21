@@ -3,12 +3,12 @@ mod strdup {
 	use std::ffi::{c_char, c_void};
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_strdup(s: *const c_char) -> *mut c_char;
+	unsafe extern "C" {
+		unsafe fn ft_strdup(s: *const c_char) -> *mut c_char;
 	}
 
-	extern "C" {
-		fn free(ptr: *mut c_void);
+	unsafe extern "C" {
+		unsafe fn free(ptr: *mut c_void);
 	}
 
 	const BUFFER_SIZE: usize = 1_056;
@@ -26,9 +26,7 @@ mod strdup {
 		fn from(bytes: &[u8]) -> Self {
 			let mut aligned_bytes: Self = Self::new();
 
-			for (i, byte) in bytes.iter().enumerate() {
-				aligned_bytes.0[i] = *byte;
-			}
+			bytes.iter().enumerate().for_each(|(i, byte)| aligned_bytes.0[i] = *byte);
 
 			aligned_bytes
 		}
@@ -49,18 +47,12 @@ mod strdup {
 		let len: usize = s.len();
 
 		for function in FUNCTIONS {
-			fn test_once(
-				// region: parameters
-				function: &Function,
-				s: &[u8],
-				// endregion
-			) {
-				// region: body
+			fn test_once(function: &Function, s: &[u8]) {
 				let p: *const c_char = s.as_ptr() as *const c_char;
 				let returned: *mut u8 = unsafe { function(p) } as *mut u8;
-				let returned_wrong_val: bool = returned.is_null();
+				let returned_wrong_value: bool = returned.is_null();
 
-				if returned_wrong_val {
+				if returned_wrong_value {
 					const MAX_ELEM_BY_LINE: usize = 16;
 
 					println!("       p: {:#X}", p as usize);
@@ -103,7 +95,6 @@ mod strdup {
 				}
 
 				unsafe { free(returned as *mut c_void) };
-				// endregion
 			}
 
 			let mut s: AlignedBytes = s.into();
@@ -4160,9 +4151,9 @@ mod strdup {
 		]);
 	}
 	// endregion
-	// region: duplicate_1001_bytes
+	// region: duplicate_1_001_bytes
 	#[test]
-	fn duplicate_1001_bytes() {
+	fn duplicate_1_001_bytes() {
 		helper(&[
 			0x4E, 0xA0, 0x5F, 0xC8, 0xA9, 0x66, 0xCA, 0x9F, 0x66, 0x81, 0xEC, 0xF4, 0xBA, 0x0A,
 			0xF0, 0x81, 0x53, 0xBE, 0xFD, 0xD4, 0x0B, 0xEC, 0xD8, 0x38, 0xB4, 0xE6, 0x04, 0xF2,
@@ -4239,9 +4230,9 @@ mod strdup {
 		]);
 	}
 	// endregion
-	// region: duplicate_1012_bytes
+	// region: duplicate_1_012_bytes
 	#[test]
-	fn duplicate_1012_bytes() {
+	fn duplicate_1_012_bytes() {
 		helper(&[
 			0x8B, 0xAC, 0x41, 0xFE, 0xC7, 0x42, 0xE3, 0x40, 0xF2, 0xEA, 0x4A, 0xE5, 0xEA, 0x19,
 			0xC9, 0x71, 0x78, 0xA7, 0xEE, 0x24, 0xA4, 0xFA, 0xE7, 0xB3, 0xCB, 0xA5, 0xAE, 0x91,
@@ -4319,9 +4310,9 @@ mod strdup {
 		]);
 	}
 	// endregion
-	// region: duplicate_1023_bytes
+	// region: duplicate_1_023_bytes
 	#[test]
-	fn duplicate_1023_bytes() {
+	fn duplicate_1_023_bytes() {
 		helper(&[
 			0x7D, 0xC2, 0x5D, 0xD1, 0x1E, 0xAB, 0x53, 0xAA, 0x46, 0xA2, 0x6E, 0x28, 0x19, 0x8B,
 			0xA3, 0x1D, 0xC8, 0x83, 0x6F, 0x3E, 0x90, 0xE7, 0x53, 0xC7, 0xBB, 0xDE, 0x83, 0xF8,
@@ -4400,9 +4391,9 @@ mod strdup {
 		]);
 	}
 	// endregion
-	// region: duplicate_1024_bytes
+	// region: duplicate_1_024_bytes
 	#[test]
-	fn duplicate_1024_bytes() {
+	fn duplicate_1_024_bytes() {
 		helper(&[
 			0x66, 0xFE, 0xCA, 0xB4, 0x55, 0x8C, 0x6C, 0x77, 0x5C, 0xF4, 0x37, 0x9E, 0x75, 0x67,
 			0xB1, 0x62, 0x35, 0xFE, 0x43, 0xFF, 0x20, 0x38, 0x57, 0x26, 0x8C, 0x8E, 0x1B, 0xF2,

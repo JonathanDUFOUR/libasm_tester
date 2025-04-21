@@ -3,15 +3,15 @@ use {
 	std::ffi::{c_char, c_int},
 };
 
-extern "C" {
-	fn strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
+unsafe extern "C" {
+	unsafe fn strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 }
 
 #[link(name = "asm")]
-extern "C" {
-	fn ft_strcmp_s0a_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
-	fn ft_strcmp_s0u_s1a(s0: *const c_char, s1: *const c_char) -> c_int;
-	fn ft_strcmp_s0u_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
+unsafe extern "C" {
+	unsafe fn ft_strcmp_s0a_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
+	unsafe fn ft_strcmp_s0u_s1a(s0: *const c_char, s1: *const c_char) -> c_int;
+	unsafe fn ft_strcmp_s0u_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -20,10 +20,10 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const MAX_INPUT_SIZE: usize = 10_000;
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
-	const S0_OFFSET: usize = 4077;
+	const S0_OFFSET: usize = 4_077;
 	assert!(S0_OFFSET < S0_ALIGN, "S0_OFFSET must be less than S0_ALIGN");
 
-	const S1_OFFSET: usize = 4077;
+	const S1_OFFSET: usize = 4_077;
 	assert!(S1_OFFSET < S1_ALIGN, "S1_OFFSET must be less than S1_ALIGN");
 
 	const S0_ALIGN: usize = std::mem::align_of::<AlignedS0>();

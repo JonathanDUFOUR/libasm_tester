@@ -3,8 +3,8 @@ mod memcpy {
 	use std::ffi::c_void;
 
 	#[link(name = "asm")]
-	extern "C" {
-		fn ft_memcpy(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
+	unsafe extern "C" {
+		unsafe fn ft_memcpy(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
 	}
 
 	const BUFFER_SIZE: usize = 1_055;
@@ -22,9 +22,7 @@ mod memcpy {
 		fn from(bytes: &[u8]) -> Self {
 			let mut aligned_bytes: Self = Self::new();
 
-			for (i, byte) in bytes.iter().enumerate() {
-				aligned_bytes.0[i] = *byte;
-			}
+			bytes.iter().enumerate().for_each(|(i, byte)| aligned_bytes.0[i] = *byte);
 
 			aligned_bytes
 		}
@@ -48,37 +46,29 @@ mod memcpy {
 			use rand::{rngs::ThreadRng, thread_rng, Rng};
 
 			#[inline(always)]
-			fn test_once(
-				// region: parameters
-				function: &Function,
-				dst: &mut [u8],
-				src: &[u8],
-				n: usize,
-				// endregion
-			) {
-				// region: body
+			fn test_once(function: &Function, dst: &mut [u8], src: &[u8], n: usize) {
 				let dst_p: *mut c_void = dst.as_mut_ptr() as *mut c_void;
 				let src_p: *const c_void = src.as_ptr() as *const c_void;
 				let dst_overflow: &[u8] = &dst[n..];
 				let src_overflow: &[u8] = &src[n..];
 				let dst_overflow_old: Vec<u8> = dst_overflow.to_vec();
 				let returned: *mut c_void = unsafe { function(dst_p, src_p, n) };
-				let returned_wrong_val: bool = returned != dst_p;
-				let dst_and_src_differ: bool = dst[..n] != src[..n];
+				let returned_wrong_value: bool = returned != dst_p;
+				let copy_failed: bool = dst[..n] != src[..n];
 				let wrote_out_of_range: bool = dst_overflow != dst_overflow_old;
 
-				if returned_wrong_val || dst_and_src_differ || wrote_out_of_range {
+				if returned_wrong_value || copy_failed || wrote_out_of_range {
 					const MAX_ELEM_BY_LINE: usize = 16;
 
 					println!("dst_p: {:#X}", dst_p as usize);
 					println!("src_p: {:#X}", src_p as usize);
 					println!("    n: {}", n);
-					if returned_wrong_val {
+					if returned_wrong_value {
 						println!();
 						println!("expected: {:#X}", dst_p as usize);
 						println!("returned: {:#X}", returned as usize);
 					}
-					if dst_and_src_differ {
+					if copy_failed {
 						println!();
 						println!("dst:");
 						for i in (0..n).step_by(MAX_ELEM_BY_LINE) {
@@ -123,7 +113,6 @@ mod memcpy {
 					}
 					panic!();
 				}
-				// endregion
 			}
 
 			let mut rng: ThreadRng = thread_rng();
@@ -4196,9 +4185,9 @@ mod memcpy {
 		]);
 	}
 	// endregion
-	// region: copy_1001_bytes
+	// region: copy_1_001_bytes
 	#[test]
-	fn copy_1001_bytes() {
+	fn copy_1_001_bytes() {
 		helper(&[
 			0x37, 0xDB, 0xD2, 0xB2, 0xD7, 0x60, 0x50, 0xF0, 0xD0, 0xC7, 0xF8, 0xCB, 0x7B, 0x15,
 			0x8A, 0x68, 0xC0, 0xF4, 0xC5, 0x3F, 0x2A, 0x23, 0xD1, 0x6A, 0x51, 0xE6, 0x31, 0xBF,
@@ -4275,9 +4264,9 @@ mod memcpy {
 		]);
 	}
 	// endregion
-	// region: copy_1012_bytes
+	// region: copy_1_012_bytes
 	#[test]
-	fn copy_1012_bytes() {
+	fn copy_1_012_bytes() {
 		helper(&[
 			0x59, 0x46, 0xAE, 0x04, 0x3C, 0x7F, 0x96, 0x45, 0x7B, 0x4E, 0x78, 0x4F, 0x85, 0x20,
 			0x2A, 0xDA, 0x77, 0x35, 0x95, 0x3F, 0x2B, 0xBD, 0x15, 0x95, 0x5D, 0x51, 0xCD, 0x6F,
@@ -4355,9 +4344,9 @@ mod memcpy {
 		]);
 	}
 	// endregion
-	// region: copy_1023_bytes
+	// region: copy_1_023_bytes
 	#[test]
-	fn copy_1023_bytes() {
+	fn copy_1_023_bytes() {
 		helper(&[
 			0x89, 0x85, 0x6B, 0x70, 0xC4, 0x6D, 0x00, 0x3B, 0x3D, 0x5E, 0x45, 0x34, 0x3C, 0xAB,
 			0x4C, 0xDC, 0x9C, 0xDA, 0x69, 0xC7, 0x9C, 0x1B, 0xA9, 0x57, 0xD2, 0x19, 0xBD, 0x23,
@@ -4436,9 +4425,9 @@ mod memcpy {
 		]);
 	}
 	// endregion
-	// region: copy_1024_bytes
+	// region: copy_1_024_bytes
 	#[test]
-	fn copy_1024_bytes() {
+	fn copy_1_024_bytes() {
 		helper(&[
 			0x78, 0xB7, 0x32, 0x17, 0x31, 0xC7, 0x48, 0xC8, 0x69, 0x91, 0x7D, 0x41, 0x76, 0xED,
 			0xC9, 0xDF, 0xE4, 0xE0, 0x67, 0x3F, 0x9D, 0xD1, 0xD3, 0x0A, 0x69, 0xA7, 0xC9, 0x8C,

@@ -9,8 +9,8 @@ mod list_size {
 	};
 
 	#[link(name = "asm_bonus")]
-	extern "C" {
-		fn ft_list_size(list: *const Node) -> c_int;
+	unsafe extern "C" {
+		unsafe fn ft_list_size(list: *const Node) -> c_int;
 	}
 
 	pub fn helper(data: &[*mut c_void]) {
@@ -63,17 +63,18 @@ mod list_size {
 	fn list_of_12_non_null_pointers() {
 		helper(&[
 			&mut 242u8 as *mut _ as *mut c_void,
-			&mut 17299u16 as *mut _ as *mut c_void,
-			&mut 2371597596u32 as *mut _ as *mut c_void,
-			&mut 7492647612764487385u64 as *mut _ as *mut c_void,
-			&mut 84379664544895219780130836660816119438u128 as *mut _ as *mut c_void,
+			&mut 17_299u16 as *mut _ as *mut c_void,
+			&mut 2_371_597_596u32 as *mut _ as *mut c_void,
+			&mut 7_492_647_612_764_487_385u64 as *mut _ as *mut c_void,
+			&mut 84_379_664_544_895_219_780_130_836_660_816_119_438u128 as *mut _ as *mut c_void,
 			&mut -26i8 as *mut _ as *mut c_void,
-			&mut -30084i16 as *mut _ as *mut c_void,
-			&mut -686473075i32 as *mut _ as *mut c_void,
-			&mut -4281136400791984104i64 as *mut _ as *mut c_void,
-			&mut -24202283039553026342690646794959372026i128 as *mut _ as *mut c_void,
-			&mut 55938292887.209505257986582117620f32 as *mut _ as *mut c_void,
-			&mut 19194834770157109268519.099941875444714699041f64 as *mut _ as *mut c_void,
+			&mut -30_084i16 as *mut _ as *mut c_void,
+			&mut -686_473_075i32 as *mut _ as *mut c_void,
+			&mut -4_281_136_400_791_984_104i64 as *mut _ as *mut c_void,
+			&mut -24_202_283_039_553_026_342_690_646_794_959_372_026i128 as *mut _ as *mut c_void,
+			&mut 55_938_292_887.209_505_257_986_582_117_620f32 as *mut _ as *mut c_void,
+			&mut 19_194_834_770_157_109_268_519.099_941_875_444_714_699_041f64 as *mut _
+				as *mut c_void,
 		]);
 	}
 	// endregion
