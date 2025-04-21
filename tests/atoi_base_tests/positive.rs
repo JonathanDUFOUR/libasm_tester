@@ -39,9 +39,9 @@ fn s_has_707_in_base_2() {
 	helper(S, BASE, 707);
 }
 // endregion
-// region: s_has_3528_in_base_2
+// region: s_has_3_528_in_base_2
 #[test]
-fn s_has_3528_in_base_2() {
+fn s_has_3_528_in_base_2() {
 	const S: &[u8] = &[
 		0xBC, 0xBC, 0xDB, 0xBC, 0xBC, 0xBC, 0xDB, 0xDB, 0xBC, 0xDB, 0xDB, 0xDB,
 	];
@@ -49,12 +49,12 @@ fn s_has_3528_in_base_2() {
 		0xDB, 0xBC,
 	];
 
-	helper(S, BASE, 3528);
+	helper(S, BASE, 3_528);
 }
 // endregion
-// region: s_has_12672_in_base_2
+// region: s_has_12_672_in_base_2
 #[test]
-fn s_has_12672_in_base_2() {
+fn s_has_12_672_in_base_2() {
 	const S: &[u8] = &[
 		0x1A, 0x1A, 0xCD, 0xCD, 0xCD, 0x1A, 0x1A, 0xCD, 0xCD, 0xCD, 0xCD, 0xCD, 0xCD, 0xCD,
 	];
@@ -62,12 +62,12 @@ fn s_has_12672_in_base_2() {
 		0xCD, 0x1A,
 	];
 
-	helper(S, BASE, 12672);
+	helper(S, BASE, 12_672);
 }
 // endregion
-// region: s_has_289262_in_base_2
+// region: s_has_289_262_in_base_2
 #[test]
-fn s_has_289262_in_base_2() {
+fn s_has_289_262_in_base_2() {
 	const S: &[u8] = &[
 		0x4A, 0xA8, 0xA8, 0xA8, 0x4A, 0x4A, 0xA8, 0x4A, 0xA8, 0xA8, 0x4A, 0x4A, 0x4A, 0x4A, 0xA8,
 		0x4A, 0x4A, 0x4A, 0xA8,
@@ -76,12 +76,12 @@ fn s_has_289262_in_base_2() {
 		0xA8, 0x4A,
 	];
 
-	helper(S, BASE, 289262);
+	helper(S, BASE, 289_262);
 }
 // endregion
-// region: s_has_6251862_in_base_2
+// region: s_has_6_251_862_in_base_2
 #[test]
-fn s_has_6251862_in_base_2() {
+fn s_has_6_251_862_in_base_2() {
 	const S: &[u8] = &[
 		0x0F, 0xD7, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0xD7, 0x0F, 0x0F, 0xD7, 0xD7, 0x0F, 0xD7, 0x0F,
 		0xD7, 0x0F, 0xD7, 0x0F, 0xD7, 0x0F, 0x0F, 0xD7,
@@ -90,12 +90,12 @@ fn s_has_6251862_in_base_2() {
 		0xD7, 0x0F,
 	];
 
-	helper(S, BASE, 6251862);
+	helper(S, BASE, 6_251_862);
 }
 // endregion
-// region: s_has_23353482_in_base_2
+// region: s_has_23_353_482_in_base_2
 #[test]
-fn s_has_23353482_in_base_2() {
+fn s_has_23_353_482_in_base_2() {
 	const S: &[u8] = &[
 		0x26, 0x19, 0x26, 0x26, 0x19, 0x19, 0x26, 0x19, 0x19, 0x19, 0x26, 0x19, 0x26, 0x26, 0x19,
 		0x19, 0x19, 0x26, 0x19, 0x19, 0x19, 0x26, 0x19, 0x26, 0x19,
@@ -104,12 +104,12 @@ fn s_has_23353482_in_base_2() {
 		0x19, 0x26,
 	];
 
-	helper(S, BASE, 23353482);
+	helper(S, BASE, 23_353_482);
 }
 // endregion
-// region: s_has_798889877_in_base_2
+// region: s_has_798_889_877_in_base_2
 #[test]
-fn s_has_798889877_in_base_2() {
+fn s_has_798_889_877_in_base_2() {
 	const S: &[u8] = &[
 		0x94, 0xAE, 0x94, 0x94, 0x94, 0x94, 0x94, 0xAE, 0xAE, 0x94, 0x94, 0x94, 0x94, 0xAE, 0xAE,
 		0xAE, 0xAE, 0x94, 0xAE, 0x94, 0x94, 0x94, 0x94, 0xAE, 0xAE, 0x94, 0xAE, 0x94, 0xAE, 0x94,
@@ -118,7 +118,7 @@ fn s_has_798889877_in_base_2() {
 		0xAE, 0x94,
 	];
 
-	helper(S, BASE, 798889877);
+	helper(S, BASE, 798_889_877);
 }
 // endregion
 // region: s_has_4_in_base_3
@@ -160,9 +160,9 @@ fn s_has_333_in_base_3() {
 	helper(S, BASE, 333);
 }
 // endregion
-// region: s_has_8254_in_base_3
+// region: s_has_8_254_in_base_3
 #[test]
-fn s_has_8254_in_base_3() {
+fn s_has_8_254_in_base_3() {
 	const S: &[u8] = &[
 		0xDC, 0xCE, 0xE8, 0xCE, 0xE8, 0xE8, 0xE8, 0xCE, 0xDC,
 	];
@@ -170,12 +170,12 @@ fn s_has_8254_in_base_3() {
 		0xCE, 0xDC, 0xE8,
 	];
 
-	helper(S, BASE, 8254);
+	helper(S, BASE, 8_254);
 }
 // endregion
-// region: s_has_80915_in_base_3
+// region: s_has_80_915_in_base_3
 #[test]
-fn s_has_80915_in_base_3() {
+fn s_has_80_915_in_base_3() {
 	const S: &[u8] = &[
 		0x4E, 0x4E, 0xA2, 0xA2, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0x4E, 0xE8,
 	];
@@ -183,12 +183,12 @@ fn s_has_80915_in_base_3() {
 		0xA2, 0x4E, 0xE8,
 	];
 
-	helper(S, BASE, 80915);
+	helper(S, BASE, 80_915);
 }
 // endregion
-// region: s_has_828938_in_base_3
+// region: s_has_828_938_in_base_3
 #[test]
-fn s_has_828938_in_base_3() {
+fn s_has_828_938_in_base_3() {
 	const S: &[u8] = &[
 		0xC7, 0xC7, 0x33, 0x98, 0x98, 0xC7, 0x98, 0x98, 0x98, 0x33, 0xC7, 0x98, 0x33,
 	];
@@ -196,12 +196,12 @@ fn s_has_828938_in_base_3() {
 		0x98, 0xC7, 0x33,
 	];
 
-	helper(S, BASE, 828938);
+	helper(S, BASE, 828_938);
 }
 // endregion
-// region: s_has_7357817_in_base_3
+// region: s_has_7_357_817_in_base_3
 #[test]
-fn s_has_7357817_in_base_3() {
+fn s_has_7_357_817_in_base_3() {
 	const S: &[u8] = &[
 		0x58, 0x58, 0x58, 0x12, 0x58, 0x58, 0x12, 0x58, 0x58, 0xD4, 0xD4, 0xD4, 0x12, 0xD4, 0x12,
 	];
@@ -209,12 +209,12 @@ fn s_has_7357817_in_base_3() {
 		0xD4, 0x58, 0x12,
 	];
 
-	helper(S, BASE, 7357817);
+	helper(S, BASE, 7_357_817);
 }
 // endregion
-// region: s_has_77879617_in_base_3
+// region: s_has_77_879_617_in_base_3
 #[test]
-fn s_has_77879617_in_base_3() {
+fn s_has_77_879_617_in_base_3() {
 	const S: &[u8] = &[
 		0x29, 0xA4, 0x29, 0x1F, 0xA4, 0x29, 0x29, 0xA4, 0xA4, 0x1F, 0x1F, 0xA4, 0x1F, 0xA4, 0x1F,
 		0xA4, 0x29,
@@ -223,12 +223,12 @@ fn s_has_77879617_in_base_3() {
 		0x1F, 0x29, 0xA4,
 	];
 
-	helper(S, BASE, 77879617);
+	helper(S, BASE, 77_879_617);
 }
 // endregion
-// region: s_has_374056869_in_base_3
+// region: s_has_374_056_869_in_base_3
 #[test]
-fn s_has_374056869_in_base_3() {
+fn s_has_374_056_869_in_base_3() {
 	const S: &[u8] = &[
 		0x91, 0x91, 0x91, 0x82, 0x82, 0xA7, 0x91, 0xA7, 0x91, 0x82, 0x82, 0xA7, 0xA7, 0x91, 0x82,
 		0x82, 0xA7, 0x82,
@@ -237,7 +237,7 @@ fn s_has_374056869_in_base_3() {
 		0x82, 0xA7, 0x91,
 	];
 
-	helper(S, BASE, 374056869);
+	helper(S, BASE, 374_056_869);
 }
 // endregion
 // region: s_has_4_in_base_5
@@ -277,9 +277,9 @@ fn s_has_956_in_base_5() {
 	helper(S, BASE, 956);
 }
 // endregion
-// region: s_has_3419_in_base_5
+// region: s_has_3_419_in_base_5
 #[test]
-fn s_has_3419_in_base_5() {
+fn s_has_3_419_in_base_5() {
 	const S: &[u8] = &[
 		0xB0, 0x14, 0x98, 0xB0, 0x86, 0x50,
 	];
@@ -287,12 +287,12 @@ fn s_has_3419_in_base_5() {
 		0x14, 0xB0, 0x98, 0x86, 0x50,
 	];
 
-	helper(S, BASE, 3419);
+	helper(S, BASE, 3_419);
 }
 // endregion
-// region: s_has_43128_in_base_5
+// region: s_has_43_128_in_base_5
 #[test]
-fn s_has_43128_in_base_5() {
+fn s_has_43_128_in_base_5() {
 	const S: &[u8] = &[
 		0x70, 0x31, 0x48, 0x13, 0x13, 0x13, 0x31,
 	];
@@ -300,12 +300,12 @@ fn s_has_43128_in_base_5() {
 		0x13, 0x84, 0x70, 0x31, 0x48,
 	];
 
-	helper(S, BASE, 43128);
+	helper(S, BASE, 43_128);
 }
 // endregion
-// region: s_has_548134_in_base_5
+// region: s_has_548_134_in_base_5
 #[test]
-fn s_has_548134_in_base_5() {
+fn s_has_548_134_in_base_5() {
 	const S: &[u8] = &[
 		0x25, 0xD5, 0x92, 0x92, 0xD5, 0x92, 0x92, 0x25, 0x58,
 	];
@@ -313,12 +313,12 @@ fn s_has_548134_in_base_5() {
 		0x92, 0x25, 0xD5, 0xB9, 0x58,
 	];
 
-	helper(S, BASE, 548134);
+	helper(S, BASE, 548_134);
 }
 // endregion
-// region: s_has_5385896_in_base_5
+// region: s_has_5_385_896_in_base_5
 #[test]
-fn s_has_5385896_in_base_5() {
+fn s_has_5_385_896_in_base_5() {
 	const S: &[u8] = &[
 		0x5C, 0x82, 0x82, 0x16, 0x82, 0x5C, 0x5C, 0x54, 0x16, 0x80,
 	];
@@ -326,12 +326,12 @@ fn s_has_5385896_in_base_5() {
 		0x54, 0x80, 0x5C, 0x82, 0x16,
 	];
 
-	helper(S, BASE, 5385896);
+	helper(S, BASE, 5_385_896);
 }
 // endregion
-// region: s_has_51439297_in_base_5
+// region: s_has_51_439_297_in_base_5
 #[test]
-fn s_has_51439297_in_base_5() {
+fn s_has_51_439_297_in_base_5() {
 	const S: &[u8] = &[
 		0xB1, 0xAD, 0xB1, 0xB1, 0xA9, 0x3D, 0xAD, 0x3D, 0x2A, 0xB1, 0x2A, 0x3D,
 	];
@@ -339,12 +339,12 @@ fn s_has_51439297_in_base_5() {
 		0xAD, 0xB1, 0x3D, 0xA9, 0x2A,
 	];
 
-	helper(S, BASE, 51439297);
+	helper(S, BASE, 51_439_297);
 }
 // endregion
-// region: s_has_966886834_in_base_5
+// region: s_has_966_886_834_in_base_5
 #[test]
-fn s_has_966886834_in_base_5() {
+fn s_has_966_886_834_in_base_5() {
 	const S: &[u8] = &[
 		0x06, 0x49, 0x49, 0xD6, 0xD6, 0x4B, 0xD6, 0x06, 0x06, 0x49, 0x06, 0x4B, 0x49,
 	];
@@ -352,7 +352,7 @@ fn s_has_966886834_in_base_5() {
 		0xD6, 0x4B, 0x95, 0x06, 0x49,
 	];
 
-	helper(S, BASE, 966886834);
+	helper(S, BASE, 966_886_834);
 }
 // endregion
 // region: s_has_4_in_base_7
@@ -392,9 +392,9 @@ fn s_has_121_in_base_7() {
 	helper(S, BASE, 121);
 }
 // endregion
-// region: s_has_3239_in_base_7
+// region: s_has_3_239_in_base_7
 #[test]
-fn s_has_3239_in_base_7() {
+fn s_has_3_239_in_base_7() {
 	const S: &[u8] = &[
 		0x98, 0x31, 0x4A, 0xDE, 0x23,
 	];
@@ -402,12 +402,12 @@ fn s_has_3239_in_base_7() {
 		0xDE, 0x98, 0x31, 0x4A, 0x7D, 0x23, 0xB7,
 	];
 
-	helper(S, BASE, 3239);
+	helper(S, BASE, 3_239);
 }
 // endregion
-// region: s_has_16488_in_base_7
+// region: s_has_16_488_in_base_7
 #[test]
-fn s_has_16488_in_base_7() {
+fn s_has_16_488_in_base_7() {
 	const S: &[u8] = &[
 		0x7F, 0x7F, 0xB3, 0x53, 0x53,
 	];
@@ -415,12 +415,12 @@ fn s_has_16488_in_base_7() {
 		0xB3, 0xC6, 0x81, 0x53, 0x3A, 0x2A, 0x7F,
 	];
 
-	helper(S, BASE, 16488);
+	helper(S, BASE, 16_488);
 }
 // endregion
-// region: s_has_206960_in_base_7
+// region: s_has_206_960_in_base_7
 #[test]
-fn s_has_206960_in_base_7() {
+fn s_has_206_960_in_base_7() {
 	const S: &[u8] = &[
 		0x67, 0xC2, 0x3A, 0x67, 0x3A, 0x1C, 0xC2,
 	];
@@ -428,12 +428,12 @@ fn s_has_206960_in_base_7() {
 		0x2F, 0x67, 0x3A, 0x4A, 0x1C, 0xC2, 0xBC,
 	];
 
-	helper(S, BASE, 206960);
+	helper(S, BASE, 206_960);
 }
 // endregion
-// region: s_has_5681090_in_base_7
+// region: s_has_5_681_090_in_base_7
 #[test]
-fn s_has_5681090_in_base_7() {
+fn s_has_5_681_090_in_base_7() {
 	const S: &[u8] = &[
 		0x25, 0x25, 0x88, 0x97, 0x97, 0x25, 0xAA, 0x88,
 	];
@@ -441,12 +441,12 @@ fn s_has_5681090_in_base_7() {
 		0x97, 0x18, 0x88, 0xA5, 0xAA, 0x5A, 0x25,
 	];
 
-	helper(S, BASE, 5681090);
+	helper(S, BASE, 5_681_090);
 }
 // endregion
-// region: s_has_71368535_in_base_7
+// region: s_has_71_368_535_in_base_7
 #[test]
-fn s_has_71368535_in_base_7() {
+fn s_has_71_368_535_in_base_7() {
 	const S: &[u8] = &[
 		0x16, 0xD6, 0xC8, 0xA2, 0xA2, 0xC8, 0xA6, 0xA6, 0xD6, 0x75,
 	];
@@ -454,12 +454,12 @@ fn s_has_71368535_in_base_7() {
 		0x75, 0x16, 0xC8, 0xA6, 0xA2, 0xD6, 0xEE,
 	];
 
-	helper(S, BASE, 71368535);
+	helper(S, BASE, 71_368_535);
 }
 // endregion
-// region: s_has_180031988_in_base_7
+// region: s_has_180_031_988_in_base_7
 #[test]
-fn s_has_180031988_in_base_7() {
+fn s_has_180_031_988_in_base_7() {
 	const S: &[u8] = &[
 		0x32, 0xFC, 0x6E, 0x32, 0x6E, 0x72, 0x48, 0x32, 0x6E, 0xFC,
 	];
@@ -467,7 +467,7 @@ fn s_has_180031988_in_base_7() {
 		0x48, 0x6E, 0xC1, 0xFC, 0x32, 0x72, 0x04,
 	];
 
-	helper(S, BASE, 180031988);
+	helper(S, BASE, 180_031_988);
 }
 // endregion
 // region: s_has_8_in_base_11
@@ -507,9 +507,9 @@ fn s_has_324_in_base_11() {
 	helper(S, BASE, 324);
 }
 // endregion
-// region: s_has_8874_in_base_11
+// region: s_has_8_874_in_base_11
 #[test]
-fn s_has_8874_in_base_11() {
+fn s_has_8_874_in_base_11() {
 	const S: &[u8] = &[
 		0xCD, 0xF1, 0xA9, 0xA3,
 	];
@@ -517,12 +517,12 @@ fn s_has_8874_in_base_11() {
 		0x2C, 0x36, 0x53, 0xA9, 0xF7, 0xD0, 0xCD, 0xF1, 0xA3, 0x35, 0x40,
 	];
 
-	helper(S, BASE, 8874);
+	helper(S, BASE, 8_874);
 }
 // endregion
-// region: s_has_10034_in_base_11
+// region: s_has_10_034_in_base_11
 #[test]
-fn s_has_10034_in_base_11() {
+fn s_has_10_034_in_base_11() {
 	const S: &[u8] = &[
 		0x11, 0x3F, 0x60, 0xE0,
 	];
@@ -530,12 +530,12 @@ fn s_has_10034_in_base_11() {
 		0x3E, 0xBD, 0xE0, 0x6C, 0x33, 0x3F, 0x72, 0x11, 0xF9, 0x32, 0x60,
 	];
 
-	helper(S, BASE, 10034);
+	helper(S, BASE, 10_034);
 }
 // endregion
-// region: s_has_662596_in_base_11
+// region: s_has_662_596_in_base_11
 #[test]
-fn s_has_662596_in_base_11() {
+fn s_has_662_596_in_base_11() {
 	const S: &[u8] = &[
 		0xA4, 0x25, 0xCA, 0x80, 0xC1, 0xC1,
 	];
@@ -543,12 +543,12 @@ fn s_has_662596_in_base_11() {
 		0xC1, 0x25, 0xCA, 0x35, 0xA4, 0xF2, 0xAE, 0x73, 0x22, 0x80, 0xB5,
 	];
 
-	helper(S, BASE, 662596);
+	helper(S, BASE, 662_596);
 }
 // endregion
-// region: s_has_4403180_in_base_11
+// region: s_has_4_403_180_in_base_11
 #[test]
-fn s_has_4403180_in_base_11() {
+fn s_has_4_403_180_in_base_11() {
 	const S: &[u8] = &[
 		0xBC, 0x71, 0x3D, 0x5B, 0x14, 0x80, 0x14,
 	];
@@ -556,12 +556,12 @@ fn s_has_4403180_in_base_11() {
 		0x1B, 0x14, 0xBC, 0x3D, 0xEA, 0x71, 0x75, 0x43, 0x5B, 0xC3, 0x80,
 	];
 
-	helper(S, BASE, 4403180);
+	helper(S, BASE, 4_403_180);
 }
 // endregion
-// region: s_has_24999741_in_base_11
+// region: s_has_24_999_741_in_base_11
 #[test]
-fn s_has_24999741_in_base_11() {
+fn s_has_24_999_741_in_base_11() {
 	const S: &[u8] = &[
 		0x65, 0xEB, 0x65, 0x60, 0x96, 0x67, 0x64, 0x3C,
 	];
@@ -569,12 +569,12 @@ fn s_has_24999741_in_base_11() {
 		0xD8, 0x65, 0x60, 0xEB, 0x64, 0x96, 0x9D, 0x67, 0x3C, 0xE6, 0x34,
 	];
 
-	helper(S, BASE, 24999741);
+	helper(S, BASE, 24_999_741);
 }
 // endregion
-// region: s_has_910156388_in_base_11
+// region: s_has_910_156_388_in_base_11
 #[test]
-fn s_has_910156388_in_base_11() {
+fn s_has_910_156_388_in_base_11() {
 	const S: &[u8] = &[
 		0x3D, 0x17, 0xAA, 0xBC, 0x71, 0xCB, 0xC3, 0x60, 0xCB,
 	];
@@ -582,7 +582,7 @@ fn s_has_910156388_in_base_11() {
 		0x9B, 0xA4, 0x17, 0x71, 0x3D, 0xFE, 0x60, 0xAA, 0xBC, 0xCB, 0xC3,
 	];
 
-	helper(S, BASE, 910156388);
+	helper(S, BASE, 910_156_388);
 }
 // endregion
 // region: s_has_8_in_base_13
@@ -622,9 +622,9 @@ fn s_has_216_in_base_13() {
 	helper(S, BASE, 216);
 }
 // endregion
-// region: s_has_4543_in_base_13
+// region: s_has_4_543_in_base_13
 #[test]
-fn s_has_4543_in_base_13() {
+fn s_has_4_543_in_base_13() {
 	const S: &[u8] = &[
 		0xB2, 0x3D, 0x5E, 0x86,
 	];
@@ -632,12 +632,12 @@ fn s_has_4543_in_base_13() {
 		0x3D, 0xF0, 0xB2, 0xE2, 0x76, 0x22, 0x86, 0xC5, 0x9D, 0xF3, 0xB7, 0x5E, 0xD8,
 	];
 
-	helper(S, BASE, 4543);
+	helper(S, BASE, 4_543);
 }
 // endregion
-// region: s_has_97603_in_base_13
+// region: s_has_97_603_in_base_13
 #[test]
-fn s_has_97603_in_base_13() {
+fn s_has_97_603_in_base_13() {
 	const S: &[u8] = &[
 		0xB5, 0x64, 0x64, 0x7E, 0xA8,
 	];
@@ -645,12 +645,12 @@ fn s_has_97603_in_base_13() {
 		0x2A, 0x5D, 0xFF, 0xB5, 0xAF, 0x64, 0x7E, 0x7B, 0xBA, 0x6F, 0x07, 0x89, 0xA8,
 	];
 
-	helper(S, BASE, 97603);
+	helper(S, BASE, 97_603);
 }
 // endregion
-// region: s_has_143327_in_base_13
+// region: s_has_143_327_in_base_13
 #[test]
-fn s_has_143327_in_base_13() {
+fn s_has_143_327_in_base_13() {
 	const S: &[u8] = &[
 		0x07, 0x9F, 0xA8, 0xF8, 0x50,
 	];
@@ -658,12 +658,12 @@ fn s_has_143327_in_base_13() {
 		0x9F, 0xF8, 0x50, 0xA8, 0x24, 0x07, 0x13, 0x83, 0x91, 0x9E, 0x29, 0xF1, 0x85,
 	];
 
-	helper(S, BASE, 143327);
+	helper(S, BASE, 143_327);
 }
 // endregion
-// region: s_has_7601044_in_base_13
+// region: s_has_7_601_044_in_base_13
 #[test]
-fn s_has_7601044_in_base_13() {
+fn s_has_7_601_044_in_base_13() {
 	const S: &[u8] = &[
 		0xFC, 0x0F, 0x2F, 0xFC, 0xD7, 0x0F, 0xD7,
 	];
@@ -671,12 +671,12 @@ fn s_has_7601044_in_base_13() {
 		0x3D, 0xFC, 0x32, 0x90, 0xA8, 0x59, 0x2F, 0x0F, 0x9A, 0xD7, 0xF7, 0x5A, 0x37,
 	];
 
-	helper(S, BASE, 7601044);
+	helper(S, BASE, 7_601_044);
 }
 // endregion
-// region: s_has_96683040_in_base_13
+// region: s_has_96_683_040_in_base_13
 #[test]
-fn s_has_96683040_in_base_13() {
+fn s_has_96_683_040_in_base_13() {
 	const S: &[u8] = &[
 		0x89, 0xCD, 0x47, 0xFC, 0x89, 0x84, 0xB6, 0xB6,
 	];
@@ -684,12 +684,12 @@ fn s_has_96683040_in_base_13() {
 		0x47, 0x89, 0x55, 0xEB, 0x06, 0xFC, 0x1B, 0xCD, 0xDD, 0xAA, 0x84, 0x96, 0xB6,
 	];
 
-	helper(S, BASE, 96683040);
+	helper(S, BASE, 96_683_040);
 }
 // endregion
-// region: s_has_619985456_in_base_13
+// region: s_has_619_985_456_in_base_13
 #[test]
-fn s_has_619985456_in_base_13() {
+fn s_has_619_985_456_in_base_13() {
 	const S: &[u8] = &[
 		0xDE, 0x3A, 0xB7, 0x7F, 0xB7, 0xCF, 0x5A, 0x5A,
 	];
@@ -697,7 +697,7 @@ fn s_has_619985456_in_base_13() {
 		0x03, 0xFE, 0x5D, 0x13, 0xCF, 0xB7, 0x7C, 0x66, 0x16, 0xDE, 0x7F, 0x3A, 0x5A,
 	];
 
-	helper(S, BASE, 619985456);
+	helper(S, BASE, 619_985_456);
 }
 // endregion
 // region: s_has_5_in_base_19
@@ -740,9 +740,9 @@ fn s_has_444_in_base_19() {
 	helper(S, BASE, 444);
 }
 // endregion
-// region: s_has_1833_in_base_19
+// region: s_has_1_833_in_base_19
 #[test]
-fn s_has_1833_in_base_19() {
+fn s_has_1_833_in_base_19() {
 	const S: &[u8] = &[
 		0xD2, 0xC4, 0x5F,
 	];
@@ -751,12 +751,12 @@ fn s_has_1833_in_base_19() {
 		0x95, 0x5D, 0x1A, 0x85,
 	];
 
-	helper(S, BASE, 1833);
+	helper(S, BASE, 1_833);
 }
 // endregion
-// region: s_has_42118_in_base_19
+// region: s_has_42_118_in_base_19
 #[test]
-fn s_has_42118_in_base_19() {
+fn s_has_42_118_in_base_19() {
 	const S: &[u8] = &[
 		0x17, 0x0F, 0xDB, 0xB3,
 	];
@@ -765,12 +765,12 @@ fn s_has_42118_in_base_19() {
 		0x38, 0xC8, 0xD9, 0x24,
 	];
 
-	helper(S, BASE, 42118);
+	helper(S, BASE, 42_118);
 }
 // endregion
-// region: s_has_248313_in_base_19
+// region: s_has_248_313_in_base_19
 #[test]
-fn s_has_248313_in_base_19() {
+fn s_has_248_313_in_base_19() {
 	const S: &[u8] = &[
 		0xAF, 0xC8, 0xED, 0xAE, 0x41,
 	];
@@ -779,12 +779,12 @@ fn s_has_248313_in_base_19() {
 		0xD1, 0xAE, 0xC8, 0xF8,
 	];
 
-	helper(S, BASE, 248313);
+	helper(S, BASE, 248_313);
 }
 // endregion
-// region: s_has_4678720_in_base_19
+// region: s_has_4_678_720_in_base_19
 #[test]
-fn s_has_4678720_in_base_19() {
+fn s_has_4_678_720_in_base_19() {
 	const S: &[u8] = &[
 		0x81, 0x6E, 0x97, 0x67, 0x1A, 0x1A,
 	];
@@ -793,12 +793,12 @@ fn s_has_4678720_in_base_19() {
 		0x43, 0x6E, 0x97, 0x4E,
 	];
 
-	helper(S, BASE, 4678720);
+	helper(S, BASE, 4_678_720);
 }
 // endregion
-// region: s_has_31588121_in_base_19
+// region: s_has_31_588_121_in_base_19
 #[test]
-fn s_has_31588121_in_base_19() {
+fn s_has_31_588_121_in_base_19() {
 	const S: &[u8] = &[
 		0x55, 0x10, 0xA4, 0xFC, 0x7A, 0x7A,
 	];
@@ -807,12 +807,12 @@ fn s_has_31588121_in_base_19() {
 		0x42, 0xBF, 0x26, 0xEC,
 	];
 
-	helper(S, BASE, 31588121);
+	helper(S, BASE, 31_588_121);
 }
 // endregion
-// region: s_has_303065332_in_base_19
+// region: s_has_303_065_332_in_base_19
 #[test]
-fn s_has_303065332_in_base_19() {
+fn s_has_303_065_332_in_base_19() {
 	const S: &[u8] = &[
 		0x60, 0xD2, 0x95, 0x59, 0x16, 0x01, 0xA5,
 	];
@@ -821,7 +821,7 @@ fn s_has_303065332_in_base_19() {
 		0x9D, 0xBD, 0xE7, 0xA5,
 	];
 
-	helper(S, BASE, 303065332);
+	helper(S, BASE, 303_065_332);
 }
 // endregion
 // region: s_has_4_in_base_42
@@ -867,9 +867,9 @@ fn s_has_437_in_base_42() {
 	helper(S, BASE, 437);
 }
 // endregion
-// region: s_has_8675_in_base_42
+// region: s_has_8_675_in_base_42
 #[test]
-fn s_has_8675_in_base_42() {
+fn s_has_8_675_in_base_42() {
 	const S: &[u8] = &[
 		0x52, 0xB9, 0xD5,
 	];
@@ -879,12 +879,12 @@ fn s_has_8675_in_base_42() {
 		0x3B, 0x42, 0xC1, 0x75, 0x90, 0x2C, 0xFD, 0x7E, 0xB9, 0xE1, 0xA1, 0xAD,
 	];
 
-	helper(S, BASE, 8675);
+	helper(S, BASE, 8_675);
 }
 // endregion
-// region: s_has_43476_in_base_42
+// region: s_has_43_476_in_base_42
 #[test]
-fn s_has_43476_in_base_42() {
+fn s_has_43_476_in_base_42() {
 	const S: &[u8] = &[
 		0x60, 0xE8, 0x69,
 	];
@@ -894,12 +894,12 @@ fn s_has_43476_in_base_42() {
 		0xF7, 0xEE, 0xEF, 0x33, 0x28, 0x36, 0xAE, 0x87, 0x21, 0xDF, 0x07, 0x12,
 	];
 
-	helper(S, BASE, 43476);
+	helper(S, BASE, 43_476);
 }
 // endregion
-// region: s_has_419967_in_base_42
+// region: s_has_419_967_in_base_42
 #[test]
-fn s_has_419967_in_base_42() {
+fn s_has_419_967_in_base_42() {
 	const S: &[u8] = &[
 		0x56, 0xE5, 0xE8, 0x32,
 	];
@@ -909,12 +909,12 @@ fn s_has_419967_in_base_42() {
 		0x54, 0xE4, 0x7C, 0x72, 0xDD, 0xD5, 0x30, 0xD7, 0x37, 0x03, 0xB3, 0x42,
 	];
 
-	helper(S, BASE, 419967);
+	helper(S, BASE, 419_967);
 }
 // endregion
-// region: s_has_6627360_in_base_42
+// region: s_has_6_627_360_in_base_42
 #[test]
-fn s_has_6627360_in_base_42() {
+fn s_has_6_627_360_in_base_42() {
 	const S: &[u8] = &[
 		0xFF, 0x5E, 0xA5, 0xBF, 0x44,
 	];
@@ -924,12 +924,12 @@ fn s_has_6627360_in_base_42() {
 		0xAC, 0x4A, 0xBE, 0x70, 0x3F, 0x3E, 0x07, 0x90, 0x88, 0x52, 0xA1, 0x80,
 	];
 
-	helper(S, BASE, 6627360);
+	helper(S, BASE, 6_627_360);
 }
 // endregion
-// region: s_has_99872686_in_base_42
+// region: s_has_99_872_686_in_base_42
 #[test]
-fn s_has_99872686_in_base_42() {
+fn s_has_99_872_686_in_base_42() {
 	const S: &[u8] = &[
 		0xB7, 0x54, 0x24, 0x5F, 0x54,
 	];
@@ -939,12 +939,12 @@ fn s_has_99872686_in_base_42() {
 		0xB5, 0x3D, 0xB7, 0x2E, 0x01, 0x61, 0xE8, 0x36, 0x19, 0x16, 0x4B, 0x9F,
 	];
 
-	helper(S, BASE, 99872686);
+	helper(S, BASE, 99_872_686);
 }
 // endregion
-// region: s_has_644745722_in_base_42
+// region: s_has_644_745_722_in_base_42
 #[test]
-fn s_has_644745722_in_base_42() {
+fn s_has_644_745_722_in_base_42() {
 	const S: &[u8] = &[
 		0x29, 0x9B, 0xE2, 0x1C, 0x29, 0x98,
 	];
@@ -954,7 +954,7 @@ fn s_has_644745722_in_base_42() {
 		0x91, 0x50, 0x92, 0x7E, 0x31, 0xDD, 0xCB, 0x87, 0x2C, 0x9B, 0x40, 0x18,
 	];
 
-	helper(S, BASE, 644745722);
+	helper(S, BASE, 644_745_722);
 }
 // endregion
 // region: s_has_5_in_base_73
@@ -1004,9 +1004,9 @@ fn s_has_292_in_base_73() {
 	helper(S, BASE, 292);
 }
 // endregion
-// region: s_has_7763_in_base_73
+// region: s_has_7_763_in_base_73
 #[test]
-fn s_has_7763_in_base_73() {
+fn s_has_7_763_in_base_73() {
 	const S: &[u8] = &[
 		0x39, 0xBC, 0x11,
 	];
@@ -1018,12 +1018,12 @@ fn s_has_7763_in_base_73() {
 		0x80, 0x3A, 0x18, 0x21, 0xB2, 0x77, 0xAD, 0x3E, 0x4C, 0x4D, 0xF4, 0xDD, 0x76,
 	];
 
-	helper(S, BASE, 7763);
+	helper(S, BASE, 7_763);
 }
 // endregion
-// region: s_has_43924_in_base_73
+// region: s_has_43_924_in_base_73
 #[test]
-fn s_has_43924_in_base_73() {
+fn s_has_43_924_in_base_73() {
 	const S: &[u8] = &[
 		0x31, 0x9E, 0x41,
 	];
@@ -1035,12 +1035,12 @@ fn s_has_43924_in_base_73() {
 		0x38, 0x04, 0x64, 0x72, 0x5F, 0x0F, 0xFE, 0xFB, 0x12, 0xC6, 0x30, 0x87, 0x7A,
 	];
 
-	helper(S, BASE, 43924);
+	helper(S, BASE, 43_924);
 }
 // endregion
-// region: s_has_760597_in_base_73
+// region: s_has_760_597_in_base_73
 #[test]
-fn s_has_760597_in_base_73() {
+fn s_has_760_597_in_base_73() {
 	const S: &[u8] = &[
 		0x16, 0x1D, 0x94, 0x18,
 	];
@@ -1052,12 +1052,12 @@ fn s_has_760597_in_base_73() {
 		0x27, 0xF9, 0xA7, 0x47, 0xAA, 0x80, 0xDA, 0x30, 0x4A, 0x1D, 0x63, 0xC2, 0x33,
 	];
 
-	helper(S, BASE, 760597);
+	helper(S, BASE, 760_597);
 }
 // endregion
-// region: s_has_4825429_in_base_73
+// region: s_has_4_825_429_in_base_73
 #[test]
-fn s_has_4825429_in_base_73() {
+fn s_has_4_825_429_in_base_73() {
 	const S: &[u8] = &[
 		0x1B, 0x32, 0x24, 0xA3,
 	];
@@ -1069,12 +1069,12 @@ fn s_has_4825429_in_base_73() {
 		0xDE, 0x92, 0x41, 0x77, 0x40, 0xFA, 0xEA, 0xC2, 0xBF, 0x60, 0xE2, 0x68, 0x0E,
 	];
 
-	helper(S, BASE, 4825429);
+	helper(S, BASE, 4_825_429);
 }
 // endregion
-// region: s_has_18277339_in_base_73
+// region: s_has_18_277_339_in_base_73
 #[test]
-fn s_has_18277339_in_base_73() {
+fn s_has_18_277_339_in_base_73() {
 	const S: &[u8] = &[
 		0xAA, 0xF3, 0x62, 0x76,
 	];
@@ -1086,12 +1086,12 @@ fn s_has_18277339_in_base_73() {
 		0x4D, 0xC6, 0x8C, 0xB6, 0x65, 0x6A, 0x75, 0x5D, 0x95, 0x34, 0x48, 0xF3, 0x67,
 	];
 
-	helper(S, BASE, 18277339);
+	helper(S, BASE, 18_277_339);
 }
 // endregion
-// region: s_has_446264643_in_base_73
+// region: s_has_446_264_643_in_base_73
 #[test]
-fn s_has_446264643_in_base_73() {
+fn s_has_446_264_643_in_base_73() {
 	const S: &[u8] = &[
 		0x28, 0xF0, 0xC1, 0x90, 0x21,
 	];
@@ -1103,7 +1103,7 @@ fn s_has_446264643_in_base_73() {
 		0xB7, 0xA2, 0x6D, 0x63, 0x83, 0xC4, 0xB9, 0xD2, 0x6F, 0x89, 0xB2, 0x60, 0xA5,
 	];
 
-	helper(S, BASE, 446264643);
+	helper(S, BASE, 446_264_643);
 }
 // endregion
 // region: s_has_4_in_base_113
@@ -1162,9 +1162,9 @@ fn s_has_354_in_base_113() {
 	helper(S, BASE, 354);
 }
 // endregion
-// region: s_has_3933_in_base_113
+// region: s_has_3_933_in_base_113
 #[test]
-fn s_has_3933_in_base_113() {
+fn s_has_3_933_in_base_113() {
 	const S: &[u8] = &[
 		0x82, 0x39,
 	];
@@ -1179,12 +1179,12 @@ fn s_has_3933_in_base_113() {
 		0x86, 0x68, 0x1B, 0x7B, 0xE8, 0x08, 0x1C, 0xC3,
 	];
 
-	helper(S, BASE, 3933);
+	helper(S, BASE, 3_933);
 }
 // endregion
-// region: s_has_20826_in_base_113
+// region: s_has_20_826_in_base_113
 #[test]
-fn s_has_20826_in_base_113() {
+fn s_has_20_826_in_base_113() {
 	const S: &[u8] = &[
 		0x5A, 0x25, 0x4F,
 	];
@@ -1199,12 +1199,12 @@ fn s_has_20826_in_base_113() {
 		0x66, 0x79, 0xC2, 0x02, 0x04, 0xAB, 0x33, 0x40,
 	];
 
-	helper(S, BASE, 20826);
+	helper(S, BASE, 20_826);
 }
 // endregion
-// region: s_has_334358_in_base_113
+// region: s_has_334_358_in_base_113
 #[test]
-fn s_has_334358_in_base_113() {
+fn s_has_334_358_in_base_113() {
 	const S: &[u8] = &[
 		0xA0, 0x6E, 0x29,
 	];
@@ -1219,12 +1219,12 @@ fn s_has_334358_in_base_113() {
 		0x27, 0xDE, 0xE4, 0x91, 0xB4, 0x17, 0x16, 0x40,
 	];
 
-	helper(S, BASE, 334358);
+	helper(S, BASE, 334_358);
 }
 // endregion
-// region: s_has_2815629_in_base_113
+// region: s_has_2_815_629_in_base_113
 #[test]
-fn s_has_2815629_in_base_113() {
+fn s_has_2_815_629_in_base_113() {
 	const S: &[u8] = &[
 		0x88, 0x24, 0xAE, 0x93,
 	];
@@ -1239,12 +1239,12 @@ fn s_has_2815629_in_base_113() {
 		0x91, 0x6F, 0x24, 0xB5, 0x53, 0x73, 0x1E, 0xEB,
 	];
 
-	helper(S, BASE, 2815629);
+	helper(S, BASE, 2_815_629);
 }
 // endregion
-// region: s_has_25043887_in_base_113
+// region: s_has_25_043_887_in_base_113
 #[test]
-fn s_has_25043887_in_base_113() {
+fn s_has_25_043_887_in_base_113() {
 	const S: &[u8] = &[
 		0xFD, 0x7A, 0x32, 0x4D,
 	];
@@ -1259,12 +1259,12 @@ fn s_has_25043887_in_base_113() {
 		0x75, 0xAD, 0x51, 0xEE, 0x2A, 0xE2, 0xA1, 0xAC,
 	];
 
-	helper(S, BASE, 25043887);
+	helper(S, BASE, 25_043_887);
 }
 // endregion
-// region: s_has_719833017_in_base_113
+// region: s_has_719_833_017_in_base_113
 #[test]
-fn s_has_719833017_in_base_113() {
+fn s_has_719_833_017_in_base_113() {
 	const S: &[u8] = &[
 		0xA0, 0x1A, 0x45, 0xEF, 0x22,
 	];
@@ -1279,7 +1279,7 @@ fn s_has_719833017_in_base_113() {
 		0xE9, 0x3B, 0x02, 0xD6, 0xCB, 0xA8, 0x99, 0x90,
 	];
 
-	helper(S, BASE, 719833017);
+	helper(S, BASE, 719_833_017);
 }
 // endregion
 // region: s_has_7_in_base_193
@@ -1353,9 +1353,9 @@ fn s_has_727_in_base_193() {
 	helper(S, BASE, 727);
 }
 // endregion
-// region: s_has_8065_in_base_193
+// region: s_has_8_065_in_base_193
 #[test]
-fn s_has_8065_in_base_193() {
+fn s_has_8_065_in_base_193() {
 	const S: &[u8] = &[
 		0x8B, 0x01,
 	];
@@ -1375,12 +1375,12 @@ fn s_has_8065_in_base_193() {
 		0xA8, 0x90, 0x28, 0x19, 0x7F, 0x75, 0xB1, 0x56, 0x88, 0x72, 0x8A, 0x3A, 0x25,
 	];
 
-	helper(S, BASE, 8065);
+	helper(S, BASE, 8_065);
 }
 // endregion
-// region: s_has_54604_in_base_193
+// region: s_has_54_604_in_base_193
 #[test]
-fn s_has_54604_in_base_193() {
+fn s_has_54_604_in_base_193() {
 	const S: &[u8] = &[
 		0x54, 0x07, 0xC7,
 	];
@@ -1400,12 +1400,12 @@ fn s_has_54604_in_base_193() {
 		0xE0, 0x3B, 0x4C, 0x38, 0x64, 0x62, 0x4E, 0xD1, 0x80, 0x88, 0x26, 0x7E, 0x7B,
 	];
 
-	helper(S, BASE, 54604);
+	helper(S, BASE, 54_604);
 }
 // endregion
-// region: s_has_312678_in_base_193
+// region: s_has_312_678_in_base_193
 #[test]
-fn s_has_312678_in_base_193() {
+fn s_has_312_678_in_base_193() {
 	const S: &[u8] = &[
 		0x5E, 0xA8, 0x05,
 	];
@@ -1425,12 +1425,12 @@ fn s_has_312678_in_base_193() {
 		0xE3, 0xD9, 0x22, 0x41, 0x56, 0x1B, 0x37, 0xCC, 0x10, 0x82, 0x08, 0x48, 0x86,
 	];
 
-	helper(S, BASE, 312678);
+	helper(S, BASE, 312_678);
 }
 // endregion
-// region: s_has_4970765_in_base_193
+// region: s_has_4_970_765_in_base_193
 #[test]
-fn s_has_4970765_in_base_193() {
+fn s_has_4_970_765_in_base_193() {
 	const S: &[u8] = &[
 		0x84, 0xEB, 0xA8,
 	];
@@ -1450,12 +1450,12 @@ fn s_has_4970765_in_base_193() {
 		0x30, 0x55, 0x12, 0xB7, 0xEA, 0x57, 0xCC, 0xCD, 0x86, 0xE8, 0xF2, 0xD5, 0xE7,
 	];
 
-	helper(S, BASE, 4970765);
+	helper(S, BASE, 4_970_765);
 }
 // endregion
-// region: s_has_65963394_in_base_193
+// region: s_has_65_963_394_in_base_193
 #[test]
-fn s_has_65963394_in_base_193() {
+fn s_has_65_963_394_in_base_193() {
 	const S: &[u8] = &[
 		0x2E, 0x8E, 0x97, 0xB1,
 	];
@@ -1475,12 +1475,12 @@ fn s_has_65963394_in_base_193() {
 		0x2A, 0x62, 0xD5, 0x4A, 0x87, 0xDD, 0x99, 0x04, 0xA0, 0x78, 0x98, 0xF2, 0x33,
 	];
 
-	helper(S, BASE, 65963394);
+	helper(S, BASE, 65_963_394);
 }
 // endregion
-// region: s_has_805233389_in_base_193
+// region: s_has_805_233_389_in_base_193
 #[test]
-fn s_has_805233389_in_base_193() {
+fn s_has_805_233_389_in_base_193() {
 	const S: &[u8] = &[
 		0xBF, 0x04, 0xBF, 0x79,
 	];
@@ -1500,7 +1500,7 @@ fn s_has_805233389_in_base_193() {
 		0x12, 0xE5, 0xD9, 0x7C, 0x85, 0xF4, 0x4B, 0xA0, 0x87, 0xB7, 0x61, 0xFA, 0xD5,
 	];
 
-	helper(S, BASE, 805233389);
+	helper(S, BASE, 805_233_389);
 }
 // endregion
 // region: s_has_2_in_base_247
@@ -1586,9 +1586,9 @@ fn s_has_951_in_base_247() {
 	helper(S, BASE, 951);
 }
 // endregion
-// region: s_has_6870_in_base_247
+// region: s_has_6_870_in_base_247
 #[test]
-fn s_has_6870_in_base_247() {
+fn s_has_6_870_in_base_247() {
 	const S: &[u8] = &[
 		0x07, 0xDA,
 	];
@@ -1612,12 +1612,12 @@ fn s_has_6870_in_base_247() {
 		0x96, 0x5C, 0xB3, 0xC0, 0xBF, 0x26, 0xE5,
 	];
 
-	helper(S, BASE, 6870);
+	helper(S, BASE, 6_870);
 }
 // endregion
-// region: s_has_52495_in_base_247
+// region: s_has_52_495_in_base_247
 #[test]
-fn s_has_52495_in_base_247() {
+fn s_has_52_495_in_base_247() {
 	const S: &[u8] = &[
 		0x66, 0x7A,
 	];
@@ -1641,12 +1641,12 @@ fn s_has_52495_in_base_247() {
 		0xA8, 0x3D, 0x65, 0xE2, 0xAE, 0x98, 0x43,
 	];
 
-	helper(S, BASE, 52495);
+	helper(S, BASE, 52_495);
 }
 // endregion
-// region: s_has_250380_in_base_247
+// region: s_has_250_380_in_base_247
 #[test]
-fn s_has_250380_in_base_247() {
+fn s_has_250_380_in_base_247() {
 	const S: &[u8] = &[
 		0xA6, 0xC9, 0x67,
 	];
@@ -1670,12 +1670,12 @@ fn s_has_250380_in_base_247() {
 		0xE7, 0x53, 0x40, 0xAC, 0x51, 0x12, 0xA0,
 	];
 
-	helper(S, BASE, 250380);
+	helper(S, BASE, 250_380);
 }
 // endregion
-// region: s_has_3109544_in_base_247
+// region: s_has_3_109_544_in_base_247
 #[test]
-fn s_has_3109544_in_base_247() {
+fn s_has_3_109_544_in_base_247() {
 	const S: &[u8] = &[
 		0x53, 0xE5, 0x9D,
 	];
@@ -1699,12 +1699,12 @@ fn s_has_3109544_in_base_247() {
 		0x33, 0xCD, 0xA0, 0xE9, 0xCE, 0x61, 0xDC,
 	];
 
-	helper(S, BASE, 3109544);
+	helper(S, BASE, 3_109_544);
 }
 // endregion
-// region: s_has_59927676_in_base_247
+// region: s_has_59_927_676_in_base_247
 #[test]
-fn s_has_59927676_in_base_247() {
+fn s_has_59_927_676_in_base_247() {
 	const S: &[u8] = &[
 		0xA0, 0xD3, 0x73, 0x86,
 	];
@@ -1728,12 +1728,12 @@ fn s_has_59927676_in_base_247() {
 		0x96, 0xD3, 0x60, 0x11, 0xF2, 0x71, 0xDE,
 	];
 
-	helper(S, BASE, 59927676);
+	helper(S, BASE, 59_927_676);
 }
 // endregion
-// region: s_has_352830207_in_base_247
+// region: s_has_352_830_207_in_base_247
 #[test]
-fn s_has_352830207_in_base_247() {
+fn s_has_352_830_207_in_base_247() {
 	const S: &[u8] = &[
 		0xF0, 0x58, 0xAF, 0x9E,
 	];
@@ -1757,7 +1757,7 @@ fn s_has_352830207_in_base_247() {
 		0xD1, 0x10, 0xE3, 0xBE, 0xD5, 0x27, 0x99,
 	];
 
-	helper(S, BASE, 352830207);
+	helper(S, BASE, 352_830_207);
 }
 // endregion
 // region: s_has_whitespaces_and_6_in_base_2
@@ -1805,9 +1805,9 @@ fn s_has_whitespaces_and_257_in_base_2() {
 	helper(S, BASE, 257);
 }
 // endregion
-// region: s_has_whitespaces_and_2091_in_base_2
+// region: s_has_whitespaces_and_2_091_in_base_2
 #[test]
-fn s_has_whitespaces_and_2091_in_base_2() {
+fn s_has_whitespaces_and_2_091_in_base_2() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0A, 0x0D, 0x0D, 0x0C, 0x20, 0x20, 0x20, 0x0C, 0x0C, 0x09, 0x0B, 0x20, 0x09,
 		0x0C, 0x0D, 0x20, 0x09, 0x09, 0x09, 0x0B, 0x09, 0x0B, 0x0B, 0x0C, 0x0A, 0x0D, 0x20, 0x0A,
@@ -1818,12 +1818,12 @@ fn s_has_whitespaces_and_2091_in_base_2() {
 		0x66, 0x7A,
 	];
 
-	helper(S, BASE, 2091);
+	helper(S, BASE, 2_091);
 }
 // endregion
-// region: s_has_whitespaces_and_61143_in_base_2
+// region: s_has_whitespaces_and_61_143_in_base_2
 #[test]
-fn s_has_whitespaces_and_61143_in_base_2() {
+fn s_has_whitespaces_and_61_143_in_base_2() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0D, 0x0B, 0x0C, 0x0A, 0x09, 0x0D, 0x0A, 0x0D, 0x09, 0x0B, 0x0D, 0x20, 0x0A,
 		0x0B, 0x0A, 0x09, 0x09, 0x0A, 0x0A, 0x0B, 0x09, 0x0B, 0x09, 0x0C, 0x0A, 0x09, 0x0C, 0x09,
@@ -1834,12 +1834,12 @@ fn s_has_whitespaces_and_61143_in_base_2() {
 		0xCE, 0x98,
 	];
 
-	helper(S, BASE, 61143);
+	helper(S, BASE, 61_143);
 }
 // endregion
-// region: s_has_whitespaces_and_454093_in_base_2
+// region: s_has_whitespaces_and_454_093_in_base_2
 #[test]
-fn s_has_whitespaces_and_454093_in_base_2() {
+fn s_has_whitespaces_and_454_093_in_base_2() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x20, 0x0D, 0x0A, 0x0A, 0x0A, 0x0B, 0x09, 0x53, 0x53, 0xDE, 0x53, 0x53, 0x53,
 		0xDE, 0x53, 0x53, 0xDE, 0x53, 0x53, 0x53, 0xDE, 0xDE, 0x53, 0x53, 0xDE, 0x53,
@@ -1848,12 +1848,12 @@ fn s_has_whitespaces_and_454093_in_base_2() {
 		0xDE, 0x53,
 	];
 
-	helper(S, BASE, 454093);
+	helper(S, BASE, 454_093);
 }
 // endregion
-// region: s_has_whitespaces_and_8907077_in_base_2
+// region: s_has_whitespaces_and_8_907_077_in_base_2
 #[test]
-fn s_has_whitespaces_and_8907077_in_base_2() {
+fn s_has_whitespaces_and_8_907_077_in_base_2() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0C, 0x0B, 0x20, 0x20, 0x0C, 0x0D, 0x0A, 0x0B, 0x0C, 0x0A, 0x0A, 0x0D, 0x0A,
 		0x0A, 0x20, 0x0B, 0x09, 0x0B, 0x0D, 0x0D, 0x20, 0x09, 0x0D, 0x0A, 0x09, 0x0C, 0x09, 0x20,
@@ -1865,12 +1865,12 @@ fn s_has_whitespaces_and_8907077_in_base_2() {
 		0xC3, 0xD4,
 	];
 
-	helper(S, BASE, 8907077);
+	helper(S, BASE, 8_907_077);
 }
 // endregion
-// region: s_has_whitespaces_and_92153984_in_base_2
+// region: s_has_whitespaces_and_92_153_984_in_base_2
 #[test]
-fn s_has_whitespaces_and_92153984_in_base_2() {
+fn s_has_whitespaces_and_92_153_984_in_base_2() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x20, 0x0D, 0x0B, 0x0A, 0x09, 0x0D, 0x0D, 0x09, 0x0B, 0x0C, 0x0D, 0x0B, 0x0D,
 		0x0B, 0x20, 0x20, 0x0A, 0x20, 0x0B, 0x20, 0x0C, 0x0A, 0x20, 0x0B, 0x0D, 0xA2, 0x53, 0xA2,
@@ -1881,12 +1881,12 @@ fn s_has_whitespaces_and_92153984_in_base_2() {
 		0x53, 0xA2,
 	];
 
-	helper(S, BASE, 92153984);
+	helper(S, BASE, 92_153_984);
 }
 // endregion
-// region: s_has_whitespaces_and_972496928_in_base_2
+// region: s_has_whitespaces_and_972_496_928_in_base_2
 #[test]
-fn s_has_whitespaces_and_972496928_in_base_2() {
+fn s_has_whitespaces_and_972_496_928_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0A, 0x20, 0x20, 0x0A, 0x0D, 0x0B, 0x0A, 0x0D, 0x09, 0x0D, 0x0C, 0x0D, 0x09,
 		0x20, 0x0C, 0x0A, 0x09, 0x0D, 0x0B, 0x0C, 0x20, 0x20, 0x3D, 0x3D, 0x3D, 0x1E, 0x1E, 0x3D,
@@ -1897,7 +1897,7 @@ fn s_has_whitespaces_and_972496928_in_base_2() {
 		0x1E, 0x3D,
 	];
 
-	helper(S, BASE, 972496928);
+	helper(S, BASE, 972_496_928);
 }
 // endregion
 // region: s_has_whitespaces_and_9_in_base_3
@@ -1942,9 +1942,9 @@ fn s_has_whitespaces_and_753_in_base_3() {
 	helper(S, BASE, 753);
 }
 // endregion
-// region: s_has_whitespaces_and_8023_in_base_3
+// region: s_has_whitespaces_and_8_023_in_base_3
 #[test]
-fn s_has_whitespaces_and_8023_in_base_3() {
+fn s_has_whitespaces_and_8_023_in_base_3() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0D, 0x09, 0x0B, 0x0C, 0xDA, 0x64, 0x38, 0x64, 0x64, 0x64, 0x64, 0xDA, 0xDA,
 	];
@@ -1952,12 +1952,12 @@ fn s_has_whitespaces_and_8023_in_base_3() {
 		0x64, 0xDA, 0x38,
 	];
 
-	helper(S, BASE, 8023);
+	helper(S, BASE, 8_023);
 }
 // endregion
-// region: s_has_whitespaces_and_75587_in_base_3
+// region: s_has_whitespaces_and_75_587_in_base_3
 #[test]
-fn s_has_whitespaces_and_75587_in_base_3() {
+fn s_has_whitespaces_and_75_587_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x09, 0x0D, 0x0D, 0x90, 0xC8, 0xA3, 0x90, 0x90, 0xA3, 0xC8, 0xC8, 0x90, 0x90,
 		0xA3,
@@ -1966,12 +1966,12 @@ fn s_has_whitespaces_and_75587_in_base_3() {
 		0xC8, 0x90, 0xA3,
 	];
 
-	helper(S, BASE, 75587);
+	helper(S, BASE, 75_587);
 }
 // endregion
-// region: s_has_whitespaces_and_189381_in_base_3
+// region: s_has_whitespaces_and_189_381_in_base_3
 #[test]
-fn s_has_whitespaces_and_189381_in_base_3() {
+fn s_has_whitespaces_and_189_381_in_base_3() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0D, 0x0B, 0x09, 0x20, 0x09, 0x09, 0x09, 0x0A, 0x0D, 0x09, 0x09, 0x09, 0x0D,
 		0x0C, 0x09, 0x0C, 0x0C, 0x0B, 0x0C, 0x20, 0x20, 0x0C, 0x09, 0x0A, 0x09, 0x36, 0xBE, 0xBE,
@@ -1981,12 +1981,12 @@ fn s_has_whitespaces_and_189381_in_base_3() {
 		0xBE, 0x36, 0x1C,
 	];
 
-	helper(S, BASE, 189381);
+	helper(S, BASE, 189_381);
 }
 // endregion
-// region: s_has_whitespaces_and_7895755_in_base_3
+// region: s_has_whitespaces_and_7_895_755_in_base_3
 #[test]
-fn s_has_whitespaces_and_7895755_in_base_3() {
+fn s_has_whitespaces_and_7_895_755_in_base_3() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0A, 0x0C, 0x0D, 0x20, 0x0A, 0x20, 0x09, 0x0C, 0x0B, 0x67, 0x67, 0x3E, 0x3E,
 		0x67, 0x3E, 0x68, 0x67, 0x68, 0x3E, 0x3E, 0x67, 0x67, 0x68, 0x67,
@@ -1995,12 +1995,12 @@ fn s_has_whitespaces_and_7895755_in_base_3() {
 		0x68, 0x67, 0x3E,
 	];
 
-	helper(S, BASE, 7895755);
+	helper(S, BASE, 7_895_755);
 }
 // endregion
-// region: s_has_whitespaces_and_62473499_in_base_3
+// region: s_has_whitespaces_and_62_473_499_in_base_3
 #[test]
-fn s_has_whitespaces_and_62473499_in_base_3() {
+fn s_has_whitespaces_and_62_473_499_in_base_3() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0C, 0x0C, 0x0C, 0x20, 0x0A, 0x0B, 0x0B, 0x0B, 0x09, 0x0C, 0x20, 0x09, 0x0D,
 		0x0A, 0x09, 0x09, 0x0A, 0x0B, 0x0B, 0x0C, 0x20, 0x09, 0x20, 0x0C, 0x0B, 0x0A, 0x0D, 0x09,
@@ -2011,12 +2011,12 @@ fn s_has_whitespaces_and_62473499_in_base_3() {
 		0x77, 0x46, 0x7A,
 	];
 
-	helper(S, BASE, 62473499);
+	helper(S, BASE, 62_473_499);
 }
 // endregion
-// region: s_has_whitespaces_and_537233486_in_base_3
+// region: s_has_whitespaces_and_537_233_486_in_base_3
 #[test]
-fn s_has_whitespaces_and_537233486_in_base_3() {
+fn s_has_whitespaces_and_537_233_486_in_base_3() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x0D, 0x20, 0x20, 0x0B, 0x0D, 0x0C, 0x20, 0x0A, 0x20, 0x0A, 0x0A, 0x0A,
 		0x0A, 0x0D, 0x0D, 0x0B, 0x09, 0x0C, 0x0C, 0x0A, 0x20, 0x09, 0x0A, 0x60, 0x60, 0x01, 0x60,
@@ -2026,7 +2026,7 @@ fn s_has_whitespaces_and_537233486_in_base_3() {
 		0x01, 0x60, 0xFF,
 	];
 
-	helper(S, BASE, 537233486);
+	helper(S, BASE, 537_233_486);
 }
 // endregion
 // region: s_has_whitespaces_and_6_in_base_5
@@ -2072,9 +2072,9 @@ fn s_has_whitespaces_and_160_in_base_5() {
 	helper(S, BASE, 160);
 }
 // endregion
-// region: s_has_whitespaces_and_1006_in_base_5
+// region: s_has_whitespaces_and_1_006_in_base_5
 #[test]
-fn s_has_whitespaces_and_1006_in_base_5() {
+fn s_has_whitespaces_and_1_006_in_base_5() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x20, 0x0B, 0x0A, 0x0B, 0x0C, 0xBF, 0xFB, 0x66, 0xBF, 0xBF,
 	];
@@ -2082,12 +2082,12 @@ fn s_has_whitespaces_and_1006_in_base_5() {
 		0x66, 0xBF, 0x7E, 0xFB, 0x32,
 	];
 
-	helper(S, BASE, 1006);
+	helper(S, BASE, 1_006);
 }
 // endregion
-// region: s_has_whitespaces_and_73934_in_base_5
+// region: s_has_whitespaces_and_73_934_in_base_5
 #[test]
-fn s_has_whitespaces_and_73934_in_base_5() {
+fn s_has_whitespaces_and_73_934_in_base_5() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0xAC, 0xA8, 0xA8, 0xDA, 0x27, 0xDA, 0xAC,
 	];
@@ -2095,12 +2095,12 @@ fn s_has_whitespaces_and_73934_in_base_5() {
 		0xF6, 0xDA, 0x27, 0xA8, 0xAC,
 	];
 
-	helper(S, BASE, 73934);
+	helper(S, BASE, 73_934);
 }
 // endregion
-// region: s_has_whitespaces_and_798847_in_base_5
+// region: s_has_whitespaces_and_798_847_in_base_5
 #[test]
-fn s_has_whitespaces_and_798847_in_base_5() {
+fn s_has_whitespaces_and_798_847_in_base_5() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x09, 0x0D, 0x33, 0x1E, 0x91, 0x1E, 0x78, 0x1E, 0x78, 0xD5, 0x33,
 	];
@@ -2108,12 +2108,12 @@ fn s_has_whitespaces_and_798847_in_base_5() {
 		0x1E, 0x91, 0x33, 0x78, 0xD5,
 	];
 
-	helper(S, BASE, 798847);
+	helper(S, BASE, 798_847);
 }
 // endregion
-// region: s_has_whitespaces_and_8793910_in_base_5
+// region: s_has_whitespaces_and_8_793_910_in_base_5
 #[test]
-fn s_has_whitespaces_and_8793910_in_base_5() {
+fn s_has_whitespaces_and_8_793_910_in_base_5() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0A, 0x0A, 0x0A, 0x0C, 0x0D, 0x0C, 0x0A, 0x0A, 0x09, 0x0D, 0x0A, 0x20, 0x0D,
 		0x0C, 0x0A, 0x0B, 0x20, 0x0B, 0x6C, 0x53, 0x53, 0x53, 0x6C, 0x70, 0xAA, 0xAA, 0x53, 0x70,
@@ -2122,12 +2122,12 @@ fn s_has_whitespaces_and_8793910_in_base_5() {
 		0x70, 0xAA, 0x53, 0x84, 0x6C,
 	];
 
-	helper(S, BASE, 8793910);
+	helper(S, BASE, 8_793_910);
 }
 // endregion
-// region: s_has_whitespaces_and_53110302_in_base_5
+// region: s_has_whitespaces_and_53_110_302_in_base_5
 #[test]
-fn s_has_whitespaces_and_53110302_in_base_5() {
+fn s_has_whitespaces_and_53_110_302_in_base_5() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x09, 0x20, 0x0C, 0x84, 0x78, 0xD5, 0x78, 0x35, 0x35, 0x78, 0x84, 0xD5, 0xD5,
 		0x78, 0xD5,
@@ -2136,12 +2136,12 @@ fn s_has_whitespaces_and_53110302_in_base_5() {
 		0x78, 0x84, 0xD5, 0x82, 0x35,
 	];
 
-	helper(S, BASE, 53110302);
+	helper(S, BASE, 53_110_302);
 }
 // endregion
-// region: s_has_whitespaces_and_856326006_in_base_5
+// region: s_has_whitespaces_and_856_326_006_in_base_5
 #[test]
-fn s_has_whitespaces_and_856326006_in_base_5() {
+fn s_has_whitespaces_and_856_326_006_in_base_5() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0D, 0x20, 0x0A, 0x20, 0x20, 0x0C, 0x20, 0x0B, 0x0B, 0x0C, 0x0C, 0x0A, 0x0C,
 		0x09, 0x09, 0x0D, 0x09, 0x0B, 0x6E, 0xFE, 0xFE, 0x6E, 0xFE, 0x71, 0x96, 0x96, 0xBE, 0x6E,
@@ -2151,7 +2151,7 @@ fn s_has_whitespaces_and_856326006_in_base_5() {
 		0x71, 0xBE, 0xFE, 0x6E, 0x96,
 	];
 
-	helper(S, BASE, 856326006);
+	helper(S, BASE, 856_326_006);
 }
 // endregion
 // region: s_has_whitespaces_and_6_in_base_7
@@ -2196,9 +2196,9 @@ fn s_has_whitespaces_and_207_in_base_7() {
 	helper(S, BASE, 207);
 }
 // endregion
-// region: s_has_whitespaces_and_5953_in_base_7
+// region: s_has_whitespaces_and_5_953_in_base_7
 #[test]
-fn s_has_whitespaces_and_5953_in_base_7() {
+fn s_has_whitespaces_and_5_953_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0A, 0x09, 0x09, 0x0D, 0x09, 0x0D, 0x0B, 0x20, 0x20, 0x20, 0x0C, 0x20, 0x09,
 		0x0B, 0x0C, 0x20, 0x20, 0x0A, 0x09, 0x20, 0x0D, 0x20, 0x20, 0x0C, 0x0C, 0x09, 0x6F, 0x98,
@@ -2208,12 +2208,12 @@ fn s_has_whitespaces_and_5953_in_base_7() {
 		0x87, 0x80, 0x6F, 0x98, 0x60, 0xC7, 0x73,
 	];
 
-	helper(S, BASE, 5953);
+	helper(S, BASE, 5_953);
 }
 // endregion
-// region: s_has_whitespaces_and_93821_in_base_7
+// region: s_has_whitespaces_and_93_821_in_base_7
 #[test]
-fn s_has_whitespaces_and_93821_in_base_7() {
+fn s_has_whitespaces_and_93_821_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0C, 0x0C, 0x09, 0x0D, 0x20, 0x0A, 0x0D, 0x0C, 0x20, 0x0D, 0x20, 0x09, 0x0C,
 		0x0B, 0x0B, 0x0C, 0x0A, 0x20, 0x0A, 0x09, 0x09, 0x0A, 0x0C, 0x20, 0x0D, 0x0B, 0x0C, 0x0B,
@@ -2223,12 +2223,12 @@ fn s_has_whitespaces_and_93821_in_base_7() {
 		0x95, 0x42, 0x67, 0x17, 0x3C, 0x4D, 0x04,
 	];
 
-	helper(S, BASE, 93821);
+	helper(S, BASE, 93_821);
 }
 // endregion
-// region: s_has_whitespaces_and_368575_in_base_7
+// region: s_has_whitespaces_and_368_575_in_base_7
 #[test]
-fn s_has_whitespaces_and_368575_in_base_7() {
+fn s_has_whitespaces_and_368_575_in_base_7() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0D, 0x0A, 0x0B, 0x0C, 0x0D, 0x0C, 0x0D, 0x0D, 0x0B, 0x0A, 0x0B, 0x0A, 0x0D,
 		0x20, 0x0C, 0x0C, 0x0B, 0x0A, 0x0C, 0x0C, 0x0D, 0x09, 0x0B, 0x0D, 0x0D, 0x0B, 0x0D, 0x09,
@@ -2238,12 +2238,12 @@ fn s_has_whitespaces_and_368575_in_base_7() {
 		0x28, 0xEB, 0x8B, 0xC2, 0xD3, 0xF8, 0x4C,
 	];
 
-	helper(S, BASE, 368575);
+	helper(S, BASE, 368_575);
 }
 // endregion
-// region: s_has_whitespaces_and_4103083_in_base_7
+// region: s_has_whitespaces_and_4_103_083_in_base_7
 #[test]
-fn s_has_whitespaces_and_4103083_in_base_7() {
+fn s_has_whitespaces_and_4_103_083_in_base_7() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0D, 0x09, 0x0D, 0x0D, 0x0D, 0x0C, 0x0B, 0x0C, 0x09, 0x0D, 0x0B, 0x09, 0x0A,
 		0x0D, 0x0A, 0x20, 0x0D, 0x0C, 0x0C, 0x0D, 0x20, 0x09, 0x0B, 0x0D, 0x83, 0x61, 0x61, 0xB0,
@@ -2253,12 +2253,12 @@ fn s_has_whitespaces_and_4103083_in_base_7() {
 		0xB0, 0x22, 0x75, 0xAE, 0x83, 0x28, 0x61,
 	];
 
-	helper(S, BASE, 4103083);
+	helper(S, BASE, 4_103_083);
 }
 // endregion
-// region: s_has_whitespaces_and_77010876_in_base_7
+// region: s_has_whitespaces_and_77_010_876_in_base_7
 #[test]
-fn s_has_whitespaces_and_77010876_in_base_7() {
+fn s_has_whitespaces_and_77_010_876_in_base_7() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0B, 0x09, 0x0D, 0x20, 0xFA, 0xCE, 0xB2, 0x4B, 0x0E, 0x3A, 0x4B, 0x4B, 0x4B,
 		0xB1,
@@ -2267,12 +2267,12 @@ fn s_has_whitespaces_and_77010876_in_base_7() {
 		0x3A, 0xFA, 0xB2, 0x4B, 0x0E, 0xB1, 0xCE,
 	];
 
-	helper(S, BASE, 77010876);
+	helper(S, BASE, 77_010_876);
 }
 // endregion
-// region: s_has_whitespaces_and_231455074_in_base_7
+// region: s_has_whitespaces_and_231_455_074_in_base_7
 #[test]
-fn s_has_whitespaces_and_231455074_in_base_7() {
+fn s_has_whitespaces_and_231_455_074_in_base_7() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0xBE, 0xBE, 0xC5, 0xCD, 0xCB, 0xCB, 0x3A, 0xCD, 0x39, 0x77,
 	];
@@ -2280,7 +2280,7 @@ fn s_has_whitespaces_and_231455074_in_base_7() {
 		0xCD, 0xC5, 0xCB, 0x3A, 0x77, 0xBE, 0x39,
 	];
 
-	helper(S, BASE, 231455074);
+	helper(S, BASE, 231_455_074);
 }
 // endregion
 // region: s_has_whitespaces_and_8_in_base_11
@@ -2323,9 +2323,9 @@ fn s_has_whitespaces_and_225_in_base_11() {
 	helper(S, BASE, 225);
 }
 // endregion
-// region: s_has_whitespaces_and_8417_in_base_11
+// region: s_has_whitespaces_and_8_417_in_base_11
 #[test]
-fn s_has_whitespaces_and_8417_in_base_11() {
+fn s_has_whitespaces_and_8_417_in_base_11() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0D, 0x0D, 0x20, 0x20, 0x0A, 0x09, 0x20, 0x0B, 0x0B, 0x0B, 0x0C, 0x0D, 0x20,
 		0x0A, 0x09, 0x20, 0x0B, 0x0B, 0x09, 0x09, 0x20, 0x20, 0x20, 0x0B, 0x0B, 0x0B, 0x0B, 0x09,
@@ -2335,12 +2335,12 @@ fn s_has_whitespaces_and_8417_in_base_11() {
 		0x07, 0x8F, 0xF5, 0xA8, 0xF1, 0xB2, 0x56, 0x7B, 0xF8, 0xB6, 0xA3,
 	];
 
-	helper(S, BASE, 8417);
+	helper(S, BASE, 8_417);
 }
 // endregion
-// region: s_has_whitespaces_and_64188_in_base_11
+// region: s_has_whitespaces_and_64_188_in_base_11
 #[test]
-fn s_has_whitespaces_and_64188_in_base_11() {
+fn s_has_whitespaces_and_64_188_in_base_11() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0C, 0x0B, 0x0B, 0x0C, 0x0B, 0x0A, 0x0C, 0x0C, 0x20, 0x0C, 0x0A, 0x0B, 0x20,
 		0x20, 0x0D, 0x0D, 0x0D, 0x0C, 0x0D, 0x0D, 0x0C, 0x0C, 0x20, 0x0B, 0x0C, 0x0D, 0x0D, 0x0A,
@@ -2350,12 +2350,12 @@ fn s_has_whitespaces_and_64188_in_base_11() {
 		0x40, 0x93, 0x05, 0x94, 0xB4, 0x8D, 0xC8, 0xF5, 0x4F, 0x08, 0x0E,
 	];
 
-	helper(S, BASE, 64188);
+	helper(S, BASE, 64_188);
 }
 // endregion
-// region: s_has_whitespaces_and_393057_in_base_11
+// region: s_has_whitespaces_and_393_057_in_base_11
 #[test]
-fn s_has_whitespaces_and_393057_in_base_11() {
+fn s_has_whitespaces_and_393_057_in_base_11() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0C, 0x0A, 0x0B, 0x0B, 0x0A, 0x0A, 0x0A, 0x0A, 0x0C, 0x0C, 0x09, 0x0B, 0x0C,
 		0x0A, 0x0B, 0x0A, 0x09, 0x0B, 0x09, 0x20, 0x0B, 0x0D, 0x0B, 0x0A, 0xC2, 0x1C, 0x9C, 0x3A,
@@ -2365,12 +2365,12 @@ fn s_has_whitespaces_and_393057_in_base_11() {
 		0x5A, 0x8D, 0xC2, 0x3A, 0x1C, 0xCE, 0x4B, 0xF4, 0xFF, 0x9C, 0x1D,
 	];
 
-	helper(S, BASE, 393057);
+	helper(S, BASE, 393_057);
 }
 // endregion
-// region: s_has_whitespaces_and_4129763_in_base_11
+// region: s_has_whitespaces_and_4_129_763_in_base_11
 #[test]
-fn s_has_whitespaces_and_4129763_in_base_11() {
+fn s_has_whitespaces_and_4_129_763_in_base_11() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0C, 0x20, 0x0D, 0x09, 0x0C, 0x20, 0x0A, 0x20, 0x0B, 0x0A, 0x0A, 0x20, 0x09,
 		0x0C, 0x09, 0x0B, 0x0D, 0x0D, 0x20, 0x20, 0x0B, 0x0B, 0x20, 0x0B, 0x0C, 0x0D, 0x0B, 0x09,
@@ -2380,12 +2380,12 @@ fn s_has_whitespaces_and_4129763_in_base_11() {
 		0x3A, 0xD1, 0x63, 0x95, 0xD8, 0xFC, 0xC2, 0x73, 0x98, 0xAB, 0x07,
 	];
 
-	helper(S, BASE, 4129763);
+	helper(S, BASE, 4_129_763);
 }
 // endregion
-// region: s_has_whitespaces_and_51874132_in_base_11
+// region: s_has_whitespaces_and_51_874_132_in_base_11
 #[test]
-fn s_has_whitespaces_and_51874132_in_base_11() {
+fn s_has_whitespaces_and_51_874_132_in_base_11() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x20, 0x20, 0x0C, 0x20, 0x0B, 0x0C, 0x09, 0x20, 0x0D, 0x0B, 0x09, 0x0B, 0x0C,
 		0x0C, 0x0B, 0x0D, 0x0B, 0x0D, 0x0B, 0x0D, 0x20, 0x20, 0x0C, 0x0B, 0x0D, 0x0D, 0x0D, 0x0A,
@@ -2396,12 +2396,12 @@ fn s_has_whitespaces_and_51874132_in_base_11() {
 		0xB2, 0x68, 0x5B, 0x80, 0x1D, 0xE5, 0x53, 0x97, 0x13, 0xF6, 0x08,
 	];
 
-	helper(S, BASE, 51874132);
+	helper(S, BASE, 51_874_132);
 }
 // endregion
-// region: s_has_whitespaces_and_758794333_in_base_11
+// region: s_has_whitespaces_and_758_794_333_in_base_11
 #[test]
-fn s_has_whitespaces_and_758794333_in_base_11() {
+fn s_has_whitespaces_and_758_794_333_in_base_11() {
 	const S: &[u8] = &[
 		0x0C, 0xCA, 0x7A, 0x98, 0xCA, 0x7A, 0x2E, 0x6F, 0xDB, 0x9D,
 	];
@@ -2409,7 +2409,7 @@ fn s_has_whitespaces_and_758794333_in_base_11() {
 		0x9D, 0xED, 0x07, 0xCA, 0x6F, 0x7A, 0xDB, 0x2E, 0x0F, 0xBE, 0x98,
 	];
 
-	helper(S, BASE, 758794333);
+	helper(S, BASE, 758_794_333);
 }
 // endregion
 // region: s_has_whitespaces_and_9_in_base_13
@@ -2452,9 +2452,9 @@ fn s_has_whitespaces_and_453_in_base_13() {
 	helper(S, BASE, 453);
 }
 // endregion
-// region: s_has_whitespaces_and_7489_in_base_13
+// region: s_has_whitespaces_and_7_489_in_base_13
 #[test]
-fn s_has_whitespaces_and_7489_in_base_13() {
+fn s_has_whitespaces_and_7_489_in_base_13() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x20, 0x0C, 0x0B, 0x94, 0xF1, 0xD7, 0x68,
 	];
@@ -2462,12 +2462,12 @@ fn s_has_whitespaces_and_7489_in_base_13() {
 		0x2C, 0x68, 0xF7, 0x94, 0xD7, 0xF1, 0x98, 0x48, 0x9C, 0x7F, 0x52, 0xD9, 0x6F,
 	];
 
-	helper(S, BASE, 7489);
+	helper(S, BASE, 7_489);
 }
 // endregion
-// region: s_has_whitespaces_and_71451_in_base_13
+// region: s_has_whitespaces_and_71_451_in_base_13
 #[test]
-fn s_has_whitespaces_and_71451_in_base_13() {
+fn s_has_whitespaces_and_71_451_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0C, 0x0A, 0x0C, 0x20, 0x0B, 0x0A, 0x09, 0x09, 0x20, 0x0D, 0x0B, 0x09, 0x09,
 		0x0D, 0x0B, 0x0B, 0x0B, 0x20, 0x09, 0x0A, 0x09, 0x0D, 0xA0, 0xE0, 0xE0, 0xC4, 0x49,
@@ -2476,12 +2476,12 @@ fn s_has_whitespaces_and_71451_in_base_13() {
 		0xB1, 0x32, 0xA0, 0x49, 0xC1, 0x88, 0xE0, 0x5E, 0xEF, 0xE7, 0xC4, 0x01, 0x80,
 	];
 
-	helper(S, BASE, 71451);
+	helper(S, BASE, 71_451);
 }
 // endregion
-// region: s_has_whitespaces_and_108643_in_base_13
+// region: s_has_whitespaces_and_108_643_in_base_13
 #[test]
-fn s_has_whitespaces_and_108643_in_base_13() {
+fn s_has_whitespaces_and_108_643_in_base_13() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0A, 0x20, 0x0B, 0x0A, 0x0C, 0x09, 0x0A, 0x0D, 0x0C, 0x0D, 0x0D, 0x0A, 0x0C,
 		0xE8, 0x5E, 0x7C, 0xBE, 0xEA,
@@ -2490,12 +2490,12 @@ fn s_has_whitespaces_and_108643_in_base_13() {
 		0x77, 0x21, 0xEA, 0xE8, 0x40, 0x7C, 0xC2, 0xD7, 0x43, 0x45, 0x5E, 0xBE, 0xEC,
 	];
 
-	helper(S, BASE, 108643);
+	helper(S, BASE, 108_643);
 }
 // endregion
-// region: s_has_whitespaces_and_6372561_in_base_13
+// region: s_has_whitespaces_and_6_372_561_in_base_13
 #[test]
-fn s_has_whitespaces_and_6372561_in_base_13() {
+fn s_has_whitespaces_and_6_372_561_in_base_13() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0C, 0x6D, 0xBB, 0xFC, 0x6D, 0x12, 0x62, 0x66,
 	];
@@ -2503,12 +2503,12 @@ fn s_has_whitespaces_and_6372561_in_base_13() {
 		0x66, 0x6D, 0xFC, 0x1D, 0xBB, 0x3F, 0x62, 0x12, 0x17, 0x7A, 0x18, 0x55, 0xD1,
 	];
 
-	helper(S, BASE, 6372561);
+	helper(S, BASE, 6_372_561);
 }
 // endregion
-// region: s_has_whitespaces_and_89947697_in_base_13
+// region: s_has_whitespaces_and_89_947_697_in_base_13
 #[test]
-fn s_has_whitespaces_and_89947697_in_base_13() {
+fn s_has_whitespaces_and_89_947_697_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x20, 0x09, 0x0D, 0x0C, 0x20, 0x0D, 0x09, 0x0C, 0x09, 0x09, 0x0C, 0x09, 0x09,
 		0x09, 0x20, 0x09, 0x0D, 0x20, 0x0A, 0x09, 0xA2, 0x92, 0x4E, 0xB6, 0x3A, 0xA2, 0xD8, 0x4E,
@@ -2517,12 +2517,12 @@ fn s_has_whitespaces_and_89947697_in_base_13() {
 		0x97, 0xA2, 0x79, 0xB6, 0x3A, 0x92, 0x4A, 0x37, 0x4E, 0x26, 0x87, 0xD8, 0x06,
 	];
 
-	helper(S, BASE, 89947697);
+	helper(S, BASE, 89_947_697);
 }
 // endregion
-// region: s_has_whitespaces_and_489103101_in_base_13
+// region: s_has_whitespaces_and_489_103_101_in_base_13
 #[test]
-fn s_has_whitespaces_and_489103101_in_base_13() {
+fn s_has_whitespaces_and_489_103_101_in_base_13() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0B, 0x0D, 0x0B, 0x09, 0x0C, 0x0C, 0x0B, 0x0C, 0x0C, 0x09, 0x0D, 0x09, 0x0D,
 		0x0A, 0x0C, 0x0A, 0x0A, 0x0C, 0x0A, 0x0C, 0x0D, 0x0A, 0x20, 0x0B, 0x0A, 0x0A, 0x0B, 0x09,
@@ -2533,7 +2533,7 @@ fn s_has_whitespaces_and_489103101_in_base_13() {
 		0x69, 0xCB, 0x19, 0x97, 0xC8, 0x5E, 0xC1, 0xAD, 0xD3, 0x8B, 0xDC, 0xA9, 0xA3,
 	];
 
-	helper(S, BASE, 489103101);
+	helper(S, BASE, 489_103_101);
 }
 // endregion
 // region: s_has_whitespaces_and_5_in_base_19
@@ -2579,9 +2579,9 @@ fn s_has_whitespaces_and_269_in_base_19() {
 	helper(S, BASE, 269);
 }
 // endregion
-// region: s_has_whitespaces_and_4216_in_base_19
+// region: s_has_whitespaces_and_4_216_in_base_19
 #[test]
-fn s_has_whitespaces_and_4216_in_base_19() {
+fn s_has_whitespaces_and_4_216_in_base_19() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0A, 0x0C, 0x0C, 0x20, 0x20, 0x0D, 0x0D, 0x20, 0x09, 0x0A, 0x0B, 0x0C, 0x0B,
 		0x0C, 0x0B, 0x0B, 0x0B, 0x0C, 0xD5, 0x67, 0x03,
@@ -2591,12 +2591,12 @@ fn s_has_whitespaces_and_4216_in_base_19() {
 		0x41, 0x23, 0x03, 0xC6,
 	];
 
-	helper(S, BASE, 4216);
+	helper(S, BASE, 4_216);
 }
 // endregion
-// region: s_has_whitespaces_and_51605_in_base_19
+// region: s_has_whitespaces_and_51_605_in_base_19
 #[test]
-fn s_has_whitespaces_and_51605_in_base_19() {
+fn s_has_whitespaces_and_51_605_in_base_19() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x20, 0x8B, 0x77, 0x8E, 0xCD,
 	];
@@ -2605,12 +2605,12 @@ fn s_has_whitespaces_and_51605_in_base_19() {
 		0xEE, 0xF0, 0xFA, 0x8E,
 	];
 
-	helper(S, BASE, 51605);
+	helper(S, BASE, 51_605);
 }
 // endregion
-// region: s_has_whitespaces_and_225952_in_base_19
+// region: s_has_whitespaces_and_225_952_in_base_19
 #[test]
-fn s_has_whitespaces_and_225952_in_base_19() {
+fn s_has_whitespaces_and_225_952_in_base_19() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0C, 0x0B, 0x0C, 0x0B, 0x0B, 0x0B, 0x0D, 0x0B, 0x09, 0x0C, 0x09, 0x0D, 0x09,
 		0x0D, 0x54, 0xD7, 0xD0, 0xD0, 0xF4,
@@ -2620,12 +2620,12 @@ fn s_has_whitespaces_and_225952_in_base_19() {
 		0x4E, 0x6B, 0xD0, 0x60,
 	];
 
-	helper(S, BASE, 225952);
+	helper(S, BASE, 225_952);
 }
 // endregion
-// region: s_has_whitespaces_and_2376199_in_base_19
+// region: s_has_whitespaces_and_2_376_199_in_base_19
 #[test]
-fn s_has_whitespaces_and_2376199_in_base_19() {
+fn s_has_whitespaces_and_2_376_199_in_base_19() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0B, 0x0C, 0x0B, 0x0C, 0x20, 0x0A, 0x8C, 0x57, 0xA3, 0xA9, 0xF3,
 	];
@@ -2634,12 +2634,12 @@ fn s_has_whitespaces_and_2376199_in_base_19() {
 		0xA5, 0xFA, 0xE6, 0x8C,
 	];
 
-	helper(S, BASE, 2376199);
+	helper(S, BASE, 2_376_199);
 }
 // endregion
-// region: s_has_whitespaces_and_40036325_in_base_19
+// region: s_has_whitespaces_and_40_036_325_in_base_19
 #[test]
-fn s_has_whitespaces_and_40036325_in_base_19() {
+fn s_has_whitespaces_and_40_036_325_in_base_19() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0D, 0x0A, 0x0A, 0x0B, 0x0D, 0x0B, 0xAF, 0x8C, 0x95, 0xAC, 0x8F, 0xAC,
 	];
@@ -2648,12 +2648,12 @@ fn s_has_whitespaces_and_40036325_in_base_19() {
 		0x6E, 0xAF, 0x54, 0x8F,
 	];
 
-	helper(S, BASE, 40036325);
+	helper(S, BASE, 40_036_325);
 }
 // endregion
-// region: s_has_whitespaces_and_696981857_in_base_19
+// region: s_has_whitespaces_and_696_981_857_in_base_19
 #[test]
-fn s_has_whitespaces_and_696981857_in_base_19() {
+fn s_has_whitespaces_and_696_981_857_in_base_19() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0B, 0x0A, 0x0A, 0x0D, 0x18, 0x38, 0xE7, 0xB5, 0xE1, 0xE1, 0xE1,
 	];
@@ -2662,7 +2662,7 @@ fn s_has_whitespaces_and_696981857_in_base_19() {
 		0x38, 0x86, 0xD0, 0xAA,
 	];
 
-	helper(S, BASE, 696981857);
+	helper(S, BASE, 696_981_857);
 }
 // endregion
 // region: s_has_whitespaces_and_2_in_base_42
@@ -2714,9 +2714,9 @@ fn s_has_whitespaces_and_352_in_base_42() {
 	helper(S, BASE, 352);
 }
 // endregion
-// region: s_has_whitespaces_and_9960_in_base_42
+// region: s_has_whitespaces_and_9_960_in_base_42
 #[test]
-fn s_has_whitespaces_and_9960_in_base_42() {
+fn s_has_whitespaces_and_9_960_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x20, 0x09, 0x0C, 0x09, 0x0B, 0x0D, 0x09, 0x0A, 0x0C, 0x20, 0x0D, 0x20, 0x0D,
 		0x0C, 0x09, 0x20, 0x20, 0x09, 0x0A, 0x0B, 0x0B, 0x0B, 0x69, 0xB1, 0x13,
@@ -2727,12 +2727,12 @@ fn s_has_whitespaces_and_9960_in_base_42() {
 		0x32, 0x66, 0xFF, 0x24, 0x7A, 0xB7, 0xE3, 0xA6, 0x36, 0xD5, 0x5E, 0xC9,
 	];
 
-	helper(S, BASE, 9960);
+	helper(S, BASE, 9_960);
 }
 // endregion
-// region: s_has_whitespaces_and_67324_in_base_42
+// region: s_has_whitespaces_and_67_324_in_base_42
 #[test]
-fn s_has_whitespaces_and_67324_in_base_42() {
+fn s_has_whitespaces_and_67_324_in_base_42() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0C, 0x20, 0x0D, 0x0D, 0x0C, 0x20, 0x0A, 0x0A, 0x0C, 0x0A, 0x0D, 0x09, 0x0D,
 		0x0B, 0x09, 0x0A, 0x09, 0x0A, 0x20, 0x20, 0x0B, 0x0D, 0x09, 0x0D, 0x0D, 0x0B, 0x09, 0x0B,
@@ -2744,12 +2744,12 @@ fn s_has_whitespaces_and_67324_in_base_42() {
 		0x7F, 0x1E, 0x92, 0x29, 0xF1, 0xED, 0x99, 0x47, 0xBA, 0x4A, 0xDA, 0x5D,
 	];
 
-	helper(S, BASE, 67324);
+	helper(S, BASE, 67_324);
 }
 // endregion
-// region: s_has_whitespaces_and_384672_in_base_42
+// region: s_has_whitespaces_and_384_672_in_base_42
 #[test]
-fn s_has_whitespaces_and_384672_in_base_42() {
+fn s_has_whitespaces_and_384_672_in_base_42() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x20, 0x0C, 0x0D, 0x20, 0x09, 0x0C, 0x0B, 0x0C, 0x0A, 0x20, 0x0C, 0x09,
 		0x20, 0x0A, 0x20, 0x20, 0x0D, 0x0D, 0x0A, 0x0D, 0x0B, 0x0C, 0x0A, 0x20, 0x0D, 0x0A, 0x0D,
@@ -2761,12 +2761,12 @@ fn s_has_whitespaces_and_384672_in_base_42() {
 		0x5F, 0x88, 0xC7, 0xBC, 0x2C, 0xD4, 0xFF, 0x10, 0x9F, 0x2F, 0x1A, 0x62,
 	];
 
-	helper(S, BASE, 384672);
+	helper(S, BASE, 384_672);
 }
 // endregion
-// region: s_has_whitespaces_and_7029610_in_base_42
+// region: s_has_whitespaces_and_7_029_610_in_base_42
 #[test]
-fn s_has_whitespaces_and_7029610_in_base_42() {
+fn s_has_whitespaces_and_7_029_610_in_base_42() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0B, 0x0D, 0x0A, 0x0A, 0x09, 0x20, 0x0B, 0x0B, 0x0D, 0x0B, 0x0C, 0x0C, 0x0D,
 		0xD8, 0x06, 0xAF, 0x1E, 0xD2,
@@ -2777,12 +2777,12 @@ fn s_has_whitespaces_and_7029610_in_base_42() {
 		0x7F, 0x41, 0xCC, 0x80, 0x79, 0x10, 0xC4, 0xAF, 0x4C, 0xBB, 0x6E, 0x60,
 	];
 
-	helper(S, BASE, 7029610);
+	helper(S, BASE, 7_029_610);
 }
 // endregion
-// region: s_has_whitespaces_and_94267934_in_base_42
+// region: s_has_whitespaces_and_94_267_934_in_base_42
 #[test]
-fn s_has_whitespaces_and_94267934_in_base_42() {
+fn s_has_whitespaces_and_94_267_934_in_base_42() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0C, 0x0A, 0x0C, 0x79, 0x8D, 0x97, 0x27, 0x56,
 	];
@@ -2792,12 +2792,12 @@ fn s_has_whitespaces_and_94267934_in_base_42() {
 		0x79, 0x94, 0xD1, 0x18, 0xDE, 0xED, 0x27, 0x51, 0xCE, 0xB4, 0x44, 0x73,
 	];
 
-	helper(S, BASE, 94267934);
+	helper(S, BASE, 94_267_934);
 }
 // endregion
-// region: s_has_whitespaces_and_398187712_in_base_42
+// region: s_has_whitespaces_and_398_187_712_in_base_42
 #[test]
-fn s_has_whitespaces_and_398187712_in_base_42() {
+fn s_has_whitespaces_and_398_187_712_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0C, 0x09, 0x0C, 0x20, 0x20, 0x09, 0x0A, 0x0C, 0x0D, 0x0C, 0x0A, 0x0D, 0x0A,
 		0x0B, 0x91, 0x71, 0x47, 0xE9, 0x8A, 0xF7,
@@ -2808,7 +2808,7 @@ fn s_has_whitespaces_and_398187712_in_base_42() {
 		0x37, 0x9F, 0x7B, 0x24, 0xF7, 0x28, 0x8F, 0x6F, 0xCA, 0x62, 0x47, 0x8A,
 	];
 
-	helper(S, BASE, 398187712);
+	helper(S, BASE, 398_187_712);
 }
 // endregion
 // region: s_has_whitespaces_and_8_in_base_73
@@ -2865,9 +2865,9 @@ fn s_has_whitespaces_and_257_in_base_73() {
 	helper(S, BASE, 257);
 }
 // endregion
-// region: s_has_whitespaces_and_5910_in_base_73
+// region: s_has_whitespaces_and_5_910_in_base_73
 #[test]
-fn s_has_whitespaces_and_5910_in_base_73() {
+fn s_has_whitespaces_and_5_910_in_base_73() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0D, 0x20, 0x0C, 0x09, 0x0B, 0x0C, 0x0C, 0x09, 0x0A, 0x20, 0x0A, 0x0B, 0x0D,
 		0x20, 0x0D, 0x0A, 0x0B, 0x0C, 0x0B, 0x20, 0x20, 0x20, 0x0A, 0x0B, 0x09, 0x09, 0x0D, 0x20,
@@ -2881,12 +2881,12 @@ fn s_has_whitespaces_and_5910_in_base_73() {
 		0x79, 0x37, 0xA2, 0xB3, 0x47, 0xC1, 0x25, 0x91, 0xDC, 0x1D, 0x56, 0x53, 0xE7,
 	];
 
-	helper(S, BASE, 5910);
+	helper(S, BASE, 5_910);
 }
 // endregion
-// region: s_has_whitespaces_and_61402_in_base_73
+// region: s_has_whitespaces_and_61_402_in_base_73
 #[test]
-fn s_has_whitespaces_and_61402_in_base_73() {
+fn s_has_whitespaces_and_61_402_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x20, 0x0D, 0x0D, 0x0D, 0x0A, 0x0A, 0x0D, 0x09, 0x09, 0xC3, 0xF2, 0xFD,
 	];
@@ -2898,12 +2898,12 @@ fn s_has_whitespaces_and_61402_in_base_73() {
 		0xD8, 0xBC, 0xFC, 0xAF, 0xA8, 0x93, 0x94, 0x79, 0xCB, 0x72, 0xC6, 0xE5, 0x50,
 	];
 
-	helper(S, BASE, 61402);
+	helper(S, BASE, 61_402);
 }
 // endregion
-// region: s_has_whitespaces_and_253973_in_base_73
+// region: s_has_whitespaces_and_253_973_in_base_73
 #[test]
-fn s_has_whitespaces_and_253973_in_base_73() {
+fn s_has_whitespaces_and_253_973_in_base_73() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x20, 0x0D, 0x0A, 0x0A, 0x0D, 0x0D, 0x0D, 0x0D, 0x0C, 0x20, 0x09, 0x0D, 0x09,
 		0x09, 0x0A, 0x0A, 0x0A, 0x0A, 0x0D, 0x0A, 0x0C, 0x0D, 0x09, 0x20, 0x09, 0x09, 0x0A, 0x0D,
@@ -2917,12 +2917,12 @@ fn s_has_whitespaces_and_253973_in_base_73() {
 		0xB1, 0x84, 0x59, 0x3C, 0x9D, 0xAE, 0x89, 0xCF, 0x2E, 0x23, 0x35, 0x79, 0x36,
 	];
 
-	helper(S, BASE, 253973);
+	helper(S, BASE, 253_973);
 }
 // endregion
-// region: s_has_whitespaces_and_9713642_in_base_73
+// region: s_has_whitespaces_and_9_713_642_in_base_73
 #[test]
-fn s_has_whitespaces_and_9713642_in_base_73() {
+fn s_has_whitespaces_and_9_713_642_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x09, 0x0C, 0x0C, 0x0A, 0x0D, 0x0C, 0x09, 0x09, 0x0D, 0x20, 0x09, 0x0B, 0x0B,
 		0x0C, 0x0B, 0x20, 0x0A, 0x09, 0x0D, 0x0A, 0x0D, 0x0D, 0x09, 0x0D, 0x0A, 0x09, 0x0B, 0x0C,
@@ -2936,12 +2936,12 @@ fn s_has_whitespaces_and_9713642_in_base_73() {
 		0xA9, 0x62, 0x58, 0x3F, 0x8A, 0x69, 0xD5, 0x47, 0x75, 0x27, 0xF0, 0x95, 0x0E,
 	];
 
-	helper(S, BASE, 9713642);
+	helper(S, BASE, 9_713_642);
 }
 // endregion
-// region: s_has_whitespaces_and_84460341_in_base_73
+// region: s_has_whitespaces_and_84_460_341_in_base_73
 #[test]
-fn s_has_whitespaces_and_84460341_in_base_73() {
+fn s_has_whitespaces_and_84_460_341_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x09, 0x0D, 0x0C, 0x20, 0x0C, 0x20, 0x20, 0x0A, 0x0D, 0x0C, 0x0C, 0x0C, 0x0D,
 		0x09, 0x09, 0x0C, 0x0C, 0x0C, 0x09, 0x0A, 0x0C, 0x0C, 0x0B, 0x0D, 0x0A, 0x0B, 0x0A, 0x20,
@@ -2956,12 +2956,12 @@ fn s_has_whitespaces_and_84460341_in_base_73() {
 		0x55, 0xBD, 0xB4, 0xF8, 0xAB, 0xF5, 0xF6, 0xB6, 0xEA, 0x4C, 0x90, 0x3A, 0x24,
 	];
 
-	helper(S, BASE, 84460341);
+	helper(S, BASE, 84_460_341);
 }
 // endregion
-// region: s_has_whitespaces_and_572461500_in_base_73
+// region: s_has_whitespaces_and_572_461_500_in_base_73
 #[test]
-fn s_has_whitespaces_and_572461500_in_base_73() {
+fn s_has_whitespaces_and_572_461_500_in_base_73() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0D, 0x0B, 0x09, 0x20, 0x09, 0xCA, 0x2E, 0x19, 0x75, 0x30,
 	];
@@ -2973,7 +2973,7 @@ fn s_has_whitespaces_and_572461500_in_base_73() {
 		0x9A, 0xF4, 0xC0, 0xE3, 0x79, 0xAD, 0x5A, 0x9B, 0x21, 0xEA, 0xFB, 0xF2, 0x32,
 	];
 
-	helper(S, BASE, 572461500);
+	helper(S, BASE, 572_461_500);
 }
 // endregion
 // region: s_has_whitespaces_and_1_in_base_113
@@ -3040,9 +3040,9 @@ fn s_has_whitespaces_and_684_in_base_113() {
 	helper(S, BASE, 684);
 }
 // endregion
-// region: s_has_whitespaces_and_2442_in_base_113
+// region: s_has_whitespaces_and_2_442_in_base_113
 #[test]
-fn s_has_whitespaces_and_2442_in_base_113() {
+fn s_has_whitespaces_and_2_442_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0D, 0x20, 0x0D, 0x0A, 0x0D, 0x09, 0x20, 0x09, 0x0D, 0x0A, 0x0A, 0x0C, 0x0B,
 		0x09, 0x0B, 0x0B, 0x56, 0xBF,
@@ -3058,12 +3058,12 @@ fn s_has_whitespaces_and_2442_in_base_113() {
 		0xB9, 0xEE, 0x89, 0xBC, 0xAB, 0xC7, 0xA0, 0x27,
 	];
 
-	helper(S, BASE, 2442);
+	helper(S, BASE, 2_442);
 }
 // endregion
-// region: s_has_whitespaces_and_57187_in_base_113
+// region: s_has_whitespaces_and_57_187_in_base_113
 #[test]
-fn s_has_whitespaces_and_57187_in_base_113() {
+fn s_has_whitespaces_and_57_187_in_base_113() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0A, 0x20, 0x0A, 0x0B, 0x0D, 0x09, 0x20, 0x0D, 0x0C, 0x5C, 0x69, 0x49,
 	];
@@ -3078,12 +3078,12 @@ fn s_has_whitespaces_and_57187_in_base_113() {
 		0x1D, 0xCB, 0x24, 0x52, 0xC3, 0x78, 0x12, 0xE2,
 	];
 
-	helper(S, BASE, 57187);
+	helper(S, BASE, 57_187);
 }
 // endregion
-// region: s_has_whitespaces_and_630799_in_base_113
+// region: s_has_whitespaces_and_630_799_in_base_113
 #[test]
-fn s_has_whitespaces_and_630799_in_base_113() {
+fn s_has_whitespaces_and_630_799_in_base_113() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0C, 0x0C, 0x0B, 0x0D, 0x0A, 0x0D, 0x0D, 0x09, 0x0A, 0x0D, 0x09, 0x0C,
 		0x0C, 0x0C, 0x0C, 0x0C, 0x0C, 0x20, 0x09, 0x20, 0x0A, 0x09, 0x09, 0x20, 0x6A, 0x9F, 0xCA,
@@ -3099,12 +3099,12 @@ fn s_has_whitespaces_and_630799_in_base_113() {
 		0x2E, 0x7F, 0x0E, 0xF4, 0x1E, 0x76, 0x8F, 0x47,
 	];
 
-	helper(S, BASE, 630799);
+	helper(S, BASE, 630_799);
 }
 // endregion
-// region: s_has_whitespaces_and_1054239_in_base_113
+// region: s_has_whitespaces_and_1_054_239_in_base_113
 #[test]
-fn s_has_whitespaces_and_1054239_in_base_113() {
+fn s_has_whitespaces_and_1_054_239_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0D, 0x0B, 0x0B, 0x0B, 0x0B, 0x0D, 0x0D, 0x0A, 0x0B, 0x0B, 0x0D, 0x09, 0x0D,
 		0x0B, 0x09, 0x0C, 0x0B, 0x0D, 0x0D, 0x20, 0x0C, 0x0B, 0x55, 0x32, 0x3B,
@@ -3120,12 +3120,12 @@ fn s_has_whitespaces_and_1054239_in_base_113() {
 		0xB6, 0x6C, 0xB4, 0xA7, 0x94, 0x65, 0xEA, 0x0E,
 	];
 
-	helper(S, BASE, 1054239);
+	helper(S, BASE, 1_054_239);
 }
 // endregion
-// region: s_has_whitespaces_and_25613736_in_base_113
+// region: s_has_whitespaces_and_25_613_736_in_base_113
 #[test]
-fn s_has_whitespaces_and_25613736_in_base_113() {
+fn s_has_whitespaces_and_25_613_736_in_base_113() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x09, 0x0A, 0x0D, 0x20, 0x0A, 0x0B, 0x0D, 0x0D, 0x0B, 0x09, 0x0B, 0x20,
 		0x0C, 0x0C, 0x09, 0x0D, 0x20, 0x0A, 0x20, 0x0D, 0x09, 0x20, 0x0B, 0x09, 0x0C, 0x64, 0x47,
@@ -3142,12 +3142,12 @@ fn s_has_whitespaces_and_25613736_in_base_113() {
 		0x5B, 0x5E, 0x23, 0xA2, 0x22, 0x75, 0xE5, 0x74,
 	];
 
-	helper(S, BASE, 25613736);
+	helper(S, BASE, 25_613_736);
 }
 // endregion
-// region: s_has_whitespaces_and_299011932_in_base_113
+// region: s_has_whitespaces_and_299_011_932_in_base_113
 #[test]
-fn s_has_whitespaces_and_299011932_in_base_113() {
+fn s_has_whitespaces_and_299_011_932_in_base_113() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x20, 0x20, 0x20, 0x09, 0x0B, 0x0C, 0x0A, 0x0D, 0x0B, 0x0B, 0x09, 0x0D,
 		0x20, 0x0C, 0x0C, 0x0B, 0x0B, 0x0C, 0x0C, 0x0C, 0xAF, 0x40, 0xEC, 0x26, 0x78,
@@ -3163,7 +3163,7 @@ fn s_has_whitespaces_and_299011932_in_base_113() {
 		0xB9, 0x38, 0x4E, 0xF2, 0xE9, 0xBF, 0x66, 0x1B,
 	];
 
-	helper(S, BASE, 299011932);
+	helper(S, BASE, 299_011_932);
 }
 // endregion
 // region: s_has_whitespaces_and_1_in_base_193
@@ -3242,9 +3242,9 @@ fn s_has_whitespaces_and_150_in_base_193() {
 	helper(S, BASE, 150);
 }
 // endregion
-// region: s_has_whitespaces_and_9147_in_base_193
+// region: s_has_whitespaces_and_9_147_in_base_193
 #[test]
-fn s_has_whitespaces_and_9147_in_base_193() {
+fn s_has_whitespaces_and_9_147_in_base_193() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0C, 0x0B, 0x0C, 0x09, 0x0A, 0x20, 0x0A, 0x20, 0x20, 0x0A, 0x09, 0x09, 0x0C,
 		0x0B, 0x0A, 0x20, 0x0A, 0x16, 0xD5,
@@ -3265,12 +3265,12 @@ fn s_has_whitespaces_and_9147_in_base_193() {
 		0x98, 0x24, 0xE3, 0x7C, 0xFC, 0x9A, 0xFD, 0xE4, 0xF6, 0x23, 0xA9, 0x6E, 0x85,
 	];
 
-	helper(S, BASE, 9147);
+	helper(S, BASE, 9_147);
 }
 // endregion
-// region: s_has_whitespaces_and_48636_in_base_193
+// region: s_has_whitespaces_and_48_636_in_base_193
 #[test]
-fn s_has_whitespaces_and_48636_in_base_193() {
+fn s_has_whitespaces_and_48_636_in_base_193() {
 	const S: &[u8] = &[
 		0x0D, 0x04, 0x38, 0x0F,
 	];
@@ -3290,12 +3290,12 @@ fn s_has_whitespaces_and_48636_in_base_193() {
 		0x7B, 0xCF, 0xB1, 0x58, 0x3F, 0xD7, 0x7C, 0x8C, 0xA0, 0x53, 0x60, 0xAE, 0xC6,
 	];
 
-	helper(S, BASE, 48636);
+	helper(S, BASE, 48_636);
 }
 // endregion
-// region: s_has_whitespaces_and_893395_in_base_193
+// region: s_has_whitespaces_and_893_395_in_base_193
 #[test]
-fn s_has_whitespaces_and_893395_in_base_193() {
+fn s_has_whitespaces_and_893_395_in_base_193() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0B, 0x20, 0x0D, 0x0D, 0x20, 0x0A, 0x0D, 0x20, 0x0A, 0x0B, 0x0B, 0x0B, 0x20,
 		0x20, 0x0C, 0x09, 0x0A, 0x0B, 0x09, 0x0A, 0x0B, 0x09, 0x0B, 0x09, 0x20, 0x0D, 0x0C, 0x0A,
@@ -3317,12 +3317,12 @@ fn s_has_whitespaces_and_893395_in_base_193() {
 		0x8C, 0xC2, 0x1B, 0xE0, 0x73, 0x6E, 0x3E, 0x3A, 0x52, 0x4C, 0xD4, 0xA7, 0x75,
 	];
 
-	helper(S, BASE, 893395);
+	helper(S, BASE, 893_395);
 }
 // endregion
-// region: s_has_whitespaces_and_6807279_in_base_193
+// region: s_has_whitespaces_and_6_807_279_in_base_193
 #[test]
-fn s_has_whitespaces_and_6807279_in_base_193() {
+fn s_has_whitespaces_and_6_807_279_in_base_193() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x09, 0x0C, 0x0A, 0x20, 0x0A, 0x0D, 0x0D, 0x20, 0x0A, 0x0A, 0x0A, 0x0D, 0x0A,
 		0x0D, 0x0D, 0x09, 0x0C, 0x0D, 0x0D, 0x0A, 0x09, 0x0C, 0x20, 0xBB, 0x21, 0x81,
@@ -3343,12 +3343,12 @@ fn s_has_whitespaces_and_6807279_in_base_193() {
 		0x33, 0xAF, 0xBB, 0x32, 0x89, 0xB2, 0x40, 0xB1, 0xAB, 0x92, 0xDD, 0x2F, 0x4E,
 	];
 
-	helper(S, BASE, 6807279);
+	helper(S, BASE, 6_807_279);
 }
 // endregion
-// region: s_has_whitespaces_and_55598085_in_base_193
+// region: s_has_whitespaces_and_55_598_085_in_base_193
 #[test]
-fn s_has_whitespaces_and_55598085_in_base_193() {
+fn s_has_whitespaces_and_55_598_085_in_base_193() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0C, 0x0D, 0x0B, 0x0A, 0x09, 0x0A, 0x09, 0x0D, 0x0B, 0x20, 0x0D, 0x0A, 0x0B,
 		0x20, 0x09, 0x0A, 0x0B, 0x20, 0x28, 0xF7, 0x47, 0x40,
@@ -3369,12 +3369,12 @@ fn s_has_whitespaces_and_55598085_in_base_193() {
 		0x5B, 0x93, 0x6C, 0xCC, 0x03, 0xD3, 0x57, 0xB2, 0xA3, 0x40, 0x34, 0xE8, 0xF0,
 	];
 
-	helper(S, BASE, 55598085);
+	helper(S, BASE, 55_598_085);
 }
 // endregion
-// region: s_has_whitespaces_and_625620491_in_base_193
+// region: s_has_whitespaces_and_625_620_491_in_base_193
 #[test]
-fn s_has_whitespaces_and_625620491_in_base_193() {
+fn s_has_whitespaces_and_625_620_491_in_base_193() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x09, 0x09, 0x09, 0x0A, 0x09, 0x09, 0x0B, 0x0D, 0x0D, 0x20, 0x0A, 0x0C, 0x20,
 		0x09, 0x09, 0x0C, 0x0A, 0x0B, 0x0A, 0x0D, 0x0B, 0x0A, 0x20, 0x20, 0x20, 0x0D, 0x0B, 0x20,
@@ -3396,7 +3396,7 @@ fn s_has_whitespaces_and_625620491_in_base_193() {
 		0xDF, 0x06, 0xB2, 0xCA, 0x90, 0x68, 0x05, 0xEC, 0x12, 0x6F, 0x19, 0xEF, 0xD7,
 	];
 
-	helper(S, BASE, 625620491);
+	helper(S, BASE, 625_620_491);
 }
 // endregion
 // region: s_has_whitespaces_and_5_in_base_247
@@ -3490,9 +3490,9 @@ fn s_has_whitespaces_and_285_in_base_247() {
 	helper(S, BASE, 285);
 }
 // endregion
-// region: s_has_whitespaces_and_9352_in_base_247
+// region: s_has_whitespaces_and_9_352_in_base_247
 #[test]
-fn s_has_whitespaces_and_9352_in_base_247() {
+fn s_has_whitespaces_and_9_352_in_base_247() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x09, 0x0B, 0x09, 0x0D, 0x20, 0x09, 0x0A, 0x0C, 0x0B, 0x0C, 0x0C, 0x09, 0x0A,
 		0x20, 0x09, 0x0C, 0x0A, 0x83, 0x28,
@@ -3517,12 +3517,12 @@ fn s_has_whitespaces_and_9352_in_base_247() {
 		0x67, 0x37, 0xE3, 0xC6, 0x91, 0xF3, 0xDF,
 	];
 
-	helper(S, BASE, 9352);
+	helper(S, BASE, 9_352);
 }
 // endregion
-// region: s_has_whitespaces_and_73287_in_base_247
+// region: s_has_whitespaces_and_73_287_in_base_247
 #[test]
-fn s_has_whitespaces_and_73287_in_base_247() {
+fn s_has_whitespaces_and_73_287_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0D, 0x09, 0x09, 0x0B, 0x0A, 0x0A, 0x0C, 0x09, 0x0A, 0x0D, 0x0B, 0x0C, 0x0B,
 		0x20, 0x0D, 0x09, 0x20, 0xDE, 0x05, 0xAD,
@@ -3547,12 +3547,12 @@ fn s_has_whitespaces_and_73287_in_base_247() {
 		0xC5, 0x10, 0xC8, 0x90, 0x34, 0x68, 0x21,
 	];
 
-	helper(S, BASE, 73287);
+	helper(S, BASE, 73_287);
 }
 // endregion
-// region: s_has_whitespaces_and_624769_in_base_247
+// region: s_has_whitespaces_and_624_769_in_base_247
 #[test]
-fn s_has_whitespaces_and_624769_in_base_247() {
+fn s_has_whitespaces_and_624_769_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0xA9, 0x95, 0xB7,
 	];
@@ -3576,12 +3576,12 @@ fn s_has_whitespaces_and_624769_in_base_247() {
 		0xA0, 0xF0, 0x37, 0x06, 0x03, 0xF1, 0xFD,
 	];
 
-	helper(S, BASE, 624769);
+	helper(S, BASE, 624_769);
 }
 // endregion
-// region: s_has_whitespaces_and_6688522_in_base_247
+// region: s_has_whitespaces_and_6_688_522_in_base_247
 #[test]
-fn s_has_whitespaces_and_6688522_in_base_247() {
+fn s_has_whitespaces_and_6_688_522_in_base_247() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0D, 0x0D, 0x20, 0x0A, 0x0B, 0x09, 0x20, 0x0C, 0x20, 0x09, 0x20, 0x0C, 0x0B,
 		0x09, 0x0A, 0x0B, 0x0B, 0x09, 0x09, 0x0D, 0x0A, 0x0B, 0x0D, 0x0A, 0x0B, 0x0B, 0x20, 0x0B,
@@ -3607,12 +3607,12 @@ fn s_has_whitespaces_and_6688522_in_base_247() {
 		0x56, 0xAF, 0x50, 0xA6, 0x4B, 0x51, 0x2A,
 	];
 
-	helper(S, BASE, 6688522);
+	helper(S, BASE, 6_688_522);
 }
 // endregion
-// region: s_has_whitespaces_and_25623291_in_base_247
+// region: s_has_whitespaces_and_25_623_291_in_base_247
 #[test]
-fn s_has_whitespaces_and_25623291_in_base_247() {
+fn s_has_whitespaces_and_25_623_291_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x09, 0x09, 0x09, 0x0B, 0x0D, 0x09, 0x09, 0x0A, 0x0D, 0x0C, 0x09, 0x20, 0x09,
 		0x0B, 0x0B, 0x0D, 0x20, 0x0B, 0x09, 0x09, 0x09, 0x09, 0x09, 0x0A, 0x0A, 0x0C, 0x0A, 0x09,
@@ -3638,12 +3638,12 @@ fn s_has_whitespaces_and_25623291_in_base_247() {
 		0xC8, 0x9A, 0x27, 0xA4, 0x97, 0xF0, 0xD5,
 	];
 
-	helper(S, BASE, 25623291);
+	helper(S, BASE, 25_623_291);
 }
 // endregion
-// region: s_has_whitespaces_and_234296159_in_base_247
+// region: s_has_whitespaces_and_234_296_159_in_base_247
 #[test]
-fn s_has_whitespaces_and_234296159_in_base_247() {
+fn s_has_whitespaces_and_234_296_159_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x20, 0x20, 0x0C, 0x09, 0x0B, 0x0A, 0x0D, 0x0C, 0x09, 0x20, 0x09, 0x0A, 0x20,
 		0x20, 0x0A, 0x09, 0x0B, 0x0A, 0x20, 0x4A, 0xC2, 0x87, 0x08,
@@ -3668,7 +3668,7 @@ fn s_has_whitespaces_and_234296159_in_base_247() {
 		0xF3, 0x6C, 0x21, 0xF0, 0xBC, 0xA6, 0xF9,
 	];
 
-	helper(S, BASE, 234296159);
+	helper(S, BASE, 234_296_159);
 }
 // endregion
 // region: s_has_signs_and_4_in_base_2
@@ -3712,9 +3712,9 @@ fn s_has_signs_and_567_in_base_2() {
 	helper(S, BASE, 567);
 }
 // endregion
-// region: s_has_signs_and_1024_in_base_2
+// region: s_has_signs_and_1_024_in_base_2
 #[test]
-fn s_has_signs_and_1024_in_base_2() {
+fn s_has_signs_and_1_024_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -3725,12 +3725,12 @@ fn s_has_signs_and_1024_in_base_2() {
 		0xED, 0xBB,
 	];
 
-	helper(S, BASE, 1024);
+	helper(S, BASE, 1_024);
 }
 // endregion
-// region: s_has_signs_and_27675_in_base_2
+// region: s_has_signs_and_27_675_in_base_2
 #[test]
-fn s_has_signs_and_27675_in_base_2() {
+fn s_has_signs_and_27_675_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x6A, 0x6A, 0x06,
 		0x6A, 0x6A, 0x06, 0x06, 0x06, 0x06, 0x06, 0x6A, 0x6A, 0x06, 0x6A, 0x6A,
@@ -3739,12 +3739,12 @@ fn s_has_signs_and_27675_in_base_2() {
 		0x06, 0x6A,
 	];
 
-	helper(S, BASE, 27675);
+	helper(S, BASE, 27_675);
 }
 // endregion
-// region: s_has_signs_and_785353_in_base_2
+// region: s_has_signs_and_785_353_in_base_2
 #[test]
-fn s_has_signs_and_785353_in_base_2() {
+fn s_has_signs_and_785_353_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x9D, 0x3B, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x3B,
 		0x9D, 0x9D, 0x9D, 0x9D, 0x3B, 0x3B, 0x9D, 0x3B, 0x3B, 0x9D,
@@ -3753,12 +3753,12 @@ fn s_has_signs_and_785353_in_base_2() {
 		0x3B, 0x9D,
 	];
 
-	helper(S, BASE, 785353);
+	helper(S, BASE, 785_353);
 }
 // endregion
-// region: s_has_signs_and_2277509_in_base_2
+// region: s_has_signs_and_2_277_509_in_base_2
 #[test]
-fn s_has_signs_and_2277509_in_base_2() {
+fn s_has_signs_and_2_277_509_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -3770,12 +3770,12 @@ fn s_has_signs_and_2277509_in_base_2() {
 		0xC8, 0x12,
 	];
 
-	helper(S, BASE, 2277509);
+	helper(S, BASE, 2_277_509);
 }
 // endregion
-// region: s_has_signs_and_43287648_in_base_2
+// region: s_has_signs_and_43_287_648_in_base_2
 #[test]
-fn s_has_signs_and_43287648_in_base_2() {
+fn s_has_signs_and_43_287_648_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0xA6, 0x18, 0xA6, 0x18,
@@ -3786,12 +3786,12 @@ fn s_has_signs_and_43287648_in_base_2() {
 		0x18, 0xA6,
 	];
 
-	helper(S, BASE, 43287648);
+	helper(S, BASE, 43_287_648);
 }
 // endregion
-// region: s_has_signs_and_599900006_in_base_2
+// region: s_has_signs_and_599_900_006_in_base_2
 #[test]
-fn s_has_signs_and_599900006_in_base_2() {
+fn s_has_signs_and_599_900_006_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -3803,7 +3803,7 @@ fn s_has_signs_and_599900006_in_base_2() {
 		0x34, 0x10,
 	];
 
-	helper(S, BASE, 599900006);
+	helper(S, BASE, 599_900_006);
 }
 // endregion
 // region: s_has_signs_and_6_in_base_3
@@ -3849,9 +3849,9 @@ fn s_has_signs_and_654_in_base_3() {
 	helper(S, BASE, 654);
 }
 // endregion
-// region: s_has_signs_and_9199_in_base_3
+// region: s_has_signs_and_9_199_in_base_3
 #[test]
-fn s_has_signs_and_9199_in_base_3() {
+fn s_has_signs_and_9_199_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -3862,12 +3862,12 @@ fn s_has_signs_and_9199_in_base_3() {
 		0xD7, 0x3C, 0x66,
 	];
 
-	helper(S, BASE, 9199);
+	helper(S, BASE, 9_199);
 }
 // endregion
-// region: s_has_signs_and_87697_in_base_3
+// region: s_has_signs_and_87_697_in_base_3
 #[test]
-fn s_has_signs_and_87697_in_base_3() {
+fn s_has_signs_and_87_697_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0xD4, 0xD4, 0xD4, 0xD4, 0x23, 0x23, 0x26, 0x26, 0x23,
 		0x23, 0xD4,
@@ -3876,12 +3876,12 @@ fn s_has_signs_and_87697_in_base_3() {
 		0x23, 0xD4, 0x26,
 	];
 
-	helper(S, BASE, 87697);
+	helper(S, BASE, 87_697);
 }
 // endregion
-// region: s_has_signs_and_157389_in_base_3
+// region: s_has_signs_and_157_389_in_base_3
 #[test]
-fn s_has_signs_and_157389_in_base_3() {
+fn s_has_signs_and_157_389_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0xA9, 0xA4, 0xA9, 0xA9,
 		0xA9, 0xA9, 0xA9, 0xE0, 0xE0, 0xA9, 0xE0,
@@ -3890,12 +3890,12 @@ fn s_has_signs_and_157389_in_base_3() {
 		0xE0, 0xA4, 0xA9,
 	];
 
-	helper(S, BASE, 157389);
+	helper(S, BASE, 157_389);
 }
 // endregion
-// region: s_has_signs_and_9603460_in_base_3
+// region: s_has_signs_and_9_603_460_in_base_3
 #[test]
-fn s_has_signs_and_9603460_in_base_3() {
+fn s_has_signs_and_9_603_460_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -3905,12 +3905,12 @@ fn s_has_signs_and_9603460_in_base_3() {
 		0xB8, 0x8D, 0x96,
 	];
 
-	helper(S, BASE, 9603460);
+	helper(S, BASE, 9_603_460);
 }
 // endregion
-// region: s_has_signs_and_42958770_in_base_3
+// region: s_has_signs_and_42_958_770_in_base_3
 #[test]
-fn s_has_signs_and_42958770_in_base_3() {
+fn s_has_signs_and_42_958_770_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x1B, 0x1B, 0x1B, 0x1B, 0x1B, 0x31, 0x31, 0x31, 0x31, 0x1B, 0x31, 0xC1, 0xC1, 0x31,
@@ -3920,12 +3920,12 @@ fn s_has_signs_and_42958770_in_base_3() {
 		0xC1, 0x31, 0x1B,
 	];
 
-	helper(S, BASE, 42958770);
+	helper(S, BASE, 42_958_770);
 }
 // endregion
-// region: s_has_signs_and_570381578_in_base_3
+// region: s_has_signs_and_570_381_578_in_base_3
 #[test]
-fn s_has_signs_and_570381578_in_base_3() {
+fn s_has_signs_and_570_381_578_in_base_3() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x78, 0x78,
@@ -3936,7 +3936,7 @@ fn s_has_signs_and_570381578_in_base_3() {
 		0x80, 0x78, 0x2E,
 	];
 
-	helper(S, BASE, 570381578);
+	helper(S, BASE, 570_381_578);
 }
 // endregion
 // region: s_has_signs_and_7_in_base_5
@@ -3981,9 +3981,9 @@ fn s_has_signs_and_197_in_base_5() {
 	helper(S, BASE, 197);
 }
 // endregion
-// region: s_has_signs_and_9540_in_base_5
+// region: s_has_signs_and_9_540_in_base_5
 #[test]
-fn s_has_signs_and_9540_in_base_5() {
+fn s_has_signs_and_9_540_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -3993,12 +3993,12 @@ fn s_has_signs_and_9540_in_base_5() {
 		0xF6, 0x5A, 0x44, 0xBD, 0xED,
 	];
 
-	helper(S, BASE, 9540);
+	helper(S, BASE, 9_540);
 }
 // endregion
-// region: s_has_signs_and_78974_in_base_5
+// region: s_has_signs_and_78_974_in_base_5
 #[test]
-fn s_has_signs_and_78974_in_base_5() {
+fn s_has_signs_and_78_974_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x77, 0x9F, 0x9F, 0x77,
@@ -4008,12 +4008,12 @@ fn s_has_signs_and_78974_in_base_5() {
 		0x9F, 0x77, 0x13, 0xCF, 0x16,
 	];
 
-	helper(S, BASE, 78974);
+	helper(S, BASE, 78_974);
 }
 // endregion
-// region: s_has_signs_and_669585_in_base_5
+// region: s_has_signs_and_669_585_in_base_5
 #[test]
-fn s_has_signs_and_669585_in_base_5() {
+fn s_has_signs_and_669_585_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -4023,12 +4023,12 @@ fn s_has_signs_and_669585_in_base_5() {
 		0x1E, 0x08, 0xE4, 0xDB, 0xE9,
 	];
 
-	helper(S, BASE, 669585);
+	helper(S, BASE, 669_585);
 }
 // endregion
-// region: s_has_signs_and_3090248_in_base_5
+// region: s_has_signs_and_3_090_248_in_base_5
 #[test]
-fn s_has_signs_and_3090248_in_base_5() {
+fn s_has_signs_and_3_090_248_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -4039,12 +4039,12 @@ fn s_has_signs_and_3090248_in_base_5() {
 		0x28, 0xCF, 0x86, 0x5B, 0xE4,
 	];
 
-	helper(S, BASE, 3090248);
+	helper(S, BASE, 3_090_248);
 }
 // endregion
-// region: s_has_signs_and_38525264_in_base_5
+// region: s_has_signs_and_38_525_264_in_base_5
 #[test]
-fn s_has_signs_and_38525264_in_base_5() {
+fn s_has_signs_and_38_525_264_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -4055,12 +4055,12 @@ fn s_has_signs_and_38525264_in_base_5() {
 		0x88, 0x4E, 0xC7, 0x5C, 0xC2,
 	];
 
-	helper(S, BASE, 38525264);
+	helper(S, BASE, 38_525_264);
 }
 // endregion
-// region: s_has_signs_and_474500675_in_base_5
+// region: s_has_signs_and_474_500_675_in_base_5
 #[test]
-fn s_has_signs_and_474500675_in_base_5() {
+fn s_has_signs_and_474_500_675_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x9B, 0xD6, 0x53, 0x36, 0xD6, 0x53, 0x53, 0x19, 0x9B,
 		0x19, 0x36, 0x19, 0x19,
@@ -4069,7 +4069,7 @@ fn s_has_signs_and_474500675_in_base_5() {
 		0x19, 0x9B, 0x36, 0x53, 0xD6,
 	];
 
-	helper(S, BASE, 474500675);
+	helper(S, BASE, 474_500_675);
 }
 // endregion
 // region: s_has_signs_and_7_in_base_7
@@ -4114,9 +4114,9 @@ fn s_has_signs_and_636_in_base_7() {
 	helper(S, BASE, 636);
 }
 // endregion
-// region: s_has_signs_and_9706_in_base_7
+// region: s_has_signs_and_9_706_in_base_7
 #[test]
-fn s_has_signs_and_9706_in_base_7() {
+fn s_has_signs_and_9_706_in_base_7() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x50, 0x96, 0x03,
 		0x96, 0x50,
@@ -4125,12 +4125,12 @@ fn s_has_signs_and_9706_in_base_7() {
 		0x96, 0x8A, 0x03, 0x12, 0x50, 0x88, 0x82,
 	];
 
-	helper(S, BASE, 9706);
+	helper(S, BASE, 9_706);
 }
 // endregion
-// region: s_has_signs_and_85752_in_base_7
+// region: s_has_signs_and_85_752_in_base_7
 #[test]
-fn s_has_signs_and_85752_in_base_7() {
+fn s_has_signs_and_85_752_in_base_7() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -4140,12 +4140,12 @@ fn s_has_signs_and_85752_in_base_7() {
 		0x36, 0xE3, 0x40, 0xA1, 0x5E, 0x27, 0x95,
 	];
 
-	helper(S, BASE, 85752);
+	helper(S, BASE, 85_752);
 }
 // endregion
-// region: s_has_signs_and_727831_in_base_7
+// region: s_has_signs_and_727_831_in_base_7
 #[test]
-fn s_has_signs_and_727831_in_base_7() {
+fn s_has_signs_and_727_831_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x6F, 0x27, 0xB0, 0x7E, 0x6F,
 		0xF1, 0x6F,
@@ -4154,12 +4154,12 @@ fn s_has_signs_and_727831_in_base_7() {
 		0x7E, 0x27, 0xB0, 0xCB, 0xF1, 0x6E, 0x6F,
 	];
 
-	helper(S, BASE, 727831);
+	helper(S, BASE, 727_831);
 }
 // endregion
-// region: s_has_signs_and_1769494_in_base_7
+// region: s_has_signs_and_1_769_494_in_base_7
 #[test]
-fn s_has_signs_and_1769494_in_base_7() {
+fn s_has_signs_and_1_769_494_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x69,
@@ -4169,12 +4169,12 @@ fn s_has_signs_and_1769494_in_base_7() {
 		0x86, 0x13, 0x69, 0xE8, 0x5C, 0x4D, 0xB9,
 	];
 
-	helper(S, BASE, 1769494);
+	helper(S, BASE, 1_769_494);
 }
 // endregion
-// region: s_has_signs_and_66013609_in_base_7
+// region: s_has_signs_and_66_013_609_in_base_7
 #[test]
-fn s_has_signs_and_66013609_in_base_7() {
+fn s_has_signs_and_66_013_609_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -4185,12 +4185,12 @@ fn s_has_signs_and_66013609_in_base_7() {
 		0x3A, 0x28, 0xBA, 0x95, 0xE5, 0x69, 0xC1,
 	];
 
-	helper(S, BASE, 66013609);
+	helper(S, BASE, 66_013_609);
 }
 // endregion
-// region: s_has_signs_and_763289974_in_base_7
+// region: s_has_signs_and_763_289_974_in_base_7
 #[test]
-fn s_has_signs_and_763289974_in_base_7() {
+fn s_has_signs_and_763_289_974_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0xEB, 0x04, 0x57, 0xEB, 0x95, 0x57, 0x1F, 0x1F, 0x7A, 0xEB, 0x57,
 	];
@@ -4198,7 +4198,7 @@ fn s_has_signs_and_763289974_in_base_7() {
 		0x1F, 0x7A, 0xEB, 0xB2, 0x04, 0x95, 0x57,
 	];
 
-	helper(S, BASE, 763289974);
+	helper(S, BASE, 763_289_974);
 }
 // endregion
 // region: s_has_signs_and_5_in_base_11
@@ -4240,9 +4240,9 @@ fn s_has_signs_and_951_in_base_11() {
 	helper(S, BASE, 951);
 }
 // endregion
-// region: s_has_signs_and_8493_in_base_11
+// region: s_has_signs_and_8_493_in_base_11
 #[test]
-fn s_has_signs_and_8493_in_base_11() {
+fn s_has_signs_and_8_493_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x5C, 0xC0, 0x4C, 0x26,
@@ -4251,12 +4251,12 @@ fn s_has_signs_and_8493_in_base_11() {
 		0x35, 0x26, 0x4C, 0x1A, 0xC0, 0xBC, 0x5C, 0x45, 0x43, 0xBD, 0xF2,
 	];
 
-	helper(S, BASE, 8493);
+	helper(S, BASE, 8_493);
 }
 // endregion
-// region: s_has_signs_and_46700_in_base_11
+// region: s_has_signs_and_46_700_in_base_11
 #[test]
-fn s_has_signs_and_46700_in_base_11() {
+fn s_has_signs_and_46_700_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -4266,12 +4266,12 @@ fn s_has_signs_and_46700_in_base_11() {
 		0xD9, 0x1B, 0x39, 0xD7, 0xBC, 0xB3, 0x37, 0x68, 0x97, 0xFC, 0xEE,
 	];
 
-	helper(S, BASE, 46700);
+	helper(S, BASE, 46_700);
 }
 // endregion
-// region: s_has_signs_and_501442_in_base_11
+// region: s_has_signs_and_501_442_in_base_11
 #[test]
-fn s_has_signs_and_501442_in_base_11() {
+fn s_has_signs_and_501_442_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -4281,12 +4281,12 @@ fn s_has_signs_and_501442_in_base_11() {
 		0x6A, 0x4E, 0x86, 0xAD, 0x9D, 0xC2, 0x87, 0x7A, 0x78, 0x40, 0xD1,
 	];
 
-	helper(S, BASE, 501442);
+	helper(S, BASE, 501_442);
 }
 // endregion
-// region: s_has_signs_and_3917751_in_base_11
+// region: s_has_signs_and_3_917_751_in_base_11
 #[test]
-fn s_has_signs_and_3917751_in_base_11() {
+fn s_has_signs_and_3_917_751_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
@@ -4296,12 +4296,12 @@ fn s_has_signs_and_3917751_in_base_11() {
 		0x38, 0xD9, 0xC4, 0xD1, 0x36, 0x8B, 0x18, 0xE2, 0xF2, 0xBF, 0xE7,
 	];
 
-	helper(S, BASE, 3917751);
+	helper(S, BASE, 3_917_751);
 }
 // endregion
-// region: s_has_signs_and_32416408_in_base_11
+// region: s_has_signs_and_32_416_408_in_base_11
 #[test]
-fn s_has_signs_and_32416408_in_base_11() {
+fn s_has_signs_and_32_416_408_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x32,
@@ -4311,12 +4311,12 @@ fn s_has_signs_and_32416408_in_base_11() {
 		0x41, 0x32, 0x98, 0xF0, 0x87, 0xCB, 0x8B, 0x2E, 0xAD, 0xA7, 0xC5,
 	];
 
-	helper(S, BASE, 32416408);
+	helper(S, BASE, 32_416_408);
 }
 // endregion
-// region: s_has_signs_and_224079667_in_base_11
+// region: s_has_signs_and_224_079_667_in_base_11
 #[test]
-fn s_has_signs_and_224079667_in_base_11() {
+fn s_has_signs_and_224_079_667_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x7E, 0x9A, 0x70, 0x70, 0x57, 0x5F, 0x5A,
 		0x9A, 0x8B,
@@ -4325,7 +4325,7 @@ fn s_has_signs_and_224079667_in_base_11() {
 		0x9A, 0x7E, 0x93, 0x57, 0x5A, 0x70, 0xE1, 0xAA, 0xFD, 0x8B, 0x5F,
 	];
 
-	helper(S, BASE, 224079667);
+	helper(S, BASE, 224_079_667);
 }
 // endregion
 // region: s_has_signs_and_7_in_base_13
@@ -4372,9 +4372,9 @@ fn s_has_signs_and_360_in_base_13() {
 	helper(S, BASE, 360);
 }
 // endregion
-// region: s_has_signs_and_5324_in_base_13
+// region: s_has_signs_and_5_324_in_base_13
 #[test]
-fn s_has_signs_and_5324_in_base_13() {
+fn s_has_signs_and_5_324_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -4384,12 +4384,12 @@ fn s_has_signs_and_5324_in_base_13() {
 		0x01, 0x60, 0x1D, 0xE1, 0x52, 0x6F, 0xBB, 0x4B, 0x06, 0x77, 0xA7, 0x3A, 0xF8,
 	];
 
-	helper(S, BASE, 5324);
+	helper(S, BASE, 5_324);
 }
 // endregion
-// region: s_has_signs_and_18079_in_base_13
+// region: s_has_signs_and_18_079_in_base_13
 #[test]
-fn s_has_signs_and_18079_in_base_13() {
+fn s_has_signs_and_18_079_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x01, 0x41, 0x9D, 0x34,
@@ -4398,12 +4398,12 @@ fn s_has_signs_and_18079_in_base_13() {
 		0xC6, 0xBA, 0x41, 0x1F, 0xA9, 0xBC, 0xC7, 0x0E, 0x01, 0x34, 0x7D, 0xBF, 0x9D,
 	];
 
-	helper(S, BASE, 18079);
+	helper(S, BASE, 18_079);
 }
 // endregion
-// region: s_has_signs_and_458125_in_base_13
+// region: s_has_signs_and_458_125_in_base_13
 #[test]
-fn s_has_signs_and_458125_in_base_13() {
+fn s_has_signs_and_458_125_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -4413,12 +4413,12 @@ fn s_has_signs_and_458125_in_base_13() {
 		0xDC, 0xDE, 0xE4, 0x1E, 0x6B, 0x5C, 0x8B, 0x92, 0xAD, 0x27, 0x55, 0x84, 0xD2,
 	];
 
-	helper(S, BASE, 458125);
+	helper(S, BASE, 458_125);
 }
 // endregion
-// region: s_has_signs_and_2148269_in_base_13
+// region: s_has_signs_and_2_148_269_in_base_13
 #[test]
-fn s_has_signs_and_2148269_in_base_13() {
+fn s_has_signs_and_2_148_269_in_base_13() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x63, 0x58, 0xFE, 0x58, 0xC1, 0x92,
 	];
@@ -4426,12 +4426,12 @@ fn s_has_signs_and_2148269_in_base_13() {
 		0xC8, 0x6A, 0xFE, 0xE4, 0xDE, 0x63, 0x92, 0xD2, 0xC1, 0x7B, 0x58, 0xB1, 0x41,
 	];
 
-	helper(S, BASE, 2148269);
+	helper(S, BASE, 2_148_269);
 }
 // endregion
-// region: s_has_signs_and_99138721_in_base_13
+// region: s_has_signs_and_99_138_721_in_base_13
 #[test]
-fn s_has_signs_and_99138721_in_base_13() {
+fn s_has_signs_and_99_138_721_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x78, 0x24, 0x24, 0xC1, 0x78, 0x24, 0xBA, 0xEE,
 	];
@@ -4439,12 +4439,12 @@ fn s_has_signs_and_99138721_in_base_13() {
 		0xC1, 0x78, 0xA9, 0x66, 0xDA, 0x97, 0xEE, 0x24, 0xBA, 0xAE, 0xD9, 0x07, 0x8A,
 	];
 
-	helper(S, BASE, 99138721);
+	helper(S, BASE, 99_138_721);
 }
 // endregion
-// region: s_has_signs_and_156959719_in_base_13
+// region: s_has_signs_and_156_959_719_in_base_13
 #[test]
-fn s_has_signs_and_156959719_in_base_13() {
+fn s_has_signs_and_156_959_719_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x6E,
@@ -4454,7 +4454,7 @@ fn s_has_signs_and_156959719_in_base_13() {
 		0x8F, 0xC1, 0x6E, 0x58, 0x93, 0xC7, 0x23, 0x3E, 0xC3, 0x90, 0xBF, 0x6F, 0xC6,
 	];
 
-	helper(S, BASE, 156959719);
+	helper(S, BASE, 156_959_719);
 }
 // endregion
 // region: s_has_signs_and_8_in_base_19
@@ -4502,9 +4502,9 @@ fn s_has_signs_and_577_in_base_19() {
 	helper(S, BASE, 577);
 }
 // endregion
-// region: s_has_signs_and_3663_in_base_19
+// region: s_has_signs_and_3_663_in_base_19
 #[test]
-fn s_has_signs_and_3663_in_base_19() {
+fn s_has_signs_and_3_663_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0xDD, 0xF9,
@@ -4515,12 +4515,12 @@ fn s_has_signs_and_3663_in_base_19() {
 		0x64, 0x33, 0x37, 0x5B,
 	];
 
-	helper(S, BASE, 3663);
+	helper(S, BASE, 3_663);
 }
 // endregion
-// region: s_has_signs_and_90317_in_base_19
+// region: s_has_signs_and_90_317_in_base_19
 #[test]
-fn s_has_signs_and_90317_in_base_19() {
+fn s_has_signs_and_90_317_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0xE4, 0xF8, 0xF8, 0x14,
 	];
@@ -4529,12 +4529,12 @@ fn s_has_signs_and_90317_in_base_19() {
 		0x2A, 0x44, 0xE6, 0xE5,
 	];
 
-	helper(S, BASE, 90317);
+	helper(S, BASE, 90_317);
 }
 // endregion
-// region: s_has_signs_and_997785_in_base_19
+// region: s_has_signs_and_997_785_in_base_19
 #[test]
-fn s_has_signs_and_997785_in_base_19() {
+fn s_has_signs_and_997_785_in_base_19() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0xA9, 0xAD, 0x61, 0x62, 0xB3,
@@ -4544,12 +4544,12 @@ fn s_has_signs_and_997785_in_base_19() {
 		0x1F, 0x47, 0x27, 0x62,
 	];
 
-	helper(S, BASE, 997785);
+	helper(S, BASE, 997_785);
 }
 // endregion
-// region: s_has_signs_and_4162870_in_base_19
+// region: s_has_signs_and_4_162_870_in_base_19
 #[test]
-fn s_has_signs_and_4162870_in_base_19() {
+fn s_has_signs_and_4_162_870_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -4560,12 +4560,12 @@ fn s_has_signs_and_4162870_in_base_19() {
 		0x87, 0x9E, 0x45, 0xEE,
 	];
 
-	helper(S, BASE, 4162870);
+	helper(S, BASE, 4_162_870);
 }
 // endregion
-// region: s_has_signs_and_62329078_in_base_19
+// region: s_has_signs_and_62_329_078_in_base_19
 #[test]
-fn s_has_signs_and_62329078_in_base_19() {
+fn s_has_signs_and_62_329_078_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -4576,12 +4576,12 @@ fn s_has_signs_and_62329078_in_base_19() {
 		0xB2, 0xC4, 0xEB, 0xB7,
 	];
 
-	helper(S, BASE, 62329078);
+	helper(S, BASE, 62_329_078);
 }
 // endregion
-// region: s_has_signs_and_897100576_in_base_19
+// region: s_has_signs_and_897_100_576_in_base_19
 #[test]
-fn s_has_signs_and_897100576_in_base_19() {
+fn s_has_signs_and_897_100_576_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -4593,7 +4593,7 @@ fn s_has_signs_and_897100576_in_base_19() {
 		0xAD, 0xBF, 0xA4, 0xC9,
 	];
 
-	helper(S, BASE, 897100576);
+	helper(S, BASE, 897_100_576);
 }
 // endregion
 // region: s_has_signs_and_3_in_base_42
@@ -4646,9 +4646,9 @@ fn s_has_signs_and_166_in_base_42() {
 	helper(S, BASE, 166);
 }
 // endregion
-// region: s_has_signs_and_3673_in_base_42
+// region: s_has_signs_and_3_673_in_base_42
 #[test]
-fn s_has_signs_and_3673_in_base_42() {
+fn s_has_signs_and_3_673_in_base_42() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0xE1, 0xE2, 0x3A,
@@ -4659,12 +4659,12 @@ fn s_has_signs_and_3673_in_base_42() {
 		0x95, 0xA8, 0xB7, 0x9C, 0xE0, 0xF9, 0x72, 0x58, 0x25, 0x6F, 0xF6, 0xAD,
 	];
 
-	helper(S, BASE, 3673);
+	helper(S, BASE, 3_673);
 }
 // endregion
-// region: s_has_signs_and_16417_in_base_42
+// region: s_has_signs_and_16_417_in_base_42
 #[test]
-fn s_has_signs_and_16417_in_base_42() {
+fn s_has_signs_and_16_417_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x37, 0xA0, 0xE8,
 	];
@@ -4674,12 +4674,12 @@ fn s_has_signs_and_16417_in_base_42() {
 		0x86, 0x7D, 0xC0, 0x7A, 0x90, 0xE0, 0x5F, 0xE8, 0xD5, 0xDF, 0x9F, 0x72,
 	];
 
-	helper(S, BASE, 16417);
+	helper(S, BASE, 16_417);
 }
 // endregion
-// region: s_has_signs_and_925678_in_base_42
+// region: s_has_signs_and_925_678_in_base_42
 #[test]
-fn s_has_signs_and_925678_in_base_42() {
+fn s_has_signs_and_925_678_in_base_42() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x3F, 0x16, 0xC9, 0x68,
 	];
@@ -4689,12 +4689,12 @@ fn s_has_signs_and_925678_in_base_42() {
 		0x74, 0xC9, 0xFE, 0x60, 0xC8, 0xA5, 0x48, 0x46, 0x36, 0x86, 0x68, 0xB6,
 	];
 
-	helper(S, BASE, 925678);
+	helper(S, BASE, 925_678);
 }
 // endregion
-// region: s_has_signs_and_1958080_in_base_42
+// region: s_has_signs_and_1_958_080_in_base_42
 #[test]
-fn s_has_signs_and_1958080_in_base_42() {
+fn s_has_signs_and_1_958_080_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0xC0, 0xF5, 0x82, 0x2A,
 	];
@@ -4704,12 +4704,12 @@ fn s_has_signs_and_1958080_in_base_42() {
 		0xDF, 0xF0, 0x19, 0x4C, 0xE0, 0x49, 0x27, 0x83, 0xA4, 0x97, 0x2A, 0x56,
 	];
 
-	helper(S, BASE, 1958080);
+	helper(S, BASE, 1_958_080);
 }
 // endregion
-// region: s_has_signs_and_55971040_in_base_42
+// region: s_has_signs_and_55_971_040_in_base_42
 #[test]
-fn s_has_signs_and_55971040_in_base_42() {
+fn s_has_signs_and_55_971_040_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x62,
@@ -4721,12 +4721,12 @@ fn s_has_signs_and_55971040_in_base_42() {
 		0x55, 0xB3, 0xD6, 0x74, 0xF9, 0x77, 0x68, 0x9E, 0xC5, 0x2F, 0xFC, 0xF5,
 	];
 
-	helper(S, BASE, 55971040);
+	helper(S, BASE, 55_971_040);
 }
 // endregion
-// region: s_has_signs_and_835131568_in_base_42
+// region: s_has_signs_and_835_131_568_in_base_42
 #[test]
-fn s_has_signs_and_835131568_in_base_42() {
+fn s_has_signs_and_835_131_568_in_base_42() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -4738,7 +4738,7 @@ fn s_has_signs_and_835131568_in_base_42() {
 		0xEB, 0xA0, 0x44, 0x03, 0x4B, 0x58, 0xAF, 0x16, 0x83, 0xC7, 0x0F, 0xF5,
 	];
 
-	helper(S, BASE, 835131568);
+	helper(S, BASE, 835_131_568);
 }
 // endregion
 // region: s_has_signs_and_3_in_base_73
@@ -4797,9 +4797,9 @@ fn s_has_signs_and_989_in_base_73() {
 	helper(S, BASE, 989);
 }
 // endregion
-// region: s_has_signs_and_5991_in_base_73
+// region: s_has_signs_and_5_991_in_base_73
 #[test]
-fn s_has_signs_and_5991_in_base_73() {
+fn s_has_signs_and_5_991_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x5B, 0xF6, 0x8F,
 	];
@@ -4811,12 +4811,12 @@ fn s_has_signs_and_5991_in_base_73() {
 		0xC7, 0x3D, 0x8A, 0x51, 0x7E, 0xD6, 0xD5, 0x52, 0xDC, 0x73, 0x16, 0x44, 0x2E,
 	];
 
-	helper(S, BASE, 5991);
+	helper(S, BASE, 5_991);
 }
 // endregion
-// region: s_has_signs_and_58220_in_base_73
+// region: s_has_signs_and_58_220_in_base_73
 #[test]
-fn s_has_signs_and_58220_in_base_73() {
+fn s_has_signs_and_58_220_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x64, 0x93, 0xA6,
 	];
@@ -4828,12 +4828,12 @@ fn s_has_signs_and_58220_in_base_73() {
 		0x1D, 0xAC, 0x8F, 0xC8, 0x30, 0xF9, 0x46, 0x93, 0x13, 0xCC, 0x3D, 0xBB, 0x03,
 	];
 
-	helper(S, BASE, 58220);
+	helper(S, BASE, 58_220);
 }
 // endregion
-// region: s_has_signs_and_696852_in_base_73
+// region: s_has_signs_and_696_852_in_base_73
 #[test]
-fn s_has_signs_and_696852_in_base_73() {
+fn s_has_signs_and_696_852_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -4847,12 +4847,12 @@ fn s_has_signs_and_696852_in_base_73() {
 		0x50, 0x9F, 0x68, 0x38, 0x4A, 0xAF, 0x98, 0x6E, 0x28, 0xC3, 0x74, 0xE2, 0xFD,
 	];
 
-	helper(S, BASE, 696852);
+	helper(S, BASE, 696_852);
 }
 // endregion
-// region: s_has_signs_and_6650550_in_base_73
+// region: s_has_signs_and_6_650_550_in_base_73
 #[test]
-fn s_has_signs_and_6650550_in_base_73() {
+fn s_has_signs_and_6_650_550_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x67, 0x54, 0x81, 0x2F,
 	];
@@ -4864,12 +4864,12 @@ fn s_has_signs_and_6650550_in_base_73() {
 		0x36, 0x99, 0x6F, 0xDF, 0x78, 0xF1, 0xE2, 0xEC, 0x38, 0xB0, 0xFA, 0x2C, 0x81,
 	];
 
-	helper(S, BASE, 6650550);
+	helper(S, BASE, 6_650_550);
 }
 // endregion
-// region: s_has_signs_and_12147905_in_base_73
+// region: s_has_signs_and_12_147_905_in_base_73
 #[test]
-fn s_has_signs_and_12147905_in_base_73() {
+fn s_has_signs_and_12_147_905_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x55, 0x0E, 0xF8, 0x3C,
 	];
@@ -4881,12 +4881,12 @@ fn s_has_signs_and_12147905_in_base_73() {
 		0x95, 0x67, 0x5D, 0x7C, 0x1E, 0x23, 0xF6, 0x71, 0xAA, 0x8C, 0x75, 0xCA, 0xF7,
 	];
 
-	helper(S, BASE, 12147905);
+	helper(S, BASE, 12_147_905);
 }
 // endregion
-// region: s_has_signs_and_584226660_in_base_73
+// region: s_has_signs_and_584_226_660_in_base_73
 #[test]
-fn s_has_signs_and_584226660_in_base_73() {
+fn s_has_signs_and_584_226_660_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x77, 0x6A, 0x9A, 0x6A, 0xD0,
@@ -4899,7 +4899,7 @@ fn s_has_signs_and_584226660_in_base_73() {
 		0xCC, 0xAA, 0x8A, 0x54, 0x1B, 0xDA, 0xE9, 0x2A, 0xD0, 0x70, 0xEC, 0xDE, 0x36,
 	];
 
-	helper(S, BASE, 584226660);
+	helper(S, BASE, 584_226_660);
 }
 // endregion
 // region: s_has_signs_and_3_in_base_113
@@ -4966,9 +4966,9 @@ fn s_has_signs_and_475_in_base_113() {
 	helper(S, BASE, 475);
 }
 // endregion
-// region: s_has_signs_and_7144_in_base_113
+// region: s_has_signs_and_7_144_in_base_113
 #[test]
-fn s_has_signs_and_7144_in_base_113() {
+fn s_has_signs_and_7_144_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x02, 0xF4,
@@ -4984,12 +4984,12 @@ fn s_has_signs_and_7144_in_base_113() {
 		0x5B, 0xA7, 0x2A, 0xFF, 0xBD, 0xB6, 0x4C, 0x18,
 	];
 
-	helper(S, BASE, 7144);
+	helper(S, BASE, 7_144);
 }
 // endregion
-// region: s_has_signs_and_29141_in_base_113
+// region: s_has_signs_and_29_141_in_base_113
 #[test]
-fn s_has_signs_and_29141_in_base_113() {
+fn s_has_signs_and_29_141_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -5006,12 +5006,12 @@ fn s_has_signs_and_29141_in_base_113() {
 		0x70, 0x6E, 0x5E, 0x6D, 0x9E, 0xE2, 0x36, 0x53,
 	];
 
-	helper(S, BASE, 29141);
+	helper(S, BASE, 29_141);
 }
 // endregion
-// region: s_has_signs_and_244532_in_base_113
+// region: s_has_signs_and_244_532_in_base_113
 #[test]
-fn s_has_signs_and_244532_in_base_113() {
+fn s_has_signs_and_244_532_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x3B, 0x4B, 0xDF,
 	];
@@ -5026,12 +5026,12 @@ fn s_has_signs_and_244532_in_base_113() {
 		0x8D, 0x35, 0x5C, 0xFD, 0x7A, 0xFB, 0x90, 0x1E,
 	];
 
-	helper(S, BASE, 244532);
+	helper(S, BASE, 244_532);
 }
 // endregion
-// region: s_has_signs_and_6433370_in_base_113
+// region: s_has_signs_and_6_433_370_in_base_113
 #[test]
-fn s_has_signs_and_6433370_in_base_113() {
+fn s_has_signs_and_6_433_370_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x13, 0x5C, 0x37, 0x7D,
@@ -5047,12 +5047,12 @@ fn s_has_signs_and_6433370_in_base_113() {
 		0x80, 0x3D, 0x17, 0x26, 0xF0, 0x9E, 0xBC, 0xFA,
 	];
 
-	helper(S, BASE, 6433370);
+	helper(S, BASE, 6_433_370);
 }
 // endregion
-// region: s_has_signs_and_25516500_in_base_113
+// region: s_has_signs_and_25_516_500_in_base_113
 #[test]
-fn s_has_signs_and_25516500_in_base_113() {
+fn s_has_signs_and_25_516_500_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0xE6, 0x25, 0xCE, 0x73,
 	];
@@ -5067,12 +5067,12 @@ fn s_has_signs_and_25516500_in_base_113() {
 		0x36, 0x1D, 0x68, 0x7D, 0x7E, 0x30, 0xFD, 0xFC,
 	];
 
-	helper(S, BASE, 25516500);
+	helper(S, BASE, 25_516_500);
 }
 // endregion
-// region: s_has_signs_and_668364435_in_base_113
+// region: s_has_signs_and_668_364_435_in_base_113
 #[test]
-fn s_has_signs_and_668364435_in_base_113() {
+fn s_has_signs_and_668_364_435_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x72,
 		0x8E, 0xD9, 0x40, 0x10,
@@ -5088,7 +5088,7 @@ fn s_has_signs_and_668364435_in_base_113() {
 		0x34, 0x31, 0x54, 0x49, 0x55, 0xB4, 0x7D, 0x58,
 	];
 
-	helper(S, BASE, 668364435);
+	helper(S, BASE, 668_364_435);
 }
 // endregion
 // region: s_has_signs_and_2_in_base_193
@@ -5167,9 +5167,9 @@ fn s_has_signs_and_220_in_base_193() {
 	helper(S, BASE, 220);
 }
 // endregion
-// region: s_has_signs_and_2562_in_base_193
+// region: s_has_signs_and_2_562_in_base_193
 #[test]
-fn s_has_signs_and_2562_in_base_193() {
+fn s_has_signs_and_2_562_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0xA7, 0x70,
 	];
@@ -5189,12 +5189,12 @@ fn s_has_signs_and_2562_in_base_193() {
 		0x9B, 0x74, 0xA6, 0xEC, 0xFC, 0x3D, 0x8A, 0xFD, 0x7D, 0xFF, 0xB6, 0x56, 0xD0,
 	];
 
-	helper(S, BASE, 2562);
+	helper(S, BASE, 2_562);
 }
 // endregion
-// region: s_has_signs_and_87941_in_base_193
+// region: s_has_signs_and_87_941_in_base_193
 #[test]
-fn s_has_signs_and_87941_in_base_193() {
+fn s_has_signs_and_87_941_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x4A, 0xAC, 0xB4,
@@ -5215,12 +5215,12 @@ fn s_has_signs_and_87941_in_base_193() {
 		0x75, 0x78, 0x44, 0x69, 0x4B, 0x9E, 0xA0, 0x3A, 0x04, 0x1E, 0x01, 0x9F, 0xC2,
 	];
 
-	helper(S, BASE, 87941);
+	helper(S, BASE, 87_941);
 }
 // endregion
-// region: s_has_signs_and_957459_in_base_193
+// region: s_has_signs_and_957_459_in_base_193
 #[test]
-fn s_has_signs_and_957459_in_base_193() {
+fn s_has_signs_and_957_459_in_base_193() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x03, 0x08, 0x29,
@@ -5241,12 +5241,12 @@ fn s_has_signs_and_957459_in_base_193() {
 		0xC9, 0xE9, 0x6F, 0x3D, 0xCC, 0x5A, 0x44, 0x57, 0x4B, 0xCB, 0x18, 0x7E, 0x25,
 	];
 
-	helper(S, BASE, 957459);
+	helper(S, BASE, 957_459);
 }
 // endregion
-// region: s_has_signs_and_6095597_in_base_193
+// region: s_has_signs_and_6_095_597_in_base_193
 #[test]
-fn s_has_signs_and_6095597_in_base_193() {
+fn s_has_signs_and_6_095_597_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xAA, 0xDB, 0xC4,
 	];
@@ -5266,12 +5266,12 @@ fn s_has_signs_and_6095597_in_base_193() {
 		0x2F, 0x6A, 0xA4, 0xA5, 0xE0, 0x87, 0xF7, 0x6B, 0x83, 0xED, 0x99, 0x89, 0x59,
 	];
 
-	helper(S, BASE, 6095597);
+	helper(S, BASE, 6_095_597);
 }
 // endregion
-// region: s_has_signs_and_25718482_in_base_193
+// region: s_has_signs_and_25_718_482_in_base_193
 #[test]
-fn s_has_signs_and_25718482_in_base_193() {
+fn s_has_signs_and_25_718_482_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x47, 0xFA, 0x8E, 0xA1,
@@ -5292,12 +5292,12 @@ fn s_has_signs_and_25718482_in_base_193() {
 		0x9F, 0x03, 0x82, 0x28, 0x68, 0x8C, 0x3B, 0xDB, 0x19, 0xBD, 0xB6, 0x7A, 0x45,
 	];
 
-	helper(S, BASE, 25718482);
+	helper(S, BASE, 25_718_482);
 }
 // endregion
-// region: s_has_signs_and_462969153_in_base_193
+// region: s_has_signs_and_462_969_153_in_base_193
 #[test]
-fn s_has_signs_and_462969153_in_base_193() {
+fn s_has_signs_and_462_969_153_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0xC2, 0x29,
 		0x56, 0x6D,
@@ -5318,7 +5318,7 @@ fn s_has_signs_and_462969153_in_base_193() {
 		0xFA, 0x52, 0xDF, 0xDA, 0x07, 0x92, 0x31, 0x78, 0xD5, 0xA7, 0xD1, 0x93, 0x30,
 	];
 
-	helper(S, BASE, 462969153);
+	helper(S, BASE, 462_969_153);
 }
 // endregion
 // region: s_has_signs_and_1_in_base_247
@@ -5411,9 +5411,9 @@ fn s_has_signs_and_268_in_base_247() {
 	helper(S, BASE, 268);
 }
 // endregion
-// region: s_has_signs_and_5025_in_base_247
+// region: s_has_signs_and_5_025_in_base_247
 #[test]
-fn s_has_signs_and_5025_in_base_247() {
+fn s_has_signs_and_5_025_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x68, 0x29,
@@ -5438,12 +5438,12 @@ fn s_has_signs_and_5025_in_base_247() {
 		0x62, 0x6D, 0x49, 0x11, 0xFB, 0x3C, 0x83,
 	];
 
-	helper(S, BASE, 5025);
+	helper(S, BASE, 5_025);
 }
 // endregion
-// region: s_has_signs_and_70111_in_base_247
+// region: s_has_signs_and_70_111_in_base_247
 #[test]
-fn s_has_signs_and_70111_in_base_247() {
+fn s_has_signs_and_70_111_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x4B, 0x75, 0x07,
@@ -5468,12 +5468,12 @@ fn s_has_signs_and_70111_in_base_247() {
 		0xD4, 0x1C, 0x2A, 0xE7, 0x7A, 0xBE, 0x25,
 	];
 
-	helper(S, BASE, 70111);
+	helper(S, BASE, 70_111);
 }
 // endregion
-// region: s_has_signs_and_428345_in_base_247
+// region: s_has_signs_and_428_345_in_base_247
 #[test]
-fn s_has_signs_and_428345_in_base_247() {
+fn s_has_signs_and_428_345_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x79,
 		0x95, 0x7B,
@@ -5498,12 +5498,12 @@ fn s_has_signs_and_428345_in_base_247() {
 		0x92, 0x33, 0x3B, 0xE9, 0xF8, 0x41, 0x68,
 	];
 
-	helper(S, BASE, 428345);
+	helper(S, BASE, 428_345);
 }
 // endregion
-// region: s_has_signs_and_9661817_in_base_247
+// region: s_has_signs_and_9_661_817_in_base_247
 #[test]
-fn s_has_signs_and_9661817_in_base_247() {
+fn s_has_signs_and_9_661_817_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0xE5, 0xFD, 0x8C,
@@ -5528,12 +5528,12 @@ fn s_has_signs_and_9661817_in_base_247() {
 		0x8D, 0x2F, 0x67, 0xE1, 0xCC, 0x6F, 0x9E,
 	];
 
-	helper(S, BASE, 9661817);
+	helper(S, BASE, 9_661_817);
 }
 // endregion
-// region: s_has_signs_and_61291320_in_base_247
+// region: s_has_signs_and_61_291_320_in_base_247
 #[test]
-fn s_has_signs_and_61291320_in_base_247() {
+fn s_has_signs_and_61_291_320_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x8C, 0xF5, 0x67, 0x26,
@@ -5558,12 +5558,12 @@ fn s_has_signs_and_61291320_in_base_247() {
 		0x52, 0x29, 0x7E, 0xC4, 0xA1, 0xB6, 0x26,
 	];
 
-	helper(S, BASE, 61291320);
+	helper(S, BASE, 61_291_320);
 }
 // endregion
-// region: s_has_signs_and_346587740_in_base_247
+// region: s_has_signs_and_346_587_740_in_base_247
 #[test]
-fn s_has_signs_and_346587740_in_base_247() {
+fn s_has_signs_and_346_587_740_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xE2, 0x3C, 0x5E,
 		0xDF,
@@ -5588,7 +5588,7 @@ fn s_has_signs_and_346587740_in_base_247() {
 		0xD5, 0x85, 0xEC, 0x55, 0x9D, 0x69, 0x3C,
 	];
 
-	helper(S, BASE, 346587740);
+	helper(S, BASE, 346_587_740);
 }
 // endregion
 // region: s_has_zeros_and_5_in_base_2
@@ -5631,9 +5631,9 @@ fn s_has_zeros_and_159_in_base_2() {
 	helper(S, BASE, 159);
 }
 // endregion
-// region: s_has_zeros_and_7056_in_base_2
+// region: s_has_zeros_and_7_056_in_base_2
 #[test]
-fn s_has_zeros_and_7056_in_base_2() {
+fn s_has_zeros_and_7_056_in_base_2() {
 	const S: &[u8] = &[
 		0x33, 0x33, 0x33, 0x33, 0x33, 0x33, 0x33, 0x33, 0x3C, 0x3C, 0x33, 0x3C, 0x3C, 0x3C, 0x33,
 		0x33, 0x3C, 0x33, 0x33, 0x33, 0x33,
@@ -5642,12 +5642,12 @@ fn s_has_zeros_and_7056_in_base_2() {
 		0x33, 0x3C,
 	];
 
-	helper(S, BASE, 7056);
+	helper(S, BASE, 7_056);
 }
 // endregion
-// region: s_has_zeros_and_36793_in_base_2
+// region: s_has_zeros_and_36_793_in_base_2
 #[test]
-fn s_has_zeros_and_36793_in_base_2() {
+fn s_has_zeros_and_36_793_in_base_2() {
 	const S: &[u8] = &[
 		0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF,
 		0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xD0, 0xEF, 0xEF, 0xEF, 0xD0, 0xD0, 0xD0, 0xD0,
@@ -5657,12 +5657,12 @@ fn s_has_zeros_and_36793_in_base_2() {
 		0xEF, 0xD0,
 	];
 
-	helper(S, BASE, 36793);
+	helper(S, BASE, 36_793);
 }
 // endregion
-// region: s_has_zeros_and_108297_in_base_2
+// region: s_has_zeros_and_108_297_in_base_2
 #[test]
-fn s_has_zeros_and_108297_in_base_2() {
+fn s_has_zeros_and_108_297_in_base_2() {
 	const S: &[u8] = &[
 		0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD,
 		0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xFC, 0xFC, 0xAD, 0xFC, 0xAD, 0xAD, 0xFC, 0xFC, 0xFC,
@@ -5672,12 +5672,12 @@ fn s_has_zeros_and_108297_in_base_2() {
 		0xAD, 0xFC,
 	];
 
-	helper(S, BASE, 108297);
+	helper(S, BASE, 108_297);
 }
 // endregion
-// region: s_has_zeros_and_1109657_in_base_2
+// region: s_has_zeros_and_1_109_657_in_base_2
 #[test]
-fn s_has_zeros_and_1109657_in_base_2() {
+fn s_has_zeros_and_1_109_657_in_base_2() {
 	const S: &[u8] = &[
 		0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0, 0xA0,
 		0xA0, 0xA0, 0xA0, 0x54, 0xA0, 0xA0, 0xA0, 0xA0, 0x54, 0x54, 0x54, 0xA0, 0x54, 0x54, 0x54,
@@ -5687,12 +5687,12 @@ fn s_has_zeros_and_1109657_in_base_2() {
 		0xA0, 0x54,
 	];
 
-	helper(S, BASE, 1109657);
+	helper(S, BASE, 1_109_657);
 }
 // endregion
-// region: s_has_zeros_and_69704378_in_base_2
+// region: s_has_zeros_and_69_704_378_in_base_2
 #[test]
-fn s_has_zeros_and_69704378_in_base_2() {
+fn s_has_zeros_and_69_704_378_in_base_2() {
 	const S: &[u8] = &[
 		0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0xF7, 0x28, 0x28, 0x28, 0x28, 0xF7, 0x28,
 		0x28, 0xF7, 0xF7, 0xF7, 0xF7, 0x28, 0x28, 0xF7, 0xF7, 0x28, 0xF7, 0x28, 0xF7, 0x28, 0xF7,
@@ -5702,12 +5702,12 @@ fn s_has_zeros_and_69704378_in_base_2() {
 		0x28, 0xF7,
 	];
 
-	helper(S, BASE, 69704378);
+	helper(S, BASE, 69_704_378);
 }
 // endregion
-// region: s_has_zeros_and_870491376_in_base_2
+// region: s_has_zeros_and_870_491_376_in_base_2
 #[test]
-fn s_has_zeros_and_870491376_in_base_2() {
+fn s_has_zeros_and_870_491_376_in_base_2() {
 	const S: &[u8] = &[
 		0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17,
 		0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17, 0x17,
@@ -5719,7 +5719,7 @@ fn s_has_zeros_and_870491376_in_base_2() {
 		0x17, 0xEC,
 	];
 
-	helper(S, BASE, 870491376);
+	helper(S, BASE, 870_491_376);
 }
 // endregion
 // region: s_has_zeros_and_5_in_base_3
@@ -5764,9 +5764,9 @@ fn s_has_zeros_and_616_in_base_3() {
 	helper(S, BASE, 616);
 }
 // endregion
-// region: s_has_zeros_and_2532_in_base_3
+// region: s_has_zeros_and_2_532_in_base_3
 #[test]
-fn s_has_zeros_and_2532_in_base_3() {
+fn s_has_zeros_and_2_532_in_base_3() {
 	const S: &[u8] = &[
 		0xFE, 0x1A, 0xFE, 0x1A, 0x1A, 0xFE, 0x33, 0x1A, 0xFE,
 	];
@@ -5774,12 +5774,12 @@ fn s_has_zeros_and_2532_in_base_3() {
 		0xFE, 0x1A, 0x33,
 	];
 
-	helper(S, BASE, 2532);
+	helper(S, BASE, 2_532);
 }
 // endregion
-// region: s_has_zeros_and_33733_in_base_3
+// region: s_has_zeros_and_33_733_in_base_3
 #[test]
-fn s_has_zeros_and_33733_in_base_3() {
+fn s_has_zeros_and_33_733_in_base_3() {
 	const S: &[u8] = &[
 		0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5,
 		0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0xC5, 0x3C, 0x51, 0xC5, 0x3C, 0xC5, 0x51, 0x3C, 0x3C, 0xC5,
@@ -5789,12 +5789,12 @@ fn s_has_zeros_and_33733_in_base_3() {
 		0xC5, 0x3C, 0x51,
 	];
 
-	helper(S, BASE, 33733);
+	helper(S, BASE, 33_733);
 }
 // endregion
-// region: s_has_zeros_and_886330_in_base_3
+// region: s_has_zeros_and_886_330_in_base_3
 #[test]
-fn s_has_zeros_and_886330_in_base_3() {
+fn s_has_zeros_and_886_330_in_base_3() {
 	const S: &[u8] = &[
 		0xC1, 0xC1, 0xC1, 0xC1, 0xF6, 0x1C, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1, 0x1C, 0xF6, 0xF6, 0xC1,
 		0xC1, 0xF6,
@@ -5803,12 +5803,12 @@ fn s_has_zeros_and_886330_in_base_3() {
 		0xC1, 0xF6, 0x1C,
 	];
 
-	helper(S, BASE, 886330);
+	helper(S, BASE, 886_330);
 }
 // endregion
-// region: s_has_zeros_and_8031028_in_base_3
+// region: s_has_zeros_and_8_031_028_in_base_3
 #[test]
-fn s_has_zeros_and_8031028_in_base_3() {
+fn s_has_zeros_and_8_031_028_in_base_3() {
 	const S: &[u8] = &[
 		0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4,
 		0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4,
@@ -5819,12 +5819,12 @@ fn s_has_zeros_and_8031028_in_base_3() {
 		0xF4, 0xDC, 0x0E,
 	];
 
-	helper(S, BASE, 8031028);
+	helper(S, BASE, 8_031_028);
 }
 // endregion
-// region: s_has_zeros_and_31926392_in_base_3
+// region: s_has_zeros_and_31_926_392_in_base_3
 #[test]
-fn s_has_zeros_and_31926392_in_base_3() {
+fn s_has_zeros_and_31_926_392_in_base_3() {
 	const S: &[u8] = &[
 		0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0xAC, 0x1D,
 		0xAC, 0x1D, 0x1D, 0x1D, 0xAC, 0x1D, 0x1D, 0x1D, 0xAC, 0x1D, 0xAC, 0xAC, 0xAC, 0xAC,
@@ -5833,12 +5833,12 @@ fn s_has_zeros_and_31926392_in_base_3() {
 		0x1D, 0xA1, 0xAC,
 	];
 
-	helper(S, BASE, 31926392);
+	helper(S, BASE, 31_926_392);
 }
 // endregion
-// region: s_has_zeros_and_938753192_in_base_3
+// region: s_has_zeros_and_938_753_192_in_base_3
 #[test]
-fn s_has_zeros_and_938753192_in_base_3() {
+fn s_has_zeros_and_938_753_192_in_base_3() {
 	const S: &[u8] = &[
 		0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15,
 		0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15, 0x15,
@@ -5849,7 +5849,7 @@ fn s_has_zeros_and_938753192_in_base_3() {
 		0x15, 0x59, 0xDD,
 	];
 
-	helper(S, BASE, 938753192);
+	helper(S, BASE, 938_753_192);
 }
 // endregion
 // region: s_has_zeros_and_6_in_base_5
@@ -5892,9 +5892,9 @@ fn s_has_zeros_and_297_in_base_5() {
 	helper(S, BASE, 297);
 }
 // endregion
-// region: s_has_zeros_and_3223_in_base_5
+// region: s_has_zeros_and_3_223_in_base_5
 #[test]
-fn s_has_zeros_and_3223_in_base_5() {
+fn s_has_zeros_and_3_223_in_base_5() {
 	const S: &[u8] = &[
 		0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB,
 		0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0x1A, 0xDB,
@@ -5904,12 +5904,12 @@ fn s_has_zeros_and_3223_in_base_5() {
 		0xDB, 0x1A, 0x62, 0xCB, 0x15,
 	];
 
-	helper(S, BASE, 3223);
+	helper(S, BASE, 3_223);
 }
 // endregion
-// region: s_has_zeros_and_87003_in_base_5
+// region: s_has_zeros_and_87_003_in_base_5
 #[test]
-fn s_has_zeros_and_87003_in_base_5() {
+fn s_has_zeros_and_87_003_in_base_5() {
 	const S: &[u8] = &[
 		0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9,
 		0xB9, 0x78, 0xB9, 0x53, 0x70, 0x78, 0xB9, 0xB9, 0x3F,
@@ -5918,12 +5918,12 @@ fn s_has_zeros_and_87003_in_base_5() {
 		0xB9, 0x78, 0x53, 0x3F, 0x70,
 	];
 
-	helper(S, BASE, 87003);
+	helper(S, BASE, 87_003);
 }
 // endregion
-// region: s_has_zeros_and_780487_in_base_5
+// region: s_has_zeros_and_780_487_in_base_5
 #[test]
-fn s_has_zeros_and_780487_in_base_5() {
+fn s_has_zeros_and_780_487_in_base_5() {
 	const S: &[u8] = &[
 		0x8F, 0x8F, 0x8F, 0x8F, 0x8F, 0x12, 0x68, 0x68, 0x68, 0x56, 0x56, 0x68, 0xAE, 0xAE,
 	];
@@ -5931,12 +5931,12 @@ fn s_has_zeros_and_780487_in_base_5() {
 		0x8F, 0x12, 0xAE, 0x56, 0x68,
 	];
 
-	helper(S, BASE, 780487);
+	helper(S, BASE, 780_487);
 }
 // endregion
-// region: s_has_zeros_and_2400292_in_base_5
+// region: s_has_zeros_and_2_400_292_in_base_5
 #[test]
-fn s_has_zeros_and_2400292_in_base_5() {
+fn s_has_zeros_and_2_400_292_in_base_5() {
 	const S: &[u8] = &[
 		0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71,
 		0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x71, 0x01,
@@ -5946,12 +5946,12 @@ fn s_has_zeros_and_2400292_in_base_5() {
 		0x71, 0x01, 0x7B, 0x3B, 0x2F,
 	];
 
-	helper(S, BASE, 2400292);
+	helper(S, BASE, 2_400_292);
 }
 // endregion
-// region: s_has_zeros_and_29758624_in_base_5
+// region: s_has_zeros_and_29_758_624_in_base_5
 #[test]
-fn s_has_zeros_and_29758624_in_base_5() {
+fn s_has_zeros_and_29_758_624_in_base_5() {
 	const S: &[u8] = &[
 		0xC7, 0x9F, 0xC7, 0xEF, 0xC7, 0xEC, 0xE2, 0x9F, 0x9F, 0xEC, 0xEC, 0xEC,
 	];
@@ -5959,12 +5959,12 @@ fn s_has_zeros_and_29758624_in_base_5() {
 		0xC7, 0xEF, 0xE2, 0x9F, 0xEC,
 	];
 
-	helper(S, BASE, 29758624);
+	helper(S, BASE, 29_758_624);
 }
 // endregion
-// region: s_has_zeros_and_165979488_in_base_5
+// region: s_has_zeros_and_165_979_488_in_base_5
 #[test]
-fn s_has_zeros_and_165979488_in_base_5() {
+fn s_has_zeros_and_165_979_488_in_base_5() {
 	const S: &[u8] = &[
 		0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29,
 		0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29, 0x29,
@@ -5974,7 +5974,7 @@ fn s_has_zeros_and_165979488_in_base_5() {
 		0x29, 0xF4, 0x54, 0x73, 0xCB,
 	];
 
-	helper(S, BASE, 165979488);
+	helper(S, BASE, 165_979_488);
 }
 // endregion
 // region: s_has_zeros_and_3_in_base_7
@@ -6019,9 +6019,9 @@ fn s_has_zeros_and_538_in_base_7() {
 	helper(S, BASE, 538);
 }
 // endregion
-// region: s_has_zeros_and_9318_in_base_7
+// region: s_has_zeros_and_9_318_in_base_7
 #[test]
-fn s_has_zeros_and_9318_in_base_7() {
+fn s_has_zeros_and_9_318_in_base_7() {
 	const S: &[u8] = &[
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
@@ -6031,12 +6031,12 @@ fn s_has_zeros_and_9318_in_base_7() {
 		0x86, 0x78, 0xAC, 0x39, 0x9B, 0x8D, 0x49,
 	];
 
-	helper(S, BASE, 9318);
+	helper(S, BASE, 9_318);
 }
 // endregion
-// region: s_has_zeros_and_42671_in_base_7
+// region: s_has_zeros_and_42_671_in_base_7
 #[test]
-fn s_has_zeros_and_42671_in_base_7() {
+fn s_has_zeros_and_42_671_in_base_7() {
 	const S: &[u8] = &[
 		0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC,
 		0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC,
@@ -6046,12 +6046,12 @@ fn s_has_zeros_and_42671_in_base_7() {
 		0xFC, 0x6F, 0x07, 0xA9, 0xAE, 0xA1, 0xC8,
 	];
 
-	helper(S, BASE, 42671);
+	helper(S, BASE, 42_671);
 }
 // endregion
-// region: s_has_zeros_and_490642_in_base_7
+// region: s_has_zeros_and_490_642_in_base_7
 #[test]
-fn s_has_zeros_and_490642_in_base_7() {
+fn s_has_zeros_and_490_642_in_base_7() {
 	const S: &[u8] = &[
 		0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1,
 		0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1,
@@ -6061,12 +6061,12 @@ fn s_has_zeros_and_490642_in_base_7() {
 		0xB1, 0xAD, 0x1E, 0xA1, 0x24, 0x87, 0x12,
 	];
 
-	helper(S, BASE, 490642);
+	helper(S, BASE, 490_642);
 }
 // endregion
-// region: s_has_zeros_and_1874503_in_base_7
+// region: s_has_zeros_and_1_874_503_in_base_7
 #[test]
-fn s_has_zeros_and_1874503_in_base_7() {
+fn s_has_zeros_and_1_874_503_in_base_7() {
 	const S: &[u8] = &[
 		0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E,
 		0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0xC6, 0x71, 0xA7, 0xF2, 0xC8, 0x5E, 0x71, 0x71,
@@ -6075,12 +6075,12 @@ fn s_has_zeros_and_1874503_in_base_7() {
 		0x5E, 0x71, 0xC6, 0xF2, 0x1E, 0xC8, 0xA7,
 	];
 
-	helper(S, BASE, 1874503);
+	helper(S, BASE, 1_874_503);
 }
 // endregion
-// region: s_has_zeros_and_44911683_in_base_7
+// region: s_has_zeros_and_44_911_683_in_base_7
 #[test]
-fn s_has_zeros_and_44911683_in_base_7() {
+fn s_has_zeros_and_44_911_683_in_base_7() {
 	const S: &[u8] = &[
 		0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D, 0x8D,
 		0x58, 0x8D, 0x44, 0x64, 0x44, 0x58, 0xD5, 0x44, 0xDF, 0x44,
@@ -6089,12 +6089,12 @@ fn s_has_zeros_and_44911683_in_base_7() {
 		0x8D, 0x58, 0xD5, 0x64, 0x01, 0x44, 0xDF,
 	];
 
-	helper(S, BASE, 44911683);
+	helper(S, BASE, 44_911_683);
 }
 // endregion
-// region: s_has_zeros_and_185417479_in_base_7
+// region: s_has_zeros_and_185_417_479_in_base_7
 #[test]
-fn s_has_zeros_and_185417479_in_base_7() {
+fn s_has_zeros_and_185_417_479_in_base_7() {
 	const S: &[u8] = &[
 		0x29, 0xCE, 0xCE, 0xB0, 0xB0, 0x29, 0xB0, 0x29, 0x16, 0xB0, 0x40,
 	];
@@ -6102,7 +6102,7 @@ fn s_has_zeros_and_185417479_in_base_7() {
 		0x29, 0xB0, 0x40, 0xEE, 0xCE, 0x16, 0x19,
 	];
 
-	helper(S, BASE, 185417479);
+	helper(S, BASE, 185_417_479);
 }
 // endregion
 // region: s_has_zeros_and_2_in_base_11
@@ -6146,9 +6146,9 @@ fn s_has_zeros_and_930_in_base_11() {
 	helper(S, BASE, 930);
 }
 // endregion
-// region: s_has_zeros_and_2451_in_base_11
+// region: s_has_zeros_and_2_451_in_base_11
 #[test]
-fn s_has_zeros_and_2451_in_base_11() {
+fn s_has_zeros_and_2_451_in_base_11() {
 	const S: &[u8] = &[
 		0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05,
 		0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05,
@@ -6158,12 +6158,12 @@ fn s_has_zeros_and_2451_in_base_11() {
 		0x05, 0xDC, 0x7F, 0xA5, 0xAF, 0x42, 0x9E, 0xC6, 0x6A, 0x33, 0x18,
 	];
 
-	helper(S, BASE, 2451);
+	helper(S, BASE, 2_451);
 }
 // endregion
-// region: s_has_zeros_and_54512_in_base_11
+// region: s_has_zeros_and_54_512_in_base_11
 #[test]
-fn s_has_zeros_and_54512_in_base_11() {
+fn s_has_zeros_and_54_512_in_base_11() {
 	const S: &[u8] = &[
 		0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79,
 		0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79, 0x79,
@@ -6173,12 +6173,12 @@ fn s_has_zeros_and_54512_in_base_11() {
 		0x79, 0xA5, 0x36, 0x9A, 0x29, 0x65, 0x8A, 0x08, 0xEA, 0xFA, 0x83,
 	];
 
-	helper(S, BASE, 54512);
+	helper(S, BASE, 54_512);
 }
 // endregion
-// region: s_has_zeros_and_925726_in_base_11
+// region: s_has_zeros_and_925_726_in_base_11
 #[test]
-fn s_has_zeros_and_925726_in_base_11() {
+fn s_has_zeros_and_925_726_in_base_11() {
 	const S: &[u8] = &[
 		0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73,
 		0x73, 0x73, 0x73, 0x73, 0x73, 0x69, 0x62, 0xB1, 0x69, 0xE2, 0xAB,
@@ -6187,12 +6187,12 @@ fn s_has_zeros_and_925726_in_base_11() {
 		0x73, 0xCD, 0xB1, 0x7F, 0x12, 0x69, 0xE2, 0x75, 0x62, 0xC5, 0xAB,
 	];
 
-	helper(S, BASE, 925726);
+	helper(S, BASE, 925_726);
 }
 // endregion
-// region: s_has_zeros_and_6940511_in_base_11
+// region: s_has_zeros_and_6_940_511_in_base_11
 #[test]
-fn s_has_zeros_and_6940511_in_base_11() {
+fn s_has_zeros_and_6_940_511_in_base_11() {
 	const S: &[u8] = &[
 		0x54, 0x54, 0x54, 0x54, 0x54, 0x54, 0x44, 0x84, 0x78, 0x54, 0x12, 0x8E, 0x8E,
 	];
@@ -6200,12 +6200,12 @@ fn s_has_zeros_and_6940511_in_base_11() {
 		0x54, 0x78, 0xD1, 0x44, 0xD9, 0x12, 0x8E, 0xA4, 0x7B, 0xE2, 0x84,
 	];
 
-	helper(S, BASE, 6940511);
+	helper(S, BASE, 6_940_511);
 }
 // endregion
-// region: s_has_zeros_and_33034108_in_base_11
+// region: s_has_zeros_and_33_034_108_in_base_11
 #[test]
-fn s_has_zeros_and_33034108_in_base_11() {
+fn s_has_zeros_and_33_034_108_in_base_11() {
 	const S: &[u8] = &[
 		0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC,
 		0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0x49, 0x76, 0x76, 0x49,
@@ -6215,12 +6215,12 @@ fn s_has_zeros_and_33034108_in_base_11() {
 		0xAC, 0x49, 0xCC, 0x53, 0x6E, 0xA2, 0xDD, 0x76, 0xD1, 0xF3, 0xF6,
 	];
 
-	helper(S, BASE, 33034108);
+	helper(S, BASE, 33_034_108);
 }
 // endregion
-// region: s_has_zeros_and_596237918_in_base_11
+// region: s_has_zeros_and_596_237_918_in_base_11
 #[test]
-fn s_has_zeros_and_596237918_in_base_11() {
+fn s_has_zeros_and_596_237_918_in_base_11() {
 	const S: &[u8] = &[
 		0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C,
 		0x5C, 0x5C, 0x5C, 0xA2, 0x58, 0xC8, 0xC8, 0xE3, 0x3B, 0x75, 0xE3, 0xE3,
@@ -6229,7 +6229,7 @@ fn s_has_zeros_and_596237918_in_base_11() {
 		0x5C, 0xE3, 0xA2, 0xFA, 0x75, 0xEC, 0xC8, 0x6C, 0x58, 0x3B, 0x50,
 	];
 
-	helper(S, BASE, 596237918);
+	helper(S, BASE, 596_237_918);
 }
 // endregion
 // region: s_has_zeros_and_5_in_base_13
@@ -6274,9 +6274,9 @@ fn s_has_zeros_and_130_in_base_13() {
 	helper(S, BASE, 130);
 }
 // endregion
-// region: s_has_zeros_and_8573_in_base_13
+// region: s_has_zeros_and_8_573_in_base_13
 #[test]
-fn s_has_zeros_and_8573_in_base_13() {
+fn s_has_zeros_and_8_573_in_base_13() {
 	const S: &[u8] = &[
 		0x4A, 0x4A, 0x4A, 0x4A, 0x7E, 0x80, 0xD1, 0xB6,
 	];
@@ -6284,12 +6284,12 @@ fn s_has_zeros_and_8573_in_base_13() {
 		0x4A, 0x53, 0x69, 0x7E, 0xFF, 0xDA, 0xB6, 0x5F, 0x05, 0xD1, 0x04, 0x80, 0x12,
 	];
 
-	helper(S, BASE, 8573);
+	helper(S, BASE, 8_573);
 }
 // endregion
-// region: s_has_zeros_and_66994_in_base_13
+// region: s_has_zeros_and_66_994_in_base_13
 #[test]
-fn s_has_zeros_and_66994_in_base_13() {
+fn s_has_zeros_and_66_994_in_base_13() {
 	const S: &[u8] = &[
 		0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x2A, 0x7C, 0xB0, 0x17, 0x17,
 	];
@@ -6297,12 +6297,12 @@ fn s_has_zeros_and_66994_in_base_13() {
 		0x25, 0x68, 0x2A, 0xB1, 0x7C, 0x17, 0xB0, 0xAD, 0x46, 0x44, 0x95, 0xC8, 0xD9,
 	];
 
-	helper(S, BASE, 66994);
+	helper(S, BASE, 66_994);
 }
 // endregion
-// region: s_has_zeros_and_331515_in_base_13
+// region: s_has_zeros_and_331_515_in_base_13
 #[test]
-fn s_has_zeros_and_331515_in_base_13() {
+fn s_has_zeros_and_331_515_in_base_13() {
 	const S: &[u8] = &[
 		0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57,
 		0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x4B,
@@ -6312,12 +6312,12 @@ fn s_has_zeros_and_331515_in_base_13() {
 		0x57, 0x35, 0xF7, 0xFC, 0xCC, 0xCB, 0x7C, 0x93, 0x82, 0x9A, 0x1E, 0x4B, 0x6F,
 	];
 
-	helper(S, BASE, 331515);
+	helper(S, BASE, 331_515);
 }
 // endregion
-// region: s_has_zeros_and_7368674_in_base_13
+// region: s_has_zeros_and_7_368_674_in_base_13
 #[test]
-fn s_has_zeros_and_7368674_in_base_13() {
+fn s_has_zeros_and_7_368_674_in_base_13() {
 	const S: &[u8] = &[
 		0x48, 0x48, 0x48, 0x48, 0x48, 0x62, 0xD8, 0x36, 0xE2, 0xE2, 0x88, 0x62,
 	];
@@ -6325,12 +6325,12 @@ fn s_has_zeros_and_7368674_in_base_13() {
 		0x48, 0x62, 0x7B, 0xD1, 0xB1, 0x27, 0xD8, 0x6F, 0x88, 0x3E, 0x36, 0x69, 0xE2,
 	];
 
-	helper(S, BASE, 7368674);
+	helper(S, BASE, 7_368_674);
 }
 // endregion
-// region: s_has_zeros_and_85516753_in_base_13
+// region: s_has_zeros_and_85_516_753_in_base_13
 #[test]
-fn s_has_zeros_and_85516753_in_base_13() {
+fn s_has_zeros_and_85_516_753_in_base_13() {
 	const S: &[u8] = &[
 		0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8,
 		0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0x87, 0xE4, 0x27, 0xE4, 0xA7, 0xE4, 0xE9, 0x50,
@@ -6339,12 +6339,12 @@ fn s_has_zeros_and_85516753_in_base_13() {
 		0xA8, 0x87, 0xA7, 0xE9, 0xE4, 0x9C, 0xF0, 0xB8, 0x0F, 0x27, 0x50, 0x30, 0x96,
 	];
 
-	helper(S, BASE, 85516753);
+	helper(S, BASE, 85_516_753);
 }
 // endregion
-// region: s_has_zeros_and_741133731_in_base_13
+// region: s_has_zeros_and_741_133_731_in_base_13
 #[test]
-fn s_has_zeros_and_741133731_in_base_13() {
+fn s_has_zeros_and_741_133_731_in_base_13() {
 	const S: &[u8] = &[
 		0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA,
 		0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA,
@@ -6355,7 +6355,7 @@ fn s_has_zeros_and_741133731_in_base_13() {
 		0xBA, 0x9D, 0x05, 0xC3, 0x17, 0x65, 0x51, 0x3A, 0xC8, 0x55, 0xA4, 0x48, 0xCA,
 	];
 
-	helper(S, BASE, 741133731);
+	helper(S, BASE, 741_133_731);
 }
 // endregion
 // region: s_has_zeros_and_4_in_base_19
@@ -6402,9 +6402,9 @@ fn s_has_zeros_and_453_in_base_19() {
 	helper(S, BASE, 453);
 }
 // endregion
-// region: s_has_zeros_and_7178_in_base_19
+// region: s_has_zeros_and_7_178_in_base_19
 #[test]
-fn s_has_zeros_and_7178_in_base_19() {
+fn s_has_zeros_and_7_178_in_base_19() {
 	const S: &[u8] = &[
 		0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D,
 		0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D,
@@ -6415,12 +6415,12 @@ fn s_has_zeros_and_7178_in_base_19() {
 		0xFD, 0xAB, 0x83, 0xBA,
 	];
 
-	helper(S, BASE, 7178);
+	helper(S, BASE, 7_178);
 }
 // endregion
-// region: s_has_zeros_and_59429_in_base_19
+// region: s_has_zeros_and_59_429_in_base_19
 #[test]
-fn s_has_zeros_and_59429_in_base_19() {
+fn s_has_zeros_and_59_429_in_base_19() {
 	const S: &[u8] = &[
 		0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0x34, 0x84, 0x90, 0x64,
 	];
@@ -6429,12 +6429,12 @@ fn s_has_zeros_and_59429_in_base_19() {
 		0xD7, 0x64, 0x32, 0x76,
 	];
 
-	helper(S, BASE, 59429);
+	helper(S, BASE, 59_429);
 }
 // endregion
-// region: s_has_zeros_and_443405_in_base_19
+// region: s_has_zeros_and_443_405_in_base_19
 #[test]
-fn s_has_zeros_and_443405_in_base_19() {
+fn s_has_zeros_and_443_405_in_base_19() {
 	const S: &[u8] = &[
 		0x37, 0x85, 0x1E, 0xB5, 0xAF, 0x99,
 	];
@@ -6443,12 +6443,12 @@ fn s_has_zeros_and_443405_in_base_19() {
 		0x3E, 0xDE, 0xDC, 0x8A,
 	];
 
-	helper(S, BASE, 443405);
+	helper(S, BASE, 443_405);
 }
 // endregion
-// region: s_has_zeros_and_7009165_in_base_19
+// region: s_has_zeros_and_7_009_165_in_base_19
 #[test]
-fn s_has_zeros_and_7009165_in_base_19() {
+fn s_has_zeros_and_7_009_165_in_base_19() {
 	const S: &[u8] = &[
 		0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0x50, 0xA5, 0x84,
 		0x54, 0xB4, 0xA7, 0x95,
@@ -6458,12 +6458,12 @@ fn s_has_zeros_and_7009165_in_base_19() {
 		0x84, 0xB4, 0x87, 0xA7,
 	];
 
-	helper(S, BASE, 7009165);
+	helper(S, BASE, 7_009_165);
 }
 // endregion
-// region: s_has_zeros_and_58884609_in_base_19
+// region: s_has_zeros_and_58_884_609_in_base_19
 #[test]
-fn s_has_zeros_and_58884609_in_base_19() {
+fn s_has_zeros_and_58_884_609_in_base_19() {
 	const S: &[u8] = &[
 		0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2,
 		0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2, 0xB2,
@@ -6474,12 +6474,12 @@ fn s_has_zeros_and_58884609_in_base_19() {
 		0xF3, 0x5F, 0xF6, 0x56,
 	];
 
-	helper(S, BASE, 58884609);
+	helper(S, BASE, 58_884_609);
 }
 // endregion
-// region: s_has_zeros_and_121937274_in_base_19
+// region: s_has_zeros_and_121_937_274_in_base_19
 #[test]
-fn s_has_zeros_and_121937274_in_base_19() {
+fn s_has_zeros_and_121_937_274_in_base_19() {
 	const S: &[u8] = &[
 		0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5,
 		0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0xF5, 0x4E, 0xEB, 0xB9, 0x03, 0x0E, 0x25, 0x74,
@@ -6489,7 +6489,7 @@ fn s_has_zeros_and_121937274_in_base_19() {
 		0xC7, 0x7C, 0xE3, 0xBD,
 	];
 
-	helper(S, BASE, 121937274);
+	helper(S, BASE, 121_937_274);
 }
 // endregion
 // region: s_has_zeros_and_6_in_base_42
@@ -6543,9 +6543,9 @@ fn s_has_zeros_and_638_in_base_42() {
 	helper(S, BASE, 638);
 }
 // endregion
-// region: s_has_zeros_and_4600_in_base_42
+// region: s_has_zeros_and_4_600_in_base_42
 #[test]
-fn s_has_zeros_and_4600_in_base_42() {
+fn s_has_zeros_and_4_600_in_base_42() {
 	const S: &[u8] = &[
 		0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25,
 		0x25, 0xBA, 0x4B, 0x55,
@@ -6556,12 +6556,12 @@ fn s_has_zeros_and_4600_in_base_42() {
 		0x14, 0x79, 0x3A, 0x43, 0x97, 0x2A, 0xC3, 0x41, 0x4D, 0xB1, 0x40, 0xFF,
 	];
 
-	helper(S, BASE, 4600);
+	helper(S, BASE, 4_600);
 }
 // endregion
-// region: s_has_zeros_and_74354_in_base_42
+// region: s_has_zeros_and_74_354_in_base_42
 #[test]
-fn s_has_zeros_and_74354_in_base_42() {
+fn s_has_zeros_and_74_354_in_base_42() {
 	const S: &[u8] = &[
 		0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0,
 		0xB0, 0xB0, 0xB0, 0xB0, 0x8B, 0xB0, 0xF7, 0xC0,
@@ -6572,12 +6572,12 @@ fn s_has_zeros_and_74354_in_base_42() {
 		0x15, 0x08, 0x5C, 0x25, 0x8E, 0xC6, 0xB1, 0x05, 0xF2, 0x96, 0x98, 0x2A,
 	];
 
-	helper(S, BASE, 74354);
+	helper(S, BASE, 74_354);
 }
 // endregion
-// region: s_has_zeros_and_137055_in_base_42
+// region: s_has_zeros_and_137_055_in_base_42
 #[test]
-fn s_has_zeros_and_137055_in_base_42() {
+fn s_has_zeros_and_137_055_in_base_42() {
 	const S: &[u8] = &[
 		0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A,
 		0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A,
@@ -6589,12 +6589,12 @@ fn s_has_zeros_and_137055_in_base_42() {
 		0x75, 0x67, 0x44, 0x65, 0xBA, 0x49, 0x25, 0xD7, 0x5D, 0xF1, 0x46, 0x3B,
 	];
 
-	helper(S, BASE, 137055);
+	helper(S, BASE, 137_055);
 }
 // endregion
-// region: s_has_zeros_and_4391359_in_base_42
+// region: s_has_zeros_and_4_391_359_in_base_42
 #[test]
-fn s_has_zeros_and_4391359_in_base_42() {
+fn s_has_zeros_and_4_391_359_in_base_42() {
 	const S: &[u8] = &[
 		0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72, 0x72,
 		0x72, 0x72, 0x72, 0x29, 0x5F, 0x3C, 0x6B, 0xEE,
@@ -6605,12 +6605,12 @@ fn s_has_zeros_and_4391359_in_base_42() {
 		0x83, 0xDE, 0x28, 0xD5, 0x6E, 0xA1, 0x15, 0xBE, 0xBC, 0xFC, 0x35, 0x14,
 	];
 
-	helper(S, BASE, 4391359);
+	helper(S, BASE, 4_391_359);
 }
 // endregion
-// region: s_has_zeros_and_95931891_in_base_42
+// region: s_has_zeros_and_95_931_891_in_base_42
 #[test]
-fn s_has_zeros_and_95931891_in_base_42() {
+fn s_has_zeros_and_95_931_891_in_base_42() {
 	const S: &[u8] = &[
 		0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59,
 		0x59, 0x59, 0x59, 0x59, 0x59, 0x5C, 0xE5, 0xE2, 0xBE, 0x9F,
@@ -6621,12 +6621,12 @@ fn s_has_zeros_and_95931891_in_base_42() {
 		0x5C, 0x50, 0x27, 0x48, 0xE5, 0xE2, 0x90, 0xA8, 0x66, 0x13, 0x17, 0x36,
 	];
 
-	helper(S, BASE, 95931891);
+	helper(S, BASE, 95_931_891);
 }
 // endregion
-// region: s_has_zeros_and_256584980_in_base_42
+// region: s_has_zeros_and_256_584_980_in_base_42
 #[test]
-fn s_has_zeros_and_256584980_in_base_42() {
+fn s_has_zeros_and_256_584_980_in_base_42() {
 	const S: &[u8] = &[
 		0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4,
 		0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4,
@@ -6638,7 +6638,7 @@ fn s_has_zeros_and_256584980_in_base_42() {
 		0xE4, 0x78, 0x93, 0x5C, 0x63, 0xB3, 0x2A, 0x75, 0x44, 0xC9, 0xFB, 0xEB,
 	];
 
-	helper(S, BASE, 256584980);
+	helper(S, BASE, 256_584_980);
 }
 // endregion
 // region: s_has_zeros_and_9_in_base_73
@@ -6694,9 +6694,9 @@ fn s_has_zeros_and_350_in_base_73() {
 	helper(S, BASE, 350);
 }
 // endregion
-// region: s_has_zeros_and_9384_in_base_73
+// region: s_has_zeros_and_9_384_in_base_73
 #[test]
-fn s_has_zeros_and_9384_in_base_73() {
+fn s_has_zeros_and_9_384_in_base_73() {
 	const S: &[u8] = &[
 		0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13,
 		0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13,
@@ -6710,12 +6710,12 @@ fn s_has_zeros_and_9384_in_base_73() {
 		0x34, 0xAE, 0x32, 0x4C, 0xB3, 0xCE, 0x65, 0x05, 0xA6, 0x3E, 0x08, 0x9E, 0x7D,
 	];
 
-	helper(S, BASE, 9384);
+	helper(S, BASE, 9_384);
 }
 // endregion
-// region: s_has_zeros_and_74934_in_base_73
+// region: s_has_zeros_and_74_934_in_base_73
 #[test]
-fn s_has_zeros_and_74934_in_base_73() {
+fn s_has_zeros_and_74_934_in_base_73() {
 	const S: &[u8] = &[
 		0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D,
 		0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4B, 0xC4, 0xCD,
@@ -6728,12 +6728,12 @@ fn s_has_zeros_and_74934_in_base_73() {
 		0xE7, 0xF4, 0xD1, 0x45, 0x43, 0xBA, 0x41, 0xC1, 0xDD, 0xAA, 0x50, 0x8F, 0x34,
 	];
 
-	helper(S, BASE, 74934);
+	helper(S, BASE, 74_934);
 }
 // endregion
-// region: s_has_zeros_and_917082_in_base_73
+// region: s_has_zeros_and_917_082_in_base_73
 #[test]
-fn s_has_zeros_and_917082_in_base_73() {
+fn s_has_zeros_and_917_082_in_base_73() {
 	const S: &[u8] = &[
 		0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0,
 		0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0x5E, 0x28, 0xF5, 0x1A,
@@ -6746,12 +6746,12 @@ fn s_has_zeros_and_917082_in_base_73() {
 		0x30, 0x9D, 0x4F, 0x1C, 0x18, 0xF2, 0xE1, 0x56, 0xA9, 0x41, 0x22, 0x03, 0x19,
 	];
 
-	helper(S, BASE, 917082);
+	helper(S, BASE, 917_082);
 }
 // endregion
-// region: s_has_zeros_and_1657799_in_base_73
+// region: s_has_zeros_and_1_657_799_in_base_73
 #[test]
-fn s_has_zeros_and_1657799_in_base_73() {
+fn s_has_zeros_and_1_657_799_in_base_73() {
 	const S: &[u8] = &[
 		0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0x3A, 0x60, 0x31, 0xBB,
 	];
@@ -6763,12 +6763,12 @@ fn s_has_zeros_and_1657799_in_base_73() {
 		0xCF, 0x4B, 0xB2, 0x3B, 0xAE, 0x36, 0x2E, 0xDD, 0x90, 0x1B, 0x39, 0x49, 0x0E,
 	];
 
-	helper(S, BASE, 1657799);
+	helper(S, BASE, 1_657_799);
 }
 // endregion
-// region: s_has_zeros_and_15585185_in_base_73
+// region: s_has_zeros_and_15_585_185_in_base_73
 #[test]
-fn s_has_zeros_and_15585185_in_base_73() {
+fn s_has_zeros_and_15_585_185_in_base_73() {
 	const S: &[u8] = &[
 		0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xF9, 0xFC, 0xD8, 0x03, 0x5D,
 	];
@@ -6780,12 +6780,12 @@ fn s_has_zeros_and_15585185_in_base_73() {
 		0xC6, 0x22, 0xEB, 0xCB, 0xA3, 0xD4, 0xF5, 0xAC, 0x10, 0x9A, 0xFF, 0x5F, 0x07,
 	];
 
-	helper(S, BASE, 15585185);
+	helper(S, BASE, 15_585_185);
 }
 // endregion
-// region: s_has_zeros_and_635777014_in_base_73
+// region: s_has_zeros_and_635_777_014_in_base_73
 #[test]
-fn s_has_zeros_and_635777014_in_base_73() {
+fn s_has_zeros_and_635_777_014_in_base_73() {
 	const S: &[u8] = &[
 		0x1E, 0x1E, 0x11, 0x7B, 0xA9, 0xAB, 0xB2,
 	];
@@ -6797,7 +6797,7 @@ fn s_has_zeros_and_635777014_in_base_73() {
 		0x14, 0xBC, 0x31, 0x90, 0x8F, 0x46, 0x28, 0x1F, 0xB8, 0xEE, 0xDD, 0x8E, 0xD2,
 	];
 
-	helper(S, BASE, 635777014);
+	helper(S, BASE, 635_777_014);
 }
 // endregion
 // region: s_has_zeros_and_4_in_base_113
@@ -6863,9 +6863,9 @@ fn s_has_zeros_and_224_in_base_113() {
 	helper(S, BASE, 224);
 }
 // endregion
-// region: s_has_zeros_and_1990_in_base_113
+// region: s_has_zeros_and_1_990_in_base_113
 #[test]
-fn s_has_zeros_and_1990_in_base_113() {
+fn s_has_zeros_and_1_990_in_base_113() {
 	const S: &[u8] = &[
 		0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0xDE, 0x53,
 	];
@@ -6880,12 +6880,12 @@ fn s_has_zeros_and_1990_in_base_113() {
 		0x58, 0x1D, 0x5D, 0x82, 0xD2, 0xAA, 0x61, 0x4D,
 	];
 
-	helper(S, BASE, 1990);
+	helper(S, BASE, 1_990);
 }
 // endregion
-// region: s_has_zeros_and_28505_in_base_113
+// region: s_has_zeros_and_28_505_in_base_113
 #[test]
-fn s_has_zeros_and_28505_in_base_113() {
+fn s_has_zeros_and_28_505_in_base_113() {
 	const S: &[u8] = &[
 		0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD,
 		0xAD, 0xAD, 0xAD, 0x76, 0x05, 0x04,
@@ -6901,12 +6901,12 @@ fn s_has_zeros_and_28505_in_base_113() {
 		0x55, 0x1C, 0x71, 0xFE, 0x57, 0x23, 0xD0, 0x02,
 	];
 
-	helper(S, BASE, 28505);
+	helper(S, BASE, 28_505);
 }
 // endregion
-// region: s_has_zeros_and_769486_in_base_113
+// region: s_has_zeros_and_769_486_in_base_113
 #[test]
-fn s_has_zeros_and_769486_in_base_113() {
+fn s_has_zeros_and_769_486_in_base_113() {
 	const S: &[u8] = &[
 		0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0x67, 0x61,
 		0x11,
@@ -6922,12 +6922,12 @@ fn s_has_zeros_and_769486_in_base_113() {
 		0x2C, 0xC1, 0x89, 0x2A, 0xE5, 0xFE, 0x6C, 0x48,
 	];
 
-	helper(S, BASE, 769486);
+	helper(S, BASE, 769_486);
 }
 // endregion
-// region: s_has_zeros_and_2019913_in_base_113
+// region: s_has_zeros_and_2_019_913_in_base_113
 #[test]
-fn s_has_zeros_and_2019913_in_base_113() {
+fn s_has_zeros_and_2_019_913_in_base_113() {
 	const S: &[u8] = &[
 		0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0x57, 0x87, 0xC9, 0xD6,
 	];
@@ -6942,12 +6942,12 @@ fn s_has_zeros_and_2019913_in_base_113() {
 		0x7C, 0x26, 0xA6, 0xD9, 0x45, 0x5D, 0x4B, 0xF5,
 	];
 
-	helper(S, BASE, 2019913);
+	helper(S, BASE, 2_019_913);
 }
 // endregion
-// region: s_has_zeros_and_36319901_in_base_113
+// region: s_has_zeros_and_36_319_901_in_base_113
 #[test]
-fn s_has_zeros_and_36319901_in_base_113() {
+fn s_has_zeros_and_36_319_901_in_base_113() {
 	const S: &[u8] = &[
 		0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68,
 		0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68, 0x68,
@@ -6964,12 +6964,12 @@ fn s_has_zeros_and_36319901_in_base_113() {
 		0xD0, 0xC2, 0x8B, 0x80, 0xD6, 0xEB, 0x44, 0x4B,
 	];
 
-	helper(S, BASE, 36319901);
+	helper(S, BASE, 36_319_901);
 }
 // endregion
-// region: s_has_zeros_and_306524185_in_base_113
+// region: s_has_zeros_and_306_524_185_in_base_113
 #[test]
-fn s_has_zeros_and_306524185_in_base_113() {
+fn s_has_zeros_and_306_524_185_in_base_113() {
 	const S: &[u8] = &[
 		0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x30, 0xC0, 0xC1, 0x37,
 		0x45,
@@ -6985,7 +6985,7 @@ fn s_has_zeros_and_306524185_in_base_113() {
 		0xC2, 0xFC, 0x47, 0x40, 0x67, 0xE5, 0x29, 0x2E,
 	];
 
-	helper(S, BASE, 306524185);
+	helper(S, BASE, 306_524_185);
 }
 // endregion
 // region: s_has_zeros_and_5_in_base_193
@@ -7065,9 +7065,9 @@ fn s_has_zeros_and_401_in_base_193() {
 	helper(S, BASE, 401);
 }
 // endregion
-// region: s_has_zeros_and_5579_in_base_193
+// region: s_has_zeros_and_5_579_in_base_193
 #[test]
-fn s_has_zeros_and_5579_in_base_193() {
+fn s_has_zeros_and_5_579_in_base_193() {
 	const S: &[u8] = &[
 		0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0,
 		0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0,
@@ -7089,12 +7089,12 @@ fn s_has_zeros_and_5579_in_base_193() {
 		0x50, 0x5B, 0x18, 0x19, 0xF4, 0xEA, 0xA9, 0x1B, 0xD6, 0xE1, 0x65, 0x3D, 0x1F,
 	];
 
-	helper(S, BASE, 5579);
+	helper(S, BASE, 5_579);
 }
 // endregion
-// region: s_has_zeros_and_67938_in_base_193
+// region: s_has_zeros_and_67_938_in_base_193
 #[test]
-fn s_has_zeros_and_67938_in_base_193() {
+fn s_has_zeros_and_67_938_in_base_193() {
 	const S: &[u8] = &[
 		0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2,
 		0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0xD2, 0x57, 0x81, 0x2E,
@@ -7115,12 +7115,12 @@ fn s_has_zeros_and_67938_in_base_193() {
 		0xFA, 0xE5, 0xBE, 0x62, 0xE8, 0x9A, 0x21, 0x0F, 0x37, 0x34, 0xBB, 0xD8, 0xD1,
 	];
 
-	helper(S, BASE, 67938);
+	helper(S, BASE, 67_938);
 }
 // endregion
-// region: s_has_zeros_and_906708_in_base_193
+// region: s_has_zeros_and_906_708_in_base_193
 #[test]
-fn s_has_zeros_and_906708_in_base_193() {
+fn s_has_zeros_and_906_708_in_base_193() {
 	const S: &[u8] = &[
 		0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0x6B,
 		0x6B, 0x6B, 0x6B, 0x6B, 0x6B, 0xB4, 0x80, 0xD6,
@@ -7141,12 +7141,12 @@ fn s_has_zeros_and_906708_in_base_193() {
 		0x1A, 0x9F, 0x75, 0x40, 0x5C, 0x27, 0x70, 0xD6, 0xAC, 0x83, 0xA2, 0x10, 0x41,
 	];
 
-	helper(S, BASE, 906708);
+	helper(S, BASE, 906_708);
 }
 // endregion
-// region: s_has_zeros_and_6999293_in_base_193
+// region: s_has_zeros_and_6_999_293_in_base_193
 #[test]
-fn s_has_zeros_and_6999293_in_base_193() {
+fn s_has_zeros_and_6_999_293_in_base_193() {
 	const S: &[u8] = &[
 		0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB,
 		0xDB, 0xDB, 0x65, 0xE3, 0xD3,
@@ -7167,12 +7167,12 @@ fn s_has_zeros_and_6999293_in_base_193() {
 		0xB1, 0x63, 0xD8, 0xCE, 0xFE, 0xC0, 0x3D, 0x65, 0x37, 0xA2, 0xE0, 0xCA, 0x73,
 	];
 
-	helper(S, BASE, 6999293);
+	helper(S, BASE, 6_999_293);
 }
 // endregion
-// region: s_has_zeros_and_76696046_in_base_193
+// region: s_has_zeros_and_76_696_046_in_base_193
 #[test]
-fn s_has_zeros_and_76696046_in_base_193() {
+fn s_has_zeros_and_76_696_046_in_base_193() {
 	const S: &[u8] = &[
 		0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA,
 		0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xE9, 0x75, 0x4A, 0xC2,
@@ -7193,12 +7193,12 @@ fn s_has_zeros_and_76696046_in_base_193() {
 		0x18, 0x0E, 0x12, 0x1A, 0x8B, 0x9C, 0x21, 0x7E, 0x6A, 0x48, 0x5E, 0x40, 0x62,
 	];
 
-	helper(S, BASE, 76696046);
+	helper(S, BASE, 76_696_046);
 }
 // endregion
-// region: s_has_zeros_and_483923932_in_base_193
+// region: s_has_zeros_and_483_923_932_in_base_193
 #[test]
-fn s_has_zeros_and_483923932_in_base_193() {
+fn s_has_zeros_and_483_923_932_in_base_193() {
 	const S: &[u8] = &[
 		0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA,
 		0xFA, 0xFA, 0x58, 0x62, 0xA4, 0xE2,
@@ -7219,7 +7219,7 @@ fn s_has_zeros_and_483923932_in_base_193() {
 		0x94, 0xCD, 0x9F, 0xF2, 0x07, 0xC8, 0x3A, 0xE1, 0xFB, 0x81, 0x5E, 0xED, 0xBB,
 	];
 
-	helper(S, BASE, 483923932);
+	helper(S, BASE, 483_923_932);
 }
 // endregion
 // region: s_has_zeros_and_1_in_base_247
@@ -7313,9 +7313,9 @@ fn s_has_zeros_and_486_in_base_247() {
 	helper(S, BASE, 486);
 }
 // endregion
-// region: s_has_zeros_and_2057_in_base_247
+// region: s_has_zeros_and_2_057_in_base_247
 #[test]
-fn s_has_zeros_and_2057_in_base_247() {
+fn s_has_zeros_and_2_057_in_base_247() {
 	const S: &[u8] = &[
 		0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F,
 		0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F,
@@ -7341,12 +7341,12 @@ fn s_has_zeros_and_2057_in_base_247() {
 		0xFB, 0x08, 0x66, 0xC1, 0x19, 0xE1, 0xB1,
 	];
 
-	helper(S, BASE, 2057);
+	helper(S, BASE, 2_057);
 }
 // endregion
-// region: s_has_zeros_and_63627_in_base_247
+// region: s_has_zeros_and_63_627_in_base_247
 #[test]
-fn s_has_zeros_and_63627_in_base_247() {
+fn s_has_zeros_and_63_627_in_base_247() {
 	const S: &[u8] = &[
 		0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02,
 		0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02,
@@ -7372,12 +7372,12 @@ fn s_has_zeros_and_63627_in_base_247() {
 		0x5C, 0x39, 0xCA, 0x67, 0xD5, 0x59, 0xD6,
 	];
 
-	helper(S, BASE, 63627);
+	helper(S, BASE, 63_627);
 }
 // endregion
-// region: s_has_zeros_and_789344_in_base_247
+// region: s_has_zeros_and_789_344_in_base_247
 #[test]
-fn s_has_zeros_and_789344_in_base_247() {
+fn s_has_zeros_and_789_344_in_base_247() {
 	const S: &[u8] = &[
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
@@ -7403,12 +7403,12 @@ fn s_has_zeros_and_789344_in_base_247() {
 		0xEA, 0xB8, 0x29, 0x5F, 0xE2, 0xBB, 0x7E,
 	];
 
-	helper(S, BASE, 789344);
+	helper(S, BASE, 789_344);
 }
 // endregion
-// region: s_has_zeros_and_2569555_in_base_247
+// region: s_has_zeros_and_2_569_555_in_base_247
 #[test]
-fn s_has_zeros_and_2569555_in_base_247() {
+fn s_has_zeros_and_2_569_555_in_base_247() {
 	const S: &[u8] = &[
 		0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14,
 		0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14,
@@ -7434,12 +7434,12 @@ fn s_has_zeros_and_2569555_in_base_247() {
 		0xF2, 0x60, 0x52, 0x8F, 0xDD, 0x68, 0x36,
 	];
 
-	helper(S, BASE, 2569555);
+	helper(S, BASE, 2_569_555);
 }
 // endregion
-// region: s_has_zeros_and_78028102_in_base_247
+// region: s_has_zeros_and_78_028_102_in_base_247
 #[test]
-fn s_has_zeros_and_78028102_in_base_247() {
+fn s_has_zeros_and_78_028_102_in_base_247() {
 	const S: &[u8] = &[
 		0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1,
 		0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xD1, 0xE3, 0xCA, 0x63, 0x5A,
@@ -7464,12 +7464,12 @@ fn s_has_zeros_and_78028102_in_base_247() {
 		0x9B, 0x14, 0xE8, 0x0F, 0x50, 0xD7, 0xA1,
 	];
 
-	helper(S, BASE, 78028102);
+	helper(S, BASE, 78_028_102);
 }
 // endregion
-// region: s_has_zeros_and_122072065_in_base_247
+// region: s_has_zeros_and_122_072_065_in_base_247
 #[test]
-fn s_has_zeros_and_122072065_in_base_247() {
+fn s_has_zeros_and_122_072_065_in_base_247() {
 	const S: &[u8] = &[
 		0x77, 0x77, 0x1D, 0xD4, 0x91, 0x45,
 	];
@@ -7493,7 +7493,7 @@ fn s_has_zeros_and_122072065_in_base_247() {
 		0x4C, 0xC3, 0x4D, 0xA2, 0xB4, 0x02, 0x6B,
 	];
 
-	helper(S, BASE, 122072065);
+	helper(S, BASE, 122_072_065);
 }
 // endregion
 // region: s_has_9_in_base_2_and_insignificant_bytes
@@ -7540,9 +7540,9 @@ fn s_has_725_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 725);
 }
 // endregion
-// region: s_has_3845_in_base_2_and_insignificant_bytes
+// region: s_has_3_845_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_3845_in_base_2_and_insignificant_bytes() {
+fn s_has_3_845_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2C, 0x2C, 0x2C, 0x2C, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0x2C, 0xFB, 0x2C, 0x88, 0x7A, 0xCA,
 		0xCA, 0xC5, 0xB8, 0x53, 0xA0,
@@ -7551,12 +7551,12 @@ fn s_has_3845_in_base_2_and_insignificant_bytes() {
 		0xFB, 0x2C,
 	];
 
-	helper(S, BASE, 3845);
+	helper(S, BASE, 3_845);
 }
 // endregion
-// region: s_has_82506_in_base_2_and_insignificant_bytes
+// region: s_has_82_506_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_82506_in_base_2_and_insignificant_bytes() {
+fn s_has_82_506_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x55, 0x4D, 0x55, 0x4D, 0x4D, 0x4D, 0x4D, 0x55, 0x4D, 0x4D, 0x55, 0x4D, 0x4D, 0x55, 0x4D,
 		0x55, 0x4D, 0x66, 0xC5, 0x05, 0xFF, 0x19, 0xC8, 0x82, 0x5B, 0x28, 0x5E, 0x81, 0x1E, 0xCC,
@@ -7567,12 +7567,12 @@ fn s_has_82506_in_base_2_and_insignificant_bytes() {
 		0x4D, 0x55,
 	];
 
-	helper(S, BASE, 82506);
+	helper(S, BASE, 82_506);
 }
 // endregion
-// region: s_has_155812_in_base_2_and_insignificant_bytes
+// region: s_has_155_812_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_155812_in_base_2_and_insignificant_bytes() {
+fn s_has_155_812_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x3C, 0xE7, 0xE7, 0x3C, 0x3C, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0x3C, 0xE7, 0x3C, 0xE7, 0xE7,
 		0x3C, 0xE7, 0xE7, 0x2D, 0x0D, 0xFE, 0xFF, 0xB2, 0xA8,
@@ -7581,12 +7581,12 @@ fn s_has_155812_in_base_2_and_insignificant_bytes() {
 		0xE7, 0x3C,
 	];
 
-	helper(S, BASE, 155812);
+	helper(S, BASE, 155_812);
 }
 // endregion
-// region: s_has_4240900_in_base_2_and_insignificant_bytes
+// region: s_has_4_240_900_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_4240900_in_base_2_and_insignificant_bytes() {
+fn s_has_4_240_900_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xED, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xED, 0xA4, 0xED, 0xED, 0xA4, 0xED, 0xED, 0xA4,
 		0xA4, 0xA4, 0xA4, 0xA4, 0xA4, 0xED, 0xA4, 0xA4, 0x1F, 0xBB, 0x4D, 0x0F, 0x22, 0x60, 0xDD,
@@ -7596,12 +7596,12 @@ fn s_has_4240900_in_base_2_and_insignificant_bytes() {
 		0xA4, 0xED,
 	];
 
-	helper(S, BASE, 4240900);
+	helper(S, BASE, 4_240_900);
 }
 // endregion
-// region: s_has_10247956_in_base_2_and_insignificant_bytes
+// region: s_has_10_247_956_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_10247956_in_base_2_and_insignificant_bytes() {
+fn s_has_10_247_956_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x41, 0x7D, 0x7D, 0x41, 0x41, 0x41, 0x7D, 0x7D, 0x7D, 0x41, 0x7D, 0x41, 0x41, 0x41, 0x41,
 		0x41, 0x7D, 0x7D, 0x7D, 0x41, 0x7D, 0x41, 0x7D, 0x7D, 0xBF, 0x2F, 0xED, 0x44, 0x2F, 0x1E,
@@ -7613,12 +7613,12 @@ fn s_has_10247956_in_base_2_and_insignificant_bytes() {
 		0x7D, 0x41,
 	];
 
-	helper(S, BASE, 10247956);
+	helper(S, BASE, 10_247_956);
 }
 // endregion
-// region: s_has_305972040_in_base_2_and_insignificant_bytes
+// region: s_has_305_972_040_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_305972040_in_base_2_and_insignificant_bytes() {
+fn s_has_305_972_040_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x5E, 0xED, 0xED, 0x5E, 0xED, 0xED, 0xED, 0x5E, 0x5E, 0x5E, 0x5E, 0xED, 0xED, 0x5E, 0x5E,
 		0xED, 0xED, 0xED, 0xED, 0x5E, 0x5E, 0xED, 0x5E, 0xED, 0xED, 0x5E, 0xED, 0xED, 0xED, 0xC8,
@@ -7628,7 +7628,7 @@ fn s_has_305972040_in_base_2_and_insignificant_bytes() {
 		0xED, 0x5E,
 	];
 
-	helper(S, BASE, 305972040);
+	helper(S, BASE, 305_972_040);
 }
 // endregion
 // region: s_has_3_in_base_3_and_insignificant_bytes
@@ -7674,9 +7674,9 @@ fn s_has_334_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 334);
 }
 // endregion
-// region: s_has_2778_in_base_3_and_insignificant_bytes
+// region: s_has_2_778_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_2778_in_base_3_and_insignificant_bytes() {
+fn s_has_2_778_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x10, 0x66, 0x1A, 0x10, 0x66, 0x1A, 0x1A, 0x66, 0xED, 0xBA, 0x46, 0x65, 0xC6, 0x7D, 0x3B,
 		0x41, 0x83, 0xA3, 0xB7, 0x7D, 0xBC, 0xD7, 0xC1, 0x48, 0xE7, 0x21, 0xCF, 0x32, 0xBD, 0x79,
@@ -7686,12 +7686,12 @@ fn s_has_2778_in_base_3_and_insignificant_bytes() {
 		0x66, 0x10, 0x1A,
 	];
 
-	helper(S, BASE, 2778);
+	helper(S, BASE, 2_778);
 }
 // endregion
-// region: s_has_33915_in_base_3_and_insignificant_bytes
+// region: s_has_33_915_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_33915_in_base_3_and_insignificant_bytes() {
+fn s_has_33_915_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB8, 0xC1, 0xD8, 0xB8, 0xB8, 0xB8, 0xC1, 0xD8, 0xB8, 0xD8, 0x9C, 0x8F, 0xD0, 0x53, 0x2C,
 		0x06, 0x27, 0x4D, 0xC3, 0xE2, 0x19, 0xB7, 0x49, 0x08, 0xBE, 0xFA, 0x1C, 0xA4, 0x2E, 0x1B,
@@ -7702,12 +7702,12 @@ fn s_has_33915_in_base_3_and_insignificant_bytes() {
 		0xD8, 0xB8, 0xC1,
 	];
 
-	helper(S, BASE, 33915);
+	helper(S, BASE, 33_915);
 }
 // endregion
-// region: s_has_556224_in_base_3_and_insignificant_bytes
+// region: s_has_556_224_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_556224_in_base_3_and_insignificant_bytes() {
+fn s_has_556_224_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xCE, 0xAE, 0xAE, 0xCE, 0xAE, 0xFF, 0xAE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xAE, 0x02, 0x51,
 		0xEC, 0xF3, 0xC7, 0xC1, 0x21, 0x2B, 0x03, 0x2F, 0xBF, 0x88, 0xB3, 0x07, 0x95, 0x7D, 0x41,
@@ -7718,12 +7718,12 @@ fn s_has_556224_in_base_3_and_insignificant_bytes() {
 		0xAE, 0xCE, 0xFF,
 	];
 
-	helper(S, BASE, 556224);
+	helper(S, BASE, 556_224);
 }
 // endregion
-// region: s_has_4722360_in_base_3_and_insignificant_bytes
+// region: s_has_4_722_360_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_4722360_in_base_3_and_insignificant_bytes() {
+fn s_has_4_722_360_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x17, 0x17, 0x17, 0x6C, 0x17, 0x17, 0x17, 0xBC, 0x17, 0x6C, 0x17, 0xBC, 0x17, 0xBC, 0x75,
 		0x4B, 0x95, 0x4F, 0xE1, 0xD5, 0x15, 0x8B, 0x43, 0xE0, 0x19, 0x19, 0x72, 0x9A, 0x27, 0xDA,
@@ -7733,12 +7733,12 @@ fn s_has_4722360_in_base_3_and_insignificant_bytes() {
 		0xBC, 0x6C, 0x17,
 	];
 
-	helper(S, BASE, 4722360);
+	helper(S, BASE, 4_722_360);
 }
 // endregion
-// region: s_has_74888453_in_base_3_and_insignificant_bytes
+// region: s_has_74_888_453_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_74888453_in_base_3_and_insignificant_bytes() {
+fn s_has_74_888_453_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x59, 0x5D, 0x82, 0x59, 0x5D, 0x5D, 0x5D, 0x82, 0x5D, 0x82, 0x59, 0x59, 0x5D, 0x5D, 0x59,
 		0x82, 0x5D, 0x3F, 0x91, 0xDC, 0xD3, 0x7F, 0xD8, 0xB6, 0x8E, 0x1B, 0x52, 0x2A, 0xAA, 0xBA,
@@ -7749,12 +7749,12 @@ fn s_has_74888453_in_base_3_and_insignificant_bytes() {
 		0x82, 0x59, 0x5D,
 	];
 
-	helper(S, BASE, 74888453);
+	helper(S, BASE, 74_888_453);
 }
 // endregion
-// region: s_has_125837558_in_base_3_and_insignificant_bytes
+// region: s_has_125_837_558_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_125837558_in_base_3_and_insignificant_bytes() {
+fn s_has_125_837_558_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD5, 0xD5, 0xD5, 0xC6, 0xD5, 0xD5, 0x32, 0xC6, 0xC6, 0x32, 0xD5, 0xD5, 0xC6, 0xC6, 0xC6,
 		0xD5, 0xD5, 0x20, 0x64, 0x35, 0xC4, 0x20, 0x51, 0x22, 0x85,
@@ -7763,7 +7763,7 @@ fn s_has_125837558_in_base_3_and_insignificant_bytes() {
 		0xC6, 0x32, 0xD5,
 	];
 
-	helper(S, BASE, 125837558);
+	helper(S, BASE, 125_837_558);
 }
 // endregion
 // region: s_has_4_in_base_5_and_insignificant_bytes
@@ -7808,9 +7808,9 @@ fn s_has_800_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 800);
 }
 // endregion
-// region: s_has_3804_in_base_5_and_insignificant_bytes
+// region: s_has_3_804_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_3804_in_base_5_and_insignificant_bytes() {
+fn s_has_3_804_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF9, 0xF9, 0x11, 0x7B, 0x11, 0x04, 0x56, 0xF1, 0x85, 0x5B, 0x12, 0x0B, 0x7F, 0x91, 0xB6,
 		0x2B, 0x19, 0x55,
@@ -7819,12 +7819,12 @@ fn s_has_3804_in_base_5_and_insignificant_bytes() {
 		0x11, 0xF9, 0x7B, 0x72, 0x04,
 	];
 
-	helper(S, BASE, 3804);
+	helper(S, BASE, 3_804);
 }
 // endregion
-// region: s_has_66842_in_base_5_and_insignificant_bytes
+// region: s_has_66_842_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_66842_in_base_5_and_insignificant_bytes() {
+fn s_has_66_842_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x22, 0x48, 0x48, 0x22, 0xA7, 0xA7, 0x90, 0x91, 0xD9, 0xC4, 0x4F, 0x10, 0x0B,
 	];
@@ -7832,12 +7832,12 @@ fn s_has_66842_in_base_5_and_insignificant_bytes() {
 		0x3E, 0x48, 0x90, 0xA7, 0x22,
 	];
 
-	helper(S, BASE, 66842);
+	helper(S, BASE, 66_842);
 }
 // endregion
-// region: s_has_201181_in_base_5_and_insignificant_bytes
+// region: s_has_201_181_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_201181_in_base_5_and_insignificant_bytes() {
+fn s_has_201_181_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xCE, 0xCE, 0x08, 0xA0, 0x08, 0xCE, 0xA0, 0xA0, 0x64, 0x72, 0x9C, 0x04, 0xE7, 0xBE, 0x69,
 		0xCD, 0xB0, 0xD1, 0x99, 0xE8, 0xA9, 0x97, 0x56, 0x32,
@@ -7846,12 +7846,12 @@ fn s_has_201181_in_base_5_and_insignificant_bytes() {
 		0x7A, 0xA0, 0xCE, 0x6A, 0x08,
 	];
 
-	helper(S, BASE, 201181);
+	helper(S, BASE, 201_181);
 }
 // endregion
-// region: s_has_6460693_in_base_5_and_insignificant_bytes
+// region: s_has_6_460_693_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_6460693_in_base_5_and_insignificant_bytes() {
+fn s_has_6_460_693_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC9, 0x8B, 0x3F, 0xC9, 0x3F, 0x3F, 0x23, 0x3F, 0xC9, 0xC9, 0xA5, 0x62, 0xC6, 0x41, 0x24,
 		0x2B, 0x30, 0x81, 0xD1, 0xFF, 0x8F, 0xB1, 0xCB, 0x50, 0x97, 0x09, 0x0E, 0x1E, 0x12, 0x52,
@@ -7861,12 +7861,12 @@ fn s_has_6460693_in_base_5_and_insignificant_bytes() {
 		0x23, 0x8B, 0x3F, 0xC9, 0x44,
 	];
 
-	helper(S, BASE, 6460693);
+	helper(S, BASE, 6_460_693);
 }
 // endregion
-// region: s_has_41378181_in_base_5_and_insignificant_bytes
+// region: s_has_41_378_181_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_41378181_in_base_5_and_insignificant_bytes() {
+fn s_has_41_378_181_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x11, 0x98, 0xDF, 0x11, 0x94, 0x98, 0xDF, 0xDF, 0x55, 0x98, 0x98, 0x01, 0x9A, 0x54, 0x81,
 		0x24, 0x07, 0xE5, 0x02, 0xF3, 0x2D, 0x3D, 0x3A,
@@ -7875,12 +7875,12 @@ fn s_has_41378181_in_base_5_and_insignificant_bytes() {
 		0xDF, 0x98, 0x55, 0x94, 0x11,
 	];
 
-	helper(S, BASE, 41378181);
+	helper(S, BASE, 41_378_181);
 }
 // endregion
-// region: s_has_406586708_in_base_5_and_insignificant_bytes
+// region: s_has_406_586_708_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_406586708_in_base_5_and_insignificant_bytes() {
+fn s_has_406_586_708_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xE3, 0x2C, 0xE3, 0x2C, 0x8B, 0x43, 0xE3, 0x9F, 0x2C, 0x2C, 0x2C, 0xE3, 0x2C, 0x3B, 0x4E,
 		0xD8, 0x3F, 0x57, 0xC1, 0x3C, 0x72, 0x7E, 0x05, 0xCF,
@@ -7889,7 +7889,7 @@ fn s_has_406586708_in_base_5_and_insignificant_bytes() {
 		0x8B, 0xE3, 0x9F, 0x2C, 0x43,
 	];
 
-	helper(S, BASE, 406586708);
+	helper(S, BASE, 406_586_708);
 }
 // endregion
 // region: s_has_9_in_base_7_and_insignificant_bytes
@@ -7932,9 +7932,9 @@ fn s_has_419_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 419);
 }
 // endregion
-// region: s_has_1515_in_base_7_and_insignificant_bytes
+// region: s_has_1_515_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_1515_in_base_7_and_insignificant_bytes() {
+fn s_has_1_515_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x3B, 0xA6, 0x1D, 0xFA, 0xA9, 0x9E, 0x22, 0x43, 0x30, 0x48, 0xA2, 0x26, 0xA9, 0xD4, 0xC0,
 		0x1C, 0x15, 0x4B, 0x88, 0x7B, 0x2F, 0x30, 0x22, 0x59, 0x69, 0x08, 0xE8, 0x2A, 0x9B, 0x16,
@@ -7944,12 +7944,12 @@ fn s_has_1515_in_base_7_and_insignificant_bytes() {
 		0xFC, 0xA1, 0xA6, 0xFA, 0x3B, 0x7F, 0x1D,
 	];
 
-	helper(S, BASE, 1515);
+	helper(S, BASE, 1_515);
 }
 // endregion
-// region: s_has_76661_in_base_7_and_insignificant_bytes
+// region: s_has_76_661_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_76661_in_base_7_and_insignificant_bytes() {
+fn s_has_76_661_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x21, 0x61, 0xA9, 0x61, 0x61, 0x21, 0x35, 0x25, 0x5C, 0x9A, 0x96, 0xC3, 0x2F, 0x17, 0x76,
 		0xB4, 0x6D, 0x4A, 0x2F, 0x96, 0x63, 0xC5, 0x19, 0xEA, 0xB2, 0xA2, 0x7F, 0x89, 0x39, 0x8E,
@@ -7959,12 +7959,12 @@ fn s_has_76661_in_base_7_and_insignificant_bytes() {
 		0x69, 0x64, 0x81, 0x61, 0x21, 0x42, 0xA9,
 	];
 
-	helper(S, BASE, 76661);
+	helper(S, BASE, 76_661);
 }
 // endregion
-// region: s_has_439141_in_base_7_and_insignificant_bytes
+// region: s_has_439_141_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_439141_in_base_7_and_insignificant_bytes() {
+fn s_has_439_141_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB1, 0x31, 0xAB, 0x90, 0x11, 0xAB, 0xB1, 0xA2, 0x15, 0x17, 0x3B, 0xAE, 0xCA, 0xC7, 0x85,
 		0x2A, 0x9D, 0xEE, 0x19, 0x21, 0x29, 0x24, 0x1F, 0xE5, 0x20, 0x5D, 0x37, 0xAF,
@@ -7973,12 +7973,12 @@ fn s_has_439141_in_base_7_and_insignificant_bytes() {
 		0xAB, 0x2E, 0x11, 0xB1, 0x73, 0x31, 0x90,
 	];
 
-	helper(S, BASE, 439141);
+	helper(S, BASE, 439_141);
 }
 // endregion
-// region: s_has_9737110_in_base_7_and_insignificant_bytes
+// region: s_has_9_737_110_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_9737110_in_base_7_and_insignificant_bytes() {
+fn s_has_9_737_110_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC1, 0xA6, 0x48, 0x48, 0xC0, 0xCF, 0x4E, 0xCF, 0x48, 0xD6, 0x44, 0xDE, 0x6E, 0xDD, 0x2B,
 		0x61, 0xC6, 0x3E, 0x63, 0x78, 0x9C, 0x98, 0xFB, 0x28, 0xBA, 0xA5, 0xB5, 0xAE, 0xE8, 0xE8,
@@ -7988,12 +7988,12 @@ fn s_has_9737110_in_base_7_and_insignificant_bytes() {
 		0x4E, 0xC1, 0xC0, 0xCF, 0xA6, 0x48, 0x31,
 	];
 
-	helper(S, BASE, 9737110);
+	helper(S, BASE, 9_737_110);
 }
 // endregion
-// region: s_has_42273853_in_base_7_and_insignificant_bytes
+// region: s_has_42_273_853_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_42273853_in_base_7_and_insignificant_bytes() {
+fn s_has_42_273_853_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x14, 0xEA, 0x03, 0x03, 0x03, 0x14, 0xF0, 0x03, 0x17, 0xA4, 0x44, 0xE6, 0x84, 0x42, 0x61,
 		0x52, 0x83, 0x93, 0x25, 0xFD, 0x9A, 0x91, 0x30, 0xD0, 0xB3, 0x7A, 0xE1, 0x71, 0x7D, 0xAD,
@@ -8004,12 +8004,12 @@ fn s_has_42273853_in_base_7_and_insignificant_bytes() {
 		0xEA, 0x14, 0x03, 0xE9, 0x17, 0xF0, 0xA4,
 	];
 
-	helper(S, BASE, 42273853);
+	helper(S, BASE, 42_273_853);
 }
 // endregion
-// region: s_has_466500622_in_base_7_and_insignificant_bytes
+// region: s_has_466_500_622_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_466500622_in_base_7_and_insignificant_bytes() {
+fn s_has_466_500_622_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x7D, 0xE3, 0x91, 0xE4, 0x91, 0x7D, 0x44, 0x44, 0x2C, 0xE4, 0x2C, 0xBE, 0x54, 0x67, 0x6D,
 		0xA5, 0x29, 0x04, 0x25, 0xAF, 0x03, 0x7B, 0xB0, 0xD5, 0x34, 0xD7, 0x88, 0x8B, 0xF8, 0xAA,
@@ -8020,7 +8020,7 @@ fn s_has_466500622_in_base_7_and_insignificant_bytes() {
 		0x2C, 0x7D, 0x44, 0x91, 0xE3, 0x8F, 0xE4,
 	];
 
-	helper(S, BASE, 466500622);
+	helper(S, BASE, 466_500_622);
 }
 // endregion
 // region: s_has_9_in_base_11_and_insignificant_bytes
@@ -8068,9 +8068,9 @@ fn s_has_230_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 230);
 }
 // endregion
-// region: s_has_8451_in_base_11_and_insignificant_bytes
+// region: s_has_8_451_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_8451_in_base_11_and_insignificant_bytes() {
+fn s_has_8_451_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x1B, 0x90, 0x0E, 0x90, 0x7C, 0x06, 0x62, 0xAC, 0xAE, 0xD9, 0x3C, 0x9E, 0xD7, 0xBC, 0xA4,
 		0x6F, 0xBA, 0x0C, 0x35, 0xD5, 0x0B, 0xC5, 0x9E, 0x56, 0xE6, 0xB3, 0x7F, 0x05, 0x95, 0x7D,
@@ -8080,12 +8080,12 @@ fn s_has_8451_in_base_11_and_insignificant_bytes() {
 		0x87, 0xD6, 0xB5, 0x90, 0x4A, 0x50, 0x1B, 0x1D, 0xD8, 0x0E, 0xA3,
 	];
 
-	helper(S, BASE, 8451);
+	helper(S, BASE, 8_451);
 }
 // endregion
-// region: s_has_30920_in_base_11_and_insignificant_bytes
+// region: s_has_30_920_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_30920_in_base_11_and_insignificant_bytes() {
+fn s_has_30_920_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x11, 0xBB, 0x11, 0x4E, 0x5C, 0x6B, 0x5A, 0x9D, 0x3D, 0xC8, 0x26, 0xC9, 0x71, 0x3A, 0x76,
 		0x46, 0x72, 0xA0, 0x93, 0x4C, 0x81, 0x27, 0xB0, 0x5A, 0xFA, 0xB9, 0x26, 0x59, 0x3E,
@@ -8094,12 +8094,12 @@ fn s_has_30920_in_base_11_and_insignificant_bytes() {
 		0xF9, 0xBB, 0x11, 0x9B, 0x9E, 0x4E, 0x5E, 0x02, 0x80, 0xEC, 0x5C,
 	];
 
-	helper(S, BASE, 30920);
+	helper(S, BASE, 30_920);
 }
 // endregion
-// region: s_has_326969_in_base_11_and_insignificant_bytes
+// region: s_has_326_969_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_326969_in_base_11_and_insignificant_bytes() {
+fn s_has_326_969_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x07, 0x8C, 0x7D, 0x22, 0x07, 0x5D, 0x8B, 0xD2, 0x7B, 0xB5, 0xB0, 0x12, 0x20, 0xDA, 0x0D,
 		0xBB, 0xB2, 0x67, 0x09, 0x7B, 0xD1, 0x0D, 0xE9, 0xC5, 0x85, 0x14, 0xB4, 0xEB, 0x05, 0x21,
@@ -8109,12 +8109,12 @@ fn s_has_326969_in_base_11_and_insignificant_bytes() {
 		0x8C, 0xF6, 0x07, 0x7D, 0x86, 0x5D, 0x1A, 0x22, 0x24, 0xCA, 0x16,
 	];
 
-	helper(S, BASE, 326969);
+	helper(S, BASE, 326_969);
 }
 // endregion
-// region: s_has_9288396_in_base_11_and_insignificant_bytes
+// region: s_has_9_288_396_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_9288396_in_base_11_and_insignificant_bytes() {
+fn s_has_9_288_396_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xAA, 0x5F, 0x85, 0xB2, 0xAA, 0x66, 0x85, 0xA9, 0x60, 0xAF, 0xDD, 0x4B, 0x7E, 0x3D, 0x2B,
 		0xB5, 0x1E, 0x30, 0x2E, 0x23, 0xCB, 0xD2, 0xEC, 0xE1, 0x3C, 0x07, 0x4A, 0x68, 0xCB, 0xBA,
@@ -8124,12 +8124,12 @@ fn s_has_9288396_in_base_11_and_insignificant_bytes() {
 		0xFC, 0xBD, 0x5F, 0x04, 0xB2, 0xAA, 0x66, 0x85, 0x63, 0xEB, 0xC8,
 	];
 
-	helper(S, BASE, 9288396);
+	helper(S, BASE, 9_288_396);
 }
 // endregion
-// region: s_has_88204898_in_base_11_and_insignificant_bytes
+// region: s_has_88_204_898_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_88204898_in_base_11_and_insignificant_bytes() {
+fn s_has_88_204_898_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x65, 0x9E, 0x71, 0x83, 0x9E, 0x83, 0x05, 0x05, 0x19, 0x55, 0xE9, 0x1B, 0xE3, 0x84, 0x45,
 		0x4F, 0xD5, 0x4E, 0xAF, 0x97, 0x79, 0xCD, 0x4A,
@@ -8138,12 +8138,12 @@ fn s_has_88204898_in_base_11_and_insignificant_bytes() {
 		0x12, 0x05, 0xA4, 0x23, 0x65, 0x9E, 0x6A, 0x83, 0x71, 0xE1, 0xB7,
 	];
 
-	helper(S, BASE, 88204898);
+	helper(S, BASE, 88_204_898);
 }
 // endregion
-// region: s_has_474101533_in_base_11_and_insignificant_bytes
+// region: s_has_474_101_533_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_474101533_in_base_11_and_insignificant_bytes() {
+fn s_has_474_101_533_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xE2, 0xE2, 0xC1, 0x59, 0x49, 0x49, 0x42, 0x42, 0x8F, 0xBB, 0x22, 0x4A, 0x14, 0xDC, 0xF7,
 		0x54, 0x1C, 0xCA, 0xFF, 0x22, 0xEB, 0x46, 0x57, 0xC0, 0xAB, 0x5E, 0x0B, 0xF9, 0xCC, 0x45,
@@ -8154,7 +8154,7 @@ fn s_has_474101533_in_base_11_and_insignificant_bytes() {
 		0xBD, 0x78, 0xE2, 0xC1, 0x8F, 0x42, 0x59, 0x6B, 0x49, 0xA1, 0xFA,
 	];
 
-	helper(S, BASE, 474101533);
+	helper(S, BASE, 474_101_533);
 }
 // endregion
 // region: s_has_8_in_base_13_and_insignificant_bytes
@@ -8202,9 +8202,9 @@ fn s_has_568_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 568);
 }
 // endregion
-// region: s_has_7003_in_base_13_and_insignificant_bytes
+// region: s_has_7_003_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_7003_in_base_13_and_insignificant_bytes() {
+fn s_has_7_003_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x81, 0x5D, 0xD5, 0xF0, 0x13, 0x21, 0x14, 0xA0, 0x07, 0x18, 0xE1, 0xB4, 0x29, 0x57, 0x56,
 		0x15, 0x50, 0xB7, 0xE0, 0xE1, 0xDA, 0xE4, 0x7E, 0x41, 0x27, 0xB9, 0xD9, 0x6D, 0x4C, 0xCB,
@@ -8214,12 +8214,12 @@ fn s_has_7003_in_base_13_and_insignificant_bytes() {
 		0x40, 0xEB, 0x5D, 0x81, 0x9B, 0xD5, 0x8B, 0x94, 0x03, 0xF0, 0x65, 0x5A, 0x8F,
 	];
 
-	helper(S, BASE, 7003);
+	helper(S, BASE, 7_003);
 }
 // endregion
-// region: s_has_57040_in_base_13_and_insignificant_bytes
+// region: s_has_57_040_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_57040_in_base_13_and_insignificant_bytes() {
+fn s_has_57_040_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xDA, 0x9D, 0x9D, 0xB8, 0xE8, 0x08, 0x2A, 0x54, 0xD0, 0xEC, 0x69, 0x68, 0xF1, 0xE7, 0x8B,
 		0x74, 0x16, 0x0E, 0x6E, 0x2F, 0x13, 0xB5, 0xD3, 0x18, 0x71, 0x76, 0xBF, 0x02, 0x34, 0x55,
@@ -8230,12 +8230,12 @@ fn s_has_57040_in_base_13_and_insignificant_bytes() {
 		0x9B, 0xDA, 0x3C, 0xA8, 0x9E, 0x23, 0xB8, 0xAD, 0x61, 0xE8, 0xAB, 0x07, 0x9D,
 	];
 
-	helper(S, BASE, 57040);
+	helper(S, BASE, 57_040);
 }
 // endregion
-// region: s_has_872974_in_base_13_and_insignificant_bytes
+// region: s_has_872_974_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_872974_in_base_13_and_insignificant_bytes() {
+fn s_has_872_974_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD3, 0x28, 0x89, 0x28, 0x75, 0xC1, 0x7A, 0xB7, 0xE4, 0x41, 0x7C, 0x39, 0x3D, 0xE2, 0xDA,
 		0x8A, 0x92, 0xE6, 0x81, 0x79, 0x01, 0x49, 0x59, 0x59, 0x9C, 0x26, 0x5C, 0x1D, 0x5B, 0x78,
@@ -8245,12 +8245,12 @@ fn s_has_872974_in_base_13_and_insignificant_bytes() {
 		0xCE, 0x76, 0xD3, 0x9A, 0x28, 0x7F, 0x75, 0x89, 0xA3, 0xF4, 0xB4, 0xC1, 0x86,
 	];
 
-	helper(S, BASE, 872974);
+	helper(S, BASE, 872_974);
 }
 // endregion
-// region: s_has_5106052_in_base_13_and_insignificant_bytes
+// region: s_has_5_106_052_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_5106052_in_base_13_and_insignificant_bytes() {
+fn s_has_5_106_052_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF4, 0x13, 0x46, 0x19, 0xF4, 0x48, 0xA4, 0x6A, 0x98, 0xCA, 0xE3, 0xB7, 0x3B, 0xED, 0x5B,
 		0x74, 0x84, 0x57, 0x6C, 0x1C, 0x15, 0x24, 0x1C, 0xA2, 0xA3, 0xA0, 0x11, 0x6A, 0xBC, 0x83,
@@ -8261,12 +8261,12 @@ fn s_has_5106052_in_base_13_and_insignificant_bytes() {
 		0x13, 0xF4, 0x88, 0xA4, 0x48, 0x10, 0x1B, 0x47, 0xC7, 0x46, 0x19, 0xE5, 0x4F,
 	];
 
-	helper(S, BASE, 5106052);
+	helper(S, BASE, 5_106_052);
 }
 // endregion
-// region: s_has_42625456_in_base_13_and_insignificant_bytes
+// region: s_has_42_625_456_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_42625456_in_base_13_and_insignificant_bytes() {
+fn s_has_42_625_456_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF5, 0x99, 0x99, 0x16, 0xF5, 0xF5, 0x1B, 0x1A, 0x83,
 	];
@@ -8274,12 +8274,12 @@ fn s_has_42625456_in_base_13_and_insignificant_bytes() {
 		0xBE, 0xF7, 0x24, 0x1B, 0x93, 0x16, 0x34, 0x9F, 0xF5, 0x3B, 0x99, 0xE5, 0x6D,
 	];
 
-	helper(S, BASE, 42625456);
+	helper(S, BASE, 42_625_456);
 }
 // endregion
-// region: s_has_225850004_in_base_13_and_insignificant_bytes
+// region: s_has_225_850_004_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_225850004_in_base_13_and_insignificant_bytes() {
+fn s_has_225_850_004_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xEA, 0x2F, 0x0E, 0xEA, 0x4E, 0xEA, 0x2F, 0xEA, 0x84, 0xAC, 0xC6, 0xF3, 0x92, 0x22, 0x7A,
 		0x12, 0x43, 0x50, 0x5E, 0x2B, 0x25, 0xAB, 0x64, 0xF7, 0x19, 0xD1, 0xD4, 0x30, 0x47, 0xFF,
@@ -8290,7 +8290,7 @@ fn s_has_225850004_in_base_13_and_insignificant_bytes() {
 		0x66, 0x6A, 0xBF, 0xEA, 0xB7, 0x33, 0x83, 0x2F, 0x4E, 0xA4, 0x0E, 0xFE, 0xE0,
 	];
 
-	helper(S, BASE, 225850004);
+	helper(S, BASE, 225_850_004);
 }
 // endregion
 // region: s_has_9_in_base_19_and_insignificant_bytes
@@ -8336,9 +8336,9 @@ fn s_has_348_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 348);
 }
 // endregion
-// region: s_has_5286_in_base_19_and_insignificant_bytes
+// region: s_has_5_286_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_5286_in_base_19_and_insignificant_bytes() {
+fn s_has_5_286_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC5, 0xF9, 0x2F, 0x03, 0x13, 0x36, 0x24, 0x48, 0xA4, 0x47, 0xD8, 0x8E, 0x57, 0x0C, 0x96,
 		0x71, 0xE1, 0xA7, 0xF3, 0x80, 0x22, 0x8E, 0xEE, 0x64, 0x97,
@@ -8348,12 +8348,12 @@ fn s_has_5286_in_base_19_and_insignificant_bytes() {
 		0xBE, 0x15, 0x8A, 0xC0,
 	];
 
-	helper(S, BASE, 5286);
+	helper(S, BASE, 5_286);
 }
 // endregion
-// region: s_has_43424_in_base_19_and_insignificant_bytes
+// region: s_has_43_424_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_43424_in_base_19_and_insignificant_bytes() {
+fn s_has_43_424_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xFA, 0xFA, 0xC4, 0x7C, 0x80, 0x3F, 0xE5, 0xEF, 0xEF, 0x4D, 0xD7, 0xF9, 0x2C, 0x03, 0xE3,
 		0x84, 0x6E, 0xE3, 0x32, 0x67, 0xD8, 0x5A, 0xCF, 0x7E, 0xD0, 0x5D,
@@ -8363,12 +8363,12 @@ fn s_has_43424_in_base_19_and_insignificant_bytes() {
 		0x82, 0x6F, 0xC6, 0x66,
 	];
 
-	helper(S, BASE, 43424);
+	helper(S, BASE, 43_424);
 }
 // endregion
-// region: s_has_233073_in_base_19_and_insignificant_bytes
+// region: s_has_233_073_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_233073_in_base_19_and_insignificant_bytes() {
+fn s_has_233_073_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x8C, 0xE2, 0xCC, 0x89, 0x31, 0xCD, 0x81, 0x4B, 0xA5, 0x9B, 0xE0, 0x67, 0x6F, 0x5A, 0xAD,
 		0x9E, 0x84, 0x02, 0xEC,
@@ -8378,12 +8378,12 @@ fn s_has_233073_in_base_19_and_insignificant_bytes() {
 		0x78, 0x40, 0x1C, 0xCC,
 	];
 
-	helper(S, BASE, 233073);
+	helper(S, BASE, 233_073);
 }
 // endregion
-// region: s_has_1569404_in_base_19_and_insignificant_bytes
+// region: s_has_1_569_404_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_1569404_in_base_19_and_insignificant_bytes() {
+fn s_has_1_569_404_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0F, 0xC6, 0x6E, 0x3B, 0xEB, 0x63, 0x40, 0xB3, 0xD4, 0x3C, 0x15, 0x4A, 0xF4, 0xC0, 0x76,
 		0xBD, 0x8C, 0x36, 0x30, 0xC8,
@@ -8393,12 +8393,12 @@ fn s_has_1569404_in_base_19_and_insignificant_bytes() {
 		0x6E, 0x87, 0x90, 0x86,
 	];
 
-	helper(S, BASE, 1569404);
+	helper(S, BASE, 1_569_404);
 }
 // endregion
-// region: s_has_26127794_in_base_19_and_insignificant_bytes
+// region: s_has_26_127_794_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_26127794_in_base_19_and_insignificant_bytes() {
+fn s_has_26_127_794_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xFF, 0xFF, 0xC8, 0x19, 0x73, 0x8A, 0xB0, 0xD1, 0x85, 0x4B, 0xDA, 0x61, 0xB4, 0x08, 0x3E,
 		0x6F, 0x5C, 0x4F, 0x1E, 0x66, 0xD3, 0x75, 0x60, 0x83, 0x41, 0x94, 0x31, 0x1D, 0xF4, 0xDA,
@@ -8409,12 +8409,12 @@ fn s_has_26127794_in_base_19_and_insignificant_bytes() {
 		0x5E, 0x15, 0x23, 0x91,
 	];
 
-	helper(S, BASE, 26127794);
+	helper(S, BASE, 26_127_794);
 }
 // endregion
-// region: s_has_139470612_in_base_19_and_insignificant_bytes
+// region: s_has_139_470_612_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_139470612_in_base_19_and_insignificant_bytes() {
+fn s_has_139_470_612_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x94, 0x4B, 0x79, 0xB6, 0x4B, 0xB6, 0xD7, 0xD8, 0x6F, 0x13, 0xC8, 0xA9, 0x06, 0x39,
 	];
@@ -8423,7 +8423,7 @@ fn s_has_139470612_in_base_19_and_insignificant_bytes() {
 		0xD1, 0x4E, 0x07, 0x4B,
 	];
 
-	helper(S, BASE, 139470612);
+	helper(S, BASE, 139_470_612);
 }
 // endregion
 // region: s_has_7_in_base_42_and_insignificant_bytes
@@ -8474,9 +8474,9 @@ fn s_has_338_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 338);
 }
 // endregion
-// region: s_has_6561_in_base_42_and_insignificant_bytes
+// region: s_has_6_561_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_6561_in_base_42_and_insignificant_bytes() {
+fn s_has_6_561_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xE4, 0xCE, 0xF5, 0xFF, 0xFE, 0xCF, 0xBD, 0x21, 0x0D, 0x16, 0x58, 0x81, 0xBC, 0x06, 0xAD,
 		0xB6, 0x10, 0x12, 0x44, 0x2E, 0x56, 0x8F, 0xA5, 0x7B, 0x55, 0xF0, 0x58, 0x50, 0xD7, 0x3B,
@@ -8488,12 +8488,12 @@ fn s_has_6561_in_base_42_and_insignificant_bytes() {
 		0xCE, 0xA0, 0x70, 0xFB, 0x71, 0x0F, 0xC1, 0x8D, 0xBE, 0x01, 0x2A, 0x90,
 	];
 
-	helper(S, BASE, 6561);
+	helper(S, BASE, 6_561);
 }
 // endregion
-// region: s_has_27602_in_base_42_and_insignificant_bytes
+// region: s_has_27_602_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_27602_in_base_42_and_insignificant_bytes() {
+fn s_has_27_602_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x9C, 0xC4, 0x1B, 0x30, 0xBE, 0xB5, 0x68, 0x5D, 0x13, 0xF4,
 	];
@@ -8503,12 +8503,12 @@ fn s_has_27602_in_base_42_and_insignificant_bytes() {
 		0x3A, 0x41, 0x62, 0x5C, 0x99, 0xF3, 0x51, 0x3D, 0x12, 0xC1, 0xDC, 0xFB,
 	];
 
-	helper(S, BASE, 27602);
+	helper(S, BASE, 27_602);
 }
 // endregion
-// region: s_has_688968_in_base_42_and_insignificant_bytes
+// region: s_has_688_968_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_688968_in_base_42_and_insignificant_bytes() {
+fn s_has_688_968_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC5, 0xE3, 0x14, 0x65, 0x57, 0x3A, 0x13, 0xBC, 0x10, 0x52, 0xD6, 0x51, 0x0A, 0xF0, 0x05,
 		0x59,
@@ -8519,12 +8519,12 @@ fn s_has_688968_in_base_42_and_insignificant_bytes() {
 		0x3F, 0x55, 0x45, 0x1B, 0xC8, 0x90, 0x8B, 0x36, 0xAB, 0xB9, 0x17, 0x6B,
 	];
 
-	helper(S, BASE, 688968);
+	helper(S, BASE, 688_968);
 }
 // endregion
-// region: s_has_7962139_in_base_42_and_insignificant_bytes
+// region: s_has_7_962_139_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_7962139_in_base_42_and_insignificant_bytes() {
+fn s_has_7_962_139_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x29, 0xB9, 0x55, 0xAA, 0x54, 0xFD, 0x3B, 0xE6, 0x78, 0xC0, 0x8A, 0xAE, 0x8D, 0xAE,
 	];
@@ -8534,12 +8534,12 @@ fn s_has_7962139_in_base_42_and_insignificant_bytes() {
 		0x3E, 0x54, 0xF0, 0xFA, 0x50, 0x67, 0x76, 0x7A, 0x28, 0x34, 0xF2, 0x04,
 	];
 
-	helper(S, BASE, 7962139);
+	helper(S, BASE, 7_962_139);
 }
 // endregion
-// region: s_has_74904337_in_base_42_and_insignificant_bytes
+// region: s_has_74_904_337_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_74904337_in_base_42_and_insignificant_bytes() {
+fn s_has_74_904_337_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xA6, 0xC2, 0x7C, 0xB5, 0xE4, 0x4F, 0xA5, 0x17, 0x35, 0xF7, 0xF2, 0xD1, 0xF6, 0x6E, 0x1B,
 		0x9E, 0x33, 0xF7, 0x4D, 0x31, 0x74, 0x89, 0xB8, 0x57, 0xEE, 0xFE, 0x9B, 0x9B, 0xEA,
@@ -8550,12 +8550,12 @@ fn s_has_74904337_in_base_42_and_insignificant_bytes() {
 		0xDB, 0x5B, 0xB5, 0x23, 0xC3, 0xEB, 0x7B, 0x47, 0x1C, 0xAD, 0x54, 0x42,
 	];
 
-	helper(S, BASE, 74904337);
+	helper(S, BASE, 74_904_337);
 }
 // endregion
-// region: s_has_161550988_in_base_42_and_insignificant_bytes
+// region: s_has_161_550_988_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_161550988_in_base_42_and_insignificant_bytes() {
+fn s_has_161_550_988_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x1A, 0xA8, 0x35, 0xF6, 0x02, 0xB4, 0x3B, 0x3D, 0x38, 0xD2, 0xC3, 0x7F, 0x1E, 0x6A, 0x7E,
 		0x2C, 0x98, 0xD7, 0xF2, 0x18, 0xA1, 0x13, 0x78, 0x10, 0xD8, 0x81, 0xAE, 0xE8, 0x71, 0xFC,
@@ -8566,7 +8566,7 @@ fn s_has_161550988_in_base_42_and_insignificant_bytes() {
 		0xEA, 0xA2, 0xA3, 0xF3, 0xE2, 0x56, 0x8F, 0x3E, 0x35, 0x91, 0x7D, 0x08,
 	];
 
-	helper(S, BASE, 161550988);
+	helper(S, BASE, 161_550_988);
 }
 // endregion
 // region: s_has_1_in_base_73_and_insignificant_bytes
@@ -8624,9 +8624,9 @@ fn s_has_507_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 507);
 }
 // endregion
-// region: s_has_7371_in_base_73_and_insignificant_bytes
+// region: s_has_7_371_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_7371_in_base_73_and_insignificant_bytes() {
+fn s_has_7_371_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x75, 0xEE, 0x26, 0xDD, 0x84, 0xDD,
 	];
@@ -8638,12 +8638,12 @@ fn s_has_7371_in_base_73_and_insignificant_bytes() {
 		0xFD, 0x25, 0x3C, 0x76, 0xE6, 0x3E, 0xAC, 0xB7, 0x54, 0xD6, 0xEF, 0x26, 0xC3,
 	];
 
-	helper(S, BASE, 7371);
+	helper(S, BASE, 7_371);
 }
 // endregion
-// region: s_has_56168_in_base_73_and_insignificant_bytes
+// region: s_has_56_168_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_56168_in_base_73_and_insignificant_bytes() {
+fn s_has_56_168_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xEF, 0x07, 0x38, 0x7B, 0xA8, 0x49, 0xF8, 0xB6, 0x4F, 0xBA, 0x3E, 0x0E, 0xC4, 0x01, 0x8B,
 		0x1F, 0x7F, 0x79, 0x92, 0x33, 0x4C, 0x46, 0xC6, 0x2D, 0x8D, 0xB4, 0x1C, 0x85, 0x1D, 0xAF,
@@ -8657,12 +8657,12 @@ fn s_has_56168_in_base_73_and_insignificant_bytes() {
 		0x5D, 0x7D, 0xD0, 0x1B, 0xB0, 0xBE, 0x0F, 0x10, 0xA6, 0xFF, 0xBD, 0x3B, 0x68,
 	];
 
-	helper(S, BASE, 56168);
+	helper(S, BASE, 56_168);
 }
 // endregion
-// region: s_has_358499_in_base_73_and_insignificant_bytes
+// region: s_has_358_499_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_358499_in_base_73_and_insignificant_bytes() {
+fn s_has_358_499_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x6D, 0x31, 0xF4, 0x1A, 0x47, 0x8D, 0x89, 0x70, 0x03, 0xB0, 0xCC, 0x23, 0xB2, 0x61, 0xDA,
 		0xCD, 0xCE, 0xD6, 0x82, 0x41, 0x46, 0xB2, 0x7A, 0x47, 0xBA, 0x9C, 0xEB, 0xD4, 0xB2, 0xB9,
@@ -8676,12 +8676,12 @@ fn s_has_358499_in_base_73_and_insignificant_bytes() {
 		0x72, 0xD3, 0x92, 0x29, 0xBF, 0xDC, 0x57, 0x6D, 0xC5, 0xF4, 0x48, 0x53, 0x34,
 	];
 
-	helper(S, BASE, 358499);
+	helper(S, BASE, 358_499);
 }
 // endregion
-// region: s_has_9605996_in_base_73_and_insignificant_bytes
+// region: s_has_9_605_996_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_9605996_in_base_73_and_insignificant_bytes() {
+fn s_has_9_605_996_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x76, 0xE5, 0xF7, 0x3A, 0x0C, 0x85, 0xA4, 0x3E, 0x13, 0x3B, 0x4F, 0xF8, 0x6A, 0xD9, 0x4A,
 		0xC0, 0xC1, 0xE0, 0x6A, 0x1F, 0xFA, 0x3B, 0xF9, 0x1C, 0xFB,
@@ -8694,12 +8694,12 @@ fn s_has_9605996_in_base_73_and_insignificant_bytes() {
 		0x9E, 0x08, 0x0E, 0xE1, 0xE9, 0x61, 0x9A, 0x7E, 0x32, 0x16, 0x7F, 0xDD, 0x3A,
 	];
 
-	helper(S, BASE, 9605996);
+	helper(S, BASE, 9_605_996);
 }
 // endregion
-// region: s_has_95958407_in_base_73_and_insignificant_bytes
+// region: s_has_95_958_407_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_95958407_in_base_73_and_insignificant_bytes() {
+fn s_has_95_958_407_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF2, 0x48, 0x62, 0x6C, 0xC1, 0xB6, 0x63, 0x8E, 0xF6, 0xF7, 0xF8, 0x7A, 0xD1, 0x8E, 0xC6,
 		0x65, 0x2E, 0xF8, 0x7C, 0x37, 0x94, 0xE9, 0x43, 0x7B,
@@ -8712,12 +8712,12 @@ fn s_has_95958407_in_base_73_and_insignificant_bytes() {
 		0x6C, 0xFC, 0xB9, 0x91, 0x34, 0xF4, 0x21, 0xED, 0x54, 0x07, 0xE1, 0xEF, 0x24,
 	];
 
-	helper(S, BASE, 95958407);
+	helper(S, BASE, 95_958_407);
 }
 // endregion
-// region: s_has_791415179_in_base_73_and_insignificant_bytes
+// region: s_has_791_415_179_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_791415179_in_base_73_and_insignificant_bytes() {
+fn s_has_791_415_179_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x10, 0x3D, 0xC5, 0x98, 0xB7, 0x3A, 0xCD, 0xD8, 0xDC, 0x35, 0xFE, 0x06, 0x05, 0x20, 0x66,
 		0x97, 0xC2, 0xE8, 0xD4, 0x03, 0xEB, 0x70, 0x84, 0x55, 0xF6, 0x4B, 0x8F, 0xAB, 0x80, 0xC9,
@@ -8731,7 +8731,7 @@ fn s_has_791415179_in_base_73_and_insignificant_bytes() {
 		0xB7, 0xA5, 0xEE, 0x3D, 0x54, 0xE2, 0xD7, 0xE7, 0x88, 0xA4, 0x71, 0xB0, 0xFF,
 	];
 
-	helper(S, BASE, 791415179);
+	helper(S, BASE, 791_415_179);
 }
 // endregion
 // region: s_has_4_in_base_113_and_insignificant_bytes
@@ -8795,9 +8795,9 @@ fn s_has_474_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 474);
 }
 // endregion
-// region: s_has_6577_in_base_113_and_insignificant_bytes
+// region: s_has_6_577_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_6577_in_base_113_and_insignificant_bytes() {
+fn s_has_6_577_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x3B, 0x34, 0x6E, 0x54,
 	];
@@ -8812,12 +8812,12 @@ fn s_has_6577_in_base_113_and_insignificant_bytes() {
 		0xBF, 0x92, 0xCC, 0x6F, 0xCD, 0xFB, 0x67, 0x90,
 	];
 
-	helper(S, BASE, 6577);
+	helper(S, BASE, 6_577);
 }
 // endregion
-// region: s_has_57289_in_base_113_and_insignificant_bytes
+// region: s_has_57_289_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_57289_in_base_113_and_insignificant_bytes() {
+fn s_has_57_289_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x74, 0x63, 0xE2, 0x76, 0x5A, 0xC6, 0x80, 0x2C, 0x71, 0x3C, 0x97,
 	];
@@ -8832,12 +8832,12 @@ fn s_has_57289_in_base_113_and_insignificant_bytes() {
 		0x18, 0x73, 0xC3, 0x53, 0x2A, 0x4B, 0xE2, 0x03,
 	];
 
-	helper(S, BASE, 57289);
+	helper(S, BASE, 57_289);
 }
 // endregion
-// region: s_has_286592_in_base_113_and_insignificant_bytes
+// region: s_has_286_592_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_286592_in_base_113_and_insignificant_bytes() {
+fn s_has_286_592_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF1, 0x12, 0xE3, 0x38, 0xCF, 0x4C, 0xE9, 0x99, 0xAD, 0x08, 0xE4, 0x2D, 0xB2, 0xB5, 0xCF,
 		0xE5, 0xF4, 0xB3, 0xFD, 0xAF, 0x8B, 0x9F, 0x24, 0x31, 0x44, 0xBB, 0xB4, 0x73, 0xB1, 0x0D,
@@ -8854,12 +8854,12 @@ fn s_has_286592_in_base_113_and_insignificant_bytes() {
 		0x76, 0xE6, 0x2E, 0x51, 0x7A, 0xEF, 0x28, 0xD4,
 	];
 
-	helper(S, BASE, 286592);
+	helper(S, BASE, 286_592);
 }
 // endregion
-// region: s_has_4626482_in_base_113_and_insignificant_bytes
+// region: s_has_4_626_482_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_4626482_in_base_113_and_insignificant_bytes() {
+fn s_has_4_626_482_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB8, 0xF7, 0xFE, 0xFE, 0xEC, 0x66, 0x7E, 0x6A, 0x05, 0x9C, 0x06, 0xE5, 0x7E, 0x60, 0x4B,
 		0x16, 0xC2,
@@ -8875,12 +8875,12 @@ fn s_has_4626482_in_base_113_and_insignificant_bytes() {
 		0x56, 0x0E, 0x6C, 0xB1, 0xCE, 0x90, 0xC5, 0xF1,
 	];
 
-	helper(S, BASE, 4626482);
+	helper(S, BASE, 4_626_482);
 }
 // endregion
-// region: s_has_81726403_in_base_113_and_insignificant_bytes
+// region: s_has_81_726_403_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_81726403_in_base_113_and_insignificant_bytes() {
+fn s_has_81_726_403_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x91, 0x11, 0xAD, 0x7B, 0xCD, 0xD0, 0x97, 0x0A, 0x61, 0xB4, 0x2D, 0xF1, 0x3A, 0x22, 0xF2,
 		0x34, 0x71, 0x2B, 0x18, 0x7E, 0xBD, 0x79, 0x62, 0x6D, 0xFE, 0x88, 0x5D, 0x38, 0x74, 0xF1,
@@ -8897,12 +8897,12 @@ fn s_has_81726403_in_base_113_and_insignificant_bytes() {
 		0x6F, 0xBE, 0x2C, 0xD2, 0xD4, 0xD3, 0x68, 0x92,
 	];
 
-	helper(S, BASE, 81726403);
+	helper(S, BASE, 81_726_403);
 }
 // endregion
-// region: s_has_115805683_in_base_113_and_insignificant_bytes
+// region: s_has_115_805_683_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_115805683_in_base_113_and_insignificant_bytes() {
+fn s_has_115_805_683_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF3, 0x35, 0xD1, 0x1A, 0x92, 0xE0, 0x0D, 0x77, 0x40, 0xA0, 0xAB, 0x5D, 0xD3, 0x12, 0x54,
 		0x4C, 0x9D,
@@ -8918,7 +8918,7 @@ fn s_has_115805683_in_base_113_and_insignificant_bytes() {
 		0x5B, 0xBC, 0x38, 0x3A, 0x5A, 0x04, 0x75, 0xE1,
 	];
 
-	helper(S, BASE, 115805683);
+	helper(S, BASE, 115_805_683);
 }
 // endregion
 // region: s_has_1_in_base_193_and_insignificant_bytes
@@ -8999,9 +8999,9 @@ fn s_has_412_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 412);
 }
 // endregion
-// region: s_has_4108_in_base_193_and_insignificant_bytes
+// region: s_has_4_108_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_4108_in_base_193_and_insignificant_bytes() {
+fn s_has_4_108_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xCA, 0xC4, 0xEF, 0x61, 0x1E, 0xB6, 0xB2, 0xDB, 0x64, 0x70, 0x0A, 0xD9, 0x78, 0xB6, 0x7C,
 		0x64, 0xDB, 0x02, 0xD0, 0x64, 0x70, 0x45, 0x0B, 0xE0, 0x2B, 0xD9, 0xAB, 0xB9, 0x8A, 0x64,
@@ -9023,12 +9023,12 @@ fn s_has_4108_in_base_193_and_insignificant_bytes() {
 		0x30, 0x1F, 0x58, 0x6E, 0xA5, 0xEE, 0x54, 0x92, 0x4C, 0x5F, 0x11, 0x9F, 0x9A,
 	];
 
-	helper(S, BASE, 4108);
+	helper(S, BASE, 4_108);
 }
 // endregion
-// region: s_has_22788_in_base_193_and_insignificant_bytes
+// region: s_has_22_788_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_22788_in_base_193_and_insignificant_bytes() {
+fn s_has_22_788_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x3B, 0x99, 0xF3, 0x45, 0x1B, 0xEC, 0xC7, 0xA8, 0x0C, 0x0C, 0x11, 0x75, 0xD5, 0x11, 0xBD,
 		0xE6, 0xA7, 0x73, 0x35, 0xCB, 0x37, 0xD5, 0x06, 0x2D, 0x37, 0xE6, 0x1B, 0x43, 0x76, 0x0A,
@@ -9050,12 +9050,12 @@ fn s_has_22788_in_base_193_and_insignificant_bytes() {
 		0x6B, 0x42, 0x04, 0x1C, 0xDA, 0x8D, 0x7A, 0xDE, 0x97, 0xC1, 0xF2, 0x48, 0xAB,
 	];
 
-	helper(S, BASE, 22788);
+	helper(S, BASE, 22_788);
 }
 // endregion
-// region: s_has_650869_in_base_193_and_insignificant_bytes
+// region: s_has_650_869_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_650869_in_base_193_and_insignificant_bytes() {
+fn s_has_650_869_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xFA, 0x22, 0x5D, 0x2B, 0x0A, 0xF4, 0x43, 0x0A, 0xEE, 0x31, 0xF9,
 	];
@@ -9075,12 +9075,12 @@ fn s_has_650869_in_base_193_and_insignificant_bytes() {
 		0xE8, 0x37, 0xBC, 0x32, 0xE6, 0x97, 0xB0, 0x96, 0xAE, 0xA0, 0x13, 0x3D, 0x83,
 	];
 
-	helper(S, BASE, 650869);
+	helper(S, BASE, 650_869);
 }
 // endregion
-// region: s_has_5068081_in_base_193_and_insignificant_bytes
+// region: s_has_5_068_081_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_5068081_in_base_193_and_insignificant_bytes() {
+fn s_has_5_068_081_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB8, 0xB9, 0xF2, 0x76, 0x49, 0x52, 0x73, 0x56, 0x0C, 0xB4, 0x05, 0xD2, 0xE7, 0x9F, 0x05,
 		0x71, 0x92, 0xC7, 0x92, 0xC5, 0x79, 0xA3, 0x67, 0x0E, 0xD8,
@@ -9101,12 +9101,12 @@ fn s_has_5068081_in_base_193_and_insignificant_bytes() {
 		0xA9, 0x7D, 0x75, 0x65, 0x69, 0xC4, 0x2C, 0x57, 0x34, 0x42, 0x3E, 0x99, 0x6D,
 	];
 
-	helper(S, BASE, 5068081);
+	helper(S, BASE, 5_068_081);
 }
 // endregion
-// region: s_has_29865740_in_base_193_and_insignificant_bytes
+// region: s_has_29_865_740_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_29865740_in_base_193_and_insignificant_bytes() {
+fn s_has_29_865_740_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x58, 0xAC, 0xFD, 0x53, 0x41, 0xAD, 0x22, 0xE7, 0xA8, 0x9B, 0xEC, 0x3E, 0x2D, 0x0C, 0x0C,
 		0x0C, 0x73, 0x09, 0x2B, 0xEA, 0xA9, 0x9B, 0x56, 0x1B, 0x65, 0xEA, 0x82, 0xBF, 0xD8, 0x21,
@@ -9128,12 +9128,12 @@ fn s_has_29865740_in_base_193_and_insignificant_bytes() {
 		0xC9, 0xAF, 0x7B, 0xF2, 0x9D, 0xB5, 0x51, 0xE6, 0x92, 0x02, 0xDD, 0x6B, 0xB9,
 	];
 
-	helper(S, BASE, 29865740);
+	helper(S, BASE, 29_865_740);
 }
 // endregion
-// region: s_has_571555500_in_base_193_and_insignificant_bytes
+// region: s_has_571_555_500_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_571555500_in_base_193_and_insignificant_bytes() {
+fn s_has_571_555_500_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x4F, 0x34, 0xE4, 0x77, 0x35, 0x39, 0x0E, 0x09, 0xB6, 0x7C, 0xAF, 0xA1, 0x26, 0x22, 0x41,
 		0x1C, 0x99, 0x8F, 0xA1, 0x0A, 0x0E, 0xD0, 0x99, 0x09, 0x0D, 0x36, 0x81, 0x12, 0x8D, 0xA1,
@@ -9155,7 +9155,7 @@ fn s_has_571555500_in_base_193_and_insignificant_bytes() {
 		0xB3, 0x17, 0x71, 0x31, 0x7B, 0x83, 0xB5, 0x98, 0x18, 0xA0, 0x80, 0x8E, 0xFE,
 	];
 
-	helper(S, BASE, 571555500);
+	helper(S, BASE, 571_555_500);
 }
 // endregion
 // region: s_has_9_in_base_247_and_insignificant_bytes
@@ -9248,9 +9248,9 @@ fn s_has_308_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 308);
 }
 // endregion
-// region: s_has_5862_in_base_247_and_insignificant_bytes
+// region: s_has_5_862_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_5862_in_base_247_and_insignificant_bytes() {
+fn s_has_5_862_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD9, 0x6F, 0x0B, 0x0A, 0x2D, 0x09, 0x2D, 0x09, 0x0B, 0x09,
 	];
@@ -9274,12 +9274,12 @@ fn s_has_5862_in_base_247_and_insignificant_bytes() {
 		0xC8, 0x27, 0xE1, 0x11, 0x3D, 0x77, 0x9D,
 	];
 
-	helper(S, BASE, 5862);
+	helper(S, BASE, 5_862);
 }
 // endregion
-// region: s_has_11947_in_base_247_and_insignificant_bytes
+// region: s_has_11_947_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_11947_in_base_247_and_insignificant_bytes() {
+fn s_has_11_947_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x69, 0x54, 0x2D, 0x0C, 0x2D, 0x2D, 0x09, 0x0C, 0x20, 0x0B, 0x09, 0x2D, 0x0C, 0x0D, 0x09,
 		0x0D, 0x2D, 0x0D, 0x20, 0x0D, 0x2D, 0x2D, 0x0C, 0x0A, 0x09, 0x2B, 0x0A, 0x2D, 0x09, 0x0B,
@@ -9305,12 +9305,12 @@ fn s_has_11947_in_base_247_and_insignificant_bytes() {
 		0x6A, 0x91, 0x97, 0x3E, 0xCC, 0x6D, 0x26,
 	];
 
-	helper(S, BASE, 11947);
+	helper(S, BASE, 11_947);
 }
 // endregion
-// region: s_has_623201_in_base_247_and_insignificant_bytes
+// region: s_has_623_201_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_623201_in_base_247_and_insignificant_bytes() {
+fn s_has_623_201_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xA2, 0xB9, 0xA0, 0x0B, 0x2B, 0x2D, 0x0D,
 	];
@@ -9334,12 +9334,12 @@ fn s_has_623201_in_base_247_and_insignificant_bytes() {
 		0xF4, 0x57, 0x06, 0x97, 0x36, 0xBF, 0x98,
 	];
 
-	helper(S, BASE, 623201);
+	helper(S, BASE, 623_201);
 }
 // endregion
-// region: s_has_5983911_in_base_247_and_insignificant_bytes
+// region: s_has_5_983_911_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_5983911_in_base_247_and_insignificant_bytes() {
+fn s_has_5_983_911_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x7F, 0x9C, 0xF6, 0x0D, 0x0D, 0x2D, 0x0A, 0x0A, 0x0C, 0x2D, 0x0D, 0x09, 0x2D, 0x0C, 0x20,
 		0x09, 0x2D, 0x2D, 0x0D, 0x0D, 0x0B, 0x0A,
@@ -9364,12 +9364,12 @@ fn s_has_5983911_in_base_247_and_insignificant_bytes() {
 		0xE9, 0xE5, 0xFE, 0x59, 0xC3, 0x66, 0xD6,
 	];
 
-	helper(S, BASE, 5983911);
+	helper(S, BASE, 5_983_911);
 }
 // endregion
-// region: s_has_72764045_in_base_247_and_insignificant_bytes
+// region: s_has_72_764_045_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_72764045_in_base_247_and_insignificant_bytes() {
+fn s_has_72_764_045_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xE3, 0xD9, 0xA6, 0x4F, 0x20, 0x0A, 0x0D, 0x0A, 0x0B, 0x0C, 0x0A, 0x0D, 0x20, 0x0D, 0x0A,
 		0x2D, 0x0B, 0x0B, 0x0A, 0x0A, 0x0C, 0x09, 0x2D, 0x0D, 0x20, 0x20, 0x2B, 0x2B, 0x2B, 0x0C,
@@ -9395,12 +9395,12 @@ fn s_has_72764045_in_base_247_and_insignificant_bytes() {
 		0x3A, 0x92, 0x67, 0x59, 0x51, 0x22, 0xE1,
 	];
 
-	helper(S, BASE, 72764045);
+	helper(S, BASE, 72_764_045);
 }
 // endregion
-// region: s_has_682780024_in_base_247_and_insignificant_bytes
+// region: s_has_682_780_024_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_682780024_in_base_247_and_insignificant_bytes() {
+fn s_has_682_780_024_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x97, 0x74, 0xD4, 0xA5, 0x2D, 0x2B, 0x0D, 0x0D, 0x0A, 0x0B, 0x0B, 0x09, 0x0A, 0x20, 0x0D,
 		0x20, 0x09, 0x0B, 0x09, 0x09, 0x2B, 0x0D, 0x2B, 0x0D, 0x0C, 0x20, 0x0D, 0x2B,
@@ -9425,7 +9425,7 @@ fn s_has_682780024_in_base_247_and_insignificant_bytes() {
 		0x8E, 0x26, 0xA0, 0xC5, 0x7A, 0x64, 0x92,
 	];
 
-	helper(S, BASE, 682780024);
+	helper(S, BASE, 682_780_024);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_6_in_base_2
@@ -9474,9 +9474,9 @@ fn s_has_whitespaces_and_signs_and_115_in_base_2() {
 	helper(S, BASE, 115);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7416_in_base_2
+// region: s_has_whitespaces_and_signs_and_7_416_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_7416_in_base_2() {
+fn s_has_whitespaces_and_signs_and_7_416_in_base_2() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x20, 0x0A, 0x0A, 0x0D, 0x0C, 0x09, 0x0C, 0x0C, 0x0C, 0x20, 0x0B, 0x20, 0x0C,
 		0x0C, 0x2B, 0x2D, 0x2D, 0x63, 0x63, 0x63, 0x08, 0x08, 0x63, 0x63, 0x63, 0x63, 0x63, 0x08,
@@ -9486,12 +9486,12 @@ fn s_has_whitespaces_and_signs_and_7416_in_base_2() {
 		0x08, 0x63,
 	];
 
-	helper(S, BASE, 7416);
+	helper(S, BASE, 7_416);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_70028_in_base_2
+// region: s_has_whitespaces_and_signs_and_70_028_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_70028_in_base_2() {
+fn s_has_whitespaces_and_signs_and_70_028_in_base_2() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0A, 0x0B, 0x09, 0x0D, 0x0A, 0x20, 0x0C, 0x0B, 0x20, 0x0B, 0x0D, 0x0B, 0x0C,
 		0x0C, 0x0D, 0x09, 0x0A, 0x0C, 0x20, 0x0B, 0x0B, 0x0A, 0x0D, 0x20, 0x0A, 0x20, 0x0D, 0x0A,
@@ -9504,12 +9504,12 @@ fn s_has_whitespaces_and_signs_and_70028_in_base_2() {
 		0x83, 0xC1,
 	];
 
-	helper(S, BASE, 70028);
+	helper(S, BASE, 70_028);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_958156_in_base_2
+// region: s_has_whitespaces_and_signs_and_958_156_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_958156_in_base_2() {
+fn s_has_whitespaces_and_signs_and_958_156_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0C, 0x0A, 0x09, 0x20, 0x0D, 0x09, 0x0A, 0x20, 0x0A, 0x0C, 0x0A, 0x0D, 0x20,
 		0x0D, 0x0A, 0x20, 0x0A, 0x09, 0x0C, 0x0C, 0x0B, 0x0D, 0x20, 0x09, 0x0A, 0x0C, 0x0C, 0x0D,
@@ -9523,12 +9523,12 @@ fn s_has_whitespaces_and_signs_and_958156_in_base_2() {
 		0x54, 0x62,
 	];
 
-	helper(S, BASE, 958156);
+	helper(S, BASE, 958_156);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9777254_in_base_2
+// region: s_has_whitespaces_and_signs_and_9_777_254_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_9777254_in_base_2() {
+fn s_has_whitespaces_and_signs_and_9_777_254_in_base_2() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0C, 0x0C, 0x0A, 0x20, 0x0B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -9540,12 +9540,12 @@ fn s_has_whitespaces_and_signs_and_9777254_in_base_2() {
 		0x33, 0x5F,
 	];
 
-	helper(S, BASE, 9777254);
+	helper(S, BASE, 9_777_254);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_19856929_in_base_2
+// region: s_has_whitespaces_and_signs_and_19_856_929_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_19856929_in_base_2() {
+fn s_has_whitespaces_and_signs_and_19_856_929_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0D, 0x0A, 0x0B, 0x20, 0x09, 0x0C, 0x0D, 0x0C, 0x0B, 0x0D, 0x0C, 0x0D, 0x0D,
 		0x20, 0x20, 0x20, 0x0B, 0x0B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -9557,12 +9557,12 @@ fn s_has_whitespaces_and_signs_and_19856929_in_base_2() {
 		0x56, 0x7D,
 	];
 
-	helper(S, BASE, 19856929);
+	helper(S, BASE, 19_856_929);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_849490945_in_base_2
+// region: s_has_whitespaces_and_signs_and_849_490_945_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_849490945_in_base_2() {
+fn s_has_whitespaces_and_signs_and_849_490_945_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x20, 0x0D, 0x0A, 0x0A, 0x0B, 0x20, 0x0B, 0x20, 0x0A, 0x0B, 0x0D, 0x09, 0x0C,
 		0x0B, 0x0A, 0x0D, 0x0D, 0x0C, 0x0D, 0x20, 0x09, 0x0A, 0x0A, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -9576,7 +9576,7 @@ fn s_has_whitespaces_and_signs_and_849490945_in_base_2() {
 		0xCE, 0x62,
 	];
 
-	helper(S, BASE, 849490945);
+	helper(S, BASE, 849_490_945);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_6_in_base_3
@@ -9626,9 +9626,9 @@ fn s_has_whitespaces_and_signs_and_429_in_base_3() {
 	helper(S, BASE, 429);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2240_in_base_3
+// region: s_has_whitespaces_and_signs_and_2_240_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_2240_in_base_3() {
+fn s_has_whitespaces_and_signs_and_2_240_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x20, 0x09, 0x20, 0x0C, 0x0C, 0x0A, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x26,
@@ -9638,12 +9638,12 @@ fn s_has_whitespaces_and_signs_and_2240_in_base_3() {
 		0xAF, 0x26, 0xEB,
 	];
 
-	helper(S, BASE, 2240);
+	helper(S, BASE, 2_240);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81604_in_base_3
+// region: s_has_whitespaces_and_signs_and_81_604_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_81604_in_base_3() {
+fn s_has_whitespaces_and_signs_and_81_604_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0B, 0x0C, 0x0D, 0x0C, 0x0D, 0x0A, 0x0A, 0x0D, 0x20, 0x09, 0x09, 0x09, 0x20,
 		0x0D, 0x0C, 0x0C, 0x09, 0x09, 0x09, 0x0B, 0x0A, 0x09, 0x0D, 0x0C, 0x20, 0x0C, 0x09, 0x0D,
@@ -9654,12 +9654,12 @@ fn s_has_whitespaces_and_signs_and_81604_in_base_3() {
 		0xFC, 0x79, 0x19,
 	];
 
-	helper(S, BASE, 81604);
+	helper(S, BASE, 81_604);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_977555_in_base_3
+// region: s_has_whitespaces_and_signs_and_977_555_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_977555_in_base_3() {
+fn s_has_whitespaces_and_signs_and_977_555_in_base_3() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x20, 0x0C, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -9670,12 +9670,12 @@ fn s_has_whitespaces_and_signs_and_977555_in_base_3() {
 		0xC3, 0x48, 0xB8,
 	];
 
-	helper(S, BASE, 977555);
+	helper(S, BASE, 977_555);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_4350356_in_base_3
+// region: s_has_whitespaces_and_signs_and_4_350_356_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_4350356_in_base_3() {
+fn s_has_whitespaces_and_signs_and_4_350_356_in_base_3() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x0C, 0x0D, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x09, 0x0A, 0x09, 0x0D, 0x09,
 		0x0A, 0x0C, 0x0D, 0x0A, 0x20, 0x0C, 0x20, 0x20, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -9686,12 +9686,12 @@ fn s_has_whitespaces_and_signs_and_4350356_in_base_3() {
 		0xF0, 0x22, 0x7E,
 	];
 
-	helper(S, BASE, 4350356);
+	helper(S, BASE, 4_350_356);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_62724425_in_base_3
+// region: s_has_whitespaces_and_signs_and_62_724_425_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_62724425_in_base_3() {
+fn s_has_whitespaces_and_signs_and_62_724_425_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0A, 0x0D, 0x0C, 0x0C, 0x0C, 0x0C, 0x0A, 0x09, 0x0C, 0x20, 0x0C, 0x0C, 0x0C,
 		0x0C, 0x0A, 0x0A, 0x0C, 0x09, 0x0D, 0x0C, 0x0D, 0x0B, 0x0D, 0x0B, 0x0D, 0x0C, 0x09, 0x0B,
@@ -9704,12 +9704,12 @@ fn s_has_whitespaces_and_signs_and_62724425_in_base_3() {
 		0xF7, 0x25, 0xB6,
 	];
 
-	helper(S, BASE, 62724425);
+	helper(S, BASE, 62_724_425);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_243935175_in_base_3
+// region: s_has_whitespaces_and_signs_and_243_935_175_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_243935175_in_base_3() {
+fn s_has_whitespaces_and_signs_and_243_935_175_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0C, 0x20, 0x0C, 0x0C, 0x0B, 0x0D, 0x0D, 0x0C, 0x20, 0x0D, 0x0C, 0x0A, 0x0C,
 		0x0D, 0x0B, 0x0B, 0x0D, 0x0D, 0x09, 0x09, 0x0D, 0x09, 0x0B, 0x20, 0x0B, 0x2B, 0x2B, 0x2B,
@@ -9720,7 +9720,7 @@ fn s_has_whitespaces_and_signs_and_243935175_in_base_3() {
 		0x9E, 0x79, 0x55,
 	];
 
-	helper(S, BASE, 243935175);
+	helper(S, BASE, 243_935_175);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_5
@@ -9771,9 +9771,9 @@ fn s_has_whitespaces_and_signs_and_501_in_base_5() {
 	helper(S, BASE, 501);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8233_in_base_5
+// region: s_has_whitespaces_and_signs_and_8_233_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_8233_in_base_5() {
+fn s_has_whitespaces_and_signs_and_8_233_in_base_5() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0C, 0x09, 0x0A, 0x0A, 0x0C, 0x0A, 0x0D, 0x0B, 0x20, 0x0D, 0x0B, 0x2B, 0xD5,
 		0xD7, 0x82, 0xB4, 0x8C, 0xD7,
@@ -9782,12 +9782,12 @@ fn s_has_whitespaces_and_signs_and_8233_in_base_5() {
 		0x82, 0x8C, 0xD5, 0xD7, 0xB4,
 	];
 
-	helper(S, BASE, 8233);
+	helper(S, BASE, 8_233);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_96978_in_base_5
+// region: s_has_whitespaces_and_signs_and_96_978_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_96978_in_base_5() {
+fn s_has_whitespaces_and_signs_and_96_978_in_base_5() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x20, 0x0B, 0x0A, 0x0C, 0x0C, 0x0C, 0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x0C, 0x20,
 		0x20, 0x0B, 0x09, 0x0C, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -9797,12 +9797,12 @@ fn s_has_whitespaces_and_signs_and_96978_in_base_5() {
 		0x32, 0x42, 0x0E, 0x16, 0x13,
 	];
 
-	helper(S, BASE, 96978);
+	helper(S, BASE, 96_978);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_859960_in_base_5
+// region: s_has_whitespaces_and_signs_and_859_960_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_859960_in_base_5() {
+fn s_has_whitespaces_and_signs_and_859_960_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0A, 0x20, 0x0B, 0x0D, 0x0D, 0x20, 0x20, 0x0B, 0x20, 0x0B, 0x0A, 0x09, 0x0B,
 		0x09, 0x0B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -9813,12 +9813,12 @@ fn s_has_whitespaces_and_signs_and_859960_in_base_5() {
 		0x12, 0xD0, 0x80, 0xBF, 0x06,
 	];
 
-	helper(S, BASE, 859960);
+	helper(S, BASE, 859_960);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_5209115_in_base_5
+// region: s_has_whitespaces_and_signs_and_5_209_115_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_5209115_in_base_5() {
+fn s_has_whitespaces_and_signs_and_5_209_115_in_base_5() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x09, 0x20, 0x09, 0x0C, 0x0A, 0x20, 0x09, 0x20, 0x09, 0x0A, 0x0C, 0x0D,
 		0x0D, 0x0A, 0x0C, 0x0A, 0x0A, 0x0C, 0x0B, 0x09, 0x0B, 0x0A, 0x0B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -9830,12 +9830,12 @@ fn s_has_whitespaces_and_signs_and_5209115_in_base_5() {
 		0xEC, 0x51, 0x15, 0x7E, 0x75,
 	];
 
-	helper(S, BASE, 5209115);
+	helper(S, BASE, 5_209_115);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_76130150_in_base_5
+// region: s_has_whitespaces_and_signs_and_76_130_150_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_76130150_in_base_5() {
+fn s_has_whitespaces_and_signs_and_76_130_150_in_base_5() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -9846,12 +9846,12 @@ fn s_has_whitespaces_and_signs_and_76130150_in_base_5() {
 		0x8E, 0xA7, 0x75, 0x42, 0x69,
 	];
 
-	helper(S, BASE, 76130150);
+	helper(S, BASE, 76_130_150);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_952240282_in_base_5
+// region: s_has_whitespaces_and_signs_and_952_240_282_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_952240282_in_base_5() {
+fn s_has_whitespaces_and_signs_and_952_240_282_in_base_5() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0C, 0x09, 0x0C, 0x0D, 0x0A, 0x20, 0x0A, 0x09, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x3E, 0x47, 0xEC, 0xEC, 0xEC, 0x3E, 0x3E, 0x59, 0x47, 0xEC, 0x59, 0x59, 0xEC,
@@ -9860,7 +9860,7 @@ fn s_has_whitespaces_and_signs_and_952240282_in_base_5() {
 		0xA9, 0x59, 0xEC, 0x3E, 0x47,
 	];
 
-	helper(S, BASE, 952240282);
+	helper(S, BASE, 952_240_282);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_3_in_base_7
@@ -9910,9 +9910,9 @@ fn s_has_whitespaces_and_signs_and_983_in_base_7() {
 	helper(S, BASE, 983);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2601_in_base_7
+// region: s_has_whitespaces_and_signs_and_2_601_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_2601_in_base_7() {
+fn s_has_whitespaces_and_signs_and_2_601_in_base_7() {
 	const S: &[u8] = &[
 		0x0B, 0x2B, 0x2D, 0x2D, 0x2B, 0x3D, 0x9C, 0x26, 0x9C, 0x26,
 	];
@@ -9920,12 +9920,12 @@ fn s_has_whitespaces_and_signs_and_2601_in_base_7() {
 		0x9C, 0x3D, 0xCF, 0x0E, 0x26, 0xEC, 0xAD,
 	];
 
-	helper(S, BASE, 2601);
+	helper(S, BASE, 2_601);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_51498_in_base_7
+// region: s_has_whitespaces_and_signs_and_51_498_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_51498_in_base_7() {
+fn s_has_whitespaces_and_signs_and_51_498_in_base_7() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0C, 0x09, 0x0B, 0x0B, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x20, 0x0D, 0x0C, 0x0C,
 		0x0D, 0x0A, 0x0D, 0x0C, 0x0A, 0x20, 0x0B, 0x0C, 0x0C, 0x0C, 0x0D, 0x0B, 0x0B, 0x20, 0x20,
@@ -9937,12 +9937,12 @@ fn s_has_whitespaces_and_signs_and_51498_in_base_7() {
 		0xE0, 0x86, 0xFF, 0xD1, 0xAB, 0xDA, 0xC3,
 	];
 
-	helper(S, BASE, 51498);
+	helper(S, BASE, 51_498);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_468220_in_base_7
+// region: s_has_whitespaces_and_signs_and_468_220_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_468220_in_base_7() {
+fn s_has_whitespaces_and_signs_and_468_220_in_base_7() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0A, 0x20, 0x20, 0x09, 0x0A, 0x09, 0x0A, 0x20, 0x0D, 0x20, 0x0C, 0x20, 0x0A,
 		0x0B, 0x20, 0x09, 0x09, 0x20, 0x0B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -9954,12 +9954,12 @@ fn s_has_whitespaces_and_signs_and_468220_in_base_7() {
 		0x5B, 0xE7, 0xFD, 0xD0, 0x68, 0xEB, 0x53,
 	];
 
-	helper(S, BASE, 468220);
+	helper(S, BASE, 468_220);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_5577519_in_base_7
+// region: s_has_whitespaces_and_signs_and_5_577_519_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_5577519_in_base_7() {
+fn s_has_whitespaces_and_signs_and_5_577_519_in_base_7() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0B, 0x20, 0x0B, 0x0D, 0x0D, 0x0D, 0x20, 0x0D, 0x0D, 0x20, 0x0A, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -9969,12 +9969,12 @@ fn s_has_whitespaces_and_signs_and_5577519_in_base_7() {
 		0xF6, 0x7A, 0x79, 0x55, 0xB8, 0x38, 0xC1,
 	];
 
-	helper(S, BASE, 5577519);
+	helper(S, BASE, 5_577_519);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_64230744_in_base_7
+// region: s_has_whitespaces_and_signs_and_64_230_744_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_64230744_in_base_7() {
+fn s_has_whitespaces_and_signs_and_64_230_744_in_base_7() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x20, 0x0B, 0x09, 0x0C, 0x0D, 0x0B, 0x0D, 0x0D, 0x0D, 0x0A, 0x0D, 0x0C, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -9984,12 +9984,12 @@ fn s_has_whitespaces_and_signs_and_64230744_in_base_7() {
 		0x5D, 0xF9, 0x32, 0x13, 0xDF, 0x6D, 0x30,
 	];
 
-	helper(S, BASE, 64230744);
+	helper(S, BASE, 64_230_744);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_387870273_in_base_7
+// region: s_has_whitespaces_and_signs_and_387_870_273_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_387870273_in_base_7() {
+fn s_has_whitespaces_and_signs_and_387_870_273_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0C, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0xE8, 0xB3, 0x87, 0xE8, 0x97, 0x1E, 0x97, 0xB3, 0x77, 0x97, 0x77,
@@ -9998,7 +9998,7 @@ fn s_has_whitespaces_and_signs_and_387870273_in_base_7() {
 		0x77, 0xE8, 0xB3, 0x91, 0x87, 0x1E, 0x97,
 	];
 
-	helper(S, BASE, 387870273);
+	helper(S, BASE, 387_870_273);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_11
@@ -10048,9 +10048,9 @@ fn s_has_whitespaces_and_signs_and_671_in_base_11() {
 	helper(S, BASE, 671);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2265_in_base_11
+// region: s_has_whitespaces_and_signs_and_2_265_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_2265_in_base_11() {
+fn s_has_whitespaces_and_signs_and_2_265_in_base_11() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0B, 0x0B, 0x0B, 0x09, 0x09, 0x0D, 0x0D, 0x09, 0x0D, 0x20, 0x0A, 0x20,
 		0x0B, 0x0A, 0x20, 0x20, 0x20, 0x0A, 0x20, 0x0D, 0x20, 0x0C, 0x0B, 0x20, 0x0C, 0x0C, 0x0D,
@@ -10061,12 +10061,12 @@ fn s_has_whitespaces_and_signs_and_2265_in_base_11() {
 		0x08, 0x4B, 0x17, 0x5C, 0x66, 0x7C, 0x98, 0xFA, 0x59, 0x42, 0x90,
 	];
 
-	helper(S, BASE, 2265);
+	helper(S, BASE, 2_265);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_92058_in_base_11
+// region: s_has_whitespaces_and_signs_and_92_058_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_92058_in_base_11() {
+fn s_has_whitespaces_and_signs_and_92_058_in_base_11() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0C, 0x09, 0x09, 0x0B, 0x0C, 0x0D, 0x0B, 0x0D, 0x0D, 0x20, 0x20, 0x0A, 0x09,
 		0x09, 0x0B, 0x0A, 0x0D, 0x09, 0x0B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -10076,12 +10076,12 @@ fn s_has_whitespaces_and_signs_and_92058_in_base_11() {
 		0x65, 0x1C, 0x92, 0x75, 0x48, 0xE7, 0xB2, 0x15, 0x42, 0xAE, 0x07,
 	];
 
-	helper(S, BASE, 92058);
+	helper(S, BASE, 92_058);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_955102_in_base_11
+// region: s_has_whitespaces_and_signs_and_955_102_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_955102_in_base_11() {
+fn s_has_whitespaces_and_signs_and_955_102_in_base_11() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x09, 0x09, 0x0B, 0x09, 0x09, 0x0A, 0x20, 0x0D, 0x20,
 		0x09, 0x0B, 0x0C, 0x09, 0x0A, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
@@ -10091,12 +10091,12 @@ fn s_has_whitespaces_and_signs_and_955102_in_base_11() {
 		0xD4, 0x65, 0x4A, 0x4B, 0x0F, 0xA6, 0xCF, 0x3C, 0xB6, 0x76, 0xC1,
 	];
 
-	helper(S, BASE, 955102);
+	helper(S, BASE, 955_102);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2662652_in_base_11
+// region: s_has_whitespaces_and_signs_and_2_662_652_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_2662652_in_base_11() {
+fn s_has_whitespaces_and_signs_and_2_662_652_in_base_11() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0D, 0x09, 0x0A, 0x0D, 0x09, 0x0D, 0x0C, 0x0C, 0x20, 0x0B, 0x09, 0x09, 0x09,
 		0x0A, 0x0D, 0x0B, 0x0A, 0x09, 0x09, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -10106,12 +10106,12 @@ fn s_has_whitespaces_and_signs_and_2662652_in_base_11() {
 		0x0F, 0x29, 0xA0, 0x49, 0x32, 0x1A, 0xC8, 0xCB, 0xD7, 0x37, 0x1B,
 	];
 
-	helper(S, BASE, 2662652);
+	helper(S, BASE, 2_662_652);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81944209_in_base_11
+// region: s_has_whitespaces_and_signs_and_81_944_209_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_81944209_in_base_11() {
+fn s_has_whitespaces_and_signs_and_81_944_209_in_base_11() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x20, 0x0C, 0x0D, 0x0A, 0x20, 0x09, 0x0C, 0x0D, 0x0D, 0x09, 0x20, 0x20, 0x20,
 		0x20, 0x09, 0x20, 0x0D, 0x0D, 0x20, 0x09, 0x0B, 0x20, 0x0D, 0x0A, 0x0B, 0x0C, 0x0B, 0x0A,
@@ -10123,12 +10123,12 @@ fn s_has_whitespaces_and_signs_and_81944209_in_base_11() {
 		0xF9, 0xF7, 0xA5, 0xD6, 0x17, 0xD7, 0xF1, 0x7E, 0x99, 0x92, 0x11,
 	];
 
-	helper(S, BASE, 81944209);
+	helper(S, BASE, 81_944_209);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_764425850_in_base_11
+// region: s_has_whitespaces_and_signs_and_764_425_850_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_764425850_in_base_11() {
+fn s_has_whitespaces_and_signs_and_764_425_850_in_base_11() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0D, 0x0D, 0x0C, 0x20, 0x20, 0x09, 0x0C, 0x20, 0x0D, 0x20, 0x0C, 0x0D, 0x09,
 		0x0D, 0x0D, 0x0A, 0x0A, 0x0D, 0x0A, 0x09, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -10138,7 +10138,7 @@ fn s_has_whitespaces_and_signs_and_764425850_in_base_11() {
 		0x44, 0xD9, 0x16, 0xBD, 0xD4, 0xE9, 0x93, 0xE8, 0x22, 0xD8, 0x7B,
 	];
 
-	helper(S, BASE, 764425850);
+	helper(S, BASE, 764_425_850);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_13
@@ -10188,9 +10188,9 @@ fn s_has_whitespaces_and_signs_and_458_in_base_13() {
 	helper(S, BASE, 458);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7482_in_base_13
+// region: s_has_whitespaces_and_signs_and_7_482_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_7482_in_base_13() {
+fn s_has_whitespaces_and_signs_and_7_482_in_base_13() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x0D, 0x0A, 0x0B, 0x0B, 0x0B, 0x09, 0x0A, 0x0D, 0x0A, 0x09, 0x0B, 0x0B,
 		0x20, 0x0B, 0x0D, 0x0A, 0x0A, 0x0C, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -10201,12 +10201,12 @@ fn s_has_whitespaces_and_signs_and_7482_in_base_13() {
 		0xBA, 0x92, 0x25, 0xD5, 0xEB, 0xED, 0xCF, 0xEF, 0xFC, 0xFA, 0x9F, 0xB3, 0x86,
 	];
 
-	helper(S, BASE, 7482);
+	helper(S, BASE, 7_482);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_16803_in_base_13
+// region: s_has_whitespaces_and_signs_and_16_803_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_16803_in_base_13() {
+fn s_has_whitespaces_and_signs_and_16_803_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0C, 0x0D, 0x0C, 0x0C, 0x20, 0x0B, 0x0C, 0x0A, 0x0A, 0x0D, 0x09, 0x0C, 0x09,
 		0x0D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -10217,12 +10217,12 @@ fn s_has_whitespaces_and_signs_and_16803_in_base_13() {
 		0x22, 0xA4, 0x29, 0x19, 0x74, 0xA7, 0xD5, 0xDB, 0x63, 0x04, 0x56, 0xCE, 0x90,
 	];
 
-	helper(S, BASE, 16803);
+	helper(S, BASE, 16_803);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_716418_in_base_13
+// region: s_has_whitespaces_and_signs_and_716_418_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_716418_in_base_13() {
+fn s_has_whitespaces_and_signs_and_716_418_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0A, 0x0B, 0x09, 0x0D, 0x20, 0x09, 0x09, 0x0B, 0x20, 0x0A, 0x20, 0x0C, 0x0A,
 		0x0A, 0x20, 0x0D, 0x09, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -10234,12 +10234,12 @@ fn s_has_whitespaces_and_signs_and_716418_in_base_13() {
 		0xB3, 0xA0, 0x15, 0x25, 0x82, 0x37, 0xC8, 0x18, 0xCD, 0xA4, 0x08, 0xF7, 0xBB,
 	];
 
-	helper(S, BASE, 716418);
+	helper(S, BASE, 716_418);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9939089_in_base_13
+// region: s_has_whitespaces_and_signs_and_9_939_089_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_9939089_in_base_13() {
+fn s_has_whitespaces_and_signs_and_9_939_089_in_base_13() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x0A, 0x0B, 0x20, 0x0B, 0x09, 0x0C, 0x09, 0x20, 0x0D, 0x0C, 0x0C, 0x0B,
 		0x09, 0x0D, 0x0A, 0x0C, 0x0A, 0x20, 0x0D, 0x0B, 0x09, 0x0A, 0x0D, 0x0D, 0x09, 0x0D, 0x0C,
@@ -10252,12 +10252,12 @@ fn s_has_whitespaces_and_signs_and_9939089_in_base_13() {
 		0xD4, 0xD6, 0x68, 0x25, 0x61, 0xF6, 0x98, 0x7E, 0x3C, 0x80, 0x52, 0xC3, 0xA4,
 	];
 
-	helper(S, BASE, 9939089);
+	helper(S, BASE, 9_939_089);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_92660281_in_base_13
+// region: s_has_whitespaces_and_signs_and_92_660_281_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_92660281_in_base_13() {
+fn s_has_whitespaces_and_signs_and_92_660_281_in_base_13() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x20, 0x0B, 0x20, 0x09, 0x09, 0x0A, 0x0D, 0x0A, 0x0C, 0x09, 0x09, 0x0D, 0x0A,
 		0x0C, 0x20, 0x0A, 0x20, 0x0B, 0x20, 0x09, 0x09, 0x0C, 0x20, 0x20, 0x0A, 0x0A, 0x0C, 0x2B,
@@ -10268,12 +10268,12 @@ fn s_has_whitespaces_and_signs_and_92660281_in_base_13() {
 		0x41, 0xD6, 0xC7, 0xEF, 0x05, 0xE0, 0xC9, 0xD3, 0xDC, 0xD0, 0xB8, 0xF4, 0x12,
 	];
 
-	helper(S, BASE, 92660281);
+	helper(S, BASE, 92_660_281);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_903299132_in_base_13
+// region: s_has_whitespaces_and_signs_and_903_299_132_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_903299132_in_base_13() {
+fn s_has_whitespaces_and_signs_and_903_299_132_in_base_13() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0C, 0x0C, 0x0D, 0x0A, 0x09, 0x0A, 0x20, 0x09, 0x0B, 0x20, 0x09, 0x20, 0x0A,
 		0x09, 0x0D, 0x0A, 0x0A, 0x20, 0x09, 0x0A, 0x0A, 0x0A, 0x20, 0x0B, 0x20, 0x09, 0x2B, 0x2D,
@@ -10285,7 +10285,7 @@ fn s_has_whitespaces_and_signs_and_903299132_in_base_13() {
 		0x88, 0xDD, 0x85, 0x3E, 0x26, 0x1C, 0xEC, 0x83, 0x3A, 0xEE, 0x0F, 0xF0, 0xFB,
 	];
 
-	helper(S, BASE, 903299132);
+	helper(S, BASE, 903_299_132);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_8_in_base_19
@@ -10334,9 +10334,9 @@ fn s_has_whitespaces_and_signs_and_239_in_base_19() {
 	helper(S, BASE, 239);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9306_in_base_19
+// region: s_has_whitespaces_and_signs_and_9_306_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_9306_in_base_19() {
+fn s_has_whitespaces_and_signs_and_9_306_in_base_19() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0A, 0x0A, 0x0B, 0x0A, 0x0C, 0x09, 0x09, 0x20, 0x0D, 0x0C, 0x20, 0x0D, 0x0A,
 		0x0C, 0x0C, 0x20, 0x20, 0x0A, 0x20, 0x09, 0x0D, 0x0C, 0x0A, 0x0A, 0x0C, 0x0D, 0x0C, 0x20,
@@ -10350,12 +10350,12 @@ fn s_has_whitespaces_and_signs_and_9306_in_base_19() {
 		0x2E, 0x34, 0x15, 0x36,
 	];
 
-	helper(S, BASE, 9306);
+	helper(S, BASE, 9_306);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_58762_in_base_19
+// region: s_has_whitespaces_and_signs_and_58_762_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_58762_in_base_19() {
+fn s_has_whitespaces_and_signs_and_58_762_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x0D, 0x0C, 0x0C, 0x20, 0x0A, 0x0D, 0x20, 0x0A, 0x0C, 0x09, 0x0C, 0x0D,
 		0x0C, 0x20, 0x0C, 0x0A, 0x0A, 0x09, 0x0A, 0x20, 0x0C, 0x20, 0x0C, 0x0D, 0x20, 0x0B, 0x0B,
@@ -10366,12 +10366,12 @@ fn s_has_whitespaces_and_signs_and_58762_in_base_19() {
 		0xA8, 0x77, 0x79, 0xA2,
 	];
 
-	helper(S, BASE, 58762);
+	helper(S, BASE, 58_762);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_390829_in_base_19
+// region: s_has_whitespaces_and_signs_and_390_829_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_390829_in_base_19() {
+fn s_has_whitespaces_and_signs_and_390_829_in_base_19() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0C, 0x0B, 0x0A, 0x0C, 0x20, 0x0C, 0x0C, 0x0D, 0x0A, 0x0D, 0x20, 0x0A, 0x0D,
 		0x20, 0x0B, 0x0A, 0x0C, 0x09, 0x0A, 0x09, 0x0B, 0x0B, 0x20, 0x2D, 0x2D, 0x7D, 0xDE, 0xDE,
@@ -10382,12 +10382,12 @@ fn s_has_whitespaces_and_signs_and_390829_in_base_19() {
 		0x07, 0x2F, 0x48, 0xDE,
 	];
 
-	helper(S, BASE, 390829);
+	helper(S, BASE, 390_829);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9056944_in_base_19
+// region: s_has_whitespaces_and_signs_and_9_056_944_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_9056944_in_base_19() {
+fn s_has_whitespaces_and_signs_and_9_056_944_in_base_19() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x09, 0x0A, 0x20, 0x0A, 0x0B, 0x09, 0x0D, 0x0A, 0x0A, 0x0B, 0x09, 0x0C, 0x0C,
 		0x09, 0x09, 0x0C, 0x0B, 0x0D, 0x0D, 0x0C, 0x20, 0x20, 0x2B, 0x2B, 0x2B, 0xAD, 0xFA, 0x44,
@@ -10398,12 +10398,12 @@ fn s_has_whitespaces_and_signs_and_9056944_in_base_19() {
 		0x5E, 0xA8, 0x50, 0xCA,
 	];
 
-	helper(S, BASE, 9056944);
+	helper(S, BASE, 9_056_944);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_68804518_in_base_19
+// region: s_has_whitespaces_and_signs_and_68_804_518_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_68804518_in_base_19() {
+fn s_has_whitespaces_and_signs_and_68_804_518_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x09, 0x0A, 0x0D, 0x09, 0x0C, 0x0C, 0x20, 0x0D, 0x09, 0x0B, 0x0A, 0x09, 0x0B,
 		0x0D, 0x0A, 0x0B, 0x20, 0x09, 0x0A, 0x0A, 0x0B, 0x0D, 0x0C, 0x0D, 0x0B, 0x09, 0x2B, 0x2B,
@@ -10414,12 +10414,12 @@ fn s_has_whitespaces_and_signs_and_68804518_in_base_19() {
 		0x9A, 0xFE, 0x9C, 0x24,
 	];
 
-	helper(S, BASE, 68804518);
+	helper(S, BASE, 68_804_518);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_633571104_in_base_19
+// region: s_has_whitespaces_and_signs_and_633_571_104_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_633571104_in_base_19() {
+fn s_has_whitespaces_and_signs_and_633_571_104_in_base_19() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x09, 0x09, 0x09, 0x0D, 0x0A, 0x09, 0x0D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -10430,7 +10430,7 @@ fn s_has_whitespaces_and_signs_and_633571104_in_base_19() {
 		0x7D, 0xC1, 0x69, 0xCD,
 	];
 
-	helper(S, BASE, 633571104);
+	helper(S, BASE, 633_571_104);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_6_in_base_42
@@ -10486,9 +10486,9 @@ fn s_has_whitespaces_and_signs_and_838_in_base_42() {
 	helper(S, BASE, 838);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7443_in_base_42
+// region: s_has_whitespaces_and_signs_and_7_443_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_7443_in_base_42() {
+fn s_has_whitespaces_and_signs_and_7_443_in_base_42() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0A, 0x09, 0x09, 0x20, 0x0D, 0x0A, 0x0D, 0x0B, 0x20, 0x09, 0x20, 0x20, 0x09,
 		0x09, 0x0A, 0x0B, 0x20, 0x20, 0x09, 0x09, 0x0C, 0x20, 0x20, 0x09, 0x09, 0x20, 0x0C, 0x20,
@@ -10502,12 +10502,12 @@ fn s_has_whitespaces_and_signs_and_7443_in_base_42() {
 		0x8C, 0xAA, 0xF0, 0x67, 0xE4, 0x68, 0x7D, 0x91, 0xF3, 0xB7, 0x4D, 0x66,
 	];
 
-	helper(S, BASE, 7443);
+	helper(S, BASE, 7_443);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_75848_in_base_42
+// region: s_has_whitespaces_and_signs_and_75_848_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_75848_in_base_42() {
+fn s_has_whitespaces_and_signs_and_75_848_in_base_42() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x09, 0x20, 0x20, 0x20, 0x0B, 0x0C, 0x0B, 0x20, 0x09, 0x0D, 0x20, 0x0C, 0x0A,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -10519,12 +10519,12 @@ fn s_has_whitespaces_and_signs_and_75848_in_base_42() {
 		0x26, 0xA2, 0x81, 0xAF, 0xC5, 0x10, 0xA7, 0xAE, 0x29, 0xC9, 0xA4, 0x7C,
 	];
 
-	helper(S, BASE, 75848);
+	helper(S, BASE, 75_848);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_358657_in_base_42
+// region: s_has_whitespaces_and_signs_and_358_657_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_358657_in_base_42() {
+fn s_has_whitespaces_and_signs_and_358_657_in_base_42() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x09, 0x0B, 0x0B, 0x0D, 0x20, 0x0D, 0x20, 0x0A, 0x0A, 0x0B, 0x0A, 0x09, 0x0C,
 		0x0B, 0x09, 0x0C, 0x0D, 0x0D, 0x0C, 0x0C, 0x0D, 0x20, 0x0D, 0x0B, 0x20, 0x20, 0x0B, 0x20,
@@ -10538,12 +10538,12 @@ fn s_has_whitespaces_and_signs_and_358657_in_base_42() {
 		0xFB, 0xE6, 0x6B, 0x94, 0x49, 0x51, 0x5D, 0xF8, 0x9E, 0xA4, 0xC3, 0xDC,
 	];
 
-	helper(S, BASE, 358657);
+	helper(S, BASE, 358_657);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_4471294_in_base_42
+// region: s_has_whitespaces_and_signs_and_4_471_294_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_4471294_in_base_42() {
+fn s_has_whitespaces_and_signs_and_4_471_294_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0A, 0x0B, 0x09, 0x09, 0x0C, 0x0B, 0x0B, 0x20, 0x20, 0x20, 0x0C, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x4A, 0xC7, 0xEF, 0x27,
@@ -10555,12 +10555,12 @@ fn s_has_whitespaces_and_signs_and_4471294_in_base_42() {
 		0x1F, 0x27, 0x11, 0x9D, 0x32, 0x96, 0xEC, 0x16, 0x69, 0x58, 0xF8, 0x60,
 	];
 
-	helper(S, BASE, 4471294);
+	helper(S, BASE, 4_471_294);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_61495491_in_base_42
+// region: s_has_whitespaces_and_signs_and_61_495_491_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_61495491_in_base_42() {
+fn s_has_whitespaces_and_signs_and_61_495_491_in_base_42() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x09, 0x0B, 0x0B, 0x0C, 0x0D, 0x20, 0x0D, 0x20, 0x0C, 0x0A, 0x0A, 0x0A, 0x0B,
 		0x0D, 0x0C, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -10572,12 +10572,12 @@ fn s_has_whitespaces_and_signs_and_61495491_in_base_42() {
 		0xF8, 0xE4, 0x12, 0xC1, 0x3E, 0x56, 0x27, 0x50, 0xA9, 0x62, 0x9B, 0x13,
 	];
 
-	helper(S, BASE, 61495491);
+	helper(S, BASE, 61_495_491);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_941928619_in_base_42
+// region: s_has_whitespaces_and_signs_and_941_928_619_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_941928619_in_base_42() {
+fn s_has_whitespaces_and_signs_and_941_928_619_in_base_42() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0C, 0x09, 0x0A, 0x0C, 0x0B, 0x0A, 0x0B, 0x20, 0x0B, 0x0A, 0x0B, 0x0C, 0x20,
 		0x09, 0x0A, 0x20, 0x0B, 0x0A, 0x09, 0x0B, 0x0B, 0x0C, 0x09, 0x0B, 0x09, 0x0A, 0x0D, 0x09,
@@ -10590,7 +10590,7 @@ fn s_has_whitespaces_and_signs_and_941928619_in_base_42() {
 		0x12, 0x3F, 0xF6, 0x24, 0xCE, 0xEE, 0x40, 0x41, 0x05, 0x46, 0x2E, 0x91,
 	];
 
-	helper(S, BASE, 941928619);
+	helper(S, BASE, 941_928_619);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_9_in_base_73
@@ -10651,9 +10651,9 @@ fn s_has_whitespaces_and_signs_and_504_in_base_73() {
 	helper(S, BASE, 504);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_5462_in_base_73
+// region: s_has_whitespaces_and_signs_and_5_462_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_5462_in_base_73() {
+fn s_has_whitespaces_and_signs_and_5_462_in_base_73() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x20, 0x0D, 0x20, 0x0A, 0x09, 0x0A, 0x09, 0x0D, 0x0A, 0x09, 0x20, 0x0C, 0x0A,
 		0x0C, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C, 0x0A, 0x0A, 0x0D, 0x0D, 0x0B, 0x09, 0x0A, 0x09, 0x0B,
@@ -10669,12 +10669,12 @@ fn s_has_whitespaces_and_signs_and_5462_in_base_73() {
 		0x54, 0x22, 0xD1, 0xCD, 0x02, 0x56, 0x2F, 0x80, 0x98, 0xEF, 0x34, 0xC0, 0x16,
 	];
 
-	helper(S, BASE, 5462);
+	helper(S, BASE, 5_462);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81003_in_base_73
+// region: s_has_whitespaces_and_signs_and_81_003_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_81003_in_base_73() {
+fn s_has_whitespaces_and_signs_and_81_003_in_base_73() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x0B, 0x0A, 0x0C, 0x0A, 0x0B, 0x0C, 0x0B, 0x0B, 0x2B, 0x2B, 0x2B, 0x26, 0x60,
 		0xC6,
@@ -10687,12 +10687,12 @@ fn s_has_whitespaces_and_signs_and_81003_in_base_73() {
 		0x4A, 0x1F, 0xE1, 0xE6, 0xF5, 0x8C, 0x8F, 0x73, 0xD9, 0x2A, 0x45, 0xA9, 0x54,
 	];
 
-	helper(S, BASE, 81003);
+	helper(S, BASE, 81_003);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_903908_in_base_73
+// region: s_has_whitespaces_and_signs_and_903_908_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_903908_in_base_73() {
+fn s_has_whitespaces_and_signs_and_903_908_in_base_73() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0D, 0x20, 0x0A, 0x0A, 0x09, 0x0A, 0x09, 0x0A, 0x20, 0x20, 0x0D, 0x0D, 0x0A,
 		0x09, 0x0A, 0x20, 0x0A, 0x20, 0x09, 0x0C, 0x0A, 0x20, 0x0C, 0x09, 0x0A, 0x0A, 0x0A, 0x09,
@@ -10709,12 +10709,12 @@ fn s_has_whitespaces_and_signs_and_903908_in_base_73() {
 		0x36, 0x91, 0x5A, 0x01, 0x83, 0x06, 0xEB, 0x9A, 0xE2, 0x1C, 0xEC, 0x45, 0x2A,
 	];
 
-	helper(S, BASE, 903908);
+	helper(S, BASE, 903_908);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_5503006_in_base_73
+// region: s_has_whitespaces_and_signs_and_5_503_006_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_5503006_in_base_73() {
+fn s_has_whitespaces_and_signs_and_5_503_006_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x0D, 0x20, 0x20, 0x0B, 0x20, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -10729,12 +10729,12 @@ fn s_has_whitespaces_and_signs_and_5503006_in_base_73() {
 		0x5C, 0xB3, 0xB8, 0x38, 0xFB, 0xF5, 0x07, 0x1A, 0x24, 0xB0, 0xD1, 0x60, 0xC9,
 	];
 
-	helper(S, BASE, 5503006);
+	helper(S, BASE, 5_503_006);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_99164458_in_base_73
+// region: s_has_whitespaces_and_signs_and_99_164_458_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_99164458_in_base_73() {
+fn s_has_whitespaces_and_signs_and_99_164_458_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0C, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -10748,12 +10748,12 @@ fn s_has_whitespaces_and_signs_and_99164458_in_base_73() {
 		0x87, 0x95, 0x5A, 0x4F, 0xA0, 0xB9, 0x10, 0x49, 0x71, 0x0F, 0x05, 0x1D, 0xEF,
 	];
 
-	helper(S, BASE, 99164458);
+	helper(S, BASE, 99_164_458);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_485156290_in_base_73
+// region: s_has_whitespaces_and_signs_and_485_156_290_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_485156290_in_base_73() {
+fn s_has_whitespaces_and_signs_and_485_156_290_in_base_73() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x0B, 0x0D, 0x0C, 0x0B, 0x0D, 0x0B, 0x0D, 0x0C, 0x0C, 0x20, 0x0A, 0x0C,
 		0x20, 0x0B, 0x0D, 0x0D, 0x09, 0x0C, 0x20, 0x0B, 0x0A, 0x0C, 0x0D, 0x0C, 0x09, 0x0A, 0x2B,
@@ -10767,7 +10767,7 @@ fn s_has_whitespaces_and_signs_and_485156290_in_base_73() {
 		0x04, 0x88, 0xDA, 0xE0, 0x5E, 0xB1, 0x86, 0x4D, 0x29, 0x3A, 0x2A, 0x43, 0x6D,
 	];
 
-	helper(S, BASE, 485156290);
+	helper(S, BASE, 485_156_290);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_8_in_base_113
@@ -10836,9 +10836,9 @@ fn s_has_whitespaces_and_signs_and_498_in_base_113() {
 	helper(S, BASE, 498);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2025_in_base_113
+// region: s_has_whitespaces_and_signs_and_2_025_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_2025_in_base_113() {
+fn s_has_whitespaces_and_signs_and_2_025_in_base_113() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x09, 0x0B, 0x20, 0x0D, 0x0A, 0x20, 0x0C, 0x0D, 0x0C, 0x0C, 0x0C, 0x0C, 0x0B,
 		0x0C, 0x0D, 0x09, 0x0D, 0x20, 0x0B, 0x0C, 0x0A, 0x09, 0x0A, 0x0C, 0x0B, 0x0C, 0x0A, 0x0D,
@@ -10857,12 +10857,12 @@ fn s_has_whitespaces_and_signs_and_2025_in_base_113() {
 		0x2C, 0x77, 0x4A, 0x4C, 0xED, 0xD1, 0xC7, 0xC3,
 	];
 
-	helper(S, BASE, 2025);
+	helper(S, BASE, 2_025);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_68359_in_base_113
+// region: s_has_whitespaces_and_signs_and_68_359_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_68359_in_base_113() {
+fn s_has_whitespaces_and_signs_and_68_359_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x8A, 0x82, 0x4A,
 	];
@@ -10877,12 +10877,12 @@ fn s_has_whitespaces_and_signs_and_68359_in_base_113() {
 		0x55, 0x4B, 0x4A, 0xA7, 0x9B, 0x60, 0xB8, 0x46,
 	];
 
-	helper(S, BASE, 68359);
+	helper(S, BASE, 68_359);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_662381_in_base_113
+// region: s_has_whitespaces_and_signs_and_662_381_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_662381_in_base_113() {
+fn s_has_whitespaces_and_signs_and_662_381_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x0A, 0x09, 0x0B, 0x0A, 0x0D, 0x20, 0x0C, 0x0A, 0x0A, 0x0C, 0x0B, 0x09,
 		0x0C, 0x0D, 0x09, 0x0B, 0x0A, 0x0C, 0x0B, 0x0A, 0x0A, 0x09, 0x0B, 0x0C, 0x0C, 0x0A, 0x0D,
@@ -10900,12 +10900,12 @@ fn s_has_whitespaces_and_signs_and_662381_in_base_113() {
 		0x6A, 0x8C, 0x87, 0x63, 0xE8, 0xC5, 0x0E, 0xF2,
 	];
 
-	helper(S, BASE, 662381);
+	helper(S, BASE, 662_381);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8412887_in_base_113
+// region: s_has_whitespaces_and_signs_and_8_412_887_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_8412887_in_base_113() {
+fn s_has_whitespaces_and_signs_and_8_412_887_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0B, 0x0B, 0x0B, 0x0C, 0x09, 0x09, 0x0B, 0x0D, 0x0B, 0x20, 0x20, 0x0D, 0x20,
 		0x0D, 0x0A, 0x0D, 0x0B, 0x09, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -10924,12 +10924,12 @@ fn s_has_whitespaces_and_signs_and_8412887_in_base_113() {
 		0x37, 0xA0, 0x8D, 0x80, 0x1A, 0x28, 0x16, 0x02,
 	];
 
-	helper(S, BASE, 8412887);
+	helper(S, BASE, 8_412_887);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_17839954_in_base_113
+// region: s_has_whitespaces_and_signs_and_17_839_954_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_17839954_in_base_113() {
+fn s_has_whitespaces_and_signs_and_17_839_954_in_base_113() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x09, 0x0A, 0x0B, 0x09, 0x09, 0x0C, 0x20, 0x09, 0x09, 0x09, 0x0D, 0x0B, 0x0C,
 		0x20, 0x0C, 0x0D, 0x0A, 0x0B, 0x0A, 0x0A, 0x0C, 0x0A, 0x20, 0x0A, 0x0B, 0x0C, 0x20, 0x0D,
@@ -10947,12 +10947,12 @@ fn s_has_whitespaces_and_signs_and_17839954_in_base_113() {
 		0x22, 0x02, 0x7C, 0x76, 0x45, 0xCD, 0xDB, 0x06,
 	];
 
-	helper(S, BASE, 17839954);
+	helper(S, BASE, 17_839_954);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_312286401_in_base_113
+// region: s_has_whitespaces_and_signs_and_312_286_401_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_312286401_in_base_113() {
+fn s_has_whitespaces_and_signs_and_312_286_401_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x09, 0x09, 0x0C, 0x09, 0x0C, 0x0B, 0x0C, 0x0C, 0x0D, 0x0A, 0x0A, 0x0A, 0x20,
 		0x0B, 0x0C, 0x0B, 0x0A, 0x09, 0x0B, 0x0D, 0x0B, 0x0B, 0x09, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -10970,7 +10970,7 @@ fn s_has_whitespaces_and_signs_and_312286401_in_base_113() {
 		0xB2, 0x9C, 0x33, 0xFF, 0x50, 0x6D, 0x56, 0x1B,
 	];
 
-	helper(S, BASE, 312286401);
+	helper(S, BASE, 312_286_401);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_193
@@ -11055,9 +11055,9 @@ fn s_has_whitespaces_and_signs_and_123_in_base_193() {
 	helper(S, BASE, 123);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7060_in_base_193
+// region: s_has_whitespaces_and_signs_and_7_060_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_7060_in_base_193() {
+fn s_has_whitespaces_and_signs_and_7_060_in_base_193() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0D, 0x20, 0x0D, 0x0A, 0x0A, 0x0D, 0x0C, 0x20, 0x0D, 0x0D, 0x0D, 0x0B, 0x0D,
 		0x0C, 0x0A, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x6C, 0x1E,
@@ -11078,12 +11078,12 @@ fn s_has_whitespaces_and_signs_and_7060_in_base_193() {
 		0x5B, 0x1B, 0x13, 0xDF, 0x8F, 0x5F, 0x90, 0xA0, 0xB2, 0x2C, 0xE9, 0x3A, 0x74,
 	];
 
-	helper(S, BASE, 7060);
+	helper(S, BASE, 7_060);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_36713_in_base_193
+// region: s_has_whitespaces_and_signs_and_36_713_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_36713_in_base_193() {
+fn s_has_whitespaces_and_signs_and_36_713_in_base_193() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x09, 0x0D, 0x09, 0x0B, 0x0B, 0x0A, 0x0D, 0x0C, 0x0D, 0x0A, 0x0C, 0x20, 0x0A,
 		0x09, 0x0A, 0x0C, 0x0D, 0x0D, 0x0D, 0x09, 0x0C, 0x0A, 0x0A, 0x20, 0x09, 0x0D, 0x09, 0x0B,
@@ -11107,12 +11107,12 @@ fn s_has_whitespaces_and_signs_and_36713_in_base_193() {
 		0x45, 0xB8, 0x40, 0xF4, 0xA4, 0xD7, 0xCC, 0xB1, 0xCD, 0x0F, 0xD1, 0x83, 0x18,
 	];
 
-	helper(S, BASE, 36713);
+	helper(S, BASE, 36_713);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_118656_in_base_193
+// region: s_has_whitespaces_and_signs_and_118_656_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_118656_in_base_193() {
+fn s_has_whitespaces_and_signs_and_118_656_in_base_193() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0D, 0x20, 0x20, 0x0A, 0x0B, 0x20, 0x20, 0x0C, 0x09, 0x0C, 0x0C, 0x0A, 0x0B,
 		0x09, 0x0D, 0x0A, 0x0A, 0x0A, 0x0B, 0x0B, 0x20, 0x0A, 0x0D, 0x0D, 0x0D, 0x0C, 0x20, 0x2B,
@@ -11135,12 +11135,12 @@ fn s_has_whitespaces_and_signs_and_118656_in_base_193() {
 		0xD0, 0xDF, 0xC2, 0x3A, 0x88, 0xC9, 0xFA, 0x96, 0x9A, 0xBC, 0x8A, 0x5D, 0x39,
 	];
 
-	helper(S, BASE, 118656);
+	helper(S, BASE, 118_656);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_6224136_in_base_193
+// region: s_has_whitespaces_and_signs_and_6_224_136_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_6224136_in_base_193() {
+fn s_has_whitespaces_and_signs_and_6_224_136_in_base_193() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x09, 0x0D, 0x20, 0x0D, 0x0D, 0x09, 0x09, 0x0B, 0x0D, 0x0C, 0x09, 0x0D, 0x0A,
 		0x0B, 0x0A, 0x0A, 0x0B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -11163,12 +11163,12 @@ fn s_has_whitespaces_and_signs_and_6224136_in_base_193() {
 		0xB7, 0xE1, 0x6E, 0x04, 0x2E, 0x5E, 0xA1, 0x74, 0x14, 0x56, 0xBB, 0xD1, 0xA5,
 	];
 
-	helper(S, BASE, 6224136);
+	helper(S, BASE, 6_224_136);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_86150888_in_base_193
+// region: s_has_whitespaces_and_signs_and_86_150_888_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_86150888_in_base_193() {
+fn s_has_whitespaces_and_signs_and_86_150_888_in_base_193() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0C, 0x0B, 0x0D, 0x0C, 0x0B, 0x0D, 0x0B, 0x20, 0x0A, 0x0B, 0x0B, 0x0D, 0x09,
 		0x09, 0x20, 0x0D, 0x0B, 0x0A, 0x20, 0x0B, 0x0A, 0x0D, 0x09, 0x0C, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -11190,12 +11190,12 @@ fn s_has_whitespaces_and_signs_and_86150888_in_base_193() {
 		0x93, 0x8D, 0x72, 0xA5, 0x51, 0xD7, 0xF4, 0x85, 0x69, 0x5E, 0x3F, 0x7B, 0x8A,
 	];
 
-	helper(S, BASE, 86150888);
+	helper(S, BASE, 86_150_888);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_572931112_in_base_193
+// region: s_has_whitespaces_and_signs_and_572_931_112_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_572931112_in_base_193() {
+fn s_has_whitespaces_and_signs_and_572_931_112_in_base_193() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0A, 0x0D, 0x0C, 0x0B, 0x0C, 0x0C, 0x20, 0x0B, 0x0D, 0x0C, 0x0C, 0x0B, 0x09,
 		0x0C, 0x0C, 0x0C, 0x09, 0x20, 0x0D, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -11219,7 +11219,7 @@ fn s_has_whitespaces_and_signs_and_572931112_in_base_193() {
 		0x76, 0xA0, 0xB5, 0x93, 0x62, 0x56, 0x77, 0x30, 0x7B, 0x6E, 0xAD, 0xC7, 0x28,
 	];
 
-	helper(S, BASE, 572931112);
+	helper(S, BASE, 572_931_112);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_247
@@ -11315,9 +11315,9 @@ fn s_has_whitespaces_and_signs_and_438_in_base_247() {
 	helper(S, BASE, 438);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_6208_in_base_247
+// region: s_has_whitespaces_and_signs_and_6_208_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_6208_in_base_247() {
+fn s_has_whitespaces_and_signs_and_6_208_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0B, 0x20, 0x0D, 0x0D, 0x09, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0xA6, 0xB7,
@@ -11342,12 +11342,12 @@ fn s_has_whitespaces_and_signs_and_6208_in_base_247() {
 		0xFE, 0x87, 0x78, 0xD6, 0x5A, 0x7F, 0xA4,
 	];
 
-	helper(S, BASE, 6208);
+	helper(S, BASE, 6_208);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_74615_in_base_247
+// region: s_has_whitespaces_and_signs_and_74_615_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_74615_in_base_247() {
+fn s_has_whitespaces_and_signs_and_74_615_in_base_247() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0D, 0x0D, 0x20, 0x09, 0x0D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -11373,12 +11373,12 @@ fn s_has_whitespaces_and_signs_and_74615_in_base_247() {
 		0x12, 0x04, 0xBB, 0x18, 0x98, 0xFB, 0xBE,
 	];
 
-	helper(S, BASE, 74615);
+	helper(S, BASE, 74_615);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_688130_in_base_247
+// region: s_has_whitespaces_and_signs_and_688_130_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_688130_in_base_247() {
+fn s_has_whitespaces_and_signs_and_688_130_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x7D, 0x83, 0xFA,
@@ -11403,12 +11403,12 @@ fn s_has_whitespaces_and_signs_and_688130_in_base_247() {
 		0x77, 0x22, 0x38, 0x17, 0x2E, 0x3A, 0x3E,
 	];
 
-	helper(S, BASE, 688130);
+	helper(S, BASE, 688_130);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8264576_in_base_247
+// region: s_has_whitespaces_and_signs_and_8_264_576_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_8264576_in_base_247() {
+fn s_has_whitespaces_and_signs_and_8_264_576_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x09, 0x0C, 0x20, 0x0A, 0x09, 0x20, 0x09, 0x0B, 0x0C, 0x09, 0x0B, 0x09, 0x0A,
 		0x0C, 0x09, 0x0D, 0x0C, 0x20, 0x0C, 0x0C, 0x0D, 0x09, 0x0A, 0x09, 0x09, 0x20, 0x09, 0x09,
@@ -11434,12 +11434,12 @@ fn s_has_whitespaces_and_signs_and_8264576_in_base_247() {
 		0x42, 0x24, 0x9D, 0xEA, 0x44, 0xAD, 0x97,
 	];
 
-	helper(S, BASE, 8264576);
+	helper(S, BASE, 8_264_576);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_71766866_in_base_247
+// region: s_has_whitespaces_and_signs_and_71_766_866_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_71766866_in_base_247() {
+fn s_has_whitespaces_and_signs_and_71_766_866_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0C, 0x0C, 0x0D, 0x0B, 0x20, 0x20, 0x0C, 0x0C, 0x09, 0x20, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x4B, 0x16, 0x93, 0x33,
@@ -11464,12 +11464,12 @@ fn s_has_whitespaces_and_signs_and_71766866_in_base_247() {
 		0x19, 0x07, 0x98, 0x67, 0x1A, 0x74, 0x02,
 	];
 
-	helper(S, BASE, 71766866);
+	helper(S, BASE, 71_766_866);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_108868334_in_base_247
+// region: s_has_whitespaces_and_signs_and_108_868_334_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_108868334_in_base_247() {
+fn s_has_whitespaces_and_signs_and_108_868_334_in_base_247() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x0A, 0x0A, 0x20, 0x0D, 0x20, 0x2B, 0xA8, 0x62, 0xD8, 0xD3,
 	];
@@ -11493,7 +11493,7 @@ fn s_has_whitespaces_and_signs_and_108868334_in_base_247() {
 		0xC2, 0xBC, 0xBB, 0xD2, 0xF3, 0x33, 0x4C,
 	];
 
-	helper(S, BASE, 108868334);
+	helper(S, BASE, 108_868_334);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_2_in_base_2
@@ -11543,9 +11543,9 @@ fn s_has_whitespaces_and_zeros_and_272_in_base_2() {
 	helper(S, BASE, 272);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8924_in_base_2
+// region: s_has_whitespaces_and_zeros_and_8_924_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_8924_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_8_924_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x20, 0x0B, 0x20, 0x20, 0x0C, 0x09, 0x09, 0x0A, 0x0D, 0x0C, 0x0A, 0x0C, 0x20,
 		0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D,
@@ -11557,12 +11557,12 @@ fn s_has_whitespaces_and_zeros_and_8924_in_base_2() {
 		0x4D, 0x9B,
 	];
 
-	helper(S, BASE, 8924);
+	helper(S, BASE, 8_924);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_29051_in_base_2
+// region: s_has_whitespaces_and_zeros_and_29_051_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_29051_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_29_051_in_base_2() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x09, 0x0C, 0x0A, 0x20, 0x09, 0x0D, 0x0C, 0x0B, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3,
 		0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3, 0xC3,
@@ -11573,12 +11573,12 @@ fn s_has_whitespaces_and_zeros_and_29051_in_base_2() {
 		0xC3, 0x1B,
 	];
 
-	helper(S, BASE, 29051);
+	helper(S, BASE, 29_051);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_925372_in_base_2
+// region: s_has_whitespaces_and_zeros_and_925_372_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_925372_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_925_372_in_base_2() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x09, 0x0A, 0x0D, 0x0D, 0x0B, 0x20, 0x0A, 0x0D, 0x0C, 0x0B, 0x0C, 0x09, 0x0A,
 		0x20, 0x09, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD,
@@ -11589,12 +11589,12 @@ fn s_has_whitespaces_and_zeros_and_925372_in_base_2() {
 		0xDD, 0xA1,
 	];
 
-	helper(S, BASE, 925372);
+	helper(S, BASE, 925_372);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_7206071_in_base_2
+// region: s_has_whitespaces_and_zeros_and_7_206_071_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_7206071_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_7_206_071_in_base_2() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0A, 0x09, 0x0B, 0x20, 0x0B, 0x0A, 0x20, 0x0C, 0x0C, 0x0D, 0x0C, 0x0B, 0x0A,
 		0x0B, 0x0B, 0x0A, 0x0C, 0x09, 0x09, 0x0B, 0x09, 0x20, 0x0D, 0x0D, 0x0D, 0x20, 0x20, 0x0D,
@@ -11606,12 +11606,12 @@ fn s_has_whitespaces_and_zeros_and_7206071_in_base_2() {
 		0x27, 0x6B,
 	];
 
-	helper(S, BASE, 7206071);
+	helper(S, BASE, 7_206_071);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_95973219_in_base_2
+// region: s_has_whitespaces_and_zeros_and_95_973_219_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_95973219_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_95_973_219_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0C, 0x0C, 0x0A, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xB2, 0xF1,
 		0xB2, 0xB2, 0xF1, 0xB2, 0xB2, 0xB2, 0xF1, 0xF1, 0xF1, 0xF1, 0xB2, 0xB2, 0xF1, 0xB2, 0xB2,
@@ -11621,12 +11621,12 @@ fn s_has_whitespaces_and_zeros_and_95973219_in_base_2() {
 		0xF1, 0xB2,
 	];
 
-	helper(S, BASE, 95973219);
+	helper(S, BASE, 95_973_219);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_649716586_in_base_2
+// region: s_has_whitespaces_and_zeros_and_649_716_586_in_base_2
 #[test]
-fn s_has_whitespaces_and_zeros_and_649716586_in_base_2() {
+fn s_has_whitespaces_and_zeros_and_649_716_586_in_base_2() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0D, 0x0B, 0x0C, 0x0C, 0x0C, 0x20, 0x20, 0x0A, 0x0D, 0x0C, 0x0C, 0xD4,
 		0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0x26, 0xD4, 0xD4, 0x26,
@@ -11637,7 +11637,7 @@ fn s_has_whitespaces_and_zeros_and_649716586_in_base_2() {
 		0xD4, 0x26,
 	];
 
-	helper(S, BASE, 649716586);
+	helper(S, BASE, 649_716_586);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_9_in_base_3
@@ -11689,9 +11689,9 @@ fn s_has_whitespaces_and_zeros_and_747_in_base_3() {
 	helper(S, BASE, 747);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_9056_in_base_3
+// region: s_has_whitespaces_and_zeros_and_9_056_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_9056_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_9_056_in_base_3() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0D, 0x20, 0x09, 0x0D, 0x20, 0x0A, 0x09, 0x0C, 0x20, 0x0B, 0x09, 0x20, 0x20,
 		0x20, 0x0B, 0x0D, 0x0D, 0x20, 0x09, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3,
@@ -11703,12 +11703,12 @@ fn s_has_whitespaces_and_zeros_and_9056_in_base_3() {
 		0xF3, 0x88, 0x22,
 	];
 
-	helper(S, BASE, 9056);
+	helper(S, BASE, 9_056);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_66402_in_base_3
+// region: s_has_whitespaces_and_zeros_and_66_402_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_66402_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_66_402_in_base_3() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x09, 0x0A, 0x0B, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34,
 		0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34, 0x34,
@@ -11719,12 +11719,12 @@ fn s_has_whitespaces_and_zeros_and_66402_in_base_3() {
 		0x34, 0xB3, 0xA2,
 	];
 
-	helper(S, BASE, 66402);
+	helper(S, BASE, 66_402);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_950326_in_base_3
+// region: s_has_whitespaces_and_zeros_and_950_326_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_950326_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_950_326_in_base_3() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x09, 0x09, 0x20, 0x09, 0x20, 0x20, 0x0D, 0x0C, 0x0B, 0x0D, 0x0C, 0x0B, 0x0D,
 		0x0B, 0x0A, 0x20, 0x0A, 0x0A, 0x0D, 0x20, 0x0A, 0x20, 0x20, 0x20, 0x20, 0x20, 0x09, 0x0C,
@@ -11736,12 +11736,12 @@ fn s_has_whitespaces_and_zeros_and_950326_in_base_3() {
 		0xC2, 0xCF, 0x33,
 	];
 
-	helper(S, BASE, 950326);
+	helper(S, BASE, 950_326);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1168081_in_base_3
+// region: s_has_whitespaces_and_zeros_and_1_168_081_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_1168081_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_1_168_081_in_base_3() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x20, 0x20, 0x20, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82,
 		0x82, 0x82, 0x82, 0x82, 0x82, 0xB1, 0x82, 0xE4, 0xB1, 0xE4, 0x82, 0x82, 0x82, 0xB1, 0xB1,
@@ -11751,12 +11751,12 @@ fn s_has_whitespaces_and_zeros_and_1168081_in_base_3() {
 		0x82, 0xE4, 0xB1,
 	];
 
-	helper(S, BASE, 1168081);
+	helper(S, BASE, 1_168_081);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_28195432_in_base_3
+// region: s_has_whitespaces_and_zeros_and_28_195_432_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_28195432_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_28_195_432_in_base_3() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x09, 0x0D, 0x09, 0x0A, 0x09, 0x0A, 0x20, 0x09, 0x0B, 0x20, 0x0B, 0x0C, 0x09,
 		0x20, 0x0A, 0x0D, 0x0D, 0x20, 0x0C, 0x0C, 0x0A, 0x0A, 0x0D, 0x0A, 0x0B, 0x0B, 0x0C, 0x0A,
@@ -11768,12 +11768,12 @@ fn s_has_whitespaces_and_zeros_and_28195432_in_base_3() {
 		0x61, 0xFF, 0x19,
 	];
 
-	helper(S, BASE, 28195432);
+	helper(S, BASE, 28_195_432);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_834290865_in_base_3
+// region: s_has_whitespaces_and_zeros_and_834_290_865_in_base_3
 #[test]
-fn s_has_whitespaces_and_zeros_and_834290865_in_base_3() {
+fn s_has_whitespaces_and_zeros_and_834_290_865_in_base_3() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x20, 0x0D, 0x0B, 0x0C, 0x09, 0x0B, 0x0B, 0x0B, 0x0B, 0x0A, 0x0D, 0x0A, 0x09,
 		0x20, 0x0A, 0x20, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x20, 0x09, 0x0C, 0x0C, 0x0A, 0x0C, 0x0C,
@@ -11787,7 +11787,7 @@ fn s_has_whitespaces_and_zeros_and_834290865_in_base_3() {
 		0xD7, 0xF1, 0xAC,
 	];
 
-	helper(S, BASE, 834290865);
+	helper(S, BASE, 834_290_865);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_9_in_base_5
@@ -11837,9 +11837,9 @@ fn s_has_whitespaces_and_zeros_and_715_in_base_5() {
 	helper(S, BASE, 715);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1851_in_base_5
+// region: s_has_whitespaces_and_zeros_and_1_851_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_1851_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_1_851_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x09, 0x0C, 0x20, 0x0C, 0x0B, 0x0D, 0x20, 0x09, 0x09, 0x0D, 0x09, 0x0D, 0x0C,
 		0x09, 0x20, 0x0C, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F, 0x1F,
@@ -11850,12 +11850,12 @@ fn s_has_whitespaces_and_zeros_and_1851_in_base_5() {
 		0x1F, 0x8F, 0x1C, 0x35, 0x5A,
 	];
 
-	helper(S, BASE, 1851);
+	helper(S, BASE, 1_851);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_50776_in_base_5
+// region: s_has_whitespaces_and_zeros_and_50_776_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_50776_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_50_776_in_base_5() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x0B, 0x20, 0x0B, 0x09, 0x0B, 0x0A, 0x0A, 0x09, 0xD5, 0xD5, 0xD5, 0xD5,
 		0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5, 0xD5,
@@ -11865,12 +11865,12 @@ fn s_has_whitespaces_and_zeros_and_50776_in_base_5() {
 		0xD5, 0x92, 0x04, 0x78, 0xBB,
 	];
 
-	helper(S, BASE, 50776);
+	helper(S, BASE, 50_776);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_557605_in_base_5
+// region: s_has_whitespaces_and_zeros_and_557_605_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_557605_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_557_605_in_base_5() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0D, 0x09, 0x0D, 0x20, 0x20, 0x0C, 0x0B, 0x20, 0x0D, 0x0D, 0x0C, 0x0C, 0x20,
 		0x20, 0x0D, 0x0D, 0x0B, 0x20, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC,
@@ -11881,12 +11881,12 @@ fn s_has_whitespaces_and_zeros_and_557605_in_base_5() {
 		0xCC, 0xE9, 0x06, 0xA2, 0x83,
 	];
 
-	helper(S, BASE, 557605);
+	helper(S, BASE, 557_605);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_5083539_in_base_5
+// region: s_has_whitespaces_and_zeros_and_5_083_539_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_5083539_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_5_083_539_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x20, 0x09, 0x0A, 0x09, 0x09, 0x0A, 0x0A, 0x09, 0x09, 0xF4, 0xF4, 0xF4, 0xF4,
 		0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4,
@@ -11897,12 +11897,12 @@ fn s_has_whitespaces_and_zeros_and_5083539_in_base_5() {
 		0xF4, 0x92, 0x11, 0xCD, 0x86,
 	];
 
-	helper(S, BASE, 5083539);
+	helper(S, BASE, 5_083_539);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_94885152_in_base_5
+// region: s_has_whitespaces_and_zeros_and_94_885_152_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_94885152_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_94_885_152_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0B, 0x0C, 0x0C, 0x20, 0x20, 0x0B, 0x0B, 0x0D, 0x0B, 0x0A, 0x09, 0x0D, 0x09,
 		0x0A, 0x20, 0x0A, 0x0D, 0x20, 0x0D, 0x0D, 0x0B, 0x0D, 0x0D, 0x1A, 0x1A, 0x1A, 0x1A, 0x1A,
@@ -11915,12 +11915,12 @@ fn s_has_whitespaces_and_zeros_and_94885152_in_base_5() {
 		0x1A, 0x1E, 0x80, 0x6E, 0x72,
 	];
 
-	helper(S, BASE, 94885152);
+	helper(S, BASE, 94_885_152);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_772590685_in_base_5
+// region: s_has_whitespaces_and_zeros_and_772_590_685_in_base_5
 #[test]
-fn s_has_whitespaces_and_zeros_and_772590685_in_base_5() {
+fn s_has_whitespaces_and_zeros_and_772_590_685_in_base_5() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0D, 0x20, 0x0A, 0x0B, 0x0A, 0x0A, 0x0D, 0x09, 0x0B, 0x20, 0x0A, 0x0D, 0x0C,
 		0x0B, 0x0A, 0x0B, 0x0A, 0x0A, 0x20, 0x0B, 0x0A, 0x0D, 0x20, 0x0C, 0x0B, 0x09, 0x0C, 0x09,
@@ -11932,7 +11932,7 @@ fn s_has_whitespaces_and_zeros_and_772590685_in_base_5() {
 		0xE9, 0xC1, 0x40, 0xFF, 0x93,
 	];
 
-	helper(S, BASE, 772590685);
+	helper(S, BASE, 772_590_685);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_6_in_base_7
@@ -11984,9 +11984,9 @@ fn s_has_whitespaces_and_zeros_and_529_in_base_7() {
 	helper(S, BASE, 529);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_9692_in_base_7
+// region: s_has_whitespaces_and_zeros_and_9_692_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_9692_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_9_692_in_base_7() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x20, 0x0A, 0x0D, 0x0D, 0x09, 0x20, 0x09, 0x0C, 0x20, 0x0C, 0x0D, 0x20, 0x0C,
 		0x0D, 0x0D, 0x0C, 0x0C, 0x09, 0x20, 0x20, 0x0D, 0x0A, 0x0D, 0x20, 0x0A, 0x0A, 0x0B, 0x0C,
@@ -11997,12 +11997,12 @@ fn s_has_whitespaces_and_zeros_and_9692_in_base_7() {
 		0xD6, 0x70, 0x23, 0x3A, 0x14, 0x72, 0x52,
 	];
 
-	helper(S, BASE, 9692);
+	helper(S, BASE, 9_692);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_24066_in_base_7
+// region: s_has_whitespaces_and_zeros_and_24_066_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_24066_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_24_066_in_base_7() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x09, 0x09, 0x0B, 0x20, 0x20, 0x0C, 0x0B, 0x20, 0x0A, 0x0A, 0x0B, 0x20, 0x0D,
 		0x0D, 0x20, 0x0B, 0x0C, 0x09, 0x20, 0x20, 0x20, 0x0A, 0x0D, 0x0D, 0x0A, 0x0C, 0x20, 0x20,
@@ -12014,12 +12014,12 @@ fn s_has_whitespaces_and_zeros_and_24066_in_base_7() {
 		0x63, 0x10, 0x33, 0xD3, 0x9E, 0xCB, 0x28,
 	];
 
-	helper(S, BASE, 24066);
+	helper(S, BASE, 24_066);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_281608_in_base_7
+// region: s_has_whitespaces_and_zeros_and_281_608_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_281608_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_281_608_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x0D, 0x0D, 0x0A, 0x0C, 0x0C, 0x0C, 0x20, 0x0C, 0x0C, 0x0D, 0x09, 0x0B,
 		0x0A, 0x0C, 0x0B, 0x0C, 0x0C, 0x0B, 0x0B, 0x0D, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5,
@@ -12030,12 +12030,12 @@ fn s_has_whitespaces_and_zeros_and_281608_in_base_7() {
 		0xA5, 0x38, 0x7B, 0x73, 0xF4, 0xC8, 0x03,
 	];
 
-	helper(S, BASE, 281608);
+	helper(S, BASE, 281_608);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1974781_in_base_7
+// region: s_has_whitespaces_and_zeros_and_1_974_781_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_1974781_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_1_974_781_in_base_7() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x09, 0x0A, 0x20, 0x0A, 0x0D, 0x20, 0x0C, 0x0B, 0x0C, 0x0A, 0x0B, 0x0A, 0x0C,
 		0x09, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C, 0x1C,
@@ -12046,12 +12046,12 @@ fn s_has_whitespaces_and_zeros_and_1974781_in_base_7() {
 		0x1C, 0xA9, 0xD9, 0x9E, 0x97, 0x44, 0x14,
 	];
 
-	helper(S, BASE, 1974781);
+	helper(S, BASE, 1_974_781);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_88226002_in_base_7
+// region: s_has_whitespaces_and_zeros_and_88_226_002_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_88226002_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_88_226_002_in_base_7() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0A, 0x09, 0x0B, 0x0B, 0x09, 0x0C, 0x0B, 0x0C, 0x0B, 0x20, 0x0C, 0x09, 0x09,
 		0x09, 0x0A, 0x20, 0x09, 0x20, 0x0D, 0x0A, 0x0C, 0x20, 0x0B, 0x20, 0x09, 0x0D, 0x09, 0x0B,
@@ -12062,12 +12062,12 @@ fn s_has_whitespaces_and_zeros_and_88226002_in_base_7() {
 		0x6E, 0x67, 0xFC, 0x18, 0xD0, 0x2E, 0x5E,
 	];
 
-	helper(S, BASE, 88226002);
+	helper(S, BASE, 88_226_002);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_377806329_in_base_7
+// region: s_has_whitespaces_and_zeros_and_377_806_329_in_base_7
 #[test]
-fn s_has_whitespaces_and_zeros_and_377806329_in_base_7() {
+fn s_has_whitespaces_and_zeros_and_377_806_329_in_base_7() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0A, 0x0B, 0x0B, 0x0C, 0x09, 0x0C, 0x0D, 0x0B, 0x0D, 0x0A, 0x0A, 0x09, 0x0C,
 		0x0B, 0x0B, 0x20, 0x09, 0x0D, 0x0D, 0x0A, 0x0A, 0x0A, 0x20, 0x20, 0x0C, 0x0A, 0x0A, 0x0A,
@@ -12078,7 +12078,7 @@ fn s_has_whitespaces_and_zeros_and_377806329_in_base_7() {
 		0xAB, 0x48, 0xFA, 0xE0, 0xDD, 0x42, 0xF3,
 	];
 
-	helper(S, BASE, 377806329);
+	helper(S, BASE, 377_806_329);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_6_in_base_11
@@ -12126,9 +12126,9 @@ fn s_has_whitespaces_and_zeros_and_190_in_base_11() {
 	helper(S, BASE, 190);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3483_in_base_11
+// region: s_has_whitespaces_and_zeros_and_3_483_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_3483_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_3_483_in_base_11() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0B, 0x0A, 0x20, 0x0B, 0x09, 0x0D, 0x09, 0x0A, 0x0D, 0x55, 0x55, 0x55, 0x55,
 		0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55,
@@ -12138,12 +12138,12 @@ fn s_has_whitespaces_and_zeros_and_3483_in_base_11() {
 		0x55, 0x18, 0xA6, 0x91, 0x3A, 0x76, 0x8B, 0x2C, 0x70, 0x83, 0x9C,
 	];
 
-	helper(S, BASE, 3483);
+	helper(S, BASE, 3_483);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_71587_in_base_11
+// region: s_has_whitespaces_and_zeros_and_71_587_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_71587_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_71_587_in_base_11() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0D, 0x0C, 0x0C, 0x0A, 0x09, 0x0A, 0x0B, 0x0B, 0x0D, 0x0C, 0x0D, 0x0D, 0x0B,
 		0x20, 0x0C, 0x20, 0x0C, 0x0A, 0x0B, 0x0A, 0x09, 0x0C, 0x09, 0x0D, 0x0D, 0x0B, 0x0B, 0x0A,
@@ -12154,12 +12154,12 @@ fn s_has_whitespaces_and_zeros_and_71587_in_base_11() {
 		0x3A, 0xAA, 0xF6, 0xDB, 0x65, 0xFD, 0x16, 0x8D, 0x79, 0xDA, 0x29,
 	];
 
-	helper(S, BASE, 71587);
+	helper(S, BASE, 71_587);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_741992_in_base_11
+// region: s_has_whitespaces_and_zeros_and_741_992_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_741992_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_741_992_in_base_11() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x20, 0x0A, 0x0A, 0x0D, 0x0A, 0x20, 0x0C, 0x0B, 0x0D, 0x09, 0x09, 0x20, 0x0B,
 		0x0D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D,
@@ -12169,12 +12169,12 @@ fn s_has_whitespaces_and_zeros_and_741992_in_base_11() {
 		0x5D, 0x8F, 0xFD, 0x62, 0x3C, 0x2C, 0x02, 0xDE, 0x86, 0xBA, 0xE0,
 	];
 
-	helper(S, BASE, 741992);
+	helper(S, BASE, 741_992);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_5921723_in_base_11
+// region: s_has_whitespaces_and_zeros_and_5_921_723_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_5921723_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_5_921_723_in_base_11() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0D, 0x0B, 0x0D, 0x0A, 0x0A, 0x0B, 0x20, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD,
 		0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD,
@@ -12184,12 +12184,12 @@ fn s_has_whitespaces_and_zeros_and_5921723_in_base_11() {
 		0xAD, 0xA4, 0x0E, 0xFA, 0x6F, 0x60, 0x98, 0x7A, 0xE8, 0xCF, 0x9A,
 	];
 
-	helper(S, BASE, 5921723);
+	helper(S, BASE, 5_921_723);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_83078204_in_base_11
+// region: s_has_whitespaces_and_zeros_and_83_078_204_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_83078204_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_83_078_204_in_base_11() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70,
 		0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x70, 0x46, 0x19, 0x1B, 0x1B, 0x5A, 0x1B, 0xAE, 0x70,
@@ -12198,12 +12198,12 @@ fn s_has_whitespaces_and_zeros_and_83078204_in_base_11() {
 		0x70, 0xBE, 0x19, 0x5A, 0x46, 0x1F, 0xF7, 0xEE, 0xAE, 0x1B, 0xD8,
 	];
 
-	helper(S, BASE, 83078204);
+	helper(S, BASE, 83_078_204);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_378237590_in_base_11
+// region: s_has_whitespaces_and_zeros_and_378_237_590_in_base_11
 #[test]
-fn s_has_whitespaces_and_zeros_and_378237590_in_base_11() {
+fn s_has_whitespaces_and_zeros_and_378_237_590_in_base_11() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0D, 0x0C, 0x0B, 0x20, 0x0A, 0x0A, 0x0C, 0x0B, 0x0A, 0x0B, 0xEE, 0xEE, 0xEE,
 		0xEE, 0xEE, 0xAB, 0x66, 0x72, 0xD0, 0x97, 0xAB, 0xD0, 0xD0, 0xD0,
@@ -12212,7 +12212,7 @@ fn s_has_whitespaces_and_zeros_and_378237590_in_base_11() {
 		0xEE, 0xAB, 0xF4, 0xD7, 0x72, 0xD0, 0x97, 0xA1, 0x66, 0x55, 0x52,
 	];
 
-	helper(S, BASE, 378237590);
+	helper(S, BASE, 378_237_590);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_7_in_base_13
@@ -12263,9 +12263,9 @@ fn s_has_whitespaces_and_zeros_and_378_in_base_13() {
 	helper(S, BASE, 378);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8979_in_base_13
+// region: s_has_whitespaces_and_zeros_and_8_979_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_8979_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_8_979_in_base_13() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0C, 0x0D, 0x09, 0x0A, 0x09, 0x0B, 0x0C, 0x0B, 0x0C, 0x0D, 0x0B, 0x0C, 0x0D,
 		0x0D, 0x0B, 0x0C, 0x09, 0x09, 0x0B, 0x0A, 0x0B, 0x0B, 0x0C, 0x0B, 0x20, 0x0B, 0x0B, 0x09,
@@ -12277,12 +12277,12 @@ fn s_has_whitespaces_and_zeros_and_8979_in_base_13() {
 		0x95, 0x10, 0x9D, 0x7A, 0x3E, 0xD9, 0x2C, 0x9A, 0xB9, 0xAC, 0xF0, 0x8E, 0x9B,
 	];
 
-	helper(S, BASE, 8979);
+	helper(S, BASE, 8_979);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_55111_in_base_13
+// region: s_has_whitespaces_and_zeros_and_55_111_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_55111_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_55_111_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0A, 0x0B, 0x09, 0x20, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F,
 		0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F,
@@ -12292,12 +12292,12 @@ fn s_has_whitespaces_and_zeros_and_55111_in_base_13() {
 		0x4F, 0xD7, 0x3D, 0x47, 0x92, 0x83, 0x36, 0x6D, 0xA3, 0xFD, 0x6A, 0xF9, 0xA8,
 	];
 
-	helper(S, BASE, 55111);
+	helper(S, BASE, 55_111);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_589049_in_base_13
+// region: s_has_whitespaces_and_zeros_and_589_049_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_589049_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_589_049_in_base_13() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0B, 0x20, 0x0B, 0x0C, 0x20, 0x0C, 0x0B, 0x0D, 0x20, 0x0C, 0x09, 0x09, 0x20,
 		0x0C, 0x0C, 0x09, 0x0B, 0x09, 0x0C, 0x0A, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55,
@@ -12307,12 +12307,12 @@ fn s_has_whitespaces_and_zeros_and_589049_in_base_13() {
 		0x55, 0x6B, 0x7C, 0x33, 0x9F, 0x8E, 0xAA, 0xCA, 0x69, 0x9A, 0xF3, 0xA4, 0x78,
 	];
 
-	helper(S, BASE, 589049);
+	helper(S, BASE, 589_049);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_9143227_in_base_13
+// region: s_has_whitespaces_and_zeros_and_9_143_227_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_9143227_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_9_143_227_in_base_13() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x20, 0x0B, 0x20, 0x0D, 0x0B, 0x0A, 0x0B, 0x0B, 0x09, 0x1D, 0x1D, 0x1D, 0x1D,
 		0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D, 0x1D,
@@ -12323,12 +12323,12 @@ fn s_has_whitespaces_and_zeros_and_9143227_in_base_13() {
 		0x1D, 0x2A, 0x6A, 0x52, 0xBB, 0xB3, 0x70, 0xC1, 0x57, 0x08, 0x42, 0x3D, 0x8A,
 	];
 
-	helper(S, BASE, 9143227);
+	helper(S, BASE, 9_143_227);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_30809928_in_base_13
+// region: s_has_whitespaces_and_zeros_and_30_809_928_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_30809928_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_30_809_928_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x0C, 0x09, 0x0A, 0x20, 0x09, 0x0C, 0x0B, 0x09, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3,
 		0x4C, 0x5E, 0x3D, 0x6C, 0x67, 0x1D, 0x4C,
@@ -12337,12 +12337,12 @@ fn s_has_whitespaces_and_zeros_and_30809928_in_base_13() {
 		0xE3, 0x4F, 0x46, 0x1D, 0x5E, 0x4D, 0x4C, 0xCB, 0x67, 0x6C, 0x7D, 0x65, 0x3D,
 	];
 
-	helper(S, BASE, 30809928);
+	helper(S, BASE, 30_809_928);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_720173160_in_base_13
+// region: s_has_whitespaces_and_zeros_and_720_173_160_in_base_13
 #[test]
-fn s_has_whitespaces_and_zeros_and_720173160_in_base_13() {
+fn s_has_whitespaces_and_zeros_and_720_173_160_in_base_13() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0A, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97,
 		0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97, 0x97,
@@ -12352,7 +12352,7 @@ fn s_has_whitespaces_and_zeros_and_720173160_in_base_13() {
 		0x97, 0x15, 0xDD, 0xCB, 0xDC, 0x11, 0xCA, 0x72, 0x67, 0x88, 0x92, 0x9D, 0x06,
 	];
 
-	helper(S, BASE, 720173160);
+	helper(S, BASE, 720_173_160);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_5_in_base_19
@@ -12405,9 +12405,9 @@ fn s_has_whitespaces_and_zeros_and_382_in_base_19() {
 	helper(S, BASE, 382);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_5236_in_base_19
+// region: s_has_whitespaces_and_zeros_and_5_236_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_5236_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_5_236_in_base_19() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x94, 0x94, 0x94, 0x94, 0x94, 0x3A, 0xA0, 0x79,
 	];
@@ -12416,12 +12416,12 @@ fn s_has_whitespaces_and_zeros_and_5236_in_base_19() {
 		0xD0, 0xC7, 0x30, 0x60,
 	];
 
-	helper(S, BASE, 5236);
+	helper(S, BASE, 5_236);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_82398_in_base_19
+// region: s_has_whitespaces_and_zeros_and_82_398_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_82398_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_82_398_in_base_19() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x0C, 0x0B, 0x0B, 0x0A, 0x0D, 0x09, 0x0A, 0x0A, 0x09, 0x20, 0x09, 0x0D, 0x09,
 		0x0B, 0x20, 0x09, 0x20, 0x20, 0x0B, 0x0A, 0x0A, 0x0C, 0x09, 0x0B, 0x20, 0x0A, 0x0D, 0x09,
@@ -12433,12 +12433,12 @@ fn s_has_whitespaces_and_zeros_and_82398_in_base_19() {
 		0xE1, 0x77, 0xF9, 0x35,
 	];
 
-	helper(S, BASE, 82398);
+	helper(S, BASE, 82_398);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_173657_in_base_19
+// region: s_has_whitespaces_and_zeros_and_173_657_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_173657_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_173_657_in_base_19() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x20, 0x20, 0x0A, 0x0C, 0x0D, 0x20, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
 		0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
@@ -12450,12 +12450,12 @@ fn s_has_whitespaces_and_zeros_and_173657_in_base_19() {
 		0xDE, 0xF5, 0xAB, 0xB1,
 	];
 
-	helper(S, BASE, 173657);
+	helper(S, BASE, 173_657);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_5051490_in_base_19
+// region: s_has_whitespaces_and_zeros_and_5_051_490_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_5051490_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_5_051_490_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x20, 0x09, 0x20, 0x0D, 0x20, 0x0D, 0x0D, 0x0B, 0x0C, 0x0C, 0x0B, 0x0A, 0x0D,
 		0x20, 0x0C, 0x0A, 0x0A, 0x09, 0x20, 0x0B, 0x0B, 0x0D, 0x0B, 0x20, 0x0B, 0x0A, 0x0A, 0x09,
@@ -12466,12 +12466,12 @@ fn s_has_whitespaces_and_zeros_and_5051490_in_base_19() {
 		0x9E, 0x70, 0xD8, 0x2E,
 	];
 
-	helper(S, BASE, 5051490);
+	helper(S, BASE, 5_051_490);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_52700581_in_base_19
+// region: s_has_whitespaces_and_zeros_and_52_700_581_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_52700581_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_52_700_581_in_base_19() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0D, 0x0C, 0x0C, 0x20, 0x09, 0x20, 0x20, 0x0A, 0x0A, 0x0D, 0x0A, 0x0B, 0x20,
 		0x0C, 0x0C, 0x0B, 0x0B, 0x0A, 0x0B, 0x0B, 0x20, 0x20, 0x0D, 0x0B, 0x0C, 0x20, 0x09, 0x0C,
@@ -12483,12 +12483,12 @@ fn s_has_whitespaces_and_zeros_and_52700581_in_base_19() {
 		0x25, 0x68, 0x11, 0xD6,
 	];
 
-	helper(S, BASE, 52700581);
+	helper(S, BASE, 52_700_581);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_688608050_in_base_19
+// region: s_has_whitespaces_and_zeros_and_688_608_050_in_base_19
 #[test]
-fn s_has_whitespaces_and_zeros_and_688608050_in_base_19() {
+fn s_has_whitespaces_and_zeros_and_688_608_050_in_base_19() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0A, 0x0A, 0x0A, 0x20, 0x09, 0x0A, 0x09, 0x09, 0x0A, 0x0C, 0x20, 0x09, 0x0C,
 		0x0A, 0x09, 0x0B, 0x0D, 0x20, 0x09, 0x09, 0x0A, 0x20, 0x20, 0x09, 0x0D, 0x0B, 0x0A, 0x0C,
@@ -12502,7 +12502,7 @@ fn s_has_whitespaces_and_zeros_and_688608050_in_base_19() {
 		0xE2, 0x07, 0x8F, 0x1A,
 	];
 
-	helper(S, BASE, 688608050);
+	helper(S, BASE, 688_608_050);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_3_in_base_42
@@ -12558,9 +12558,9 @@ fn s_has_whitespaces_and_zeros_and_582_in_base_42() {
 	helper(S, BASE, 582);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1843_in_base_42
+// region: s_has_whitespaces_and_zeros_and_1_843_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_1843_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_1_843_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x20, 0x09, 0x0B, 0x0A, 0x09, 0x0D, 0x09, 0x0A, 0x0B, 0x0C, 0x0B, 0x0A, 0x0B,
 		0x09, 0x20, 0x20, 0x0C, 0x20, 0x0D, 0x0B, 0x34, 0x34, 0x34, 0x34, 0xA1, 0xA1, 0x0E,
@@ -12571,12 +12571,12 @@ fn s_has_whitespaces_and_zeros_and_1843_in_base_42() {
 		0x4B, 0x11, 0xD2, 0x01, 0x97, 0x74, 0xF5, 0x0E, 0x5F, 0xD5, 0x98, 0x7C,
 	];
 
-	helper(S, BASE, 1843);
+	helper(S, BASE, 1_843);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_69901_in_base_42
+// region: s_has_whitespaces_and_zeros_and_69_901_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_69901_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_69_901_in_base_42() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x09, 0x0B, 0x0D, 0x0A, 0x0B, 0x0D, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36,
 		0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36,
@@ -12588,12 +12588,12 @@ fn s_has_whitespaces_and_zeros_and_69901_in_base_42() {
 		0x86, 0x16, 0x96, 0x4D, 0x9C, 0xC9, 0x4A, 0xDB, 0x6B, 0x9D, 0xF8, 0x8B,
 	];
 
-	helper(S, BASE, 69901);
+	helper(S, BASE, 69_901);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_415356_in_base_42
+// region: s_has_whitespaces_and_zeros_and_415_356_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_415356_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_415_356_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0B, 0x0C, 0x0B, 0x0D, 0x20, 0x0D, 0x09, 0x20, 0x20, 0x0D, 0x0D, 0x0C, 0x0D,
 		0x0D, 0x20, 0x20, 0x20, 0x0A, 0x0D, 0x0B, 0x0C, 0x20, 0x0A, 0x20, 0x0B, 0x0A, 0x20, 0x0A,
@@ -12608,12 +12608,12 @@ fn s_has_whitespaces_and_zeros_and_415356_in_base_42() {
 		0xE1, 0xC7, 0xF1, 0x61, 0x17, 0xBB, 0x1A, 0xAE, 0x49, 0x1F, 0x72, 0x5F,
 	];
 
-	helper(S, BASE, 415356);
+	helper(S, BASE, 415_356);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3908646_in_base_42
+// region: s_has_whitespaces_and_zeros_and_3_908_646_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_3908646_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_3_908_646_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0A, 0x0C, 0x0B, 0x0D, 0x09, 0x0A, 0x20, 0x20, 0x09, 0x09, 0x0C, 0x0C, 0x0C,
 		0x09, 0x0A, 0x0D, 0x0B, 0x09, 0x0B, 0x0B, 0x09, 0x0A, 0x09, 0x0A, 0x09, 0x0A, 0x09, 0x0A,
@@ -12625,12 +12625,12 @@ fn s_has_whitespaces_and_zeros_and_3908646_in_base_42() {
 		0xBD, 0xF4, 0xF8, 0xB9, 0x8B, 0xC1, 0x34, 0x54, 0xC9, 0x56, 0x79, 0xD5,
 	];
 
-	helper(S, BASE, 3908646);
+	helper(S, BASE, 3_908_646);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_59339978_in_base_42
+// region: s_has_whitespaces_and_zeros_and_59_339_978_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_59339978_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_59_339_978_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x20, 0x20, 0x20, 0x09, 0x0C, 0x0D, 0x0D, 0x0D, 0x09, 0x0D, 0x20, 0x0C, 0x0A,
 		0x20, 0x0C, 0x0A, 0x0A, 0x0B, 0x0D, 0x0D, 0x0B, 0x0D, 0x0B, 0x09, 0x0C, 0x0D, 0x0D, 0x20,
@@ -12644,12 +12644,12 @@ fn s_has_whitespaces_and_zeros_and_59339978_in_base_42() {
 		0xEE, 0x22, 0x4D, 0x96, 0xAF, 0x10, 0xF8, 0xF1, 0x87, 0x52, 0x2E, 0x95,
 	];
 
-	helper(S, BASE, 59339978);
+	helper(S, BASE, 59_339_978);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_529970444_in_base_42
+// region: s_has_whitespaces_and_zeros_and_529_970_444_in_base_42
 #[test]
-fn s_has_whitespaces_and_zeros_and_529970444_in_base_42() {
+fn s_has_whitespaces_and_zeros_and_529_970_444_in_base_42() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0B, 0x09, 0x0A, 0x0B, 0x20, 0x0D, 0x0C, 0x0D, 0x0A, 0x09, 0x20, 0x0B, 0x20,
 		0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E, 0x9E,
@@ -12662,7 +12662,7 @@ fn s_has_whitespaces_and_zeros_and_529970444_in_base_42() {
 		0x92, 0x66, 0x38, 0xE5, 0xFA, 0xF6, 0x30, 0x88, 0x11, 0xE0, 0xDB, 0xCD,
 	];
 
-	helper(S, BASE, 529970444);
+	helper(S, BASE, 529_970_444);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_4_in_base_73
@@ -12725,9 +12725,9 @@ fn s_has_whitespaces_and_zeros_and_171_in_base_73() {
 	helper(S, BASE, 171);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3925_in_base_73
+// region: s_has_whitespaces_and_zeros_and_3_925_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_3925_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_3_925_in_base_73() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0D, 0x0D, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86,
@@ -12741,12 +12741,12 @@ fn s_has_whitespaces_and_zeros_and_3925_in_base_73() {
 		0x9B, 0xB0, 0x11, 0x67, 0x5E, 0x16, 0xFC, 0x3A, 0x44, 0xDB, 0xD1, 0x34, 0xBA,
 	];
 
-	helper(S, BASE, 3925);
+	helper(S, BASE, 3_925);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_50318_in_base_73
+// region: s_has_whitespaces_and_zeros_and_50_318_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_50318_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_50_318_in_base_73() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x09, 0x0C, 0x09, 0x0D, 0x20, 0x0D, 0x20, 0x0C, 0x0A, 0x0C, 0x0D, 0x20, 0x0C,
 		0x0C, 0x0D, 0x0D, 0x20, 0x0C, 0x09, 0x09, 0x09, 0x09, 0x0B, 0x0C, 0x0A, 0x09, 0xAF, 0xAF,
@@ -12761,12 +12761,12 @@ fn s_has_whitespaces_and_zeros_and_50318_in_base_73() {
 		0xBE, 0x42, 0xAB, 0x81, 0x90, 0x1B, 0x0F, 0x68, 0x1E, 0x28, 0xA2, 0x71, 0xDE,
 	];
 
-	helper(S, BASE, 50318);
+	helper(S, BASE, 50_318);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_904309_in_base_73
+// region: s_has_whitespaces_and_zeros_and_904_309_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_904309_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_904_309_in_base_73() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x0A, 0x0D, 0x0C, 0x09, 0x0B, 0x0A, 0x0B, 0x0D, 0x09, 0x20, 0x0C, 0x0A,
 		0x0D, 0x20, 0x0A, 0x09, 0x09, 0x0A, 0x0C, 0x0B, 0x09, 0x0A, 0x0C, 0x0D, 0x09, 0x20, 0x0B,
@@ -12780,12 +12780,12 @@ fn s_has_whitespaces_and_zeros_and_904309_in_base_73() {
 		0x5D, 0x1A, 0x57, 0xA2, 0xB6, 0xFA, 0x7F, 0x4C, 0x5F, 0x02, 0x8F, 0x62, 0xC1,
 	];
 
-	helper(S, BASE, 904309);
+	helper(S, BASE, 904_309);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1028092_in_base_73
+// region: s_has_whitespaces_and_zeros_and_1_028_092_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_1028092_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_1_028_092_in_base_73() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0C, 0x0D, 0x09, 0x09, 0x09, 0x0B, 0x09, 0x0A, 0x09, 0x0C, 0x0C, 0x0D, 0x7D,
 		0xB9, 0x46, 0xC6, 0x23,
@@ -12798,12 +12798,12 @@ fn s_has_whitespaces_and_zeros_and_1028092_in_base_73() {
 		0x48, 0x8E, 0x10, 0x68, 0x30, 0x35, 0xCF, 0xC6, 0x19, 0xD5, 0x5B, 0xB6, 0x87,
 	];
 
-	helper(S, BASE, 1028092);
+	helper(S, BASE, 1_028_092);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_36910951_in_base_73
+// region: s_has_whitespaces_and_zeros_and_36_910_951_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_36910951_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_36_910_951_in_base_73() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x20, 0x20, 0x0A, 0x20, 0x20, 0x0A, 0x0B, 0x0C, 0x0A, 0x0C, 0x0C, 0x0D, 0x09,
 		0x20, 0x0C, 0x0C, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57, 0x57,
@@ -12817,12 +12817,12 @@ fn s_has_whitespaces_and_zeros_and_36910951_in_base_73() {
 		0xC1, 0xF6, 0xD3, 0xE9, 0x91, 0xA1, 0x1B, 0x9D, 0x75, 0xDE, 0x85, 0x71, 0xAC,
 	];
 
-	helper(S, BASE, 36910951);
+	helper(S, BASE, 36_910_951);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_917164969_in_base_73
+// region: s_has_whitespaces_and_zeros_and_917_164_969_in_base_73
 #[test]
-fn s_has_whitespaces_and_zeros_and_917164969_in_base_73() {
+fn s_has_whitespaces_and_zeros_and_917_164_969_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x0A, 0x20, 0x0C, 0x20, 0x0A, 0x0D, 0x20, 0x0D, 0x45, 0x45, 0x45, 0x45,
 		0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x45, 0x23, 0xB9, 0x96,
@@ -12836,7 +12836,7 @@ fn s_has_whitespaces_and_zeros_and_917164969_in_base_73() {
 		0x38, 0x04, 0x69, 0x92, 0x86, 0xB1, 0xD2, 0xBF, 0x75, 0x50, 0x06, 0x82, 0x35,
 	];
 
-	helper(S, BASE, 917164969);
+	helper(S, BASE, 917_164_969);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_1_in_base_113
@@ -12904,9 +12904,9 @@ fn s_has_whitespaces_and_zeros_and_677_in_base_113() {
 	helper(S, BASE, 677);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8578_in_base_113
+// region: s_has_whitespaces_and_zeros_and_8_578_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_8578_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_8_578_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0C, 0x0B, 0x0A, 0x0D, 0x09, 0x0C, 0x09, 0x20, 0x0B, 0x0B, 0x0C, 0x20, 0x0A,
 		0x0A, 0x20, 0x0D, 0x09, 0x20, 0x0C, 0x09, 0x20, 0x0B, 0x09, 0x0A, 0x0B, 0x0B, 0x0A, 0x0B,
@@ -12924,12 +12924,12 @@ fn s_has_whitespaces_and_zeros_and_8578_in_base_113() {
 		0x47, 0x69, 0xD0, 0x62, 0x6A, 0x55, 0x1B, 0x63,
 	];
 
-	helper(S, BASE, 8578);
+	helper(S, BASE, 8_578);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_64714_in_base_113
+// region: s_has_whitespaces_and_zeros_and_64_714_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_64714_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_64_714_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
 		0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
@@ -12946,12 +12946,12 @@ fn s_has_whitespaces_and_zeros_and_64714_in_base_113() {
 		0x4C, 0x31, 0x57, 0xF4, 0x1F, 0x34, 0x5A, 0xE7,
 	];
 
-	helper(S, BASE, 64714);
+	helper(S, BASE, 64_714);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_785884_in_base_113
+// region: s_has_whitespaces_and_zeros_and_785_884_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_785884_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_785_884_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0C, 0x0A, 0x20, 0x20, 0x0C, 0x0D, 0x09, 0x0B, 0x09, 0x0A, 0x0A, 0x0A, 0x0B,
 		0x0B, 0x0D, 0x0B, 0x20, 0x20, 0x0B, 0x0D, 0x09, 0x0D, 0x20, 0x0D, 0xE9, 0xE9, 0xE9, 0xE9,
@@ -12970,12 +12970,12 @@ fn s_has_whitespaces_and_zeros_and_785884_in_base_113() {
 		0x88, 0x16, 0x01, 0x2A, 0xB6, 0x37, 0x04, 0x44,
 	];
 
-	helper(S, BASE, 785884);
+	helper(S, BASE, 785_884);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6206937_in_base_113
+// region: s_has_whitespaces_and_zeros_and_6_206_937_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_6206937_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_6_206_937_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x20, 0x20, 0x20, 0x20, 0x0A, 0x0B, 0x20, 0x09, 0x0C, 0x0D, 0x09, 0x0B, 0x0B,
 		0x20, 0x09, 0x0C, 0x0D, 0x0D, 0x20, 0x0A, 0x0C, 0x0D, 0x0A, 0x0B, 0x20, 0x09, 0x0A, 0x0B,
@@ -12993,12 +12993,12 @@ fn s_has_whitespaces_and_zeros_and_6206937_in_base_113() {
 		0x7E, 0x4F, 0xB5, 0x80, 0x3E, 0x46, 0x8E, 0x11,
 	];
 
-	helper(S, BASE, 6206937);
+	helper(S, BASE, 6_206_937);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_85253631_in_base_113
+// region: s_has_whitespaces_and_zeros_and_85_253_631_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_85253631_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_85_253_631_in_base_113() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x20, 0x0D, 0x0D, 0x09, 0x09, 0x09, 0x0D, 0x0D, 0x0C, 0x0B, 0x09, 0x0D, 0x0A,
 		0x0A, 0x0A, 0x0C, 0x0B, 0x0C, 0x0A, 0x0C, 0x0C, 0x0B, 0x20, 0x20, 0x0B, 0x09, 0x20, 0x0C,
@@ -13018,12 +13018,12 @@ fn s_has_whitespaces_and_zeros_and_85253631_in_base_113() {
 		0x07, 0xEC, 0x1E, 0x3A, 0x99, 0xC0, 0x6C, 0xD7,
 	];
 
-	helper(S, BASE, 85253631);
+	helper(S, BASE, 85_253_631);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_707092453_in_base_113
+// region: s_has_whitespaces_and_zeros_and_707_092_453_in_base_113
 #[test]
-fn s_has_whitespaces_and_zeros_and_707092453_in_base_113() {
+fn s_has_whitespaces_and_zeros_and_707_092_453_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
 		0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
@@ -13040,7 +13040,7 @@ fn s_has_whitespaces_and_zeros_and_707092453_in_base_113() {
 		0x44, 0x81, 0x3C, 0x9B, 0x17, 0xB4, 0x5E, 0x96,
 	];
 
-	helper(S, BASE, 707092453);
+	helper(S, BASE, 707_092_453);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_9_in_base_193
@@ -13125,9 +13125,9 @@ fn s_has_whitespaces_and_zeros_and_337_in_base_193() {
 	helper(S, BASE, 337);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8086_in_base_193
+// region: s_has_whitespaces_and_zeros_and_8_086_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_8086_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_8_086_in_base_193() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x09, 0x09, 0x20, 0x09, 0x0A, 0x20, 0x0B, 0x09, 0x0D, 0x0D, 0x09, 0x0B, 0x85,
 		0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85,
@@ -13149,12 +13149,12 @@ fn s_has_whitespaces_and_zeros_and_8086_in_base_193() {
 		0x92, 0xB8, 0x68, 0x83, 0x54, 0x8F, 0x7E, 0x21, 0xF5, 0x74, 0xF8, 0xD0, 0xE4,
 	];
 
-	helper(S, BASE, 8086);
+	helper(S, BASE, 8_086);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_43509_in_base_193
+// region: s_has_whitespaces_and_zeros_and_43_509_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_43509_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_43_509_in_base_193() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x09, 0x09, 0x0B, 0x0A, 0x0A, 0x0A, 0x20, 0x0C, 0x20, 0x59, 0x59, 0x59, 0x59,
 		0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59,
@@ -13177,12 +13177,12 @@ fn s_has_whitespaces_and_zeros_and_43509_in_base_193() {
 		0x75, 0x40, 0x86, 0x9B, 0x50, 0xA6, 0x4D, 0x64, 0x14, 0x3C, 0x9F, 0x23, 0xA9,
 	];
 
-	helper(S, BASE, 43509);
+	helper(S, BASE, 43_509);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_137376_in_base_193
+// region: s_has_whitespaces_and_zeros_and_137_376_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_137376_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_137_376_in_base_193() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x0C, 0x0C, 0x09, 0x0C, 0x0B, 0x20, 0x0C, 0x0B, 0x09, 0x09, 0x09, 0x0C, 0x09,
 		0x0A, 0x0D, 0x0C, 0x0A, 0x0A, 0x20, 0x0D, 0x0A, 0x0D, 0x0D, 0x20, 0x61, 0x61, 0x61, 0x61,
@@ -13205,12 +13205,12 @@ fn s_has_whitespaces_and_zeros_and_137376_in_base_193() {
 		0x94, 0x26, 0xD3, 0x2E, 0xA9, 0x4D, 0x18, 0xD9, 0xE0, 0xD0, 0xCB, 0x34, 0x76,
 	];
 
-	helper(S, BASE, 137376);
+	helper(S, BASE, 137_376);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6415659_in_base_193
+// region: s_has_whitespaces_and_zeros_and_6_415_659_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_6415659_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_6_415_659_in_base_193() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0D, 0x0A, 0x0C, 0x20, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88,
 		0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88,
@@ -13232,12 +13232,12 @@ fn s_has_whitespaces_and_zeros_and_6415659_in_base_193() {
 		0x8A, 0xE6, 0x06, 0x07, 0xDD, 0xD8, 0x53, 0x50, 0xC1, 0x03, 0x51, 0x1D, 0x7F,
 	];
 
-	helper(S, BASE, 6415659);
+	helper(S, BASE, 6_415_659);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_48786667_in_base_193
+// region: s_has_whitespaces_and_zeros_and_48_786_667_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_48786667_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_48_786_667_in_base_193() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0C, 0x20, 0x09, 0x0D, 0x0D, 0x09, 0x20, 0x0B, 0x09, 0x09, 0x09, 0x0C, 0x0A,
 		0x0D, 0x0B, 0x0D, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C, 0x0C, 0x0B, 0x0A, 0x0B, 0x0B, 0x09, 0x0C,
@@ -13262,12 +13262,12 @@ fn s_has_whitespaces_and_zeros_and_48786667_in_base_193() {
 		0x8E, 0x89, 0xD7, 0x19, 0xA6, 0x04, 0x6C, 0x5D, 0xF1, 0x92, 0x25, 0x55, 0x34,
 	];
 
-	helper(S, BASE, 48786667);
+	helper(S, BASE, 48_786_667);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_548317864_in_base_193
+// region: s_has_whitespaces_and_zeros_and_548_317_864_in_base_193
 #[test]
-fn s_has_whitespaces_and_zeros_and_548317864_in_base_193() {
+fn s_has_whitespaces_and_zeros_and_548_317_864_in_base_193() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x09, 0x0B, 0x0D, 0x09, 0x0C, 0x0D, 0x20, 0x0A, 0x0C, 0x0A, 0x0B, 0x20, 0x0C,
 		0x09, 0x0A, 0x0C, 0x0D, 0x0B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B,
@@ -13289,7 +13289,7 @@ fn s_has_whitespaces_and_zeros_and_548317864_in_base_193() {
 		0xE1, 0x8A, 0x7F, 0x4C, 0x70, 0xAD, 0x23, 0xF7, 0xF1, 0xBC, 0xB5, 0x2F, 0x95,
 	];
 
-	helper(S, BASE, 548317864);
+	helper(S, BASE, 548_317_864);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_1_in_base_247
@@ -13391,9 +13391,9 @@ fn s_has_whitespaces_and_zeros_and_903_in_base_247() {
 	helper(S, BASE, 903);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6611_in_base_247
+// region: s_has_whitespaces_and_zeros_and_6_611_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_6611_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_6_611_in_base_247() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0A, 0x0A, 0x0C, 0x0C, 0x09, 0x0B, 0x0D, 0x0A, 0x20, 0x20, 0xA9, 0xA9, 0xA9,
 		0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9, 0xA9,
@@ -13419,12 +13419,12 @@ fn s_has_whitespaces_and_zeros_and_6611_in_base_247() {
 		0x9B, 0xE2, 0x66, 0xB8, 0x71, 0x02, 0x93,
 	];
 
-	helper(S, BASE, 6611);
+	helper(S, BASE, 6_611);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_18449_in_base_247
+// region: s_has_whitespaces_and_zeros_and_18_449_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_18449_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_18_449_in_base_247() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0A, 0x0C, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA,
 		0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA, 0xEA,
@@ -13451,12 +13451,12 @@ fn s_has_whitespaces_and_zeros_and_18449_in_base_247() {
 		0xCD, 0x1D, 0x7C, 0xF9, 0xD7, 0x2A, 0x7D,
 	];
 
-	helper(S, BASE, 18449);
+	helper(S, BASE, 18_449);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_752810_in_base_247
+// region: s_has_whitespaces_and_zeros_and_752_810_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_752810_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_752_810_in_base_247() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0B, 0x0D, 0x0A, 0x0D, 0x0B, 0x0D, 0x09, 0x0C, 0x0B, 0x09, 0x0C, 0x0A, 0x0C,
 		0x09, 0x0A, 0x0D, 0x0D, 0x0B, 0x0D, 0x0C, 0x0B, 0x20, 0x0D, 0x0D, 0x0B, 0x0C, 0x0C, 0x20,
@@ -13485,12 +13485,12 @@ fn s_has_whitespaces_and_zeros_and_752810_in_base_247() {
 		0xF3, 0x9A, 0x78, 0x6A, 0xDE, 0xD0, 0xCE,
 	];
 
-	helper(S, BASE, 752810);
+	helper(S, BASE, 752_810);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_7971853_in_base_247
+// region: s_has_whitespaces_and_zeros_and_7_971_853_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_7971853_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_7_971_853_in_base_247() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0A, 0x0C, 0x0A, 0x0B, 0x09, 0x0B, 0x0D, 0x20, 0x0D, 0x20, 0x09, 0x0C, 0x20,
 		0x0A, 0x0A, 0x0A, 0x20, 0x09, 0x09, 0x20, 0x20, 0x0B, 0x09, 0x0A, 0x0D, 0x0A, 0x0B, 0x0B,
@@ -13516,12 +13516,12 @@ fn s_has_whitespaces_and_zeros_and_7971853_in_base_247() {
 		0x49, 0x27, 0x41, 0x5E, 0x8A, 0xED, 0xD2,
 	];
 
-	helper(S, BASE, 7971853);
+	helper(S, BASE, 7_971_853);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_72308907_in_base_247
+// region: s_has_whitespaces_and_zeros_and_72_308_907_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_72308907_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_72_308_907_in_base_247() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63,
 		0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63,
@@ -13547,12 +13547,12 @@ fn s_has_whitespaces_and_zeros_and_72308907_in_base_247() {
 		0xF3, 0x66, 0xDC, 0x3D, 0x31, 0xEA, 0x99,
 	];
 
-	helper(S, BASE, 72308907);
+	helper(S, BASE, 72_308_907);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_357036395_in_base_247
+// region: s_has_whitespaces_and_zeros_and_357_036_395_in_base_247
 #[test]
-fn s_has_whitespaces_and_zeros_and_357036395_in_base_247() {
+fn s_has_whitespaces_and_zeros_and_357_036_395_in_base_247() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0D, 0x0D, 0x0D, 0x0D, 0x0A, 0x0A, 0x0D, 0x0D, 0x0B, 0x0A, 0x09, 0x09, 0x0C,
 		0x0C, 0x09, 0x0B, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11,
@@ -13578,7 +13578,7 @@ fn s_has_whitespaces_and_zeros_and_357036395_in_base_247() {
 		0x5D, 0xCE, 0xA9, 0x29, 0x7E, 0xA3, 0x5F,
 	];
 
-	helper(S, BASE, 357036395);
+	helper(S, BASE, 357_036_395);
 }
 // endregion
 // region: s_has_whitespaces_and_5_in_base_2_and_insignificant_bytes
@@ -13630,9 +13630,9 @@ fn s_has_whitespaces_and_339_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 339);
 }
 // endregion
-// region: s_has_whitespaces_and_1884_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_1_884_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_1884_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_1_884_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0A, 0x09, 0x0B, 0x0D, 0x20, 0x09, 0x20, 0x20, 0x20, 0x0C, 0x0C, 0x0D, 0x0A,
 		0x0D, 0x09, 0x0B, 0x0B, 0x09, 0x0A, 0x0A, 0x20, 0x0D, 0x0A, 0x20, 0x0A, 0x0B, 0x09, 0x0B,
@@ -13642,12 +13642,12 @@ fn s_has_whitespaces_and_1884_in_base_2_and_insignificant_bytes() {
 		0x71, 0xE1,
 	];
 
-	helper(S, BASE, 1884);
+	helper(S, BASE, 1_884);
 }
 // endregion
-// region: s_has_whitespaces_and_61529_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_61_529_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_61529_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_61_529_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x2C, 0x2C, 0x2C, 0x2C, 0x38, 0x38, 0x38, 0x38, 0x38, 0x2C, 0x38, 0x2C, 0x2C,
 		0x38, 0x38, 0x2C, 0x46, 0x85, 0x2E, 0x5E,
@@ -13656,12 +13656,12 @@ fn s_has_whitespaces_and_61529_in_base_2_and_insignificant_bytes() {
 		0x38, 0x2C,
 	];
 
-	helper(S, BASE, 61529);
+	helper(S, BASE, 61_529);
 }
 // endregion
-// region: s_has_whitespaces_and_690480_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_690_480_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_690480_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_690_480_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x09, 0x0D, 0x0B, 0x0A, 0x09, 0x0A, 0x0A, 0xA9, 0xCD, 0xA9, 0xCD, 0xA9, 0xCD,
 		0xCD, 0xCD, 0xA9, 0xCD, 0xCD, 0xA9, 0xCD, 0xCD, 0xA9, 0xA9, 0xCD, 0xCD, 0xCD, 0xCD, 0x8C,
@@ -13672,12 +13672,12 @@ fn s_has_whitespaces_and_690480_in_base_2_and_insignificant_bytes() {
 		0xCD, 0xA9,
 	];
 
-	helper(S, BASE, 690480);
+	helper(S, BASE, 690_480);
 }
 // endregion
-// region: s_has_whitespaces_and_8720337_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_8_720_337_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_8720337_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_8_720_337_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0D, 0x0C, 0x0D, 0x0C, 0x24, 0x9F, 0x9F, 0x9F, 0x9F, 0x24, 0x9F, 0x24, 0x9F,
 		0x9F, 0x9F, 0x9F, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x9F, 0x24, 0x9F, 0x9F, 0x9F, 0x24,
@@ -13689,12 +13689,12 @@ fn s_has_whitespaces_and_8720337_in_base_2_and_insignificant_bytes() {
 		0x9F, 0x24,
 	];
 
-	helper(S, BASE, 8720337);
+	helper(S, BASE, 8_720_337);
 }
 // endregion
-// region: s_has_whitespaces_and_91046572_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_91_046_572_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_91046572_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_91_046_572_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x09, 0x0C, 0x0B, 0x09, 0x20, 0x0A, 0x0A, 0x0D, 0x0A, 0x20, 0x0C, 0x0D, 0x0B,
 		0x0D, 0x0C, 0x09, 0x0D, 0x0D, 0x20, 0xEC, 0x9E, 0xEC, 0x9E, 0xEC, 0xEC, 0x9E, 0xEC, 0xEC,
@@ -13707,12 +13707,12 @@ fn s_has_whitespaces_and_91046572_in_base_2_and_insignificant_bytes() {
 		0x9E, 0xEC,
 	];
 
-	helper(S, BASE, 91046572);
+	helper(S, BASE, 91_046_572);
 }
 // endregion
-// region: s_has_whitespaces_and_607463697_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_607_463_697_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_607463697_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_607_463_697_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0C, 0x09, 0x0C, 0x0C, 0x20, 0x20, 0x0C, 0x09, 0x0A, 0x20, 0x20, 0x0C, 0x0B,
 		0x0B, 0x20, 0x0A, 0x09, 0x0C, 0x0C, 0x09, 0x20, 0x0C, 0x09, 0x09, 0x0C, 0x0B, 0x0A, 0x52,
@@ -13725,7 +13725,7 @@ fn s_has_whitespaces_and_607463697_in_base_2_and_insignificant_bytes() {
 		0x9A, 0x52,
 	];
 
-	helper(S, BASE, 607463697);
+	helper(S, BASE, 607_463_697);
 }
 // endregion
 // region: s_has_whitespaces_and_1_in_base_3_and_insignificant_bytes
@@ -13773,9 +13773,9 @@ fn s_has_whitespaces_and_715_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 715);
 }
 // endregion
-// region: s_has_whitespaces_and_9674_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_9_674_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_9674_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_9_674_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0D, 0x0D, 0x0D, 0x0C, 0x0D, 0x0D, 0x0C, 0x09, 0x20, 0x20, 0x0D, 0x0D, 0x0C,
 		0x0D, 0x0C, 0x41, 0x41, 0x41, 0xEF, 0x46, 0x41, 0xEF, 0x46, 0x46, 0x02,
@@ -13784,12 +13784,12 @@ fn s_has_whitespaces_and_9674_in_base_3_and_insignificant_bytes() {
 		0xEF, 0x41, 0x46,
 	];
 
-	helper(S, BASE, 9674);
+	helper(S, BASE, 9_674);
 }
 // endregion
-// region: s_has_whitespaces_and_76254_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_76_254_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_76254_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_76_254_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x09, 0x20, 0x0A, 0x0C, 0x0A, 0x0C, 0x0B, 0x09, 0x0B, 0x0D, 0x0A, 0x0C, 0x20,
 		0x0C, 0x0A, 0x0A, 0x09, 0x0C, 0x0C, 0x20, 0x0C, 0x0D, 0x0C, 0x0A, 0x0B, 0x20, 0x0C, 0x0B,
@@ -13802,12 +13802,12 @@ fn s_has_whitespaces_and_76254_in_base_3_and_insignificant_bytes() {
 		0xB7, 0xFB, 0x5A,
 	];
 
-	helper(S, BASE, 76254);
+	helper(S, BASE, 76_254);
 }
 // endregion
-// region: s_has_whitespaces_and_769501_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_769_501_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_769501_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_769_501_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0C, 0x0B, 0x20, 0x0B, 0x0B, 0x20, 0x20, 0x20, 0x20, 0x20, 0x0C, 0x20, 0x0A,
 		0x0A, 0xAD, 0xAD, 0xAD, 0xFE, 0xFE, 0xFE, 0xCE, 0xAD, 0xCE, 0xFE, 0xFE, 0xFE, 0xAD, 0x81,
@@ -13819,12 +13819,12 @@ fn s_has_whitespaces_and_769501_in_base_3_and_insignificant_bytes() {
 		0xFE, 0xAD, 0xCE,
 	];
 
-	helper(S, BASE, 769501);
+	helper(S, BASE, 769_501);
 }
 // endregion
-// region: s_has_whitespaces_and_9299707_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_9_299_707_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_9299707_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_9_299_707_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x09, 0xB1, 0xDA, 0xDA, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0x33, 0xDA, 0xB1, 0x33,
 		0xB1, 0xDA, 0xB1, 0x82, 0xF5, 0xC5, 0x4D, 0xA9, 0x92, 0x2B, 0xFA, 0x9B, 0x16, 0xD1, 0x7B,
@@ -13835,12 +13835,12 @@ fn s_has_whitespaces_and_9299707_in_base_3_and_insignificant_bytes() {
 		0x33, 0xB1, 0xDA,
 	];
 
-	helper(S, BASE, 9299707);
+	helper(S, BASE, 9_299_707);
 }
 // endregion
-// region: s_has_whitespaces_and_42827440_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_42_827_440_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_42827440_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_42_827_440_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0B, 0x0D, 0xDF, 0xDF, 0xDF, 0xDF, 0x61, 0xDF, 0xB4, 0xDF, 0x61, 0xDF, 0xB4,
 		0x61, 0xDF, 0x61, 0x61, 0x61, 0x70, 0x9B, 0xE9, 0x4C, 0x7C, 0x45, 0x04, 0xA2, 0xF7, 0x46,
@@ -13852,12 +13852,12 @@ fn s_has_whitespaces_and_42827440_in_base_3_and_insignificant_bytes() {
 		0xB4, 0x61, 0xDF,
 	];
 
-	helper(S, BASE, 42827440);
+	helper(S, BASE, 42_827_440);
 }
 // endregion
-// region: s_has_whitespaces_and_681327360_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_681_327_360_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_681327360_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_681_327_360_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0B, 0x0B, 0x0B, 0x0D, 0x0D, 0x58, 0xD7, 0x47, 0xD7, 0x58, 0x58, 0x58, 0x47,
 		0x47, 0x58, 0x47, 0x47, 0x47, 0x58, 0x47, 0xD7, 0xD7, 0x47, 0x47, 0x57, 0xD6, 0x76, 0x1B,
@@ -13869,7 +13869,7 @@ fn s_has_whitespaces_and_681327360_in_base_3_and_insignificant_bytes() {
 		0x47, 0x58, 0xD7,
 	];
 
-	helper(S, BASE, 681327360);
+	helper(S, BASE, 681_327_360);
 }
 // endregion
 // region: s_has_whitespaces_and_5_in_base_5_and_insignificant_bytes
@@ -13920,9 +13920,9 @@ fn s_has_whitespaces_and_715_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 715);
 }
 // endregion
-// region: s_has_whitespaces_and_5805_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_5_805_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_5805_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_5_805_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0xB1, 0xF4, 0xB1, 0x74, 0xB1, 0x11, 0x0A, 0xBD, 0x8E, 0x87,
 	];
@@ -13930,12 +13930,12 @@ fn s_has_whitespaces_and_5805_in_base_5_and_insignificant_bytes() {
 		0x11, 0xB1, 0x74, 0xCC, 0xF4,
 	];
 
-	helper(S, BASE, 5805);
+	helper(S, BASE, 5_805);
 }
 // endregion
-// region: s_has_whitespaces_and_14277_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_14_277_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_14277_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_14_277_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0B, 0x0B, 0x0A, 0x09, 0x0D, 0x0C, 0x0B, 0x0B, 0x0B, 0x09, 0x0D, 0x0B, 0x0C,
 		0x09, 0x0B, 0x0A, 0x0C, 0x0C, 0x0C, 0x0C, 0x09, 0x0A, 0x0D, 0x0C, 0x0B, 0x09, 0x20, 0x0B,
@@ -13945,12 +13945,12 @@ fn s_has_whitespaces_and_14277_in_base_5_and_insignificant_bytes() {
 		0x18, 0x5C, 0x86, 0xAE, 0x4B,
 	];
 
-	helper(S, BASE, 14277);
+	helper(S, BASE, 14_277);
 }
 // endregion
-// region: s_has_whitespaces_and_973703_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_973_703_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_973703_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_973_703_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x09, 0x0A, 0x20, 0x0C, 0x09, 0x0B, 0x0D, 0x0C, 0x0A, 0x0B, 0x09, 0x0A, 0x20,
 		0x0C, 0x04, 0x04, 0x04, 0x60, 0x04, 0xDC, 0xEF, 0x12, 0xEF, 0xA3, 0xB7, 0xAA, 0x14, 0xD7,
@@ -13961,12 +13961,12 @@ fn s_has_whitespaces_and_973703_in_base_5_and_insignificant_bytes() {
 		0x12, 0x60, 0x04, 0xEF, 0xDC,
 	];
 
-	helper(S, BASE, 973703);
+	helper(S, BASE, 973_703);
 }
 // endregion
-// region: s_has_whitespaces_and_8179296_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_8_179_296_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_8179296_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_8_179_296_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0B, 0x09, 0x0A, 0x0C, 0x20, 0x20, 0x0D, 0x09, 0x0C, 0x0C, 0x0B, 0x0A, 0x0A,
 		0x20, 0x0A, 0x09, 0x0D, 0x0D, 0x20, 0x0D, 0x0A, 0x0D, 0x0B, 0x20, 0x0C, 0x09, 0x09, 0x0D,
@@ -13979,12 +13979,12 @@ fn s_has_whitespaces_and_8179296_in_base_5_and_insignificant_bytes() {
 		0x08, 0x31, 0xD6, 0x48, 0x18,
 	];
 
-	helper(S, BASE, 8179296);
+	helper(S, BASE, 8_179_296);
 }
 // endregion
-// region: s_has_whitespaces_and_50347363_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_50_347_363_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_50347363_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_50_347_363_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0A, 0x0D, 0x20, 0x0B, 0x0A, 0x20, 0x0C, 0x0C, 0x0B, 0x0D, 0x0C, 0x0A, 0x0D,
 		0x20, 0x09, 0x0C, 0x0B, 0x0A, 0x0C, 0x0D, 0x0A, 0x0C, 0x0D, 0x09, 0x09, 0xA4, 0x90, 0x90,
@@ -13995,12 +13995,12 @@ fn s_has_whitespaces_and_50347363_in_base_5_and_insignificant_bytes() {
 		0x90, 0xA4, 0xA1, 0x1F, 0x95,
 	];
 
-	helper(S, BASE, 50347363);
+	helper(S, BASE, 50_347_363);
 }
 // endregion
-// region: s_has_whitespaces_and_406646706_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_406_646_706_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_406646706_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_406_646_706_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0B, 0x0A, 0x0B, 0x0D, 0x09, 0x0C, 0x09, 0x0C, 0x0B, 0x20, 0x0A, 0x0C, 0x0D,
 		0x0A, 0x0B, 0x0A, 0x0A, 0x0D, 0x20, 0x0C, 0x20, 0x0B, 0x0A, 0x20, 0x0B, 0x0C, 0x0D, 0x0B,
@@ -14011,7 +14011,7 @@ fn s_has_whitespaces_and_406646706_in_base_5_and_insignificant_bytes() {
 		0xFF, 0xA4, 0xA2, 0x8D, 0x7F,
 	];
 
-	helper(S, BASE, 406646706);
+	helper(S, BASE, 406_646_706);
 }
 // endregion
 // region: s_has_whitespaces_and_1_in_base_7_and_insignificant_bytes
@@ -14062,9 +14062,9 @@ fn s_has_whitespaces_and_924_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 924);
 }
 // endregion
-// region: s_has_whitespaces_and_9606_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_9_606_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_9606_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_9_606_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x0B, 0x0B, 0x0C, 0x0B, 0x0D, 0x0B, 0x0D, 0x0C, 0x0A, 0x0D, 0x0B, 0x09, 0x0B,
 		0x0A, 0x20, 0x09, 0x09, 0x0C, 0x20, 0x09, 0x0A, 0x2F, 0x1D, 0x1D, 0x1D, 0xCD, 0xB9, 0xAE,
@@ -14075,12 +14075,12 @@ fn s_has_whitespaces_and_9606_in_base_7_and_insignificant_bytes() {
 		0x1D, 0x93, 0xCD, 0x7A, 0x2F, 0x17, 0xC5,
 	];
 
-	helper(S, BASE, 9606);
+	helper(S, BASE, 9_606);
 }
 // endregion
-// region: s_has_whitespaces_and_22977_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_22_977_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_22977_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_22_977_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x20, 0x0B, 0x20, 0x0B, 0x09, 0xFA, 0x14, 0xF6, 0xF8, 0xF8, 0xF6, 0x5A, 0xB8,
 		0x59, 0x4F, 0x7A, 0x48, 0x18, 0x1E, 0x5B, 0x9B, 0x9C, 0xA5, 0xB1, 0x5B, 0x3A, 0xF5, 0x76,
@@ -14090,12 +14090,12 @@ fn s_has_whitespaces_and_22977_in_base_7_and_insignificant_bytes() {
 		0x17, 0xFA, 0x14, 0xF6, 0x36, 0x50, 0xF8,
 	];
 
-	helper(S, BASE, 22977);
+	helper(S, BASE, 22_977);
 }
 // endregion
-// region: s_has_whitespaces_and_120350_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_120_350_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_120350_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_120_350_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x20, 0x0D, 0x0C, 0x09, 0x0C, 0x0A, 0x0D, 0x0A, 0x0C, 0x20, 0x0B, 0x0A, 0x0D,
 		0x0C, 0x0B, 0x09, 0x0A, 0x20, 0x09, 0x09, 0x0B, 0x0C, 0x0C, 0x20, 0x0D, 0x20, 0x0C, 0x09,
@@ -14107,12 +14107,12 @@ fn s_has_whitespaces_and_120350_in_base_7_and_insignificant_bytes() {
 		0xB6, 0x9F, 0xCF, 0x40, 0x76, 0x5D, 0x7D,
 	];
 
-	helper(S, BASE, 120350);
+	helper(S, BASE, 120_350);
 }
 // endregion
-// region: s_has_whitespaces_and_5034315_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_5_034_315_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_5034315_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_5_034_315_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x0C, 0x0B, 0x0A, 0x0C, 0x20, 0x0C, 0x0A, 0x09, 0x0B, 0x0A, 0x0A, 0x0B, 0x09,
 		0x09, 0x0C, 0x0A, 0x20, 0x0C, 0x0D, 0x0A, 0x0C, 0x20, 0x09, 0x0C, 0x5D, 0xD9, 0x79, 0x15,
@@ -14124,12 +14124,12 @@ fn s_has_whitespaces_and_5034315_in_base_7_and_insignificant_bytes() {
 		0xD9, 0x3C, 0xF8, 0x15, 0x47, 0x79, 0x5D,
 	];
 
-	helper(S, BASE, 5034315);
+	helper(S, BASE, 5_034_315);
 }
 // endregion
-// region: s_has_whitespaces_and_63482808_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_63_482_808_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_63482808_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_63_482_808_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0C, 0x0C, 0x0B, 0x0B, 0x20, 0x0A, 0x09, 0x0B, 0x0D, 0x0D, 0x20, 0x0C, 0x0C,
 		0x0A, 0x0A, 0x0D, 0x20, 0x0A, 0x0A, 0x09, 0x0D, 0x0D, 0x20, 0x0C, 0x20, 0x0A, 0x0B, 0x0C,
@@ -14141,12 +14141,12 @@ fn s_has_whitespaces_and_63482808_in_base_7_and_insignificant_bytes() {
 		0xE0, 0xE3, 0x39, 0xAB, 0xF9, 0xA2, 0xA0,
 	];
 
-	helper(S, BASE, 63482808);
+	helper(S, BASE, 63_482_808);
 }
 // endregion
-// region: s_has_whitespaces_and_328032847_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_328_032_847_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_328032847_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_328_032_847_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0C, 0x0C, 0x0C, 0x20, 0x09, 0x0A, 0x0B, 0x89, 0x89, 0x10, 0x15, 0xFB, 0x89,
 		0x06, 0xFB, 0x15, 0x15, 0xFB, 0xC5, 0x33, 0xED, 0xBD, 0x72, 0x8C, 0x8C, 0x99, 0x6F, 0x3B,
@@ -14157,7 +14157,7 @@ fn s_has_whitespaces_and_328032847_in_base_7_and_insignificant_bytes() {
 		0x10, 0x89, 0xFB, 0x25, 0x06, 0x82, 0x15,
 	];
 
-	helper(S, BASE, 328032847);
+	helper(S, BASE, 328_032_847);
 }
 // endregion
 // region: s_has_whitespaces_and_4_in_base_11_and_insignificant_bytes
@@ -14208,9 +14208,9 @@ fn s_has_whitespaces_and_678_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 678);
 }
 // endregion
-// region: s_has_whitespaces_and_5749_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_5_749_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_5749_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_5_749_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0C, 0x09, 0x0A, 0x20, 0x0B, 0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x0B, 0x0A, 0x0C,
 		0x2E, 0xF0, 0xB6, 0xBE, 0x5B, 0x5C, 0x9F, 0xF2, 0xCB, 0x5E, 0x50, 0xCA, 0x5A, 0x2C, 0x43,
@@ -14220,12 +14220,12 @@ fn s_has_whitespaces_and_5749_in_base_11_and_insignificant_bytes() {
 		0xFF, 0xD9, 0xC3, 0xF0, 0x2E, 0xB6, 0x0F, 0xBE, 0x96, 0x29, 0xEB,
 	];
 
-	helper(S, BASE, 5749);
+	helper(S, BASE, 5_749);
 }
 // endregion
-// region: s_has_whitespaces_and_15404_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_15_404_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_15404_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_15_404_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0B, 0x20, 0x0A, 0x0C, 0x0A, 0x09, 0x0D, 0x0C, 0x0C, 0x20, 0x09, 0x0C, 0x0A,
 		0x0A, 0x0C, 0x09, 0x0B, 0x20, 0x0C, 0x0D, 0x20, 0x0A, 0x0C, 0x0A, 0x0C, 0x0B, 0x0D, 0x0C,
@@ -14237,12 +14237,12 @@ fn s_has_whitespaces_and_15404_in_base_11_and_insignificant_bytes() {
 		0x7B, 0x68, 0xEB, 0x6E, 0x55, 0xF1, 0x91, 0x4A, 0xB3, 0xAE, 0xF6,
 	];
 
-	helper(S, BASE, 15404);
+	helper(S, BASE, 15_404);
 }
 // endregion
-// region: s_has_whitespaces_and_384486_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_384_486_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_384486_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_384_486_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0B, 0x0B, 0x20, 0x0D, 0x09, 0x0B, 0x0C, 0x0C, 0x0C, 0x0B, 0x0B, 0x0B, 0x0D,
 		0xE1, 0xB2, 0xE1, 0x1B, 0xB7, 0xFC, 0xEE, 0x21, 0x5B, 0x4B, 0xEF, 0x12, 0x55, 0xA8, 0xFF,
@@ -14252,12 +14252,12 @@ fn s_has_whitespaces_and_384486_in_base_11_and_insignificant_bytes() {
 		0x18, 0xEB, 0xE1, 0xFC, 0xB2, 0x6F, 0xB7, 0x6D, 0x4E, 0x1B, 0x2E,
 	];
 
-	helper(S, BASE, 384486);
+	helper(S, BASE, 384_486);
 }
 // endregion
-// region: s_has_whitespaces_and_6941324_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_6_941_324_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_6941324_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_6_941_324_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0D, 0x09, 0x0C, 0x0A, 0x20, 0x09, 0x0C, 0x0A, 0x09, 0x0D, 0x0B, 0x0B, 0x0D,
 		0x20, 0x20, 0x0C, 0x09, 0x0C, 0x0D, 0x20, 0x0C, 0x20, 0x0A, 0x0C, 0x20, 0x0D, 0x09, 0x0A,
@@ -14270,12 +14270,12 @@ fn s_has_whitespaces_and_6941324_in_base_11_and_insignificant_bytes() {
 		0xAF, 0x27, 0xCD, 0x7F, 0x80, 0xB5, 0x10, 0xC5, 0x49, 0x81, 0x18,
 	];
 
-	helper(S, BASE, 6941324);
+	helper(S, BASE, 6_941_324);
 }
 // endregion
-// region: s_has_whitespaces_and_65312125_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_65_312_125_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_65312125_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_65_312_125_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0C, 0x09, 0x20, 0x09, 0x0A, 0x0D, 0x09, 0x0A, 0x0B, 0x20, 0x0A, 0x0D, 0x09,
 		0x0B, 0x0D, 0x09, 0x09, 0x0B, 0x0B, 0x0C, 0x0A, 0x0B, 0x0C, 0x0B, 0x09, 0x09, 0x0A, 0x20,
@@ -14286,12 +14286,12 @@ fn s_has_whitespaces_and_65312125_in_base_11_and_insignificant_bytes() {
 		0x91, 0xE0, 0x1C, 0x81, 0xC9, 0x4B, 0x66, 0x48, 0xA4, 0xA1, 0x1A,
 	];
 
-	helper(S, BASE, 65312125);
+	helper(S, BASE, 65_312_125);
 }
 // endregion
-// region: s_has_whitespaces_and_647873417_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_647_873_417_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_647873417_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_647_873_417_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0B, 0x0C, 0x0D, 0x0C, 0x20, 0x20, 0x09, 0x6A, 0x38, 0x2A, 0x30, 0x72, 0x7E,
 		0x2F, 0x72, 0xBA, 0xE0, 0xF0, 0xDE, 0x93, 0xB4, 0x44, 0x44, 0x2D, 0x40, 0x82, 0x3F, 0x70,
@@ -14302,7 +14302,7 @@ fn s_has_whitespaces_and_647873417_in_base_11_and_insignificant_bytes() {
 		0x38, 0x37, 0x2A, 0x6A, 0xBA, 0xFF, 0x7E, 0x30, 0x72, 0x2F, 0xE7,
 	];
 
-	helper(S, BASE, 647873417);
+	helper(S, BASE, 647_873_417);
 }
 // endregion
 // region: s_has_whitespaces_and_3_in_base_13_and_insignificant_bytes
@@ -14353,9 +14353,9 @@ fn s_has_whitespaces_and_601_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 601);
 }
 // endregion
-// region: s_has_whitespaces_and_1914_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_1_914_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_1914_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_1_914_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0A, 0x09, 0x0B, 0x0C, 0x0D, 0x20, 0x0C, 0x0B, 0x20, 0x0B, 0x0B, 0x20, 0x09,
 		0x0D, 0x0D, 0x0D, 0x0D, 0x09, 0x0D, 0x0C, 0x0C, 0x0A, 0x09, 0x0B, 0x0B, 0x0B, 0x0B, 0x0C,
@@ -14366,12 +14366,12 @@ fn s_has_whitespaces_and_1914_in_base_13_and_insignificant_bytes() {
 		0x16, 0x33, 0xA6, 0x22, 0x6B, 0xD3, 0xE1, 0x76, 0xD6, 0x34, 0x4A, 0x39, 0xDE,
 	];
 
-	helper(S, BASE, 1914);
+	helper(S, BASE, 1_914);
 }
 // endregion
-// region: s_has_whitespaces_and_27531_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_27_531_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_27531_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_27_531_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x20, 0xD4, 0x74, 0x1B, 0x24, 0x3F, 0xBD, 0xD5, 0xAF, 0xC2, 0x96, 0x9D, 0x43,
 		0x52, 0x0D, 0x3E, 0x26, 0xD0, 0x70, 0x04, 0xA2, 0xB2, 0x02, 0xDE,
@@ -14380,12 +14380,12 @@ fn s_has_whitespaces_and_27531_in_base_13_and_insignificant_bytes() {
 		0x6C, 0xE8, 0x1E, 0x15, 0x2C, 0xFB, 0x74, 0xE5, 0xE3, 0x34, 0x24, 0x1B, 0xD4,
 	];
 
-	helper(S, BASE, 27531);
+	helper(S, BASE, 27_531);
 }
 // endregion
-// region: s_has_whitespaces_and_525819_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_525_819_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_525819_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_525_819_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x20, 0x09, 0x09, 0x09, 0x20, 0x0B, 0x0B, 0x0B, 0x0D, 0x0C, 0x0A, 0x0A,
 		0x0B, 0x09, 0x20, 0x0B, 0x09, 0x0D, 0x20, 0x0B, 0x0C, 0x20, 0x0D, 0x0B, 0x20, 0x0D, 0x0A,
@@ -14397,12 +14397,12 @@ fn s_has_whitespaces_and_525819_in_base_13_and_insignificant_bytes() {
 		0xA3, 0x86, 0xA4, 0xD8, 0x3C, 0x08, 0x39, 0xEC, 0x7F, 0x4E, 0x95, 0xED, 0xA2,
 	];
 
-	helper(S, BASE, 525819);
+	helper(S, BASE, 525_819);
 }
 // endregion
-// region: s_has_whitespaces_and_7479658_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_7_479_658_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_7479658_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_7_479_658_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x20, 0x09, 0x20, 0x01, 0xCB, 0x01, 0x93, 0xA8, 0x0F,
 		0x0F, 0x4F, 0x8B, 0x86, 0x60, 0x5D, 0x71, 0x2B, 0x7A, 0x6B, 0xBB, 0xF3, 0xC1, 0xA6, 0xD4,
@@ -14411,12 +14411,12 @@ fn s_has_whitespaces_and_7479658_in_base_13_and_insignificant_bytes() {
 		0xB9, 0x01, 0xF0, 0x82, 0x0F, 0x68, 0xA8, 0xCB, 0xFA, 0x83, 0xFC, 0x93, 0x92,
 	];
 
-	helper(S, BASE, 7479658);
+	helper(S, BASE, 7_479_658);
 }
 // endregion
-// region: s_has_whitespaces_and_60873722_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_60_873_722_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_60873722_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_60_873_722_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0C, 0x20, 0x0B, 0x20, 0x0B, 0x0C, 0x0D, 0x0D, 0x0A, 0x0A, 0x0B, 0x09, 0x0A,
 		0x0D, 0x0B, 0x0B, 0x0D, 0x0A, 0x0B, 0x0D, 0x09, 0x20, 0x0C, 0xC8, 0x5F, 0xC8, 0xB5, 0x35,
@@ -14428,12 +14428,12 @@ fn s_has_whitespaces_and_60873722_in_base_13_and_insignificant_bytes() {
 		0x80, 0x9A, 0x30, 0xA3, 0xB5, 0xC1, 0x60, 0x5F, 0x35, 0xE2, 0x93, 0xDF, 0xC8,
 	];
 
-	helper(S, BASE, 60873722);
+	helper(S, BASE, 60_873_722);
 }
 // endregion
-// region: s_has_whitespaces_and_459015958_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_459_015_958_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_459015958_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_459_015_958_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0A, 0x09, 0x0D, 0x20, 0x0C, 0x0C, 0x0D, 0x0C, 0x0A, 0x0D, 0x20, 0x0C, 0x0A,
 		0x0D, 0x09, 0x0C, 0x09, 0x0D, 0x0D, 0x09, 0x0B, 0x0C, 0x20, 0x0B, 0x0C, 0x0B, 0x0A, 0x0C,
@@ -14444,7 +14444,7 @@ fn s_has_whitespaces_and_459015958_in_base_13_and_insignificant_bytes() {
 		0xC0, 0xD9, 0xFF, 0x7A, 0x31, 0xD0, 0x70, 0x95, 0x73, 0xAA, 0x05, 0x76, 0xE3,
 	];
 
-	helper(S, BASE, 459015958);
+	helper(S, BASE, 459_015_958);
 }
 // endregion
 // region: s_has_whitespaces_and_8_in_base_19_and_insignificant_bytes
@@ -14496,9 +14496,9 @@ fn s_has_whitespaces_and_176_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 176);
 }
 // endregion
-// region: s_has_whitespaces_and_4726_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_4_726_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_4726_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_4_726_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0A, 0x20, 0x0A, 0x0B, 0x09, 0x09, 0x09, 0x0D, 0x20, 0x09, 0x0B, 0x0A, 0x0A,
 		0x0D, 0x0D, 0x0C, 0x0A, 0x09, 0x0D, 0x0D, 0x20, 0x0D, 0x0C, 0x09, 0x0A, 0x0A, 0x0D, 0x20,
@@ -14510,12 +14510,12 @@ fn s_has_whitespaces_and_4726_in_base_19_and_insignificant_bytes() {
 		0x79, 0x1F, 0x5E, 0x89,
 	];
 
-	helper(S, BASE, 4726);
+	helper(S, BASE, 4_726);
 }
 // endregion
-// region: s_has_whitespaces_and_60643_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_60_643_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_60643_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_60_643_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x20, 0x0C, 0x0A, 0x0A, 0x0D, 0x0C, 0x09, 0x0B, 0x0B, 0x20, 0x0B, 0x0C, 0x20,
 		0x09, 0x09, 0x0A, 0x0C, 0x0B, 0x0B, 0x09, 0x09, 0x0B, 0x0A, 0x0C, 0x09, 0x0A, 0x20, 0x20,
@@ -14528,12 +14528,12 @@ fn s_has_whitespaces_and_60643_in_base_19_and_insignificant_bytes() {
 		0x87, 0x04, 0xB8, 0x19,
 	];
 
-	helper(S, BASE, 60643);
+	helper(S, BASE, 60_643);
 }
 // endregion
-// region: s_has_whitespaces_and_212230_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_212_230_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_212230_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_212_230_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0A, 0x0A, 0x0B, 0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x0B, 0x0A, 0x0C, 0x0A, 0x09,
 		0x0C, 0x20, 0x0C, 0x09, 0x09, 0x0C, 0x0C, 0x0C, 0x0D, 0x0A, 0x0A, 0x09, 0x0C, 0x09, 0x0D,
@@ -14547,12 +14547,12 @@ fn s_has_whitespaces_and_212230_in_base_19_and_insignificant_bytes() {
 		0xEF, 0x63, 0x02, 0xB6,
 	];
 
-	helper(S, BASE, 212230);
+	helper(S, BASE, 212_230);
 }
 // endregion
-// region: s_has_whitespaces_and_2566814_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_2_566_814_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_2566814_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_2_566_814_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x09, 0x0B, 0x0B, 0x0B, 0x0A, 0x0B, 0x20, 0x0B, 0x0D, 0x20, 0x0B, 0x0B, 0x0C,
 		0x0B, 0x09, 0x0D, 0x0A, 0x20, 0x0D, 0x20, 0x0C, 0x0B, 0x0A, 0x20, 0x0C, 0x0B, 0xF6, 0x49,
@@ -14563,12 +14563,12 @@ fn s_has_whitespaces_and_2566814_in_base_19_and_insignificant_bytes() {
 		0xAE, 0xD5, 0x06, 0x95,
 	];
 
-	helper(S, BASE, 2566814);
+	helper(S, BASE, 2_566_814);
 }
 // endregion
-// region: s_has_whitespaces_and_15859221_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_15_859_221_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_15859221_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_15_859_221_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0D, 0x20, 0x09, 0x0C, 0x0C, 0x0A, 0x0C, 0x20, 0x0A, 0x0D, 0x09, 0x20, 0x09,
 		0x0C, 0x0A, 0x09, 0x20, 0x0B, 0x20, 0x0C, 0x20, 0x0A, 0x09, 0x09, 0x0A, 0x0D, 0x0B, 0x0A,
@@ -14582,12 +14582,12 @@ fn s_has_whitespaces_and_15859221_in_base_19_and_insignificant_bytes() {
 		0x89, 0x5B, 0xDF, 0xDD,
 	];
 
-	helper(S, BASE, 15859221);
+	helper(S, BASE, 15_859_221);
 }
 // endregion
-// region: s_has_whitespaces_and_286777710_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_286_777_710_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_286777710_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_286_777_710_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x20, 0x0D, 0x0D, 0x09, 0x0B, 0x0A, 0x0A, 0x0A, 0x09, 0x0C, 0x20, 0x0A,
 		0x0B, 0x0C, 0x0A, 0x09, 0x0B, 0x20, 0x0D, 0x0C, 0x0B, 0x09, 0x0C, 0x0B, 0x09, 0x31, 0xEB,
@@ -14598,7 +14598,7 @@ fn s_has_whitespaces_and_286777710_in_base_19_and_insignificant_bytes() {
 		0x98, 0xA3, 0x6B, 0xA5,
 	];
 
-	helper(S, BASE, 286777710);
+	helper(S, BASE, 286_777_710);
 }
 // endregion
 // region: s_has_whitespaces_and_2_in_base_42_and_insignificant_bytes
@@ -14652,9 +14652,9 @@ fn s_has_whitespaces_and_548_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 548);
 }
 // endregion
-// region: s_has_whitespaces_and_9960_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_9_960_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_9960_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_9_960_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0C, 0x0D, 0x20, 0x0C, 0x0B, 0x0A, 0x0B, 0x0D, 0x0B, 0x20, 0x0D, 0x0A, 0x20,
 		0x0D, 0x0B, 0x20, 0x0C, 0x0D, 0x0B, 0x0C, 0x09, 0x0A, 0x0B, 0x20, 0x09, 0x0C, 0x20, 0x0C,
@@ -14667,12 +14667,12 @@ fn s_has_whitespaces_and_9960_in_base_42_and_insignificant_bytes() {
 		0x43, 0x74, 0xF0, 0x7B, 0xAE, 0xB3, 0xCD, 0x3F, 0xD6, 0xDD, 0x01, 0xD1,
 	];
 
-	helper(S, BASE, 9960);
+	helper(S, BASE, 9_960);
 }
 // endregion
-// region: s_has_whitespaces_and_42112_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_42_112_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_42112_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_42_112_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0D, 0x0C, 0x0D, 0x0D, 0x20, 0x0B, 0x0A, 0x0B, 0x20, 0x0C, 0x0D, 0x0A, 0x0D,
 		0x0D, 0x0C, 0x0C, 0x0D, 0x0D, 0x0C, 0x0C, 0x0C, 0x09, 0x0D, 0x0A, 0x0C, 0x0B, 0x0C, 0x0A,
@@ -14685,12 +14685,12 @@ fn s_has_whitespaces_and_42112_in_base_42_and_insignificant_bytes() {
 		0xC8, 0xDD, 0x94, 0xBC, 0x74, 0x5E, 0x26, 0xCC, 0xBA, 0x10, 0xEF, 0xCA,
 	];
 
-	helper(S, BASE, 42112);
+	helper(S, BASE, 42_112);
 }
 // endregion
-// region: s_has_whitespaces_and_677741_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_677_741_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_677741_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_677_741_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x20, 0x0B, 0x09, 0x20, 0x0A, 0x0D, 0x0D, 0x0A, 0x0B, 0x0D, 0x0B, 0x0A, 0x0B,
 		0x20, 0x0C, 0x09, 0x20, 0x0B, 0x0B, 0x20, 0x0B, 0x0C, 0x09, 0x9C, 0x08, 0x7E, 0x15, 0xE8,
@@ -14703,12 +14703,12 @@ fn s_has_whitespaces_and_677741_in_base_42_and_insignificant_bytes() {
 		0xA3, 0xDB, 0x70, 0x72, 0x73, 0xF3, 0x61, 0x4E, 0xC4, 0x94, 0xAA, 0x1C,
 	];
 
-	helper(S, BASE, 677741);
+	helper(S, BASE, 677_741);
 }
 // endregion
-// region: s_has_whitespaces_and_6522809_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_6_522_809_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_6522809_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_6_522_809_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0A, 0x0C, 0x20, 0x0B, 0x09, 0x0D, 0x0B, 0x0A, 0x09, 0x0C, 0x09, 0x0D, 0x0B,
 		0x20, 0x0C, 0x0B, 0x0B, 0x20, 0x20, 0x20, 0x49, 0xDC, 0x6D, 0xA2, 0x60, 0x6E, 0x5B, 0x6E,
@@ -14721,12 +14721,12 @@ fn s_has_whitespaces_and_6522809_in_base_42_and_insignificant_bytes() {
 		0xA2, 0x59, 0x57, 0x35, 0x4D, 0xDE, 0xC1, 0x58, 0xF6, 0x8A, 0xDA, 0x60,
 	];
 
-	helper(S, BASE, 6522809);
+	helper(S, BASE, 6_522_809);
 }
 // endregion
-// region: s_has_whitespaces_and_70016783_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_70_016_783_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_70016783_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_70_016_783_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x20, 0x0A, 0x0A, 0x20, 0x75, 0x95, 0xBC, 0xBC, 0xED, 0xD1, 0xCB, 0x4A, 0xC7,
 		0x23, 0x90, 0xF7, 0x3C, 0x29, 0x65, 0xCB, 0xE0, 0x01, 0xCC, 0x42, 0xB3, 0x33, 0x38, 0x2D,
@@ -14738,12 +14738,12 @@ fn s_has_whitespaces_and_70016783_in_base_42_and_insignificant_bytes() {
 		0x4D, 0xC3, 0x1F, 0xF8, 0x16, 0x2F, 0x21, 0xAF, 0x22, 0x41, 0x2E, 0x82,
 	];
 
-	helper(S, BASE, 70016783);
+	helper(S, BASE, 70_016_783);
 }
 // endregion
-// region: s_has_whitespaces_and_345293067_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_345_293_067_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_345293067_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_345_293_067_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0A, 0x09, 0x0B, 0x20, 0x0D, 0x0B, 0x09, 0x09, 0x0A, 0x20, 0xC7, 0x23, 0x16,
 		0x89, 0xB5, 0x8D, 0xF0, 0x40, 0xBB, 0xD6, 0x05, 0xA0, 0xC3, 0x7B, 0xD6, 0xF9, 0x43, 0x0E,
@@ -14755,7 +14755,7 @@ fn s_has_whitespaces_and_345293067_in_base_42_and_insignificant_bytes() {
 		0xD0, 0x4A, 0x7E, 0x84, 0x5A, 0x53, 0x1D, 0x60, 0xBA, 0x72, 0x16, 0xF4,
 	];
 
-	helper(S, BASE, 345293067);
+	helper(S, BASE, 345_293_067);
 }
 // endregion
 // region: s_has_whitespaces_and_5_in_base_73_and_insignificant_bytes
@@ -14816,9 +14816,9 @@ fn s_has_whitespaces_and_211_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 211);
 }
 // endregion
-// region: s_has_whitespaces_and_5022_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_5_022_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_5022_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_5_022_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x09, 0x0B, 0x09, 0x0C, 0x0B, 0x09, 0x0D, 0x0D, 0x0C, 0x0D, 0x0C, 0xCE, 0x51,
 		0xAE, 0x25, 0x0C, 0x94, 0x3A, 0xDC, 0x0D, 0xBA, 0x78, 0x16, 0xC1, 0x01, 0x05, 0x32, 0xE8,
@@ -14832,12 +14832,12 @@ fn s_has_whitespaces_and_5022_in_base_73_and_insignificant_bytes() {
 		0xEA, 0x5F, 0x29, 0x90, 0xBB, 0x38, 0x46, 0x0F, 0xCE, 0x03, 0x75, 0x31, 0xE6,
 	];
 
-	helper(S, BASE, 5022);
+	helper(S, BASE, 5_022);
 }
 // endregion
-// region: s_has_whitespaces_and_17544_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_17_544_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_17544_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_17_544_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x09, 0x0A, 0x0B, 0x09, 0x0C, 0x0A, 0x0D, 0x0C, 0x09, 0x0A, 0x0D, 0x09,
 		0x0D, 0x0C, 0x20, 0xF5, 0xB7, 0x6A, 0x95, 0x6C, 0x3D, 0xE0, 0x33, 0x26, 0x96, 0xF0, 0x1D,
@@ -14852,12 +14852,12 @@ fn s_has_whitespaces_and_17544_in_base_73_and_insignificant_bytes() {
 		0xB2, 0xD0, 0x65, 0x5B, 0xC2, 0x3F, 0x81, 0x74, 0xAC, 0x61, 0x3C, 0xA9, 0xE4,
 	];
 
-	helper(S, BASE, 17544);
+	helper(S, BASE, 17_544);
 }
 // endregion
-// region: s_has_whitespaces_and_185922_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_185_922_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_185922_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_185_922_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x20, 0x09, 0x0D, 0x0A, 0x0B, 0x0B, 0x0A, 0x0D, 0x0C, 0x0A, 0x0C, 0x0C, 0x0A,
 		0x0D, 0x09, 0x09, 0x09, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0B, 0x0A, 0x0A, 0x20, 0x0C, 0x0A,
@@ -14873,12 +14873,12 @@ fn s_has_whitespaces_and_185922_in_base_73_and_insignificant_bytes() {
 		0xA5, 0x61, 0x12, 0x36, 0x99, 0x66, 0x42, 0x1A, 0xEC, 0x50, 0x10, 0xE0, 0xF7,
 	];
 
-	helper(S, BASE, 185922);
+	helper(S, BASE, 185_922);
 }
 // endregion
-// region: s_has_whitespaces_and_3188324_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_3_188_324_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_3188324_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_3_188_324_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x09, 0x09, 0x09, 0x0D, 0x0A, 0x0B, 0x0D, 0x0D, 0x0C, 0x20, 0x0C, 0x0C, 0x0A,
 		0x0B, 0x20, 0x0C, 0x09, 0x0A, 0x0D, 0x09, 0x20, 0x20, 0x0B, 0x0C, 0x20, 0x0C, 0x09, 0x20,
@@ -14895,12 +14895,12 @@ fn s_has_whitespaces_and_3188324_in_base_73_and_insignificant_bytes() {
 		0x65, 0xEE, 0x42, 0xC6, 0x02, 0xE0, 0x8E, 0x53, 0xD3, 0x8C, 0xAB, 0xC4, 0x12,
 	];
 
-	helper(S, BASE, 3188324);
+	helper(S, BASE, 3_188_324);
 }
 // endregion
-// region: s_has_whitespaces_and_91712713_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_91_712_713_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_91712713_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_91_712_713_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x09, 0x09, 0x0B, 0x0B, 0x9E, 0x4F, 0x73, 0x2A, 0x3E, 0x58, 0x57,
 	];
@@ -14912,12 +14912,12 @@ fn s_has_whitespaces_and_91712713_in_base_73_and_insignificant_bytes() {
 		0xB3, 0xBF, 0xE9, 0x61, 0x34, 0xC1, 0xDE, 0x24, 0x60, 0x70, 0xA0, 0x01, 0x05,
 	];
 
-	helper(S, BASE, 91712713);
+	helper(S, BASE, 91_712_713);
 }
 // endregion
-// region: s_has_whitespaces_and_319303455_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_319_303_455_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_319303455_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_319_303_455_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0B, 0x20, 0x0C, 0x0A, 0x0A, 0x20, 0x0C, 0x0B, 0x0C, 0x0D, 0x20, 0x0C, 0x0A,
 		0x09, 0x09, 0x20, 0x0B, 0x0B, 0x0D, 0x20, 0x0B, 0x0C, 0xC5, 0x99, 0x43, 0xE1, 0xFE, 0xAD,
@@ -14932,7 +14932,7 @@ fn s_has_whitespaces_and_319303455_in_base_73_and_insignificant_bytes() {
 		0xF0, 0xA6, 0xBB, 0x18, 0x80, 0xAC, 0x6B, 0x3B, 0xFE, 0xDB, 0xBE, 0x96, 0x7B,
 	];
 
-	helper(S, BASE, 319303455);
+	helper(S, BASE, 319_303_455);
 }
 // endregion
 // region: s_has_whitespaces_and_8_in_base_113_and_insignificant_bytes
@@ -15002,9 +15002,9 @@ fn s_has_whitespaces_and_592_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 592);
 }
 // endregion
-// region: s_has_whitespaces_and_2117_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_2_117_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_2117_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_2_117_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x09, 0x2E, 0x88, 0x51, 0xCF, 0xFD, 0x13, 0xE1, 0x04, 0xF7, 0x08, 0xCF,
 		0xCC, 0x13, 0x0E, 0x20, 0x3A, 0x30, 0x9B, 0xD6, 0x18, 0x6A, 0x20, 0x80, 0x81, 0xD9, 0x48,
@@ -15021,12 +15021,12 @@ fn s_has_whitespaces_and_2117_in_base_113_and_insignificant_bytes() {
 		0x96, 0x3F, 0x4E, 0xE4, 0x53, 0x86, 0xEC, 0x77,
 	];
 
-	helper(S, BASE, 2117);
+	helper(S, BASE, 2_117);
 }
 // endregion
-// region: s_has_whitespaces_and_18828_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_18_828_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_18828_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_18_828_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0D, 0x0D, 0x20, 0x09, 0x0A, 0x0C, 0x20, 0x0D, 0x0A, 0x0C, 0x7B, 0x17, 0xF5,
 		0xB5, 0xA4, 0x94, 0x3D, 0x7C, 0xA1, 0xB8, 0x4B, 0xC7, 0xC8, 0xCD, 0x18, 0xAA, 0x2E, 0xF2,
@@ -15043,12 +15043,12 @@ fn s_has_whitespaces_and_18828_in_base_113_and_insignificant_bytes() {
 		0x2F, 0x14, 0xE5, 0xE1, 0x6B, 0x43, 0xE8, 0xE6,
 	];
 
-	helper(S, BASE, 18828);
+	helper(S, BASE, 18_828);
 }
 // endregion
-// region: s_has_whitespaces_and_939091_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_939_091_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_939091_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_939_091_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0C, 0x0C, 0x0A, 0x0A, 0x09, 0x09, 0x0B, 0x0D, 0x89, 0xD8, 0xD8, 0x66, 0xA6,
 		0xA6, 0xC3, 0x27, 0x32, 0x59, 0xED, 0xFE, 0x3B, 0x63, 0xE9, 0x52, 0x05, 0xC1,
@@ -15064,12 +15064,12 @@ fn s_has_whitespaces_and_939091_in_base_113_and_insignificant_bytes() {
 		0x16, 0x49, 0xA8, 0xC7, 0xCE, 0x1F, 0x9E, 0xBC,
 	];
 
-	helper(S, BASE, 939091);
+	helper(S, BASE, 939_091);
 }
 // endregion
-// region: s_has_whitespaces_and_4899847_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_4_899_847_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_4899847_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_4_899_847_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x09, 0xB4, 0xC3, 0xA2, 0xC2, 0xBA, 0xF1, 0x8E, 0xF6, 0xD1, 0x32, 0xCA, 0x18,
 		0x5B, 0x33, 0x81, 0xCA, 0x55, 0x78, 0x33, 0xFD, 0x90, 0x33,
@@ -15085,12 +15085,12 @@ fn s_has_whitespaces_and_4899847_in_base_113_and_insignificant_bytes() {
 		0x07, 0x04, 0xFC, 0xE9, 0xC0, 0x8B, 0x1C, 0xC7,
 	];
 
-	helper(S, BASE, 4899847);
+	helper(S, BASE, 4_899_847);
 }
 // endregion
-// region: s_has_whitespaces_and_29257889_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_29_257_889_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_29257889_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_29_257_889_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x09, 0x09, 0x0C, 0x0A, 0x09, 0x0A, 0x0B, 0x0D, 0x09, 0x0C, 0x0A, 0x0B, 0x0A,
 		0x0A, 0x0B, 0x0A, 0x09, 0x09, 0x0A, 0x20, 0x09, 0x0D, 0x09, 0x0A, 0x0B, 0x0C, 0x0B, 0x0D,
@@ -15109,12 +15109,12 @@ fn s_has_whitespaces_and_29257889_in_base_113_and_insignificant_bytes() {
 		0xB6, 0xCF, 0x75, 0xD9, 0x69, 0x7F, 0xE6, 0xF9,
 	];
 
-	helper(S, BASE, 29257889);
+	helper(S, BASE, 29_257_889);
 }
 // endregion
-// region: s_has_whitespaces_and_298609792_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_298_609_792_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_298609792_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_298_609_792_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x83, 0x06, 0xBA, 0xDE, 0x8B, 0xEF, 0x63, 0x07, 0x69, 0x5C, 0xC5, 0xEF, 0x80,
 		0x3F, 0xB0, 0xE3, 0xEE, 0xEE, 0xD7, 0xAA, 0x93,
@@ -15130,7 +15130,7 @@ fn s_has_whitespaces_and_298609792_in_base_113_and_insignificant_bytes() {
 		0xC7, 0x24, 0xBA, 0x56, 0x94, 0xFB, 0x38, 0xFD,
 	];
 
-	helper(S, BASE, 298609792);
+	helper(S, BASE, 298_609_792);
 }
 // endregion
 // region: s_has_whitespaces_and_9_in_base_193_and_insignificant_bytes
@@ -15214,9 +15214,9 @@ fn s_has_whitespaces_and_587_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 587);
 }
 // endregion
-// region: s_has_whitespaces_and_9864_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_9_864_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_9864_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_9_864_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x20, 0x0A, 0x0C, 0x0C, 0x20, 0x20, 0x0A, 0x0C, 0x0A, 0x0C, 0x0A, 0x0B, 0x0B,
 		0x09, 0x0D, 0x09, 0x0B, 0x20, 0x20, 0x0D, 0x0D, 0x0A, 0x0A, 0x0A, 0x20, 0x20, 0x0A, 0x0C,
@@ -15239,12 +15239,12 @@ fn s_has_whitespaces_and_9864_in_base_193_and_insignificant_bytes() {
 		0xB3, 0x31, 0x07, 0x28, 0x50, 0x1A, 0x7D, 0x5E, 0x1B, 0xF9, 0xEC, 0xE8, 0xAD,
 	];
 
-	helper(S, BASE, 9864);
+	helper(S, BASE, 9_864);
 }
 // endregion
-// region: s_has_whitespaces_and_72382_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_72_382_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_72382_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_72_382_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0C, 0x0B, 0x0A, 0x0C, 0x09, 0x09, 0x09, 0x09, 0x0B, 0x0D, 0x0D, 0x20, 0x0B,
 		0x20, 0xC4, 0xD6, 0xC0, 0x8F, 0x87, 0x0D, 0x86, 0xBF, 0x2B, 0x9E, 0x0B, 0x2D, 0x06,
@@ -15265,12 +15265,12 @@ fn s_has_whitespaces_and_72382_in_base_193_and_insignificant_bytes() {
 		0xAA, 0x55, 0xD6, 0xC7, 0x94, 0x05, 0x21, 0xA2, 0xB0, 0xF7, 0x3A, 0x2E, 0x5F,
 	];
 
-	helper(S, BASE, 72382);
+	helper(S, BASE, 72_382);
 }
 // endregion
-// region: s_has_whitespaces_and_333953_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_333_953_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_333953_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_333_953_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0B, 0x0C, 0x0C, 0x20, 0x0D, 0x09, 0x0A, 0x0B, 0x0A, 0x0A, 0x20, 0x0A, 0x20,
 		0x20, 0x09, 0x0A, 0x0B, 0x0A, 0x0C, 0x0B, 0x0D, 0x6A, 0x19, 0x1F, 0x12, 0x87, 0x28, 0x2B,
@@ -15293,12 +15293,12 @@ fn s_has_whitespaces_and_333953_in_base_193_and_insignificant_bytes() {
 		0xD8, 0xB4, 0x31, 0x03, 0xD4, 0xAB, 0x19, 0xB6, 0xCF, 0xC1, 0xB8, 0x98, 0x80,
 	];
 
-	helper(S, BASE, 333953);
+	helper(S, BASE, 333_953);
 }
 // endregion
-// region: s_has_whitespaces_and_5088331_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_5_088_331_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_5088331_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_5_088_331_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x09, 0x20, 0x0D, 0x0D, 0x0C, 0x0D, 0x0B, 0x0B, 0x0A, 0x0A, 0x0A, 0x0D, 0x0A,
 		0x0C, 0x0C, 0x0C, 0x20, 0x0A, 0x0C, 0xE9, 0x7E, 0x98, 0x3C, 0x42,
@@ -15319,12 +15319,12 @@ fn s_has_whitespaces_and_5088331_in_base_193_and_insignificant_bytes() {
 		0x63, 0x83, 0x88, 0xF6, 0x5C, 0x9E, 0x8A, 0x76, 0x8C, 0xA1, 0xAB, 0xC4, 0x54,
 	];
 
-	helper(S, BASE, 5088331);
+	helper(S, BASE, 5_088_331);
 }
 // endregion
-// region: s_has_whitespaces_and_60936303_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_60_936_303_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_60936303_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_60_936_303_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x0A, 0x0B, 0x09, 0xB2, 0x78, 0xB7, 0x96, 0x71, 0xDE, 0x45,
 		0x08, 0xDE, 0x3E, 0x1A, 0x65, 0x2F, 0x2C, 0x41, 0xE0, 0x33, 0xE9, 0xD9, 0x79, 0xCD, 0xCC,
@@ -15346,12 +15346,12 @@ fn s_has_whitespaces_and_60936303_in_base_193_and_insignificant_bytes() {
 		0x51, 0xE7, 0x63, 0xE5, 0x58, 0x28, 0x94, 0xF4, 0xFB, 0x40, 0x7E, 0x22, 0x1E,
 	];
 
-	helper(S, BASE, 60936303);
+	helper(S, BASE, 60_936_303);
 }
 // endregion
-// region: s_has_whitespaces_and_839095699_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_839_095_699_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_839095699_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_839_095_699_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x0C, 0x0A, 0x0D, 0x0B, 0x09, 0x0C, 0x0D, 0x0D, 0x0B, 0x0C, 0x0D, 0x0C,
 		0x09, 0x0C, 0x0C, 0x09, 0x20, 0x0A, 0x09, 0x0A, 0x09, 0x0B, 0x0C, 0x0D, 0x09, 0x0C, 0x0D,
@@ -15374,7 +15374,7 @@ fn s_has_whitespaces_and_839095699_in_base_193_and_insignificant_bytes() {
 		0xC0, 0x70, 0x2A, 0x58, 0xD2, 0x6E, 0x3C, 0x16, 0xB3, 0xA5, 0x8C, 0xE9, 0x97,
 	];
 
-	helper(S, BASE, 839095699);
+	helper(S, BASE, 839_095_699);
 }
 // endregion
 // region: s_has_whitespaces_and_2_in_base_247_and_insignificant_bytes
@@ -15469,9 +15469,9 @@ fn s_has_whitespaces_and_667_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 667);
 }
 // endregion
-// region: s_has_whitespaces_and_3288_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_3_288_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_3288_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_3_288_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0D, 0x20, 0x0C, 0x0B, 0x0D, 0x09, 0x0C, 0x0D, 0x0B, 0x0D, 0x0C, 0x20, 0x0C,
 		0x44, 0x14, 0x09, 0x0D, 0x2D, 0x20, 0x09, 0x0D, 0x09, 0x2D, 0x0B, 0x20, 0x0A, 0x0D, 0x0C,
@@ -15498,12 +15498,12 @@ fn s_has_whitespaces_and_3288_in_base_247_and_insignificant_bytes() {
 		0xDA, 0x9D, 0x72, 0x08, 0x82, 0x5D, 0x4B,
 	];
 
-	helper(S, BASE, 3288);
+	helper(S, BASE, 3_288);
 }
 // endregion
-// region: s_has_whitespaces_and_51849_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_51_849_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_51849_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_51_849_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0B, 0x0D, 0x0D, 0x0A, 0x0D, 0x09, 0x0A, 0x20, 0x20, 0x0C, 0x20, 0x0B,
 		0x0D, 0x0D, 0x0B, 0x0B, 0x09, 0x0D, 0x20, 0x0C, 0x20, 0x20, 0x0C, 0x0D, 0x20, 0x0D, 0x0C,
@@ -15530,12 +15530,12 @@ fn s_has_whitespaces_and_51849_in_base_247_and_insignificant_bytes() {
 		0xA6, 0xE2, 0xDE, 0x68, 0x05, 0x2C, 0x7D,
 	];
 
-	helper(S, BASE, 51849);
+	helper(S, BASE, 51_849);
 }
 // endregion
-// region: s_has_whitespaces_and_785233_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_785_233_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_785233_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_785_233_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x09, 0x09, 0x0B, 0x0C, 0x09, 0x0B, 0x0A, 0x0C, 0x0B, 0x09, 0x0C, 0x0C, 0x0B,
 		0x0D, 0x0A, 0x20, 0x0B, 0x0B, 0x20, 0x0A, 0x06, 0x46, 0x68, 0x2D, 0x0B, 0x0B, 0x0D, 0x2D,
@@ -15562,12 +15562,12 @@ fn s_has_whitespaces_and_785233_in_base_247_and_insignificant_bytes() {
 		0xC4, 0x42, 0x49, 0xB0, 0x27, 0x45, 0x98,
 	];
 
-	helper(S, BASE, 785233);
+	helper(S, BASE, 785_233);
 }
 // endregion
-// region: s_has_whitespaces_and_7384194_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_7_384_194_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_7384194_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_7_384_194_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0D, 0x0C, 0x20, 0x0B, 0x09, 0x09, 0x0A, 0x20, 0x0A, 0x0B, 0x20, 0x20, 0x20,
 		0x0B, 0x0C, 0x0D, 0x0D, 0x0A, 0x0D, 0x0D, 0x0C, 0x0D, 0x0A, 0x0C, 0x20, 0x09, 0x09, 0x0B,
@@ -15595,12 +15595,12 @@ fn s_has_whitespaces_and_7384194_in_base_247_and_insignificant_bytes() {
 		0x93, 0x05, 0xBD, 0x01, 0x6D, 0x84, 0xA9,
 	];
 
-	helper(S, BASE, 7384194);
+	helper(S, BASE, 7_384_194);
 }
 // endregion
-// region: s_has_whitespaces_and_88274822_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_88_274_822_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_88274822_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_88_274_822_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0B, 0x71, 0xC8, 0xD4, 0x93, 0x0D, 0x0A, 0x2D,
 	];
@@ -15624,12 +15624,12 @@ fn s_has_whitespaces_and_88274822_in_base_247_and_insignificant_bytes() {
 		0xE9, 0x92, 0x56, 0xFF, 0xEA, 0xE3, 0x1E,
 	];
 
-	helper(S, BASE, 88274822);
+	helper(S, BASE, 88_274_822);
 }
 // endregion
-// region: s_has_whitespaces_and_635289627_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_635_289_627_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_635289627_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_635_289_627_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0C, 0x0D, 0x20, 0x0C, 0x0D, 0x0B, 0xD7, 0xCC, 0xC1, 0x18, 0x09, 0x20,
 	];
@@ -15653,7 +15653,7 @@ fn s_has_whitespaces_and_635289627_in_base_247_and_insignificant_bytes() {
 		0xBC, 0x7E, 0x06, 0xBD, 0xE2, 0xB5, 0x70,
 	];
 
-	helper(S, BASE, 635289627);
+	helper(S, BASE, 635_289_627);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_9_in_base_2
@@ -15706,9 +15706,9 @@ fn s_has_signs_and_zeros_and_171_in_base_2() {
 	helper(S, BASE, 171);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_8992_in_base_2
+// region: s_has_signs_and_zeros_and_8_992_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_8992_in_base_2() {
+fn s_has_signs_and_zeros_and_8_992_in_base_2() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xC4, 0xC4,
 		0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4,
@@ -15719,12 +15719,12 @@ fn s_has_signs_and_zeros_and_8992_in_base_2() {
 		0xC4, 0x63,
 	];
 
-	helper(S, BASE, 8992);
+	helper(S, BASE, 8_992);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_14548_in_base_2
+// region: s_has_signs_and_zeros_and_14_548_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_14548_in_base_2() {
+fn s_has_signs_and_zeros_and_14_548_in_base_2() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x31, 0x31, 0x31, 0x31, 0x31, 0x31,
@@ -15736,12 +15736,12 @@ fn s_has_signs_and_zeros_and_14548_in_base_2() {
 		0x31, 0x88,
 	];
 
-	helper(S, BASE, 14548);
+	helper(S, BASE, 14_548);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_747799_in_base_2
+// region: s_has_signs_and_zeros_and_747_799_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_747799_in_base_2() {
+fn s_has_signs_and_zeros_and_747_799_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -15753,12 +15753,12 @@ fn s_has_signs_and_zeros_and_747799_in_base_2() {
 		0xC8, 0x9D,
 	];
 
-	helper(S, BASE, 747799);
+	helper(S, BASE, 747_799);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1170484_in_base_2
+// region: s_has_signs_and_zeros_and_1_170_484_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_1170484_in_base_2() {
+fn s_has_signs_and_zeros_and_1_170_484_in_base_2() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0xF6, 0xF6, 0xF6, 0x3C, 0xF6, 0xF6, 0xF6, 0x3C, 0x3C, 0x3C, 0xF6,
@@ -15768,12 +15768,12 @@ fn s_has_signs_and_zeros_and_1170484_in_base_2() {
 		0xF6, 0x3C,
 	];
 
-	helper(S, BASE, 1170484);
+	helper(S, BASE, 1_170_484);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_14616767_in_base_2
+// region: s_has_signs_and_zeros_and_14_616_767_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_14616767_in_base_2() {
+fn s_has_signs_and_zeros_and_14_616_767_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A,
@@ -15786,12 +15786,12 @@ fn s_has_signs_and_zeros_and_14616767_in_base_2() {
 		0x5A, 0x7E,
 	];
 
-	helper(S, BASE, 14616767);
+	helper(S, BASE, 14_616_767);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_995909516_in_base_2
+// region: s_has_signs_and_zeros_and_995_909_516_in_base_2
 #[test]
-fn s_has_signs_and_zeros_and_995909516_in_base_2() {
+fn s_has_signs_and_zeros_and_995_909_516_in_base_2() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x79, 0x79, 0x79, 0x79, 0x79,
@@ -15803,7 +15803,7 @@ fn s_has_signs_and_zeros_and_995909516_in_base_2() {
 		0x79, 0x50,
 	];
 
-	helper(S, BASE, 995909516);
+	helper(S, BASE, 995_909_516);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_8_in_base_3
@@ -15855,9 +15855,9 @@ fn s_has_signs_and_zeros_and_439_in_base_3() {
 	helper(S, BASE, 439);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5924_in_base_3
+// region: s_has_signs_and_zeros_and_5_924_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_5924_in_base_3() {
+fn s_has_signs_and_zeros_and_5_924_in_base_3() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -15868,12 +15868,12 @@ fn s_has_signs_and_zeros_and_5924_in_base_3() {
 		0x57, 0xAF, 0x7C,
 	];
 
-	helper(S, BASE, 5924);
+	helper(S, BASE, 5_924);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_13625_in_base_3
+// region: s_has_signs_and_zeros_and_13_625_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_13625_in_base_3() {
+fn s_has_signs_and_zeros_and_13_625_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90,
 		0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0xCA, 0x90, 0x90, 0xCA, 0x90,
@@ -15883,12 +15883,12 @@ fn s_has_signs_and_zeros_and_13625_in_base_3() {
 		0x90, 0xDF, 0xCA,
 	];
 
-	helper(S, BASE, 13625);
+	helper(S, BASE, 13_625);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_636020_in_base_3
+// region: s_has_signs_and_zeros_and_636_020_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_636020_in_base_3() {
+fn s_has_signs_and_zeros_and_636_020_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -15899,12 +15899,12 @@ fn s_has_signs_and_zeros_and_636020_in_base_3() {
 		0x8A, 0xE0, 0x79,
 	];
 
-	helper(S, BASE, 636020);
+	helper(S, BASE, 636_020);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1520781_in_base_3
+// region: s_has_signs_and_zeros_and_1_520_781_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_1520781_in_base_3() {
+fn s_has_signs_and_zeros_and_1_520_781_in_base_3() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A, 0x5A,
@@ -15915,12 +15915,12 @@ fn s_has_signs_and_zeros_and_1520781_in_base_3() {
 		0x5A, 0x2F, 0x9B,
 	];
 
-	helper(S, BASE, 1520781);
+	helper(S, BASE, 1_520_781);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_14650436_in_base_3
+// region: s_has_signs_and_zeros_and_14_650_436_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_14650436_in_base_3() {
+fn s_has_signs_and_zeros_and_14_650_436_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B,
 		0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B, 0x7B,
@@ -15931,12 +15931,12 @@ fn s_has_signs_and_zeros_and_14650436_in_base_3() {
 		0x7B, 0xA3, 0xFB,
 	];
 
-	helper(S, BASE, 14650436);
+	helper(S, BASE, 14_650_436);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_358653454_in_base_3
+// region: s_has_signs_and_zeros_and_358_653_454_in_base_3
 #[test]
-fn s_has_signs_and_zeros_and_358653454_in_base_3() {
+fn s_has_signs_and_zeros_and_358_653_454_in_base_3() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0xE2, 0xE2, 0xE2, 0xE2,
@@ -15949,7 +15949,7 @@ fn s_has_signs_and_zeros_and_358653454_in_base_3() {
 		0xE2, 0x1A, 0x3C,
 	];
 
-	helper(S, BASE, 358653454);
+	helper(S, BASE, 358_653_454);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_4_in_base_5
@@ -15999,9 +15999,9 @@ fn s_has_signs_and_zeros_and_536_in_base_5() {
 	helper(S, BASE, 536);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1888_in_base_5
+// region: s_has_signs_and_zeros_and_1_888_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_1888_in_base_5() {
+fn s_has_signs_and_zeros_and_1_888_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58, 0x58,
@@ -16013,12 +16013,12 @@ fn s_has_signs_and_zeros_and_1888_in_base_5() {
 		0x58, 0xC7, 0x49, 0x99, 0xD9,
 	];
 
-	helper(S, BASE, 1888);
+	helper(S, BASE, 1_888);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_72482_in_base_5
+// region: s_has_signs_and_zeros_and_72_482_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_72482_in_base_5() {
+fn s_has_signs_and_zeros_and_72_482_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA,
 		0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA,
@@ -16029,12 +16029,12 @@ fn s_has_signs_and_zeros_and_72482_in_base_5() {
 		0xCA, 0x64, 0x5D, 0xBB, 0x9D,
 	];
 
-	helper(S, BASE, 72482);
+	helper(S, BASE, 72_482);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_620873_in_base_5
+// region: s_has_signs_and_zeros_and_620_873_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_620873_in_base_5() {
+fn s_has_signs_and_zeros_and_620_873_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1, 0xC1,
 		0x21, 0xF2, 0x5A, 0xFB, 0xFB, 0x21, 0x5A, 0x5A, 0xFB,
@@ -16043,12 +16043,12 @@ fn s_has_signs_and_zeros_and_620873_in_base_5() {
 		0xC1, 0x21, 0xF2, 0xFB, 0x5A,
 	];
 
-	helper(S, BASE, 620873);
+	helper(S, BASE, 620_873);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7082340_in_base_5
+// region: s_has_signs_and_zeros_and_7_082_340_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_7082340_in_base_5() {
+fn s_has_signs_and_zeros_and_7_082_340_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x4E, 0x4E, 0x4E, 0x4E,
@@ -16060,12 +16060,12 @@ fn s_has_signs_and_zeros_and_7082340_in_base_5() {
 		0x4E, 0x31, 0xF0, 0xAC, 0xA3,
 	];
 
-	helper(S, BASE, 7082340);
+	helper(S, BASE, 7_082_340);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_30365893_in_base_5
+// region: s_has_signs_and_zeros_and_30_365_893_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_30365893_in_base_5() {
+fn s_has_signs_and_zeros_and_30_365_893_in_base_5() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82,
 		0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82,
@@ -16076,12 +16076,12 @@ fn s_has_signs_and_zeros_and_30365893_in_base_5() {
 		0x82, 0x7E, 0xBB, 0x45, 0xC7,
 	];
 
-	helper(S, BASE, 30365893);
+	helper(S, BASE, 30_365_893);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_115630173_in_base_5
+// region: s_has_signs_and_zeros_and_115_630_173_in_base_5
 #[test]
-fn s_has_signs_and_zeros_and_115630173_in_base_5() {
+fn s_has_signs_and_zeros_and_115_630_173_in_base_5() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -16094,7 +16094,7 @@ fn s_has_signs_and_zeros_and_115630173_in_base_5() {
 		0x61, 0x5F, 0xAD, 0xD0, 0x64,
 	];
 
-	helper(S, BASE, 115630173);
+	helper(S, BASE, 115_630_173);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_6_in_base_7
@@ -16144,9 +16144,9 @@ fn s_has_signs_and_zeros_and_119_in_base_7() {
 	helper(S, BASE, 119);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_3717_in_base_7
+// region: s_has_signs_and_zeros_and_3_717_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_3717_in_base_7() {
+fn s_has_signs_and_zeros_and_3_717_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC,
 		0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC, 0xAC,
@@ -16156,12 +16156,12 @@ fn s_has_signs_and_zeros_and_3717_in_base_7() {
 		0xAC, 0xA2, 0xAF, 0x08, 0xD2, 0x22, 0x3E,
 	];
 
-	helper(S, BASE, 3717);
+	helper(S, BASE, 3_717);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_35188_in_base_7
+// region: s_has_signs_and_zeros_and_35_188_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_35188_in_base_7() {
+fn s_has_signs_and_zeros_and_35_188_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2,
@@ -16172,12 +16172,12 @@ fn s_has_signs_and_zeros_and_35188_in_base_7() {
 		0xF2, 0xDD, 0x9C, 0x94, 0x46, 0x7D, 0xB3,
 	];
 
-	helper(S, BASE, 35188);
+	helper(S, BASE, 35_188);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_474247_in_base_7
+// region: s_has_signs_and_zeros_and_474_247_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_474247_in_base_7() {
+fn s_has_signs_and_zeros_and_474_247_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0xDC, 0xDC, 0xDC,
@@ -16189,12 +16189,12 @@ fn s_has_signs_and_zeros_and_474247_in_base_7() {
 		0xDC, 0xEB, 0xB8, 0x03, 0x92, 0xB9, 0x27,
 	];
 
-	helper(S, BASE, 474247);
+	helper(S, BASE, 474_247);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7854827_in_base_7
+// region: s_has_signs_and_zeros_and_7_854_827_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_7854827_in_base_7() {
+fn s_has_signs_and_zeros_and_7_854_827_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x9F, 0x9F, 0x9F, 0x9F,
@@ -16205,12 +16205,12 @@ fn s_has_signs_and_zeros_and_7854827_in_base_7() {
 		0x9F, 0x8B, 0xC2, 0x9D, 0x5E, 0x4C, 0x8C,
 	];
 
-	helper(S, BASE, 7854827);
+	helper(S, BASE, 7_854_827);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_66291989_in_base_7
+// region: s_has_signs_and_zeros_and_66_291_989_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_66291989_in_base_7() {
+fn s_has_signs_and_zeros_and_66_291_989_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0xE6,
 		0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6, 0xE6,
@@ -16220,12 +16220,12 @@ fn s_has_signs_and_zeros_and_66291989_in_base_7() {
 		0xE6, 0x47, 0x18, 0x32, 0xC5, 0x64, 0x60,
 	];
 
-	helper(S, BASE, 66291989);
+	helper(S, BASE, 66_291_989);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_677557305_in_base_7
+// region: s_has_signs_and_zeros_and_677_557_305_in_base_7
 #[test]
-fn s_has_signs_and_zeros_and_677557305_in_base_7() {
+fn s_has_signs_and_zeros_and_677_557_305_in_base_7() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0xD6, 0xD6,
@@ -16238,7 +16238,7 @@ fn s_has_signs_and_zeros_and_677557305_in_base_7() {
 		0xD6, 0xA7, 0x5E, 0xEA, 0x84, 0x4F, 0xDA,
 	];
 
-	helper(S, BASE, 677557305);
+	helper(S, BASE, 677_557_305);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_9_in_base_11
@@ -16284,9 +16284,9 @@ fn s_has_signs_and_zeros_and_551_in_base_11() {
 	helper(S, BASE, 551);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7426_in_base_11
+// region: s_has_signs_and_zeros_and_7_426_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_7426_in_base_11() {
+fn s_has_signs_and_zeros_and_7_426_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -16299,12 +16299,12 @@ fn s_has_signs_and_zeros_and_7426_in_base_11() {
 		0xCA, 0xC5, 0x99, 0x44, 0x8D, 0xE5, 0x21, 0x02, 0xD2, 0xAC, 0x7E,
 	];
 
-	helper(S, BASE, 7426);
+	helper(S, BASE, 7_426);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_34507_in_base_11
+// region: s_has_signs_and_zeros_and_34_507_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_34507_in_base_11() {
+fn s_has_signs_and_zeros_and_34_507_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0xA3,
 		0xA3, 0xA3, 0xA3, 0xAE, 0xCC, 0x34, 0xAE, 0xA3,
@@ -16313,12 +16313,12 @@ fn s_has_signs_and_zeros_and_34507_in_base_11() {
 		0xA3, 0x32, 0xAE, 0xCC, 0x0E, 0xD6, 0xD2, 0x4B, 0x25, 0x06, 0x34,
 	];
 
-	helper(S, BASE, 34507);
+	helper(S, BASE, 34_507);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_113786_in_base_11
+// region: s_has_signs_and_zeros_and_113_786_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_113786_in_base_11() {
+fn s_has_signs_and_zeros_and_113_786_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF,
@@ -16329,12 +16329,12 @@ fn s_has_signs_and_zeros_and_113786_in_base_11() {
 		0xAF, 0xF2, 0x73, 0xEC, 0xAA, 0x10, 0xC5, 0xA6, 0xFF, 0x71, 0x26,
 	];
 
-	helper(S, BASE, 113786);
+	helper(S, BASE, 113_786);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_4723146_in_base_11
+// region: s_has_signs_and_zeros_and_4_723_146_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_4723146_in_base_11() {
+fn s_has_signs_and_zeros_and_4_723_146_in_base_11() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28,
@@ -16345,12 +16345,12 @@ fn s_has_signs_and_zeros_and_4723146_in_base_11() {
 		0x28, 0x67, 0x83, 0x03, 0xAD, 0x8C, 0x50, 0xB1, 0xC1, 0x9B, 0x29,
 	];
 
-	helper(S, BASE, 4723146);
+	helper(S, BASE, 4_723_146);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_94116510_in_base_11
+// region: s_has_signs_and_zeros_and_94_116_510_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_94116510_in_base_11() {
+fn s_has_signs_and_zeros_and_94_116_510_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -16361,12 +16361,12 @@ fn s_has_signs_and_zeros_and_94116510_in_base_11() {
 		0x5B, 0xBD, 0x96, 0xA6, 0xB5, 0x16, 0x68, 0xC0, 0xE2, 0xFE, 0xE0,
 	];
 
-	helper(S, BASE, 94116510);
+	helper(S, BASE, 94_116_510);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_752162089_in_base_11
+// region: s_has_signs_and_zeros_and_752_162_089_in_base_11
 #[test]
-fn s_has_signs_and_zeros_and_752162089_in_base_11() {
+fn s_has_signs_and_zeros_and_752_162_089_in_base_11() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -16379,7 +16379,7 @@ fn s_has_signs_and_zeros_and_752162089_in_base_11() {
 		0x6D, 0xED, 0xEF, 0x74, 0x33, 0xD4, 0xC3, 0x45, 0x8D, 0x6C, 0x18,
 	];
 
-	helper(S, BASE, 752162089);
+	helper(S, BASE, 752_162_089);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_2_in_base_13
@@ -16427,9 +16427,9 @@ fn s_has_signs_and_zeros_and_504_in_base_13() {
 	helper(S, BASE, 504);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_8597_in_base_13
+// region: s_has_signs_and_zeros_and_8_597_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_8597_in_base_13() {
+fn s_has_signs_and_zeros_and_8_597_in_base_13() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x70, 0x70, 0x70, 0x22, 0xBD,
 		0xBD, 0x0F,
@@ -16438,12 +16438,12 @@ fn s_has_signs_and_zeros_and_8597_in_base_13() {
 		0x70, 0x85, 0x4F, 0x22, 0x0F, 0x8D, 0x1D, 0xB6, 0x78, 0xF8, 0xD5, 0xBD, 0xFE,
 	];
 
-	helper(S, BASE, 8597);
+	helper(S, BASE, 8_597);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_61691_in_base_13
+// region: s_has_signs_and_zeros_and_61_691_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_61691_in_base_13() {
+fn s_has_signs_and_zeros_and_61_691_in_base_13() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98,
 		0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98,
@@ -16453,12 +16453,12 @@ fn s_has_signs_and_zeros_and_61691_in_base_13() {
 		0x98, 0x43, 0x51, 0xFB, 0x2E, 0xA3, 0x1F, 0xD0, 0xCC, 0x82, 0x80, 0xD7, 0x45,
 	];
 
-	helper(S, BASE, 61691);
+	helper(S, BASE, 61_691);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_298139_in_base_13
+// region: s_has_signs_and_zeros_and_298_139_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_298139_in_base_13() {
+fn s_has_signs_and_zeros_and_298_139_in_base_13() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0xF1, 0xF1, 0xF1, 0xF2, 0x31, 0x61,
 		0x45, 0xF2,
@@ -16467,12 +16467,12 @@ fn s_has_signs_and_zeros_and_298139_in_base_13() {
 		0xF1, 0x45, 0x3E, 0x72, 0xBA, 0x31, 0x08, 0x5E, 0x65, 0x61, 0xF2, 0xED, 0xC9,
 	];
 
-	helper(S, BASE, 298139);
+	helper(S, BASE, 298_139);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7176410_in_base_13
+// region: s_has_signs_and_zeros_and_7_176_410_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_7176410_in_base_13() {
+fn s_has_signs_and_zeros_and_7_176_410_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3,
 		0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3,
@@ -16483,12 +16483,12 @@ fn s_has_signs_and_zeros_and_7176410_in_base_13() {
 		0xB3, 0xDA, 0x1E, 0x10, 0xCE, 0x87, 0xE7, 0x3E, 0x80, 0x4B, 0xFB, 0x66, 0xBF,
 	];
 
-	helper(S, BASE, 7176410);
+	helper(S, BASE, 7_176_410);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_32822422_in_base_13
+// region: s_has_signs_and_zeros_and_32_822_422_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_32822422_in_base_13() {
+fn s_has_signs_and_zeros_and_32_822_422_in_base_13() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91,
@@ -16499,12 +16499,12 @@ fn s_has_signs_and_zeros_and_32822422_in_base_13() {
 		0x91, 0x5D, 0xD0, 0xAC, 0x04, 0xB6, 0x19, 0x5C, 0x25, 0x95, 0x16, 0xD3, 0x6E,
 	];
 
-	helper(S, BASE, 32822422);
+	helper(S, BASE, 32_822_422);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_123415634_in_base_13
+// region: s_has_signs_and_zeros_and_123_415_634_in_base_13
 #[test]
-fn s_has_signs_and_zeros_and_123415634_in_base_13() {
+fn s_has_signs_and_zeros_and_123_415_634_in_base_13() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F,
 		0xC8, 0xE2, 0x40, 0x01, 0xC8, 0x83, 0x4F, 0x8F,
@@ -16513,7 +16513,7 @@ fn s_has_signs_and_zeros_and_123415634_in_base_13() {
 		0x4F, 0xC8, 0x6F, 0x98, 0x8F, 0x01, 0xA5, 0x40, 0x83, 0x7B, 0x47, 0x3F, 0xE2,
 	];
 
-	helper(S, BASE, 123415634);
+	helper(S, BASE, 123_415_634);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_2_in_base_19
@@ -16568,9 +16568,9 @@ fn s_has_signs_and_zeros_and_397_in_base_19() {
 	helper(S, BASE, 397);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1842_in_base_19
+// region: s_has_signs_and_zeros_and_1_842_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_1842_in_base_19() {
+fn s_has_signs_and_zeros_and_1_842_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -16581,12 +16581,12 @@ fn s_has_signs_and_zeros_and_1842_in_base_19() {
 		0xD3, 0xE4, 0x37, 0x4A,
 	];
 
-	helper(S, BASE, 1842);
+	helper(S, BASE, 1_842);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_36249_in_base_19
+// region: s_has_signs_and_zeros_and_36_249_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_36249_in_base_19() {
+fn s_has_signs_and_zeros_and_36_249_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73,
 		0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73,
@@ -16597,12 +16597,12 @@ fn s_has_signs_and_zeros_and_36249_in_base_19() {
 		0x3E, 0xFC, 0xE0, 0x5D,
 	];
 
-	helper(S, BASE, 36249);
+	helper(S, BASE, 36_249);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_166088_in_base_19
+// region: s_has_signs_and_zeros_and_166_088_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_166088_in_base_19() {
+fn s_has_signs_and_zeros_and_166_088_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11,
@@ -16615,12 +16615,12 @@ fn s_has_signs_and_zeros_and_166088_in_base_19() {
 		0xD2, 0xA0, 0xEC, 0xE0,
 	];
 
-	helper(S, BASE, 166088);
+	helper(S, BASE, 166_088);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5274305_in_base_19
+// region: s_has_signs_and_zeros_and_5_274_305_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_5274305_in_base_19() {
+fn s_has_signs_and_zeros_and_5_274_305_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36, 0x36,
@@ -16632,12 +16632,12 @@ fn s_has_signs_and_zeros_and_5274305_in_base_19() {
 		0xBD, 0x1B, 0x5A, 0x3A,
 	];
 
-	helper(S, BASE, 5274305);
+	helper(S, BASE, 5_274_305);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_53086887_in_base_19
+// region: s_has_signs_and_zeros_and_53_086_887_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_53086887_in_base_19() {
+fn s_has_signs_and_zeros_and_53_086_887_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80,
@@ -16650,12 +16650,12 @@ fn s_has_signs_and_zeros_and_53086887_in_base_19() {
 		0xF6, 0x70, 0x55, 0x9A,
 	];
 
-	helper(S, BASE, 53086887);
+	helper(S, BASE, 53_086_887);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_742909550_in_base_19
+// region: s_has_signs_and_zeros_and_742_909_550_in_base_19
 #[test]
-fn s_has_signs_and_zeros_and_742909550_in_base_19() {
+fn s_has_signs_and_zeros_and_742_909_550_in_base_19() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -16668,7 +16668,7 @@ fn s_has_signs_and_zeros_and_742909550_in_base_19() {
 		0xD4, 0x75, 0x78, 0x65,
 	];
 
-	helper(S, BASE, 742909550);
+	helper(S, BASE, 742_909_550);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_9_in_base_42
@@ -16725,9 +16725,9 @@ fn s_has_signs_and_zeros_and_292_in_base_42() {
 	helper(S, BASE, 292);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_8735_in_base_42
+// region: s_has_signs_and_zeros_and_8_735_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_8735_in_base_42() {
+fn s_has_signs_and_zeros_and_8_735_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2A, 0x2A, 0x2A,
@@ -16739,12 +16739,12 @@ fn s_has_signs_and_zeros_and_8735_in_base_42() {
 		0x30, 0x75, 0xC0, 0x7A, 0xB7, 0xFF, 0x50, 0xA1, 0xC6, 0xCC, 0x62, 0x4A,
 	];
 
-	helper(S, BASE, 8735);
+	helper(S, BASE, 8_735);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_88114_in_base_42
+// region: s_has_signs_and_zeros_and_88_114_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_88114_in_base_42() {
+fn s_has_signs_and_zeros_and_88_114_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x95, 0x95, 0x95, 0xAB, 0xFB, 0x43, 0x3A,
 	];
@@ -16754,12 +16754,12 @@ fn s_has_signs_and_zeros_and_88114_in_base_42() {
 		0x9B, 0x38, 0x1F, 0x24, 0xFE, 0xF4, 0x4C, 0x7E, 0x74, 0x43, 0x3A, 0x03,
 	];
 
-	helper(S, BASE, 88114);
+	helper(S, BASE, 88_114);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_879073_in_base_42
+// region: s_has_signs_and_zeros_and_879_073_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_879073_in_base_42() {
+fn s_has_signs_and_zeros_and_879_073_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
 		0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
@@ -16772,12 +16772,12 @@ fn s_has_signs_and_zeros_and_879073_in_base_42() {
 		0x34, 0x57, 0x97, 0x0F, 0x45, 0xE1, 0x9C, 0x64, 0x5A, 0x98, 0xED, 0xA1,
 	];
 
-	helper(S, BASE, 879073);
+	helper(S, BASE, 879_073);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5996829_in_base_42
+// region: s_has_signs_and_zeros_and_5_996_829_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_5996829_in_base_42() {
+fn s_has_signs_and_zeros_and_5_996_829_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0xCB, 0xCB, 0xCB, 0xCB, 0xCB,
@@ -16790,12 +16790,12 @@ fn s_has_signs_and_zeros_and_5996829_in_base_42() {
 		0x3B, 0x02, 0xFB, 0x4F, 0xFC, 0x19, 0x29, 0x22, 0xBC, 0x4E, 0x50, 0x2F,
 	];
 
-	helper(S, BASE, 5996829);
+	helper(S, BASE, 5_996_829);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_83207668_in_base_42
+// region: s_has_signs_and_zeros_and_83_207_668_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_83207668_in_base_42() {
+fn s_has_signs_and_zeros_and_83_207_668_in_base_42() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x43, 0x43, 0x43, 0x43, 0x43,
@@ -16807,12 +16807,12 @@ fn s_has_signs_and_zeros_and_83207668_in_base_42() {
 		0x9F, 0x68, 0x94, 0xBF, 0x60, 0x75, 0x46, 0xD6, 0x83, 0xF6, 0x86, 0xCC,
 	];
 
-	helper(S, BASE, 83207668);
+	helper(S, BASE, 83_207_668);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_977904807_in_base_42
+// region: s_has_signs_and_zeros_and_977_904_807_in_base_42
 #[test]
-fn s_has_signs_and_zeros_and_977904807_in_base_42() {
+fn s_has_signs_and_zeros_and_977_904_807_in_base_42() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -16826,7 +16826,7 @@ fn s_has_signs_and_zeros_and_977904807_in_base_42() {
 		0x21, 0x25, 0x39, 0x95, 0xC1, 0x7E, 0x67, 0x19, 0x5F, 0x1E, 0xB8, 0x3A,
 	];
 
-	helper(S, BASE, 977904807);
+	helper(S, BASE, 977_904_807);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_9_in_base_73
@@ -16886,9 +16886,9 @@ fn s_has_signs_and_zeros_and_570_in_base_73() {
 	helper(S, BASE, 570);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_3237_in_base_73
+// region: s_has_signs_and_zeros_and_3_237_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_3237_in_base_73() {
+fn s_has_signs_and_zeros_and_3_237_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x3D, 0x3D, 0x3D,
 		0x27, 0x41,
@@ -16901,12 +16901,12 @@ fn s_has_signs_and_zeros_and_3237_in_base_73() {
 		0xB4, 0x58, 0x8C, 0x55, 0x42, 0xEA, 0x19, 0x4E, 0xEC, 0x1A, 0x08, 0xFE, 0x5F,
 	];
 
-	helper(S, BASE, 3237);
+	helper(S, BASE, 3_237);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_91213_in_base_73
+// region: s_has_signs_and_zeros_and_91_213_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_91213_in_base_73() {
+fn s_has_signs_and_zeros_and_91_213_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -16922,12 +16922,12 @@ fn s_has_signs_and_zeros_and_91213_in_base_73() {
 		0xE7, 0x37, 0xE0, 0x35, 0x73, 0x07, 0x9E, 0x79, 0xD4, 0xC5, 0x59, 0xE5, 0xF2,
 	];
 
-	helper(S, BASE, 91213);
+	helper(S, BASE, 91_213);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_600756_in_base_73
+// region: s_has_signs_and_zeros_and_600_756_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_600756_in_base_73() {
+fn s_has_signs_and_zeros_and_600_756_in_base_73() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -16942,12 +16942,12 @@ fn s_has_signs_and_zeros_and_600756_in_base_73() {
 		0x79, 0x0F, 0x2E, 0x3F, 0x55, 0xDA, 0x74, 0xD3, 0xAE, 0x44, 0x4C, 0x9A, 0xD2,
 	];
 
-	helper(S, BASE, 600756);
+	helper(S, BASE, 600_756);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7588775_in_base_73
+// region: s_has_signs_and_zeros_and_7_588_775_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_7588775_in_base_73() {
+fn s_has_signs_and_zeros_and_7_588_775_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE,
 		0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE, 0xCE,
@@ -16961,12 +16961,12 @@ fn s_has_signs_and_zeros_and_7588775_in_base_73() {
 		0x51, 0xA5, 0x70, 0x83, 0x17, 0xBC, 0x35, 0x04, 0x8F, 0x1F, 0x80, 0x1A, 0xE2,
 	];
 
-	helper(S, BASE, 7588775);
+	helper(S, BASE, 7_588_775);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_37529190_in_base_73
+// region: s_has_signs_and_zeros_and_37_529_190_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_37529190_in_base_73() {
+fn s_has_signs_and_zeros_and_37_529_190_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14,
 		0x14, 0x14, 0x14, 0x14, 0xDF, 0x8F, 0x47, 0xE4, 0xFE,
@@ -16979,12 +16979,12 @@ fn s_has_signs_and_zeros_and_37529190_in_base_73() {
 		0x6D, 0x37, 0xC5, 0x71, 0x49, 0x62, 0x6B, 0x85, 0x2A, 0xD3, 0x3D, 0x27, 0xCC,
 	];
 
-	helper(S, BASE, 37529190);
+	helper(S, BASE, 37_529_190);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_514137531_in_base_73
+// region: s_has_signs_and_zeros_and_514_137_531_in_base_73
 #[test]
-fn s_has_signs_and_zeros_and_514137531_in_base_73() {
+fn s_has_signs_and_zeros_and_514_137_531_in_base_73() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC,
 		0xCC, 0x8A, 0xDE, 0x55, 0x96, 0x5C,
@@ -16997,7 +16997,7 @@ fn s_has_signs_and_zeros_and_514137531_in_base_73() {
 		0xD3, 0xE2, 0xF6, 0x74, 0x5C, 0xE5, 0x64, 0x84, 0xA5, 0x7B, 0xEE, 0x60, 0xA6,
 	];
 
-	helper(S, BASE, 514137531);
+	helper(S, BASE, 514_137_531);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_7_in_base_113
@@ -17070,9 +17070,9 @@ fn s_has_signs_and_zeros_and_524_in_base_113() {
 	helper(S, BASE, 524);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6462_in_base_113
+// region: s_has_signs_and_zeros_and_6_462_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_6462_in_base_113() {
+fn s_has_signs_and_zeros_and_6_462_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -17092,12 +17092,12 @@ fn s_has_signs_and_zeros_and_6462_in_base_113() {
 		0x08, 0xAE, 0x28, 0x99, 0x40, 0xED, 0xF8, 0xE2,
 	];
 
-	helper(S, BASE, 6462);
+	helper(S, BASE, 6_462);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_26884_in_base_113
+// region: s_has_signs_and_zeros_and_26_884_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_26884_in_base_113() {
+fn s_has_signs_and_zeros_and_26_884_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -17116,12 +17116,12 @@ fn s_has_signs_and_zeros_and_26884_in_base_113() {
 		0xDA, 0xCA, 0x55, 0x86, 0x38, 0x8E, 0xF7, 0x8D,
 	];
 
-	helper(S, BASE, 26884);
+	helper(S, BASE, 26_884);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_695990_in_base_113
+// region: s_has_signs_and_zeros_and_695_990_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_695990_in_base_113() {
+fn s_has_signs_and_zeros_and_695_990_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6,
 		0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0x2F,
@@ -17138,12 +17138,12 @@ fn s_has_signs_and_zeros_and_695990_in_base_113() {
 		0x67, 0xE0, 0xD2, 0xDC, 0x36, 0x73, 0x14, 0x47,
 	];
 
-	helper(S, BASE, 695990);
+	helper(S, BASE, 695_990);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_4581638_in_base_113
+// region: s_has_signs_and_zeros_and_4_581_638_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_4581638_in_base_113() {
+fn s_has_signs_and_zeros_and_4_581_638_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -17161,12 +17161,12 @@ fn s_has_signs_and_zeros_and_4581638_in_base_113() {
 		0xCE, 0x1D, 0xA0, 0xAD, 0x98, 0x90, 0xA9, 0xA4,
 	];
 
-	helper(S, BASE, 4581638);
+	helper(S, BASE, 4_581_638);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_90895584_in_base_113
+// region: s_has_signs_and_zeros_and_90_895_584_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_90895584_in_base_113() {
+fn s_has_signs_and_zeros_and_90_895_584_in_base_113() {
 	const S: &[u8] = &[
 		0x2B, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE,
 		0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE, 0xAE,
@@ -17184,12 +17184,12 @@ fn s_has_signs_and_zeros_and_90895584_in_base_113() {
 		0x1C, 0xB4, 0xCA, 0x15, 0xDA, 0x47, 0x8A, 0xCE,
 	];
 
-	helper(S, BASE, 90895584);
+	helper(S, BASE, 90_895_584);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_542961389_in_base_113
+// region: s_has_signs_and_zeros_and_542_961_389_in_base_113
 #[test]
-fn s_has_signs_and_zeros_and_542961389_in_base_113() {
+fn s_has_signs_and_zeros_and_542_961_389_in_base_113() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x75, 0x75, 0x75, 0x75, 0x75, 0x75, 0x75, 0x75, 0x75,
@@ -17206,7 +17206,7 @@ fn s_has_signs_and_zeros_and_542961389_in_base_113() {
 		0x8A, 0x84, 0xA7, 0x03, 0xBE, 0x71, 0x74, 0x46,
 	];
 
-	helper(S, BASE, 542961389);
+	helper(S, BASE, 542_961_389);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_7_in_base_193
@@ -17293,9 +17293,9 @@ fn s_has_signs_and_zeros_and_553_in_base_193() {
 	helper(S, BASE, 553);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6609_in_base_193
+// region: s_has_signs_and_zeros_and_6_609_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_6609_in_base_193() {
+fn s_has_signs_and_zeros_and_6_609_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0xAA,
@@ -17319,12 +17319,12 @@ fn s_has_signs_and_zeros_and_6609_in_base_193() {
 		0x48, 0x8C, 0x61, 0xF0, 0x03, 0x1F, 0xA7, 0x3F, 0xBF, 0xB9, 0xF5, 0x07, 0x18,
 	];
 
-	helper(S, BASE, 6609);
+	helper(S, BASE, 6_609);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_73435_in_base_193
+// region: s_has_signs_and_zeros_and_73_435_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_73435_in_base_193() {
+fn s_has_signs_and_zeros_and_73_435_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0xE0, 0xE0, 0xE0,
@@ -17348,12 +17348,12 @@ fn s_has_signs_and_zeros_and_73435_in_base_193() {
 		0x64, 0x21, 0xC6, 0xAD, 0xEC, 0xFF, 0x59, 0x96, 0x9D, 0xA9, 0xBC, 0x72, 0x52,
 	];
 
-	helper(S, BASE, 73435);
+	helper(S, BASE, 73_435);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_826197_in_base_193
+// region: s_has_signs_and_zeros_and_826_197_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_826197_in_base_193() {
+fn s_has_signs_and_zeros_and_826_197_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x26, 0x26, 0x26, 0x26, 0x26,
 		0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26, 0x26,
@@ -17376,12 +17376,12 @@ fn s_has_signs_and_zeros_and_826197_in_base_193() {
 		0xAF, 0xF4, 0x3F, 0x2F, 0x22, 0x7C, 0x77, 0x79, 0x2C, 0xAB, 0xD8, 0xEA, 0x15,
 	];
 
-	helper(S, BASE, 826197);
+	helper(S, BASE, 826_197);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7206991_in_base_193
+// region: s_has_signs_and_zeros_and_7_206_991_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_7206991_in_base_193() {
+fn s_has_signs_and_zeros_and_7_206_991_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0xB0, 0xB0, 0xB0, 0xB0,
 		0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xB0, 0xAF, 0xB0, 0xDF, 0xBA,
@@ -17402,12 +17402,12 @@ fn s_has_signs_and_zeros_and_7206991_in_base_193() {
 		0x0E, 0xEF, 0x7E, 0xEE, 0xDC, 0x7B, 0xC2, 0x93, 0xC5, 0x6C, 0x4D, 0xBC, 0x01,
 	];
 
-	helper(S, BASE, 7206991);
+	helper(S, BASE, 7_206_991);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_88775903_in_base_193
+// region: s_has_signs_and_zeros_and_88_775_903_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_88775903_in_base_193() {
+fn s_has_signs_and_zeros_and_88_775_903_in_base_193() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85,
 		0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0xF7, 0x0E, 0x4B,
@@ -17429,12 +17429,12 @@ fn s_has_signs_and_zeros_and_88775903_in_base_193() {
 		0x84, 0xEC, 0xDA, 0x45, 0xA0, 0x86, 0x4E, 0x1E, 0x5D, 0x77, 0xE0, 0x57, 0xB5,
 	];
 
-	helper(S, BASE, 88775903);
+	helper(S, BASE, 88_775_903);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_694512412_in_base_193
+// region: s_has_signs_and_zeros_and_694_512_412_in_base_193
 #[test]
-fn s_has_signs_and_zeros_and_694512412_in_base_193() {
+fn s_has_signs_and_zeros_and_694_512_412_in_base_193() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x7A, 0x80,
 		0xC6, 0x87, 0x3D,
@@ -17455,7 +17455,7 @@ fn s_has_signs_and_zeros_and_694512412_in_base_193() {
 		0x68, 0x4B, 0xA3, 0xE0, 0xE5, 0x9E, 0xAD, 0xEE, 0x8A, 0x2E, 0xB3, 0xAC, 0x99,
 	];
 
-	helper(S, BASE, 694512412);
+	helper(S, BASE, 694_512_412);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_9_in_base_247
@@ -17550,9 +17550,9 @@ fn s_has_signs_and_zeros_and_522_in_base_247() {
 	helper(S, BASE, 522);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_3295_in_base_247
+// region: s_has_signs_and_zeros_and_3_295_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_3295_in_base_247() {
+fn s_has_signs_and_zeros_and_3_295_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x42, 0x42, 0x42, 0x42, 0x42,
 		0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42, 0x42,
@@ -17578,12 +17578,12 @@ fn s_has_signs_and_zeros_and_3295_in_base_247() {
 		0x34, 0x38, 0x9D, 0xB3, 0x9A, 0x5B, 0xD5,
 	];
 
-	helper(S, BASE, 3295);
+	helper(S, BASE, 3_295);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_93656_in_base_247
+// region: s_has_signs_and_zeros_and_93_656_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_93656_in_base_247() {
+fn s_has_signs_and_zeros_and_93_656_in_base_247() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78,
 		0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78,
@@ -17609,12 +17609,12 @@ fn s_has_signs_and_zeros_and_93656_in_base_247() {
 		0x5D, 0xE4, 0x31, 0xF6, 0xA7, 0x58, 0x4A,
 	];
 
-	helper(S, BASE, 93656);
+	helper(S, BASE, 93_656);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_240315_in_base_247
+// region: s_has_signs_and_zeros_and_240_315_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_240315_in_base_247() {
+fn s_has_signs_and_zeros_and_240_315_in_base_247() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB, 0xDB,
@@ -17642,12 +17642,12 @@ fn s_has_signs_and_zeros_and_240315_in_base_247() {
 		0x10, 0x06, 0xFE, 0xC7, 0x81, 0xB7, 0xF7,
 	];
 
-	helper(S, BASE, 240315);
+	helper(S, BASE, 240_315);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5073043_in_base_247
+// region: s_has_signs_and_zeros_and_5_073_043_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_5073043_in_base_247() {
+fn s_has_signs_and_zeros_and_5_073_043_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0xCA, 0xCA,
@@ -17674,12 +17674,12 @@ fn s_has_signs_and_zeros_and_5073043_in_base_247() {
 		0x0E, 0xE5, 0x49, 0x62, 0x60, 0x1A, 0x82,
 	];
 
-	helper(S, BASE, 5073043);
+	helper(S, BASE, 5_073_043);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_80959899_in_base_247
+// region: s_has_signs_and_zeros_and_80_959_899_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_80959899_in_base_247() {
+fn s_has_signs_and_zeros_and_80_959_899_in_base_247() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x53, 0x53, 0x53, 0x53, 0x53,
@@ -17707,12 +17707,12 @@ fn s_has_signs_and_zeros_and_80959899_in_base_247() {
 		0x32, 0xAC, 0xFD, 0x1E, 0x47, 0x57, 0x76,
 	];
 
-	helper(S, BASE, 80959899);
+	helper(S, BASE, 80_959_899);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_892147084_in_base_247
+// region: s_has_signs_and_zeros_and_892_147_084_in_base_247
 #[test]
-fn s_has_signs_and_zeros_and_892147084_in_base_247() {
+fn s_has_signs_and_zeros_and_892_147_084_in_base_247() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92,
@@ -17740,7 +17740,7 @@ fn s_has_signs_and_zeros_and_892147084_in_base_247() {
 		0xB2, 0xBF, 0xA3, 0xF4, 0x03, 0x18, 0x11,
 	];
 
-	helper(S, BASE, 892147084);
+	helper(S, BASE, 892_147_084);
 }
 // endregion
 // region: s_has_signs_and_3_in_base_2_and_insignificant_bytes
@@ -17791,9 +17791,9 @@ fn s_has_signs_and_210_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 210);
 }
 // endregion
-// region: s_has_signs_and_7139_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_7_139_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_7139_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_7_139_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -17806,12 +17806,12 @@ fn s_has_signs_and_7139_in_base_2_and_insignificant_bytes() {
 		0x7B, 0xF0,
 	];
 
-	helper(S, BASE, 7139);
+	helper(S, BASE, 7_139);
 }
 // endregion
-// region: s_has_signs_and_20000_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_20_000_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_20000_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_20_000_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x3A, 0x46, 0x46,
@@ -17822,12 +17822,12 @@ fn s_has_signs_and_20000_in_base_2_and_insignificant_bytes() {
 		0x46, 0x3A,
 	];
 
-	helper(S, BASE, 20000);
+	helper(S, BASE, 20_000);
 }
 // endregion
-// region: s_has_signs_and_614075_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_614_075_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_614075_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_614_075_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -17841,12 +17841,12 @@ fn s_has_signs_and_614075_in_base_2_and_insignificant_bytes() {
 		0x4C, 0x73,
 	];
 
-	helper(S, BASE, 614075);
+	helper(S, BASE, 614_075);
 }
 // endregion
-// region: s_has_signs_and_1633118_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_1_633_118_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_1633118_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_1_633_118_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -17860,12 +17860,12 @@ fn s_has_signs_and_1633118_in_base_2_and_insignificant_bytes() {
 		0xBE, 0x69,
 	];
 
-	helper(S, BASE, 1633118);
+	helper(S, BASE, 1_633_118);
 }
 // endregion
-// region: s_has_signs_and_12412510_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_12_412_510_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_12412510_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_12_412_510_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0xD4, 0x08, 0xD4, 0xD4, 0xD4,
 		0xD4, 0x08, 0xD4, 0x08, 0xD4, 0xD4, 0x08, 0x08, 0xD4, 0xD4, 0x08, 0x08, 0xD4, 0x08, 0xD4,
@@ -17877,12 +17877,12 @@ fn s_has_signs_and_12412510_in_base_2_and_insignificant_bytes() {
 		0x08, 0xD4,
 	];
 
-	helper(S, BASE, 12412510);
+	helper(S, BASE, 12_412_510);
 }
 // endregion
-// region: s_has_signs_and_368174187_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_368_174_187_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_368174187_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_368_174_187_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -17896,7 +17896,7 @@ fn s_has_signs_and_368174187_in_base_2_and_insignificant_bytes() {
 		0xB4, 0x33,
 	];
 
-	helper(S, BASE, 368174187);
+	helper(S, BASE, 368_174_187);
 }
 // endregion
 // region: s_has_signs_and_9_in_base_3_and_insignificant_bytes
@@ -17947,9 +17947,9 @@ fn s_has_signs_and_800_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 800);
 }
 // endregion
-// region: s_has_signs_and_2310_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_2_310_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_2310_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_2_310_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0xBD, 0x86, 0x86, 0xBD, 0xBD, 0xBD, 0xEC,
 		0x86, 0x3C, 0xBA, 0x0A, 0xB3, 0xA5, 0x27, 0x21, 0xB5, 0xBC, 0xDE, 0xBB, 0x0E, 0x89, 0x22,
@@ -17959,12 +17959,12 @@ fn s_has_signs_and_2310_in_base_3_and_insignificant_bytes() {
 		0x86, 0xBD, 0xEC,
 	];
 
-	helper(S, BASE, 2310);
+	helper(S, BASE, 2_310);
 }
 // endregion
-// region: s_has_signs_and_18561_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_18_561_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_18561_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_18_561_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
@@ -17976,12 +17976,12 @@ fn s_has_signs_and_18561_in_base_3_and_insignificant_bytes() {
 		0xF7, 0xA7, 0x88,
 	];
 
-	helper(S, BASE, 18561);
+	helper(S, BASE, 18_561);
 }
 // endregion
-// region: s_has_signs_and_992461_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_992_461_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_992461_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_992_461_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0xD4, 0x6C, 0xD4, 0x6C, 0xD4, 0x9B, 0x6C, 0xD4, 0x9B, 0xD4,
 		0x6C, 0xD4, 0xD4, 0xA9, 0x94, 0x92, 0x88, 0x33, 0x96, 0x47, 0xE2, 0xBD, 0x45, 0xC9, 0x93,
@@ -17990,12 +17990,12 @@ fn s_has_signs_and_992461_in_base_3_and_insignificant_bytes() {
 		0x9B, 0xD4, 0x6C,
 	];
 
-	helper(S, BASE, 992461);
+	helper(S, BASE, 992_461);
 }
 // endregion
-// region: s_has_signs_and_8426363_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_8_426_363_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_8426363_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_8_426_363_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -18006,12 +18006,12 @@ fn s_has_signs_and_8426363_in_base_3_and_insignificant_bytes() {
 		0x82, 0xEA, 0x29,
 	];
 
-	helper(S, BASE, 8426363);
+	helper(S, BASE, 8_426_363);
 }
 // endregion
-// region: s_has_signs_and_26623030_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_26_623_030_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_26623030_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_26_623_030_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0xAF, 0x71, 0xAF, 0x71, 0x8A, 0x8A, 0x71, 0xAF, 0x71, 0x8A, 0x71, 0x71, 0xAF, 0x8A,
 		0xAF, 0xAF, 0xD9, 0xCF, 0x0E, 0x17, 0xB3, 0xAB, 0x15, 0x8E, 0x53, 0x5D, 0x01, 0x6F, 0x8D,
@@ -18022,12 +18022,12 @@ fn s_has_signs_and_26623030_in_base_3_and_insignificant_bytes() {
 		0x8A, 0xAF, 0x71,
 	];
 
-	helper(S, BASE, 26623030);
+	helper(S, BASE, 26_623_030);
 }
 // endregion
-// region: s_has_signs_and_493550250_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_493_550_250_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_493550250_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_493_550_250_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -18039,7 +18039,7 @@ fn s_has_signs_and_493550250_in_base_3_and_insignificant_bytes() {
 		0x66, 0xA8, 0x0F,
 	];
 
-	helper(S, BASE, 493550250);
+	helper(S, BASE, 493_550_250);
 }
 // endregion
 // region: s_has_signs_and_8_in_base_5_and_insignificant_bytes
@@ -18087,9 +18087,9 @@ fn s_has_signs_and_656_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 656);
 }
 // endregion
-// region: s_has_signs_and_4123_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_4_123_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_4123_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_4_123_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x6A, 0x6A, 0xB6, 0xB1, 0xB1, 0x1C, 0xC2, 0x11, 0xB5,
@@ -18099,12 +18099,12 @@ fn s_has_signs_and_4123_in_base_5_and_insignificant_bytes() {
 		0x58, 0x6A, 0xB6, 0x1C, 0xB1,
 	];
 
-	helper(S, BASE, 4123);
+	helper(S, BASE, 4_123);
 }
 // endregion
-// region: s_has_signs_and_47802_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_47_802_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_47802_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_47_802_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xC4, 0xDE, 0x24, 0x29, 0x29, 0xDE, 0x29, 0x80, 0xD2,
@@ -18115,12 +18115,12 @@ fn s_has_signs_and_47802_in_base_5_and_insignificant_bytes() {
 		0xDE, 0x24, 0x29, 0xC4, 0x56,
 	];
 
-	helper(S, BASE, 47802);
+	helper(S, BASE, 47_802);
 }
 // endregion
-// region: s_has_signs_and_416136_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_416_136_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_416136_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_416_136_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0xA2, 0x14, 0xA2,
@@ -18130,12 +18130,12 @@ fn s_has_signs_and_416136_in_base_5_and_insignificant_bytes() {
 		0x14, 0xA2, 0x5B, 0xCA, 0x3B,
 	];
 
-	helper(S, BASE, 416136);
+	helper(S, BASE, 416_136);
 }
 // endregion
-// region: s_has_signs_and_2434767_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_2_434_767_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_2434767_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_2_434_767_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x80,
@@ -18146,12 +18146,12 @@ fn s_has_signs_and_2434767_in_base_5_and_insignificant_bytes() {
 		0x7F, 0x80, 0x42, 0xA3, 0x6F,
 	];
 
-	helper(S, BASE, 2434767);
+	helper(S, BASE, 2_434_767);
 }
 // endregion
-// region: s_has_signs_and_70113272_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_70_113_272_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_70113272_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_70_113_272_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0xC1, 0xDB, 0x6A, 0x36, 0xDB, 0xDB, 0xC1, 0xC1, 0xC1, 0x6A,
@@ -18161,12 +18161,12 @@ fn s_has_signs_and_70113272_in_base_5_and_insignificant_bytes() {
 		0x6A, 0xC1, 0xDB, 0xD4, 0x36,
 	];
 
-	helper(S, BASE, 70113272);
+	helper(S, BASE, 70_113_272);
 }
 // endregion
-// region: s_has_signs_and_221055080_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_221_055_080_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_221055080_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_221_055_080_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x9E, 0x44,
 		0xD0, 0xE4, 0x9E, 0x44, 0x44, 0xD0, 0xE4, 0xD0, 0x11, 0xE4, 0xFB, 0xFB, 0xA6, 0x3B, 0x4D,
@@ -18176,7 +18176,7 @@ fn s_has_signs_and_221055080_in_base_5_and_insignificant_bytes() {
 		0xE4, 0x11, 0x44, 0xD0, 0x9E,
 	];
 
-	helper(S, BASE, 221055080);
+	helper(S, BASE, 221_055_080);
 }
 // endregion
 // region: s_has_signs_and_5_in_base_7_and_insignificant_bytes
@@ -18229,9 +18229,9 @@ fn s_has_signs_and_980_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 980);
 }
 // endregion
-// region: s_has_signs_and_2805_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_2_805_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_2805_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_2_805_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x9B, 0x9B, 0x9B, 0x9B, 0x97, 0xA6, 0x5A,
@@ -18241,12 +18241,12 @@ fn s_has_signs_and_2805_in_base_7_and_insignificant_bytes() {
 		0x99, 0x9B, 0xAC, 0x1A, 0x67, 0x97, 0xA5,
 	];
 
-	helper(S, BASE, 2805);
+	helper(S, BASE, 2_805);
 }
 // endregion
-// region: s_has_signs_and_44002_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_44_002_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_44002_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_44_002_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x6F, 0xEC, 0x6F,
 		0x6F, 0x95, 0x95, 0xD0, 0xB2, 0xA0, 0x76, 0x11, 0x8C, 0xE0,
@@ -18255,12 +18255,12 @@ fn s_has_signs_and_44002_in_base_7_and_insignificant_bytes() {
 		0x95, 0xB5, 0x6F, 0xB6, 0xEC, 0xAF, 0x2F,
 	];
 
-	helper(S, BASE, 44002);
+	helper(S, BASE, 44_002);
 }
 // endregion
-// region: s_has_signs_and_463123_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_463_123_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_463123_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_463_123_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x8A, 0xA6, 0x8A, 0xA6, 0xD1, 0x8A, 0x8A, 0x74, 0x98, 0xFC, 0x07,
 		0x8D, 0xAC, 0xD2, 0x39, 0xB8, 0x56, 0xB1, 0x97, 0x16, 0x0F, 0xB8, 0xE1, 0xF9, 0xCE, 0x81,
@@ -18270,12 +18270,12 @@ fn s_has_signs_and_463123_in_base_7_and_insignificant_bytes() {
 		0xEA, 0xD1, 0x03, 0x8A, 0x90, 0x5D, 0xA6,
 	];
 
-	helper(S, BASE, 463123);
+	helper(S, BASE, 463_123);
 }
 // endregion
-// region: s_has_signs_and_2380726_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_2_380_726_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_2380726_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_2_380_726_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0xCD, 0x26, 0xBA, 0x60, 0xD6, 0x26, 0xBA, 0xCC, 0x43, 0xF8, 0x20, 0xB4, 0xC6,
@@ -18286,12 +18286,12 @@ fn s_has_signs_and_2380726_in_base_7_and_insignificant_bytes() {
 		0x91, 0xBA, 0xCD, 0xD6, 0x60, 0xCC, 0x26,
 	];
 
-	helper(S, BASE, 2380726);
+	helper(S, BASE, 2_380_726);
 }
 // endregion
-// region: s_has_signs_and_60571040_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_60_571_040_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_60571040_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_60_571_040_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x7F, 0x08, 0x08, 0x08, 0xCC, 0xA9, 0x5D,
@@ -18302,12 +18302,12 @@ fn s_has_signs_and_60571040_in_base_7_and_insignificant_bytes() {
 		0x8B, 0x7F, 0x5D, 0x08, 0x98, 0xCC, 0xA9,
 	];
 
-	helper(S, BASE, 60571040);
+	helper(S, BASE, 60_571_040);
 }
 // endregion
-// region: s_has_signs_and_174658272_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_174_658_272_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_174658272_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_174_658_272_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0xF7, 0x53,
@@ -18318,7 +18318,7 @@ fn s_has_signs_and_174658272_in_base_7_and_insignificant_bytes() {
 		0xB2, 0x1A, 0x53, 0x32, 0xF7, 0xC2, 0x50,
 	];
 
-	helper(S, BASE, 174658272);
+	helper(S, BASE, 174_658_272);
 }
 // endregion
 // region: s_has_signs_and_7_in_base_11_and_insignificant_bytes
@@ -18365,9 +18365,9 @@ fn s_has_signs_and_507_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 507);
 }
 // endregion
-// region: s_has_signs_and_5646_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_5_646_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_5646_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_5_646_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0xBF, 0xA0, 0x8A, 0xB5, 0x82,
 	];
@@ -18375,12 +18375,12 @@ fn s_has_signs_and_5646_in_base_11_and_insignificant_bytes() {
 		0x13, 0x3A, 0xA0, 0xB5, 0xBF, 0x4C, 0x8E, 0x8A, 0x87, 0x97, 0x7E,
 	];
 
-	helper(S, BASE, 5646);
+	helper(S, BASE, 5_646);
 }
 // endregion
-// region: s_has_signs_and_43007_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_43_007_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_43007_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_43_007_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0xEE, 0xDF, 0xED, 0x03, 0xFB, 0x68, 0x26,
@@ -18392,12 +18392,12 @@ fn s_has_signs_and_43007_in_base_11_and_insignificant_bytes() {
 		0x91, 0xD9, 0xEE, 0xED, 0x03, 0x62, 0x48, 0x8C, 0xFB, 0xA1, 0xDF,
 	];
 
-	helper(S, BASE, 43007);
+	helper(S, BASE, 43_007);
 }
 // endregion
-// region: s_has_signs_and_489840_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_489_840_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_489840_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_489_840_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -18410,12 +18410,12 @@ fn s_has_signs_and_489840_in_base_11_and_insignificant_bytes() {
 		0x3E, 0x61, 0xA6, 0xBD, 0x1C, 0x65, 0xD5, 0xB9, 0xF6, 0x16, 0xB4,
 	];
 
-	helper(S, BASE, 489840);
+	helper(S, BASE, 489_840);
 }
 // endregion
-// region: s_has_signs_and_1438447_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_1_438_447_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_1438447_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_1_438_447_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x1A, 0x32, 0x44, 0x6B, 0x32, 0x32, 0x76, 0x0F, 0x72, 0x19, 0x7A, 0x11,
@@ -18426,12 +18426,12 @@ fn s_has_signs_and_1438447_in_base_11_and_insignificant_bytes() {
 		0x9E, 0xC8, 0x44, 0x18, 0x37, 0xFF, 0x8E, 0x6B, 0x1A, 0x83, 0x32,
 	];
 
-	helper(S, BASE, 1438447);
+	helper(S, BASE, 1_438_447);
 }
 // endregion
-// region: s_has_signs_and_64560662_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_64_560_662_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_64560662_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_64_560_662_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0xAD, 0xAD, 0x21, 0x37, 0x7D, 0x21, 0x5F, 0xDC, 0xA5, 0x74, 0x6B, 0x56, 0x07, 0x90,
@@ -18443,12 +18443,12 @@ fn s_has_signs_and_64560662_in_base_11_and_insignificant_bytes() {
 		0xF7, 0xDC, 0x5F, 0xAD, 0x21, 0x3F, 0x7D, 0xA6, 0x25, 0x37, 0x4F,
 	];
 
-	helper(S, BASE, 64560662);
+	helper(S, BASE, 64_560_662);
 }
 // endregion
-// region: s_has_signs_and_588618503_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_588_618_503_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_588618503_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_588_618_503_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x89, 0xA6, 0x89, 0x89,
 		0x38, 0x3D, 0xA6, 0xA6, 0x9E, 0x73, 0x13, 0x6B, 0x96, 0x51, 0x5B, 0x6B, 0x70, 0x29, 0x28,
@@ -18458,7 +18458,7 @@ fn s_has_signs_and_588618503_in_base_11_and_insignificant_bytes() {
 		0x9E, 0xFE, 0x89, 0x46, 0x3D, 0xE7, 0xBB, 0x87, 0xA6, 0x38, 0x79,
 	];
 
-	helper(S, BASE, 588618503);
+	helper(S, BASE, 588_618_503);
 }
 // endregion
 // region: s_has_signs_and_2_in_base_13_and_insignificant_bytes
@@ -18513,9 +18513,9 @@ fn s_has_signs_and_167_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 167);
 }
 // endregion
-// region: s_has_signs_and_4397_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_4_397_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_4397_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_4_397_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x6E, 0xD7, 0xD7, 0xA0, 0xAE, 0x13, 0x4E, 0x63, 0x21, 0x80, 0xD9,
@@ -18526,12 +18526,12 @@ fn s_has_signs_and_4397_in_base_13_and_insignificant_bytes() {
 		0xD7, 0x33, 0x6E, 0xA0, 0x26, 0xDE, 0xFF, 0x72, 0x2C, 0xDA, 0x3B, 0x67, 0x7A,
 	];
 
-	helper(S, BASE, 4397);
+	helper(S, BASE, 4_397);
 }
 // endregion
-// region: s_has_signs_and_37843_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_37_843_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_37843_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_37_843_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x67, 0x30,
@@ -18542,12 +18542,12 @@ fn s_has_signs_and_37843_in_base_13_and_insignificant_bytes() {
 		0xF2, 0x67, 0xE4, 0x6A, 0x30, 0x37, 0x50, 0xB8, 0xEB, 0x3B, 0xAB, 0x5A, 0x70,
 	];
 
-	helper(S, BASE, 37843);
+	helper(S, BASE, 37_843);
 }
 // endregion
-// region: s_has_signs_and_272620_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_272_620_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_272620_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_272_620_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x5F, 0x24, 0xB4, 0xB4, 0x84, 0xBE, 0xB1, 0xC2, 0xAD, 0x04, 0xD3,
 		0xC5, 0x07, 0x10, 0x5D, 0x81, 0x15, 0xF5, 0x53, 0x7D, 0x5A, 0xF7,
@@ -18556,12 +18556,12 @@ fn s_has_signs_and_272620_in_base_13_and_insignificant_bytes() {
 		0x62, 0xB4, 0xEE, 0x3B, 0x73, 0x55, 0x16, 0x24, 0x59, 0x5F, 0x84, 0xF9, 0x1F,
 	];
 
-	helper(S, BASE, 272620);
+	helper(S, BASE, 272_620);
 }
 // endregion
-// region: s_has_signs_and_1292282_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_1_292_282_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_1292282_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_1_292_282_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -18573,12 +18573,12 @@ fn s_has_signs_and_1292282_in_base_13_and_insignificant_bytes() {
 		0x51, 0x4B, 0xFB, 0xDC, 0x30, 0x50, 0x8B, 0xF1, 0x0E, 0xA2, 0xEC, 0x26, 0x38,
 	];
 
-	helper(S, BASE, 1292282);
+	helper(S, BASE, 1_292_282);
 }
 // endregion
-// region: s_has_signs_and_69618759_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_69_618_759_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_69618759_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_69_618_759_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x9F, 0x9F,
 		0xA8, 0x41, 0x5F, 0x9F, 0xB2, 0x88, 0x17, 0x89, 0x02, 0x8B, 0x52, 0xC5, 0xA5, 0x1D, 0xEF,
@@ -18589,12 +18589,12 @@ fn s_has_signs_and_69618759_in_base_13_and_insignificant_bytes() {
 		0xF9, 0x9F, 0x88, 0x3E, 0xB2, 0xA8, 0x41, 0x5F, 0x7B, 0xFD, 0xD9, 0x6B, 0xB4,
 	];
 
-	helper(S, BASE, 69618759);
+	helper(S, BASE, 69_618_759);
 }
 // endregion
-// region: s_has_signs_and_586660267_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_586_660_267_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_586660267_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_586_660_267_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -18607,7 +18607,7 @@ fn s_has_signs_and_586660267_in_base_13_and_insignificant_bytes() {
 		0xC8, 0xE3, 0xDA, 0xEE, 0x43, 0x66, 0x79, 0x8A, 0x24, 0xA0, 0x7F, 0x95, 0x6F,
 	];
 
-	helper(S, BASE, 586660267);
+	helper(S, BASE, 586_660_267);
 }
 // endregion
 // region: s_has_signs_and_3_in_base_19_and_insignificant_bytes
@@ -18661,9 +18661,9 @@ fn s_has_signs_and_376_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 376);
 }
 // endregion
-// region: s_has_signs_and_1350_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_1_350_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_1350_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_1_350_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x51, 0xDA, 0x2C, 0xA5, 0x18, 0x62, 0xEF, 0xAA,
 		0x7A, 0x7E, 0x16, 0x4B, 0x1D, 0x36, 0xA9, 0xEA, 0x68, 0x99, 0x9D, 0x31, 0x2F, 0x4F, 0x4D,
@@ -18674,12 +18674,12 @@ fn s_has_signs_and_1350_in_base_19_and_insignificant_bytes() {
 		0x8F, 0x63, 0x91, 0x60,
 	];
 
-	helper(S, BASE, 1350);
+	helper(S, BASE, 1_350);
 }
 // endregion
-// region: s_has_signs_and_19123_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_19_123_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_19123_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_19_123_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -18692,12 +18692,12 @@ fn s_has_signs_and_19123_in_base_19_and_insignificant_bytes() {
 		0x59, 0x48, 0x26, 0x3C,
 	];
 
-	helper(S, BASE, 19123);
+	helper(S, BASE, 19_123);
 }
 // endregion
-// region: s_has_signs_and_175531_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_175_531_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_175531_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_175_531_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0xD3, 0xF5, 0xDD, 0x41,
 		0x84, 0x6E, 0x83, 0x5A, 0xFD, 0x82, 0x6B, 0x88, 0xED, 0xEB, 0x88, 0xCE, 0x58,
@@ -18707,12 +18707,12 @@ fn s_has_signs_and_175531_in_base_19_and_insignificant_bytes() {
 		0x27, 0x0E, 0x33, 0x8C,
 	];
 
-	helper(S, BASE, 175531);
+	helper(S, BASE, 175_531);
 }
 // endregion
-// region: s_has_signs_and_9345167_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_9_345_167_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_9345167_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_9_345_167_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x83, 0x02, 0xD8, 0x21, 0x74, 0x43, 0xB0, 0x46, 0xE5, 0x91, 0x0C, 0x39, 0xA8,
@@ -18724,12 +18724,12 @@ fn s_has_signs_and_9345167_in_base_19_and_insignificant_bytes() {
 		0xE4, 0x74, 0x43, 0x29,
 	];
 
-	helper(S, BASE, 9345167);
+	helper(S, BASE, 9_345_167);
 }
 // endregion
-// region: s_has_signs_and_61283519_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_61_283_519_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_61283519_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_61_283_519_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x27, 0x9F, 0x6B, 0xFA, 0x6B,
 		0xE2, 0x1E, 0x94, 0xB8, 0x98, 0x5C, 0x9B, 0x91, 0x0B, 0xA1, 0xB9, 0x7E, 0xD7, 0x07, 0xF1,
@@ -18740,12 +18740,12 @@ fn s_has_signs_and_61283519_in_base_19_and_insignificant_bytes() {
 		0xBC, 0x8E, 0x5B, 0x3E,
 	];
 
-	helper(S, BASE, 61283519);
+	helper(S, BASE, 61_283_519);
 }
 // endregion
-// region: s_has_signs_and_310994675_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_310_994_675_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_310994675_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_310_994_675_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0xB7, 0x21, 0x21, 0xA2, 0x19, 0xB2, 0xBD, 0x73, 0xC6, 0x8B, 0x55, 0xD2, 0x94,
 		0x74, 0x06, 0x98, 0x36, 0xCA, 0x54, 0xCC, 0x24, 0xCF, 0xD9, 0x35, 0x04, 0xF6, 0x88, 0xDD,
@@ -18756,7 +18756,7 @@ fn s_has_signs_and_310994675_in_base_19_and_insignificant_bytes() {
 		0xBD, 0xFB, 0xB9, 0x59,
 	];
 
-	helper(S, BASE, 310994675);
+	helper(S, BASE, 310_994_675);
 }
 // endregion
 // region: s_has_signs_and_4_in_base_42_and_insignificant_bytes
@@ -18810,9 +18810,9 @@ fn s_has_signs_and_996_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 996);
 }
 // endregion
-// region: s_has_signs_and_8933_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_8_933_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_8933_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_8_933_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -18827,12 +18827,12 @@ fn s_has_signs_and_8933_in_base_42_and_insignificant_bytes() {
 		0x53, 0x9E, 0xA6, 0x3C, 0xDF, 0xF0, 0x74, 0xE5, 0x7E, 0xC4, 0x78, 0x4B,
 	];
 
-	helper(S, BASE, 8933);
+	helper(S, BASE, 8_933);
 }
 // endregion
-// region: s_has_signs_and_70152_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_70_152_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_70152_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_70_152_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -18846,12 +18846,12 @@ fn s_has_signs_and_70152_in_base_42_and_insignificant_bytes() {
 		0xE0, 0x7C, 0xF8, 0xA0, 0x0E, 0x6E, 0xBA, 0x63, 0x0F, 0x8D, 0x68, 0x3D,
 	];
 
-	helper(S, BASE, 70152);
+	helper(S, BASE, 70_152);
 }
 // endregion
-// region: s_has_signs_and_259183_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_259_183_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_259183_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_259_183_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -18864,12 +18864,12 @@ fn s_has_signs_and_259183_in_base_42_and_insignificant_bytes() {
 		0x22, 0xC0, 0x2A, 0x31, 0x83, 0x10, 0x7A, 0xB9, 0xC5, 0xBD, 0xCF, 0xBF,
 	];
 
-	helper(S, BASE, 259183);
+	helper(S, BASE, 259_183);
 }
 // endregion
-// region: s_has_signs_and_4679927_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_4_679_927_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_4679927_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_4_679_927_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x16, 0x52, 0xFC, 0xD6, 0x51, 0x09, 0xA3, 0x39,
 		0xEF, 0x38, 0xE7, 0xDA, 0xA3, 0x8C, 0x99, 0x0E, 0xDB, 0x47, 0x6A, 0x18, 0x2F, 0x31, 0x3F,
@@ -18882,12 +18882,12 @@ fn s_has_signs_and_4679927_in_base_42_and_insignificant_bytes() {
 		0xF6, 0x73, 0xA9, 0x5C, 0x32, 0x51, 0x81, 0xBD, 0xC9, 0x23, 0xCE, 0x50,
 	];
 
-	helper(S, BASE, 4679927);
+	helper(S, BASE, 4_679_927);
 }
 // endregion
-// region: s_has_signs_and_73964975_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_73_964_975_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_73964975_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_73_964_975_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0xB5, 0x8F, 0x96, 0xF4, 0x4E, 0xB9, 0x36, 0x3B, 0x01, 0x5C, 0x84, 0x17,
 		0x14, 0xA4, 0x0B, 0xD8, 0x18, 0xD5, 0x36, 0x02, 0x75,
@@ -18898,12 +18898,12 @@ fn s_has_signs_and_73964975_in_base_42_and_insignificant_bytes() {
 		0xCE, 0x9B, 0x8F, 0x63, 0xBE, 0x4E, 0x30, 0x79, 0x11, 0x4D, 0xD9, 0xFF,
 	];
 
-	helper(S, BASE, 73964975);
+	helper(S, BASE, 73_964_975);
 }
 // endregion
-// region: s_has_signs_and_544803943_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_544_803_943_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_544803943_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_544_803_943_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x1D, 0x73, 0xCB, 0xC3, 0xE0, 0xC3, 0x95, 0xD2, 0x02, 0x99, 0x8B, 0x4D, 0xF5,
 		0x9B, 0x48, 0x48, 0xF5, 0x84, 0xEF, 0x82, 0x0B, 0x7A, 0xCF, 0x0C, 0xAD, 0xD0, 0x9C, 0xE7,
@@ -18915,7 +18915,7 @@ fn s_has_signs_and_544803943_in_base_42_and_insignificant_bytes() {
 		0x71, 0x6E, 0xE0, 0x92, 0xAB, 0x18, 0xDD, 0x54, 0xDF, 0xD3, 0x3D, 0xBD,
 	];
 
-	helper(S, BASE, 544803943);
+	helper(S, BASE, 544_803_943);
 }
 // endregion
 // region: s_has_signs_and_2_in_base_73_and_insignificant_bytes
@@ -18976,9 +18976,9 @@ fn s_has_signs_and_318_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 318);
 }
 // endregion
-// region: s_has_signs_and_5562_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_5_562_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_5562_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_5_562_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -18995,12 +18995,12 @@ fn s_has_signs_and_5562_in_base_73_and_insignificant_bytes() {
 		0xFB, 0x81, 0x58, 0x4B, 0xDF, 0xA3, 0xF0, 0xA7, 0x9F, 0x26, 0xF8, 0x2E, 0x32,
 	];
 
-	helper(S, BASE, 5562);
+	helper(S, BASE, 5_562);
 }
 // endregion
-// region: s_has_signs_and_17007_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_17_007_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_17007_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_17_007_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -19015,12 +19015,12 @@ fn s_has_signs_and_17007_in_base_73_and_insignificant_bytes() {
 		0x8C, 0xC4, 0x2A, 0x22, 0x59, 0xF1, 0xCC, 0x41, 0xF0, 0xEB, 0x9E, 0x6E, 0xAC,
 	];
 
-	helper(S, BASE, 17007);
+	helper(S, BASE, 17_007);
 }
 // endregion
-// region: s_has_signs_and_475878_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_475_878_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_475878_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_475_878_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0xFA, 0x0E, 0xBA, 0x7F, 0xE7, 0xE4, 0xB1, 0xCC, 0xB8, 0x25,
 		0x54, 0x2B, 0x5E, 0x1E, 0xD3, 0x7C, 0x94, 0x17, 0x9A, 0x62, 0x5B, 0xBD, 0x81, 0xDA, 0x25,
@@ -19035,12 +19035,12 @@ fn s_has_signs_and_475878_in_base_73_and_insignificant_bytes() {
 		0xEB, 0x91, 0xAF, 0x22, 0x7F, 0xFD, 0xEE, 0xE0, 0xF7, 0x2F, 0xB0, 0x92, 0x42,
 	];
 
-	helper(S, BASE, 475878);
+	helper(S, BASE, 475_878);
 }
 // endregion
-// region: s_has_signs_and_3083056_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_3_083_056_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_3083056_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_3_083_056_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x4F, 0x99, 0xA6, 0x3D, 0xC7, 0xD6, 0xEE, 0x1F,
@@ -19055,12 +19055,12 @@ fn s_has_signs_and_3083056_in_base_73_and_insignificant_bytes() {
 		0x69, 0xBE, 0xFF, 0x17, 0xA8, 0x47, 0x92, 0x99, 0x77, 0xD2, 0xB3, 0xC4, 0xF8,
 	];
 
-	helper(S, BASE, 3083056);
+	helper(S, BASE, 3_083_056);
 }
 // endregion
-// region: s_has_signs_and_87612141_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_87_612_141_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_87612141_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_87_612_141_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x79, 0x2F, 0xBB, 0xA3, 0xC8, 0x2D, 0x8D,
@@ -19076,12 +19076,12 @@ fn s_has_signs_and_87612141_in_base_73_and_insignificant_bytes() {
 		0x4B, 0xD6, 0xD4, 0x8C, 0x2A, 0xE3, 0x3A, 0x69, 0x60, 0xD7, 0xAF, 0x21, 0x19,
 	];
 
-	helper(S, BASE, 87612141);
+	helper(S, BASE, 87_612_141);
 }
 // endregion
-// region: s_has_signs_and_339423592_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_339_423_592_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_339423592_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_339_423_592_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x99,
@@ -19096,7 +19096,7 @@ fn s_has_signs_and_339423592_in_base_73_and_insignificant_bytes() {
 		0xBF, 0x9A, 0xED, 0xA5, 0x46, 0x10, 0x68, 0x70, 0x7C, 0xD5, 0xBD, 0x1A, 0xEE,
 	];
 
-	helper(S, BASE, 339423592);
+	helper(S, BASE, 339_423_592);
 }
 // endregion
 // region: s_has_signs_and_5_in_base_113_and_insignificant_bytes
@@ -19166,9 +19166,9 @@ fn s_has_signs_and_187_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 187);
 }
 // endregion
-// region: s_has_signs_and_9541_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_9_541_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_9541_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_9_541_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x3B, 0xBF, 0x5E,
 	];
@@ -19183,12 +19183,12 @@ fn s_has_signs_and_9541_in_base_113_and_insignificant_bytes() {
 		0xDD, 0x26, 0x63, 0xAA, 0x75, 0xAC, 0x7B, 0x38,
 	];
 
-	helper(S, BASE, 9541);
+	helper(S, BASE, 9_541);
 }
 // endregion
-// region: s_has_signs_and_43173_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_43_173_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_43173_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_43_173_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x1B, 0x77, 0x3F,
@@ -19207,12 +19207,12 @@ fn s_has_signs_and_43173_in_base_113_and_insignificant_bytes() {
 		0x40, 0x62, 0x51, 0x41, 0xED, 0xB3, 0x2F, 0x5F,
 	];
 
-	helper(S, BASE, 43173);
+	helper(S, BASE, 43_173);
 }
 // endregion
-// region: s_has_signs_and_633737_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_633_737_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_633737_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_633_737_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -19232,12 +19232,12 @@ fn s_has_signs_and_633737_in_base_113_and_insignificant_bytes() {
 		0x23, 0xE4, 0x02, 0x0E, 0x33, 0xB4, 0xD7, 0x55,
 	];
 
-	helper(S, BASE, 633737);
+	helper(S, BASE, 633_737);
 }
 // endregion
-// region: s_has_signs_and_6366674_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_6_366_674_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_6366674_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_6_366_674_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0xAA, 0x12, 0x81, 0xA0, 0x29, 0xBF, 0xD7, 0x18, 0xB8, 0x57, 0xF8,
 		0xA2, 0xA3, 0xEB, 0x1F, 0x47, 0x7C, 0xD2, 0x25, 0x89, 0xF4, 0x27, 0x55, 0x0F, 0xF8, 0xA3,
@@ -19254,12 +19254,12 @@ fn s_has_signs_and_6366674_in_base_113_and_insignificant_bytes() {
 		0xE6, 0x53, 0xB5, 0xCC, 0x69, 0x5E, 0xC3, 0xA8,
 	];
 
-	helper(S, BASE, 6366674);
+	helper(S, BASE, 6_366_674);
 }
 // endregion
-// region: s_has_signs_and_43830387_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_43_830_387_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_43830387_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_43_830_387_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x80,
@@ -19277,12 +19277,12 @@ fn s_has_signs_and_43830387_in_base_113_and_insignificant_bytes() {
 		0x7C, 0xA7, 0x02, 0xE3, 0xB3, 0x27, 0x82, 0x92,
 	];
 
-	helper(S, BASE, 43830387);
+	helper(S, BASE, 43_830_387);
 }
 // endregion
-// region: s_has_signs_and_162014780_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_162_014_780_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_162014780_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_162_014_780_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x70, 0x84, 0x22, 0x76, 0xBA, 0xDD, 0x58,
@@ -19298,7 +19298,7 @@ fn s_has_signs_and_162014780_in_base_113_and_insignificant_bytes() {
 		0x57, 0x96, 0xB6, 0x65, 0xFB, 0x71, 0xE1, 0x70,
 	];
 
-	helper(S, BASE, 162014780);
+	helper(S, BASE, 162_014_780);
 }
 // endregion
 // region: s_has_signs_and_1_in_base_193_and_insignificant_bytes
@@ -19381,9 +19381,9 @@ fn s_has_signs_and_273_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 273);
 }
 // endregion
-// region: s_has_signs_and_7776_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_7_776_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_7776_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_7_776_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x9C, 0x8C, 0x19, 0x9A, 0x31, 0xE7, 0x0B, 0x86, 0xD8, 0xB1, 0xC4, 0xEC, 0x9B, 0x7A,
@@ -19406,12 +19406,12 @@ fn s_has_signs_and_7776_in_base_193_and_insignificant_bytes() {
 		0x94, 0x26, 0xE8, 0x5C, 0x7C, 0x45, 0xAC, 0x16, 0x73, 0x4B, 0xCC, 0x6F, 0x28,
 	];
 
-	helper(S, BASE, 7776);
+	helper(S, BASE, 7_776);
 }
 // endregion
-// region: s_has_signs_and_55638_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_55_638_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_55638_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_55_638_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x5A, 0xDA, 0x61, 0xAC, 0xBC, 0xA0, 0x0B,
 		0xD6, 0xB7, 0x2B, 0x3A, 0xBE, 0x24, 0xBA, 0xBA, 0xAB,
@@ -19432,12 +19432,12 @@ fn s_has_signs_and_55638_in_base_193_and_insignificant_bytes() {
 		0xC0, 0x55, 0xE8, 0x81, 0x74, 0x9A, 0xEC, 0x3D, 0x2F, 0x79, 0xF2, 0x34, 0x95,
 	];
 
-	helper(S, BASE, 55638);
+	helper(S, BASE, 55_638);
 }
 // endregion
-// region: s_has_signs_and_165193_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_165_193_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_165193_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_165_193_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x4F, 0xE5, 0x05, 0x39, 0x60, 0x39, 0xA7, 0x62, 0x20,
@@ -19459,12 +19459,12 @@ fn s_has_signs_and_165193_in_base_193_and_insignificant_bytes() {
 		0x8A, 0x1E, 0x41, 0xBF, 0xB8, 0x5B, 0xFA, 0xFF, 0x6E, 0x74, 0xBD, 0x3F, 0x2E,
 	];
 
-	helper(S, BASE, 165193);
+	helper(S, BASE, 165_193);
 }
 // endregion
-// region: s_has_signs_and_5208263_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_5_208_263_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_5208263_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_5_208_263_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x4B, 0xC6, 0xC6, 0xE6, 0xA4, 0xF8, 0x0C, 0xEC, 0xF1, 0xB7, 0xFA, 0x09, 0xFA, 0x2A,
 		0xA4, 0x37, 0x81, 0xD2, 0x96, 0xF1,
@@ -19485,12 +19485,12 @@ fn s_has_signs_and_5208263_in_base_193_and_insignificant_bytes() {
 		0x40, 0x9E, 0xCD, 0x16, 0x1A, 0x86, 0x54, 0x6F, 0xA9, 0x44, 0x10, 0x52, 0xC1,
 	];
 
-	helper(S, BASE, 5208263);
+	helper(S, BASE, 5_208_263);
 }
 // endregion
-// region: s_has_signs_and_24296082_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_24_296_082_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_24296082_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_24_296_082_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0xBA, 0x58, 0x9B, 0xAE,
@@ -19513,12 +19513,12 @@ fn s_has_signs_and_24296082_in_base_193_and_insignificant_bytes() {
 		0x1A, 0x39, 0x16, 0xA3, 0x82, 0x81, 0x03, 0xAC, 0xDC, 0xC2, 0x71, 0xCE, 0x87,
 	];
 
-	helper(S, BASE, 24296082);
+	helper(S, BASE, 24_296_082);
 }
 // endregion
-// region: s_has_signs_and_206971991_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_206_971_991_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_206971991_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_206_971_991_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x77, 0xAF, 0x51, 0x60, 0xF4, 0xE6, 0xA0, 0xEE, 0x6F, 0xB8, 0xF6,
@@ -19541,7 +19541,7 @@ fn s_has_signs_and_206971991_in_base_193_and_insignificant_bytes() {
 		0x8F, 0x01, 0x7F, 0xC1, 0xE5, 0xAE, 0x6E, 0x58, 0xFC, 0x56, 0xDA, 0xAB, 0xD8,
 	];
 
-	helper(S, BASE, 206971991);
+	helper(S, BASE, 206_971_991);
 }
 // endregion
 // region: s_has_signs_and_5_in_base_247_and_insignificant_bytes
@@ -19637,9 +19637,9 @@ fn s_has_signs_and_978_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 978);
 }
 // endregion
-// region: s_has_signs_and_5347_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_5_347_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_5347_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_5_347_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x11, 0x1E, 0x0C, 0x2D, 0x2B,
@@ -19667,12 +19667,12 @@ fn s_has_signs_and_5347_in_base_247_and_insignificant_bytes() {
 		0x8C, 0x30, 0x72, 0x04, 0x24, 0xBC, 0xEE,
 	];
 
-	helper(S, BASE, 5347);
+	helper(S, BASE, 5_347);
 }
 // endregion
-// region: s_has_signs_and_79683_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_79_683_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_79683_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_79_683_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -19701,12 +19701,12 @@ fn s_has_signs_and_79683_in_base_247_and_insignificant_bytes() {
 		0xE8, 0x23, 0x7E, 0x9D, 0x13, 0x3C, 0xBF,
 	];
 
-	helper(S, BASE, 79683);
+	helper(S, BASE, 79_683);
 }
 // endregion
-// region: s_has_signs_and_934656_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_934_656_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_934656_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_934_656_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -19734,12 +19734,12 @@ fn s_has_signs_and_934656_in_base_247_and_insignificant_bytes() {
 		0x8E, 0x1A, 0xD9, 0x02, 0x53, 0x3E, 0x45,
 	];
 
-	helper(S, BASE, 934656);
+	helper(S, BASE, 934_656);
 }
 // endregion
-// region: s_has_signs_and_6321156_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_6_321_156_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_6321156_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_6_321_156_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x55, 0x8B, 0x5B, 0x0A, 0x0D, 0x0A, 0x2D, 0x09, 0x0A, 0x09,
 		0x2D, 0x2B, 0x20, 0x0D, 0x0D, 0x20, 0x09, 0x0B, 0x0D,
@@ -19764,12 +19764,12 @@ fn s_has_signs_and_6321156_in_base_247_and_insignificant_bytes() {
 		0x44, 0xE5, 0x57, 0x18, 0x74, 0xC9, 0x6E,
 	];
 
-	helper(S, BASE, 6321156);
+	helper(S, BASE, 6_321_156);
 }
 // endregion
-// region: s_has_signs_and_89541306_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_89_541_306_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_89541306_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_89_541_306_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -19796,12 +19796,12 @@ fn s_has_signs_and_89541306_in_base_247_and_insignificant_bytes() {
 		0x9C, 0x68, 0x41, 0x5B, 0x74, 0xDA, 0x3D,
 	];
 
-	helper(S, BASE, 89541306);
+	helper(S, BASE, 89_541_306);
 }
 // endregion
-// region: s_has_signs_and_380415807_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_380_415_807_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_380415807_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_380_415_807_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0xF4, 0x4D, 0xAB, 0x9F, 0x09, 0x0B, 0x2D, 0x0A, 0x2D, 0x20,
 	];
@@ -19825,7 +19825,7 @@ fn s_has_signs_and_380415807_in_base_247_and_insignificant_bytes() {
 		0x19, 0xFB, 0x49, 0xE5, 0x1F, 0xC0, 0xEE,
 	];
 
-	helper(S, BASE, 380415807);
+	helper(S, BASE, 380_415_807);
 }
 // endregion
 // region: s_has_zeros_and_8_in_base_2_and_insignificant_bytes
@@ -19877,9 +19877,9 @@ fn s_has_zeros_and_482_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 482);
 }
 // endregion
-// region: s_has_zeros_and_2274_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_2_274_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_2274_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_2_274_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xFA, 0xAA, 0xAA, 0xAA, 0xFA, 0xFA,
 		0xFA, 0xAA, 0xAA, 0xAA, 0xFA, 0xAA, 0x41, 0x57, 0x8F, 0x4B, 0x5E, 0xBB, 0x0A, 0xC4,
@@ -19888,12 +19888,12 @@ fn s_has_zeros_and_2274_in_base_2_and_insignificant_bytes() {
 		0xAA, 0xFA,
 	];
 
-	helper(S, BASE, 2274);
+	helper(S, BASE, 2_274);
 }
 // endregion
-// region: s_has_zeros_and_31428_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_31_428_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_31428_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_31_428_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x23, 0x23, 0x23, 0x23, 0x2E,
 		0x23, 0x2E, 0x23, 0x23, 0x2E, 0x2E, 0x2E, 0x23, 0x2E, 0x2E, 0x0D,
@@ -19902,12 +19902,12 @@ fn s_has_zeros_and_31428_in_base_2_and_insignificant_bytes() {
 		0x2E, 0x23,
 	];
 
-	helper(S, BASE, 31428);
+	helper(S, BASE, 31_428);
 }
 // endregion
-// region: s_has_zeros_and_486649_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_486_649_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_486649_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_486_649_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8,
 		0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8, 0xDD, 0xDD, 0xDD,
@@ -19920,12 +19920,12 @@ fn s_has_zeros_and_486649_in_base_2_and_insignificant_bytes() {
 		0xA8, 0xDD,
 	];
 
-	helper(S, BASE, 486649);
+	helper(S, BASE, 486_649);
 }
 // endregion
-// region: s_has_zeros_and_9245594_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_9_245_594_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_9245594_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_9_245_594_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9,
 		0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9, 0xB9,
@@ -19939,12 +19939,12 @@ fn s_has_zeros_and_9245594_in_base_2_and_insignificant_bytes() {
 		0xB9, 0x35,
 	];
 
-	helper(S, BASE, 9245594);
+	helper(S, BASE, 9_245_594);
 }
 // endregion
-// region: s_has_zeros_and_90228345_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_90_228_345_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_90228345_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_90_228_345_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28,
 		0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28, 0x28,
@@ -19957,12 +19957,12 @@ fn s_has_zeros_and_90228345_in_base_2_and_insignificant_bytes() {
 		0x28, 0xBD,
 	];
 
-	helper(S, BASE, 90228345);
+	helper(S, BASE, 90_228_345);
 }
 // endregion
-// region: s_has_zeros_and_588922457_in_base_2_and_insignificant_bytes
+// region: s_has_zeros_and_588_922_457_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_588922457_in_base_2_and_insignificant_bytes() {
+fn s_has_zeros_and_588_922_457_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0x74, 0xBC, 0xBC, 0xBC, 0x74,
 		0x74, 0xBC, 0xBC, 0xBC, 0x74, 0x74, 0xBC, 0x74, 0xBC, 0xBC, 0xBC, 0x74, 0x74, 0x74, 0x74,
@@ -19973,7 +19973,7 @@ fn s_has_zeros_and_588922457_in_base_2_and_insignificant_bytes() {
 		0xBC, 0x74,
 	];
 
-	helper(S, BASE, 588922457);
+	helper(S, BASE, 588_922_457);
 }
 // endregion
 // region: s_has_zeros_and_8_in_base_3_and_insignificant_bytes
@@ -20021,9 +20021,9 @@ fn s_has_zeros_and_426_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 426);
 }
 // endregion
-// region: s_has_zeros_and_8654_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_8_654_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_8654_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_8_654_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4, 0xD4,
 		0xD4, 0x66, 0xD4, 0x46, 0x46, 0x66, 0x46, 0x66, 0x66, 0x46, 0x8F, 0x2A, 0xAD, 0x1E, 0x68,
@@ -20034,12 +20034,12 @@ fn s_has_zeros_and_8654_in_base_3_and_insignificant_bytes() {
 		0xD4, 0x66, 0x46,
 	];
 
-	helper(S, BASE, 8654);
+	helper(S, BASE, 8_654);
 }
 // endregion
-// region: s_has_zeros_and_97802_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_97_802_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_97802_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_97_802_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
 		0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
@@ -20052,12 +20052,12 @@ fn s_has_zeros_and_97802_in_base_3_and_insignificant_bytes() {
 		0x87, 0xE4, 0x3A,
 	];
 
-	helper(S, BASE, 97802);
+	helper(S, BASE, 97_802);
 }
 // endregion
-// region: s_has_zeros_and_647836_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_647_836_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_647836_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_647_836_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0x78, 0xD1, 0x78, 0xD1, 0xC7, 0xC7, 0xC7, 0x78, 0xD1,
 		0xC7, 0xC7, 0xC7, 0xC7, 0xD1, 0xD5, 0x99,
@@ -20066,12 +20066,12 @@ fn s_has_zeros_and_647836_in_base_3_and_insignificant_bytes() {
 		0x78, 0xD1, 0xC7,
 	];
 
-	helper(S, BASE, 647836);
+	helper(S, BASE, 647_836);
 }
 // endregion
-// region: s_has_zeros_and_7923874_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_7_923_874_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_7923874_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_7_923_874_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D,
 		0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x54, 0x54, 0xEA, 0xEA, 0xEA,
@@ -20083,12 +20083,12 @@ fn s_has_zeros_and_7923874_in_base_3_and_insignificant_bytes() {
 		0x4D, 0x54, 0xEA,
 	];
 
-	helper(S, BASE, 7923874);
+	helper(S, BASE, 7_923_874);
 }
 // endregion
-// region: s_has_zeros_and_90407419_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_90_407_419_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_90407419_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_90_407_419_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92,
 		0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92, 0x92,
@@ -20100,12 +20100,12 @@ fn s_has_zeros_and_90407419_in_base_3_and_insignificant_bytes() {
 		0x92, 0x78, 0xB5,
 	];
 
-	helper(S, BASE, 90407419);
+	helper(S, BASE, 90_407_419);
 }
 // endregion
-// region: s_has_zeros_and_137671908_in_base_3_and_insignificant_bytes
+// region: s_has_zeros_and_137_671_908_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_137671908_in_base_3_and_insignificant_bytes() {
+fn s_has_zeros_and_137_671_908_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x58, 0x90, 0x58, 0x58, 0x90, 0x21, 0x90, 0x58, 0x58, 0x90, 0x90, 0x90, 0x58, 0x90, 0x58,
 		0x58, 0x90, 0x21, 0x58, 0xB9, 0xB6, 0x9C, 0x78, 0xC0, 0x4E, 0xD6,
@@ -20114,7 +20114,7 @@ fn s_has_zeros_and_137671908_in_base_3_and_insignificant_bytes() {
 		0x58, 0x90, 0x21,
 	];
 
-	helper(S, BASE, 137671908);
+	helper(S, BASE, 137_671_908);
 }
 // endregion
 // region: s_has_zeros_and_6_in_base_5_and_insignificant_bytes
@@ -20165,9 +20165,9 @@ fn s_has_zeros_and_796_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 796);
 }
 // endregion
-// region: s_has_zeros_and_7921_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_7_921_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_7921_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_7_921_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03,
 		0x03, 0x03, 0x03, 0xA9, 0xA9, 0x2E, 0x9A, 0x23, 0x9A, 0x89, 0xFA, 0xB4, 0x93, 0x8F, 0xE6,
@@ -20177,12 +20177,12 @@ fn s_has_zeros_and_7921_in_base_5_and_insignificant_bytes() {
 		0x03, 0x9A, 0xA9, 0x2E, 0x23,
 	];
 
-	helper(S, BASE, 7921);
+	helper(S, BASE, 7_921);
 }
 // endregion
-// region: s_has_zeros_and_24038_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_24_038_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_24038_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_24_038_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04,
 		0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04,
@@ -20194,12 +20194,12 @@ fn s_has_zeros_and_24038_in_base_5_and_insignificant_bytes() {
 		0x04, 0x79, 0xAE, 0xF9, 0xF5,
 	];
 
-	helper(S, BASE, 24038);
+	helper(S, BASE, 24_038);
 }
 // endregion
-// region: s_has_zeros_and_191096_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_191_096_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_191096_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_191_096_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x8F, 0x4C, 0x4C, 0xED, 0x8F, 0x7C, 0x7C, 0xFC, 0xED, 0x76, 0xF2, 0xC8, 0x5A, 0xFD, 0x7E,
 		0x63, 0x64, 0xA2, 0x1F, 0x7D, 0x30, 0x34, 0x8B, 0x68, 0xCB, 0x6E, 0xD7, 0x65, 0x3A, 0x55,
@@ -20209,12 +20209,12 @@ fn s_has_zeros_and_191096_in_base_5_and_insignificant_bytes() {
 		0x8F, 0xED, 0x4C, 0x7C, 0xFC,
 	];
 
-	helper(S, BASE, 191096);
+	helper(S, BASE, 191_096);
 }
 // endregion
-// region: s_has_zeros_and_7621650_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_7_621_650_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_7621650_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_7_621_650_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80,
 		0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80,
@@ -20227,12 +20227,12 @@ fn s_has_zeros_and_7621650_in_base_5_and_insignificant_bytes() {
 		0x80, 0x14, 0x6F, 0x5B, 0x2A,
 	];
 
-	helper(S, BASE, 7621650);
+	helper(S, BASE, 7_621_650);
 }
 // endregion
-// region: s_has_zeros_and_25343086_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_25_343_086_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_25343086_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_25_343_086_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0xCB, 0xCB, 0xE5, 0xE5, 0x28, 0xE5, 0x8B,
 		0xE5, 0x8B, 0xCB, 0x28, 0x41, 0x29, 0x39, 0x48, 0xDC, 0x48, 0x71, 0x62, 0x7D, 0x99, 0xD0,
@@ -20242,12 +20242,12 @@ fn s_has_zeros_and_25343086_in_base_5_and_insignificant_bytes() {
 		0x5E, 0x28, 0xCB, 0x8B, 0xE5,
 	];
 
-	helper(S, BASE, 25343086);
+	helper(S, BASE, 25_343_086);
 }
 // endregion
-// region: s_has_zeros_and_380079652_in_base_5_and_insignificant_bytes
+// region: s_has_zeros_and_380_079_652_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_380079652_in_base_5_and_insignificant_bytes() {
+fn s_has_zeros_and_380_079_652_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0xF6, 0x3B, 0xEC,
 		0x89, 0x9D, 0x89, 0xF6, 0xF6, 0xF6, 0xEC, 0xEC, 0x3B, 0xF6, 0xEC, 0xB2, 0x6C, 0x67, 0x58,
@@ -20258,7 +20258,7 @@ fn s_has_zeros_and_380079652_in_base_5_and_insignificant_bytes() {
 		0xF6, 0x3B, 0xEC, 0x89, 0x9D,
 	];
 
-	helper(S, BASE, 380079652);
+	helper(S, BASE, 380_079_652);
 }
 // endregion
 // region: s_has_zeros_and_2_in_base_7_and_insignificant_bytes
@@ -20309,9 +20309,9 @@ fn s_has_zeros_and_852_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 852);
 }
 // endregion
-// region: s_has_zeros_and_7602_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_7_602_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_7602_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_7_602_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD9, 0x80, 0x84, 0x84, 0x84, 0xD9, 0x05, 0x38, 0x1D, 0x6B, 0x74, 0xFD, 0xBB, 0x91, 0x74,
 		0x2F, 0x67, 0x34, 0xDD, 0x49, 0xA8, 0x47, 0x15, 0xF1, 0xEC, 0x2E,
@@ -20320,12 +20320,12 @@ fn s_has_zeros_and_7602_in_base_7_and_insignificant_bytes() {
 		0xD9, 0x84, 0xB4, 0x80, 0xB0, 0xE0, 0x25,
 	];
 
-	helper(S, BASE, 7602);
+	helper(S, BASE, 7_602);
 }
 // endregion
-// region: s_has_zeros_and_74766_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_74_766_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_74766_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_74_766_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
 		0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
@@ -20336,12 +20336,12 @@ fn s_has_zeros_and_74766_in_base_7_and_insignificant_bytes() {
 		0x01, 0xD8, 0x85, 0xBE, 0xA2, 0x87, 0xCF,
 	];
 
-	helper(S, BASE, 74766);
+	helper(S, BASE, 74_766);
 }
 // endregion
-// region: s_has_zeros_and_684332_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_684_332_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_684332_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_684_332_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B,
 		0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B, 0x4B,
@@ -20354,12 +20354,12 @@ fn s_has_zeros_and_684332_in_base_7_and_insignificant_bytes() {
 		0x4B, 0x82, 0x08, 0x18, 0xC5, 0x9F, 0x2E,
 	];
 
-	helper(S, BASE, 684332);
+	helper(S, BASE, 684_332);
 }
 // endregion
-// region: s_has_zeros_and_2268688_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_2_268_688_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_2268688_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_2_268_688_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF2, 0xF2, 0xF2, 0x01, 0x5A, 0xF1, 0x4D, 0x4D, 0xF1, 0x5A, 0x01, 0x62, 0x87, 0x60, 0x15,
 		0x28, 0x02, 0x2E, 0xDE, 0x97, 0x79, 0xE1, 0x35, 0x17, 0x3C, 0x21, 0xA0, 0x95,
@@ -20368,12 +20368,12 @@ fn s_has_zeros_and_2268688_in_base_7_and_insignificant_bytes() {
 		0xF2, 0xF1, 0x01, 0xA9, 0xEB, 0x5A, 0x4D,
 	];
 
-	helper(S, BASE, 2268688);
+	helper(S, BASE, 2_268_688);
 }
 // endregion
-// region: s_has_zeros_and_25545557_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_25_545_557_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_25545557_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_25_545_557_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04,
 		0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0xC5, 0x7F, 0x04,
@@ -20385,12 +20385,12 @@ fn s_has_zeros_and_25545557_in_base_7_and_insignificant_bytes() {
 		0x04, 0x2A, 0x91, 0x7F, 0xC5, 0xEB, 0x25,
 	];
 
-	helper(S, BASE, 25545557);
+	helper(S, BASE, 25_545_557);
 }
 // endregion
-// region: s_has_zeros_and_406304566_in_base_7_and_insignificant_bytes
+// region: s_has_zeros_and_406_304_566_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_406304566_in_base_7_and_insignificant_bytes() {
+fn s_has_zeros_and_406_304_566_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD,
 		0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0xFD, 0x26, 0xBB,
@@ -20403,7 +20403,7 @@ fn s_has_zeros_and_406304566_in_base_7_and_insignificant_bytes() {
 		0xFD, 0x26, 0x5E, 0xBB, 0x56, 0x91, 0x4E,
 	];
 
-	helper(S, BASE, 406304566);
+	helper(S, BASE, 406_304_566);
 }
 // endregion
 // region: s_has_zeros_and_3_in_base_11_and_insignificant_bytes
@@ -20451,9 +20451,9 @@ fn s_has_zeros_and_678_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 678);
 }
 // endregion
-// region: s_has_zeros_and_5071_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_5_071_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_5071_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_5_071_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD,
 		0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD,
@@ -20464,12 +20464,12 @@ fn s_has_zeros_and_5071_in_base_11_and_insignificant_bytes() {
 		0xDD, 0x94, 0x55, 0xAF, 0x3C, 0x36, 0x52, 0xFB, 0x45, 0xC8, 0x6C,
 	];
 
-	helper(S, BASE, 5071);
+	helper(S, BASE, 5_071);
 }
 // endregion
-// region: s_has_zeros_and_57234_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_57_234_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_57234_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_57_234_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19, 0x19,
 		0x19, 0x19, 0xC0, 0xD0, 0x19, 0x19, 0x05, 0xA8, 0x76, 0xC9, 0xBA, 0x9D, 0x5D, 0x2B, 0xE0,
@@ -20480,12 +20480,12 @@ fn s_has_zeros_and_57234_in_base_11_and_insignificant_bytes() {
 		0x19, 0x05, 0x68, 0xC0, 0xBC, 0x83, 0xCF, 0xF1, 0xE4, 0x25, 0xD0,
 	];
 
-	helper(S, BASE, 57234);
+	helper(S, BASE, 57_234);
 }
 // endregion
-// region: s_has_zeros_and_805457_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_805_457_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_805457_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_805_457_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x46, 0x46, 0x46, 0x46, 0x46, 0x27, 0x46, 0x46, 0x2E, 0x08, 0xD6, 0xE7, 0x81, 0x8C, 0x2B,
 		0x72, 0x98,
@@ -20494,12 +20494,12 @@ fn s_has_zeros_and_805457_in_base_11_and_insignificant_bytes() {
 		0x46, 0x2E, 0x64, 0x47, 0xD6, 0x27, 0x63, 0x08, 0xB1, 0x45, 0xED,
 	];
 
-	helper(S, BASE, 805457);
+	helper(S, BASE, 805_457);
 }
 // endregion
-// region: s_has_zeros_and_4168413_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_4_168_413_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_4168413_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_4_168_413_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47,
 		0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47, 0x47,
@@ -20510,12 +20510,12 @@ fn s_has_zeros_and_4168413_in_base_11_and_insignificant_bytes() {
 		0x47, 0xAD, 0xC3, 0xAB, 0xC0, 0xC4, 0x63, 0xB5, 0x3E, 0xF8, 0x9A,
 	];
 
-	helper(S, BASE, 4168413);
+	helper(S, BASE, 4_168_413);
 }
 // endregion
-// region: s_has_zeros_and_30037641_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_30_037_641_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_30037641_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_30_037_641_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE,
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xAD, 0x76, 0xB0, 0x76, 0x86, 0x94, 0xB0,
@@ -20526,12 +20526,12 @@ fn s_has_zeros_and_30037641_in_base_11_and_insignificant_bytes() {
 		0xDE, 0xAD, 0x14, 0xBD, 0x11, 0x76, 0x86, 0x94, 0xAA, 0x85, 0xB0,
 	];
 
-	helper(S, BASE, 30037641);
+	helper(S, BASE, 30_037_641);
 }
 // endregion
-// region: s_has_zeros_and_434024978_in_base_11_and_insignificant_bytes
+// region: s_has_zeros_and_434_024_978_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_434024978_in_base_11_and_insignificant_bytes() {
+fn s_has_zeros_and_434_024_978_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A,
 		0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x8A, 0x5C, 0x8A, 0x5C, 0x1A,
@@ -20543,7 +20543,7 @@ fn s_has_zeros_and_434024978_in_base_11_and_insignificant_bytes() {
 		0x8A, 0x51, 0x5C, 0xD5, 0xCD, 0x1E, 0xF8, 0xE1, 0x83, 0xEB, 0x1A,
 	];
 
-	helper(S, BASE, 434024978);
+	helper(S, BASE, 434_024_978);
 }
 // endregion
 // region: s_has_zeros_and_3_in_base_13_and_insignificant_bytes
@@ -20593,9 +20593,9 @@ fn s_has_zeros_and_888_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 888);
 }
 // endregion
-// region: s_has_zeros_and_9466_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_9_466_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_9466_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_9_466_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32,
 		0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32,
@@ -20605,12 +20605,12 @@ fn s_has_zeros_and_9466_in_base_13_and_insignificant_bytes() {
 		0x32, 0x50, 0xE9, 0x1C, 0x87, 0xC2, 0xE1, 0xAC, 0x5F, 0xF2, 0x9D, 0x9A, 0x74,
 	];
 
-	helper(S, BASE, 9466);
+	helper(S, BASE, 9_466);
 }
 // endregion
-// region: s_has_zeros_and_73614_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_73_614_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_73614_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_73_614_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2,
 		0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2, 0xF2,
@@ -20623,12 +20623,12 @@ fn s_has_zeros_and_73614_in_base_13_and_insignificant_bytes() {
 		0xF2, 0x85, 0xDA, 0xA8, 0xE1, 0xEC, 0xF5, 0xDE, 0x52, 0xCD, 0x48, 0xA1, 0x7A,
 	];
 
-	helper(S, BASE, 73614);
+	helper(S, BASE, 73_614);
 }
 // endregion
-// region: s_has_zeros_and_261980_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_261_980_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_261980_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_261_980_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB,
 		0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0x40, 0x64, 0xD7, 0x64, 0x44,
@@ -20640,12 +20640,12 @@ fn s_has_zeros_and_261980_in_base_13_and_insignificant_bytes() {
 		0xBB, 0x4E, 0x64, 0xD7, 0x44, 0xE9, 0xCC, 0x83, 0xD4, 0x40, 0x49, 0xF4, 0x4B,
 	];
 
-	helper(S, BASE, 261980);
+	helper(S, BASE, 261_980);
 }
 // endregion
-// region: s_has_zeros_and_4628296_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_4_628_296_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_4628296_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_4_628_296_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xBB, 0xFD, 0xBC, 0xBB, 0x73, 0xFA, 0xE4,
 		0x74, 0x09, 0x95, 0xA3, 0xBE, 0x51, 0xC1, 0x41, 0x8E, 0x07, 0xA8, 0x5E, 0xE7, 0xA0, 0xE2,
@@ -20654,12 +20654,12 @@ fn s_has_zeros_and_4628296_in_base_13_and_insignificant_bytes() {
 		0xBB, 0x3E, 0xB2, 0xA6, 0xFA, 0x12, 0xBC, 0x62, 0x73, 0xF1, 0xE4, 0xCF, 0xFD,
 	];
 
-	helper(S, BASE, 4628296);
+	helper(S, BASE, 4_628_296);
 }
 // endregion
-// region: s_has_zeros_and_54516871_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_54_516_871_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_54516871_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_54_516_871_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0,
 		0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0, 0xD0,
@@ -20672,12 +20672,12 @@ fn s_has_zeros_and_54516871_in_base_13_and_insignificant_bytes() {
 		0xD0, 0xDD, 0xA7, 0x19, 0xB4, 0x9B, 0xBB, 0xFE, 0xA5, 0x69, 0x1D, 0x51, 0x43,
 	];
 
-	helper(S, BASE, 54516871);
+	helper(S, BASE, 54_516_871);
 }
 // endregion
-// region: s_has_zeros_and_497483517_in_base_13_and_insignificant_bytes
+// region: s_has_zeros_and_497_483_517_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_497483517_in_base_13_and_insignificant_bytes() {
+fn s_has_zeros_and_497_483_517_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
 		0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
@@ -20689,7 +20689,7 @@ fn s_has_zeros_and_497483517_in_base_13_and_insignificant_bytes() {
 		0x51, 0xBE, 0x2C, 0xF6, 0xA4, 0x58, 0x80, 0x04, 0xE6, 0xF5, 0xD9, 0x3F, 0x78,
 	];
 
-	helper(S, BASE, 497483517);
+	helper(S, BASE, 497_483_517);
 }
 // endregion
 // region: s_has_zeros_and_8_in_base_19_and_insignificant_bytes
@@ -20743,9 +20743,9 @@ fn s_has_zeros_and_739_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 739);
 }
 // endregion
-// region: s_has_zeros_and_3073_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_3_073_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_3073_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_3_073_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4,
 		0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC4, 0xC6,
@@ -20756,12 +20756,12 @@ fn s_has_zeros_and_3073_in_base_19_and_insignificant_bytes() {
 		0xA5, 0x40, 0x4A, 0x3C,
 	];
 
-	helper(S, BASE, 3073);
+	helper(S, BASE, 3_073);
 }
 // endregion
-// region: s_has_zeros_and_52515_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_52_515_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_52515_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_52_515_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0x8E, 0xAD, 0xC1, 0xA5,
 		0xBF, 0xF8, 0xAE, 0x93, 0x79, 0xF9, 0x9B, 0xA6, 0xF7, 0xBB, 0x3B, 0x2A, 0xDD, 0xF9, 0x63,
@@ -20773,12 +20773,12 @@ fn s_has_zeros_and_52515_in_base_19_and_insignificant_bytes() {
 		0xFD, 0x1E, 0x51, 0xBF,
 	];
 
-	helper(S, BASE, 52515);
+	helper(S, BASE, 52_515);
 }
 // endregion
-// region: s_has_zeros_and_184856_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_184_856_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_184856_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_184_856_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xFC, 0xF3, 0x66, 0x35, 0xF3, 0x85, 0x46,
 		0x22, 0xBD, 0xE4, 0x8F, 0xC4, 0xBA, 0xCE, 0xD1, 0x71, 0xB2, 0x26, 0x25, 0x5D, 0xD8, 0x51,
@@ -20790,12 +20790,12 @@ fn s_has_zeros_and_184856_in_base_19_and_insignificant_bytes() {
 		0xEF, 0xDB, 0xBE, 0x35,
 	];
 
-	helper(S, BASE, 184856);
+	helper(S, BASE, 184_856);
 }
 // endregion
-// region: s_has_zeros_and_1526020_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_1_526_020_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_1526020_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_1_526_020_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA,
 		0xBA, 0xBA, 0xBA, 0xBA, 0x78, 0xB8, 0x5A, 0x5D, 0xF4, 0xF7, 0xB9, 0x9B, 0x1B, 0x5F, 0x31,
@@ -20806,12 +20806,12 @@ fn s_has_zeros_and_1526020_in_base_19_and_insignificant_bytes() {
 		0x59, 0xF4, 0x16, 0xE2,
 	];
 
-	helper(S, BASE, 1526020);
+	helper(S, BASE, 1_526_020);
 }
 // endregion
-// region: s_has_zeros_and_17166884_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_17_166_884_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_17166884_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_17_166_884_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
 		0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
@@ -20823,12 +20823,12 @@ fn s_has_zeros_and_17166884_in_base_19_and_insignificant_bytes() {
 		0xBB, 0xAA, 0x90, 0x52,
 	];
 
-	helper(S, BASE, 17166884);
+	helper(S, BASE, 17_166_884);
 }
 // endregion
-// region: s_has_zeros_and_342226595_in_base_19_and_insignificant_bytes
+// region: s_has_zeros_and_342_226_595_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_342226595_in_base_19_and_insignificant_bytes() {
+fn s_has_zeros_and_342_226_595_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46, 0x46,
 		0x46, 0x46, 0xB4, 0xDC, 0x79, 0x46, 0x7F, 0xCD, 0xA8, 0x88, 0x13, 0x0E, 0x23, 0xDA, 0x4A,
@@ -20839,7 +20839,7 @@ fn s_has_zeros_and_342226595_in_base_19_and_insignificant_bytes() {
 		0x4C, 0x19, 0x2C, 0x3B,
 	];
 
-	helper(S, BASE, 342226595);
+	helper(S, BASE, 342_226_595);
 }
 // endregion
 // region: s_has_zeros_and_9_in_base_42_and_insignificant_bytes
@@ -20892,9 +20892,9 @@ fn s_has_zeros_and_637_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 637);
 }
 // endregion
-// region: s_has_zeros_and_1093_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_1_093_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_1093_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_1_093_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4,
 		0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0x7E, 0xB6, 0x8A,
@@ -20907,12 +20907,12 @@ fn s_has_zeros_and_1093_in_base_42_and_insignificant_bytes() {
 		0x7B, 0xEC, 0xAB, 0xC7, 0x8B, 0xBA, 0xE2, 0x78, 0x07, 0xA3, 0x87, 0x65,
 	];
 
-	helper(S, BASE, 1093);
+	helper(S, BASE, 1_093);
 }
 // endregion
-// region: s_has_zeros_and_26728_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_26_728_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_26728_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_26_728_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21,
 		0x21, 0x21, 0x21, 0x21, 0x8D, 0xFD, 0x96, 0xE2, 0x7B, 0xBE, 0x4A, 0xE0, 0x8A, 0x6F, 0x38,
@@ -20926,12 +20926,12 @@ fn s_has_zeros_and_26728_in_base_42_and_insignificant_bytes() {
 		0x3B, 0x3F, 0xA0, 0xC3, 0x8E, 0xCF, 0x4B, 0xF7, 0xDE, 0xD6, 0x4D, 0xC9,
 	];
 
-	helper(S, BASE, 26728);
+	helper(S, BASE, 26_728);
 }
 // endregion
-// region: s_has_zeros_and_848651_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_848_651_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_848651_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_848_651_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x94, 0xE9, 0x5B, 0xEB, 0x86, 0x86, 0xC1,
 		0xE3, 0x14, 0xAD, 0xB0, 0xC8, 0x1D, 0x24, 0xE1, 0xF2, 0x37, 0x35, 0xBD, 0xD2, 0x4A, 0xCE,
@@ -20943,12 +20943,12 @@ fn s_has_zeros_and_848651_in_base_42_and_insignificant_bytes() {
 		0x77, 0x7E, 0x84, 0x2A, 0x70, 0x1C, 0x01, 0xD0, 0x29, 0xE4, 0x6C, 0xEB,
 	];
 
-	helper(S, BASE, 848651);
+	helper(S, BASE, 848_651);
 }
 // endregion
-// region: s_has_zeros_and_9656890_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_9_656_890_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_9656890_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_9_656_890_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0xA3, 0x31, 0xA5, 0x63,
 		0x9A, 0x7F, 0x5C, 0x32, 0x19, 0x1C, 0x1E, 0xF7, 0x90, 0x9C, 0xD1, 0xAE, 0xD7, 0x8C, 0xC6,
@@ -20961,12 +20961,12 @@ fn s_has_zeros_and_9656890_in_base_42_and_insignificant_bytes() {
 		0xD5, 0x6E, 0xC0, 0x61, 0xEE, 0x70, 0xA8, 0x48, 0xB9, 0x5B, 0x7F, 0x13,
 	];
 
-	helper(S, BASE, 9656890);
+	helper(S, BASE, 9_656_890);
 }
 // endregion
-// region: s_has_zeros_and_27721633_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_27_721_633_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_27721633_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_27_721_633_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
 		0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
@@ -20980,12 +20980,12 @@ fn s_has_zeros_and_27721633_in_base_42_and_insignificant_bytes() {
 		0xC9, 0xB2, 0x80, 0x3C, 0xBF, 0xFB, 0x42, 0x1A, 0x8F, 0x48, 0xC0, 0xD4,
 	];
 
-	helper(S, BASE, 27721633);
+	helper(S, BASE, 27_721_633);
 }
 // endregion
-// region: s_has_zeros_and_515470452_in_base_42_and_insignificant_bytes
+// region: s_has_zeros_and_515_470_452_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_515470452_in_base_42_and_insignificant_bytes() {
+fn s_has_zeros_and_515_470_452_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13,
 		0x13, 0xCE, 0x73, 0x01, 0x1D, 0x04, 0x13, 0x78, 0xC3, 0xE8, 0x1E, 0x23, 0x6F, 0x31,
@@ -20996,7 +20996,7 @@ fn s_has_zeros_and_515470452_in_base_42_and_insignificant_bytes() {
 		0x8B, 0xB6, 0x90, 0x1A, 0x04, 0x82, 0xA1, 0xBE, 0xBA, 0x73, 0x37, 0x0E,
 	];
 
-	helper(S, BASE, 515470452);
+	helper(S, BASE, 515_470_452);
 }
 // endregion
 // region: s_has_zeros_and_6_in_base_73_and_insignificant_bytes
@@ -21058,9 +21058,9 @@ fn s_has_zeros_and_606_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 606);
 }
 // endregion
-// region: s_has_zeros_and_8684_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_8_684_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_8684_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_8_684_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0x2C,
 		0x2C, 0x2C, 0x2C, 0x2C, 0x2C, 0xBD, 0x64, 0x48, 0xE6, 0x14, 0x54, 0xEF, 0x4C, 0x56, 0x72,
@@ -21075,12 +21075,12 @@ fn s_has_zeros_and_8684_in_base_73_and_insignificant_bytes() {
 		0xC2, 0x57, 0xB2, 0xE8, 0x46, 0x07, 0xD3, 0xDA, 0xA6, 0x5B, 0x48, 0xA5, 0x7A,
 	];
 
-	helper(S, BASE, 8684);
+	helper(S, BASE, 8_684);
 }
 // endregion
-// region: s_has_zeros_and_99806_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_99_806_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_99806_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_99_806_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7,
 		0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7, 0xF7,
@@ -21095,12 +21095,12 @@ fn s_has_zeros_and_99806_in_base_73_and_insignificant_bytes() {
 		0x99, 0x97, 0x8F, 0xF9, 0xA7, 0xF6, 0x6F, 0xDB, 0xEF, 0xEE, 0xA2, 0x4C, 0xBD,
 	];
 
-	helper(S, BASE, 99806);
+	helper(S, BASE, 99_806);
 }
 // endregion
-// region: s_has_zeros_and_628137_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_628_137_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_628137_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_628_137_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98,
 		0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98, 0x98,
@@ -21115,12 +21115,12 @@ fn s_has_zeros_and_628137_in_base_73_and_insignificant_bytes() {
 		0x38, 0x97, 0xEC, 0x61, 0xEE, 0xD8, 0x85, 0xCF, 0x57, 0x39, 0xFA, 0xA4, 0x5E,
 	];
 
-	helper(S, BASE, 628137);
+	helper(S, BASE, 628_137);
 }
 // endregion
-// region: s_has_zeros_and_3486057_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_3_486_057_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_3486057_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_3_486_057_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x13, 0x9B, 0xD5, 0xB0, 0xFD, 0x2C, 0x8A,
 		0xE9, 0xD2, 0x3C, 0xA4, 0x83, 0xF4, 0xF9, 0x30, 0xD3, 0x20, 0x1D, 0x2B, 0x8E, 0xF1, 0xBA,
@@ -21135,12 +21135,12 @@ fn s_has_zeros_and_3486057_in_base_73_and_insignificant_bytes() {
 		0xAD, 0x73, 0xB4, 0x12, 0xDD, 0x19, 0x36, 0xB1, 0x38, 0xFF, 0x9B, 0x32, 0x7A,
 	];
 
-	helper(S, BASE, 3486057);
+	helper(S, BASE, 3_486_057);
 }
 // endregion
-// region: s_has_zeros_and_82970119_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_82_970_119_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_82970119_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_82_970_119_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE,
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE,
@@ -21155,12 +21155,12 @@ fn s_has_zeros_and_82970119_in_base_73_and_insignificant_bytes() {
 		0xA1, 0xF8, 0x6C, 0x7B, 0xE0, 0x66, 0xB4, 0xF6, 0xF3, 0x1A, 0x70, 0xE9, 0x61,
 	];
 
-	helper(S, BASE, 82970119);
+	helper(S, BASE, 82_970_119);
 }
 // endregion
-// region: s_has_zeros_and_107182629_in_base_73_and_insignificant_bytes
+// region: s_has_zeros_and_107_182_629_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_107182629_in_base_73_and_insignificant_bytes() {
+fn s_has_zeros_and_107_182_629_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0xFD, 0x52, 0x5E, 0x05,
 		0x32, 0x26, 0xE7, 0xB6, 0x89, 0xC8, 0xAA, 0xD4, 0xB7, 0x89, 0x96, 0xAF, 0x58, 0x1B, 0xB7,
@@ -21174,7 +21174,7 @@ fn s_has_zeros_and_107182629_in_base_73_and_insignificant_bytes() {
 		0x54, 0x67, 0x24, 0xE4, 0x5C, 0x29, 0x11, 0x48, 0xB4, 0xED, 0x57, 0x19, 0x80,
 	];
 
-	helper(S, BASE, 107182629);
+	helper(S, BASE, 107_182_629);
 }
 // endregion
 // region: s_has_zeros_and_3_in_base_113_and_insignificant_bytes
@@ -21246,9 +21246,9 @@ fn s_has_zeros_and_161_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 161);
 }
 // endregion
-// region: s_has_zeros_and_4280_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_4_280_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_4280_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_4_280_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7,
 		0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0xA7, 0x82, 0x9F, 0x73, 0x73, 0x88,
@@ -21264,12 +21264,12 @@ fn s_has_zeros_and_4280_in_base_113_and_insignificant_bytes() {
 		0x22, 0x56, 0xF6, 0xA9, 0xD7, 0x59, 0x35, 0x1A,
 	];
 
-	helper(S, BASE, 4280);
+	helper(S, BASE, 4_280);
 }
 // endregion
-// region: s_has_zeros_and_38554_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_38_554_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_38554_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_38_554_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0xED, 0x1A, 0x83, 0x1E,
 		0x85, 0x57, 0x02,
@@ -21285,12 +21285,12 @@ fn s_has_zeros_and_38554_in_base_113_and_insignificant_bytes() {
 		0xB5, 0x19, 0xF6, 0x4A, 0x65, 0xF3, 0x7D, 0x76,
 	];
 
-	helper(S, BASE, 38554);
+	helper(S, BASE, 38_554);
 }
 // endregion
-// region: s_has_zeros_and_349784_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_349_784_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_349784_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_349_784_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF,
 		0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF,
@@ -21310,12 +21310,12 @@ fn s_has_zeros_and_349784_in_base_113_and_insignificant_bytes() {
 		0xF8, 0xAB, 0x6D, 0xCC, 0xD5, 0x1E, 0x45, 0x0E,
 	];
 
-	helper(S, BASE, 349784);
+	helper(S, BASE, 349_784);
 }
 // endregion
-// region: s_has_zeros_and_5806355_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_5_806_355_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_5806355_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_5_806_355_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xBC, 0xB4, 0xDB, 0xCC, 0xD2, 0x4D, 0xCD,
 	];
@@ -21330,12 +21330,12 @@ fn s_has_zeros_and_5806355_in_base_113_and_insignificant_bytes() {
 		0xA0, 0xAD, 0x50, 0x6D, 0x8F, 0x34, 0x58, 0x1E,
 	];
 
-	helper(S, BASE, 5806355);
+	helper(S, BASE, 5_806_355);
 }
 // endregion
-// region: s_has_zeros_and_84380344_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_84_380_344_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_84380344_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_84_380_344_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x6A, 0x6A, 0xC0, 0xA2, 0xCC, 0x64, 0xED, 0xF2,
 	];
@@ -21350,12 +21350,12 @@ fn s_has_zeros_and_84380344_in_base_113_and_insignificant_bytes() {
 		0x4B, 0x7F, 0x33, 0x78, 0x1E, 0xCA, 0x9B, 0x63,
 	];
 
-	helper(S, BASE, 84380344);
+	helper(S, BASE, 84_380_344);
 }
 // endregion
-// region: s_has_zeros_and_188656052_in_base_113_and_insignificant_bytes
+// region: s_has_zeros_and_188_656_052_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_188656052_in_base_113_and_insignificant_bytes() {
+fn s_has_zeros_and_188_656_052_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x56, 0x42,
 		0xB5, 0x06, 0x7A, 0xC3, 0xDD, 0x92, 0xD1, 0xB3, 0x1F, 0x7D, 0x13, 0x77, 0xDD, 0x1C, 0x33,
@@ -21372,7 +21372,7 @@ fn s_has_zeros_and_188656052_in_base_113_and_insignificant_bytes() {
 		0xD2, 0xC8, 0x41, 0x14, 0xEA, 0x61, 0xEC, 0x11,
 	];
 
-	helper(S, BASE, 188656052);
+	helper(S, BASE, 188_656_052);
 }
 // endregion
 // region: s_has_zeros_and_9_in_base_193_and_insignificant_bytes
@@ -21461,9 +21461,9 @@ fn s_has_zeros_and_326_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 326);
 }
 // endregion
-// region: s_has_zeros_and_7625_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_7_625_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_7625_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_7_625_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xE5, 0xCF, 0xBC,
 		0x5A, 0x46, 0xF0, 0x71, 0x52, 0x5A, 0x31, 0x02, 0x18, 0xAA, 0xEF,
@@ -21484,12 +21484,12 @@ fn s_has_zeros_and_7625_in_base_193_and_insignificant_bytes() {
 		0xAB, 0x10, 0xF6, 0xE1, 0xF7, 0xC9, 0xA3, 0x4E, 0xF4, 0x93, 0xEE, 0xED, 0xC0,
 	];
 
-	helper(S, BASE, 7625);
+	helper(S, BASE, 7_625);
 }
 // endregion
-// region: s_has_zeros_and_11344_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_11_344_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_11344_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_11_344_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74,
 		0xE7, 0x99, 0x8C, 0x19, 0xE4, 0x31, 0x54, 0x53, 0x2D, 0x48, 0xD0, 0xC0, 0x0A, 0x7C, 0x2B,
@@ -21512,12 +21512,12 @@ fn s_has_zeros_and_11344_in_base_193_and_insignificant_bytes() {
 		0xB3, 0x7F, 0xE3, 0xA9, 0x84, 0xEA, 0xE2, 0x90, 0x0E, 0xA4, 0xCC, 0x62, 0xC6,
 	];
 
-	helper(S, BASE, 11344);
+	helper(S, BASE, 11_344);
 }
 // endregion
-// region: s_has_zeros_and_195009_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_195_009_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_195009_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_195_009_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F,
 		0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F,
@@ -21539,12 +21539,12 @@ fn s_has_zeros_and_195009_in_base_193_and_insignificant_bytes() {
 		0xDE, 0x3F, 0x18, 0x73, 0xBE, 0x99, 0x9D, 0xA7, 0xF9, 0x5D, 0xAF, 0x8F, 0x87,
 	];
 
-	helper(S, BASE, 195009);
+	helper(S, BASE, 195_009);
 }
 // endregion
-// region: s_has_zeros_and_6078440_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_6_078_440_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_6078440_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_6_078_440_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE,
 		0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE, 0xDE,
@@ -21567,12 +21567,12 @@ fn s_has_zeros_and_6078440_in_base_193_and_insignificant_bytes() {
 		0x46, 0x08, 0xD3, 0x38, 0x3B, 0xB4, 0x16, 0xFA, 0x8B, 0x14, 0x1A, 0x8D, 0xA9,
 	];
 
-	helper(S, BASE, 6078440);
+	helper(S, BASE, 6_078_440);
 }
 // endregion
-// region: s_has_zeros_and_45796024_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_45_796_024_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_45796024_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_45_796_024_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F,
 		0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F, 0x7F,
@@ -21595,12 +21595,12 @@ fn s_has_zeros_and_45796024_in_base_193_and_insignificant_bytes() {
 		0x08, 0xCD, 0x1F, 0xB4, 0x31, 0xFF, 0x80, 0x5F, 0xD7, 0x7D, 0xB8, 0xDF, 0xBF,
 	];
 
-	helper(S, BASE, 45796024);
+	helper(S, BASE, 45_796_024);
 }
 // endregion
-// region: s_has_zeros_and_397733137_in_base_193_and_insignificant_bytes
+// region: s_has_zeros_and_397_733_137_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_397733137_in_base_193_and_insignificant_bytes() {
+fn s_has_zeros_and_397_733_137_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
 		0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
@@ -21625,7 +21625,7 @@ fn s_has_zeros_and_397733137_in_base_193_and_insignificant_bytes() {
 		0x10, 0xE6, 0xB7, 0x94, 0x90, 0xDD, 0xA8, 0x5C, 0xDC, 0xB5, 0xC3, 0xFB, 0x22,
 	];
 
-	helper(S, BASE, 397733137);
+	helper(S, BASE, 397_733_137);
 }
 // endregion
 // region: s_has_zeros_and_5_in_base_247_and_insignificant_bytes
@@ -21724,9 +21724,9 @@ fn s_has_zeros_and_682_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 682);
 }
 // endregion
-// region: s_has_zeros_and_3319_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_3_319_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_3319_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_3_319_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65,
 		0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x3B, 0xEF,
@@ -21754,12 +21754,12 @@ fn s_has_zeros_and_3319_in_base_247_and_insignificant_bytes() {
 		0xDB, 0xEA, 0x63, 0xB7, 0xC9, 0xB5, 0x23,
 	];
 
-	helper(S, BASE, 3319);
+	helper(S, BASE, 3_319);
 }
 // endregion
-// region: s_has_zeros_and_91255_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_91_255_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_91255_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_91_255_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96,
 		0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96,
@@ -21786,12 +21786,12 @@ fn s_has_zeros_and_91255_in_base_247_and_insignificant_bytes() {
 		0x6B, 0x37, 0xF4, 0x3E, 0xA4, 0xEB, 0x91,
 	];
 
-	helper(S, BASE, 91255);
+	helper(S, BASE, 91_255);
 }
 // endregion
-// region: s_has_zeros_and_356111_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_356_111_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_356111_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_356_111_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65,
 		0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65, 0x65,
@@ -21819,12 +21819,12 @@ fn s_has_zeros_and_356111_in_base_247_and_insignificant_bytes() {
 		0xB9, 0x82, 0xA9, 0x32, 0xBE, 0x08, 0x25,
 	];
 
-	helper(S, BASE, 356111);
+	helper(S, BASE, 356_111);
 }
 // endregion
-// region: s_has_zeros_and_8630032_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_8_630_032_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_8630032_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_8_630_032_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E,
 		0x61, 0x66, 0x80, 0x0A, 0x0D, 0x0D, 0x0D, 0x0C, 0x09, 0x0B, 0x2B, 0x0B, 0x0D, 0x2D, 0x20,
@@ -21851,12 +21851,12 @@ fn s_has_zeros_and_8630032_in_base_247_and_insignificant_bytes() {
 		0x10, 0xFD, 0x49, 0x14, 0x9E, 0x7B, 0xBD,
 	];
 
-	helper(S, BASE, 8630032);
+	helper(S, BASE, 8_630_032);
 }
 // endregion
-// region: s_has_zeros_and_80840426_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_80_840_426_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_80840426_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_80_840_426_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
 		0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87, 0x87,
@@ -21882,12 +21882,12 @@ fn s_has_zeros_and_80840426_in_base_247_and_insignificant_bytes() {
 		0x77, 0xC2, 0x8C, 0x74, 0x7A, 0x1A, 0xDD,
 	];
 
-	helper(S, BASE, 80840426);
+	helper(S, BASE, 80_840_426);
 }
 // endregion
-// region: s_has_zeros_and_915424167_in_base_247_and_insignificant_bytes
+// region: s_has_zeros_and_915_424_167_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_zeros_and_915424167_in_base_247_and_insignificant_bytes() {
+fn s_has_zeros_and_915_424_167_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0xBA, 0x68, 0xE1, 0xA7, 0x56,
 		0x2D, 0x20, 0x0B, 0x2D, 0x2D, 0x2B, 0x2B, 0x0B, 0x0A, 0x09, 0x20, 0x0B, 0x2B, 0x0B, 0x0B,
@@ -21914,7 +21914,7 @@ fn s_has_zeros_and_915424167_in_base_247_and_insignificant_bytes() {
 		0x45, 0x44, 0xCF, 0xEC, 0x1B, 0x03, 0x1A,
 	];
 
-	helper(S, BASE, 915424167);
+	helper(S, BASE, 915_424_167);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_5_in_base_2
@@ -21971,9 +21971,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_418_in_base_2() {
 	helper(S, BASE, 418);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_4441_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_4_441_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_4441_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_4_441_in_base_2() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0B, 0x0C, 0x09, 0x09, 0x20, 0x0D, 0x0A, 0x09, 0x0C, 0x20, 0x09, 0x09, 0x0B,
 		0x0C, 0x0B, 0x0D, 0x20, 0x0C, 0x20, 0x0D, 0x09, 0x0B, 0x20, 0x0D, 0x0C, 0x0D, 0x0A, 0x09,
@@ -21987,12 +21987,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_4441_in_base_2() {
 		0xD4, 0xC0,
 	];
 
-	helper(S, BASE, 4441);
+	helper(S, BASE, 4_441);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_69226_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_69_226_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_69226_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_69_226_in_base_2() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0B, 0x20, 0x0D, 0x0C, 0x20, 0x0A, 0x0B, 0x20, 0x20, 0x0C, 0x09, 0x0D, 0x2B,
 		0x2D, 0x2D, 0xF7, 0xF7, 0xF7, 0x70, 0xF7, 0xF7, 0xF7, 0xF7, 0x70, 0x70, 0x70, 0xF7, 0xF7,
@@ -22002,12 +22002,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_69226_in_base_2() {
 		0xF7, 0x70,
 	];
 
-	helper(S, BASE, 69226);
+	helper(S, BASE, 69_226);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_735521_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_735_521_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_735521_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_735_521_in_base_2() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x20, 0x0A, 0x09, 0x0D, 0x0D, 0x0A, 0x09, 0x0D, 0x0C, 0x0B, 0x09, 0x0D, 0x20,
 		0x0B, 0x0A, 0x0D, 0x0B, 0x0C, 0x20, 0x0D, 0x0C, 0x0C, 0x0A, 0x09, 0x09, 0x0C, 0x0A, 0x20,
@@ -22019,12 +22019,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_735521_in_base_2() {
 		0x78, 0xAF,
 	];
 
-	helper(S, BASE, 735521);
+	helper(S, BASE, 735_521);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5446200_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_446_200_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5446200_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_446_200_in_base_2() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x09, 0x0B, 0x0B, 0x20, 0x0C, 0x0A, 0x0B, 0x20, 0x09, 0x0B, 0x0B, 0x20, 0x0D,
 		0x09, 0x0D, 0x0A, 0x0C, 0x0A, 0x0A, 0x0C, 0x20, 0x0D, 0x09, 0x0D, 0x09, 0x09, 0x0B, 0x0C,
@@ -22037,12 +22037,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5446200_in_base_2() {
 		0xFC, 0x68,
 	];
 
-	helper(S, BASE, 5446200);
+	helper(S, BASE, 5_446_200);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_15253374_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_15_253_374_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_15253374_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_15_253_374_in_base_2() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x20, 0x0A, 0x20, 0x0A, 0x09, 0x20, 0x0C, 0x0A, 0x0D, 0x0A, 0x09, 0x0C, 0x0D,
 		0x0B, 0x20, 0x0C, 0x20, 0x0A, 0x0B, 0x0A, 0x0C, 0x20, 0x09, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -22054,12 +22054,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_15253374_in_base_2() {
 		0x0F, 0xE0,
 	];
 
-	helper(S, BASE, 15253374);
+	helper(S, BASE, 15_253_374);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_951379029_in_base_2
+// region: s_has_whitespaces_and_signs_and_zeros_and_951_379_029_in_base_2
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_951379029_in_base_2() {
+fn s_has_whitespaces_and_signs_and_zeros_and_951_379_029_in_base_2() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x20, 0x0C, 0x0A, 0x0B, 0x20, 0x0D, 0x09, 0x0C, 0x09, 0x09, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x22, 0x22, 0x22, 0x22, 0x22, 0x22, 0x22, 0x22, 0x22, 0x22,
@@ -22072,7 +22072,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_951379029_in_base_2() {
 		0x22, 0x5B,
 	];
 
-	helper(S, BASE, 951379029);
+	helper(S, BASE, 951_379_029);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_9_in_base_3
@@ -22131,9 +22131,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_443_in_base_3() {
 	helper(S, BASE, 443);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_4519_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_4_519_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_4519_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_4_519_in_base_3() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x20, 0x09, 0x09, 0x09, 0x0B, 0x20, 0x0A, 0x0C, 0x09, 0x0D, 0x0C, 0x0C, 0x0C,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -22146,12 +22146,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_4519_in_base_3() {
 		0x64, 0xD4, 0xC4,
 	];
 
-	helper(S, BASE, 4519);
+	helper(S, BASE, 4_519);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_70000_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_70_000_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_70000_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_70_000_in_base_3() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x09, 0x0D, 0x09, 0x20, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xC7, 0xB7,
 		0xC7, 0xB7, 0xE4, 0xC7, 0xC7, 0xC7, 0xC7, 0xB7, 0xE4, 0xB7,
@@ -22160,12 +22160,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_70000_in_base_3() {
 		0xC7, 0xB7, 0xE4,
 	];
 
-	helper(S, BASE, 70000);
+	helper(S, BASE, 70_000);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_822934_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_822_934_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_822934_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_822_934_in_base_3() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x20, 0x09, 0x09, 0x20, 0x09, 0x0A, 0x0C, 0x0B, 0x0C, 0x0D, 0x20, 0x09, 0x0C,
 		0x20, 0x20, 0x0B, 0x09, 0x0C, 0x20, 0x09, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -22179,12 +22179,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_822934_in_base_3() {
 		0x21, 0xEE, 0xCA,
 	];
 
-	helper(S, BASE, 822934);
+	helper(S, BASE, 822_934);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7107472_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_107_472_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7107472_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_107_472_in_base_3() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x09, 0x0C, 0x09, 0x0A, 0x09, 0x20, 0x09, 0x20, 0x0B, 0x0C, 0x0A, 0x20, 0x20,
 		0x20, 0x0C, 0x0A, 0x09, 0x0A, 0x0D, 0x0C, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -22196,12 +22196,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7107472_in_base_3() {
 		0x9A, 0x5C, 0x3E,
 	];
 
-	helper(S, BASE, 7107472);
+	helper(S, BASE, 7_107_472);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_51345858_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_51_345_858_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_51345858_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_51_345_858_in_base_3() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x20, 0x0B, 0x20, 0x0C, 0x0B, 0x0D, 0x0A, 0x09, 0x0A, 0x0D, 0x0A, 0x0B, 0x0B,
 		0x0C, 0x0D, 0x20, 0x0D, 0x0A, 0x20, 0x0A, 0x0C, 0x09, 0x0D, 0x0C, 0x0C, 0x0C, 0x0D, 0x0A,
@@ -22216,12 +22216,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_51345858_in_base_3() {
 		0xCD, 0xBF, 0x80,
 	];
 
-	helper(S, BASE, 51345858);
+	helper(S, BASE, 51_345_858);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_636746499_in_base_3
+// region: s_has_whitespaces_and_signs_and_zeros_and_636_746_499_in_base_3
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_636746499_in_base_3() {
+fn s_has_whitespaces_and_signs_and_zeros_and_636_746_499_in_base_3() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0C, 0x0C, 0x0D, 0x0D, 0x0B, 0x0B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13, 0x13,
@@ -22234,7 +22234,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_636746499_in_base_3() {
 		0x13, 0x08, 0x1E,
 	];
 
-	helper(S, BASE, 636746499);
+	helper(S, BASE, 636_746_499);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_7_in_base_5
@@ -22289,9 +22289,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_783_in_base_5() {
 	helper(S, BASE, 783);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_9430_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_9_430_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_9430_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_9_430_in_base_5() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0D, 0x09, 0x0B, 0x0C, 0x20, 0x0C, 0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x20, 0x09,
 		0x09, 0x20, 0x20, 0x09, 0x0C, 0x20, 0x0C, 0x20, 0x09, 0x20, 0x0C, 0x0A, 0x0A, 0x0C, 0x20,
@@ -22306,12 +22306,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_9430_in_base_5() {
 		0x5C, 0xFE, 0x56, 0x93, 0x12,
 	];
 
-	helper(S, BASE, 9430);
+	helper(S, BASE, 9_430);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_58237_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_58_237_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_58237_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_58_237_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x09, 0x0A, 0x20, 0x0A, 0x20, 0x0A, 0x0B, 0x09, 0x0C, 0x0B, 0x0C, 0x20, 0x0B,
 		0x0C, 0x0A, 0x0A, 0x0A, 0x0B, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C, 0x0A, 0x20, 0x09, 0x20, 0x0B,
@@ -22322,12 +22322,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_58237_in_base_5() {
 		0x99, 0x6E, 0xFF, 0x83, 0x10,
 	];
 
-	helper(S, BASE, 58237);
+	helper(S, BASE, 58_237);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_738273_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_738_273_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_738273_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_738_273_in_base_5() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x20, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x0A, 0x0D, 0x09, 0x0C, 0x0A, 0x0D, 0x20,
 		0x20, 0x09, 0x20, 0x0A, 0x09, 0x0A, 0x0C, 0x09, 0x0A, 0x2B, 0x2B, 0x2B, 0x2B, 0xD2, 0xD2,
@@ -22337,12 +22337,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_738273_in_base_5() {
 		0xD2, 0x67, 0xCC, 0x9B, 0x97,
 	];
 
-	helper(S, BASE, 738273);
+	helper(S, BASE, 738_273);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1767580_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_767_580_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1767580_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_767_580_in_base_5() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x09, 0x0D, 0x20, 0x0C, 0x09, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x18,
 		0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18,
@@ -22352,12 +22352,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1767580_in_base_5() {
 		0x18, 0xAE, 0xF6, 0x55, 0xC5,
 	];
 
-	helper(S, BASE, 1767580);
+	helper(S, BASE, 1_767_580);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_44125238_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_44_125_238_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_44125238_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_44_125_238_in_base_5() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0B, 0x0C, 0x0B, 0x0D, 0x0D, 0x0A, 0x09, 0x0B, 0x0A, 0x20, 0x20, 0x0C, 0x0B,
 		0x0A, 0x0A, 0x0A, 0x0C, 0x0C, 0x0D, 0x0A, 0x20, 0x0A, 0x09, 0x0B, 0x20, 0x09, 0x0D, 0x0A,
@@ -22371,12 +22371,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_44125238_in_base_5() {
 		0x32, 0xBF, 0xFD, 0x59, 0xEC,
 	];
 
-	helper(S, BASE, 44125238);
+	helper(S, BASE, 44_125_238);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_629695530_in_base_5
+// region: s_has_whitespaces_and_signs_and_zeros_and_629_695_530_in_base_5
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_629695530_in_base_5() {
+fn s_has_whitespaces_and_signs_and_zeros_and_629_695_530_in_base_5() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x09, 0x20, 0x0A, 0x0D, 0x0A, 0x09, 0x0C, 0x20, 0x0A, 0x0A, 0x0D, 0x0B, 0x20,
 		0x0C, 0x0B, 0x0D, 0x0B, 0x09, 0x0B, 0x0B, 0x0D, 0x0A, 0x20, 0x0C, 0x20, 0x20, 0x2B, 0x2D,
@@ -22389,7 +22389,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_629695530_in_base_5() {
 		0x58, 0x13, 0xFA, 0x4C, 0x5E,
 	];
 
-	helper(S, BASE, 629695530);
+	helper(S, BASE, 629_695_530);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_7_in_base_7
@@ -22442,9 +22442,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_145_in_base_7() {
 	helper(S, BASE, 145);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_9411_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_9_411_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_9411_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_9_411_in_base_7() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0A, 0x0D, 0x0C, 0x20, 0x0B, 0x0A, 0x0C, 0x0B, 0x09, 0x0A, 0x0C, 0x0A, 0x0C,
 		0x0A, 0x0C, 0x09, 0x20, 0x0A, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x3B,
@@ -22456,12 +22456,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_9411_in_base_7() {
 		0x3B, 0x98, 0x16, 0xB3, 0x4F, 0xDA, 0x08,
 	];
 
-	helper(S, BASE, 9411);
+	helper(S, BASE, 9_411);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_25025_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_25_025_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_25025_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_25_025_in_base_7() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0B, 0x0A, 0x0B, 0x0A, 0x0C, 0x0C, 0x09, 0x0A, 0x20, 0x0C, 0x0D, 0x09, 0x20,
 		0x0D, 0x20, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -22473,12 +22473,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_25025_in_base_7() {
 		0x1E, 0x6D, 0x6B, 0x6C, 0x65, 0xDF, 0xC8,
 	];
 
-	helper(S, BASE, 25025);
+	helper(S, BASE, 25_025);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_669087_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_669_087_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_669087_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_669_087_in_base_7() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0B, 0x0A, 0x0A, 0x0C, 0x09, 0x0C, 0x09, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
@@ -22491,12 +22491,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_669087_in_base_7() {
 		0x2E, 0x42, 0x4B, 0xE7, 0x64, 0xC0, 0x01,
 	];
 
-	helper(S, BASE, 669087);
+	helper(S, BASE, 669_087);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5735398_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_735_398_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5735398_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_735_398_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0A, 0x0C, 0x09, 0x20, 0x0D, 0x0C, 0x0C, 0x0C, 0x0D, 0x0A, 0x09, 0x09, 0x20,
 		0x0C, 0x0A, 0x0C, 0x09, 0x0C, 0x0C, 0x0D, 0x0C, 0x20, 0x0B, 0x0A, 0x09, 0x20, 0x0C, 0x0D,
@@ -22509,12 +22509,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5735398_in_base_7() {
 		0xFD, 0x6A, 0xCA, 0x87, 0x66, 0xC0, 0x5A,
 	];
 
-	helper(S, BASE, 5735398);
+	helper(S, BASE, 5_735_398);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_27881631_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_27_881_631_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_27881631_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_27_881_631_in_base_7() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0A, 0x20, 0x0A, 0x0B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -22527,12 +22527,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_27881631_in_base_7() {
 		0x3E, 0x6D, 0xD2, 0xE8, 0x68, 0x4E, 0x8E,
 	];
 
-	helper(S, BASE, 27881631);
+	helper(S, BASE, 27_881_631);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_819095119_in_base_7
+// region: s_has_whitespaces_and_signs_and_zeros_and_819_095_119_in_base_7
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_819095119_in_base_7() {
+fn s_has_whitespaces_and_signs_and_zeros_and_819_095_119_in_base_7() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x20, 0x0B, 0x0C, 0x09, 0x0D, 0x0B, 0x0D, 0x20, 0x0C, 0x0D, 0x20, 0x0C, 0x0A,
 		0x0A, 0x09, 0x20, 0x0A, 0x0D, 0x0C, 0x09, 0x09, 0x0C, 0x0D, 0x0A, 0x20, 0x20, 0x0B, 0x09,
@@ -22544,7 +22544,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_819095119_in_base_7() {
 		0x9C, 0xCF, 0x53, 0x71, 0x3D, 0x24, 0xEF,
 	];
 
-	helper(S, BASE, 819095119);
+	helper(S, BASE, 819_095_119);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_8_in_base_11
@@ -22603,9 +22603,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_276_in_base_11() {
 	helper(S, BASE, 276);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_3541_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_3_541_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_3541_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_3_541_in_base_11() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x09, 0x0B, 0x0A, 0x0D, 0x0B, 0x20, 0x20, 0x0C, 0x0A, 0x09, 0x0C, 0x0D, 0x0A,
 		0x0B, 0x0B, 0x09, 0x0B, 0x0A, 0x0C, 0x20, 0x09, 0x0A, 0x0A, 0x09, 0x0C, 0x0A, 0x09, 0x0B,
@@ -22616,12 +22616,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_3541_in_base_11() {
 		0x5B, 0x8B, 0x36, 0x95, 0x91, 0x8F, 0x5D, 0xB9, 0x25, 0x4E, 0x4C,
 	];
 
-	helper(S, BASE, 3541);
+	helper(S, BASE, 3_541);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_38693_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_38_693_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_38693_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_38_693_in_base_11() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0A, 0x0B, 0x0A, 0x09, 0x0D, 0x0B, 0x09, 0x0B, 0x09, 0x0C, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -22634,12 +22634,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_38693_in_base_11() {
 		0xE0, 0xAF, 0x13, 0x59, 0x58, 0x66, 0x7D, 0x1B, 0x0F, 0xDC, 0x88,
 	];
 
-	helper(S, BASE, 38693);
+	helper(S, BASE, 38_693);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_214696_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_214_696_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_214696_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_214_696_in_base_11() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x09, 0x0B, 0x0B, 0x20, 0x09, 0x0D, 0x0A, 0x0D, 0x0C, 0x20, 0x20, 0x0A, 0x0D,
 		0x0D, 0x0B, 0x0A, 0x09, 0x09, 0x20, 0x09, 0x0A, 0x20, 0x0C, 0x09, 0x0C, 0x0D, 0x0C, 0x0B,
@@ -22653,12 +22653,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_214696_in_base_11() {
 		0x07, 0x34, 0x5B, 0x04, 0x54, 0x1D, 0xD5, 0x49, 0xEA, 0x14, 0xF1,
 	];
 
-	helper(S, BASE, 214696);
+	helper(S, BASE, 214_696);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5204622_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_204_622_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5204622_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_204_622_in_base_11() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x09, 0x0A, 0x0A, 0x0D, 0x0A, 0x0B, 0x0A, 0x0A, 0x0D, 0x0C, 0x09, 0x0D,
 		0x20, 0x20, 0x0A, 0x0B, 0x09, 0x0A, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -22672,12 +22672,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5204622_in_base_11() {
 		0x44, 0x77, 0x89, 0xA6, 0xDD, 0xFF, 0x11, 0x2E, 0x26, 0x1C, 0x46,
 	];
 
-	helper(S, BASE, 5204622);
+	helper(S, BASE, 5_204_622);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_73019168_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_73_019_168_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_73019168_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_73_019_168_in_base_11() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x09, 0x09, 0x09, 0x0D, 0x09, 0x09, 0x20, 0x0D, 0x0B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -22690,12 +22690,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_73019168_in_base_11() {
 		0xDE, 0x75, 0x45, 0x88, 0x53, 0x5D, 0x2A, 0xE5, 0x04, 0x5A, 0x57,
 	];
 
-	helper(S, BASE, 73019168);
+	helper(S, BASE, 73_019_168);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_571604796_in_base_11
+// region: s_has_whitespaces_and_signs_and_zeros_and_571_604_796_in_base_11
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_571604796_in_base_11() {
+fn s_has_whitespaces_and_signs_and_zeros_and_571_604_796_in_base_11() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0A, 0x0D, 0x0D, 0x0C, 0x0D, 0x0B, 0x09, 0x0D, 0x20, 0x0A, 0x0B, 0x09, 0x09,
 		0x20, 0x0A, 0x0A, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -22706,7 +22706,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_571604796_in_base_11() {
 		0x94, 0xF6, 0x68, 0x74, 0x54, 0xE7, 0xAE, 0xB7, 0x50, 0xA5, 0x56,
 	];
 
-	helper(S, BASE, 571604796);
+	helper(S, BASE, 571_604_796);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_2_in_base_13
@@ -22759,9 +22759,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_508_in_base_13() {
 	helper(S, BASE, 508);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5949_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_949_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5949_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_949_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -22771,12 +22771,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5949_in_base_13() {
 		0x6E, 0x50, 0x36, 0x19, 0x49, 0x76, 0x41, 0x1A, 0x32, 0x14, 0xC2, 0xFD, 0x92,
 	];
 
-	helper(S, BASE, 5949);
+	helper(S, BASE, 5_949);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_46858_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_46_858_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_46858_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_46_858_in_base_13() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x09, 0x0A, 0x0B, 0x20, 0x0B, 0x0B, 0x0C, 0x20, 0x0B, 0x09, 0x0A, 0x0D, 0x0C,
 		0x09, 0x09, 0x0B, 0x0A, 0x0D, 0x20, 0x0B, 0x0A, 0x0A, 0x09, 0x09, 0x0B, 0x0D, 0x20, 0x20,
@@ -22788,12 +22788,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_46858_in_base_13() {
 		0x7E, 0xC3, 0xF4, 0x41, 0xDB, 0xF6, 0x37, 0xF1, 0x2E, 0x05, 0x5C, 0xF5, 0x7D,
 	];
 
-	helper(S, BASE, 46858);
+	helper(S, BASE, 46_858);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_887126_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_887_126_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_887126_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_887_126_in_base_13() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0B, 0x09, 0x09, 0x0C, 0x0C, 0x0D, 0x0D, 0x0B, 0x20, 0x20, 0x0C, 0x20, 0x09,
 		0x09, 0x0B, 0x20, 0x20, 0x09, 0x09, 0x0A, 0x20, 0x0D, 0x20, 0x09, 0x09, 0x0B, 0x0C, 0x20,
@@ -22806,12 +22806,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_887126_in_base_13() {
 		0x3D, 0xC3, 0x14, 0x12, 0xB7, 0x01, 0x2C, 0xA5, 0xD8, 0xD3, 0xE1, 0x2E, 0x7A,
 	];
 
-	helper(S, BASE, 887126);
+	helper(S, BASE, 887_126);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5280184_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_280_184_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5280184_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_280_184_in_base_13() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0C, 0x20, 0x0C, 0x0A, 0x0D, 0x20, 0x0A, 0x0B, 0x0A, 0x09, 0x0C, 0x0C, 0x0C,
 		0x0A, 0x09, 0x0C, 0x20, 0x0C, 0x0B, 0x0A, 0x0D, 0x09, 0x09, 0x0D, 0x0A, 0x0A, 0x09, 0x0D,
@@ -22823,12 +22823,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5280184_in_base_13() {
 		0x75, 0x24, 0xDB, 0x8F, 0xA6, 0xE5, 0x83, 0x11, 0x42, 0x4C, 0xFD, 0x19, 0xA0,
 	];
 
-	helper(S, BASE, 5280184);
+	helper(S, BASE, 5_280_184);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_94920670_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_94_920_670_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_94920670_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_94_920_670_in_base_13() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0A, 0x0C, 0x0B, 0x0D, 0x0B, 0x0A, 0x20, 0x0A, 0x0C, 0x0D, 0x0C, 0x0B, 0x0D,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41,
@@ -22840,12 +22840,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_94920670_in_base_13() {
 		0x41, 0xE0, 0x67, 0x44, 0xE7, 0xBC, 0xD6, 0x69, 0x43, 0x5A, 0xE6, 0x1D, 0x6B,
 	];
 
-	helper(S, BASE, 94920670);
+	helper(S, BASE, 94_920_670);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_478120560_in_base_13
+// region: s_has_whitespaces_and_signs_and_zeros_and_478_120_560_in_base_13
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_478120560_in_base_13() {
+fn s_has_whitespaces_and_signs_and_zeros_and_478_120_560_in_base_13() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x0C, 0x20, 0x0C, 0x0C, 0x0A, 0x0A, 0x20, 0x09, 0x0B, 0x0B, 0x0D, 0x09,
 		0x0A, 0x09, 0x0C, 0x0A, 0x0A, 0x0C, 0x0D, 0x0A, 0x0C, 0x0B, 0x20, 0x0C, 0x0C, 0x09, 0x0C,
@@ -22858,7 +22858,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_478120560_in_base_13() {
 		0xCB, 0xBE, 0x31, 0xF7, 0x41, 0x47, 0x61, 0x08, 0x23, 0xA5, 0x5C, 0xA2, 0xFB,
 	];
 
-	helper(S, BASE, 478120560);
+	helper(S, BASE, 478_120_560);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_4_in_base_19
@@ -22917,9 +22917,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_778_in_base_19() {
 	helper(S, BASE, 778);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_9292_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_9_292_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_9292_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_9_292_in_base_19() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0B, 0x09, 0x0C, 0x0C, 0x0A, 0x09, 0x0B, 0x0C, 0x0B, 0x0D, 0x0A, 0x0C, 0x0C,
 		0x0A, 0x0A, 0x0A, 0x0C, 0x0D, 0x0C, 0x20, 0x0D, 0x0C, 0x0D, 0x0C, 0x0D, 0x0C, 0x0B, 0x0A,
@@ -22935,12 +22935,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_9292_in_base_19() {
 		0x01, 0x7E, 0x37, 0x24,
 	];
 
-	helper(S, BASE, 9292);
+	helper(S, BASE, 9_292);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_57569_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_57_569_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_57569_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_57_569_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0D, 0x0C, 0x09, 0x09, 0x20, 0x0C, 0x0B, 0x0C, 0x0C, 0x0B, 0x0C, 0x20, 0x0C,
 		0x0A, 0x09, 0x0A, 0x0A, 0x20, 0x09, 0x09, 0x0A, 0x0C, 0x09, 0x0B, 0x09, 0x0B, 0x0D, 0x20,
@@ -22953,12 +22953,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_57569_in_base_19() {
 		0x3C, 0x23, 0x7A, 0x68,
 	];
 
-	helper(S, BASE, 57569);
+	helper(S, BASE, 57_569);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_650657_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_650_657_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_650657_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_650_657_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x09, 0x20, 0x20, 0x0A, 0x0B, 0x20, 0x0D, 0x0B, 0x0A, 0x09, 0x09, 0x0D, 0x0D,
 		0x20, 0x0C, 0x20, 0x20, 0x09, 0x09, 0x20, 0x0C, 0x09, 0x09, 0x0B, 0x09, 0x0D, 0x0D, 0x0A,
@@ -22972,12 +22972,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_650657_in_base_19() {
 		0xD6, 0xB7, 0xDD, 0x8C,
 	];
 
-	helper(S, BASE, 650657);
+	helper(S, BASE, 650_657);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1323179_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_323_179_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1323179_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_323_179_in_base_19() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0B, 0x0D, 0x0B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -22990,12 +22990,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1323179_in_base_19() {
 		0xAF, 0x65, 0xEE, 0x05,
 	];
 
-	helper(S, BASE, 1323179);
+	helper(S, BASE, 1_323_179);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_96741566_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_96_741_566_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_96741566_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_96_741_566_in_base_19() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -23007,12 +23007,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_96741566_in_base_19() {
 		0x07, 0x17, 0x78, 0x8E,
 	];
 
-	helper(S, BASE, 96741566);
+	helper(S, BASE, 96_741_566);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_896237675_in_base_19
+// region: s_has_whitespaces_and_signs_and_zeros_and_896_237_675_in_base_19
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_896237675_in_base_19() {
+fn s_has_whitespaces_and_signs_and_zeros_and_896_237_675_in_base_19() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0A, 0x0A, 0x20, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x01, 0x01, 0x01,
 		0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
@@ -23023,7 +23023,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_896237675_in_base_19() {
 		0x42, 0xBE, 0x57, 0x76,
 	];
 
-	helper(S, BASE, 896237675);
+	helper(S, BASE, 896_237_675);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_7_in_base_42
@@ -23084,9 +23084,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_940_in_base_42() {
 	helper(S, BASE, 940);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_9566_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_9_566_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_9566_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_9_566_in_base_42() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0D, 0x0B, 0x09, 0x0B, 0x0B, 0x0C, 0x09, 0x09, 0x0A, 0x0D, 0x0D, 0x20, 0x09,
 		0x09, 0x09, 0x0A, 0x09, 0x0B, 0x0B, 0x0D, 0x09, 0x0B, 0x0B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -23099,12 +23099,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_9566_in_base_42() {
 		0xDD, 0x84, 0x10, 0x55, 0x23, 0xAB, 0x80, 0x0E, 0x85, 0x39, 0x8C, 0xD6,
 	];
 
-	helper(S, BASE, 9566);
+	helper(S, BASE, 9_566);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_28073_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_28_073_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_28073_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_28_073_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0C, 0x09, 0x0D, 0x0B, 0x20, 0x0C, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x3E, 0x3E, 0x3E, 0x3E,
@@ -23118,12 +23118,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_28073_in_base_42() {
 		0xA9, 0xB4, 0x89, 0xF9, 0xB0, 0xBA, 0x5C, 0xCE, 0xE8, 0x24, 0xB6, 0x44,
 	];
 
-	helper(S, BASE, 28073);
+	helper(S, BASE, 28_073);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_364609_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_364_609_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_364609_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_364_609_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x09, 0x0B, 0x0A, 0x09, 0x0B, 0x0C, 0x0A, 0x0B, 0x20, 0x0D, 0x0A, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -23136,12 +23136,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_364609_in_base_42() {
 		0xF7, 0x4E, 0x12, 0x37, 0xF1, 0xF9, 0xCF, 0x01, 0xE7, 0x22, 0x38, 0x16,
 	];
 
-	helper(S, BASE, 364609);
+	helper(S, BASE, 364_609);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6838710_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_838_710_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6838710_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_838_710_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0D, 0x0C, 0x09, 0x2B, 0x2D, 0x2D, 0x01, 0x01, 0x01, 0x01, 0x01, 0xE2, 0xF0,
 		0x6A, 0xB2, 0x64,
@@ -23152,12 +23152,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6838710_in_base_42() {
 		0x05, 0xCC, 0xE6, 0xA3, 0xB2, 0x2E, 0x9F, 0x2A, 0x7F, 0xB7, 0x4D, 0x2F,
 	];
 
-	helper(S, BASE, 6838710);
+	helper(S, BASE, 6_838_710);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_69160494_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_69_160_494_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_69160494_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_69_160_494_in_base_42() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x09, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x01, 0x01, 0x01,
@@ -23171,12 +23171,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_69160494_in_base_42() {
 		0x8D, 0x67, 0x26, 0x55, 0x9A, 0xA4, 0xC1, 0xC9, 0xED, 0x60, 0xA7, 0x7C,
 	];
 
-	helper(S, BASE, 69160494);
+	helper(S, BASE, 69_160_494);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_673202648_in_base_42
+// region: s_has_whitespaces_and_signs_and_zeros_and_673_202_648_in_base_42
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_673202648_in_base_42() {
+fn s_has_whitespaces_and_signs_and_zeros_and_673_202_648_in_base_42() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0D, 0x0C, 0x0D, 0x0C, 0x0D, 0x0D, 0x20, 0x20, 0x20, 0x20, 0x0A, 0x0B, 0x0C,
 		0x20, 0x0C, 0x09, 0x0A, 0x0D, 0x0C, 0x0A, 0x09, 0x0B, 0x0C, 0x20, 0x0A, 0x0C, 0x0B, 0x0C,
@@ -23191,7 +23191,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_673202648_in_base_42() {
 		0xB1, 0x26, 0x34, 0xF9, 0x71, 0xFE, 0x04, 0xEA, 0x9B, 0x2C, 0xFF, 0xFD,
 	];
 
-	helper(S, BASE, 673202648);
+	helper(S, BASE, 673_202_648);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_6_in_base_73
@@ -23251,9 +23251,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_565_in_base_73() {
 	helper(S, BASE, 565);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7689_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_689_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7689_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_689_in_base_73() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0A, 0x0C, 0x0D, 0x0D, 0x20, 0x0D, 0x0D, 0x09, 0x0C, 0x0A, 0x0B, 0x20, 0x20,
 		0x20, 0x0C, 0x0C, 0x0A, 0x0B, 0x0C, 0x0A, 0x0C, 0x0B, 0x0D, 0x0A, 0x09, 0x0C, 0x09, 0x0C,
@@ -23268,12 +23268,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7689_in_base_73() {
 		0x4E, 0x91, 0xA0, 0xA6, 0xB5, 0xAD, 0x1C, 0x63, 0x25, 0x90, 0x8E, 0xD9, 0xC0,
 	];
 
-	helper(S, BASE, 7689);
+	helper(S, BASE, 7_689);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_44735_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_44_735_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_44735_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_44_735_in_base_73() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0A, 0x0A, 0x0B, 0x0D, 0x09, 0x0C, 0x0C, 0x0B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -23289,12 +23289,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_44735_in_base_73() {
 		0x13, 0xDF, 0x53, 0x14, 0x47, 0x8E, 0x5A, 0xF3, 0xED, 0x6B, 0x6A, 0x86, 0xF6,
 	];
 
-	helper(S, BASE, 44735);
+	helper(S, BASE, 44_735);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_598312_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_598_312_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_598312_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_598_312_in_base_73() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0C, 0x0C, 0x09, 0x0D, 0x0B, 0x0D, 0x09, 0x0B, 0x20, 0x0D, 0x0C, 0x0B, 0x09,
 		0x20, 0x0A, 0x0C, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0xA1, 0xA1, 0xA1,
@@ -23309,12 +23309,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_598312_in_base_73() {
 		0x98, 0xCF, 0xB1, 0x5A, 0x68, 0x89, 0x7A, 0x27, 0x0E, 0xA5, 0xD8, 0x97, 0xAF,
 	];
 
-	helper(S, BASE, 598312);
+	helper(S, BASE, 598_312);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7267149_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_267_149_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7267149_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_267_149_in_base_73() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0C, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C, 0x0D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -23330,12 +23330,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7267149_in_base_73() {
 		0xCA, 0x13, 0xFC, 0xC7, 0x4D, 0xAB, 0xD9, 0x17, 0x82, 0x52, 0x1E, 0xE7, 0xDD,
 	];
 
-	helper(S, BASE, 7267149);
+	helper(S, BASE, 7_267_149);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_73193450_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_73_193_450_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_73193450_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_73_193_450_in_base_73() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0C, 0x0D, 0x0B, 0x0D, 0x0D, 0x0A, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -23350,12 +23350,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_73193450_in_base_73() {
 		0x85, 0xBF, 0x4D, 0x99, 0x97, 0x51, 0x2E, 0xCF, 0xD2, 0x26, 0x80, 0x53, 0x29,
 	];
 
-	helper(S, BASE, 73193450);
+	helper(S, BASE, 73_193_450);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_681847618_in_base_73
+// region: s_has_whitespaces_and_signs_and_zeros_and_681_847_618_in_base_73
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_681847618_in_base_73() {
+fn s_has_whitespaces_and_signs_and_zeros_and_681_847_618_in_base_73() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x09, 0x20, 0x0B, 0x0C, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x0D, 0x0A, 0x0A, 0x0B,
 		0x09, 0x0C, 0x20, 0x20, 0x20, 0x0A, 0x0B, 0x0C, 0x0B, 0x0C, 0x0B, 0x20, 0x0D, 0x0C, 0x0D,
@@ -23372,7 +23372,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_681847618_in_base_73() {
 		0x4A, 0x4C, 0xB3, 0x3B, 0x7B, 0xD5, 0xB8, 0xC8, 0xE4, 0x6D, 0xC9, 0x8E, 0x40,
 	];
 
-	helper(S, BASE, 681847618);
+	helper(S, BASE, 681_847_618);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_6_in_base_113
@@ -23447,9 +23447,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_158_in_base_113() {
 	helper(S, BASE, 158);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_4995_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_4_995_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_4995_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_4_995_in_base_113() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0C, 0x0C, 0x20, 0x20, 0x0A, 0x0D, 0x09, 0x0C, 0x0A, 0x20, 0x09, 0x20, 0x0D,
 		0x0D, 0x20, 0x0B, 0x09, 0x0A, 0x09, 0x0B, 0x09, 0x09, 0x09, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C,
@@ -23470,12 +23470,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_4995_in_base_113() {
 		0x9D, 0xB2, 0x38, 0x46, 0xEA, 0x4E, 0xDB, 0x2F,
 	];
 
-	helper(S, BASE, 4995);
+	helper(S, BASE, 4_995);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_21541_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_21_541_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_21541_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_21_541_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0D, 0x0B, 0x0A, 0x0A, 0x09, 0x0C, 0x0D, 0x20, 0x09, 0x0B, 0x0D, 0x20, 0x09,
 		0x0B, 0x20, 0x20, 0x09, 0x0C, 0x20, 0x0B, 0x09, 0x09, 0x09, 0x20, 0x09, 0x20, 0x0A, 0x0A,
@@ -23494,12 +23494,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_21541_in_base_113() {
 		0x83, 0x35, 0x6F, 0x2E, 0xE2, 0x75, 0x63, 0x74,
 	];
 
-	helper(S, BASE, 21541);
+	helper(S, BASE, 21_541);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_137814_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_137_814_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_137814_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_137_814_in_base_113() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0D, 0x0C, 0x0A, 0x09, 0x0B, 0x0C, 0x0B, 0x20, 0x0C, 0x0D, 0x0A, 0x0D, 0x0D,
 		0x0A, 0x20, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -23520,12 +23520,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_137814_in_base_113() {
 		0x5E, 0xD9, 0x4D, 0xB4, 0xD8, 0xC6, 0x8B, 0xA7,
 	];
 
-	helper(S, BASE, 137814);
+	helper(S, BASE, 137_814);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1616205_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_616_205_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1616205_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_616_205_in_base_113() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0D, 0x09, 0x0A, 0x20, 0x20, 0x0A, 0x0C, 0x09, 0x09, 0x0A, 0x0D, 0x0C, 0x0C,
 		0x09, 0x0C, 0x09, 0x20, 0x0B, 0x0A, 0x09, 0x0C, 0x0B, 0x09, 0x0B, 0x09, 0x0B, 0x0D, 0x0B,
@@ -23544,12 +23544,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1616205_in_base_113() {
 		0x4F, 0x2F, 0xF1, 0xFE, 0x4B, 0x25, 0xAD, 0x67,
 	];
 
-	helper(S, BASE, 1616205);
+	helper(S, BASE, 1_616_205);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_60787204_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_60_787_204_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_60787204_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_60_787_204_in_base_113() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0A, 0x0B, 0x0B, 0x09, 0x0D, 0x0A, 0x09, 0x0C, 0x0B, 0x0C, 0x0D, 0x09, 0x20,
 		0x0B, 0x0A, 0x09, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -23569,12 +23569,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_60787204_in_base_113() {
 		0x8F, 0x9E, 0x03, 0xD1, 0x1B, 0x0E, 0xB1, 0x31,
 	];
 
-	helper(S, BASE, 60787204);
+	helper(S, BASE, 60_787_204);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_749732127_in_base_113
+// region: s_has_whitespaces_and_signs_and_zeros_and_749_732_127_in_base_113
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_749732127_in_base_113() {
+fn s_has_whitespaces_and_signs_and_zeros_and_749_732_127_in_base_113() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x20, 0x0B, 0x09, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -23592,7 +23592,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_749732127_in_base_113() {
 		0x7F, 0xDF, 0xB2, 0xB1, 0x5E, 0x64, 0xF8, 0x33,
 	];
 
-	helper(S, BASE, 749732127);
+	helper(S, BASE, 749_732_127);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_8_in_base_193
@@ -23683,9 +23683,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_587_in_base_193() {
 	helper(S, BASE, 587);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6498_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_498_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6498_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_498_in_base_193() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x09, 0x0C, 0x0B, 0x20, 0x20, 0x0C, 0x0A, 0x0D, 0x0B, 0x09, 0x0B, 0x0D, 0x0B,
 		0x09, 0x20, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -23709,12 +23709,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6498_in_base_193() {
 		0x50, 0x66, 0xF5, 0x2F, 0x1A, 0xF7, 0xA5, 0x90, 0x25, 0x06, 0x40, 0x03, 0xBE,
 	];
 
-	helper(S, BASE, 6498);
+	helper(S, BASE, 6_498);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_49892_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_49_892_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_49892_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_49_892_in_base_193() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x09, 0x0A, 0x0B, 0x09, 0x0B, 0x0C, 0x20, 0x0A, 0x09, 0x0A, 0x0D, 0x09, 0x09,
 		0x0B, 0x20, 0x0B, 0x09, 0x20, 0x0C, 0x09, 0x0D, 0x20, 0x0A, 0x0D, 0x0A, 0x0D, 0x09, 0x20,
@@ -23740,12 +23740,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_49892_in_base_193() {
 		0x17, 0x2E, 0x10, 0x4E, 0x2A, 0xCE, 0x25, 0xDF, 0x49, 0x3D, 0x38, 0x24, 0x03,
 	];
 
-	helper(S, BASE, 49892);
+	helper(S, BASE, 49_892);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_186375_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_186_375_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_186375_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_186_375_in_base_193() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x09, 0x0D, 0x09, 0x20, 0x0B, 0x0C, 0x0D, 0x20, 0x09, 0x0D, 0x0C, 0x20, 0x0D,
 		0x0B, 0x0C, 0x0C, 0x09, 0x0A, 0x0A, 0x20, 0x0B, 0x0C, 0x0D, 0x20, 0x09, 0x20, 0x0C, 0x20,
@@ -23768,12 +23768,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_186375_in_base_193() {
 		0x7D, 0xCD, 0xE9, 0x31, 0x75, 0x98, 0xDD, 0x08, 0x22, 0x96, 0xB9, 0x7B, 0x7E,
 	];
 
-	helper(S, BASE, 186375);
+	helper(S, BASE, 186_375);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5654467_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_654_467_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5654467_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_654_467_in_base_193() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0D, 0x0D, 0x20, 0x0D, 0x0C, 0x0D, 0x0D, 0x0B, 0x09, 0x0C, 0x0C, 0x0D, 0x20,
 		0x20, 0x0B, 0x0D, 0x0C, 0x20, 0x0B, 0x0B, 0x0A, 0x0C, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -23798,12 +23798,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5654467_in_base_193() {
 		0x5C, 0x6C, 0x6A, 0x2F, 0x6F, 0x82, 0xE5, 0x98, 0xE1, 0xF7, 0xAB, 0x38, 0x7C,
 	];
 
-	helper(S, BASE, 5654467);
+	helper(S, BASE, 5_654_467);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_31834584_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_31_834_584_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_31834584_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_31_834_584_in_base_193() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0B, 0x09, 0x0A, 0x0B, 0x0C, 0x0A, 0x0A, 0x0D, 0x0C, 0x09, 0x0D, 0x20, 0x09,
 		0x0D, 0x0B, 0x20, 0x0D, 0x20, 0x0B, 0x0C, 0x0A, 0x0A, 0x0A, 0x20, 0x0C, 0x0D, 0x0C, 0x0D,
@@ -23828,12 +23828,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_31834584_in_base_193() {
 		0x6D, 0xE7, 0xB9, 0xC3, 0x74, 0xDB, 0xD9, 0x13, 0x41, 0x5B, 0xA3, 0x73, 0x69,
 	];
 
-	helper(S, BASE, 31834584);
+	helper(S, BASE, 31_834_584);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_440507400_in_base_193
+// region: s_has_whitespaces_and_signs_and_zeros_and_440_507_400_in_base_193
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_440507400_in_base_193() {
+fn s_has_whitespaces_and_signs_and_zeros_and_440_507_400_in_base_193() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0B, 0x0C, 0x0D, 0x20, 0x0D, 0x0B, 0x0D, 0x0C, 0x09, 0x0D, 0x20, 0x20, 0x0C,
 		0x0B, 0x20, 0x0C, 0x09, 0x0B, 0x0C, 0x0D, 0x0B, 0x0A, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0B,
@@ -23858,7 +23858,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_440507400_in_base_193() {
 		0x01, 0xCE, 0x04, 0x07, 0x03, 0x44, 0xE8, 0xB0, 0x74, 0x84, 0xFC, 0x38, 0xBD,
 	];
 
-	helper(S, BASE, 440507400);
+	helper(S, BASE, 440_507_400);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_4_in_base_247
@@ -23955,9 +23955,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_928_in_base_247() {
 	helper(S, BASE, 928);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7538_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_538_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7538_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_538_in_base_247() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x09, 0x09, 0x0C, 0x20, 0x20, 0x0C, 0x09, 0x0C, 0x0C, 0x0A, 0x0A, 0x0D, 0x09,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -23985,12 +23985,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7538_in_base_247() {
 		0x80, 0xD1, 0x7F, 0xF1, 0xAC, 0xC1, 0x78,
 	];
 
-	helper(S, BASE, 7538);
+	helper(S, BASE, 7_538);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_83174_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_83_174_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_83174_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_83_174_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0B, 0x20, 0x0D, 0x0D, 0x20, 0x0A, 0x09, 0x0A, 0x0C, 0x0D, 0x0C, 0x0C, 0x09,
 		0x09, 0x0D, 0x0A, 0x20, 0x0A, 0x0D, 0x09, 0x0A, 0x20, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -24018,12 +24018,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_83174_in_base_247() {
 		0xAB, 0x71, 0xEA, 0x78, 0x2C, 0xF2, 0x84,
 	];
 
-	helper(S, BASE, 83174);
+	helper(S, BASE, 83_174);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_357207_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_357_207_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_357207_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_357_207_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x09, 0x0A, 0x0A, 0x0A, 0x09, 0x0C, 0x0D, 0x09, 0x20, 0x0C, 0x0D, 0x20, 0x0C,
 		0x20, 0x20, 0x0B, 0x0C, 0x0C, 0x0D, 0x20, 0x0D, 0x09, 0x0C, 0x0C, 0x20, 0x20, 0x0B, 0x0D,
@@ -24051,12 +24051,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_357207_in_base_247() {
 		0xAC, 0x2F, 0x04, 0x4E, 0xDC, 0x06, 0x9F,
 	];
 
-	helper(S, BASE, 357207);
+	helper(S, BASE, 357_207);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6692874_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_692_874_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6692874_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_692_874_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x09, 0x0A, 0x0A, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x86, 0x86, 0x86,
 		0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x86, 0x5C, 0x84, 0xB4,
@@ -24081,12 +24081,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6692874_in_base_247() {
 		0x18, 0x6D, 0x04, 0xC8, 0x97, 0x13, 0xFC,
 	];
 
-	helper(S, BASE, 6692874);
+	helper(S, BASE, 6_692_874);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_51658949_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_51_658_949_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_51658949_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_51_658_949_in_base_247() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0A, 0x0C, 0x0A, 0x0C, 0x0D, 0x09, 0x20, 0x09, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -24115,12 +24115,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_51658949_in_base_247() {
 		0xDB, 0xF2, 0x71, 0x01, 0xC0, 0x75, 0x42,
 	];
 
-	helper(S, BASE, 51658949);
+	helper(S, BASE, 51_658_949);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_492358109_in_base_247
+// region: s_has_whitespaces_and_signs_and_zeros_and_492_358_109_in_base_247
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_492358109_in_base_247() {
+fn s_has_whitespaces_and_signs_and_zeros_and_492_358_109_in_base_247() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x0A, 0x0C, 0x0D, 0x0D, 0x0B, 0x0D, 0x0C, 0x20, 0x20, 0x0C, 0x0A, 0x09,
 		0x0C, 0x0A, 0x09, 0x20, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -24150,7 +24150,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_492358109_in_base_247() {
 		0xB5, 0xF5, 0x91, 0x82, 0x57, 0x79, 0x58,
 	];
 
-	helper(S, BASE, 492358109);
+	helper(S, BASE, 492_358_109);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_4_in_base_2_and_insignificant_bytes
@@ -24207,9 +24207,9 @@ fn s_has_whitespaces_and_signs_and_253_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 253);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8033_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_033_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8033_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_033_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0B, 0x0C, 0x0B, 0x20, 0x09, 0x0A, 0x20, 0x0A, 0x0C, 0x0A, 0x0A, 0x0B, 0x0D,
 		0x0D, 0x0C, 0x0D, 0x0B, 0x20, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -24220,12 +24220,12 @@ fn s_has_whitespaces_and_signs_and_8033_in_base_2_and_insignificant_bytes() {
 		0x93, 0x65,
 	];
 
-	helper(S, BASE, 8033);
+	helper(S, BASE, 8_033);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_31601_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_31_601_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_31601_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_31_601_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0A, 0x20, 0x0B, 0x0A, 0x0A, 0x0D, 0x0B, 0x09, 0x0B, 0x0A, 0x20, 0x09, 0x09,
 		0x0D, 0x0C, 0x0A, 0x20, 0x0D, 0x20, 0x20, 0x0B, 0x0D, 0x0A, 0x09, 0x09, 0x0C, 0x20, 0x0B,
@@ -24240,12 +24240,12 @@ fn s_has_whitespaces_and_signs_and_31601_in_base_2_and_insignificant_bytes() {
 		0x32, 0x63,
 	];
 
-	helper(S, BASE, 31601);
+	helper(S, BASE, 31_601);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_584394_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_584_394_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_584394_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_584_394_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0A, 0x20, 0x20, 0x20, 0x0B, 0x20, 0x0A, 0x09, 0x0C, 0x20, 0x09, 0x0C, 0x20,
 		0x0B, 0x09, 0x09, 0x0A, 0x0C, 0x0A, 0x0A, 0x09, 0x20, 0x0D, 0x0C, 0x0B, 0x0A, 0x0D, 0x0D,
@@ -24259,12 +24259,12 @@ fn s_has_whitespaces_and_signs_and_584394_in_base_2_and_insignificant_bytes() {
 		0x64, 0x76,
 	];
 
-	helper(S, BASE, 584394);
+	helper(S, BASE, 584_394);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2763045_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_2_763_045_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_2763045_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_2_763_045_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0B, 0x20, 0x0C, 0x0C, 0x20, 0x0B, 0x20, 0x20, 0x0D, 0x09, 0x20, 0x0C, 0x0B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -24277,12 +24277,12 @@ fn s_has_whitespaces_and_signs_and_2763045_in_base_2_and_insignificant_bytes() {
 		0xC1, 0x57,
 	];
 
-	helper(S, BASE, 2763045);
+	helper(S, BASE, 2_763_045);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_89435002_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_89_435_002_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_89435002_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_89_435_002_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x09, 0x0A, 0x0C, 0x0C, 0x20, 0x0A, 0x0A, 0x0D, 0x20, 0x20, 0x0D, 0x0A,
 		0x09, 0x20, 0x0D, 0x09, 0x0D, 0x0D, 0x0A, 0x0C, 0x0C, 0x09, 0x0D, 0x0D, 0x2B, 0x2B, 0x2B,
@@ -24295,12 +24295,12 @@ fn s_has_whitespaces_and_signs_and_89435002_in_base_2_and_insignificant_bytes() 
 		0x7B, 0x72,
 	];
 
-	helper(S, BASE, 89435002);
+	helper(S, BASE, 89_435_002);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_425015142_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_425_015_142_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_425015142_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_425_015_142_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0C, 0x0C, 0x0D, 0x09, 0x0A, 0x20, 0x20, 0x0D, 0x0C, 0x0D, 0x0D, 0x0C, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -24316,7 +24316,7 @@ fn s_has_whitespaces_and_signs_and_425015142_in_base_2_and_insignificant_bytes()
 		0xAE, 0xEA,
 	];
 
-	helper(S, BASE, 425015142);
+	helper(S, BASE, 425_015_142);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_7_in_base_3_and_insignificant_bytes
@@ -24369,9 +24369,9 @@ fn s_has_whitespaces_and_signs_and_623_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 623);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_4784_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_4_784_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_4784_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_4_784_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0B, 0x0B, 0x0A, 0x09, 0x0B, 0x09, 0x0A, 0x0A, 0x0D, 0x0C, 0x0D, 0x0B, 0x20,
 		0x20, 0x0D, 0x20, 0x0A, 0x09, 0x0A, 0x0D, 0x0B, 0x0B, 0x20, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -24383,12 +24383,12 @@ fn s_has_whitespaces_and_signs_and_4784_in_base_3_and_insignificant_bytes() {
 		0x50, 0xD0, 0xBA,
 	];
 
-	helper(S, BASE, 4784);
+	helper(S, BASE, 4_784);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_16545_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_16_545_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_16545_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_16_545_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x0C, 0x09, 0x0B, 0x0C, 0x0D, 0x0C, 0x20, 0x0A, 0x0C, 0x0A, 0x20, 0x0B, 0x20,
 		0x0D, 0x0D, 0x0C, 0x0D, 0x09, 0x20, 0x09, 0x0A, 0x20, 0x0C, 0x0A, 0x0A, 0x0C, 0x0B, 0x0A,
@@ -24402,12 +24402,12 @@ fn s_has_whitespaces_and_signs_and_16545_in_base_3_and_insignificant_bytes() {
 		0xC1, 0x58, 0xC3,
 	];
 
-	helper(S, BASE, 16545);
+	helper(S, BASE, 16_545);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_735005_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_735_005_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_735005_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_735_005_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0B, 0x0B, 0x09, 0x09, 0x0B, 0x0C, 0x0B, 0x0C, 0x20, 0x0C, 0x09, 0x09, 0x0A,
 		0x09, 0x0B, 0x0A, 0x0D, 0x09, 0x20, 0x0C, 0x0A, 0x0D, 0x0B, 0x09, 0x0D, 0x0B, 0x0B, 0x0C,
@@ -24420,12 +24420,12 @@ fn s_has_whitespaces_and_signs_and_735005_in_base_3_and_insignificant_bytes() {
 		0x18, 0x41, 0x1F,
 	];
 
-	helper(S, BASE, 735005);
+	helper(S, BASE, 735_005);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8477735_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_477_735_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8477735_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_477_735_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0D, 0x20, 0x20, 0x0D, 0x0C, 0x0C, 0x0B, 0x20, 0x0C, 0x09, 0x0B, 0x0A, 0x0B,
 		0x20, 0x0B, 0x0A, 0x0B, 0x0A, 0x20, 0x0C, 0x0B, 0x09, 0x0B, 0x0B, 0x0A, 0x0A, 0x0A, 0x0B,
@@ -24441,12 +24441,12 @@ fn s_has_whitespaces_and_signs_and_8477735_in_base_3_and_insignificant_bytes() {
 		0x92, 0x8B, 0xFE,
 	];
 
-	helper(S, BASE, 8477735);
+	helper(S, BASE, 8_477_735);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_10512344_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_10_512_344_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_10512344_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_10_512_344_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0C, 0x0D, 0x0A, 0x0D, 0x20, 0x09, 0x0D, 0x20, 0x0C, 0x0B, 0x0B, 0x0D, 0x0C,
 		0x0D, 0x0B, 0x20, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -24459,12 +24459,12 @@ fn s_has_whitespaces_and_signs_and_10512344_in_base_3_and_insignificant_bytes() 
 		0x6B, 0x7C, 0xBE,
 	];
 
-	helper(S, BASE, 10512344);
+	helper(S, BASE, 10_512_344);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_114110154_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_114_110_154_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_114110154_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_114_110_154_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x20, 0x20, 0x0A, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -24476,7 +24476,7 @@ fn s_has_whitespaces_and_signs_and_114110154_in_base_3_and_insignificant_bytes()
 		0x11, 0x29, 0xAB,
 	];
 
-	helper(S, BASE, 114110154);
+	helper(S, BASE, 114_110_154);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_3_in_base_5_and_insignificant_bytes
@@ -24533,9 +24533,9 @@ fn s_has_whitespaces_and_signs_and_873_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 873);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9473_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_9_473_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_9473_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_9_473_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x09, 0x0A, 0x0D, 0x0B, 0x09, 0x0A, 0x0D, 0x09, 0x0D, 0x20, 0x0D, 0x0C, 0x20,
 		0x0B, 0x20, 0x0C, 0x20, 0x0A, 0x09, 0x09, 0x0D, 0x09, 0x0D, 0x0B, 0x0A, 0x09, 0x0C, 0x0B,
@@ -24548,12 +24548,12 @@ fn s_has_whitespaces_and_signs_and_9473_in_base_5_and_insignificant_bytes() {
 		0xD0, 0x90, 0x84, 0xA4, 0xAE,
 	];
 
-	helper(S, BASE, 9473);
+	helper(S, BASE, 9_473);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_67340_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_67_340_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_67340_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_67_340_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0A, 0x0B, 0x0B, 0x0B, 0x0D, 0x0B, 0x09, 0x09, 0x0C, 0x0B, 0x0A, 0x0B, 0x0D,
 		0x0B, 0x09, 0x09, 0x0A, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -24566,12 +24566,12 @@ fn s_has_whitespaces_and_signs_and_67340_in_base_5_and_insignificant_bytes() {
 		0x95, 0x10, 0xEF, 0x90, 0x9B,
 	];
 
-	helper(S, BASE, 67340);
+	helper(S, BASE, 67_340);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_853796_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_853_796_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_853796_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_853_796_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x09, 0x0D, 0x0B, 0x20, 0x0D, 0x0C, 0x20, 0x0B, 0x0A, 0x0C, 0x0B, 0x0C, 0x0D,
 		0x20, 0x20, 0x09, 0x0B, 0x0B, 0x0B, 0x0C, 0x09, 0x20, 0x09, 0x0B, 0x0C, 0x09, 0x20, 0x0C,
@@ -24586,12 +24586,12 @@ fn s_has_whitespaces_and_signs_and_853796_in_base_5_and_insignificant_bytes() {
 		0x2E, 0x57, 0x11, 0x9F, 0xD1,
 	];
 
-	helper(S, BASE, 853796);
+	helper(S, BASE, 853_796);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8890551_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_890_551_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8890551_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_890_551_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0C, 0x0A, 0x0D, 0x20, 0x0A, 0x0D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -24603,12 +24603,12 @@ fn s_has_whitespaces_and_signs_and_8890551_in_base_5_and_insignificant_bytes() {
 		0x12, 0xAC, 0x7F, 0x6F, 0x83,
 	];
 
-	helper(S, BASE, 8890551);
+	helper(S, BASE, 8_890_551);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_53485127_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_53_485_127_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_53485127_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_53_485_127_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -24622,12 +24622,12 @@ fn s_has_whitespaces_and_signs_and_53485127_in_base_5_and_insignificant_bytes() 
 		0x8A, 0x3F, 0x37, 0x8B, 0x36,
 	];
 
-	helper(S, BASE, 53485127);
+	helper(S, BASE, 53_485_127);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_622123308_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_622_123_308_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_622123308_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_622_123_308_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x20, 0x0C, 0x0B, 0x09, 0x0D, 0x0B, 0x0B, 0x0A, 0x0B, 0x09, 0x0D, 0x09, 0x0C,
 		0x0A, 0x0C, 0x0A, 0x0B, 0x0A, 0x0B, 0x20, 0x20, 0x0D, 0x09, 0x0D, 0x20, 0x0C, 0x0B, 0x0D,
@@ -24640,7 +24640,7 @@ fn s_has_whitespaces_and_signs_and_622123308_in_base_5_and_insignificant_bytes()
 		0x82, 0xCE, 0xBA, 0xBB, 0x90,
 	];
 
-	helper(S, BASE, 622123308);
+	helper(S, BASE, 622_123_308);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_7_and_insignificant_bytes
@@ -24697,9 +24697,9 @@ fn s_has_whitespaces_and_signs_and_281_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 281);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7665_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_7_665_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_7665_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_7_665_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0B, 0x0B, 0x09, 0x0D, 0x0A, 0x0C, 0x20, 0x09, 0x09, 0x20, 0x09, 0x0A, 0x0A,
 		0x09, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -24712,12 +24712,12 @@ fn s_has_whitespaces_and_signs_and_7665_in_base_7_and_insignificant_bytes() {
 		0x51, 0xED, 0x78, 0x8A, 0xBE, 0x26, 0x8B,
 	];
 
-	helper(S, BASE, 7665);
+	helper(S, BASE, 7_665);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_94097_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_94_097_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_94097_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_94_097_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0B, 0x0C, 0x0B, 0x0B, 0x0A, 0x20, 0x09, 0x0C, 0x0D, 0x0B, 0x20, 0x20, 0x09,
 		0x0B, 0x0C, 0x0B, 0x0A, 0x09, 0x0B, 0x0B, 0x0D, 0x0A, 0x0B, 0x0B, 0x20, 0x20, 0x0D, 0x0B,
@@ -24730,12 +24730,12 @@ fn s_has_whitespaces_and_signs_and_94097_in_base_7_and_insignificant_bytes() {
 		0xE3, 0x71, 0xED, 0xEF, 0xD6, 0x3D, 0x31,
 	];
 
-	helper(S, BASE, 94097);
+	helper(S, BASE, 94_097);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_553457_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_553_457_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_553457_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_553_457_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x81, 0x81, 0x3A, 0xCE, 0x81,
 		0xC7, 0xB4, 0xB5, 0x30, 0x9A, 0x59, 0x98, 0xC5, 0x1B, 0x8C, 0xA1, 0xCC, 0xF1, 0x15, 0xA4,
@@ -24746,12 +24746,12 @@ fn s_has_whitespaces_and_signs_and_553457_in_base_7_and_insignificant_bytes() {
 		0xC7, 0x60, 0xB4, 0xCE, 0x81, 0x5B, 0x3A,
 	];
 
-	helper(S, BASE, 553457);
+	helper(S, BASE, 553_457);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7758979_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_7_758_979_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_7758979_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_7_758_979_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x20, 0x0D, 0x0A, 0x0D, 0x0D, 0x20, 0x0D, 0x09, 0x0B, 0x0B, 0x0B, 0x20, 0x09,
 		0x0C, 0x0A, 0x0A, 0x0C, 0x0A, 0x0C, 0x0B, 0x20, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -24764,12 +24764,12 @@ fn s_has_whitespaces_and_signs_and_7758979_in_base_7_and_insignificant_bytes() {
 		0xCF, 0x1E, 0x28, 0x4A, 0x97, 0x07, 0x99,
 	];
 
-	helper(S, BASE, 7758979);
+	helper(S, BASE, 7_758_979);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_88727768_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_88_727_768_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_88727768_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_88_727_768_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0C, 0x0C, 0x0A, 0x09, 0x0C, 0x20, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x24, 0x8F, 0x24, 0x4C, 0x8F, 0x8F, 0x33, 0x33, 0x4C, 0x33, 0x51, 0xD5, 0x35, 0xA7,
@@ -24780,12 +24780,12 @@ fn s_has_whitespaces_and_signs_and_88727768_in_base_7_and_insignificant_bytes() 
 		0x65, 0x8F, 0x24, 0x33, 0x57, 0x4C, 0xE6,
 	];
 
-	helper(S, BASE, 88727768);
+	helper(S, BASE, 88_727_768);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_817356324_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_817_356_324_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_817356324_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_817_356_324_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0D, 0x0A, 0x0D, 0x09, 0x09, 0x0B, 0x0C, 0x0B, 0x09, 0x0A, 0x0A, 0x20, 0x0B,
 		0x0B, 0x0B, 0x0A, 0x0B, 0x0A, 0x0D, 0x20, 0x0A, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -24800,7 +24800,7 @@ fn s_has_whitespaces_and_signs_and_817356324_in_base_7_and_insignificant_bytes()
 		0xD3, 0xB2, 0x45, 0xE1, 0x0F, 0xB8, 0x28,
 	];
 
-	helper(S, BASE, 817356324);
+	helper(S, BASE, 817_356_324);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_5_in_base_11_and_insignificant_bytes
@@ -24850,9 +24850,9 @@ fn s_has_whitespaces_and_signs_and_710_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 710);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_2814_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_2_814_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_2814_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_2_814_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0D, 0x0B, 0x09, 0x20, 0x09, 0x09, 0x09, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -24863,12 +24863,12 @@ fn s_has_whitespaces_and_signs_and_2814_in_base_11_and_insignificant_bytes() {
 		0x98, 0x13, 0xAB, 0xEC, 0xB5, 0xBE, 0xF7, 0x6A, 0x34, 0x4B, 0x4A,
 	];
 
-	helper(S, BASE, 2814);
+	helper(S, BASE, 2_814);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_34345_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_34_345_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_34345_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_34_345_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x20, 0x0D, 0x09, 0x09, 0x0D, 0x0B, 0x0C, 0x0C, 0x20, 0x09, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -24880,12 +24880,12 @@ fn s_has_whitespaces_and_signs_and_34345_in_base_11_and_insignificant_bytes() {
 		0xB7, 0x19, 0x6D, 0x51, 0xFF, 0x2E, 0xF0, 0xEB, 0x87, 0x5D, 0xB2,
 	];
 
-	helper(S, BASE, 34345);
+	helper(S, BASE, 34_345);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_911961_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_911_961_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_911961_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_911_961_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x0B, 0x0C, 0x0D, 0x09, 0x0D, 0x0C, 0x20, 0x0A, 0x0D, 0x20, 0x0D, 0x20,
 		0x20, 0x09, 0x0C, 0x0D, 0x09, 0x0D, 0x0D, 0x20, 0x0C, 0x20, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -24898,12 +24898,12 @@ fn s_has_whitespaces_and_signs_and_911961_in_base_11_and_insignificant_bytes() {
 		0x33, 0x06, 0x77, 0x22, 0x57, 0x53, 0x54, 0x9C, 0x27, 0x5B, 0x38,
 	];
 
-	helper(S, BASE, 911961);
+	helper(S, BASE, 911_961);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_4709086_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_4_709_086_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_4709086_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_4_709_086_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x20, 0x0C, 0x0B, 0x20, 0x09, 0x09, 0x0B, 0x0A, 0x0A, 0x0A, 0x0A, 0x0D, 0x0D,
 		0x0B, 0x0C, 0x20, 0x09, 0x0C, 0x09, 0x0C, 0x0C, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -24916,12 +24916,12 @@ fn s_has_whitespaces_and_signs_and_4709086_in_base_11_and_insignificant_bytes() 
 		0x35, 0x7F, 0xB6, 0x6C, 0x0E, 0x70, 0xD2, 0x6F, 0x38, 0xC7, 0x78,
 	];
 
-	helper(S, BASE, 4709086);
+	helper(S, BASE, 4_709_086);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_73776120_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_73_776_120_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_73776120_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_73_776_120_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x0A, 0x0D, 0x20, 0x0C, 0x09, 0x09, 0x0B, 0x0C, 0x0D, 0x0A, 0x20, 0x20,
 		0x09, 0x20, 0x09, 0x0B, 0x20, 0x20, 0x0D, 0x09, 0x0B, 0x09, 0x0A, 0x0D, 0x0A, 0x0D, 0x2B,
@@ -24935,12 +24935,12 @@ fn s_has_whitespaces_and_signs_and_73776120_in_base_11_and_insignificant_bytes()
 		0x7E, 0x75, 0xF4, 0xB9, 0xB5, 0xE0, 0x51, 0x28, 0xC9, 0xED, 0x30,
 	];
 
-	helper(S, BASE, 73776120);
+	helper(S, BASE, 73_776_120);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_935265664_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_935_265_664_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_935265664_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_935_265_664_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x20, 0x0D, 0x09, 0x09, 0x20, 0x20, 0x20, 0x0C, 0x0B, 0x0C, 0x20, 0x0C, 0x09,
 		0x09, 0x0D, 0x0B, 0x09, 0x0A, 0x09, 0x09, 0x0C, 0x0A, 0x0B, 0x0A, 0x20, 0x20, 0x0D, 0x09,
@@ -24953,7 +24953,7 @@ fn s_has_whitespaces_and_signs_and_935265664_in_base_11_and_insignificant_bytes(
 		0xA0, 0x88, 0xE3, 0x46, 0x32, 0x44, 0x5E, 0x40, 0xEF, 0x9A, 0x7D,
 	];
 
-	helper(S, BASE, 935265664);
+	helper(S, BASE, 935_265_664);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_2_in_base_13_and_insignificant_bytes
@@ -25005,9 +25005,9 @@ fn s_has_whitespaces_and_signs_and_839_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 839);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8028_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_028_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8028_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_028_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0A, 0x09, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -25018,12 +25018,12 @@ fn s_has_whitespaces_and_signs_and_8028_in_base_13_and_insignificant_bytes() {
 		0x83, 0x15, 0x77, 0xDE, 0x1C, 0xC1, 0x72, 0xD0, 0xC8, 0x51, 0xAB, 0x91, 0x4D,
 	];
 
-	helper(S, BASE, 8028);
+	helper(S, BASE, 8_028);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_77795_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_77_795_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_77795_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_77_795_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0C, 0x20, 0x09, 0x09, 0x0B, 0x0B, 0x09, 0x0B, 0x20, 0x0B, 0x0A, 0x20, 0x2B,
 		0x2D, 0x2D, 0xEB, 0xF9, 0xEF, 0x4B, 0x1A, 0x23, 0x02, 0xDB, 0x36, 0x49, 0x7C, 0x2E, 0xB0,
@@ -25034,12 +25034,12 @@ fn s_has_whitespaces_and_signs_and_77795_in_base_13_and_insignificant_bytes() {
 		0xFE, 0x18, 0xEB, 0x1A, 0x4B, 0xEF, 0xE6, 0x80, 0xC8, 0xF9, 0xD8, 0x8E, 0xE4,
 	];
 
-	helper(S, BASE, 77795);
+	helper(S, BASE, 77_795);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_216746_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_216_746_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_216746_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_216_746_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0A, 0x20, 0x0B, 0x20, 0x0A, 0x09, 0x0A, 0x20, 0x0C, 0x09, 0x20, 0x0D, 0x0A,
 		0x20, 0x0B, 0x09, 0x0B, 0x20, 0x0B, 0x0D, 0x0D, 0x09, 0x20, 0x0A, 0x09, 0x0C, 0x0B, 0x0A,
@@ -25052,12 +25052,12 @@ fn s_has_whitespaces_and_signs_and_216746_in_base_13_and_insignificant_bytes() {
 		0x88, 0x1B, 0x94, 0x9C, 0x5F, 0xBA, 0x4F, 0x6B, 0xD3, 0xA8, 0x98, 0x42, 0xBE,
 	];
 
-	helper(S, BASE, 216746);
+	helper(S, BASE, 216_746);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_4701885_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_4_701_885_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_4701885_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_4_701_885_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x09, 0x0C, 0x0B, 0x0B, 0x0B, 0x0D, 0x0B, 0x0D, 0x0C, 0x20, 0x0A, 0x0B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -25069,12 +25069,12 @@ fn s_has_whitespaces_and_signs_and_4701885_in_base_13_and_insignificant_bytes() 
 		0x4A, 0x96, 0x48, 0x82, 0x3E, 0xAA, 0xE0, 0xFF, 0x49, 0xA0, 0x19, 0x61, 0xE9,
 	];
 
-	helper(S, BASE, 4701885);
+	helper(S, BASE, 4_701_885);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_24518032_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_24_518_032_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_24518032_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_24_518_032_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0C, 0x20, 0x0A, 0x0A, 0x0C, 0x0C, 0x09, 0x20, 0x0A, 0x0A, 0x0B, 0x0A, 0x20,
 		0x09, 0x0D, 0x0C, 0x20, 0x0B, 0x0A, 0x0C, 0x20, 0x0C, 0x0B, 0x20, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -25088,12 +25088,12 @@ fn s_has_whitespaces_and_signs_and_24518032_in_base_13_and_insignificant_bytes()
 		0x4B, 0x54, 0x28, 0x49, 0x26, 0xBF, 0xFB, 0x89, 0x6F, 0x40, 0xB3, 0x6B, 0x9D,
 	];
 
-	helper(S, BASE, 24518032);
+	helper(S, BASE, 24_518_032);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_867208070_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_867_208_070_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_867208070_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_867_208_070_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -25106,7 +25106,7 @@ fn s_has_whitespaces_and_signs_and_867208070_in_base_13_and_insignificant_bytes(
 		0x8A, 0xD1, 0x85, 0xFA, 0x8E, 0x14, 0x92, 0xAA, 0xAC, 0x91, 0xC3, 0xE1, 0xAF,
 	];
 
-	helper(S, BASE, 867208070);
+	helper(S, BASE, 867_208_070);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_8_in_base_19_and_insignificant_bytes
@@ -25165,9 +25165,9 @@ fn s_has_whitespaces_and_signs_and_204_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 204);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_9704_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_9_704_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_9704_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_9_704_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x20, 0x20, 0x09, 0x09, 0x0D, 0x0C, 0x0C, 0x0B, 0x0A, 0x20, 0x0B, 0x20, 0x20,
 		0x0C, 0x20, 0x09, 0x0C, 0x0A, 0x09, 0x0A, 0x0B, 0x20, 0x09, 0x20, 0x0D, 0x0B, 0x2B, 0x2B,
@@ -25181,12 +25181,12 @@ fn s_has_whitespaces_and_signs_and_9704_in_base_19_and_insignificant_bytes() {
 		0x3A, 0x98, 0x16, 0x12,
 	];
 
-	helper(S, BASE, 9704);
+	helper(S, BASE, 9_704);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_51798_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_51_798_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_51798_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_51_798_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0C, 0x20, 0x0B, 0x09, 0x09, 0x20, 0x09, 0x20, 0x20, 0x0A, 0x20, 0x20, 0x0C,
 		0x09, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x86, 0x59, 0x84, 0x89, 0x0F, 0x35, 0x9B, 0x82, 0xD2,
@@ -25197,12 +25197,12 @@ fn s_has_whitespaces_and_signs_and_51798_in_base_19_and_insignificant_bytes() {
 		0xB8, 0x73, 0x9F, 0x28,
 	];
 
-	helper(S, BASE, 51798);
+	helper(S, BASE, 51_798);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_418040_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_418_040_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_418040_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_418_040_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0B, 0x0A, 0x0D, 0x0B, 0x0A, 0x09, 0x20, 0x0A, 0x09, 0x20, 0x20, 0x09, 0x20,
 		0x20, 0x0C, 0x20, 0x0D, 0x0B, 0x20, 0x0C, 0x0B, 0x0B, 0x0A, 0x0D, 0x09, 0x2B, 0x2D, 0x2D,
@@ -25216,12 +25216,12 @@ fn s_has_whitespaces_and_signs_and_418040_in_base_19_and_insignificant_bytes() {
 		0x27, 0x22, 0x29, 0x3E,
 	];
 
-	helper(S, BASE, 418040);
+	helper(S, BASE, 418_040);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_3358572_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_3_358_572_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_3358572_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_3_358_572_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0C, 0x0C, 0x0A, 0x0C, 0x20, 0x0A, 0x0C, 0x20, 0x0B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -25235,12 +25235,12 @@ fn s_has_whitespaces_and_signs_and_3358572_in_base_19_and_insignificant_bytes() 
 		0x78, 0x2C, 0xB6, 0xAD,
 	];
 
-	helper(S, BASE, 3358572);
+	helper(S, BASE, 3_358_572);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81782281_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_81_782_281_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_81782281_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_81_782_281_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0A, 0x20, 0x09, 0x09, 0x0C, 0x0B, 0x0A, 0x0C, 0x0B, 0x09, 0x0B, 0x20, 0x0C,
 		0x0A, 0x0A, 0x0C, 0x20, 0x0A, 0x0A, 0x0C, 0x0B, 0x0D, 0x0B, 0x0D, 0x20, 0x20, 0x0D, 0x09,
@@ -25255,12 +25255,12 @@ fn s_has_whitespaces_and_signs_and_81782281_in_base_19_and_insignificant_bytes()
 		0x89, 0x98, 0xAD, 0x49,
 	];
 
-	helper(S, BASE, 81782281);
+	helper(S, BASE, 81_782_281);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_105110595_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_105_110_595_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_105110595_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_105_110_595_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0D, 0x0A, 0x09, 0x0A, 0x20, 0x09, 0x0D, 0x0C, 0x0A, 0x0B, 0x0A, 0x20, 0x0A,
 		0x0C, 0x20, 0x20, 0x20, 0x0D, 0x09, 0x0A, 0x0A, 0x0C, 0x20, 0x0D, 0x0B, 0x0B, 0x20, 0x0A,
@@ -25273,7 +25273,7 @@ fn s_has_whitespaces_and_signs_and_105110595_in_base_19_and_insignificant_bytes(
 		0x11, 0xBC, 0xEB, 0x60,
 	];
 
-	helper(S, BASE, 105110595);
+	helper(S, BASE, 105_110_595);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_2_in_base_42_and_insignificant_bytes
@@ -25333,9 +25333,9 @@ fn s_has_whitespaces_and_signs_and_627_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 627);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_6260_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_6_260_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_6260_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_6_260_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0A, 0x0B, 0x0D, 0x0A, 0x20, 0x0D, 0x09, 0x0C, 0x0C, 0x09, 0x0A, 0x0A, 0x0B,
 		0x09, 0x0C, 0x0B, 0x0B, 0x0C, 0x0A, 0x0A, 0x0B, 0x20, 0x0C, 0x0B, 0x20, 0x0B, 0x20, 0x20,
@@ -25350,12 +25350,12 @@ fn s_has_whitespaces_and_signs_and_6260_in_base_42_and_insignificant_bytes() {
 		0x97, 0xC4, 0xC0, 0x70, 0x9F, 0x9D, 0xFC, 0xB0, 0xEA, 0x28, 0xC5, 0x46,
 	];
 
-	helper(S, BASE, 6260);
+	helper(S, BASE, 6_260);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_65997_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_65_997_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_65997_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_65_997_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0C, 0x0B, 0x0D, 0x0C, 0x0C, 0x0D, 0x09, 0x09, 0x0B, 0x0D, 0x0C, 0x0B, 0x20,
 		0x0A, 0x0D, 0x0D, 0x20, 0x0B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -25370,12 +25370,12 @@ fn s_has_whitespaces_and_signs_and_65997_in_base_42_and_insignificant_bytes() {
 		0x4D, 0x41, 0xDD, 0xC5, 0x5A, 0xA3, 0x53, 0x88, 0x49, 0x1C, 0x5D, 0xC9,
 	];
 
-	helper(S, BASE, 65997);
+	helper(S, BASE, 65_997);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_957170_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_957_170_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_957170_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_957_170_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0A, 0x09, 0x0D, 0x20, 0x0B, 0x09, 0x20, 0x0A, 0x0A, 0x0D, 0x0A, 0x20, 0x0B,
 		0x20, 0x20, 0x09, 0x09, 0x0D, 0x0A, 0x0C, 0x0C, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -25388,12 +25388,12 @@ fn s_has_whitespaces_and_signs_and_957170_in_base_42_and_insignificant_bytes() {
 		0x98, 0x70, 0x80, 0x99, 0xE1, 0xE7, 0x2E, 0xCD, 0x30, 0xF5, 0x97, 0x42,
 	];
 
-	helper(S, BASE, 957170);
+	helper(S, BASE, 957_170);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_1572535_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_1_572_535_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_1572535_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_1_572_535_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x0C, 0x09, 0x0B, 0x0B, 0x09, 0x0B, 0x0C, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x1C, 0xB6, 0x5E, 0xD9, 0x87, 0xE2, 0x62,
@@ -25404,12 +25404,12 @@ fn s_has_whitespaces_and_signs_and_1572535_in_base_42_and_insignificant_bytes() 
 		0xF7, 0x34, 0x1B, 0x33, 0xC5, 0x1D, 0xB8, 0x49, 0xAE, 0x2A, 0xCE, 0x31,
 	];
 
-	helper(S, BASE, 1572535);
+	helper(S, BASE, 1_572_535);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_95965172_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_95_965_172_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_95965172_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_95_965_172_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -25422,12 +25422,12 @@ fn s_has_whitespaces_and_signs_and_95965172_in_base_42_and_insignificant_bytes()
 		0x78, 0x70, 0x9F, 0x50, 0xB5, 0x0F, 0x21, 0xDF, 0x5B, 0x72, 0xE5, 0x38,
 	];
 
-	helper(S, BASE, 95965172);
+	helper(S, BASE, 95_965_172);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_477588998_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_477_588_998_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_477588998_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_477_588_998_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x20, 0x09, 0x20, 0x0D, 0x0C, 0x20, 0x0A, 0x0A, 0x0A, 0x0D, 0x0C, 0x0B, 0x0C,
 		0x20, 0x0B, 0x0A, 0x0D, 0x0D, 0x20, 0x0D, 0x0C, 0x09, 0x0C, 0x0A, 0x0D, 0x0A, 0x2B, 0x2B,
@@ -25443,7 +25443,7 @@ fn s_has_whitespaces_and_signs_and_477588998_in_base_42_and_insignificant_bytes(
 		0x6B, 0x89, 0x45, 0x19, 0x18, 0x08, 0xE5, 0xAB, 0x93, 0x4D, 0x59, 0x31,
 	];
 
-	helper(S, BASE, 477588998);
+	helper(S, BASE, 477_588_998);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_8_in_base_73_and_insignificant_bytes
@@ -25510,9 +25510,9 @@ fn s_has_whitespaces_and_signs_and_958_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 958);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_1419_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_1_419_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_1419_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_1_419_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x20, 0x0A, 0x09, 0x0B, 0x0A, 0x0C, 0x0D, 0x0B, 0x0A, 0x0D, 0x09, 0x0A, 0x09,
 		0x0C, 0x20, 0x0B, 0x0A, 0x0D, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0xA6, 0x16, 0xBD, 0xB2,
@@ -25525,12 +25525,12 @@ fn s_has_whitespaces_and_signs_and_1419_in_base_73_and_insignificant_bytes() {
 		0x75, 0xA3, 0x58, 0x7F, 0x04, 0xB1, 0x17, 0x6A, 0x1D, 0xEB, 0xF7, 0x4E, 0xD4,
 	];
 
-	helper(S, BASE, 1419);
+	helper(S, BASE, 1_419);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81009_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_81_009_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_81009_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_81_009_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0C, 0x0A, 0x0A, 0x0D, 0x09, 0x09, 0x20, 0x0D, 0x20, 0x09, 0x0D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -25545,12 +25545,12 @@ fn s_has_whitespaces_and_signs_and_81009_in_base_73_and_insignificant_bytes() {
 		0x50, 0x32, 0xCF, 0x19, 0xF7, 0xA5, 0x92, 0x61, 0x8B, 0xB6, 0xBE, 0xCC, 0x01,
 	];
 
-	helper(S, BASE, 81009);
+	helper(S, BASE, 81_009);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_320381_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_320_381_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_320381_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_320_381_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0D, 0x20, 0x0B, 0x09, 0x20, 0x20, 0x0A, 0x0B, 0x0B, 0x0D, 0x0B, 0x0C, 0x0C,
 		0x0B, 0x0A, 0x0C, 0x0D, 0x0A, 0x0C, 0x0B, 0x0A, 0x0C, 0x0B, 0x0B, 0x0B, 0x09, 0x0B, 0x0B,
@@ -25567,12 +25567,12 @@ fn s_has_whitespaces_and_signs_and_320381_in_base_73_and_insignificant_bytes() {
 		0x10, 0x4D, 0xA2, 0xEE, 0x6C, 0xAF, 0x89, 0xED, 0xA6, 0x3F, 0xA8, 0x73, 0xB8,
 	];
 
-	helper(S, BASE, 320381);
+	helper(S, BASE, 320_381);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_6436524_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_6_436_524_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_6436524_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_6_436_524_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x20, 0x20, 0x0B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -25588,12 +25588,12 @@ fn s_has_whitespaces_and_signs_and_6436524_in_base_73_and_insignificant_bytes() 
 		0x08, 0xA2, 0x33, 0x4E, 0x46, 0x19, 0x0F, 0x36, 0xFA, 0x6C, 0x7F, 0xA6, 0x02,
 	];
 
-	helper(S, BASE, 6436524);
+	helper(S, BASE, 6_436_524);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_13790431_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_13_790_431_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_13790431_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_13_790_431_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x09, 0x0A, 0x0C, 0x0D, 0x20, 0x20, 0x20, 0x0D, 0x20, 0x0A, 0x0D, 0x0C, 0x0C,
 		0x20, 0x09, 0x0A, 0x0A, 0x20, 0x0B, 0x0C, 0x09, 0x0B, 0x09, 0x0A, 0x20, 0x0C, 0x09, 0x0D,
@@ -25608,12 +25608,12 @@ fn s_has_whitespaces_and_signs_and_13790431_in_base_73_and_insignificant_bytes()
 		0xCE, 0x70, 0x7F, 0xB6, 0x35, 0x13, 0x79, 0xC6, 0x49, 0xBE, 0xB5, 0x21, 0xE1,
 	];
 
-	helper(S, BASE, 13790431);
+	helper(S, BASE, 13_790_431);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_770678652_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_770_678_652_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_770678652_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_770_678_652_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x09, 0x0C, 0x0A, 0x0C, 0x09, 0x0B, 0x0C, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x12, 0x84, 0x4A, 0x2F, 0x08, 0xE6, 0xB6, 0x74, 0xAE, 0xE1,
@@ -25627,7 +25627,7 @@ fn s_has_whitespaces_and_signs_and_770678652_in_base_73_and_insignificant_bytes(
 		0x81, 0xA3, 0x6E, 0xDD, 0x7C, 0xE8, 0xE0, 0x59, 0xA5, 0xA1, 0xF5, 0x7B, 0xB2,
 	];
 
-	helper(S, BASE, 770678652);
+	helper(S, BASE, 770_678_652);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_7_in_base_113_and_insignificant_bytes
@@ -25704,9 +25704,9 @@ fn s_has_whitespaces_and_signs_and_347_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 347);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_7105_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_7_105_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_7105_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_7_105_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0C, 0x0A, 0x0D, 0x0C, 0x0B, 0x0D, 0x0C, 0x0D, 0x20, 0x0D, 0x0B, 0x09, 0x09,
 		0x09, 0x0B, 0x0D, 0x09, 0x0C, 0x20, 0x09, 0x0C, 0x0D, 0x0A, 0x0B, 0x20, 0x0C, 0x20, 0x0B,
@@ -25723,12 +25723,12 @@ fn s_has_whitespaces_and_signs_and_7105_in_base_113_and_insignificant_bytes() {
 		0x69, 0xDB, 0x76, 0xBD, 0xD8, 0x27, 0xBB, 0xA9,
 	];
 
-	helper(S, BASE, 7105);
+	helper(S, BASE, 7_105);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_94329_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_94_329_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_94329_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_94_329_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x20, 0x0A, 0x20, 0x0A, 0x09, 0x0D, 0x09, 0x20, 0x0B, 0x0D, 0x20, 0x09, 0x0D,
 		0x09, 0x0D, 0x0D, 0x09, 0x0B, 0x0B, 0x20, 0x0B, 0x0A, 0x0C, 0x0C, 0x0C, 0x0D, 0x0A, 0x20,
@@ -25750,12 +25750,12 @@ fn s_has_whitespaces_and_signs_and_94329_in_base_113_and_insignificant_bytes() {
 		0x51, 0x6D, 0x8B, 0x3D, 0xB7, 0xF0, 0x6B, 0x72,
 	];
 
-	helper(S, BASE, 94329);
+	helper(S, BASE, 94_329);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_791945_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_791_945_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_791945_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_791_945_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0D, 0x20, 0x0A, 0x0B, 0x0D, 0x09, 0x0C, 0x0B, 0x0A, 0x20, 0x09, 0x0B,
 		0x0A, 0x0D, 0x09, 0x0A, 0x20, 0x0C, 0x0C, 0x09, 0x09, 0x09, 0x0C, 0x0C, 0x0A, 0x2D, 0x2D,
@@ -25775,12 +25775,12 @@ fn s_has_whitespaces_and_signs_and_791945_in_base_113_and_insignificant_bytes() 
 		0xB9, 0xB7, 0xFA, 0x99, 0x08, 0x4D, 0xFF, 0xF0,
 	];
 
-	helper(S, BASE, 791945);
+	helper(S, BASE, 791_945);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_6883971_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_6_883_971_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_6883971_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_6_883_971_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0D, 0x09, 0x20, 0x0A, 0x20, 0x0B, 0x0A, 0x0D, 0x0C, 0x09, 0x09, 0x09, 0x20,
 		0x09, 0x0C, 0x09, 0x0C, 0x0C, 0x09, 0x0D, 0x20, 0x0B, 0x09, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -25798,12 +25798,12 @@ fn s_has_whitespaces_and_signs_and_6883971_in_base_113_and_insignificant_bytes()
 		0x26, 0x08, 0xA7, 0xDD, 0x70, 0x7B, 0x92, 0xD1,
 	];
 
-	helper(S, BASE, 6883971);
+	helper(S, BASE, 6_883_971);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_81822103_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_81_822_103_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_81822103_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_81_822_103_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x20, 0x0C, 0x0D, 0x20, 0x20, 0x0A, 0x2B, 0xF2, 0x16, 0xEB, 0x4D, 0xDC, 0x76,
 		0x83, 0xCB, 0x2B, 0xA1, 0x45,
@@ -25819,12 +25819,12 @@ fn s_has_whitespaces_and_signs_and_81822103_in_base_113_and_insignificant_bytes(
 		0x12, 0xA4, 0x55, 0x7C, 0xDB, 0xC0, 0xB1, 0xF3,
 	];
 
-	helper(S, BASE, 81822103);
+	helper(S, BASE, 81_822_103);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_626936433_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_626_936_433_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_626936433_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_626_936_433_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0A, 0x09, 0x0A, 0x09, 0x0A, 0x0D, 0x09, 0x09, 0x09, 0x0D, 0x20, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -25842,7 +25842,7 @@ fn s_has_whitespaces_and_signs_and_626936433_in_base_113_and_insignificant_bytes
 		0x17, 0x5D, 0x67, 0x1C, 0x49, 0x16, 0xE2, 0x5A,
 	];
 
-	helper(S, BASE, 626936433);
+	helper(S, BASE, 626_936_433);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_4_in_base_193_and_insignificant_bytes
@@ -25929,9 +25929,9 @@ fn s_has_whitespaces_and_signs_and_348_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 348);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_3945_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_3_945_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_3945_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_3_945_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0A, 0x0D, 0x0C, 0x09, 0x0A, 0x0B, 0x0A, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x04, 0xEB, 0x09, 0x20, 0x66,
@@ -25952,12 +25952,12 @@ fn s_has_whitespaces_and_signs_and_3945_in_base_193_and_insignificant_bytes() {
 		0xDA, 0x93, 0xF3, 0xB2, 0xC7, 0x62, 0x02, 0x94, 0xE4, 0xE9, 0x50, 0x99, 0x3E,
 	];
 
-	helper(S, BASE, 3945);
+	helper(S, BASE, 3_945);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_33286_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_33_286_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_33286_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_33_286_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x09, 0x0B, 0x0A, 0x09, 0x20, 0x0A, 0x09, 0x0A, 0x20, 0x0D, 0x0D, 0x0A, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -25981,12 +25981,12 @@ fn s_has_whitespaces_and_signs_and_33286_in_base_193_and_insignificant_bytes() {
 		0x2F, 0x68, 0xBF, 0xF1, 0x98, 0x9E, 0xC2, 0x69, 0xE4, 0x36, 0x15, 0xF9, 0x2C,
 	];
 
-	helper(S, BASE, 33286);
+	helper(S, BASE, 33_286);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_422068_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_422_068_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_422068_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_422_068_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x27, 0xCB, 0x07, 0x2D, 0xAC, 0x3B, 0x1B, 0x26, 0xBB,
@@ -26008,12 +26008,12 @@ fn s_has_whitespaces_and_signs_and_422068_in_base_193_and_insignificant_bytes() 
 		0x14, 0x86, 0x2F, 0x73, 0x4A, 0x24, 0xFD, 0x99, 0x82, 0x75, 0xDD, 0xB8, 0x05,
 	];
 
-	helper(S, BASE, 422068);
+	helper(S, BASE, 422_068);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_3429313_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_3_429_313_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_3429313_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_3_429_313_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x20, 0x0B, 0x0C, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -26037,12 +26037,12 @@ fn s_has_whitespaces_and_signs_and_3429313_in_base_193_and_insignificant_bytes()
 		0xE0, 0xB5, 0xC8, 0xD7, 0xAB, 0x71, 0x23, 0x1A, 0xB8, 0x55, 0xD2, 0x53, 0xE3,
 	];
 
-	helper(S, BASE, 3429313);
+	helper(S, BASE, 3_429_313);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_30323953_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_30_323_953_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_30323953_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_30_323_953_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x09, 0x20, 0x0A, 0x20, 0x0B, 0x09, 0x0B, 0x0C, 0x20, 0x0B, 0x20, 0x0D,
 		0x20, 0x20, 0x0C, 0x0A, 0x09, 0x0C, 0x0B, 0x20, 0x0C, 0x0D, 0x0C, 0x0B, 0x0A, 0x0D, 0x20,
@@ -26067,12 +26067,12 @@ fn s_has_whitespaces_and_signs_and_30323953_in_base_193_and_insignificant_bytes(
 		0x69, 0x67, 0xED, 0xC2, 0xA8, 0x93, 0xE1, 0xE4, 0x65, 0xB7, 0xA2, 0x0E, 0xE9,
 	];
 
-	helper(S, BASE, 30323953);
+	helper(S, BASE, 30_323_953);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_456460822_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_456_460_822_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_456460822_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_456_460_822_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x20, 0x09, 0x0C, 0x20, 0x09, 0x20, 0x20, 0x0A, 0x0D, 0x0A, 0x0A, 0x20, 0x0D,
 		0x0C, 0x0B, 0x0A, 0x0B, 0x0C, 0x0A, 0x0D, 0x0D, 0x0A, 0x0D, 0x0A, 0x0D, 0x20, 0x0B, 0x0C,
@@ -26097,7 +26097,7 @@ fn s_has_whitespaces_and_signs_and_456460822_in_base_193_and_insignificant_bytes
 		0x9B, 0xCD, 0xC2, 0xD3, 0xD1, 0xD6, 0x39, 0x4F, 0xC4, 0xEE, 0x26, 0x48, 0x2A,
 	];
 
-	helper(S, BASE, 456460822);
+	helper(S, BASE, 456_460_822);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_1_in_base_247_and_insignificant_bytes
@@ -26205,9 +26205,9 @@ fn s_has_whitespaces_and_signs_and_598_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 598);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8788_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_788_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8788_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_788_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0C, 0x0D, 0x20, 0x0D, 0x0B, 0x09, 0x0C, 0x0C, 0x0B, 0x0A, 0x20, 0x0B, 0x20,
 		0x0D, 0x20, 0x0B, 0x0C, 0x0D, 0x0D, 0x20, 0x20, 0x0A, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -26235,12 +26235,12 @@ fn s_has_whitespaces_and_signs_and_8788_in_base_247_and_insignificant_bytes() {
 		0x76, 0xDF, 0x4C, 0x64, 0x1D, 0xC9, 0x63,
 	];
 
-	helper(S, BASE, 8788);
+	helper(S, BASE, 8_788);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_91725_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_91_725_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_91725_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_91_725_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0B, 0x0C, 0x0B, 0x0A, 0x0A, 0x0C, 0x09, 0x0B, 0x20, 0x0C, 0x0A, 0x09, 0x0A,
 		0x20, 0x09, 0x0D, 0x0D, 0x20, 0x09, 0x09, 0x0B, 0x0C, 0x0D, 0x20, 0x09, 0x0A, 0x0C, 0x09,
@@ -26268,12 +26268,12 @@ fn s_has_whitespaces_and_signs_and_91725_in_base_247_and_insignificant_bytes() {
 		0x2A, 0x46, 0xB4, 0x10, 0x34, 0x5E, 0xA1,
 	];
 
-	helper(S, BASE, 91725);
+	helper(S, BASE, 91_725);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_617034_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_617_034_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_617034_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_617_034_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0B, 0x09, 0x0A, 0x0C, 0x0C, 0x0C, 0x09, 0x0D, 0x0B, 0x0B, 0x09, 0x0B,
 		0x0D, 0x0C, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -26302,12 +26302,12 @@ fn s_has_whitespaces_and_signs_and_617034_in_base_247_and_insignificant_bytes() 
 		0xE6, 0xEC, 0x05, 0xF6, 0x54, 0xE2, 0x39,
 	];
 
-	helper(S, BASE, 617034);
+	helper(S, BASE, 617_034);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_8094511_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_8_094_511_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_8094511_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_8_094_511_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x20, 0x0D, 0x20, 0x0D, 0x0A, 0x0B, 0x0A, 0x0C, 0x09, 0x20, 0x20, 0x0B, 0x20,
 		0x0D, 0x20, 0x0C, 0x0A, 0x0C, 0x0C, 0x0D, 0x0A, 0x0C, 0x09, 0x0A, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -26335,12 +26335,12 @@ fn s_has_whitespaces_and_signs_and_8094511_in_base_247_and_insignificant_bytes()
 		0xEF, 0x6D, 0x6B, 0x93, 0x82, 0xF7, 0xCB,
 	];
 
-	helper(S, BASE, 8094511);
+	helper(S, BASE, 8_094_511);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_89677668_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_89_677_668_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_89677668_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_89_677_668_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0C, 0x09, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0xED, 0xC2, 0xC5, 0x70,
@@ -26368,12 +26368,12 @@ fn s_has_whitespaces_and_signs_and_89677668_in_base_247_and_insignificant_bytes(
 		0x13, 0xC1, 0x71, 0x41, 0xD4, 0x49, 0x46,
 	];
 
-	helper(S, BASE, 89677668);
+	helper(S, BASE, 89_677_668);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_915380877_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_915_380_877_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_915380877_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_915_380_877_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0D, 0x0B, 0x0B, 0x0D, 0x0D, 0x0B, 0x20, 0x0C, 0x0D, 0x0A, 0x0D, 0x20, 0x0D,
 		0x0B, 0x0B, 0x0B, 0x0B, 0x0D, 0x0D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -26401,7 +26401,7 @@ fn s_has_whitespaces_and_signs_and_915380877_in_base_247_and_insignificant_bytes
 		0x95, 0x71, 0x45, 0x4A, 0x94, 0x1D, 0x97,
 	];
 
-	helper(S, BASE, 915380877);
+	helper(S, BASE, 915_380_877);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_1_in_base_2_and_insignificant_bytes
@@ -26453,9 +26453,9 @@ fn s_has_whitespaces_and_zeros_and_890_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 890);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6380_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_380_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6380_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_380_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0D, 0x0D, 0x0B, 0x0A, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3,
 		0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0xD3, 0x8D,
@@ -26466,12 +26466,12 @@ fn s_has_whitespaces_and_zeros_and_6380_in_base_2_and_insignificant_bytes() {
 		0xD3, 0x8D,
 	];
 
-	helper(S, BASE, 6380);
+	helper(S, BASE, 6_380);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_67678_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_67_678_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_67678_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_67_678_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0A, 0x0A, 0x0D, 0x09, 0x0A, 0x20, 0x0A, 0x09, 0x0D, 0x0A, 0x09, 0x0C, 0x0C,
 		0x09, 0x0D, 0x0A, 0x0B, 0x0A, 0x0C, 0x0B, 0x0A, 0x0C, 0x09, 0x0B, 0x0A, 0x09, 0x0A, 0x09,
@@ -26483,12 +26483,12 @@ fn s_has_whitespaces_and_zeros_and_67678_in_base_2_and_insignificant_bytes() {
 		0x60, 0xC5,
 	];
 
-	helper(S, BASE, 67678);
+	helper(S, BASE, 67_678);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_520131_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_520_131_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_520131_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_520_131_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x0D, 0x0C, 0x0A, 0x20, 0x0C, 0x0C, 0x0A, 0x20, 0x0C, 0x0C, 0x09, 0x0C,
 		0x0B, 0x0A, 0x09, 0x0C, 0x0D, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0, 0xC0,
@@ -26501,12 +26501,12 @@ fn s_has_whitespaces_and_zeros_and_520131_in_base_2_and_insignificant_bytes() {
 		0xC0, 0xFF,
 	];
 
-	helper(S, BASE, 520131);
+	helper(S, BASE, 520_131);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6724861_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_724_861_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6724861_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_724_861_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x09, 0x20, 0x0D, 0x0A, 0x0D, 0x0D, 0x0B, 0x0A, 0x0B, 0x0D, 0x0C, 0x0C, 0x20,
 		0x0C, 0x0A, 0x0C, 0x09, 0x0B, 0x0B, 0x0B, 0x0B, 0x0A, 0x0D, 0x0A, 0x0A, 0x0C, 0xC2, 0xC2,
@@ -26520,12 +26520,12 @@ fn s_has_whitespaces_and_zeros_and_6724861_in_base_2_and_insignificant_bytes() {
 		0xC2, 0xFE,
 	];
 
-	helper(S, BASE, 6724861);
+	helper(S, BASE, 6_724_861);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_63329951_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_63_329_951_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_63329951_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_63_329_951_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0A, 0x0B, 0x20, 0x0B, 0x0D, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3,
 		0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3, 0xE3,
@@ -26538,12 +26538,12 @@ fn s_has_whitespaces_and_zeros_and_63329951_in_base_2_and_insignificant_bytes() 
 		0xE3, 0xC7,
 	];
 
-	helper(S, BASE, 63329951);
+	helper(S, BASE, 63_329_951);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_300169927_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_300_169_927_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_300169927_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_300_169_927_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0B, 0x09, 0x0B, 0x0A, 0x20, 0x0D, 0x0C, 0x0A, 0x0A, 0x0D, 0x20, 0x0C, 0x0D,
 		0x0C, 0x0D, 0x0B, 0x0A, 0x0A, 0x0D, 0x20, 0x20, 0x0D, 0x0B, 0x09, 0x0C, 0x0A, 0x0B, 0x09,
@@ -26555,7 +26555,7 @@ fn s_has_whitespaces_and_zeros_and_300169927_in_base_2_and_insignificant_bytes()
 		0xF1, 0x0E,
 	];
 
-	helper(S, BASE, 300169927);
+	helper(S, BASE, 300_169_927);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_4_in_base_3_and_insignificant_bytes
@@ -26610,9 +26610,9 @@ fn s_has_whitespaces_and_zeros_and_835_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 835);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6944_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_944_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6944_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_944_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0A, 0x20, 0x0B, 0x0D, 0x20, 0x0A, 0x20, 0x09, 0x0A, 0x0B, 0x0A, 0x0A, 0x20,
 		0x09, 0x20, 0x0D, 0x09, 0x0C, 0x0A, 0x0C, 0x0A, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E, 0x2E,
@@ -26623,12 +26623,12 @@ fn s_has_whitespaces_and_zeros_and_6944_in_base_3_and_insignificant_bytes() {
 		0x2E, 0x57, 0x49,
 	];
 
-	helper(S, BASE, 6944);
+	helper(S, BASE, 6_944);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_48189_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_48_189_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_48189_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_48_189_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0A, 0x0A, 0x0C, 0x20, 0x0C, 0x20, 0x0B, 0x20, 0x0A, 0x0C, 0x0A, 0x0C, 0x09, 0x20,
 		0x0C, 0x20, 0x0A, 0x09, 0x09, 0x0D, 0x0D, 0x0A, 0x0D, 0x0C, 0x20, 0x0B, 0x09, 0x0B, 0x20,
@@ -26642,12 +26642,12 @@ fn s_has_whitespaces_and_zeros_and_48189_in_base_3_and_insignificant_bytes() {
 		0x02, 0x5D, 0x08,
 	];
 
-	helper(S, BASE, 48189);
+	helper(S, BASE, 48_189);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_965415_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_965_415_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_965415_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_965_415_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0D, 0x20, 0x09, 0x0B, 0x0A, 0x09, 0x09, 0x09, 0x0C, 0x0A, 0x0C, 0x20, 0x0D,
 		0x0A, 0x20, 0x0C, 0x0C, 0x09, 0x0D, 0x20, 0x09, 0x0A, 0x0C, 0x20, 0x9C, 0x9C, 0x9C, 0x9C,
@@ -26658,12 +26658,12 @@ fn s_has_whitespaces_and_zeros_and_965415_in_base_3_and_insignificant_bytes() {
 		0x9C, 0x57, 0xCF,
 	];
 
-	helper(S, BASE, 965415);
+	helper(S, BASE, 965_415);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3257330_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_3_257_330_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_3257330_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_3_257_330_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x09, 0x20, 0x0A, 0x0C, 0x0C, 0x0C, 0x0B, 0x09, 0x0D,
 		0x0C, 0x0A, 0x09, 0x0D, 0x0C, 0x0D, 0x20, 0x0C, 0x09, 0x09, 0x0C, 0x0D, 0x0D, 0x0B, 0x0C,
@@ -26676,12 +26676,12 @@ fn s_has_whitespaces_and_zeros_and_3257330_in_base_3_and_insignificant_bytes() {
 		0xD9, 0x82, 0x3A,
 	];
 
-	helper(S, BASE, 3257330);
+	helper(S, BASE, 3_257_330);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_24132214_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_24_132_214_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_24132214_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_24_132_214_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x20, 0x0B, 0x0C, 0x0D, 0x20, 0x20, 0x20, 0x09, 0x0A, 0x0B, 0x0A, 0x20, 0x0A,
 		0x0C, 0x0B, 0x0B, 0x09, 0x09, 0x0C, 0x0C, 0x20, 0x0D, 0x09, 0x0C, 0x0B, 0x0B, 0x09, 0x0B,
@@ -26697,12 +26697,12 @@ fn s_has_whitespaces_and_zeros_and_24132214_in_base_3_and_insignificant_bytes() 
 		0x30, 0x13, 0xED,
 	];
 
-	helper(S, BASE, 24132214);
+	helper(S, BASE, 24_132_214);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_367844878_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_367_844_878_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_367844878_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_367_844_878_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0B, 0x0C, 0x0D, 0x09, 0x0B, 0x0A, 0x0C, 0x0C, 0x09, 0x0A, 0x0A, 0x09, 0x0B,
 		0x0B, 0x0B, 0x09, 0x20, 0x0B, 0x0D, 0x20, 0x09, 0x0D, 0x0D, 0x0B, 0x0B, 0x0C, 0x0A, 0x09,
@@ -26718,7 +26718,7 @@ fn s_has_whitespaces_and_zeros_and_367844878_in_base_3_and_insignificant_bytes()
 		0xE8, 0x06, 0xA7,
 	];
 
-	helper(S, BASE, 367844878);
+	helper(S, BASE, 367_844_878);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_2_in_base_5_and_insignificant_bytes
@@ -26774,9 +26774,9 @@ fn s_has_whitespaces_and_zeros_and_911_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 911);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_2768_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_2_768_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_2768_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_2_768_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x20, 0x20, 0x0C, 0x09, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3,
 		0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3, 0xB3,
@@ -26788,12 +26788,12 @@ fn s_has_whitespaces_and_zeros_and_2768_in_base_5_and_insignificant_bytes() {
 		0xB3, 0x7B, 0x19, 0xD2, 0x65,
 	];
 
-	helper(S, BASE, 2768);
+	helper(S, BASE, 2_768);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_36921_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_36_921_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_36921_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_36_921_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x09, 0x0A, 0x20, 0x0D, 0x0C, 0x09, 0x09, 0x0C, 0x93, 0x93, 0x93, 0x93, 0x93,
 		0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93,
@@ -26805,12 +26805,12 @@ fn s_has_whitespaces_and_zeros_and_36921_in_base_5_and_insignificant_bytes() {
 		0x93, 0x80, 0x08, 0x31, 0xCC,
 	];
 
-	helper(S, BASE, 36921);
+	helper(S, BASE, 36_921);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_685672_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_685_672_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_685672_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_685_672_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0D, 0x0C, 0x09, 0x0B, 0x0C, 0x20, 0x09, 0x0B, 0x20, 0x0D, 0x0D, 0x0A, 0x9F,
 		0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F,
@@ -26823,12 +26823,12 @@ fn s_has_whitespaces_and_zeros_and_685672_in_base_5_and_insignificant_bytes() {
 		0x9F, 0x86, 0x6E, 0x7E, 0x93,
 	];
 
-	helper(S, BASE, 685672);
+	helper(S, BASE, 685_672);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_9869748_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_9_869_748_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_9869748_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_9_869_748_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0D, 0x20, 0x0C, 0x0A, 0x20, 0x0A, 0x0C, 0x0B, 0x0C, 0x0A, 0x0A, 0x0B, 0x0B,
 		0x09, 0x0C, 0x09, 0x0B, 0x09, 0x0A, 0x20, 0x0C, 0x0D, 0x0C, 0x20, 0x0D, 0x20, 0x0A, 0x0D,
@@ -26843,12 +26843,12 @@ fn s_has_whitespaces_and_zeros_and_9869748_in_base_5_and_insignificant_bytes() {
 		0xA3, 0x7F, 0x75, 0xC4, 0xE1,
 	];
 
-	helper(S, BASE, 9869748);
+	helper(S, BASE, 9_869_748);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_96662837_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_96_662_837_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_96662837_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_96_662_837_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x0C, 0x0D, 0x0C, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27,
 		0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x27, 0x14,
@@ -26859,12 +26859,12 @@ fn s_has_whitespaces_and_zeros_and_96662837_in_base_5_and_insignificant_bytes() 
 		0x27, 0x14, 0x44, 0x3B, 0x7F,
 	];
 
-	helper(S, BASE, 96662837);
+	helper(S, BASE, 96_662_837);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_142409177_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_142_409_177_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_142409177_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_142_409_177_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0xCC, 0xFB, 0xCC, 0xFB, 0xCC, 0xFB, 0x0F, 0xFB,
 		0xB3, 0xCC, 0x0F, 0xCC, 0x77, 0x12, 0x34, 0xD0, 0x4E, 0xC3, 0x87, 0x39, 0x2C, 0xC7, 0xED,
@@ -26874,7 +26874,7 @@ fn s_has_whitespaces_and_zeros_and_142409177_in_base_5_and_insignificant_bytes()
 		0x0F, 0xCF, 0xCC, 0xB3, 0xFB,
 	];
 
-	helper(S, BASE, 142409177);
+	helper(S, BASE, 142_409_177);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_6_in_base_7_and_insignificant_bytes
@@ -26928,9 +26928,9 @@ fn s_has_whitespaces_and_zeros_and_836_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 836);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_2034_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_2_034_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_2034_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_2_034_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x09, 0x0B, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF,
 		0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF, 0xAF,
@@ -26942,12 +26942,12 @@ fn s_has_whitespaces_and_zeros_and_2034_in_base_7_and_insignificant_bytes() {
 		0xAF, 0x37, 0x7B, 0x07, 0xAB, 0x6B, 0x47,
 	];
 
-	helper(S, BASE, 2034);
+	helper(S, BASE, 2_034);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_75024_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_75_024_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_75024_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_75_024_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x20, 0x0A, 0x0A, 0x0A, 0x20, 0x0A, 0x0C, 0x20, 0x09, 0x0B, 0x20, 0x0C, 0x0C,
 		0x0C, 0x0B, 0x0A, 0x0D, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC,
@@ -26959,12 +26959,12 @@ fn s_has_whitespaces_and_zeros_and_75024_in_base_7_and_insignificant_bytes() {
 		0xDC, 0x37, 0xD5, 0x1D, 0x2E, 0x8D, 0xF5,
 	];
 
-	helper(S, BASE, 75024);
+	helper(S, BASE, 75_024);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_455100_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_455_100_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_455100_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_455_100_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0D, 0x0D, 0x0A, 0x0A, 0x09, 0x20, 0x0C, 0x0A, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC,
 		0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xDC, 0xB5, 0xE3, 0xDC,
@@ -26975,12 +26975,12 @@ fn s_has_whitespaces_and_zeros_and_455100_in_base_7_and_insignificant_bytes() {
 		0xDC, 0xAC, 0x7F, 0xB5, 0xE2, 0x5B, 0xE3,
 	];
 
-	helper(S, BASE, 455100);
+	helper(S, BASE, 455_100);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8834711_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_8_834_711_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_8834711_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_8_834_711_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0A, 0x09, 0x20, 0x0A, 0x0B, 0x20, 0x20, 0x20, 0x0B, 0x0A, 0x20, 0x0B,
 		0x0C, 0x09, 0x20, 0x09, 0x0D, 0x0A, 0x09, 0x0A, 0x0C, 0x20, 0x0A, 0x0D, 0x0A, 0x0B, 0x0F,
@@ -26993,12 +26993,12 @@ fn s_has_whitespaces_and_zeros_and_8834711_in_base_7_and_insignificant_bytes() {
 		0x0F, 0xCB, 0xB9, 0xF8, 0x4F, 0x7C, 0x42,
 	];
 
-	helper(S, BASE, 8834711);
+	helper(S, BASE, 8_834_711);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_78877886_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_78_877_886_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_78877886_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_78_877_886_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0C, 0x0D, 0x0C, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0x93,
 		0x93, 0x93, 0x93, 0x93, 0x93, 0x93, 0xEA, 0xA5, 0x89, 0x45, 0x3C, 0xEA, 0x93, 0x89, 0x45,
@@ -27010,12 +27010,12 @@ fn s_has_whitespaces_and_zeros_and_78877886_in_base_7_and_insignificant_bytes() 
 		0x93, 0xEA, 0x6D, 0x3C, 0x89, 0x45, 0xA5,
 	];
 
-	helper(S, BASE, 78877886);
+	helper(S, BASE, 78_877_886);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_478531384_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_478_531_384_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_478531384_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_478_531_384_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0B, 0x0C, 0x0D, 0x0C, 0x0C, 0x0D, 0x0D, 0x0A, 0x0C, 0x0B, 0x0C, 0x20, 0x09,
 		0x0D, 0x0C, 0x0B, 0x0B, 0x20, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5, 0xA5,
@@ -27028,7 +27028,7 @@ fn s_has_whitespaces_and_zeros_and_478531384_in_base_7_and_insignificant_bytes()
 		0xA5, 0x63, 0xBC, 0x25, 0xAE, 0x12, 0x83,
 	];
 
-	helper(S, BASE, 478531384);
+	helper(S, BASE, 478_531_384);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_1_in_base_11_and_insignificant_bytes
@@ -27084,9 +27084,9 @@ fn s_has_whitespaces_and_zeros_and_457_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 457);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6971_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_971_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6971_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_971_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0D, 0x0A, 0x09, 0x0C, 0x20, 0x0C, 0x20, 0x0B, 0x0C, 0x20, 0xCA, 0xCA, 0xCA,
 		0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA,
@@ -27099,12 +27099,12 @@ fn s_has_whitespaces_and_zeros_and_6971_in_base_11_and_insignificant_bytes() {
 		0xCA, 0x79, 0xC1, 0xDC, 0xA3, 0xF8, 0x7F, 0x18, 0x8E, 0xD0, 0xC4,
 	];
 
-	helper(S, BASE, 6971);
+	helper(S, BASE, 6_971);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_19778_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_19_778_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_19778_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_19_778_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0B, 0x0B, 0x0B, 0x0C, 0x09, 0x20, 0x0B, 0x0B, 0x0A, 0x0B, 0x0C, 0x20, 0x09,
 		0x0C, 0x0B, 0x0D, 0x0B, 0x20, 0x0A, 0x0D, 0x08, 0x08, 0x08, 0x08, 0x08, 0x08, 0x08, 0x08,
@@ -27117,12 +27117,12 @@ fn s_has_whitespaces_and_zeros_and_19778_in_base_11_and_insignificant_bytes() {
 		0x08, 0xD7, 0x75, 0x70, 0xE7, 0xCC, 0xDD, 0x06, 0x91, 0xB4, 0x3E,
 	];
 
-	helper(S, BASE, 19778);
+	helper(S, BASE, 19_778);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_729318_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_729_318_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_729318_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_729_318_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x09, 0x0C, 0x0A, 0x20, 0x0C, 0x20, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94,
 		0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94, 0x94,
@@ -27135,12 +27135,12 @@ fn s_has_whitespaces_and_zeros_and_729318_in_base_11_and_insignificant_bytes() {
 		0x94, 0x17, 0xF1, 0xA0, 0x52, 0x59, 0xC0, 0x6C, 0x53, 0xDE, 0x3B,
 	];
 
-	helper(S, BASE, 729318);
+	helper(S, BASE, 729_318);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8458766_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_8_458_766_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_8458766_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_8_458_766_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0A, 0x0C, 0x09, 0x0B, 0x0C, 0x0B, 0x0A, 0x0D, 0x0B, 0x20, 0xF3, 0xF3, 0xF3,
 		0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3, 0xF3,
@@ -27152,12 +27152,12 @@ fn s_has_whitespaces_and_zeros_and_8458766_in_base_11_and_insignificant_bytes() 
 		0xF3, 0x68, 0xC5, 0xB3, 0x3B, 0xC0, 0xE1, 0xDF, 0xD5, 0x2F, 0x1F,
 	];
 
-	helper(S, BASE, 8458766);
+	helper(S, BASE, 8_458_766);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_59440632_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_59_440_632_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_59440632_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_59_440_632_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x0B, 0x0A, 0x0B, 0x09, 0x0A, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
 		0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9, 0x43, 0xC9,
@@ -27169,12 +27169,12 @@ fn s_has_whitespaces_and_zeros_and_59440632_in_base_11_and_insignificant_bytes()
 		0xC9, 0x92, 0xD2, 0x43, 0x1A, 0xE5, 0x1C, 0x91, 0x66, 0x90, 0xF7,
 	];
 
-	helper(S, BASE, 59440632);
+	helper(S, BASE, 59_440_632);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_570140084_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_570_140_084_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_570140084_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_570_140_084_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0A, 0x0D, 0x0D, 0x0A, 0x09, 0x0A, 0x0D, 0x0A, 0x0C, 0x09, 0x20, 0x0A, 0x09,
 		0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1,
@@ -27187,7 +27187,7 @@ fn s_has_whitespaces_and_zeros_and_570140084_in_base_11_and_insignificant_bytes(
 		0xB1, 0x34, 0x7D, 0x8B, 0xF8, 0x89, 0x07, 0x90, 0x55, 0xAA, 0x47,
 	];
 
-	helper(S, BASE, 570140084);
+	helper(S, BASE, 570_140_084);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_5_in_base_13_and_insignificant_bytes
@@ -27240,9 +27240,9 @@ fn s_has_whitespaces_and_zeros_and_793_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 793);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8849_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_8_849_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_8849_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_8_849_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0A, 0x20, 0x0B, 0x0D, 0x0A, 0x0A, 0x0A, 0x0C, 0x0A, 0x0A, 0x0C, 0x20, 0x0D,
 		0x0A, 0x0D, 0x0B, 0x0B, 0x0D, 0x0D, 0x0C, 0x0B, 0x0C, 0x0D, 0x0B, 0x09, 0x09, 0x0C, 0x09,
@@ -27256,12 +27256,12 @@ fn s_has_whitespaces_and_zeros_and_8849_in_base_13_and_insignificant_bytes() {
 		0x45, 0x1A, 0x61, 0x26, 0xF2, 0x54, 0xCB, 0x65, 0x97, 0x89, 0x78, 0x91, 0xB2,
 	];
 
-	helper(S, BASE, 8849);
+	helper(S, BASE, 8_849);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_19007_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_19_007_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_19007_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_19_007_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0D, 0x0D, 0x20, 0x0C, 0x09, 0x0D, 0x0D, 0x0D, 0x0B, 0x0A, 0x0A, 0x0B, 0x09, 0x0A,
 		0x09, 0x0B, 0x09, 0x0B, 0x0A, 0x0A, 0x0A, 0x0B, 0x20, 0x0D, 0x0A, 0x0A, 0x20, 0x0C, 0x0A,
@@ -27276,12 +27276,12 @@ fn s_has_whitespaces_and_zeros_and_19007_in_base_13_and_insignificant_bytes() {
 		0x68, 0xA6, 0xB7, 0xB1, 0x75, 0xBE, 0x58, 0xC4, 0xB4, 0xE9, 0x7B, 0x7D, 0xC1,
 	];
 
-	helper(S, BASE, 19007);
+	helper(S, BASE, 19_007);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_226217_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_226_217_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_226217_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_226_217_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x09, 0x09, 0x20, 0x0A, 0x0A, 0x0C, 0x0B, 0x0B, 0x0B, 0x20, 0x0B, 0x09, 0x0A, 0x09,
 		0x09, 0x0D, 0x0D, 0x0D, 0x20, 0x0D, 0x09, 0x20, 0x09, 0x0A, 0xC9, 0xC9, 0xC9, 0xC9, 0xC9,
@@ -27294,12 +27294,12 @@ fn s_has_whitespaces_and_zeros_and_226217_in_base_13_and_insignificant_bytes() {
 		0xC9, 0x5D, 0x38, 0x9B, 0x05, 0xD5, 0xEE, 0x79, 0xEB, 0xCC, 0x70, 0x45, 0xFD,
 	];
 
-	helper(S, BASE, 226217);
+	helper(S, BASE, 226_217);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3959410_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_3_959_410_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_3959410_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_3_959_410_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x0D, 0x0C, 0x0D, 0x0D, 0x0D, 0x0C, 0x0B, 0x0A, 0x0C, 0x0B, 0x0B, 0x0D, 0x0B,
 		0x0B, 0x20, 0x09, 0x0C, 0x0C, 0x0B, 0x09, 0x0A, 0x0B, 0x0B, 0x0A, 0x09, 0x09, 0x0D, 0x0B,
@@ -27312,12 +27312,12 @@ fn s_has_whitespaces_and_zeros_and_3959410_in_base_13_and_insignificant_bytes() 
 		0x54, 0x4A, 0x74, 0xFE, 0x98, 0x5D, 0x5A, 0x81, 0xD5, 0x4F, 0x42, 0x26, 0x9F,
 	];
 
-	helper(S, BASE, 3959410);
+	helper(S, BASE, 3_959_410);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_19373368_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_19_373_368_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_19373368_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_19_373_368_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0C, 0x0B, 0x0D, 0x20, 0x0B, 0x0B, 0x09, 0x0D, 0x20, 0x0B, 0x0C, 0x20, 0x20,
 		0x0D, 0x09, 0x20, 0x0A, 0x09, 0x09, 0x09, 0x0A, 0x0A, 0x0C, 0x0A, 0x0D, 0x0A, 0x0D, 0x84,
@@ -27329,12 +27329,12 @@ fn s_has_whitespaces_and_zeros_and_19373368_in_base_13_and_insignificant_bytes()
 		0x84, 0x64, 0x26, 0x16, 0xB5, 0x3A, 0x27, 0xB3, 0x70, 0xBB, 0x3D, 0x3F, 0xF3,
 	];
 
-	helper(S, BASE, 19373368);
+	helper(S, BASE, 19_373_368);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_834622072_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_834_622_072_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_834622072_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_834_622_072_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x09, 0x0A, 0x09, 0x0A, 0x0D, 0x0B, 0x09, 0x20, 0x0D, 0x0D, 0x0C, 0x0C, 0x0D,
 		0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD, 0xAD,
@@ -27346,7 +27346,7 @@ fn s_has_whitespaces_and_zeros_and_834622072_in_base_13_and_insignificant_bytes(
 		0xAD, 0x2E, 0x68, 0x60, 0x83, 0x1F, 0xC9, 0x91, 0x10, 0xF1, 0xDC, 0xEF, 0xE3,
 	];
 
-	helper(S, BASE, 834622072);
+	helper(S, BASE, 834_622_072);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_9_in_base_19_and_insignificant_bytes
@@ -27397,9 +27397,9 @@ fn s_has_whitespaces_and_zeros_and_768_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 768);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_8149_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_8_149_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_8149_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_8_149_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0D, 0x0D, 0x20, 0x0A, 0x20, 0x20, 0x0D, 0x09, 0x20, 0x09, 0x20, 0x0A, 0x20,
 		0x20, 0x0A, 0x09, 0x09, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0xFA, 0x19, 0xA6, 0x40,
@@ -27410,12 +27410,12 @@ fn s_has_whitespaces_and_zeros_and_8149_in_base_19_and_insignificant_bytes() {
 		0xB7, 0xA0, 0x16, 0x71,
 	];
 
-	helper(S, BASE, 8149);
+	helper(S, BASE, 8_149);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_91678_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_91_678_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_91678_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_91_678_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0C, 0x0D, 0x0A, 0x20, 0x0B, 0x09, 0x0C, 0x20, 0x09, 0x0C, 0x0D, 0x0D, 0x0B, 0x0A,
 		0x20, 0x0A, 0x0C, 0x20, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0x60, 0x66, 0xF7, 0x9F,
@@ -27427,12 +27427,12 @@ fn s_has_whitespaces_and_zeros_and_91678_in_base_19_and_insignificant_bytes() {
 		0x91, 0x28, 0x2A, 0xF7,
 	];
 
-	helper(S, BASE, 91678);
+	helper(S, BASE, 91_678);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_953815_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_953_815_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_953815_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_953_815_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0D, 0x0B, 0x0A, 0x0D, 0x0D, 0x0A, 0x20, 0x0A, 0x0C, 0x6C, 0x6C, 0x6C, 0x6C,
 		0x6C, 0x6C, 0x6C, 0x6C, 0x6C, 0x6C, 0x6C, 0x6C, 0x6C, 0xF8, 0x15, 0xC1, 0x1A, 0x7B, 0xEC,
@@ -27444,12 +27444,12 @@ fn s_has_whitespaces_and_zeros_and_953815_in_base_19_and_insignificant_bytes() {
 		0x7B, 0x5F, 0xE0, 0xBE,
 	];
 
-	helper(S, BASE, 953815);
+	helper(S, BASE, 953_815);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_2243801_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_2_243_801_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_2243801_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_2_243_801_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0B, 0x0D, 0x0B, 0x09, 0x20, 0x0B, 0x20, 0x0D, 0x0A, 0x09, 0x20, 0x0D, 0x0D,
 		0x20, 0x20, 0x0A, 0x20, 0x0C, 0x0A, 0x0B, 0x0B, 0x0B, 0x0C, 0x0A, 0x0A, 0x0B, 0x0B, 0x09,
@@ -27463,12 +27463,12 @@ fn s_has_whitespaces_and_zeros_and_2243801_in_base_19_and_insignificant_bytes() 
 		0xED, 0xFE, 0x2A, 0xCE,
 	];
 
-	helper(S, BASE, 2243801);
+	helper(S, BASE, 2_243_801);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_12347353_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_12_347_353_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_12347353_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_12_347_353_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0B, 0x0D, 0x0B, 0x0D, 0x0B, 0x0A, 0x20, 0x0A, 0x20, 0x0A, 0x0B, 0x67, 0x67,
 		0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67, 0x67,
@@ -27481,12 +27481,12 @@ fn s_has_whitespaces_and_zeros_and_12347353_in_base_19_and_insignificant_bytes()
 		0xA6, 0xA9, 0x57, 0x51,
 	];
 
-	helper(S, BASE, 12347353);
+	helper(S, BASE, 12_347_353);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_705839344_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_705_839_344_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_705839344_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_705_839_344_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0C, 0x0B, 0x0A, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25,
 		0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25, 0x25,
@@ -27498,7 +27498,7 @@ fn s_has_whitespaces_and_zeros_and_705839344_in_base_19_and_insignificant_bytes(
 		0x4B, 0x79, 0x13, 0x59,
 	];
 
-	helper(S, BASE, 705839344);
+	helper(S, BASE, 705_839_344);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_9_in_base_42_and_insignificant_bytes
@@ -27556,9 +27556,9 @@ fn s_has_whitespaces_and_zeros_and_529_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 529);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_3762_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_3_762_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_3762_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_3_762_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x09, 0x09, 0x09, 0x0A, 0x20, 0x0A, 0x0D, 0x0A, 0x0C, 0x0C, 0x09, 0x09, 0x0C,
 		0x0B, 0x0C, 0x0C, 0x0A, 0x0A, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F, 0x3F,
@@ -27571,12 +27571,12 @@ fn s_has_whitespaces_and_zeros_and_3762_in_base_42_and_insignificant_bytes() {
 		0xE9, 0x55, 0x2E, 0x1D, 0xA6, 0xC3, 0x4E, 0xD3, 0x95, 0xE6, 0x32, 0x50,
 	];
 
-	helper(S, BASE, 3762);
+	helper(S, BASE, 3_762);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_40275_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_40_275_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_40275_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_40_275_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x0D, 0x0A, 0x0A, 0x0B, 0x20, 0x0A, 0x20, 0x0A, 0x0B, 0x20, 0x0A, 0x09, 0x09,
 		0x20, 0x0D, 0x09, 0x0C, 0x0B, 0x0C, 0x0A, 0x20, 0x0C, 0x0D, 0x0C, 0x0A, 0x20, 0x0A, 0x0D,
@@ -27592,12 +27592,12 @@ fn s_has_whitespaces_and_zeros_and_40275_in_base_42_and_insignificant_bytes() {
 		0x41, 0x54, 0x21, 0xF8, 0xA1, 0xE9, 0x97, 0x5F, 0x19, 0x38, 0x75, 0x95,
 	];
 
-	helper(S, BASE, 40275);
+	helper(S, BASE, 40_275);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_435482_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_435_482_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_435482_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_435_482_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0C, 0x0B, 0x0A, 0x0A, 0x0B, 0x0C, 0x0A, 0x20, 0x0C, 0x0D, 0x0D, 0x09, 0x09,
 		0x0B, 0x0A, 0x0B, 0x0B, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0xE8, 0xAD, 0x45,
@@ -27609,12 +27609,12 @@ fn s_has_whitespaces_and_zeros_and_435482_in_base_42_and_insignificant_bytes() {
 		0x1F, 0xA7, 0x4C, 0x9B, 0xF4, 0xAB, 0x45, 0xA4, 0x3C, 0x81, 0xE7, 0x05,
 	];
 
-	helper(S, BASE, 435482);
+	helper(S, BASE, 435_482);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_7656549_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_7_656_549_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_7656549_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_7_656_549_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x20, 0x0B, 0x0B, 0x0B, 0x0D, 0x0B, 0x0B, 0x09, 0x0B, 0x20, 0x20, 0x09, 0x0C,
 		0x0A, 0x09, 0x09, 0x0D, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6,
@@ -27628,12 +27628,12 @@ fn s_has_whitespaces_and_zeros_and_7656549_in_base_42_and_insignificant_bytes() 
 		0x67, 0x04, 0x77, 0xBD, 0x2C, 0xC9, 0x01, 0xAD, 0x1A, 0xD8, 0x98, 0xE1,
 	];
 
-	helper(S, BASE, 7656549);
+	helper(S, BASE, 7_656_549);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_90972553_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_90_972_553_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_90972553_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_90_972_553_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x20, 0x0D, 0x0B, 0x20, 0x0B, 0x09, 0x0C, 0x20, 0x20, 0x0B, 0x0C, 0x0B, 0x20,
 		0x09, 0x09, 0x0C, 0x20, 0x0D, 0x0C, 0x0B, 0x0A, 0x0C, 0x0B, 0x0D, 0x0B, 0x0A, 0x20, 0x0D,
@@ -27648,12 +27648,12 @@ fn s_has_whitespaces_and_zeros_and_90972553_in_base_42_and_insignificant_bytes()
 		0x41, 0x6F, 0x6D, 0x9E, 0xF4, 0xE5, 0x94, 0x39, 0x26, 0x89, 0x75, 0x4D,
 	];
 
-	helper(S, BASE, 90972553);
+	helper(S, BASE, 90_972_553);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_320243422_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_320_243_422_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_320243422_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_320_243_422_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x09, 0x20, 0x0B, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA, 0xDA,
 		0xD2, 0xFF, 0xF9, 0xF8, 0x06, 0x76, 0xFB, 0xE2, 0xD9, 0xAA, 0x6C, 0x54, 0x44, 0x4E, 0x4C,
@@ -27665,7 +27665,7 @@ fn s_has_whitespaces_and_zeros_and_320243422_in_base_42_and_insignificant_bytes(
 		0x79, 0xDD, 0x75, 0x4F, 0xF2, 0x72, 0xAC, 0x06, 0xF9, 0x7C, 0x8A, 0xE4,
 	];
 
-	helper(S, BASE, 320243422);
+	helper(S, BASE, 320_243_422);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_5_in_base_73_and_insignificant_bytes
@@ -27734,9 +27734,9 @@ fn s_has_whitespaces_and_zeros_and_870_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 870);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1437_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_1_437_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_1437_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_1_437_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0C, 0x20, 0x20, 0x09, 0x0B, 0x0A, 0x0C, 0x0C, 0x73, 0x73, 0x73, 0x73, 0x73,
 		0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73, 0x73,
@@ -27751,12 +27751,12 @@ fn s_has_whitespaces_and_zeros_and_1437_in_base_73_and_insignificant_bytes() {
 		0x6D, 0x16, 0xD7, 0xB9, 0xC2, 0xEF, 0xED, 0x7C, 0x63, 0x84, 0x75, 0x59, 0x99,
 	];
 
-	helper(S, BASE, 1437);
+	helper(S, BASE, 1_437);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_51570_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_51_570_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_51570_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_51_570_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x20, 0x0A, 0x0B, 0x09, 0x0B, 0x0A, 0x09, 0x0C, 0x0D, 0x0D, 0x20, 0x0C,
 		0x0C, 0x20, 0x09, 0x0A, 0x09, 0x0D, 0x3C, 0x3C, 0x3C, 0x3C, 0x3C, 0x3C, 0x3C, 0x3C, 0x3C,
@@ -27771,12 +27771,12 @@ fn s_has_whitespaces_and_zeros_and_51570_in_base_73_and_insignificant_bytes() {
 		0x9D, 0x1D, 0xE9, 0x89, 0x45, 0x69, 0xFF, 0xB3, 0x4D, 0x81, 0x07, 0x9A, 0xEB,
 	];
 
-	helper(S, BASE, 51570);
+	helper(S, BASE, 51_570);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_201925_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_201_925_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_201925_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_201_925_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x09, 0x0D, 0x0B, 0x0C, 0x0B, 0x0B, 0x20, 0x0B, 0x20, 0x20, 0x0B, 0x0B, 0x0A,
 		0x0D, 0x09, 0x0D, 0x0D, 0x0A, 0x09, 0x0C, 0x0D, 0x0B, 0x20, 0x20, 0x0B, 0x0D, 0x0B, 0x0B,
@@ -27794,12 +27794,12 @@ fn s_has_whitespaces_and_zeros_and_201925_in_base_73_and_insignificant_bytes() {
 		0x3C, 0x1C, 0x55, 0xC3, 0x5E, 0x3F, 0x3D, 0xE6, 0x04, 0x33, 0x3A, 0x3B, 0xB7,
 	];
 
-	helper(S, BASE, 201925);
+	helper(S, BASE, 201_925);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_5516809_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_5_516_809_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_5516809_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_5_516_809_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x09, 0x09, 0x0A, 0x20, 0x20, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2,
 		0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2,
@@ -27814,12 +27814,12 @@ fn s_has_whitespaces_and_zeros_and_5516809_in_base_73_and_insignificant_bytes() 
 		0xD3, 0xBF, 0xCB, 0xC0, 0xD8, 0x36, 0x9F, 0x08, 0x0E, 0x1D, 0xDF, 0x35, 0x8A,
 	];
 
-	helper(S, BASE, 5516809);
+	helper(S, BASE, 5_516_809);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_84139142_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_84_139_142_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_84139142_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_84_139_142_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0B, 0x0B, 0x0D, 0x0C, 0x09, 0x09, 0x0D, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E,
 		0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E, 0x1E,
@@ -27833,12 +27833,12 @@ fn s_has_whitespaces_and_zeros_and_84139142_in_base_73_and_insignificant_bytes()
 		0x36, 0xEB, 0x74, 0x9E, 0xDA, 0x8C, 0xB3, 0xDB, 0x06, 0x46, 0xC1, 0x13, 0x66,
 	];
 
-	helper(S, BASE, 84139142);
+	helper(S, BASE, 84_139_142);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_511005008_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_511_005_008_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_511005008_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_511_005_008_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0A, 0x0C, 0x20, 0x0D, 0x0D, 0x0B, 0x09, 0x0C, 0x20, 0x0C, 0x0D, 0x0C, 0x0C,
 		0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C, 0x4C,
@@ -27855,7 +27855,7 @@ fn s_has_whitespaces_and_zeros_and_511005008_in_base_73_and_insignificant_bytes(
 		0xF6, 0xCE, 0x96, 0xC8, 0x98, 0xD8, 0xF3, 0xD3, 0xD2, 0xBB, 0x7E, 0x84, 0x3D,
 	];
 
-	helper(S, BASE, 511005008);
+	helper(S, BASE, 511_005_008);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_4_in_base_113_and_insignificant_bytes
@@ -27935,9 +27935,9 @@ fn s_has_whitespaces_and_zeros_and_810_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 810);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_4940_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_4_940_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_4940_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_4_940_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x20, 0x0A, 0x09, 0x0D, 0x0B, 0x0A, 0x0B, 0x0C, 0x09, 0x09, 0x0B, 0x0D,
 		0x0A, 0x20, 0x20, 0x20, 0x0D, 0x0D, 0x09, 0x0C, 0x0A, 0x0D, 0x20, 0x0B, 0x0D, 0x0B, 0x0D,
@@ -27959,12 +27959,12 @@ fn s_has_whitespaces_and_zeros_and_4940_in_base_113_and_insignificant_bytes() {
 		0xFB, 0xAF, 0x2F, 0x73, 0x62, 0x10, 0xFA, 0xBC,
 	];
 
-	helper(S, BASE, 4940);
+	helper(S, BASE, 4_940);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_39648_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_39_648_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_39648_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_39_648_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x20, 0x0A, 0x0C, 0x0C, 0x20, 0x0D, 0x0D, 0x0C, 0x0B, 0x20, 0x0D, 0x20, 0x0D,
 		0x0B, 0x0C, 0x0A, 0x0C, 0x0C, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D, 0x3D,
@@ -27983,12 +27983,12 @@ fn s_has_whitespaces_and_zeros_and_39648_in_base_113_and_insignificant_bytes() {
 		0x93, 0xC3, 0xE8, 0x94, 0x72, 0x6B, 0x19, 0xEC,
 	];
 
-	helper(S, BASE, 39648);
+	helper(S, BASE, 39_648);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_226996_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_226_996_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_226996_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_226_996_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0A, 0x09, 0x20, 0x0B, 0x0A, 0x20, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F,
 		0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F,
@@ -28007,12 +28007,12 @@ fn s_has_whitespaces_and_zeros_and_226996_in_base_113_and_insignificant_bytes() 
 		0x98, 0x38, 0xAB, 0x5A, 0xB6, 0x16, 0xDC, 0xB4,
 	];
 
-	helper(S, BASE, 226996);
+	helper(S, BASE, 226_996);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_1981727_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_1_981_727_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_1981727_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_1_981_727_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x09, 0x20, 0x0B, 0x20, 0x0C, 0x09, 0x0B, 0x0C, 0x20, 0x0D, 0x20, 0x0B,
 		0x0B, 0x0D, 0x20, 0x0C, 0x0D, 0x0D, 0x90, 0x90, 0x90, 0x90, 0x90, 0x90, 0x38, 0xC5, 0x12,
@@ -28029,12 +28029,12 @@ fn s_has_whitespaces_and_zeros_and_1981727_in_base_113_and_insignificant_bytes()
 		0x45, 0x1C, 0x6C, 0xEE, 0x7F, 0xD4, 0xE3, 0x88,
 	];
 
-	helper(S, BASE, 1981727);
+	helper(S, BASE, 1_981_727);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_95346228_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_95_346_228_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_95346228_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_95_346_228_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0A, 0x0B, 0x0B, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03,
 		0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03,
@@ -28052,12 +28052,12 @@ fn s_has_whitespaces_and_zeros_and_95346228_in_base_113_and_insignificant_bytes(
 		0x36, 0x6D, 0xD5, 0x7C, 0xF2, 0xA7, 0x4A, 0xED,
 	];
 
-	helper(S, BASE, 95346228);
+	helper(S, BASE, 95_346_228);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_488921406_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_488_921_406_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_488921406_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_488_921_406_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0C, 0x20, 0x0D, 0x09, 0x0C, 0x20, 0x0A, 0x0B, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D,
 		0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6D, 0x6F, 0xEE, 0xC4,
@@ -28076,7 +28076,7 @@ fn s_has_whitespaces_and_zeros_and_488921406_in_base_113_and_insignificant_bytes
 		0xAF, 0xC1, 0xE9, 0x78, 0xED, 0x7E, 0xD1, 0xEE,
 	];
 
-	helper(S, BASE, 488921406);
+	helper(S, BASE, 488_921_406);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_3_in_base_193_and_insignificant_bytes
@@ -28166,9 +28166,9 @@ fn s_has_whitespaces_and_zeros_and_565_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 565);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_7015_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_7_015_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_7015_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_7_015_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0B, 0x57, 0x95, 0x02, 0x6C, 0x50, 0x70, 0x74, 0xC9, 0x0F, 0x20, 0xB2, 0xE5,
 		0xE9,
@@ -28189,12 +28189,12 @@ fn s_has_whitespaces_and_zeros_and_7015_in_base_193_and_insignificant_bytes() {
 		0x5E, 0xFA, 0xF9, 0xB6, 0x79, 0x85, 0xDE, 0xAD, 0xFF, 0x90, 0x34, 0x59, 0x1F,
 	];
 
-	helper(S, BASE, 7015);
+	helper(S, BASE, 7_015);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_72378_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_72_378_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_72378_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_72_378_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x09, 0x20, 0x0A, 0x0C, 0x20, 0x0B, 0x0B, 0x20, 0x0D, 0x0B, 0x0C, 0x0C, 0x0B,
 		0x0A, 0x0A, 0x0B, 0x09, 0x0D, 0x0D, 0x0C, 0x0A, 0x20, 0x0D, 0x0A, 0x0B, 0x09, 0x09, 0x09,
@@ -28218,12 +28218,12 @@ fn s_has_whitespaces_and_zeros_and_72378_in_base_193_and_insignificant_bytes() {
 		0x7E, 0x33, 0x19, 0x68, 0x41, 0x92, 0xCE, 0xFB, 0xB9, 0xB4, 0xAB, 0xFC, 0x08,
 	];
 
-	helper(S, BASE, 72378);
+	helper(S, BASE, 72_378);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_885209_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_885_209_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_885209_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_885_209_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0C, 0x0B, 0x0A, 0x20, 0x09, 0x0C, 0x0D, 0x20, 0x20, 0x20, 0x20, 0x0B, 0x0C,
 		0x0C, 0x0A, 0x0C, 0x0B, 0x0C, 0x0A, 0x09, 0x09, 0x0B, 0x0B, 0x20, 0x0C, 0x0C, 0x0D, 0x82,
@@ -28247,12 +28247,12 @@ fn s_has_whitespaces_and_zeros_and_885209_in_base_193_and_insignificant_bytes() 
 		0x9B, 0x6B, 0x8C, 0x64, 0xA1, 0xB6, 0x70, 0xC1, 0x13, 0xD7, 0x40, 0x7F, 0xFC,
 	];
 
-	helper(S, BASE, 885209);
+	helper(S, BASE, 885_209);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6833222_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_833_222_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6833222_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_833_222_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0D, 0x0D, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F,
 		0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0x6F, 0xCA, 0xDC, 0xDE, 0xF7, 0x4A, 0x87, 0xBF, 0x11,
@@ -28275,12 +28275,12 @@ fn s_has_whitespaces_and_zeros_and_6833222_in_base_193_and_insignificant_bytes()
 		0xD7, 0xA1, 0xB9, 0xCA, 0x04, 0x7E, 0x6C, 0xD1, 0x1E, 0x12, 0x57, 0x80, 0x81,
 	];
 
-	helper(S, BASE, 6833222);
+	helper(S, BASE, 6_833_222);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_35882975_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_35_882_975_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_35882975_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_35_882_975_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x20, 0x0C, 0x0C, 0x09, 0x0D, 0x0D, 0x09, 0x0B, 0x09, 0x09, 0x09, 0x20, 0x0D,
 		0x0C, 0x20, 0x20, 0x0B, 0x0B, 0x0B, 0x0B, 0x0A, 0x0B, 0x0A, 0x09, 0x0D, 0x0C, 0x0D, 0x0B,
@@ -28304,12 +28304,12 @@ fn s_has_whitespaces_and_zeros_and_35882975_in_base_193_and_insignificant_bytes(
 		0x4E, 0xCA, 0x9F, 0x81, 0xA0, 0xB9, 0x71, 0x21, 0x84, 0xF9, 0xBC, 0xE3, 0xCF,
 	];
 
-	helper(S, BASE, 35882975);
+	helper(S, BASE, 35_882_975);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_427416824_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_427_416_824_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_427416824_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_427_416_824_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0A, 0x0D, 0x0C, 0x0B, 0x0B, 0x09, 0x09, 0x09, 0x0A, 0x20, 0x09, 0x0B, 0x0B,
 		0x0D, 0x20, 0x09, 0x0B, 0x20, 0x09, 0x0C, 0x0C, 0x0D, 0x0C, 0x20, 0x20, 0x20, 0x0B, 0x0B,
@@ -28334,7 +28334,7 @@ fn s_has_whitespaces_and_zeros_and_427416824_in_base_193_and_insignificant_bytes
 		0x17, 0x5B, 0x74, 0x94, 0xF4, 0x8A, 0xFA, 0x3B, 0xE1, 0x3A, 0x7E, 0x42, 0x03,
 	];
 
-	helper(S, BASE, 427416824);
+	helper(S, BASE, 427_416_824);
 }
 // endregion
 // region: s_has_whitespaces_and_zeros_and_1_in_base_247_and_insignificant_bytes
@@ -28439,9 +28439,9 @@ fn s_has_whitespaces_and_zeros_and_467_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 467);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_9608_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_9_608_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_9608_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_9_608_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x20, 0x0D, 0x0B, 0x0D, 0x0A, 0x09, 0x0D, 0x09, 0x20, 0x0C, 0x0C, 0x09, 0x0A,
 		0x0D, 0x0A, 0x0A, 0x0D, 0x20, 0x09, 0x20, 0x0B, 0x0A, 0x0C, 0x0A, 0x0A, 0x09, 0x20, 0x09,
@@ -28470,12 +28470,12 @@ fn s_has_whitespaces_and_zeros_and_9608_in_base_247_and_insignificant_bytes() {
 		0xE8, 0xF8, 0x1B, 0xC6, 0xE6, 0xC5, 0x06,
 	];
 
-	helper(S, BASE, 9608);
+	helper(S, BASE, 9_608);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_20030_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_20_030_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_20030_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_20_030_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x09, 0x20, 0x0B, 0x0C, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
 		0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6, 0xB6,
@@ -28501,12 +28501,12 @@ fn s_has_whitespaces_and_zeros_and_20030_in_base_247_and_insignificant_bytes() {
 		0x18, 0xC0, 0xEA, 0x9D, 0x21, 0xCF, 0x97,
 	];
 
-	helper(S, BASE, 20030);
+	helper(S, BASE, 20_030);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_574986_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_574_986_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_574986_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_574_986_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0B, 0x09, 0x0D, 0x0B, 0x0A, 0x0C, 0x0A, 0x0B, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7,
 		0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7, 0xC7,
@@ -28533,12 +28533,12 @@ fn s_has_whitespaces_and_zeros_and_574986_in_base_247_and_insignificant_bytes() 
 		0xC3, 0xCB, 0xCD, 0x1D, 0x60, 0x9F, 0x35,
 	];
 
-	helper(S, BASE, 574986);
+	helper(S, BASE, 574_986);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_6865585_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_6_865_585_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_6865585_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_6_865_585_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x20, 0x0B, 0x0D, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x8A, 0xE2,
 		0x63, 0x20, 0x2B, 0x20, 0x0A, 0x09, 0x20, 0x0C, 0x09, 0x0D, 0x2D, 0x2B, 0x0A, 0x09, 0x0B,
@@ -28564,12 +28564,12 @@ fn s_has_whitespaces_and_zeros_and_6865585_in_base_247_and_insignificant_bytes()
 		0x47, 0xCD, 0xDA, 0x5A, 0x6F, 0xF8, 0xC1,
 	];
 
-	helper(S, BASE, 6865585);
+	helper(S, BASE, 6_865_585);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_48210587_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_48_210_587_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_48210587_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_48_210_587_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0B, 0x0B, 0x09, 0x20, 0x0D, 0x09, 0x20, 0x0A, 0x20, 0x0D, 0x0B, 0x20, 0x0D,
 		0x09, 0x09, 0x0C, 0x0C, 0x20, 0x20, 0x0D, 0x0A, 0x0A, 0x0C, 0x20, 0x09, 0x09, 0x0C, 0x0A,
@@ -28599,12 +28599,12 @@ fn s_has_whitespaces_and_zeros_and_48210587_in_base_247_and_insignificant_bytes(
 		0xF0, 0x55, 0xB5, 0x03, 0x5D, 0x5A, 0x26,
 	];
 
-	helper(S, BASE, 48210587);
+	helper(S, BASE, 48_210_587);
 }
 // endregion
-// region: s_has_whitespaces_and_zeros_and_731674863_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_zeros_and_731_674_863_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_zeros_and_731674863_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_zeros_and_731_674_863_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0C, 0x20, 0x0C, 0x20, 0x20, 0x0C, 0x0A, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96,
 		0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0x96, 0xAD, 0x31, 0x71, 0x9A, 0x0C, 0x0A, 0x20,
@@ -28631,7 +28631,7 @@ fn s_has_whitespaces_and_zeros_and_731674863_in_base_247_and_insignificant_bytes
 		0xB2, 0xE4, 0x04, 0xA6, 0xE7, 0x44, 0x6B,
 	];
 
-	helper(S, BASE, 731674863);
+	helper(S, BASE, 731_674_863);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_1_in_base_2_and_insignificant_bytes
@@ -28685,9 +28685,9 @@ fn s_has_signs_and_zeros_and_819_in_base_2_and_insignificant_bytes() {
 	helper(S, BASE, 819);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_3986_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_3_986_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_3986_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_3_986_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x4C, 0x4C,
@@ -28701,12 +28701,12 @@ fn s_has_signs_and_zeros_and_3986_in_base_2_and_insignificant_bytes() {
 		0x4C, 0xB5,
 	];
 
-	helper(S, BASE, 3986);
+	helper(S, BASE, 3_986);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_37016_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_37_016_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_37016_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_37_016_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0xCC,
 		0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC,
@@ -28719,12 +28719,12 @@ fn s_has_signs_and_zeros_and_37016_in_base_2_and_insignificant_bytes() {
 		0xCC, 0x7A,
 	];
 
-	helper(S, BASE, 37016);
+	helper(S, BASE, 37_016);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_662172_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_662_172_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_662172_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_662_172_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4, 0xF4,
@@ -28739,12 +28739,12 @@ fn s_has_signs_and_zeros_and_662172_in_base_2_and_insignificant_bytes() {
 		0xF4, 0xB4,
 	];
 
-	helper(S, BASE, 662172);
+	helper(S, BASE, 662_172);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6584425_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_6_584_425_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_6584425_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_6_584_425_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91,
@@ -28757,12 +28757,12 @@ fn s_has_signs_and_zeros_and_6584425_in_base_2_and_insignificant_bytes() {
 		0x91, 0x76,
 	];
 
-	helper(S, BASE, 6584425);
+	helper(S, BASE, 6_584_425);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_35380793_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_35_380_793_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_35380793_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_35_380_793_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85,
 		0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85, 0x85,
@@ -28776,12 +28776,12 @@ fn s_has_signs_and_zeros_and_35380793_in_base_2_and_insignificant_bytes() {
 		0x85, 0xFD,
 	];
 
-	helper(S, BASE, 35380793);
+	helper(S, BASE, 35_380_793);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_831066357_in_base_2_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_831_066_357_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_831066357_in_base_2_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_831_066_357_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -28795,7 +28795,7 @@ fn s_has_signs_and_zeros_and_831066357_in_base_2_and_insignificant_bytes() {
 		0xB1, 0x9A,
 	];
 
-	helper(S, BASE, 831066357);
+	helper(S, BASE, 831_066_357);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_4_in_base_3_and_insignificant_bytes
@@ -28849,9 +28849,9 @@ fn s_has_signs_and_zeros_and_480_in_base_3_and_insignificant_bytes() {
 	helper(S, BASE, 480);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1467_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_1_467_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_1467_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_1_467_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x4F, 0x4F, 0x4F, 0x4F,
@@ -28864,12 +28864,12 @@ fn s_has_signs_and_zeros_and_1467_in_base_3_and_insignificant_bytes() {
 		0x4F, 0x61, 0x66,
 	];
 
-	helper(S, BASE, 1467);
+	helper(S, BASE, 1_467);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_80645_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_80_645_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_80645_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_80_645_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x37, 0x37, 0x37, 0x37, 0x37, 0x37, 0x37, 0x37, 0x37,
@@ -28881,12 +28881,12 @@ fn s_has_signs_and_zeros_and_80645_in_base_3_and_insignificant_bytes() {
 		0x37, 0x2F, 0x93,
 	];
 
-	helper(S, BASE, 80645);
+	helper(S, BASE, 80_645);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_782007_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_782_007_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_782007_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_782_007_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA,
@@ -28898,12 +28898,12 @@ fn s_has_signs_and_zeros_and_782007_in_base_3_and_insignificant_bytes() {
 		0xCA, 0xB2, 0x6E,
 	];
 
-	helper(S, BASE, 782007);
+	helper(S, BASE, 782_007);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6931538_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_6_931_538_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_6931538_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_6_931_538_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -28918,12 +28918,12 @@ fn s_has_signs_and_zeros_and_6931538_in_base_3_and_insignificant_bytes() {
 		0xD9, 0x59, 0x8B,
 	];
 
-	helper(S, BASE, 6931538);
+	helper(S, BASE, 6_931_538);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_32703305_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_32_703_305_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_32703305_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_32_703_305_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x21, 0x21, 0x21, 0x21, 0x21, 0x21, 0x64, 0x21,
 		0x64, 0x9D, 0x9D, 0x9D, 0x64, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x9D, 0x64, 0xB3,
@@ -28935,12 +28935,12 @@ fn s_has_signs_and_zeros_and_32703305_in_base_3_and_insignificant_bytes() {
 		0x21, 0x9D, 0x64,
 	];
 
-	helper(S, BASE, 32703305);
+	helper(S, BASE, 32_703_305);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_571644832_in_base_3_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_571_644_832_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_571644832_in_base_3_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_571_644_832_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0x7E, 0xAD, 0xAD, 0xAD, 0x7E, 0xBA, 0xAD,
@@ -28952,7 +28952,7 @@ fn s_has_signs_and_zeros_and_571644832_in_base_3_and_insignificant_bytes() {
 		0x7E, 0xAD, 0xBA,
 	];
 
-	helper(S, BASE, 571644832);
+	helper(S, BASE, 571_644_832);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_3_in_base_5_and_insignificant_bytes
@@ -29010,9 +29010,9 @@ fn s_has_signs_and_zeros_and_818_in_base_5_and_insignificant_bytes() {
 	helper(S, BASE, 818);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1013_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_1_013_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_1013_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_1_013_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C,
@@ -29026,12 +29026,12 @@ fn s_has_signs_and_zeros_and_1013_in_base_5_and_insignificant_bytes() {
 		0x5C, 0x70, 0x88, 0xEA, 0x46,
 	];
 
-	helper(S, BASE, 1013);
+	helper(S, BASE, 1_013);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_51179_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_51_179_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_51179_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_51_179_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D,
@@ -29044,12 +29044,12 @@ fn s_has_signs_and_zeros_and_51179_in_base_5_and_insignificant_bytes() {
 		0x5D, 0x05, 0x51, 0xE3, 0x8B,
 	];
 
-	helper(S, BASE, 51179);
+	helper(S, BASE, 51_179);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_714977_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_714_977_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_714977_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_714_977_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -29062,12 +29062,12 @@ fn s_has_signs_and_zeros_and_714977_in_base_5_and_insignificant_bytes() {
 		0x79, 0x72, 0x74, 0x08, 0xF9,
 	];
 
-	helper(S, BASE, 714977);
+	helper(S, BASE, 714_977);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7248777_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_7_248_777_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_7248777_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_7_248_777_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x33,
@@ -29078,12 +29078,12 @@ fn s_has_signs_and_zeros_and_7248777_in_base_5_and_insignificant_bytes() {
 		0x33, 0xA1, 0x97, 0xD7, 0x2F,
 	];
 
-	helper(S, BASE, 7248777);
+	helper(S, BASE, 7_248_777);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_46199259_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_46_199_259_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_46199259_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_46_199_259_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x74, 0x74, 0x74, 0x74, 0x74, 0x74,
@@ -29094,12 +29094,12 @@ fn s_has_signs_and_zeros_and_46199259_in_base_5_and_insignificant_bytes() {
 		0x74, 0x4F, 0xB3, 0xF2, 0xE6,
 	];
 
-	helper(S, BASE, 46199259);
+	helper(S, BASE, 46_199_259);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_901811591_in_base_5_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_901_811_591_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_901811591_in_base_5_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_901_811_591_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D, 0x4D,
@@ -29112,7 +29112,7 @@ fn s_has_signs_and_zeros_and_901811591_in_base_5_and_insignificant_bytes() {
 		0x4D, 0x86, 0xFE, 0x54, 0xA9,
 	];
 
-	helper(S, BASE, 901811591);
+	helper(S, BASE, 901_811_591);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_7_in_base_7_and_insignificant_bytes
@@ -29171,9 +29171,9 @@ fn s_has_signs_and_zeros_and_107_in_base_7_and_insignificant_bytes() {
 	helper(S, BASE, 107);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_2831_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_2_831_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_2831_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_2_831_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB,
 		0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xFB, 0xD7, 0xD7, 0xD7, 0xF9, 0xC3,
@@ -29184,12 +29184,12 @@ fn s_has_signs_and_zeros_and_2831_in_base_7_and_insignificant_bytes() {
 		0xFB, 0xD7, 0xBC, 0xC3, 0xD2, 0xF9, 0xF2,
 	];
 
-	helper(S, BASE, 2831);
+	helper(S, BASE, 2_831);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_36013_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_36_013_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_36013_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_36_013_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0xA2, 0xA2,
@@ -29202,12 +29202,12 @@ fn s_has_signs_and_zeros_and_36013_in_base_7_and_insignificant_bytes() {
 		0xA2, 0x62, 0x8E, 0x7B, 0xF9, 0x5B, 0xAD,
 	];
 
-	helper(S, BASE, 36013);
+	helper(S, BASE, 36_013);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_856649_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_856_649_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_856649_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_856_649_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -29220,12 +29220,12 @@ fn s_has_signs_and_zeros_and_856649_in_base_7_and_insignificant_bytes() {
 		0x46, 0xBD, 0xA9, 0x70, 0xDF, 0xA5, 0xD5,
 	];
 
-	helper(S, BASE, 856649);
+	helper(S, BASE, 856_649);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_9203344_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_9_203_344_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_9203344_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_9_203_344_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
@@ -29239,12 +29239,12 @@ fn s_has_signs_and_zeros_and_9203344_in_base_7_and_insignificant_bytes() {
 		0xD0, 0x1C, 0x4F, 0xC9, 0x25, 0x77, 0x07,
 	];
 
-	helper(S, BASE, 9203344);
+	helper(S, BASE, 9_203_344);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_87640419_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_87_640_419_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_87640419_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_87_640_419_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -29257,12 +29257,12 @@ fn s_has_signs_and_zeros_and_87640419_in_base_7_and_insignificant_bytes() {
 		0xF9, 0xF4, 0x66, 0xDE, 0x23, 0xCD, 0x60,
 	];
 
-	helper(S, BASE, 87640419);
+	helper(S, BASE, 87_640_419);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_654889972_in_base_7_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_654_889_972_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_654889972_in_base_7_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_654_889_972_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x17, 0x17, 0xEC, 0xEC, 0x6A, 0xFE, 0x6A, 0x21, 0xEC,
@@ -29273,7 +29273,7 @@ fn s_has_signs_and_zeros_and_654889972_in_base_7_and_insignificant_bytes() {
 		0x17, 0x6A, 0xEC, 0x21, 0xFE, 0x5F, 0xD8,
 	];
 
-	helper(S, BASE, 654889972);
+	helper(S, BASE, 654_889_972);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_3_in_base_11_and_insignificant_bytes
@@ -29326,9 +29326,9 @@ fn s_has_signs_and_zeros_and_532_in_base_11_and_insignificant_bytes() {
 	helper(S, BASE, 532);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_4602_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_4_602_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_4602_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_4_602_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63,
 		0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x50, 0x5A, 0x63, 0x5F, 0x28, 0xF3, 0x41,
@@ -29337,12 +29337,12 @@ fn s_has_signs_and_zeros_and_4602_in_base_11_and_insignificant_bytes() {
 		0x63, 0xB0, 0xC3, 0x50, 0x5F, 0x5A, 0x72, 0x54, 0x2A, 0x1B, 0x7B,
 	];
 
-	helper(S, BASE, 4602);
+	helper(S, BASE, 4_602);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_64161_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_64_161_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_64161_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_64_161_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0xCE, 0xCE,
@@ -29355,12 +29355,12 @@ fn s_has_signs_and_zeros_and_64161_in_base_11_and_insignificant_bytes() {
 		0xCE, 0xFA, 0xE2, 0xD1, 0x5F, 0x9E, 0x26, 0x1E, 0xEB, 0x39, 0x9A,
 	];
 
-	helper(S, BASE, 64161);
+	helper(S, BASE, 64_161);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_895331_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_895_331_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_895331_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_895_331_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -29374,12 +29374,12 @@ fn s_has_signs_and_zeros_and_895331_in_base_11_and_insignificant_bytes() {
 		0x19, 0xC9, 0x8F, 0x10, 0x3F, 0x22, 0x02, 0x11, 0x64, 0x65, 0x3C,
 	];
 
-	helper(S, BASE, 895331);
+	helper(S, BASE, 895_331);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5588067_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_5_588_067_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_5588067_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_5_588_067_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D,
@@ -29394,12 +29394,12 @@ fn s_has_signs_and_zeros_and_5588067_in_base_11_and_insignificant_bytes() {
 		0x39, 0x69, 0x75, 0xBA, 0x17, 0xC0, 0x80, 0xF4, 0x6A, 0xE6, 0x9B,
 	];
 
-	helper(S, BASE, 5588067);
+	helper(S, BASE, 5_588_067);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_10717065_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_10_717_065_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_10717065_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_10_717_065_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0xFF,
@@ -29411,12 +29411,12 @@ fn s_has_signs_and_zeros_and_10717065_in_base_11_and_insignificant_bytes() {
 		0xFF, 0x70, 0x85, 0x97, 0x5F, 0x98, 0xFA, 0xD4, 0x91, 0xB8, 0xFB,
 	];
 
-	helper(S, BASE, 10717065);
+	helper(S, BASE, 10_717_065);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_870621087_in_base_11_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_870_621_087_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_870621087_in_base_11_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_870_621_087_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1, 0xB1,
@@ -29428,7 +29428,7 @@ fn s_has_signs_and_zeros_and_870621087_in_base_11_and_insignificant_bytes() {
 		0xB1, 0x55, 0x7E, 0x94, 0xC5, 0xE0, 0xE1, 0x6D, 0x83, 0x81, 0x88,
 	];
 
-	helper(S, BASE, 870621087);
+	helper(S, BASE, 870_621_087);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_8_in_base_13_and_insignificant_bytes
@@ -29482,9 +29482,9 @@ fn s_has_signs_and_zeros_and_917_in_base_13_and_insignificant_bytes() {
 	helper(S, BASE, 917);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_2457_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_2_457_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_2457_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_2_457_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x40, 0x40, 0x40,
@@ -29494,12 +29494,12 @@ fn s_has_signs_and_zeros_and_2457_in_base_13_and_insignificant_bytes() {
 		0x40, 0x76, 0xE3, 0x91, 0xA3, 0xFF, 0x6D, 0xD3, 0x15, 0x80, 0x33, 0x53, 0xAE,
 	];
 
-	helper(S, BASE, 2457);
+	helper(S, BASE, 2_457);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_48122_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_48_122_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_48122_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_48_122_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -29511,12 +29511,12 @@ fn s_has_signs_and_zeros_and_48122_in_base_13_and_insignificant_bytes() {
 		0xAB, 0x8C, 0x24, 0x62, 0x05, 0x77, 0xDB, 0xBD, 0x7B, 0xD6, 0x07, 0x14, 0xA5,
 	];
 
-	helper(S, BASE, 48122);
+	helper(S, BASE, 48_122);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_892877_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_892_877_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_892877_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_892_877_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -29531,12 +29531,12 @@ fn s_has_signs_and_zeros_and_892877_in_base_13_and_insignificant_bytes() {
 		0x2C, 0x4B, 0x5C, 0x75, 0x21, 0x61, 0x23, 0x9F, 0x68, 0xA1, 0x8E, 0x45, 0x54,
 	];
 
-	helper(S, BASE, 892877);
+	helper(S, BASE, 892_877);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_9158964_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_9_158_964_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_9158964_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_9_158_964_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0xF7,
@@ -29549,12 +29549,12 @@ fn s_has_signs_and_zeros_and_9158964_in_base_13_and_insignificant_bytes() {
 		0xF7, 0x2A, 0x6E, 0x28, 0x72, 0xC2, 0xA5, 0x08, 0x02, 0x99, 0x27, 0x9B, 0x40,
 	];
 
-	helper(S, BASE, 9158964);
+	helper(S, BASE, 9_158_964);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_48170877_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_48_170_877_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_48170877_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_48_170_877_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -29569,12 +29569,12 @@ fn s_has_signs_and_zeros_and_48170877_in_base_13_and_insignificant_bytes() {
 		0x9A, 0x19, 0x8D, 0xB3, 0x6E, 0x1A, 0x71, 0x88, 0xB1, 0xDF, 0x63, 0x8C, 0x13,
 	];
 
-	helper(S, BASE, 48170877);
+	helper(S, BASE, 48_170_877);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_162690305_in_base_13_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_162_690_305_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_162690305_in_base_13_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_162_690_305_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F,
@@ -29586,7 +29586,7 @@ fn s_has_signs_and_zeros_and_162690305_in_base_13_and_insignificant_bytes() {
 		0x4F, 0xE8, 0xB6, 0xC9, 0x26, 0x04, 0x05, 0xE4, 0xAF, 0xFC, 0xBF, 0xD0, 0xFB,
 	];
 
-	helper(S, BASE, 162690305);
+	helper(S, BASE, 162_690_305);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_2_in_base_19_and_insignificant_bytes
@@ -29644,9 +29644,9 @@ fn s_has_signs_and_zeros_and_438_in_base_19_and_insignificant_bytes() {
 	helper(S, BASE, 438);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_9054_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_9_054_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_9054_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_9_054_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1, 0xA1,
@@ -29659,12 +29659,12 @@ fn s_has_signs_and_zeros_and_9054_in_base_19_and_insignificant_bytes() {
 		0xC7, 0x46, 0x05, 0xB1,
 	];
 
-	helper(S, BASE, 9054);
+	helper(S, BASE, 9_054);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_13771_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_13_771_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_13771_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_13_771_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -29677,12 +29677,12 @@ fn s_has_signs_and_zeros_and_13771_in_base_19_and_insignificant_bytes() {
 		0x17, 0xC4, 0xF8, 0x77,
 	];
 
-	helper(S, BASE, 13771);
+	helper(S, BASE, 13_771);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_760451_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_760_451_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_760451_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_760_451_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1,
 		0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1, 0xF1,
@@ -29696,12 +29696,12 @@ fn s_has_signs_and_zeros_and_760451_in_base_19_and_insignificant_bytes() {
 		0x1C, 0x4A, 0xB5, 0x30,
 	];
 
-	helper(S, BASE, 760451);
+	helper(S, BASE, 760_451);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6035564_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_6_035_564_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_6035564_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_6_035_564_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7,
 		0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7, 0xE7,
@@ -29715,12 +29715,12 @@ fn s_has_signs_and_zeros_and_6035564_in_base_19_and_insignificant_bytes() {
 		0xC8, 0xB2, 0x96, 0x2C,
 	];
 
-	helper(S, BASE, 6035564);
+	helper(S, BASE, 6_035_564);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_10323398_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_10_323_398_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_10323398_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_10_323_398_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -29733,12 +29733,12 @@ fn s_has_signs_and_zeros_and_10323398_in_base_19_and_insignificant_bytes() {
 		0xF0, 0xBA, 0xEF, 0x55,
 	];
 
-	helper(S, BASE, 10323398);
+	helper(S, BASE, 10_323_398);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_308826155_in_base_19_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_308_826_155_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_308826155_in_base_19_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_308_826_155_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -29753,7 +29753,7 @@ fn s_has_signs_and_zeros_and_308826155_in_base_19_and_insignificant_bytes() {
 		0x41, 0x2E, 0xA7, 0x53,
 	];
 
-	helper(S, BASE, 308826155);
+	helper(S, BASE, 308_826_155);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_5_in_base_42_and_insignificant_bytes
@@ -29811,9 +29811,9 @@ fn s_has_signs_and_zeros_and_890_in_base_42_and_insignificant_bytes() {
 	helper(S, BASE, 890);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_9689_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_9_689_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_9689_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_9_689_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2B, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xA2, 0xC2, 0xDB, 0x6F, 0x43, 0x96,
@@ -29827,12 +29827,12 @@ fn s_has_signs_and_zeros_and_9689_in_base_42_and_insignificant_bytes() {
 		0xB0, 0xAE, 0x55, 0xA8, 0xB9, 0x82, 0x9F, 0x15, 0xBC, 0x6B, 0xEA, 0x02,
 	];
 
-	helper(S, BASE, 9689);
+	helper(S, BASE, 9_689);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_82785_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_82_785_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_82785_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_82_785_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x1E, 0x1E,
@@ -29847,12 +29847,12 @@ fn s_has_signs_and_zeros_and_82785_in_base_42_and_insignificant_bytes() {
 		0x08, 0x07, 0xAD, 0x22, 0x33, 0x15, 0xA5, 0xBD, 0x8A, 0x2C, 0x6A, 0x59,
 	];
 
-	helper(S, BASE, 82785);
+	helper(S, BASE, 82_785);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_595198_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_595_198_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_595198_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_595_198_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F,
 		0x0F, 0x0F, 0x0F, 0x0F, 0xB2, 0x52, 0xF8, 0x03, 0x7B, 0x9C, 0x6B, 0x62, 0xF9, 0x83, 0xFB,
@@ -29866,12 +29866,12 @@ fn s_has_signs_and_zeros_and_595198_in_base_42_and_insignificant_bytes() {
 		0xD5, 0xC7, 0xF3, 0x42, 0x77, 0x27, 0x1D, 0xBD, 0xCB, 0xF0, 0x6E, 0x55,
 	];
 
-	helper(S, BASE, 595198);
+	helper(S, BASE, 595_198);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_6822520_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_6_822_520_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_6822520_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_6_822_520_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F,
@@ -29885,12 +29885,12 @@ fn s_has_signs_and_zeros_and_6822520_in_base_42_and_insignificant_bytes() {
 		0x17, 0x83, 0xE1, 0xAD, 0xEC, 0x8A, 0xAC, 0x10, 0x03, 0x4B, 0xF7, 0xAB,
 	];
 
-	helper(S, BASE, 6822520);
+	helper(S, BASE, 6_822_520);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_12288978_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_12_288_978_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_12288978_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_12_288_978_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0xCA, 0x5C, 0xDD, 0xE3, 0xBB,
 		0xA5, 0x03, 0x66, 0xA7, 0xAD, 0xF9, 0x0A, 0x16, 0x43, 0x16, 0xA7, 0xA2, 0x84, 0x0C, 0xF9,
@@ -29902,12 +29902,12 @@ fn s_has_signs_and_zeros_and_12288978_in_base_42_and_insignificant_bytes() {
 		0xA5, 0x01, 0x6D, 0xC2, 0x1B, 0x1F, 0xE3, 0xB8, 0xC5, 0xDD, 0x36, 0xB2,
 	];
 
-	helper(S, BASE, 12288978);
+	helper(S, BASE, 12_288_978);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_513337310_in_base_42_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_513_337_310_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_513337310_in_base_42_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_513_337_310_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63, 0x63,
@@ -29922,7 +29922,7 @@ fn s_has_signs_and_zeros_and_513337310_in_base_42_and_insignificant_bytes() {
 		0xDC, 0xCE, 0x36, 0x11, 0x79, 0x43, 0xC4, 0x6D, 0x68, 0x86, 0x58, 0xD7,
 	];
 
-	helper(S, BASE, 513337310);
+	helper(S, BASE, 513_337_310);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_4_in_base_73_and_insignificant_bytes
@@ -29989,9 +29989,9 @@ fn s_has_signs_and_zeros_and_813_in_base_73_and_insignificant_bytes() {
 	helper(S, BASE, 813);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1509_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_1_509_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_1509_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_1_509_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -30007,12 +30007,12 @@ fn s_has_signs_and_zeros_and_1509_in_base_73_and_insignificant_bytes() {
 		0xA9, 0xBB, 0x82, 0xCF, 0x1D, 0x44, 0xF0, 0xF1, 0x68, 0xCE, 0xDC, 0x6E, 0x89,
 	];
 
-	helper(S, BASE, 1509);
+	helper(S, BASE, 1_509);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_41529_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_41_529_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_41529_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_41_529_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -30029,12 +30029,12 @@ fn s_has_signs_and_zeros_and_41529_in_base_73_and_insignificant_bytes() {
 		0xF1, 0x5F, 0x3B, 0x16, 0xCC, 0x26, 0xF7, 0x86, 0xDA, 0x64, 0xA6, 0x47, 0x7E,
 	];
 
-	helper(S, BASE, 41529);
+	helper(S, BASE, 41_529);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_842805_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_842_805_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_842805_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_842_805_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x8C, 0x8C, 0x8C,
@@ -30052,12 +30052,12 @@ fn s_has_signs_and_zeros_and_842805_in_base_73_and_insignificant_bytes() {
 		0x3E, 0xF1, 0x2F, 0xE8, 0x14, 0x11, 0x16, 0xB5, 0x18, 0xDD, 0xD7, 0xC3, 0x33,
 	];
 
-	helper(S, BASE, 842805);
+	helper(S, BASE, 842_805);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_4925935_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_4_925_935_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_4925935_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_4_925_935_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x39, 0x39, 0x39, 0x39,
 		0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39,
@@ -30073,12 +30073,12 @@ fn s_has_signs_and_zeros_and_4925935_in_base_73_and_insignificant_bytes() {
 		0x6A, 0x7B, 0x4D, 0xEC, 0x73, 0xE9, 0x78, 0x8F, 0x4B, 0x0F, 0x89, 0xB0, 0x11,
 	];
 
-	helper(S, BASE, 4925935);
+	helper(S, BASE, 4_925_935);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_81535828_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_81_535_828_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_81535828_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_81_535_828_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -30094,12 +30094,12 @@ fn s_has_signs_and_zeros_and_81535828_in_base_73_and_insignificant_bytes() {
 		0x70, 0x7D, 0x9A, 0x87, 0x1C, 0xFC, 0x9D, 0xF4, 0x15, 0xE5, 0x3D, 0x39, 0x16,
 	];
 
-	helper(S, BASE, 81535828);
+	helper(S, BASE, 81_535_828);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_624653732_in_base_73_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_624_653_732_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_624653732_in_base_73_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_624_653_732_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x96,
@@ -30116,7 +30116,7 @@ fn s_has_signs_and_zeros_and_624653732_in_base_73_and_insignificant_bytes() {
 		0x12, 0x2A, 0x90, 0x52, 0x07, 0xE1, 0x9E, 0x82, 0x86, 0xF9, 0x9D, 0xF4, 0x50,
 	];
 
-	helper(S, BASE, 624653732);
+	helper(S, BASE, 624_653_732);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_2_in_base_113_and_insignificant_bytes
@@ -30189,9 +30189,9 @@ fn s_has_signs_and_zeros_and_844_in_base_113_and_insignificant_bytes() {
 	helper(S, BASE, 844);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_1818_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_1_818_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_1818_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_1_818_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x35, 0x35, 0x35, 0x35, 0x35, 0x35, 0x35, 0x35, 0x35, 0x35, 0xFF,
@@ -30210,12 +30210,12 @@ fn s_has_signs_and_zeros_and_1818_in_base_113_and_insignificant_bytes() {
 		0xBD, 0x33, 0xBA, 0xAD, 0xA9, 0x66, 0x72, 0xCC,
 	];
 
-	helper(S, BASE, 1818);
+	helper(S, BASE, 1_818);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_32905_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_32_905_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_32905_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_32_905_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
@@ -30235,12 +30235,12 @@ fn s_has_signs_and_zeros_and_32905_in_base_113_and_insignificant_bytes() {
 		0x2C, 0x27, 0x1F, 0x7D, 0x6B, 0xF7, 0x1A, 0x28,
 	];
 
-	helper(S, BASE, 32905);
+	helper(S, BASE, 32_905);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_713665_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_713_665_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_713665_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_713_665_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -30261,12 +30261,12 @@ fn s_has_signs_and_zeros_and_713665_in_base_113_and_insignificant_bytes() {
 		0xDB, 0x58, 0xAC, 0xA9, 0xC8, 0x7D, 0x38, 0xD6,
 	];
 
-	helper(S, BASE, 713665);
+	helper(S, BASE, 713_665);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_3833082_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_3_833_082_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_3833082_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_3_833_082_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F, 0x9F,
 		0x9F, 0x9F, 0x6E, 0xDB, 0xDE, 0x54, 0x61, 0x8D, 0x75, 0xB7, 0xC7, 0x3F, 0x16, 0x3A, 0x88,
@@ -30283,12 +30283,12 @@ fn s_has_signs_and_zeros_and_3833082_in_base_113_and_insignificant_bytes() {
 		0xFC, 0xAB, 0x4F, 0x07, 0x48, 0xBF, 0xB5, 0x78,
 	];
 
-	helper(S, BASE, 3833082);
+	helper(S, BASE, 3_833_082);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_36072197_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_36_072_197_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_36072197_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_36_072_197_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B,
 		0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B, 0x8B,
@@ -30306,12 +30306,12 @@ fn s_has_signs_and_zeros_and_36072197_in_base_113_and_insignificant_bytes() {
 		0x49, 0xAC, 0x33, 0x32, 0xF3, 0xFF, 0x78, 0x5F,
 	];
 
-	helper(S, BASE, 36072197);
+	helper(S, BASE, 36_072_197);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_241069026_in_base_113_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_241_069_026_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_241069026_in_base_113_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_241_069_026_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2D, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76, 0x76,
@@ -30332,7 +30332,7 @@ fn s_has_signs_and_zeros_and_241069026_in_base_113_and_insignificant_bytes() {
 		0x40, 0xEA, 0x1C, 0x24, 0xB5, 0x56, 0x34, 0x94,
 	];
 
-	helper(S, BASE, 241069026);
+	helper(S, BASE, 241_069_026);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_5_in_base_193_and_insignificant_bytes
@@ -30418,9 +30418,9 @@ fn s_has_signs_and_zeros_and_474_in_base_193_and_insignificant_bytes() {
 	helper(S, BASE, 474);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_2261_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_2_261_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_2261_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_2_261_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -30445,12 +30445,12 @@ fn s_has_signs_and_zeros_and_2261_in_base_193_and_insignificant_bytes() {
 		0xE3, 0x5B, 0x41, 0xFD, 0x7B, 0xE9, 0xB8, 0xB3, 0xF4, 0x48, 0x75, 0x3B, 0xC9,
 	];
 
-	helper(S, BASE, 2261);
+	helper(S, BASE, 2_261);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_34913_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_34_913_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_34913_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_34_913_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x4D, 0x4D, 0x72, 0x8A, 0xB5, 0x57, 0xCD, 0xC6, 0x9D, 0x23,
@@ -30471,12 +30471,12 @@ fn s_has_signs_and_zeros_and_34913_in_base_193_and_insignificant_bytes() {
 		0x72, 0xF9, 0x37, 0xC4, 0x39, 0x5D, 0xB0, 0xCF, 0x99, 0x03, 0xAD, 0xC9, 0x22,
 	];
 
-	helper(S, BASE, 34913);
+	helper(S, BASE, 34_913);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_602135_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_602_135_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_602135_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_602_135_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82,
 		0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82, 0x82,
@@ -30501,12 +30501,12 @@ fn s_has_signs_and_zeros_and_602135_in_base_193_and_insignificant_bytes() {
 		0xAE, 0x15, 0x4F, 0xA3, 0x08, 0x1D, 0xB6, 0x23, 0x9A, 0x94, 0xA2, 0x73, 0xDC,
 	];
 
-	helper(S, BASE, 602135);
+	helper(S, BASE, 602_135);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_7379829_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_7_379_829_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_7379829_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_7_379_829_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -30531,12 +30531,12 @@ fn s_has_signs_and_zeros_and_7379829_in_base_193_and_insignificant_bytes() {
 		0x63, 0x2E, 0x3F, 0x0E, 0x6D, 0x24, 0x53, 0x9C, 0x7F, 0x86, 0x6F, 0xAF, 0xEC,
 	];
 
-	helper(S, BASE, 7379829);
+	helper(S, BASE, 7_379_829);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_55078267_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_55_078_267_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_55078267_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_55_078_267_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -30560,12 +30560,12 @@ fn s_has_signs_and_zeros_and_55078267_in_base_193_and_insignificant_bytes() {
 		0xC2, 0xC6, 0x91, 0x27, 0x52, 0x45, 0xAC, 0xEE, 0xB6, 0xBB, 0x55, 0xB0, 0x19,
 	];
 
-	helper(S, BASE, 55078267);
+	helper(S, BASE, 55_078_267);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_236871928_in_base_193_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_236_871_928_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_236871928_in_base_193_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_236_871_928_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -30591,7 +30591,7 @@ fn s_has_signs_and_zeros_and_236871928_in_base_193_and_insignificant_bytes() {
 		0xFB, 0x7E, 0x5B, 0xCC, 0xA7, 0x1B, 0x1D, 0x1A, 0xC3, 0x5E, 0xE1, 0xB3, 0xE7,
 	];
 
-	helper(S, BASE, 236871928);
+	helper(S, BASE, 236_871_928);
 }
 // endregion
 // region: s_has_signs_and_zeros_and_3_in_base_247_and_insignificant_bytes
@@ -30696,9 +30696,9 @@ fn s_has_signs_and_zeros_and_735_in_base_247_and_insignificant_bytes() {
 	helper(S, BASE, 735);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_5173_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_5_173_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_5173_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_5_173_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -30725,12 +30725,12 @@ fn s_has_signs_and_zeros_and_5173_in_base_247_and_insignificant_bytes() {
 		0xD1, 0xFA, 0xCE, 0x70, 0xAC, 0xFE, 0xD3,
 	];
 
-	helper(S, BASE, 5173);
+	helper(S, BASE, 5_173);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_54997_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_54_997_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_54997_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_54_997_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x6C, 0x6C, 0x6C, 0x6C, 0x6C,
@@ -30759,12 +30759,12 @@ fn s_has_signs_and_zeros_and_54997_in_base_247_and_insignificant_bytes() {
 		0xEC, 0x36, 0x88, 0xC3, 0xF2, 0x1F, 0xB2,
 	];
 
-	helper(S, BASE, 54997);
+	helper(S, BASE, 54_997);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_198295_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_198_295_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_198295_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_198_295_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
@@ -30794,12 +30794,12 @@ fn s_has_signs_and_zeros_and_198295_in_base_247_and_insignificant_bytes() {
 		0x81, 0x68, 0xAE, 0x88, 0x96, 0x85, 0x40,
 	];
 
-	helper(S, BASE, 198295);
+	helper(S, BASE, 198_295);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_8409363_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_8_409_363_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_8409363_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_8_409_363_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -30828,12 +30828,12 @@ fn s_has_signs_and_zeros_and_8409363_in_base_247_and_insignificant_bytes() {
 		0xB3, 0xFB, 0x47, 0x89, 0x78, 0xE3, 0xED,
 	];
 
-	helper(S, BASE, 8409363);
+	helper(S, BASE, 8_409_363);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_31929499_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_31_929_499_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_31929499_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_31_929_499_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F, 0x4F,
@@ -30861,12 +30861,12 @@ fn s_has_signs_and_zeros_and_31929499_in_base_247_and_insignificant_bytes() {
 		0xAC, 0x7D, 0x12, 0x5A, 0x59, 0xA6, 0xD6,
 	];
 
-	helper(S, BASE, 31929499);
+	helper(S, BASE, 31_929_499);
 }
 // endregion
-// region: s_has_signs_and_zeros_and_515702749_in_base_247_and_insignificant_bytes
+// region: s_has_signs_and_zeros_and_515_702_749_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_signs_and_zeros_and_515702749_in_base_247_and_insignificant_bytes() {
+fn s_has_signs_and_zeros_and_515_702_749_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x81, 0x81, 0x81, 0x81, 0x81,
@@ -30895,7 +30895,7 @@ fn s_has_signs_and_zeros_and_515702749_in_base_247_and_insignificant_bytes() {
 		0x0E, 0x17, 0xDC, 0x76, 0x54, 0x3D, 0x5B,
 	];
 
-	helper(S, BASE, 515702749);
+	helper(S, BASE, 515_702_749);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_1_in_base_2_and_insignificant_bytes
@@ -30953,9 +30953,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_530_in_base_2_and_insignificant_byt
 	helper(S, BASE, 530);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5715_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_715_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5715_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_715_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0B, 0x0A, 0x0C, 0x0D, 0x0C, 0x0B, 0x0A, 0x0D, 0x0A, 0x0B, 0x0B, 0x20, 0x0D, 0x0A,
 		0x0D, 0x20, 0x0D, 0x09, 0x0A, 0x09, 0x09, 0x20, 0x2B, 0x2B, 0xDF, 0x82, 0xDF, 0x82, 0x82,
@@ -30967,12 +30967,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5715_in_base_2_and_insignificant_by
 		0xDF, 0x82,
 	];
 
-	helper(S, BASE, 5715);
+	helper(S, BASE, 5_715);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_70717_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_70_717_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_70717_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_70_717_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0A, 0x0D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2, 0xA2,
@@ -30987,12 +30987,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_70717_in_base_2_and_insignificant_b
 		0xA2, 0x25,
 	];
 
-	helper(S, BASE, 70717);
+	helper(S, BASE, 70_717);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_433122_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_433_122_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_433122_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_433_122_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x0A, 0x0C, 0x0A, 0x09, 0x0A, 0x0B, 0x09, 0x20, 0x0B, 0x0A, 0x09, 0x09, 0x0A,
 		0x20, 0x0B, 0x0C, 0x20, 0x09, 0x20, 0x0D, 0x09, 0x0A, 0x09, 0x0B, 0x0A, 0x20, 0x0B, 0x0B,
@@ -31007,12 +31007,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_433122_in_base_2_and_insignificant_
 		0x66, 0xB6,
 	];
 
-	helper(S, BASE, 433122);
+	helper(S, BASE, 433_122);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_2376527_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_2_376_527_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_2376527_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_2_376_527_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x0B, 0x0B, 0x0C, 0x09, 0x20, 0x20, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -31025,12 +31025,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_2376527_in_base_2_and_insignificant
 		0xAA, 0xCF,
 	];
 
-	helper(S, BASE, 2376527);
+	helper(S, BASE, 2_376_527);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_17367548_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_17_367_548_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_17367548_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_17_367_548_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x0B, 0x0B, 0x0A, 0x0D, 0x0B, 0x0A, 0x09, 0x0B, 0x20, 0x0C, 0x20, 0x0C, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x66, 0x66, 0x66, 0x66, 0x66, 0x66,
@@ -31043,12 +31043,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_17367548_in_base_2_and_insignifican
 		0x66, 0x73,
 	];
 
-	helper(S, BASE, 17367548);
+	helper(S, BASE, 17_367_548);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_722692214_in_base_2_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_722_692_214_in_base_2_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_722692214_in_base_2_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_722_692_214_in_base_2_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0B, 0x0A, 0x09, 0x20, 0x0D, 0x20, 0x09, 0x0C, 0x20, 0x0B, 0x0A, 0x0C, 0x0C,
 		0x20, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -31062,7 +31062,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_722692214_in_base_2_and_insignifica
 		0x81, 0x68,
 	];
 
-	helper(S, BASE, 722692214);
+	helper(S, BASE, 722_692_214);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_4_in_base_3_and_insignificant_bytes
@@ -31123,9 +31123,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_498_in_base_3_and_insignificant_byt
 	helper(S, BASE, 498);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_8590_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_8_590_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_8590_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_8_590_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0C, 0x0D, 0x0A, 0x0A, 0x0D, 0x0A, 0x09, 0x0D, 0x0D, 0x0A, 0x09, 0x0C, 0x0B,
 		0x20, 0x0C, 0x20, 0x0B, 0x09, 0x0D, 0x0C, 0x09, 0x0B, 0x0D, 0x0D, 0x0B, 0x0C, 0x0A, 0x20,
@@ -31139,12 +31139,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_8590_in_base_3_and_insignificant_by
 		0xF9, 0xDB, 0x68,
 	];
 
-	helper(S, BASE, 8590);
+	helper(S, BASE, 8_590);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_17435_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_17_435_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_17435_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_17_435_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x20, 0x2B, 0x2B, 0x2B, 0x2B, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69,
 		0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0x69, 0xAF, 0x5A, 0xAF, 0xAF, 0xAF, 0x69,
@@ -31155,12 +31155,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_17435_in_base_3_and_insignificant_b
 		0x69, 0x5A, 0xAF,
 	];
 
-	helper(S, BASE, 17435);
+	helper(S, BASE, 17_435);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_873959_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_873_959_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_873959_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_873_959_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x0C, 0x0A, 0x0B, 0x09, 0x0B, 0x0B, 0x09, 0x0B, 0x0A, 0x20, 0x20, 0x09,
 		0x09, 0x20, 0x0B, 0x0D, 0x0A, 0x0A, 0x0A, 0x09, 0x09, 0x0B, 0x0C, 0x0A, 0x0B, 0x0B, 0x0B,
@@ -31175,12 +31175,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_873959_in_base_3_and_insignificant_
 		0x1A, 0xFA, 0x3C,
 	];
 
-	helper(S, BASE, 873959);
+	helper(S, BASE, 873_959);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_3514786_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_3_514_786_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_3514786_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_3_514_786_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0C, 0x09, 0x0A, 0x0C, 0x09, 0x0B, 0x09, 0x0B, 0x20, 0x20, 0x20, 0x0B, 0x0A,
 		0x0B, 0x0D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x06,
@@ -31191,12 +31191,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_3514786_in_base_3_and_insignificant
 		0x06, 0xB9, 0x56,
 	];
 
-	helper(S, BASE, 3514786);
+	helper(S, BASE, 3_514_786);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_54408706_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_54_408_706_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_54408706_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_54_408_706_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0A, 0x0B, 0x0D, 0x0C, 0x0A, 0x20, 0x0D, 0x0C, 0x0C, 0x20, 0x0A, 0x0D, 0x09,
 		0x0A, 0x0B, 0x0B, 0x09, 0x0A, 0x20, 0x09, 0x0A, 0x20, 0x0C, 0x0B, 0x20, 0x20, 0x2D, 0x2B,
@@ -31210,12 +31210,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_54408706_in_base_3_and_insignifican
 		0xDC, 0x85, 0x3C,
 	];
 
-	helper(S, BASE, 54408706);
+	helper(S, BASE, 54_408_706);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_973243195_in_base_3_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_973_243_195_in_base_3_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_973243195_in_base_3_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_973_243_195_in_base_3_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x09, 0x0D, 0x0C, 0x0C, 0x0C, 0x0C, 0x0A, 0x0D, 0x0B, 0x0D, 0x09, 0x09, 0x0A,
 		0x0C, 0x09, 0x09, 0x0D, 0x0C, 0x0C, 0x09, 0x09, 0x0B, 0x0C, 0x09, 0x09, 0x0D, 0x0A, 0x0B,
@@ -31232,7 +31232,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_973243195_in_base_3_and_insignifica
 		0xCC, 0x37, 0xC9,
 	];
 
-	helper(S, BASE, 973243195);
+	helper(S, BASE, 973_243_195);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_4_in_base_5_and_insignificant_bytes
@@ -31289,9 +31289,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_226_in_base_5_and_insignificant_byt
 	helper(S, BASE, 226);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7194_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_194_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7194_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_194_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x20, 0x0A, 0x0A, 0x20, 0x20, 0x20, 0x0D, 0x0B, 0x0D, 0x0A, 0x0B, 0x0C, 0x0A,
 		0x20, 0x0D, 0x20, 0x0A, 0x0D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -31304,12 +31304,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7194_in_base_5_and_insignificant_by
 		0xD9, 0x67, 0x90, 0x73, 0xDB,
 	];
 
-	helper(S, BASE, 7194);
+	helper(S, BASE, 7_194);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_74094_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_74_094_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_74094_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_74_094_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x09, 0x20, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x42, 0xDF, 0xA2, 0xA2, 0x34, 0xA2, 0xA2, 0xDF,
@@ -31321,12 +31321,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_74094_in_base_5_and_insignificant_b
 		0x42, 0xC8, 0x34, 0xA2, 0xDF,
 	];
 
-	helper(S, BASE, 74094);
+	helper(S, BASE, 74_094);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_542945_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_542_945_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_542945_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_542_945_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x0A, 0x20, 0x0D, 0x09, 0x0A, 0x20, 0x0A, 0x09, 0x20, 0x0B, 0x0B, 0x0B,
 		0x20, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -31341,12 +31341,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_542945_in_base_5_and_insignificant_
 		0x40, 0xEE, 0x0F, 0x77, 0x8E,
 	];
 
-	helper(S, BASE, 542945);
+	helper(S, BASE, 542_945);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_3056430_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_3_056_430_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_3056430_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_3_056_430_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x2D, 0x2B, 0x2D, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C,
 		0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C, 0x5C,
@@ -31358,12 +31358,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_3056430_in_base_5_and_insignificant
 		0x5C, 0xAF, 0x8C, 0xA2, 0x1D,
 	];
 
-	helper(S, BASE, 3056430);
+	helper(S, BASE, 3_056_430);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_45983648_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_45_983_648_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_45983648_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_45_983_648_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x09, 0x09, 0x0A, 0x20, 0x0D, 0x0C, 0x09, 0x0B, 0x09, 0x0D, 0x20, 0x20, 0x0B,
 		0x0D, 0x09, 0x0C, 0x0A, 0x0C, 0x20, 0x0B, 0x0B, 0x0A, 0x0C, 0x0B, 0x20, 0x0D, 0x20, 0x09,
@@ -31377,12 +31377,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_45983648_in_base_5_and_insignifican
 		0x10, 0x1C, 0x49, 0x53, 0x87,
 	];
 
-	helper(S, BASE, 45983648);
+	helper(S, BASE, 45_983_648);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_398002724_in_base_5_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_398_002_724_in_base_5_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_398002724_in_base_5_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_398_002_724_in_base_5_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0B, 0x0C, 0x09, 0x0B, 0x0D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -31398,7 +31398,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_398002724_in_base_5_and_insignifica
 		0x98, 0xA9, 0xB6, 0xEF, 0x3F,
 	];
 
-	helper(S, BASE, 398002724);
+	helper(S, BASE, 398_002_724);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_3_in_base_7_and_insignificant_bytes
@@ -31461,9 +31461,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_570_in_base_7_and_insignificant_byt
 	helper(S, BASE, 570);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1028_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_028_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1028_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_028_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0C, 0x0D, 0x09, 0x0D, 0x20, 0x09, 0x0A, 0x0D, 0x0D, 0x20, 0x09, 0x0A, 0x0D,
 		0x20, 0x0D, 0x20, 0x0A, 0x0C, 0x0C, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -31476,12 +31476,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1028_in_base_7_and_insignificant_by
 		0xAC, 0xE3, 0x16, 0x4A, 0x81, 0xAD, 0x7E,
 	];
 
-	helper(S, BASE, 1028);
+	helper(S, BASE, 1_028);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_78474_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_78_474_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_78474_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_78_474_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0B, 0x0D, 0x0A, 0x0B, 0x0D, 0x0B, 0x0A, 0x09, 0x0B, 0x0A, 0x0A, 0x09, 0x0D, 0x0C,
 		0x09, 0x0B, 0x09, 0x20, 0x0A, 0x0C, 0x09, 0x20, 0x0D, 0x0A, 0x0B, 0x20, 0x0D, 0x0C, 0x0B,
@@ -31496,12 +31496,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_78474_in_base_7_and_insignificant_b
 		0x06, 0x3F, 0x6E, 0x95, 0x66, 0xDA, 0xFB,
 	];
 
-	helper(S, BASE, 78474);
+	helper(S, BASE, 78_474);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_466181_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_466_181_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_466181_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_466_181_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x2B, 0x2B, 0x2B, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8,
 		0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8, 0xD8,
@@ -31514,12 +31514,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_466181_in_base_7_and_insignificant_
 		0xD8, 0x60, 0x0F, 0x37, 0x66, 0x46, 0xB6,
 	];
 
-	helper(S, BASE, 466181);
+	helper(S, BASE, 466_181);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_2585057_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_2_585_057_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_2585057_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_2_585_057_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x09, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -31530,12 +31530,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_2585057_in_base_7_and_insignificant
 		0xC2, 0x32, 0x81, 0xB7, 0x63, 0x3D, 0xEF,
 	];
 
-	helper(S, BASE, 2585057);
+	helper(S, BASE, 2_585_057);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_71593694_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_71_593_694_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_71593694_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_71_593_694_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x20, 0x0D, 0x09, 0x0B, 0x0A, 0x0B, 0x0A, 0x0C, 0x0B, 0x20, 0x0D, 0x0B, 0x0A,
 		0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
@@ -31550,12 +31550,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_71593694_in_base_7_and_insignifican
 		0x7E, 0x7B, 0x9B, 0xC6, 0x5D, 0xB0, 0x53,
 	];
 
-	helper(S, BASE, 71593694);
+	helper(S, BASE, 71_593_694);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_615239266_in_base_7_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_615_239_266_in_base_7_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_615239266_in_base_7_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_615_239_266_in_base_7_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x09, 0x0B, 0x0A, 0x0B, 0x09, 0x0B, 0x0D, 0x20, 0x09, 0x0B, 0x0D, 0x09, 0x0A,
 		0x0A, 0x0C, 0x20, 0x0A, 0x09, 0x20, 0x0D, 0x0B, 0x0D, 0x0A, 0x0D, 0x0C, 0x20, 0x0C, 0x0B,
@@ -31569,7 +31569,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_615239266_in_base_7_and_insignifica
 		0x4D, 0x82, 0x6D, 0xED, 0xF7, 0x91, 0x73,
 	];
 
-	helper(S, BASE, 615239266);
+	helper(S, BASE, 615_239_266);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_6_in_base_11_and_insignificant_bytes
@@ -31634,9 +31634,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_953_in_base_11_and_insignificant_by
 	helper(S, BASE, 953);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5322_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_322_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5322_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_322_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0C, 0x0C, 0x0A, 0x09, 0x09, 0x0A, 0x09, 0x0D, 0x0D, 0x09, 0x0D, 0x0A, 0x09,
 		0x0D, 0x0D, 0x0B, 0x09, 0x0B, 0x09, 0x0B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D,
@@ -31650,12 +31650,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5322_in_base_11_and_insignificant_b
 		0xDD, 0x46, 0x57, 0x2F, 0x2C, 0xB0, 0xA7, 0x30, 0xD2, 0xE8, 0xA5,
 	];
 
-	helper(S, BASE, 5322);
+	helper(S, BASE, 5_322);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_10308_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_10_308_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_10308_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_10_308_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0C, 0x0A, 0x20, 0x0D, 0x0D, 0x20, 0x0A, 0x0D, 0x20, 0x09, 0x0D, 0x0D, 0x0A,
 		0x0A, 0x0B, 0x0B, 0x0B, 0x0A, 0x0C, 0x09, 0x0B, 0x09, 0x09, 0x09, 0x20, 0x20, 0x0C, 0x0D,
@@ -31669,12 +31669,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_10308_in_base_11_and_insignificant_
 		0x0E, 0x13, 0x5A, 0xF0, 0x81, 0x24, 0x08, 0x4E, 0x33, 0x53, 0xE4,
 	];
 
-	helper(S, BASE, 10308);
+	helper(S, BASE, 10_308);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_658077_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_658_077_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_658077_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_658_077_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0D, 0x20, 0x0A, 0x0C, 0x20, 0x0B, 0x20, 0x09, 0x0A, 0x0B, 0x09, 0x0B, 0x0D,
 		0x0D, 0x0D, 0x20, 0x0D, 0x0C, 0x0B, 0x09, 0x09, 0x20, 0x0C, 0x0B, 0x0C, 0x0C, 0x2D, 0x2B,
@@ -31688,12 +31688,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_658077_in_base_11_and_insignificant
 		0x29, 0x8E, 0x64, 0xAA, 0x45, 0xFB, 0x17, 0x46, 0xBB, 0x56, 0x9D,
 	];
 
-	helper(S, BASE, 658077);
+	helper(S, BASE, 658_077);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1307557_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_307_557_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1307557_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_307_557_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0C, 0x0C, 0x0A, 0x0B, 0x0C, 0x09, 0x0A, 0x09, 0x0A, 0x0B, 0x0D, 0x20, 0x09, 0x0B,
 		0x0D, 0x0C, 0x0D, 0x0C, 0x0D, 0x0A, 0x0D, 0x0A, 0x0D, 0x0D, 0x0A, 0x0C, 0x20, 0x0C, 0x20,
@@ -31708,12 +31708,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1307557_in_base_11_and_insignifican
 		0x43, 0x26, 0x6D, 0xFA, 0x66, 0x1D, 0x9B, 0x21, 0x01, 0x34, 0xD3,
 	];
 
-	helper(S, BASE, 1307557);
+	helper(S, BASE, 1_307_557);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_43074381_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_43_074_381_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_43074381_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_43_074_381_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x0A, 0x0C, 0x0A, 0x0C, 0x0A, 0x0C, 0x09, 0x09, 0x09, 0x0A, 0x09, 0x20, 0x0D,
 		0x20, 0x0B, 0x0D, 0x0C, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E, 0x5E,
@@ -31727,12 +31727,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_43074381_in_base_11_and_insignifica
 		0x5E, 0x19, 0xB5, 0x8E, 0x4C, 0x9F, 0x14, 0x94, 0x01, 0x45, 0xCD,
 	];
 
-	helper(S, BASE, 43074381);
+	helper(S, BASE, 43_074_381);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_323349308_in_base_11_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_323_349_308_in_base_11_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_323349308_in_base_11_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_323_349_308_in_base_11_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0C, 0x0C, 0x20, 0x0C, 0x0B, 0x0A, 0x0A, 0x0C, 0x0D, 0x0B, 0x0C, 0x0B, 0x0B, 0x20,
 		0x0D, 0x20, 0x0B, 0x20, 0x0B, 0x09, 0x0A, 0x0C, 0x0D, 0x20, 0x0B, 0x20, 0x20, 0x20, 0x20,
@@ -31747,7 +31747,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_323349308_in_base_11_and_insignific
 		0x5D, 0x01, 0x4A, 0x51, 0x16, 0xD0, 0x45, 0xFB, 0x57, 0x36, 0x0F,
 	];
 
-	helper(S, BASE, 323349308);
+	helper(S, BASE, 323_349_308);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_3_in_base_13_and_insignificant_bytes
@@ -31803,9 +31803,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_710_in_base_13_and_insignificant_by
 	helper(S, BASE, 710);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6194_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_194_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6194_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_194_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0C, 0x0D, 0x0B, 0x0D, 0x0D, 0x0B, 0x09, 0x0D, 0x0D, 0x20, 0x0A, 0x0C, 0x0B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
@@ -31819,12 +31819,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6194_in_base_13_and_insignificant_b
 		0x7D, 0x8D, 0x30, 0xA6, 0xC0, 0x90, 0x40, 0xCB, 0xC4, 0xEE, 0x96, 0x70, 0xD3,
 	];
 
-	helper(S, BASE, 6194);
+	helper(S, BASE, 6_194);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_21538_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_21_538_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_21538_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_21_538_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0B, 0x0A, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2B, 0x2D, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39, 0x39,
@@ -31837,12 +31837,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_21538_in_base_13_and_insignificant_
 		0x39, 0xEA, 0xC3, 0xF1, 0xD1, 0x06, 0xF9, 0xEE, 0x5B, 0x23, 0x32, 0xCA, 0x0E,
 	];
 
-	helper(S, BASE, 21538);
+	helper(S, BASE, 21_538);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_279959_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_279_959_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_279959_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_279_959_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x20, 0x20, 0x09, 0x09, 0x0C, 0x09, 0x20, 0x0C, 0x09, 0x0B, 0x0C, 0x09, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91, 0x91,
@@ -31855,12 +31855,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_279959_in_base_13_and_insignificant
 		0x91, 0x16, 0x61, 0x75, 0x43, 0x2A, 0x67, 0xD5, 0x81, 0x55, 0xF0, 0xDF, 0x5F,
 	];
 
-	helper(S, BASE, 279959);
+	helper(S, BASE, 279_959);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6946951_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_946_951_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6946951_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_946_951_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0C, 0x0D, 0x0D, 0x09, 0x0D, 0x20, 0x0B, 0x0C, 0x09, 0x0A, 0x0A, 0x0C, 0x0D, 0x20,
 		0x09, 0x0B, 0x0C, 0x0A, 0x09, 0x09, 0x0B, 0x0B, 0x0C, 0x0A, 0x09, 0x0A, 0x0B, 0x20, 0x09,
@@ -31873,12 +31873,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6946951_in_base_13_and_insignifican
 		0xD0, 0x79, 0x71, 0x84, 0x04, 0x88, 0x03, 0x8F, 0xCB, 0xE4, 0x5D, 0x22, 0xE1,
 	];
 
-	helper(S, BASE, 6946951);
+	helper(S, BASE, 6_946_951);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_75165469_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_75_165_469_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_75165469_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_75_165_469_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0B, 0x0C, 0x0D, 0x09, 0x09, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x38, 0x38, 0x38, 0x7C, 0x60,
@@ -31889,12 +31889,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_75165469_in_base_13_and_insignifica
 		0x38, 0x7C, 0x60, 0xA4, 0x43, 0x57, 0xFE, 0x53, 0xD3, 0x7F, 0x88, 0x10, 0xC1,
 	];
 
-	helper(S, BASE, 75165469);
+	helper(S, BASE, 75_165_469);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_165448726_in_base_13_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_165_448_726_in_base_13_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_165448726_in_base_13_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_165_448_726_in_base_13_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0A, 0x0C, 0x0B, 0x0A, 0x20, 0x0D, 0x09, 0x0A, 0x0C, 0x0A, 0x20, 0x0B, 0x0B, 0x20,
 		0x09, 0x09, 0x09, 0x0D, 0x0C, 0x0A, 0x09, 0x09, 0x0A, 0x0A, 0x0A, 0x0C, 0x0C, 0x0C, 0x0D,
@@ -31908,7 +31908,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_165448726_in_base_13_and_insignific
 		0x37, 0x85, 0xF3, 0x5C, 0x8E, 0xF2, 0xAA, 0x3D, 0xC9, 0x7F, 0x4F, 0xC4, 0xB2,
 	];
 
-	helper(S, BASE, 165448726);
+	helper(S, BASE, 165_448_726);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_7_in_base_19_and_insignificant_bytes
@@ -31970,9 +31970,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_944_in_base_19_and_insignificant_by
 	helper(S, BASE, 944);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7050_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_050_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7050_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_050_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0D, 0x0A, 0x20, 0x20, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -31986,12 +31986,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7050_in_base_19_and_insignificant_b
 		0xB9, 0xA2, 0x83, 0x64,
 	];
 
-	helper(S, BASE, 7050);
+	helper(S, BASE, 7_050);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_43350_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_43_350_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_43350_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_43_350_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x20, 0x0C, 0x0B, 0x0A, 0x0A, 0x0B, 0x0B, 0x0C, 0x0A, 0x0C, 0x20, 0x0C, 0x0A,
 		0x0C, 0x09, 0x0D, 0x0D, 0x09, 0x0C, 0x09, 0x0D, 0x0A, 0x0A, 0x0C, 0x20, 0x20, 0x20, 0x0A,
@@ -32007,12 +32007,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_43350_in_base_19_and_insignificant_
 		0x21, 0x64, 0xBD, 0x25,
 	];
 
-	helper(S, BASE, 43350);
+	helper(S, BASE, 43_350);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_749282_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_749_282_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_749282_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_749_282_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0D, 0x0D, 0x0A, 0x0A, 0x09, 0x0C, 0x0D, 0x20, 0x0B, 0x20, 0x0B, 0x0D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -32027,12 +32027,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_749282_in_base_19_and_insignificant
 		0x68, 0xAC, 0x8C, 0xC5,
 	];
 
-	helper(S, BASE, 749282);
+	helper(S, BASE, 749_282);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_5981447_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_5_981_447_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_5981447_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_5_981_447_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x20, 0x0D, 0x20, 0x0A, 0x09, 0x20, 0x0D, 0x0D, 0x09, 0x0A, 0x20, 0x09,
 		0x09, 0x0A, 0x09, 0x09, 0x0A, 0x09, 0x0A, 0x0B, 0x09, 0x0B, 0x09, 0x20, 0x0D, 0x0D, 0x0B,
@@ -32048,12 +32048,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_5981447_in_base_19_and_insignifican
 		0x59, 0x66, 0x98, 0xD9,
 	];
 
-	helper(S, BASE, 5981447);
+	helper(S, BASE, 5_981_447);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_56080990_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_56_080_990_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_56080990_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_56_080_990_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x2B, 0x2D, 0x2D, 0x2B, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59,
 		0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59, 0x59,
@@ -32066,12 +32066,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_56080990_in_base_19_and_insignifica
 		0xB9, 0xE9, 0xFA, 0xD0,
 	];
 
-	helper(S, BASE, 56080990);
+	helper(S, BASE, 56_080_990);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_666955075_in_base_19_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_666_955_075_in_base_19_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_666955075_in_base_19_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_666_955_075_in_base_19_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x0B, 0x0C, 0x09, 0x0A, 0x0C, 0x20, 0x20, 0x09, 0x0A, 0x20, 0x20, 0x20, 0x0C,
 		0x0D, 0x0B, 0x0C, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2D,
@@ -32084,7 +32084,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_666955075_in_base_19_and_insignific
 		0xF2, 0x64, 0xA0, 0x11,
 	];
 
-	helper(S, BASE, 666955075);
+	helper(S, BASE, 666_955_075);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_2_in_base_42_and_insignificant_bytes
@@ -32143,9 +32143,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_365_in_base_42_and_insignificant_by
 	helper(S, BASE, 365);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7801_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_801_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7801_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_801_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x0C, 0x0D, 0x0A, 0x20, 0x0C, 0x20, 0x0D, 0x0D, 0x09, 0x09, 0x0B, 0x09,
 		0x0C, 0x0C, 0x09, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x26,
@@ -32159,12 +32159,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7801_in_base_42_and_insignificant_b
 		0xA8, 0x45, 0x99, 0x3A, 0xF8, 0xDC, 0xAD, 0x23, 0xAC, 0x53, 0x01, 0xD8,
 	];
 
-	helper(S, BASE, 7801);
+	helper(S, BASE, 7_801);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_97250_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_97_250_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_97250_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_97_250_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0D, 0x0D, 0x0B, 0x0B, 0x0B, 0x0B, 0x20, 0x0C, 0x0A, 0x20, 0x0C, 0x0D, 0x20,
 		0x0D, 0x0D, 0x20, 0x20, 0x0A, 0x0C, 0x20, 0x0B, 0x0A, 0x09, 0x0C, 0x0C, 0x09, 0x0C, 0x0A,
@@ -32179,12 +32179,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_97250_in_base_42_and_insignificant_
 		0xD8, 0x8A, 0xB4, 0xC1, 0x58, 0x51, 0x1C, 0xD2, 0xB5, 0x36, 0x34, 0x6D,
 	];
 
-	helper(S, BASE, 97250);
+	helper(S, BASE, 97_250);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_669035_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_669_035_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_669035_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_669_035_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x09, 0x20, 0x20, 0x0D, 0x0A, 0x0C, 0x0A, 0x0A, 0x0B, 0x0C, 0x0C, 0x0D, 0x09, 0x09,
 		0x20, 0x09, 0x0B, 0x0C, 0x09, 0x20, 0x09, 0x09, 0x0B, 0x0C, 0x0A, 0x0C, 0x09, 0x0D, 0x0C,
@@ -32198,12 +32198,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_669035_in_base_42_and_insignificant
 		0x85, 0x7C, 0x6E, 0xBF, 0x7F, 0xF7, 0xAD, 0x7E, 0x32, 0xEF, 0x9F, 0xE6,
 	];
 
-	helper(S, BASE, 669035);
+	helper(S, BASE, 669_035);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_7413771_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_7_413_771_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_7413771_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_7_413_771_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x20, 0x0D, 0x0C, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -32220,12 +32220,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_7413771_in_base_42_and_insignifican
 		0xC2, 0xFE, 0xBB, 0xB0, 0xA7, 0x02, 0x57, 0xD2, 0x89, 0x19, 0x65, 0xCB,
 	];
 
-	helper(S, BASE, 7413771);
+	helper(S, BASE, 7_413_771);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_15998033_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_15_998_033_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_15998033_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_15_998_033_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x20, 0x0A, 0x0D, 0x20, 0x20, 0x20, 0x09, 0x09, 0x0A, 0x0C, 0x0A, 0x0D, 0x0B, 0x0D,
 		0x0D, 0x0C, 0x0D, 0x0A, 0x0B, 0x09, 0x09, 0x0D, 0x20, 0x0C, 0x0B, 0x20, 0x0D, 0x09, 0x20,
@@ -32243,12 +32243,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_15998033_in_base_42_and_insignifica
 		0x3C, 0xAA, 0xDD, 0x28, 0x52, 0x8F, 0x9C, 0x9D, 0x35, 0xAD, 0xE4, 0xC7,
 	];
 
-	helper(S, BASE, 15998033);
+	helper(S, BASE, 15_998_033);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_770011473_in_base_42_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_770_011_473_in_base_42_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_770011473_in_base_42_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_770_011_473_in_base_42_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0D, 0x0A, 0x0A, 0x0A, 0x09, 0x20, 0x0C, 0x0D, 0x0D, 0x0A, 0x20, 0x0C, 0x0A,
 		0x09, 0x09, 0x0A, 0x09, 0x20, 0x0C, 0x20, 0x0B, 0x2D, 0x2D, 0x2B, 0x96, 0x96, 0x96, 0x96,
@@ -32261,7 +32261,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_770011473_in_base_42_and_insignific
 		0xA9, 0xBB, 0xE4, 0x40, 0xB1, 0xC5, 0xF6, 0x89, 0x7C, 0x2F, 0xCD, 0x83,
 	];
 
-	helper(S, BASE, 770011473);
+	helper(S, BASE, 770_011_473);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_9_in_base_73_and_insignificant_bytes
@@ -32330,9 +32330,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_425_in_base_73_and_insignificant_by
 	helper(S, BASE, 425);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_3163_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_3_163_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_3163_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_3_163_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0B, 0x0D, 0x0B, 0x0A, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D,
@@ -32348,12 +32348,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_3163_in_base_73_and_insignificant_b
 		0x63, 0xB5, 0x8A, 0x06, 0x2E, 0x0E, 0xF3, 0xBA, 0xEF, 0x55, 0x9D, 0x86, 0xCB,
 	];
 
-	helper(S, BASE, 3163);
+	helper(S, BASE, 3_163);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_39518_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_39_518_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_39518_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_39_518_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0D, 0x20, 0x0B, 0x09, 0x0A, 0x0C, 0x0D, 0x0D, 0x0C, 0x0A, 0x0D, 0x0C, 0x0B, 0x09,
 		0x0C, 0x0D, 0x0B, 0x0B, 0x09, 0x0C, 0x0D, 0x0C, 0x20, 0x0C, 0x09, 0x09, 0x0A, 0x0C, 0x09,
@@ -32370,12 +32370,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_39518_in_base_73_and_insignificant_
 		0x18, 0x37, 0x94, 0x45, 0x4D, 0xCB, 0xD5, 0xC9, 0xC4, 0xC2, 0xEC, 0x1F, 0x43,
 	];
 
-	helper(S, BASE, 39518);
+	helper(S, BASE, 39_518);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_713568_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_713_568_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_713568_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_713_568_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0A, 0x0A, 0x09, 0x0B, 0x09, 0x0C, 0x0D, 0x09, 0x09, 0x0A, 0x0B, 0x0B, 0x0D, 0x0A,
 		0x0D, 0x0C, 0x0D, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2D, 0x6B, 0x6B, 0x6B,
@@ -32391,12 +32391,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_713568_in_base_73_and_insignificant
 		0xCE, 0x1E, 0x22, 0x79, 0x86, 0xB9, 0xA9, 0x3C, 0x2E, 0xC1, 0x7E, 0x8D, 0xDD,
 	];
 
-	helper(S, BASE, 713568);
+	helper(S, BASE, 713_568);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_2328640_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_2_328_640_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_2328640_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_2_328_640_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x0A, 0x0A, 0x0A, 0x0C, 0x0A, 0x0C, 0x0A, 0x0B, 0x0D, 0x0B, 0x20, 0x0B, 0x0B, 0x0A,
 		0x0C, 0x09, 0x0D, 0x20, 0x0B, 0x20, 0x0A, 0x0D, 0x20, 0x0C, 0x0A, 0x0C, 0x20, 0x0D, 0x09,
@@ -32411,12 +32411,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_2328640_in_base_73_and_insignifican
 		0xAD, 0xF1, 0xD7, 0xAF, 0x57, 0xB0, 0xC9, 0xE6, 0xAA, 0x16, 0x03, 0x5D, 0x90,
 	];
 
-	helper(S, BASE, 2328640);
+	helper(S, BASE, 2_328_640);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_93149024_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_93_149_024_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_93149024_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_93_149_024_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0B, 0x09, 0x09, 0x0C, 0x09, 0x0C, 0x20, 0x20, 0x0C, 0x0B, 0x09, 0x0B, 0x20, 0x20,
 		0x20, 0x0C, 0x0C, 0x09, 0x0D, 0x20, 0x0B, 0x20, 0x09, 0x0A, 0x0D, 0x20, 0x20, 0x0A, 0x20,
@@ -32435,12 +32435,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_93149024_in_base_73_and_insignifica
 		0x9B, 0x61, 0x26, 0xF9, 0xE5, 0x62, 0xCE, 0x9F, 0xC5, 0x99, 0xAD, 0xBB, 0xD3,
 	];
 
-	helper(S, BASE, 93149024);
+	helper(S, BASE, 93_149_024);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_555511043_in_base_73_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_555_511_043_in_base_73_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_555511043_in_base_73_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_555_511_043_in_base_73_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x20, 0x0C, 0x20, 0x0C, 0x0C, 0x0A, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x50,
@@ -32458,7 +32458,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_555511043_in_base_73_and_insignific
 		0xC7, 0x5A, 0x62, 0xAC, 0xD1, 0x54, 0x19, 0xA2, 0x3E, 0x56, 0xE4, 0x05, 0x57,
 	];
 
-	helper(S, BASE, 555511043);
+	helper(S, BASE, 555_511_043);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_1_in_base_113_and_insignificant_bytes
@@ -32536,9 +32536,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_119_in_base_113_and_insignificant_b
 	helper(S, BASE, 119);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6197_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_197_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6197_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_197_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x0A, 0x0D, 0x0A, 0x0B, 0x09, 0x09, 0x09, 0x0B, 0x0C, 0x09, 0x20, 0x0D, 0x0A, 0x20,
 		0x0A, 0x20, 0x0B, 0x0C, 0x0D, 0x0B, 0x0A, 0x0C, 0x0D, 0x20, 0x20, 0x20, 0x20, 0x0A, 0x0D,
@@ -32561,12 +32561,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6197_in_base_113_and_insignificant_
 		0x46, 0x6B, 0x05, 0x6F, 0x6C, 0xD6, 0x07, 0xDB,
 	];
 
-	helper(S, BASE, 6197);
+	helper(S, BASE, 6_197);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_52321_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_52_321_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_52321_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_52_321_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0A, 0x0B, 0x0C, 0x0C, 0x0A, 0x0C, 0x0A, 0x0A, 0x0C, 0x0C, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B,
@@ -32587,12 +32587,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_52321_in_base_113_and_insignificant
 		0xD9, 0xDD, 0x01, 0x40, 0xC2, 0xCE, 0x02, 0xAB,
 	];
 
-	helper(S, BASE, 52321);
+	helper(S, BASE, 52_321);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_993454_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_993_454_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_993454_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_993_454_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x0A, 0x09, 0x20, 0x0C, 0x0B, 0x0D, 0x0C, 0x0C, 0x0A, 0x0B, 0x09, 0x20, 0x20,
 		0x0C, 0x0C, 0x0B, 0x0D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B,
@@ -32610,12 +32610,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_993454_in_base_113_and_insignifican
 		0x0E, 0x66, 0x85, 0xA3, 0x34, 0x24, 0x35, 0xCA,
 	];
 
-	helper(S, BASE, 993454);
+	helper(S, BASE, 993_454);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1561780_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_561_780_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1561780_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_561_780_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x09, 0x0A, 0x0A, 0x0A, 0x0B, 0x20, 0x20, 0x0C, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D,
 		0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B,
@@ -32635,12 +32635,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1561780_in_base_113_and_insignifica
 		0x15, 0x61, 0x4B, 0x6A, 0x11, 0x7A, 0xAB, 0xFE,
 	];
 
-	helper(S, BASE, 1561780);
+	helper(S, BASE, 1_561_780);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_45868297_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_45_868_297_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_45868297_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_45_868_297_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x0A, 0x0B, 0x09, 0x0B, 0x0C, 0x0D, 0x0B, 0x0C, 0x09, 0x0B, 0x0B, 0x0C, 0x0A,
 		0x2B, 0x2B, 0x2B, 0x2B, 0x2B, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD, 0xDD,
@@ -32658,12 +32658,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_45868297_in_base_113_and_insignific
 		0x5F, 0x2C, 0x11, 0x9C, 0x03, 0x47, 0x1E, 0xCB,
 	];
 
-	helper(S, BASE, 45868297);
+	helper(S, BASE, 45_868_297);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_789244607_in_base_113_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_789_244_607_in_base_113_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_789244607_in_base_113_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_789_244_607_in_base_113_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x20, 0x09, 0x0D, 0x09, 0x0B, 0x09, 0x0B, 0x20, 0x20, 0x0B, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D,
@@ -32682,7 +32682,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_789244607_in_base_113_and_insignifi
 		0x55, 0xD1, 0xDB, 0x8E, 0x87, 0x47, 0x94, 0x0E,
 	];
 
-	helper(S, BASE, 789244607);
+	helper(S, BASE, 789_244_607);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_8_in_base_193_and_insignificant_bytes
@@ -32774,9 +32774,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_843_in_base_193_and_insignificant_b
 	helper(S, BASE, 843);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_6209_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_6_209_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_6209_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_6_209_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x20, 0x20, 0x0A, 0x0C, 0x0D, 0x0D, 0x09, 0x09, 0x20, 0x09, 0x0B, 0x0C, 0x0A, 0x20,
 		0x20, 0x0D, 0x09, 0x0A, 0x0D, 0x09, 0x0A, 0x0C, 0x0D, 0x0A, 0x09, 0x0C, 0x09, 0x0D, 0x0C,
@@ -32802,12 +32802,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_6209_in_base_193_and_insignificant_
 		0xCD, 0xCB, 0xFA, 0x08, 0xC7, 0xA0, 0xCC, 0x52, 0x71, 0x32, 0xD6, 0x82, 0xC2,
 	];
 
-	helper(S, BASE, 6209);
+	helper(S, BASE, 6_209);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_85555_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_85_555_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_85555_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_85_555_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x20, 0x0C, 0x0C, 0x0C, 0x09, 0x0C, 0x20, 0x0D, 0x0C, 0x0B, 0x0D, 0x0B, 0x0B, 0x20,
 		0x09, 0x0C, 0x0A, 0x0C, 0x0A, 0x20, 0x0B, 0x20, 0x20, 0x09, 0x0B, 0x09, 0x0C, 0x0C, 0x0A,
@@ -32832,12 +32832,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_85555_in_base_193_and_insignificant
 		0x64, 0x0E, 0xEA, 0x71, 0x33, 0x3E, 0x34, 0x13, 0xC6, 0xE6, 0xDB, 0xCC, 0x38,
 	];
 
-	helper(S, BASE, 85555);
+	helper(S, BASE, 85_555);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_283001_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_283_001_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_283001_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_283_001_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x20, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
 		0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2B,
@@ -32861,12 +32861,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_283001_in_base_193_and_insignifican
 		0x27, 0x53, 0x68, 0x3F, 0x8E, 0x66, 0xAB, 0x3C, 0x90, 0x17, 0xD6, 0xC4, 0x94,
 	];
 
-	helper(S, BASE, 283001);
+	helper(S, BASE, 283_001);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_8388291_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_8_388_291_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_8388291_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_8_388_291_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x0D, 0x09, 0x20, 0x20, 0x09, 0x0A, 0x0D, 0x0C, 0x20, 0x0B, 0x09, 0x0B, 0x20, 0x0A,
 		0x09, 0x0A, 0x20, 0x20, 0x0B, 0x0D, 0x0B, 0x0C, 0x0B, 0x0C, 0x09, 0x0C, 0x0B, 0x0A, 0x09,
@@ -32893,12 +32893,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_8388291_in_base_193_and_insignifica
 		0x30, 0x75, 0x03, 0xE4, 0x35, 0x37, 0x63, 0x6D, 0x21, 0x5D, 0xF1, 0xD0, 0xAB,
 	];
 
-	helper(S, BASE, 8388291);
+	helper(S, BASE, 8_388_291);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_57179339_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_57_179_339_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_57179339_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_57_179_339_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0D, 0x0A, 0x20, 0x0B, 0x0D, 0x0A, 0x20, 0x0D, 0x09, 0x0C, 0x0D, 0x20, 0x0A,
 		0x0C, 0x09, 0x20, 0x20, 0x0A, 0x0C, 0x0D, 0x0B, 0x09, 0x0B, 0x09, 0x0C, 0x20, 0x0C, 0x0B,
@@ -32921,12 +32921,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_57179339_in_base_193_and_insignific
 		0xAB, 0x76, 0x58, 0xE7, 0x46, 0x50, 0x31, 0x6A, 0x6E, 0xC0, 0x3B, 0x86, 0x93,
 	];
 
-	helper(S, BASE, 57179339);
+	helper(S, BASE, 57_179_339);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_492745140_in_base_193_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_492_745_140_in_base_193_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_492745140_in_base_193_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_492_745_140_in_base_193_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x0C, 0x0A, 0x0A, 0x0D, 0x0A, 0x0C, 0x09, 0x2D, 0x2D, 0x2D, 0x2B, 0x2B, 0x2B, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2B, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D,
@@ -32951,7 +32951,7 @@ fn s_has_whitespaces_and_signs_and_zeros_and_492745140_in_base_193_and_insignifi
 		0x60, 0xC8, 0xE4, 0x2C, 0xA0, 0xDE, 0x32, 0x7D, 0x14, 0x98, 0x0E, 0x76, 0x36,
 	];
 
-	helper(S, BASE, 492745140);
+	helper(S, BASE, 492_745_140);
 }
 // endregion
 // region: s_has_whitespaces_and_signs_and_zeros_and_1_in_base_247_and_insignificant_bytes
@@ -33054,9 +33054,9 @@ fn s_has_whitespaces_and_signs_and_zeros_and_664_in_base_247_and_insignificant_b
 	helper(S, BASE, 664);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_1682_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_1_682_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_1682_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_1_682_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0D, 0x09, 0x0B, 0x0A, 0x0B, 0x0B, 0x0C, 0x0D, 0x20, 0x0C, 0x0D, 0x20, 0x2D, 0x2B, 0x2B,
 		0x2D, 0x2D, 0x2D, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF, 0xEF,
@@ -33085,12 +33085,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_1682_in_base_247_and_insignificant_
 		0x66, 0x54, 0x33, 0xED, 0xA4, 0x64, 0x06,
 	];
 
-	helper(S, BASE, 1682);
+	helper(S, BASE, 1_682);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_61733_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_61_733_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_61733_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_61_733_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x09, 0x09, 0x20, 0x09, 0x0B, 0x09, 0x09, 0x0C, 0x2D, 0x2D, 0x2B, 0x2D, 0x2B, 0x2D, 0x2D,
 		0x2D, 0x2B, 0x2B, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2D, 0x2B, 0x2D, 0x2D, 0xE2, 0xE2, 0xE2,
@@ -33118,12 +33118,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_61733_in_base_247_and_insignificant
 		0x51, 0x3C, 0xBE, 0x70, 0x83, 0xF0, 0x6B,
 	];
 
-	helper(S, BASE, 61733);
+	helper(S, BASE, 61_733);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_771754_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_771_754_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_771754_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_771_754_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x20, 0x20, 0x20, 0x0A, 0x2D, 0x2B, 0x2B, 0x2D, 0x98, 0x98, 0x98, 0x98, 0x98, 0x4E,
 		0xEE, 0x18, 0x0A, 0x0B, 0x0D, 0x0D, 0x2D, 0x0B, 0x20, 0x20, 0x0B, 0x0A, 0x2D, 0x0B, 0x2D,
@@ -33149,12 +33149,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_771754_in_base_247_and_insignifican
 		0x06, 0x5F, 0x41, 0xC2, 0x22, 0x96, 0x9F,
 	];
 
-	helper(S, BASE, 771754);
+	helper(S, BASE, 771_754);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_8068286_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_8_068_286_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_8068286_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_8_068_286_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0A, 0x09, 0x0D, 0x09, 0x0A, 0x09, 0x0A, 0x0D, 0x09, 0x0A, 0x0B, 0x09, 0x0D, 0x20, 0x20,
 		0x0C, 0x0D, 0x0A, 0x0B, 0x0C, 0x0A, 0x0D, 0x0C, 0x0A, 0x2B, 0x2B, 0x2D, 0x2D, 0x2D, 0x2B,
@@ -33184,12 +33184,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_8068286_in_base_247_and_insignifica
 		0xA3, 0xA8, 0xD4, 0xBF, 0xF6, 0x6F, 0x9B,
 	];
 
-	helper(S, BASE, 8068286);
+	helper(S, BASE, 8_068_286);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_61833398_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_61_833_398_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_61833398_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_61_833_398_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0B, 0x0A, 0x2B, 0x2B, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D,
 		0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D, 0x5D,
@@ -33217,12 +33217,12 @@ fn s_has_whitespaces_and_signs_and_zeros_and_61833398_in_base_247_and_insignific
 		0xAB, 0x19, 0xA2, 0x12, 0xEA, 0x0E, 0xE6,
 	];
 
-	helper(S, BASE, 61833398);
+	helper(S, BASE, 61_833_398);
 }
 // endregion
-// region: s_has_whitespaces_and_signs_and_zeros_and_615295111_in_base_247_and_insignificant_bytes
+// region: s_has_whitespaces_and_signs_and_zeros_and_615_295_111_in_base_247_and_insignificant_bytes
 #[test]
-fn s_has_whitespaces_and_signs_and_zeros_and_615295111_in_base_247_and_insignificant_bytes() {
+fn s_has_whitespaces_and_signs_and_zeros_and_615_295_111_in_base_247_and_insignificant_bytes() {
 	const S: &[u8] = &[
 		0x0C, 0x0D, 0x0B, 0x0B, 0x0A, 0x09, 0x0B, 0x20, 0x0C, 0x0B, 0x09, 0x20, 0x0A, 0x20, 0x0C,
 		0x20, 0x0B, 0x0A, 0x20, 0x0D, 0x0B, 0x0B, 0x0A, 0x0D, 0x0C, 0x0B, 0x0B, 0x0C, 0x20, 0x0D,
@@ -33253,6 +33253,6 @@ fn s_has_whitespaces_and_signs_and_zeros_and_615295111_in_base_247_and_insignifi
 		0x50, 0x62, 0x22, 0xAD, 0xE1, 0x7B, 0xC6,
 	];
 
-	helper(S, BASE, 615295111);
+	helper(S, BASE, 615_295_111);
 }
 // endregion
