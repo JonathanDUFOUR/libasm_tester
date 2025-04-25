@@ -14,21 +14,21 @@ errno = "0.3.9"
 criterion = { version = "0.5.1", features = ["html_reports"] }
 
 [[bench]]
-   name = "ft_strdup"
+   name = "strdup"
 harness = false
 
 [[bench]]
-   name = "ft_strlen"
+   name = "strlen"
 harness = false
 
 [[bench]]
-   name = "ft_strcmp"
+   name = "strcmp"
 harness = false
 
 [[bench]]
-   name = "ft_strcpy"
+   name = "strcpy"
 harness = false
 
 [[bench]]
-   name = "ft_memcpy"
+   name = "memcpy"
 harness = false
