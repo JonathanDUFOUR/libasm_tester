@@ -17,7 +17,7 @@ mod write {
 		unsafe fn ft_write(fd: c_int, buf: *const c_void, count: usize) -> isize;
 	}
 
-	pub fn helper(buf: &[u8], count: usize) {
+	fn helper(buf: &[u8], count: usize) {
 		assert!(count <= buf.len(), "count must be less than or equal to buf.len()");
 
 		let (mut reader, writer) = {

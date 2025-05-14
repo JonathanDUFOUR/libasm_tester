@@ -46,7 +46,7 @@ pub fn helper(s: &[u8], base: &[u8], expected: c_int) {
 	let base_len: usize = base.len() + 1;
 
 	for function in FUNCTIONS {
-		use rand::{rngs::ThreadRng, thread_rng, Rng};
+		use rand::{rng, rngs::ThreadRng, Rng};
 
 		#[inline(always)]
 		fn test_once(
@@ -87,7 +87,7 @@ pub fn helper(s: &[u8], base: &[u8], expected: c_int) {
 			// endregion
 		}
 
-		let mut rng: ThreadRng = thread_rng();
+		let mut rng: ThreadRng = rng();
 		let mut s: AlignedBytes = s.into();
 		let mut base: AlignedBytes = base.into();
 		let s: &mut [u8] = &mut s.0;

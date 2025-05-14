@@ -13,7 +13,7 @@ mod list_size {
 		unsafe fn ft_list_size(list: *const Node) -> c_int;
 	}
 
-	pub fn helper(data: &[*mut c_void]) {
+	fn helper(data: &[*mut c_void]) {
 		assert!(!data.is_empty());
 
 		let mut nodes: Vec<Node> =
@@ -42,7 +42,7 @@ mod list_size {
 	fn list_of_2_non_null_pointers() {
 		helper(&[
 			&mut 0xCDu32 as *mut _ as *mut c_void,
-			&mut 0xBD8u32 as *mut _ as *mut c_void,
+			&mut 0x0BD8u32 as *mut _ as *mut c_void,
 		]);
 	}
 	// endregion

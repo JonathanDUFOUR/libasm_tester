@@ -24,7 +24,7 @@ mod list_remove_if {
 
 	unsafe extern "C" fn data_drop(_: *mut c_void) {}
 
-	pub fn helper(data: &[*mut c_void], data_ref: *mut c_void, cmp: ComparisonFunction) {
+	fn helper(data: &[*mut c_void], data_ref: *mut c_void, cmp: ComparisonFunction) {
 		fn free_list(mut head: *mut Node) {
 			while head.is_null() {
 				let next: *mut Node = unsafe { (*head).next };

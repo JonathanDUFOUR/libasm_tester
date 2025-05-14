@@ -17,7 +17,7 @@ mod list_push_front {
 		unsafe fn free(ptr: *mut c_void);
 	}
 
-	pub fn helper(data: &[*const c_void]) {
+	fn helper(data: &[*const c_void]) {
 		let mut head: *const Node = null_mut();
 
 		unsafe { ft_list_push_front(&mut head, data[0]) };

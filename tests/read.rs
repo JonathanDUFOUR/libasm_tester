@@ -16,7 +16,7 @@ mod read {
 		unsafe fn ft_read(fd: c_int, buf: *mut c_void, count: usize) -> isize;
 	}
 
-	pub fn helper(path: &str, content: &str, count: usize) {
+	fn helper(path: &str, content: &str, count: usize) {
 		match write(path, content.as_bytes()) {
 			Ok(_) => (),
 			Err(_) => panic!("Failed to write to file"),
