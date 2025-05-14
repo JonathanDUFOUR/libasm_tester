@@ -15,6 +15,7 @@ MANDATORY_FUNCTIONS := \
 	write \
 
 OPTIONAL_FUNCTIONS := \
+	memcmp \
 	memcpy \
 
 BONUS_FUNCTIONS := \
