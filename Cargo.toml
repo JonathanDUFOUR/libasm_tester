@@ -6,9 +6,10 @@
 description = "A bunch of tests for the libasm project of the 42 School"
 
 [dependencies]
-errno = "0.3.9"
- libc = "0.2.159"
- rand = "0.8.5"
+constcat = "0.6.0"
+   errno = "0.3.9"
+    libc = "0.2.159"
+    rand = "0.9.1"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
