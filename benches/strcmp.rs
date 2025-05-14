@@ -9,9 +9,7 @@ unsafe extern "C" {
 
 #[link(name = "asm")]
 unsafe extern "C" {
-	unsafe fn ft_strcmp_s0a_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
-	unsafe fn ft_strcmp_s0u_s1a(s0: *const c_char, s1: *const c_char) -> c_int;
-	unsafe fn ft_strcmp_s0u_s1u(s0: *const c_char, s1: *const c_char) -> c_int;
+	unsafe fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -31,8 +29,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const S0_BUFFER_SIZE: usize = MAX_INPUT_SIZE + S0_OFFSET + 1;
 	const S1_BUFFER_SIZE: usize = MAX_INPUT_SIZE + S1_OFFSET + 1;
 
-	#[repr(align(4096))]
-	struct AlignedS0([c_char; S0_BUFFER_SIZE]);
+	#[repr(align(4_096))]
+	struct AlignedS0([u8; S0_BUFFER_SIZE]);
 
 	impl AlignedS0 {
 		fn new() -> Self {
@@ -40,8 +38,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 		}
 	}
 
-	#[repr(align(4096))]
-	struct AlignedS1([c_char; S1_BUFFER_SIZE]);
+	#[repr(align(4_096))]
+	struct AlignedS1([u8; S1_BUFFER_SIZE]);
 
 	impl AlignedS1 {
 		fn new() -> Self {
@@ -70,33 +68,29 @@ fn criterion_benchmark(c: &mut Criterion) {
 	} {
 		type Function = unsafe extern "C" fn(*const c_char, *const c_char) -> c_int;
 
-		const FUNCTIONS: [(Function, &str); 4] = [
-			(strcmp, "std"),
-			(ft_strcmp_s0a_s1u, "s0a_s1u"),
-			(ft_strcmp_s0u_s1a, "s0u_s1a"),
-			(ft_strcmp_s0u_s1u, "s0u_s1u"),
+		const FUNCTIONS: &[(Function, &str)] = &[
+			(strcmp, "0_std"),
+			(ft_strcmp, "1_ft"),
 		];
 
-		for (function, function_name) in FUNCTIONS {
+		for (function, name) in FUNCTIONS {
 			use {
 				criterion::BenchmarkId,
-				rand::{rngs::ThreadRng, thread_rng, Rng},
+				rand::{rng, rngs::ThreadRng, Rng},
 			};
 
-			let mut rng: ThreadRng = thread_rng();
-			let mut s0: AlignedS0 = AlignedS0::new();
-			let mut s1: AlignedS1 = AlignedS1::new();
-			let s0: &mut [c_char] = &mut s0.0[S0_OFFSET..];
-			let s1: &mut [c_char] = &mut s1.0[S1_OFFSET..];
+			let mut rng: ThreadRng = rng();
+			let s0: &mut [u8] = &mut AlignedS0::new().0[S0_OFFSET..];
+			let s1: &mut [u8] = &mut AlignedS1::new().0[S1_OFFSET..];
 
 			for i in 0..input_size {
-				let c: c_char = rng.gen_range(0x01..=0xFF) as c_char;
+				let byte: u8 = rng.random_range(0x_01..=0x_FF);
 
-				s0[i] = c;
-				s1[i] = c;
+				s0[i] = byte;
+				s1[i] = byte;
 			}
-			group.bench_with_input(BenchmarkId::new(function_name, input_size), &(), |b, _| {
-				b.iter(|| unsafe { function(s0.as_ptr(), s1.as_ptr()) })
+			group.bench_with_input(BenchmarkId::new(*name, input_size), &(), |b, _| {
+				b.iter(|| unsafe { function(s0.as_ptr().cast(), s1.as_ptr().cast()) })
 			});
 		}
 	}

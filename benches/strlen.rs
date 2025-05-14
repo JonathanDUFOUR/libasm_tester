@@ -9,8 +9,7 @@ unsafe extern "C" {
 
 #[link(name = "asm")]
 unsafe extern "C" {
-	unsafe fn ft_strlen_sa(s: *const c_char) -> usize;
-	unsafe fn ft_strlen_su(s: *const c_char) -> usize;
+	unsafe fn ft_strlen(s: *const c_char) -> usize;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -25,7 +24,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const ALIGN: usize = std::mem::align_of::<AlignedCChars>();
 	const BUFFER_SIZE: usize = MAX_INPUT_SIZE + OFFSET + 1;
 
-	#[repr(align(4096))]
+	#[repr(align(4_096))]
 	struct AlignedCChars([c_char; BUFFER_SIZE]);
 
 	impl AlignedCChars {
@@ -55,26 +54,25 @@ fn criterion_benchmark(c: &mut Criterion) {
 	} {
 		type Function = unsafe extern "C" fn(*const c_char) -> usize;
 
-		const FUNCTIONS: [(Function, &str); 3] = [
-			(strlen, "std"),
-			(ft_strlen_sa, "sa"),
-			(ft_strlen_su, "su"),
+		const FUNCTIONS: &[(Function, &str)] = &[
+			(strlen, "0_std"),
+			(ft_strlen, "1_ft"),
 		];
 
-		for (function, function_name) in FUNCTIONS {
+		for (function, name) in FUNCTIONS {
 			use {
 				criterion::BenchmarkId,
-				rand::{rngs::ThreadRng, thread_rng, Rng},
+				rand::{rng, rngs::ThreadRng, Rng},
 			};
 
-			let mut rng: ThreadRng = thread_rng();
+			let mut rng: ThreadRng = rng();
 			let mut s: AlignedCChars = AlignedCChars::new();
 			let s: &mut [c_char] = &mut s.0[OFFSET..];
 
 			for i in 0..input_size {
-				s[i] = rng.gen_range(0x01..=0xFF) as c_char;
+				s[i] = rng.random_range(0x_01..=0x_FF) as c_char;
 			}
-			group.bench_with_input(BenchmarkId::new(function_name, input_size), &(), |b, _| {
+			group.bench_with_input(BenchmarkId::new(*name, input_size), &(), |b, _| {
 				b.iter(|| unsafe { function(s.as_ptr()) })
 			});
 		}

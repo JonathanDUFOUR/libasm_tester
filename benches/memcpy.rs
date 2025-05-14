@@ -9,9 +9,7 @@ unsafe extern "C" {
 
 #[link(name = "asm")]
 unsafe extern "C" {
-	unsafe fn ft_memcpy_dsta_srcu(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
-	unsafe fn ft_memcpy_dstu_srca(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
-	unsafe fn ft_memcpy_dstu_srcu(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
+	unsafe fn ft_memcpy(dst: *mut c_void, src: *const c_void, n: usize) -> *mut c_void;
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -31,7 +29,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const DST_BUFFER_SIZE: usize = MAX_INPUT_SIZE + DST_OFFSET;
 	const SRC_BUFFER_SIZE: usize = MAX_INPUT_SIZE + SRC_OFFSET;
 
-	#[repr(align(4096))]
+	#[repr(align(4_096))]
 	struct AlignedDst([u8; DST_BUFFER_SIZE]);
 
 	impl AlignedDst {
@@ -40,7 +38,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 		}
 	}
 
-	#[repr(align(4096))]
+	#[repr(align(4_096))]
 	struct AlignedSrc([u8; SRC_BUFFER_SIZE]);
 
 	impl AlignedSrc {
@@ -70,35 +68,27 @@ fn criterion_benchmark(c: &mut Criterion) {
 	} {
 		type Function = unsafe extern "C" fn(*mut c_void, *const c_void, usize) -> *mut c_void;
 
-		const FUNCTIONS: [(Function, &str); 4] = [
-			(memcpy, "std"),
-			(ft_memcpy_dsta_srcu, "dsta_srcu"),
-			(ft_memcpy_dstu_srca, "dstu_srca"),
-			(ft_memcpy_dstu_srcu, "dstu_srcu"),
+		const FUNCTIONS: &[(Function, &str)] = &[
+			(memcpy, "0_std"),
+			(ft_memcpy, "1_ft"),
 		];
 
-		for (function, function_name) in FUNCTIONS {
+		for (function, name) in FUNCTIONS {
 			use {
 				criterion::BenchmarkId,
-				rand::{rngs::ThreadRng, thread_rng, Rng},
+				rand::{rng, rngs::ThreadRng, Rng},
 			};
 
-			let mut rng: ThreadRng = thread_rng();
-			let mut dst: AlignedDst = AlignedDst::new();
-			let mut src: AlignedSrc = AlignedSrc::new();
-			let dst: &mut [u8] = &mut dst.0[DST_OFFSET..];
-			let src: &mut [u8] = &mut src.0[SRC_OFFSET..];
+			let mut rng: ThreadRng = rng();
+			let dst: &mut [u8] = &mut AlignedDst::new().0[DST_OFFSET..];
+			let src: &mut [u8] = &mut AlignedSrc::new().0[SRC_OFFSET..];
 
 			for i in 0..input_size {
-				src[i] = rng.gen_range(0x01..=0xFF);
+				src[i] = rng.random_range(0x_00..=0x_FF);
 			}
-			group.bench_with_input(BenchmarkId::new(function_name, input_size), &(), |b, _| {
+			group.bench_with_input(BenchmarkId::new(*name, input_size), &(), |b, _| {
 				b.iter(|| unsafe {
-					function(
-						dst.as_mut_ptr() as *mut c_void,
-						src.as_ptr() as *const c_void,
-						input_size,
-					);
+					function(dst.as_mut_ptr().cast(), src.as_ptr().cast(), input_size);
 				});
 			});
 		}

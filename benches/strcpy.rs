@@ -18,10 +18,10 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const MAX_INPUT_SIZE: usize = 10_000;
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
-	const DST_OFFSET: usize = 4077;
+	const DST_OFFSET: usize = 4_077;
 	assert!(DST_OFFSET < DST_ALIGN, "DST_OFFSET must be less than DST_ALIGN");
 
-	const SRC_OFFSET: usize = 4077;
+	const SRC_OFFSET: usize = 4_077;
 	assert!(SRC_OFFSET < SRC_ALIGN, "SRC_OFFSET must be less than SRC_ALIGN");
 
 	const DST_ALIGN: usize = std::mem::align_of::<AlignedDst>();
@@ -29,8 +29,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const DST_BUFFER_SIZE: usize = MAX_INPUT_SIZE + DST_OFFSET + 1;
 	const SRC_BUFFER_SIZE: usize = MAX_INPUT_SIZE + SRC_OFFSET + 1;
 
-	#[repr(align(4096))]
-	struct AlignedDst([c_char; DST_BUFFER_SIZE]);
+	#[repr(align(4_096))]
+	struct AlignedDst([u8; DST_BUFFER_SIZE]);
 
 	impl AlignedDst {
 		fn new() -> Self {
@@ -38,8 +38,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 		}
 	}
 
-	#[repr(align(4096))]
-	struct AlignedSrc([c_char; SRC_BUFFER_SIZE]);
+	#[repr(align(4_096))]
+	struct AlignedSrc([u8; SRC_BUFFER_SIZE]);
 
 	impl AlignedSrc {
 		fn new() -> Self {
@@ -69,28 +69,26 @@ fn criterion_benchmark(c: &mut Criterion) {
 		type Function = unsafe extern "C" fn(*mut c_char, *const c_char) -> *mut c_char;
 
 		const FUNCTIONS: &[(Function, &str)] = &[
-			(strcpy, "std"),
-			(ft_strcpy, "ft"),
+			(strcpy, "0_std"),
+			(ft_strcpy, "1_ft"),
 		];
 
-		for (function, function_name) in FUNCTIONS {
+		for (function, name) in FUNCTIONS {
 			use {
 				criterion::BenchmarkId,
-				rand::{rngs::ThreadRng, thread_rng, Rng},
+				rand::{rng, rngs::ThreadRng, Rng},
 			};
 
-			let mut rng: ThreadRng = thread_rng();
-			let mut dst: AlignedDst = AlignedDst::new();
-			let mut src: AlignedSrc = AlignedSrc::new();
-			let dst: &mut [c_char] = &mut dst.0[DST_OFFSET..];
-			let src: &mut [c_char] = &mut src.0[SRC_OFFSET..];
+			let mut rng: ThreadRng = rng();
+			let dst: &mut [u8] = &mut AlignedDst::new().0[DST_OFFSET..];
+			let src: &mut [u8] = &mut AlignedSrc::new().0[SRC_OFFSET..];
 
 			for i in 0..input_size {
-				src[i] = rng.gen_range(0x01..=0xFF) as c_char;
+				src[i] = rng.random_range(0x_01..=0x_FF);
 			}
-			group.bench_with_input(BenchmarkId::new(*function_name, input_size), &(), |b, _| {
+			group.bench_with_input(BenchmarkId::new(*name, input_size), &(), |b, _| {
 				b.iter(|| unsafe {
-					function(dst.as_mut_ptr(), src.as_ptr());
+					function(dst.as_mut_ptr().cast(), src.as_ptr().cast());
 				});
 			});
 		}
