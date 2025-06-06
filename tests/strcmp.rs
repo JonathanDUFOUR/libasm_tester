@@ -10,9 +10,9 @@ mod strcmp {
 		unsafe fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 	}
 
-	const BUFFER_SIZE: usize = 7_749;
+	const BUFFER_SIZE: usize = 7_477;
 
-	#[repr(align(32))]
+	#[repr(align(128))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 
 	impl AlignedBytes {
