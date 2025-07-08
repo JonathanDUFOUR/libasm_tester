@@ -19,35 +19,28 @@ fn criterion_benchmark(c: &mut Criterion) {
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
 	const S0_OFFSET: usize = 4_077;
-	assert!(S0_OFFSET < S0_ALIGN, "S0_OFFSET must be less than S0_ALIGN");
+	assert!(S0_OFFSET < ALIGNMENT, "S0_OFFSET must be less than ALIGNMENT");
 
 	const S1_OFFSET: usize = 4_077;
-	assert!(S1_OFFSET < S1_ALIGN, "S1_OFFSET must be less than S1_ALIGN");
+	assert!(S1_OFFSET < ALIGNMENT, "S1_OFFSET must be less than S1_ALIGN");
 
-	const S0_ALIGN: usize = std::mem::align_of::<AlignedS0>();
-	const S1_ALIGN: usize = std::mem::align_of::<AlignedS1>();
-	const S0_BUFFER_SIZE: usize = MAX_INPUT_SIZE + S0_OFFSET + 1;
-	const S1_BUFFER_SIZE: usize = MAX_INPUT_SIZE + S1_OFFSET + 1;
+	const ALIGNMENT: usize = std::mem::align_of::<AlignedBytes>();
+	const BUFFER_SIZE: usize = MAX_INPUT_SIZE + libasm_tester::max(S0_OFFSET, S1_OFFSET) + 1;
 
-	#[repr(align(4_096))]
-	struct AlignedS0([u8; S0_BUFFER_SIZE]);
+	#[repr(align(4096))]
+	struct AlignedBytes([u8; BUFFER_SIZE]);
 
-	impl AlignedS0 {
+	impl AlignedBytes {
 		fn new() -> Self {
-			Self([0; S0_BUFFER_SIZE])
+			Self([0; BUFFER_SIZE])
 		}
 	}
 
-	#[repr(align(4_096))]
-	struct AlignedS1([u8; S1_BUFFER_SIZE]);
-
-	impl AlignedS1 {
-		fn new() -> Self {
-			Self([0; S1_BUFFER_SIZE])
-		}
-	}
-
-	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("strcmp");
+	let group_name: String = "strcmp".to_owned()
+		+ "_" + &ALIGNMENT.to_string()
+		+ "_" + &S0_OFFSET.to_string()
+		+ "_" + &S1_OFFSET.to_string();
+	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group(group_name);
 
 	for input_size in {
 		// region: input_sizes
@@ -69,8 +62,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 		type Function = unsafe extern "C" fn(*const c_char, *const c_char) -> c_int;
 
 		const FUNCTIONS: &[(Function, &str)] = &[
-			(strcmp, "0_std"),
-			(ft_strcmp, "1_ft"),
+			(ft_strcmp, "ft"),
+			(strcmp, "std"),
 		];
 
 		for (function, name) in FUNCTIONS {
@@ -80,11 +73,11 @@ fn criterion_benchmark(c: &mut Criterion) {
 			};
 
 			let mut rng: ThreadRng = rng();
-			let s0: &mut [u8] = &mut AlignedS0::new().0[S0_OFFSET..];
-			let s1: &mut [u8] = &mut AlignedS1::new().0[S1_OFFSET..];
+			let s0: &mut [u8] = &mut AlignedBytes::new().0[S0_OFFSET..];
+			let s1: &mut [u8] = &mut AlignedBytes::new().0[S1_OFFSET..];
 
 			for i in 0..input_size {
-				let byte: u8 = rng.random_range(0x_01..=0x_FF);
+				let byte: u8 = rng.random_range(0x01..=0xFF);
 
 				s0[i] = byte;
 				s1[i] = byte;

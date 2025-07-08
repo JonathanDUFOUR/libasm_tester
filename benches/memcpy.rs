@@ -19,35 +19,28 @@ fn criterion_benchmark(c: &mut Criterion) {
 	assert_ne!(MAX_INPUT_SIZE, 0, "MAX_INPUT_SIZE must be greater than 0");
 
 	const DST_OFFSET: usize = 4_077;
-	assert!(DST_OFFSET < DST_ALIGN, "DST_OFFSET must be less than DST_ALIGN");
+	assert!(DST_OFFSET < ALIGNMENT, "DST_OFFSET must be less than ALIGNMENT");
 
 	const SRC_OFFSET: usize = 4_077;
-	assert!(SRC_OFFSET < SRC_ALIGN, "SRC_OFFSET must be less than SRC_ALIGN");
+	assert!(SRC_OFFSET < ALIGNMENT, "SRC_OFFSET must be less than ALIGNMENT");
 
-	const DST_ALIGN: usize = std::mem::align_of::<AlignedDst>();
-	const SRC_ALIGN: usize = std::mem::align_of::<AlignedSrc>();
-	const DST_BUFFER_SIZE: usize = MAX_INPUT_SIZE + DST_OFFSET;
-	const SRC_BUFFER_SIZE: usize = MAX_INPUT_SIZE + SRC_OFFSET;
+	const ALIGNMENT: usize = std::mem::align_of::<AlignedBytes>();
+	const BUFFER_SIZE: usize = MAX_INPUT_SIZE + libasm_tester::max(DST_OFFSET, SRC_OFFSET);
 
-	#[repr(align(4_096))]
-	struct AlignedDst([u8; DST_BUFFER_SIZE]);
+	#[repr(align(4096))]
+	struct AlignedBytes([u8; BUFFER_SIZE]);
 
-	impl AlignedDst {
+	impl AlignedBytes {
 		fn new() -> Self {
-			Self([0; DST_BUFFER_SIZE])
+			Self([0; BUFFER_SIZE])
 		}
 	}
 
-	#[repr(align(4_096))]
-	struct AlignedSrc([u8; SRC_BUFFER_SIZE]);
-
-	impl AlignedSrc {
-		fn new() -> Self {
-			Self([0; SRC_BUFFER_SIZE])
-		}
-	}
-
-	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group("memcpy");
+	let group_name: String = "memcpy".to_owned()
+		+ "_" + &ALIGNMENT.to_string()
+		+ "_" + &DST_OFFSET.to_string()
+		+ "_" + &SRC_OFFSET.to_string();
+	let mut group: BenchmarkGroup<WallTime> = c.benchmark_group(group_name);
 
 	for input_size in {
 		// region: input_sizes
@@ -69,8 +62,8 @@ fn criterion_benchmark(c: &mut Criterion) {
 		type Function = unsafe extern "C" fn(*mut c_void, *const c_void, usize) -> *mut c_void;
 
 		const FUNCTIONS: &[(Function, &str)] = &[
-			(memcpy, "0_std"),
-			(ft_memcpy, "1_ft"),
+			(ft_memcpy, "ft"),
+			(memcpy, "std"),
 		];
 
 		for (function, name) in FUNCTIONS {
@@ -80,11 +73,11 @@ fn criterion_benchmark(c: &mut Criterion) {
 			};
 
 			let mut rng: ThreadRng = rng();
-			let dst: &mut [u8] = &mut AlignedDst::new().0[DST_OFFSET..];
-			let src: &mut [u8] = &mut AlignedSrc::new().0[SRC_OFFSET..];
+			let dst: &mut [u8] = &mut AlignedBytes::new().0[DST_OFFSET..];
+			let src: &mut [u8] = &mut AlignedBytes::new().0[SRC_OFFSET..];
 
 			for i in 0..input_size {
-				src[i] = rng.random_range(0x_00..=0x_FF);
+				src[i] = rng.random();
 			}
 			group.bench_with_input(BenchmarkId::new(*name, input_size), &(), |b, _| {
 				b.iter(|| unsafe {
