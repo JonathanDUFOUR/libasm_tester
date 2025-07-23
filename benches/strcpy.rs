@@ -27,7 +27,7 @@ fn criterion_benchmark(c: &mut Criterion) {
 	const ALIGNMENT: usize = std::mem::align_of::<AlignedBytes>();
 	const BUFFER_SIZE: usize = MAX_INPUT_SIZE + libasm_tester::max(DST_OFFSET, SRC_OFFSET) + 1;
 
-	#[repr(align(4096))]
+	#[repr(align(4_096))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 
 	impl AlignedBytes {
