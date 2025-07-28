@@ -10,9 +10,9 @@ mod strcmp {
 		unsafe fn ft_strcmp(s0: *const c_char, s1: *const c_char) -> c_int;
 	}
 
-	const BUFFER_SIZE: usize = 7_477;
+	const BUFFER_SIZE: usize = 11_445;
 
-	#[repr(align(128))]
+	#[repr(align(4096))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 
 	impl AlignedBytes {
@@ -59,7 +59,7 @@ mod strcmp {
 
 		for function in FUNCTIONS {
 			rng.fill(aligned_s0);
-			for s0_offset in 0..ALIGN {
+			for s0_offset in ALIGN - 128..ALIGN {
 				let (s0, s0_overflow): (&[u8], &[u8]) = {
 					// region: (s0, s0_overflow)
 					let tmp: (&mut [u8], &mut [u8]) =
@@ -73,7 +73,7 @@ mod strcmp {
 				};
 
 				rng.fill(aligned_s1);
-				for s1_offset in 0..ALIGN {
+				for s1_offset in ALIGN - 128..ALIGN {
 					#[inline(always)]
 					fn test_once(
 						function: &Function,
