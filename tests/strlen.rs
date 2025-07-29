@@ -7,9 +7,9 @@ mod strlen {
 		unsafe fn ft_strlen(s: *const c_char) -> usize;
 	}
 
-	const BUFFER_SIZE: usize = 4_826;
+	const BUFFER_SIZE: usize = 5050;
 
-	#[repr(align(32))]
+	#[repr(align(256))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 	impl AlignedBytes {
 		fn new() -> Self {
