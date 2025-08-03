@@ -150,6 +150,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_bytes
 	#[test]
 	fn equal_1_bytes() {
@@ -158,6 +159,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_bytes
 	#[test]
 	fn equal_2_bytes() {
@@ -168,6 +170,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_3_bytes
 	#[test]
 	fn equal_3_bytes() {
@@ -178,6 +181,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_4_bytes
 	#[test]
 	fn equal_4_bytes() {
@@ -188,6 +192,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_6_bytes
 	#[test]
 	fn equal_6_bytes() {
@@ -198,6 +203,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_8_bytes
 	#[test]
 	fn equal_8_bytes() {
@@ -208,6 +214,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_13_bytes
 	#[test]
 	fn equal_13_bytes() {
@@ -218,6 +225,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_16_bytes
 	#[test]
 	fn equal_16_bytes() {
@@ -229,6 +237,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_29_bytes
 	#[test]
 	fn equal_29_bytes() {
@@ -241,6 +250,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_32_bytes
 	#[test]
 	fn equal_32_bytes() {
@@ -253,6 +263,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_40_bytes
 	#[test]
 	fn equal_40_bytes() {
@@ -265,6 +276,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_64_bytes
 	#[test]
 	fn equal_64_bytes() {
@@ -279,6 +291,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_65_bytes
 	#[test]
 	fn equal_65_bytes() {
@@ -293,6 +306,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_128_bytes
 	#[test]
 	fn equal_128_bytes() {
@@ -312,6 +326,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_132_bytes
 	#[test]
 	fn equal_132_bytes() {
@@ -331,6 +346,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_256_bytes
 	#[test]
 	fn equal_256_bytes() {
@@ -359,6 +375,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_278_bytes
 	#[test]
 	fn equal_278_bytes() {
@@ -388,6 +405,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_512_bytes
 	#[test]
 	fn equal_512_bytes() {
@@ -434,6 +452,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_639_bytes
 	#[test]
 	fn equal_639_bytes() {
@@ -489,6 +508,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_024_bytes
 	#[test]
 	fn equal_1_024_bytes() {
@@ -572,6 +592,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_074_bytes
 	#[test]
 	fn equal_1_074_bytes() {
@@ -658,6 +679,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_048_bytes
 	#[test]
 	fn equal_2_048_bytes() {
@@ -814,6 +836,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_154_bytes
 	#[test]
 	fn equal_2_154_bytes() {
@@ -977,6 +1000,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_4_096_bytes
 	#[test]
 	fn equal_4_096_bytes() {
@@ -1279,6 +1303,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_5_421_bytes
 	#[test]
 	fn equal_5_421_bytes() {
@@ -1676,6 +1701,7 @@ mod memcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: diff_after_0_bytes
 	#[test]
 	fn diff_after_0_bytes() {
@@ -1693,6 +1719,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_bytes
 	#[test]
 	fn diff_after_1_bytes() {
@@ -1710,6 +1737,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_2_bytes
 	#[test]
 	fn diff_after_2_bytes() {
@@ -1729,6 +1757,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_3_bytes
 	#[test]
 	fn diff_after_3_bytes() {
@@ -1748,6 +1777,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_4_bytes
 	#[test]
 	fn diff_after_4_bytes() {
@@ -1767,6 +1797,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_5_bytes
 	#[test]
 	fn diff_after_5_bytes() {
@@ -1786,6 +1817,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_8_bytes
 	#[test]
 	fn diff_after_8_bytes() {
@@ -1805,6 +1837,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_12_bytes
 	#[test]
 	fn diff_after_12_bytes() {
@@ -1824,6 +1857,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_16_bytes
 	#[test]
 	fn diff_after_16_bytes() {
@@ -1844,6 +1878,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_19_bytes
 	#[test]
 	fn diff_after_19_bytes() {
@@ -1864,6 +1899,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_32_bytes
 	#[test]
 	fn diff_after_32_bytes() {
@@ -1885,6 +1921,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_62_bytes
 	#[test]
 	fn diff_after_62_bytes() {
@@ -1908,6 +1945,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_64_bytes
 	#[test]
 	fn diff_after_64_bytes() {
@@ -1931,6 +1969,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_66_bytes
 	#[test]
 	fn diff_after_66_bytes() {
@@ -1954,6 +1993,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_128_bytes
 	#[test]
 	fn diff_after_128_bytes() {
@@ -1982,6 +2022,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_235_bytes
 	#[test]
 	fn diff_after_235_bytes() {
@@ -2017,6 +2058,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_256_bytes
 	#[test]
 	fn diff_after_256_bytes() {
@@ -2054,6 +2096,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_366_bytes
 	#[test]
 	fn diff_after_366_bytes() {
@@ -2099,6 +2142,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_512_bytes
 	#[test]
 	fn diff_after_512_bytes() {
@@ -2154,6 +2198,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_619_bytes
 	#[test]
 	fn diff_after_619_bytes() {
@@ -2217,6 +2262,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_024_bytes
 	#[test]
 	fn diff_after_1_024_bytes() {
@@ -2309,6 +2355,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_181_bytes
 	#[test]
 	fn diff_after_1_181_bytes() {
@@ -2412,6 +2459,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_2_048_bytes
 	#[test]
 	fn diff_after_2_048_bytes() {
@@ -2577,6 +2625,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_4_027_bytes
 	#[test]
 	fn diff_after_4_027_bytes() {
@@ -2883,6 +2932,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_4_096_bytes
 	#[test]
 	fn diff_after_4_096_bytes() {
@@ -3194,6 +3244,7 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_8_187_bytes
 	#[test]
 	fn diff_after_8_187_bytes() {
@@ -3797,4 +3848,5 @@ mod memcmp {
 		);
 	}
 	// endregion
+
 }

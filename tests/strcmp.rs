@@ -156,6 +156,7 @@ mod strcmp {
 		}
 	}
 
+
 	// region: equal_0_bytes
 	#[test]
 	fn equal_0_bytes() {
@@ -164,6 +165,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_bytes
 	#[test]
 	fn equal_1_bytes() {
@@ -172,6 +174,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_bytes
 	#[test]
 	fn equal_2_bytes() {
@@ -182,6 +185,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_3_bytes
 	#[test]
 	fn equal_3_bytes() {
@@ -192,6 +196,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_4_bytes
 	#[test]
 	fn equal_4_bytes() {
@@ -202,6 +207,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_5_bytes
 	#[test]
 	fn equal_5_bytes() {
@@ -212,6 +218,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_8_bytes
 	#[test]
 	fn equal_8_bytes() {
@@ -222,6 +229,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_9_bytes
 	#[test]
 	fn equal_9_bytes() {
@@ -232,6 +240,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_16_bytes
 	#[test]
 	fn equal_16_bytes() {
@@ -243,6 +252,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_31_bytes
 	#[test]
 	fn equal_31_bytes() {
@@ -255,6 +265,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_32_bytes
 	#[test]
 	fn equal_32_bytes() {
@@ -267,6 +278,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_44_bytes
 	#[test]
 	fn equal_44_bytes() {
@@ -280,6 +292,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_64_bytes
 	#[test]
 	fn equal_64_bytes() {
@@ -294,6 +307,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_105_bytes
 	#[test]
 	fn equal_105_bytes() {
@@ -311,6 +325,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_128_bytes
 	#[test]
 	fn equal_128_bytes() {
@@ -330,6 +345,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_219_bytes
 	#[test]
 	fn equal_219_bytes() {
@@ -355,6 +371,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_256_bytes
 	#[test]
 	fn equal_256_bytes() {
@@ -383,6 +400,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_369_bytes
 	#[test]
 	fn equal_369_bytes() {
@@ -419,6 +437,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_512_bytes
 	#[test]
 	fn equal_512_bytes() {
@@ -465,6 +484,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_513_bytes
 	#[test]
 	fn equal_513_bytes() {
@@ -511,6 +531,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_024_bytes
 	#[test]
 	fn equal_1_024_bytes() {
@@ -594,6 +615,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_1_247_bytes
 	#[test]
 	fn equal_1_247_bytes() {
@@ -693,6 +715,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_048_bytes
 	#[test]
 	fn equal_2_048_bytes() {
@@ -849,6 +872,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_2_948_bytes
 	#[test]
 	fn equal_2_948_bytes() {
@@ -1069,6 +1093,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_4_096_bytes
 	#[test]
 	fn equal_4_096_bytes() {
@@ -1371,6 +1396,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: equal_7_349_bytes
 	#[test]
 	fn equal_7_349_bytes() {
@@ -1905,6 +1931,7 @@ mod strcmp {
 		helper(EQUAL_BYTES, EQUAL_BYTES);
 	}
 	// endregion
+
 	// region: diff_after_0_bytes
 	#[test]
 	fn diff_after_0_bytes() {
@@ -1922,6 +1949,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_bytes
 	#[test]
 	fn diff_after_1_bytes() {
@@ -1939,6 +1967,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_2_bytes
 	#[test]
 	fn diff_after_2_bytes() {
@@ -1958,6 +1987,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_3_bytes
 	#[test]
 	fn diff_after_3_bytes() {
@@ -1977,6 +2007,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_4_bytes
 	#[test]
 	fn diff_after_4_bytes() {
@@ -1996,6 +2027,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_7_bytes
 	#[test]
 	fn diff_after_7_bytes() {
@@ -2015,6 +2047,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_8_bytes
 	#[test]
 	fn diff_after_8_bytes() {
@@ -2034,6 +2067,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_15_bytes
 	#[test]
 	fn diff_after_15_bytes() {
@@ -2054,6 +2088,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_16_bytes
 	#[test]
 	fn diff_after_16_bytes() {
@@ -2074,6 +2109,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_31_bytes
 	#[test]
 	fn diff_after_31_bytes() {
@@ -2095,6 +2131,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_32_bytes
 	#[test]
 	fn diff_after_32_bytes() {
@@ -2116,6 +2153,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_58_bytes
 	#[test]
 	fn diff_after_58_bytes() {
@@ -2139,6 +2177,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_64_bytes
 	#[test]
 	fn diff_after_64_bytes() {
@@ -2162,6 +2201,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_88_bytes
 	#[test]
 	fn diff_after_88_bytes() {
@@ -2187,6 +2227,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_128_bytes
 	#[test]
 	fn diff_after_128_bytes() {
@@ -2215,6 +2256,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_191_bytes
 	#[test]
 	fn diff_after_191_bytes() {
@@ -2247,6 +2289,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_256_bytes
 	#[test]
 	fn diff_after_256_bytes() {
@@ -2284,6 +2327,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_382_bytes
 	#[test]
 	fn diff_after_382_bytes() {
@@ -2330,6 +2374,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_512_bytes
 	#[test]
 	fn diff_after_512_bytes() {
@@ -2385,6 +2430,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_882_bytes
 	#[test]
 	fn diff_after_882_bytes() {
@@ -2466,6 +2512,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_024_bytes
 	#[test]
 	fn diff_after_1_024_bytes() {
@@ -2558,6 +2605,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_1_956_bytes
 	#[test]
 	fn diff_after_1_956_bytes() {
@@ -2716,6 +2764,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_2_048_bytes
 	#[test]
 	fn diff_after_2_048_bytes() {
@@ -2881,6 +2930,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_2_955_bytes
 	#[test]
 	fn diff_after_2_955_bytes() {
@@ -3111,6 +3161,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_4_096_bytes
 	#[test]
 	fn diff_after_4_096_bytes() {
@@ -3422,6 +3473,7 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 	// region: diff_after_5_785_bytes
 	#[test]
 	fn diff_after_5_785_bytes() {
@@ -3854,4 +3906,5 @@ mod strcmp {
 		);
 	}
 	// endregion
+
 }
