@@ -10,9 +10,9 @@ mod memcmp {
 		unsafe fn ft_memcmp(s0: *const c_void, s1: *const c_void, n: usize) -> c_int;
 	}
 
-	const BUFFER_SIZE: usize = 8_226;
+	const BUFFER_SIZE: usize = 12_290;
 
-	#[repr(align(32))]
+	#[repr(align(4_096))]
 	struct AlignedBytes([u8; BUFFER_SIZE]);
 
 	impl AlignedBytes {
@@ -47,7 +47,7 @@ mod memcmp {
 
 		for function in FUNCTIONS {
 			rng.fill(aligned_s0);
-			for s0_offset in 0..ALIGN {
+			for s0_offset in ALIGN-32..ALIGN {
 				let (s0, s0_overflow): (&[u8], &[u8]) = {
 					// region: (s0, s0_overflow)
 					let tmp: (&mut [u8], &mut [u8]) =
@@ -60,7 +60,7 @@ mod memcmp {
 				};
 
 				rng.fill(aligned_s1);
-				for s1_offset in 0..ALIGN {
+				for s1_offset in ALIGN-32*2..ALIGN-32*1 {
 					#[inline(always)]
 					fn test_once(
 						function: &Function,
